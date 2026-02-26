@@ -16,6 +16,18 @@ See `C:\AICOE\.github\copilot-instructions.md` for workspace-wide rules.
 
 ## PART 2 -- Project-Specific Context
 
+### Project Lock
+
+This file is the copilot-instructions for **48-eva-veritas** (eva-veritas).
+
+The workspace-level bootstrap rule "Step 1 -- Identify the active project from the currently open file path"
+applies **only at the initial load of this file** (first read at session start).
+Once this file has been loaded, the active project is locked to **48-eva-veritas** for the entire session.
+Do NOT re-evaluate project identity from editorContext or terminal CWD on each subsequent request.
+Work state and sprint context are read from `STATUS.md` and `PLAN.md` at bootstrap -- not from this file.
+
+---
+
 ### What this project does
 
 `eva-veritas` is the **Evidence Plane** of the EVA architecture -- a **Node.js CLI + MCP server** that computes the gap between *declared* project progress (docs) and *actual* project progress (artifacts in the filesystem).
@@ -67,7 +79,7 @@ FEATURE EO-01: 40%
 ### Running the CLI
 
 ```bash
-cd C:\AICOE\eva-foundation\48-eva-veritas
+cd C:\AICOE\eva-foundry\48-eva-veritas
 node src/cli.js discover --repo .
 node src/cli.js reconcile --repo .
 node src/cli.js compute-trust --repo .
@@ -88,8 +100,8 @@ node src/mcp-server.js --port 4000
 ### Testing against another EVA project
 
 ```bash
-node src/cli.js discover --repo C:\AICOE\eva-foundation\36-red-teaming
-node src/cli.js report --repo C:\AICOE\eva-foundation\36-red-teaming
+node src/cli.js discover --repo C:\AICOE\eva-foundry\36-red-teaming
+node src/cli.js report --repo C:\AICOE\eva-foundry\36-red-teaming
 ```
 
 ### Key modules
