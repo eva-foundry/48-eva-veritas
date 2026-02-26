@@ -1,0 +1,148 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0901-ado-import-artifacts-live.log
+
+=== ADO Import: 29-foundry ===
+Project maturity : active
+GitHub repo      : eva-foundry/29-foundry
+Dry run          : False
+
+Epic: creating '29-foundry'
+  -> Epic id=1906
+Feature: creating 'Governance Bootstrap'
+  -> Feature id=1907
+Feature: creating 'Separation of Concerns ? Three-Plane Architecture'
+  -> Feature id=1908
+Feature: creating 'Pre-flight Checklist'
+  -> Feature id=1909
+Feature: creating 'Source Asset Inventory'
+  -> Feature id=1910
+Feature: creating 'Epic P ? Folder Hygiene (extract samples, clean root)'
+  -> Feature id=1911
+Feature: creating 'Epic 1 ? Import eva-faces Skills (Azure Plane ? App)'
+  -> Feature id=1912
+Feature: creating 'Epic 2 ? Import eva-brain-v2 Skills (Azure Plane ? App, UI-Exposed)'
+  -> Feature id=1913
+Feature: creating 'Epic 3 ? Import Agent Implementations (Plane-Organised) [PASS] COMPLETE 2026-02-21'
+  -> Feature id=1914
+Feature: creating 'Epic 4 ? session-workflow-agent Server'
+  -> Feature id=1915
+Feature: creating 'Epic 5 ? Skill Catalog Repair'
+  -> Feature id=1916
+Feature: creating 'Epic 6 ? MCP Servers for Imported Agents (Plane-Tagged)'
+  -> Feature id=1917
+Feature: creating 'Epic 7 ? GitHub Org Alignment (eva-foundry)'
+  -> Feature id=1918
+Feature: creating 'Epic 8 ? Prompts & Prompty Library (EI Domain)'
+  -> Feature id=1919
+Feature: creating 'Fixes (Current Known Issues)'
+  -> Feature id=1920
+Feature: creating 'Session Sequence'
+  -> Feature id=1921
+Feature: creating 'Sprint Breakdown'
+  -> Feature id=1922
+Feature: creating 'Directory Tree ? Target State'
+  -> Feature id=1923
+Feature: existing id=924 - 'Constraints'
+Feature: creating 'Definition of Done'
+  -> Feature id=1924
+Feature: existing id=437 - 'HEALTH API'
+Feature: creating 'AGENTS API'
+  -> Feature id=1925
+PBI: creating '[F29-00-001] Fix copilot-instructions strip-audit bug'
+  -> PBI id=1926
+PBI: creating '[F29-00-002] Create governance files'
+  -> PBI id=1927
+PBI: creating '[F29-01-001] Plane Assignment for Assets Being Imported'
+  -> PBI id=1928
+PBI: creating '[F29-01-002] Skill Directory Structure ? Plane-Based'
+  -> PBI id=1929
+PBI: creating '[F29-01-003] Audit copilot-skills directory vs skill-catalog'
+  -> PBI id=1930
+PBI: creating '[F29-01-004] Create task-specific .skill.md files for foundry core'
+  -> PBI id=1931
+PBI: creating '[F29-01-005] Run tests and confirm exit 0'
+  -> PBI id=1932
+PBI: creating '[F29-03-001] 31-eva-faces ? `.github/copilot-skills/`'
+  -> PBI id=1933
+PBI: creating '[F29-03-002] 31-eva-faces ? `agent-fleet/app/agents/`'
+  -> PBI id=1934
+PBI: creating '[F29-03-003] 33-eva-brain-v2 ? `.github/copilot-skills/`'
+  -> PBI id=1935
+PBI: creating '[F29-03-004] 33-eva-brain-v2 ? `services/eva-brain-api/app/`'
+  -> PBI id=1936
+PBI: creating '[F29-03-005] 29-foundry ? Current State'
+  -> PBI id=1937
+PBI: creating '[F29-04-001] What moves out of 29-foundry'
+  -> PBI id=1938
+PBI: creating '[F29-04-002] Feature P.1 ? Create 42-learn-foundry'
+  -> PBI id=1939
+PBI: creating '[F29-04-003] Feature P.2 ? Move sample/learning content'
+  -> PBI id=1940
+PBI: creating '[F29-04-004] Feature P.3 ? Archive stale root docs'
+  -> PBI id=1941
+PBI: creating '[F29-05-001] Feature 1.1 ? Create eva-faces skill directory in foundry'
+  -> PBI id=1942
+PBI: creating '[F29-06-001] Feature 2.1 ? Normalize brain-v2 skills to .skill.md format'
+  -> PBI id=1943
+PBI: creating '[F29-07-001] Feature 3.1 ? Scaffold agents/ package with plane sub-structure'
+  -> PBI id=1944
+PBI: creating '[F29-07-002] Feature 3.2 ? Azure Plane / App (UI-Exposed): ConversationAgent'
+  -> PBI id=1945
+PBI: creating '[F29-07-003] Feature 3.3 ? Azure Plane / Internal: ScreenGeneratorAgent, ValidatorAgent, TestGeneratorAgent'
+  -> PBI id=1946
+PBI: creating '[F29-07-004] Feature 3.4 ? GitHub Plane: session-workflow-agent patterns'
+  -> PBI id=1947
+PBI: creating '[F29-07-005] Feature 3.5 ? Import brain-v2 service layer into tools/ (Azure Plane foundations)'
+  -> PBI id=1948
+PBI: creating '[F29-08-001] Feature 4.1 ? HTTP Server and Authentication (Sprint-8) ? Session 5'
+  -> PBI id=1949
+PBI: creating '[F29-08-002] Feature 4.2 ? ADO Tool (Sprint-8) ? Session 5'
+  -> PBI id=1950
+PBI: creating '[F29-08-003] Feature 4.3 ? Shell Exec Tool (Sprint-8) ? Session 5'
+  -> PBI id=1951
+PBI: creating '[F29-08-004] Feature 4.4 ? DPDCA Phase Handlers (Sprint-8) ? Session 5'
+  -> PBI id=1952
+PBI: creating '[F29-08-005] Feature 4.5 ? Deployment (Sprint-9)'
+  -> PBI id=1953
+PBI: creating '[F29-09-001] Feature 5.1 ? Populate missing fields'
+  -> PBI id=1954
+PBI: creating '[F29-10-001] Feature 6.1 ? Azure Plane / App: eva-faces agent fleet MCP server'
+  -> PBI id=1955
+PBI: creating '[F29-10-002] Feature 6.2 ? Azure Plane / App: eva-brain conversation MCP server'
+  -> PBI id=1956
+PBI: creating '[F29-10-003] Feature 6.3 ? GitHub Plane: session-workflow MCP server'
+  -> PBI id=1957
+PBI: creating '[F29-10-004] Feature 6.4 ? Update `.vscode/mcp.json` index'
+  -> PBI id=1958
+PBI: creating '[F29-11-001] Feature 7.1 ? Package structure'
+  -> PBI id=1959
+PBI: creating '[F29-11-002] Feature 7.2 ? Documentation for org consumers'
+  -> PBI id=1960
+PBI: creating '[F29-12-001] Prompt Inventory (current state)'
+  -> PBI id=1961
+PBI: creating '[F29-12-002] Feature 8.1 ? Populate prompty-library/'
+  -> PBI id=1962
+PBI: creating '[F29-12-003] Feature 8.2 ? Wire prompts to agents and server handlers'
+  -> PBI id=1963
+PBI: creating '[F29-18-001] `python tools/validate-catalog.py` exits 0 with `totalSkills == 72` (updated from 63; 7 new Session-9 + 2 missing cross-cutting added)'
+  -> PBI id=1964
+PBI: creating '[F29-18-002] `jq '[.catalog.skills[] | select(.plane == "")] | length' skill-catalog.json` returns 0 (verified via Python)'
+  -> PBI id=1965
+PBI: creating '[F29-18-003] `pytest --no-cov -q` passes ? 78 passed, 1 skipped (agent-framework tests pass after stub dirs created)'
+  -> PBI id=1966
+PBI: creating '[F29-18-004] `POST /agents/session-workflow-agent/invoke` ? server starts, /health 200; phase 500s expected without real ADO_PAT/FOUNDRY_HUB_ENDPOINT credentials (SKIP_AUTH=true bypasses auth; business-logic 500 is expected without credentials)'
+  -> PBI id=1967
+PBI: creating '[F29-18-005] `from agents.azure_plane.app.conversation.conversation_agent import ConversationAgent` ? no ImportError'
+  -> PBI id=1968
+PBI: creating '[F29-18-006] `from agents.azure_plane.app.screen_generator.screen_agent import ScreenGeneratorAgent` ? no ImportError (path was screen_agent.py not screen_generator_agent.py; agents.json corrected)'
+  -> PBI id=1969
+PBI: creating '[F29-18-007] `from agents.azure_plane.internal.validator.validator_agent import ValidatorAgent` ? no ImportError'
+  -> PBI id=1970
+PBI: creating '[F29-18-008] Skill files by plane: 4 (github-plane) + 2 (azure-plane/control) + 3 (ado-plane) + 22 (azure/app/eva-faces) + 10 (azure/app/eva-brain-v2) + 6 (foundry core .md) + 7 (cross-cutting) = 54 on-disk; catalog total 72 (47 .skill.md + 6 foundry-core .md + cross-cutting 06+07 added to catalog)'
+Exception: C:\AICOE\eva-foundation\38-ado-poc\scripts\ado-import-project.ps1:116:13
+Line |
+ 116 |              throw "ADO $Method $Uri => HTTP $status : $msg"
+     |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | ADO Post
+     | https://dev.azure.com/marcopresta/eva-poc/_apis/wit/workitems/$Product%20Backlog%20Item?api-version=7.1 => HTTP 400 :  {   "$id": "1",   "customProperties": {     "ReferenceName": null   },   "innerException": null,   "message": "TF401324: Value for field \u0027System.Title\u0027 is too long.",   "typeName": "Microsoft.TeamFoundation.WorkItemTracking.Server.WorkItemFieldInvalidException, Microsoft.TeamFoundation.WorkItemTracking.Server",   "typeKey": "WorkItemFieldInvalidException",   "errorCode": 600171,   "eventId": 3200 }

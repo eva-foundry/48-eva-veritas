@@ -1,0 +1,194 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\37-data-model
+[INFO] Prefix: F37
+[INFO] Enrichment applied: code-structure (22 stories)
+[PASS] Written: C:\AICOE\eva-foundation\37-data-model\.eva\veritas-plan.json
+       24 features, 39 stories, 30 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID             Stories  Tasks  Title
+  ??????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F37-01                3      0  OBJ_IDPATH API [ID=F37-OBJ_IDPATH]
+  F37-02                0      0  Layer Build Order
+  F37-03                2      8  Sprint 1 ? Foundation Layers (L0?L2) ? DONE
+  F37-04                2      8  Sprint 2 ? Data and API Layers (L3?L5) ? DONE
+  F37-05                2      5  Sprint 3 ? UI Layers (L6?L7) ? DONE
+  F37-06                2      5  Sprint 4 ? Agent Fleet + Infrastructure Layers (L8?L9) ? DONE
+  F37-07                2      4  Sprint 5 ? Requirements Traceability Layer (L10) ? DONE
+  F37-08                7      0  Ongoing ? How the Model Grows and Is Maintained
+  F37-09                0      0  Dependencies
+  F37-HEALTH            6      0  HEALTH API
+  F37-READY             2      0  READY API
+  F37-MODEL             4      0  MODEL API
+  F37-SEED              2      0  SEED API
+  F37-EXPORT            2      0  EXPORT API
+  F37-CACHE             2      0  CACHE API
+  F37-BACKFILL          2      0  BACKFILL API
+  F37-AUDIT             2      0  AUDIT API
+  F37-VALIDATE          2      0  VALIDATE API
+  F37-COMMIT            2      0  COMMIT API
+  F37-AUDITREPO         2      0  AUDITREPO API
+  F37-API               6      0  API API
+  F37-FILTER            2      0  FILTER API
+  F37-EDGETYPES         2      0  EDGETYPES API
+  F37-OBJ_IDPATH        3      0  OBJ_IDPATH API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F37-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\37-data-model
+[INFO] Using veritas-plan.json (format: veritas, 61 stories, 30 tasks)
+[INFO] Planned: 24 features, 61 stories
+[INFO] Actual: 166 artifacts, 42 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\37-data-model\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\37-data-model\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\37-data-model\.eva\trust.json (score: 86)
+
+=======================================
+EVA Veritas Report: EVA Data Model
+=======================================
+Repo:    C:\AICOE\eva-foundation\37-data-model
+Planned: 24 features, 61 stories
+
+Coverage
+---------------------------------------
+Stories total:          61
+Stories with artifacts: 61
+Stories with evidence:  17
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F37-01     OBJ_IDPATH API [ID=F37-OBJ_IDP  3/3 artifacts  0/3 evidence  0 gaps
+[  0] F37-02     Layer Build Order               0/0 artifacts  0/0 evidence  0 gaps
+[100] F37-03     Sprint 1 ? Foundation Layers (  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-04     Sprint 2 ? Data and API Layers  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-05     Sprint 3 ? UI Layers (L6?L7) ?  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-06     Sprint 4 ? Agent Fleet + Infra  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-07     Sprint 5 ? Requirements Tracea  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-08     Ongoing ? How the Model Grows   7/7 artifacts  7/7 evidence  0 gaps
+[  0] F37-09     Dependencies                    0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F37-API    API API                         6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F37-AUDIT  AUDIT API                       2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-AUDITREPO AUDITREPO API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-BACKFILL BACKFILL API                    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-CACHE  CACHE API                       2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-COMMIT COMMIT API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-EDGETYPES EDGETYPES API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-EXPORT EXPORT API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-FILTER FILTER API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-HEALTH HEALTH API                      6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F37-MODEL  MODEL API                       4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F37-OBJ_IDPATH OBJ_IDPATH API                  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F37-READY  READY API                       2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-SEED   SEED API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F37-VALIDATE VALIDATE API                    2/2 artifacts  0/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F37-01-001 -- GET /{obj_id:path} [ID=F37-OBJ_IDPATH-001] (1 artifact)
+[IMPL] F37-01-002 -- PUT /{obj_id:path} [ID=F37-OBJ_IDPATH-002] (1 artifact)
+[IMPL] F37-01-003 -- DELETE /{obj_id:path} [ID=F37-OBJ_IDPATH-003] (1 artifact)
+[EVIDENCE] F37-03-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-03-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-04-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-04-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-05-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-05-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-06-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-06-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-07-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-07-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-08-001 -- Growth Path 1 ? Same-PR Rule (day-to-day) (1 artifact)
+[EVIDENCE] F37-08-002 -- Growth Path 2 ? Sprint-Close Audit (every sprint) (1 artifact)
+[EVIDENCE] F37-08-003 -- Growth Path 3 ? Ecosystem Expansion (new service or repository) (1 artifact)
+[EVIDENCE] F37-08-004 -- Growth Path 4 ? New Model Layer (extending the schema) (1 artifact)
+[EVIDENCE] F37-08-005 -- Validation Gate (all paths) (1 artifact)
+[EVIDENCE] F37-08-006 -- Drift Signals ? How to Know the Model Is Stale (1 artifact)
+[EVIDENCE] F37-08-007 -- Governance (1 artifact)
+[IMPL] F37-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F37-HEALTH-002 -- GET /v1/health (1 artifact)
+[IMPL] F37-HEALTH-003 -- GET /v1/health (1 artifact)
+[IMPL] F37-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F37-HEALTH-002 -- GET /v1/health (1 artifact)
+[IMPL] F37-HEALTH-003 -- GET /v1/health (1 artifact)
+[IMPL] F37-READY-001 -- GET /ready (1 artifact)
+[IMPL] F37-READY-001 -- GET /ready (1 artifact)
+[IMPL] F37-MODEL-001 -- GET /model/agent-summary (1 artifact)
+[IMPL] F37-MODEL-002 -- GET /model/agent-guide (1 artifact)
+[IMPL] F37-MODEL-001 -- GET /model/agent-summary (1 artifact)
+[IMPL] F37-MODEL-002 -- GET /model/agent-guide (1 artifact)
+[IMPL] F37-SEED-001 -- POST /seed (1 artifact)
+[IMPL] F37-SEED-001 -- POST /seed (1 artifact)
+[IMPL] F37-EXPORT-001 -- POST /export (1 artifact)
+[IMPL] F37-EXPORT-001 -- POST /export (1 artifact)
+[IMPL] F37-CACHE-001 -- POST /cache/flush (1 artifact)
+[IMPL] F37-CACHE-001 -- POST /cache/flush (1 artifact)
+[IMPL] F37-BACKFILL-001 -- POST /backfill (1 artifact)
+[IMPL] F37-BACKFILL-001 -- POST /backfill (1 artifact)
+[IMPL] F37-AUDIT-001 -- GET /audit (1 artifact)
+[IMPL] F37-AUDIT-001 -- GET /audit (1 artifact)
+[IMPL] F37-VALIDATE-001 -- GET /validate (1 artifact)
+[IMPL] F37-VALIDATE-001 -- GET /validate (1 artifact)
+[IMPL] F37-COMMIT-001 -- POST /commit (1 artifact)
+[IMPL] F37-COMMIT-001 -- POST /commit (1 artifact)
+[IMPL] F37-AUDITREPO-001 -- POST /audit-repo (1 artifact)
+[IMPL] F37-AUDITREPO-001 -- POST /audit-repo (1 artifact)
+[IMPL] F37-API-001 -- GET / (1 artifact)
+[IMPL] F37-API-002 -- GET / (1 artifact)
+[IMPL] F37-API-003 -- GET / (1 artifact)
+[IMPL] F37-API-001 -- GET / (1 artifact)
+[IMPL] F37-API-002 -- GET / (1 artifact)
+[IMPL] F37-API-003 -- GET / (1 artifact)
+[IMPL] F37-FILTER-001 -- GET /filter (1 artifact)
+[IMPL] F37-FILTER-001 -- GET /filter (1 artifact)
+[IMPL] F37-EDGETYPES-001 -- GET /edge-types (1 artifact)
+[IMPL] F37-EDGETYPES-001 -- GET /edge-types (1 artifact)
+[IMPL] F37-OBJ_IDPATH-001 -- GET /{obj_id:path} (1 artifact)
+[IMPL] F37-OBJ_IDPATH-002 -- PUT /{obj_id:path} (1 artifact)
+[IMPL] F37-OBJ_IDPATH-003 -- DELETE /{obj_id:path} (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   86 (+36)
+Trend:   71 -> 71 -> 71 -> 100 -> 100 -> 100 -> 100 -> 61 -> 50 -> 86
+Actions: test, review, merge-with-approval
+Components: coverage=1 evidence=0.28 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   81%  (225/279 declared entities verified)
+[ACT] 54 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [service] eva-brain-api -- declared: is_active:true -- actual: not_found
+  ... and 46 more
+[ACT] Container 'jobs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+

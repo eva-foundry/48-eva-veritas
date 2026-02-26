@@ -1,0 +1,122 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\06-jp-auto-extraction
+[INFO] Prefix: F06
+[PASS] Written: C:\AICOE\eva-foundation\06-jp-auto-extraction\.eva\veritas-plan.json
+       16 features, 34 stories, 28 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F06-01        0      0  Overview
+  F06-02        0      0  Problem Statement
+  F06-03        3      0  Environment & Dependency Strategy
+  F06-04        3      2  Phase 1 ? Input Preparation & Validation
+  F06-05        4      8  Phase 2 ? Browser Automation Implementation
+  F06-06        0      0  Operational procedure for first run
+  F06-07        4      3  Phase 3 ? Citation Parsing
+  F06-08        4      5  Phase 4 ? Output & Traceability
+  F06-09        0      0  Evidence capture & run artifacts
+  F06-10        4      7  Phase 5 ? Error Handling & Resilience
+  F06-11        4      3  Phase 6 ? Validation & Quality Assurance
+  F06-12        4      0  Technical Specifications
+  F06-13        3      0  Risk Assessment
+  F06-14        1      0  Future Enhancements
+  F06-15        0      0  Summary
+  F06-16        0      0  Change summary (2026-01-21)
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F06-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\06-jp-auto-extraction
+[INFO] Using veritas-plan.json (format: veritas, 34 stories, 28 tasks)
+[INFO] Planned: 16 features, 34 stories
+[INFO] Actual: 73 artifacts, 34 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\06-jp-auto-extraction\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\06-jp-auto-extraction\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\06-jp-auto-extraction\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Project 06 ??? JP Automated Extraction (UI-Driven)
+=======================================
+Repo:    C:\AICOE\eva-foundation\06-jp-auto-extraction
+Planned: 16 features, 34 stories
+
+Coverage
+---------------------------------------
+Stories total:          34
+Stories with artifacts: 34
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F06-01     Overview                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F06-02     Problem Statement               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F06-03     Environment & Dependency Strat  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F06-04     Phase 1 ? Input Preparation &   3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F06-05     Phase 2 ? Browser Automation I  4/4 artifacts  0/4 evidence  0 gaps
+[  0] F06-06     Operational procedure for firs  0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F06-07     Phase 3 ? Citation Parsing      4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F06-08     Phase 4 ? Output & Traceabilit  4/4 artifacts  0/4 evidence  0 gaps
+[  0] F06-09     Evidence capture & run artifac  0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F06-10     Phase 5 ? Error Handling & Res  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F06-11     Phase 6 ? Validation & Quality  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F06-12     Technical Specifications        4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F06-13     Risk Assessment                 3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F06-14     Future Enhancements             1/1 artifacts  0/1 evidence  0 gaps
+[  0] F06-15     Summary                         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F06-16     Change summary (2026-01-21)     0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F06-03-001 -- Workstation constraint summary (1 artifact)
+[IMPL] F06-03-002 -- Baseline execution environment (1 artifact)
+[IMPL] F06-03-003 -- Alternate execution paths (documented only) (1 artifact)
+[IMPL] F06-04-001 -- Objectives (1 artifact)
+[IMPL] F06-04-002 -- Tasks (1 artifact)
+[IMPL] F06-04-003 -- Deliverables (1 artifact)
+[IMPL] F06-05-001 -- Objectives (1 artifact)
+[IMPL] F06-05-002 -- Architecture Decisions (1 artifact)
+[IMPL] F06-05-003 -- Tasks (1 artifact)
+[IMPL] F06-05-004 -- Deliverables (1 artifact)
+[IMPL] F06-07-001 -- Objectives (1 artifact)
+[IMPL] F06-07-002 -- Citation Formats (1 artifact)
+[IMPL] F06-07-003 -- Parsing Algorithm (1 artifact)
+[IMPL] F06-07-004 -- Deliverables (1 artifact)
+[IMPL] F06-08-001 -- Objectives (1 artifact)
+[IMPL] F06-08-002 -- Output Formats (1 artifact)
+[IMPL] F06-08-003 -- Logging Strategy (1 artifact)
+[IMPL] F06-08-004 -- Deliverables (1 artifact)
+[IMPL] F06-10-001 -- Objectives (1 artifact)
+[IMPL] F06-10-002 -- Error Scenarios (1 artifact)
+[IMPL] F06-10-003 -- Resilience Features (1 artifact)
+[IMPL] F06-10-004 -- Deliverables (1 artifact)
+[IMPL] F06-11-001 -- Objectives (1 artifact)
+[IMPL] F06-11-002 -- Validation Strategy (1 artifact)
+[IMPL] F06-11-003 -- Success Criteria (1 artifact)
+[IMPL] F06-11-004 -- Deliverables (1 artifact)
+[IMPL] F06-12-001 -- Dependencies (1 artifact)
+[IMPL] F06-12-002 -- System Requirements (1 artifact)
+[IMPL] F06-12-003 -- Performance Expectations (1 artifact)
+[IMPL] F06-12-004 -- Maintenance Considerations (1 artifact)
+[IMPL] F06-13-001 -- High Risk (1 artifact)
+[IMPL] F06-13-002 -- Medium Risk (1 artifact)
+[IMPL] F06-13-003 -- Low Risk (1 artifact)
+[IMPL] F06-14-001 -- Phase 7+ (Not Included) (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

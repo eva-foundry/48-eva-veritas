@@ -1,0 +1,38 @@
+{
+  "notes": "EVA-STORY: EO-06-001 EVA-STORY: EO-06-002",
+  "evidence_for": ["EO-06-001", "EO-06-002"],
+  "run_at": "2026-02-24T18:07:00Z",
+  "command": "node src/cli.js audit --repo . (report section)",
+  "console_output_sample": [
+    "=======================================",
+    "EVA Veritas Report: eva-veritas",
+    "=======================================",
+    "Repo:    C:\\AICOE\\eva-foundation\\48-eva-veritas",
+    "Planned: 10 features, 31 stories",
+    "",
+    "Coverage",
+    "---------------------------------------",
+    "Stories total:          31",
+    "Stories with artifacts: 20",
+    "Stories with evidence:  0",
+    "Consistency score:      1.00",
+    "",
+    "Gaps",
+    "---------------------------------------",
+    "[FAIL] missing_evidence :: EO-01-001 -- Parse planned model from governance docs",
+    "...",
+    "",
+    "Implemented",
+    "---------------------------------------",
+    "[IMPL] EO-01-001 -- Parse planned model from governance docs (2 artifacts)"
+  ],
+  "eva_folder_contents": [
+    ".eva/discovery.json",
+    ".eva/reconciliation.json",
+    ".eva/trust.json",
+    ".eva/ado.csv",
+    ".eva/prev-trust.json"
+  ],
+  "verdict": "PASS -- human-readable console report renders correctly; .eva/ folder populated with all 4 output artifacts",
+  "confirmed_in": "src/report.js"
+}

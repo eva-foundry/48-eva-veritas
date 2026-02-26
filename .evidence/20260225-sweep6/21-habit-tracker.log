@@ -1,0 +1,112 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\21-habit-tracker
+[INFO] Prefix: F21
+[INFO] Enrichment applied: code-structure (11 stories)
+[PASS] Written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\veritas-plan.json
+       12 features, 20 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID              Stories  Tasks  Title
+  ?????????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F21-01                 4      0  HABIT_ID API [ID=F21-HABIT_ID]
+  F21-02                 3      0  Quick Start
+  F21-03                 2      0  Architecture
+  F21-04                 0      0  Features
+  F21-05                 0      0  API Endpoints
+  F21-06                 4      0  Claude Commands
+  F21-HEALTH             2      0  HEALTH API
+  F21-COMPLETE           2      0  COMPLETE API
+  F21-SKIP               2      0  SKIP API
+  F21-COMPLETIONS        4      0  COMPLETIONS API
+  F21-API                4      0  API API
+  F21-HABIT_ID           4      0  HABIT_ID API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F21-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\21-habit-tracker
+[INFO] Using veritas-plan.json (format: veritas, 31 stories, 0 tasks)
+[INFO] Planned: 12 features, 31 stories
+[INFO] Actual: 81 artifacts, 24 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Habit Tracker
+=======================================
+Repo:    C:\AICOE\eva-foundation\21-habit-tracker
+Planned: 12 features, 31 stories
+
+Coverage
+---------------------------------------
+Stories total:          31
+Stories with artifacts: 31
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F21-01     HABIT_ID API [ID=F21-HABIT_ID]  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F21-02     Quick Start                     3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F21-03     Architecture                    2/2 artifacts  0/2 evidence  0 gaps
+[  0] F21-04     Features                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F21-05     API Endpoints                   0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F21-06     Claude Commands                 4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F21-API    API API                         4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F21-COMPLETE COMPLETE API                    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F21-COMPLETIONS COMPLETIONS API                 4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F21-HABIT_ID HABIT_ID API                    4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F21-HEALTH HEALTH API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F21-SKIP   SKIP API                        2/2 artifacts  0/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F21-01-001 -- GET /{habit_id} [ID=F21-HABIT_ID-001] (1 artifact)
+[IMPL] F21-01-002 -- PUT /{habit_id} [ID=F21-HABIT_ID-002] (1 artifact)
+[IMPL] F21-01-003 -- DELETE /{habit_id} [ID=F21-HABIT_ID-003] (1 artifact)
+[IMPL] F21-01-004 -- PATCH /{habit_id}/archive [ID=F21-HABIT_ID-004] (1 artifact)
+[IMPL] F21-02-001 -- 1. Clone and Setup Backend (1 artifact)
+[IMPL] F21-02-002 -- 2. Setup Frontend (new terminal) (1 artifact)
+[IMPL] F21-02-003 -- 3. Open the App (1 artifact)
+[IMPL] F21-03-001 -- Tech Stack (1 artifact)
+[IMPL] F21-03-002 -- Project Structure (1 artifact)
+[IMPL] F21-06-001 -- Planning & Execution (1 artifact)
+[IMPL] F21-06-002 -- Validation (1 artifact)
+[IMPL] F21-06-003 -- Bug Fixing (1 artifact)
+[IMPL] F21-06-004 -- Misc (1 artifact)
+[IMPL] F21-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F21-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F21-COMPLETE-001 -- POST /complete (1 artifact)
+[IMPL] F21-COMPLETE-001 -- POST /complete (1 artifact)
+[IMPL] F21-SKIP-001 -- POST /skip (1 artifact)
+[IMPL] F21-SKIP-001 -- POST /skip (1 artifact)
+[IMPL] F21-COMPLETIONS-001 -- DELETE /completions/{date} (1 artifact)
+[IMPL] F21-COMPLETIONS-002 -- GET /completions (1 artifact)
+[IMPL] F21-COMPLETIONS-001 -- DELETE /completions/{date} (1 artifact)
+[IMPL] F21-COMPLETIONS-002 -- GET /completions (1 artifact)
+[IMPL] F21-API-001 -- GET / (1 artifact)
+[IMPL] F21-API-002 -- POST / (1 artifact)
+[IMPL] F21-API-001 -- GET / (1 artifact)
+[IMPL] F21-API-002 -- POST / (1 artifact)
+[IMPL] F21-HABIT_ID-001 -- GET /{habit_id} (1 artifact)
+[IMPL] F21-HABIT_ID-002 -- PUT /{habit_id} (1 artifact)
+[IMPL] F21-HABIT_ID-003 -- DELETE /{habit_id} (1 artifact)
+[IMPL] F21-HABIT_ID-004 -- PATCH /{habit_id}/archive (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

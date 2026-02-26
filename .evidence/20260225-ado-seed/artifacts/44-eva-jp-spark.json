@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1556744-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/44-eva-jp-spark",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-44",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "44-eva-jp-spark",
+    "description": "44-eva-jp-spark",
+    "tags": "44-eva-jp-spark;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F44-01",
+      "type": "Feature",
+      "title": "Phase 0 ? Repo & Toolchain Bootstrap",
+      "description": "Phase 0 ? Repo & Toolchain Bootstrap",
+      "tags": "44-eva-jp-spark;F44-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-02",
+      "type": "Feature",
+      "title": "Phase 1 ? Foundation (Spark Iteration 1)",
+      "description": "Phase 1 ? Foundation (Spark Iteration 1)",
+      "tags": "44-eva-jp-spark;F44-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-03",
+      "type": "Feature",
+      "title": "Phase 2 ? Shared Components (Spark Iteration 2)",
+      "description": "Phase 2 ? Shared Components (Spark Iteration 2)",
+      "tags": "44-eva-jp-spark;F44-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-04",
+      "type": "Feature",
+      "title": "Phase 3 ? Chat Screen (Spark Iteration 3)",
+      "description": "Phase 3 ? Chat Screen (Spark Iteration 3)",
+      "tags": "44-eva-jp-spark;F44-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-05",
+      "type": "Feature",
+      "title": "Phase 4 ? Remaining Screens (Spark Iteration 4)",
+      "description": "Phase 4 ? Remaining Screens (Spark Iteration 4)",
+      "tags": "44-eva-jp-spark;F44-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-06",
+      "type": "Feature",
+      "title": "Phase 5 ? Quality Pass (Spark Iteration 5)",
+      "description": "Phase 5 ? Quality Pass (Spark Iteration 5)",
+      "tags": "44-eva-jp-spark;F44-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-07",
+      "type": "Feature",
+      "title": "Dependency Graph",
+      "description": "Dependency Graph",
+      "tags": "44-eva-jp-spark;F44-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-08",
+      "type": "Feature",
+      "title": "Open Questions / Decisions",
+      "description": "Open Questions / Decisions",
+      "tags": "44-eva-jp-spark;F44-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F44-UI",
+      "type": "Feature",
+      "title": "UI Pages",
+      "description": "UI Pages",
+      "tags": "44-eva-jp-spark;F44-UI",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F44-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F44-02-001] Zero-tolerance rules",
+      "acceptance_criteria": "Zero-tolerance rules",
+      "tags": "44-eva-jp-spark;F44-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-02",
+      "state": "New",
+      "wbs_id": "F44-02-001"
+    },
+    {
+      "id_hint": "F44-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-001] Skip link is first focusable DOM element",
+      "acceptance_criteria": "Skip link is first focusable DOM element",
+      "tags": "44-eva-jp-spark;F44-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-001"
+    },
+    {
+      "id_hint": "F44-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-002] One `<h1>` in header; one `<h2>` per screen inside `#mainContent`",
+      "acceptance_criteria": "One `<h1>` in header; one `<h2>` per screen inside `#mainContent`",
+      "tags": "44-eva-jp-spark;F44-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-002"
+    },
+    {
+      "id_hint": "F44-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-003] All interactive elements show 3px `tokens.colorStrokeFocus2` ring",
+      "acceptance_criteria": "All interactive elements show 3px `tokens.colorStrokeFocus2` ring",
+      "tags": "44-eva-jp-spark;F44-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-003"
+    },
+    {
+      "id_hint": "F44-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-004] `document.title` updates on route change",
+      "acceptance_criteria": "`document.title` updates on route change",
+      "tags": "44-eva-jp-spark;F44-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-004"
+    },
+    {
+      "id_hint": "F44-07-005",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-005] `useAnnouncer()` fires on route change",
+      "acceptance_criteria": "`useAnnouncer()` fires on route change",
+      "tags": "44-eva-jp-spark;F44-07-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-005"
+    },
+    {
+      "id_hint": "F44-07-006",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-006] First `<h2>` focuses after 150 ms on navigation",
+      "acceptance_criteria": "First `<h2>` focuses after 150 ms on navigation",
+      "tags": "44-eva-jp-spark;F44-07-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-006"
+    },
+    {
+      "id_hint": "F44-07-007",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-007] All dialogs: focus trapped, Escape closes, focus returns to trigger",
+      "acceptance_criteria": "All dialogs: focus trapped, Escape closes, focus returns to trigger",
+      "tags": "44-eva-jp-spark;F44-07-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-007"
+    },
+    {
+      "id_hint": "F44-07-008",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-008] `role=\"log\" aria-live=\"polite\"` on chat message list",
+      "acceptance_criteria": "`role=\"log\" aria-live=\"polite\"` on chat message list",
+      "tags": "44-eva-jp-spark;F44-07-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-008"
+    },
+    {
+      "id_hint": "F44-07-009",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-009] `@media (forced-colors: active)` block in every `makeStyles` that sets colour",
+      "acceptance_criteria": "`@media (forced-colors: active)` block in every `makeStyles` that sets colour",
+      "tags": "44-eva-jp-spark;F44-07-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-009"
+    },
+    {
+      "id_hint": "F44-07-010",
+      "type": "Product Backlog Item",
+      "title": "[F44-07-010] axe-core: 0 critical, 0 serious",
+      "acceptance_criteria": "axe-core: 0 critical, 0 serious",
+      "tags": "44-eva-jp-spark;F44-07-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-07",
+      "state": "New",
+      "wbs_id": "F44-07-010"
+    },
+    {
+      "id_hint": "F44-UI-001",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-001] Route content",
+      "acceptance_criteria": "Route content",
+      "tags": "44-eva-jp-spark;F44-UI-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-001"
+    },
+    {
+      "id_hint": "F44-UI-002",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-002] Route translator",
+      "acceptance_criteria": "Route translator",
+      "tags": "44-eva-jp-spark;F44-UI-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-002"
+    },
+    {
+      "id_hint": "F44-UI-003",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-003] Route urlscrapper",
+      "acceptance_criteria": "Route urlscrapper",
+      "tags": "44-eva-jp-spark;F44-UI-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-003"
+    },
+    {
+      "id_hint": "F44-UI-004",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-004] Route tda",
+      "acceptance_criteria": "Route tda",
+      "tags": "44-eva-jp-spark;F44-UI-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-004"
+    },
+    {
+      "id_hint": "F44-UI-005",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-005] Route tutor",
+      "acceptance_criteria": "Route tutor",
+      "tags": "44-eva-jp-spark;F44-UI-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-005"
+    },
+    {
+      "id_hint": "F44-UI-006",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-006] NOPAGE page",
+      "acceptance_criteria": "NOPAGE page",
+      "tags": "44-eva-jp-spark;F44-UI-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-006"
+    },
+    {
+      "id_hint": "F44-UI-007",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-007] CHAT page",
+      "acceptance_criteria": "CHAT page",
+      "tags": "44-eva-jp-spark;F44-UI-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-007"
+    },
+    {
+      "id_hint": "F44-UI-008",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-008] CONTENT page",
+      "acceptance_criteria": "CONTENT page",
+      "tags": "44-eva-jp-spark;F44-UI-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-008"
+    },
+    {
+      "id_hint": "F44-UI-009",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-009] TRANSLATOR page",
+      "acceptance_criteria": "TRANSLATOR page",
+      "tags": "44-eva-jp-spark;F44-UI-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-009"
+    },
+    {
+      "id_hint": "F44-UI-010",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-010] TDA page",
+      "acceptance_criteria": "TDA page",
+      "tags": "44-eva-jp-spark;F44-UI-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-010"
+    },
+    {
+      "id_hint": "F44-UI-011",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-011] TUTOR page",
+      "acceptance_criteria": "TUTOR page",
+      "tags": "44-eva-jp-spark;F44-UI-011",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-011"
+    },
+    {
+      "id_hint": "F44-UI-012",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-012] LAYOUT page",
+      "acceptance_criteria": "LAYOUT page",
+      "tags": "44-eva-jp-spark;F44-UI-012",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-012"
+    },
+    {
+      "id_hint": "F44-UI-013",
+      "type": "Product Backlog Item",
+      "title": "[F44-UI-013] URLSCRAPPER page",
+      "acceptance_criteria": "URLSCRAPPER page",
+      "tags": "44-eva-jp-spark;F44-UI-013",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F44-UI",
+      "state": "New",
+      "wbs_id": "F44-UI-013"
+    }
+  ]
+}

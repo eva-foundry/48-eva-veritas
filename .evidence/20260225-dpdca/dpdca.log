@@ -1,0 +1,94 @@
+[10:24:35] 
+[10:24:35] === PLAN ===
+[10:24:35] scope  : ADO-ID writeback for WBS stories, features, projects
+[10:24:35] mode   : LIVE
+[10:24:35] ACA    : https://marco-eva-data-model.livelyflower-7990bc7b.canadacentral.azurecontainerapps.io
+[10:24:35] CP     : http://localhost:8020
+[10:24:35] [PASS] ADO_PAT ready (84 chars)
+[10:24:36] [PASS] ACA status=ok store=cosmos
+[10:24:38] [PASS] CP8020 status=ok
+[10:24:38] [INFO] WBS layer: 2979 records total
+[10:24:40] [INFO] CP run created: run-dpdca-20260225102438
+[10:24:40] 
+[10:24:40] === DO ===
+[10:24:40] [STEP1] WIQL query to ADO...
+[10:24:41] [INFO] ADO items found: 2725
+[10:24:41] [STEP2] Batch GET titles from ADO...
+[10:24:42]   batch 1: got 200 items
+[10:24:42]   batch 2: got 200 items
+[10:24:42]   batch 3: got 200 items
+[10:24:43]   batch 4: got 200 items
+[10:24:43]   batch 5: got 200 items
+[10:24:44]   batch 6: got 200 items
+[10:24:44]   batch 7: got 200 items
+[10:24:44]   batch 8: got 200 items
+[10:24:44]   batch 9: got 200 items
+[10:24:45]   batch 10: got 200 items
+[10:24:45]   batch 11: got 200 items
+[10:24:45]   batch 12: got 200 items
+[10:24:45]   batch 13: got 200 items
+[10:24:46]   batch 14: got 125 items
+[10:24:46] [INFO] Total ADO items retrieved: 2725
+[10:24:46] [STEP3] Matching ADO items to WBS records and writing ado_id...
+[10:25:15] 
+[10:25:15] === PLAN ===
+[10:25:15] scope  : ADO-ID writeback for WBS stories, features, projects
+[10:25:15] mode   : LIVE
+[10:25:15] ACA    : https://marco-eva-data-model.livelyflower-7990bc7b.canadacentral.azurecontainerapps.io
+[10:25:15] CP     : http://localhost:8020
+[10:25:15] [PASS] ADO_PAT ready (84 chars)
+[10:25:15] [PASS] ACA status=ok store=cosmos
+[10:25:17] [PASS] CP8020 status=ok
+[10:25:18] [INFO] WBS layer: 2979 records total
+[10:25:20] [INFO] CP run created: run-dpdca-20260225102518
+[10:25:20] 
+[10:25:20] === DO ===
+[10:25:20] [STEP1] WIQL query to ADO...
+[10:25:20] [INFO] ADO items found: 2725
+[10:25:20] [STEP2] Batch GET titles from ADO...
+[10:25:20]   batch 1: got 200 items
+[10:25:21]   batch 2: got 200 items
+[10:25:21]   batch 3: got 200 items
+[10:25:21]   batch 4: got 200 items
+[10:25:22]   batch 5: got 200 items
+[10:25:22]   batch 6: got 200 items
+[10:25:22]   batch 7: got 200 items
+[10:25:22]   batch 8: got 200 items
+[10:25:22]   batch 9: got 200 items
+[10:25:22]   batch 10: got 200 items
+[10:25:23]   batch 11: got 200 items
+[10:25:23]   batch 12: got 200 items
+[10:25:23]   batch 13: got 200 items
+[10:25:23]   batch 14: got 125 items
+[10:25:23] [INFO] Total ADO items retrieved: 2725
+[10:25:23] [STEP3] Matching ADO items to WBS records and writing ado_id...
+[10:29:31]   matched (wrote ado_id) : 1880
+[10:29:31]   already_set            : 0
+[10:29:31]   not_found in WBS       : 91
+[10:29:31]   skipped (no WBS prefix): 754
+[10:29:31]   failed                 : 0
+[10:29:31] 
+[10:29:31] === CHECK ===
+[10:29:31]   SPOT F29-18-013: ado_id=2723 expected=2723 --> [PASS]
+[10:29:31]   SPOT F42-DEPLOYMENTS-003: ado_id=2477 expected=2477 --> [PASS]
+[10:29:31]   SPOT F26-CREATE-001: ado_id=1315 expected=1315 --> [PASS]
+[10:29:31]   SPOT F46-05-004: ado_id=2616 expected=2616 --> [PASS]
+[10:29:31]   SPOT F26-INFRA-129: ado_id=1700 expected=1700 --> [PASS]
+[10:29:31]   FK coverage: 1880 / 2725 ADO items linked (69%)
+[10:29:31]   Spot-check : 5 / 5 [PASS]
+[10:29:31]   CHECK result: [PASS]
+[10:29:31] [INFO] Evidence written: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-dpdca\evidence.json
+[10:29:31] 
+[10:29:31] === ACT ===
+[10:29:35] [INFO] Artifact registered: artifact-e5fc8224
+[10:29:37] [PASS] CP evidence round-trip: run=running artifacts=1 steps=0
+[10:29:39]   ACA commit: violations=0 exported=3929 errors=0
+[10:29:39] [PASS] Data model clean
+[10:29:39] 
+[10:29:39] === DPDCA COMPLETE ===
+[10:29:39]   plan     : wbs_total=2979 ado_items=2725
+[10:29:39]   do       : matched=1880 already_set=0 failed=0
+[10:29:39]   check    : coverage=69% spot=5/5
+[10:29:39]   act      : evidence=C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-dpdca\evidence.json run=run-dpdca-20260225102518
+[10:29:39]   mode     : LIVE
+[10:29:39] [PASS] DPDCA cycle complete

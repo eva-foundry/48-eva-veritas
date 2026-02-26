@@ -1,0 +1,91 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\14-az-finops
+[INFO] Prefix: F14
+[PASS] Written: C:\AICOE\eva-foundation\14-az-finops\.eva\veritas-plan.json
+       9 features, 17 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F14-01        1      0  ?? **NEW: Phase 1 FinOps Enterprise Roadmap (February 17, 2026)**
+  F14-02        3      0  Current Status (February 17, 2026)
+  F14-03        0      0  Subscriptions
+  F14-04        0      0  Permission Model
+  F14-05        0      0  Project Structure
+  F14-06        6      0  Deployment Roadmap
+  F14-07        3      0  Quick Start
+  F14-08        1      0  Lessons Learned (Audit Summary)
+  F14-09        3      0  ?? Documentation Quick Links
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F14-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\14-az-finops
+[INFO] Using veritas-plan.json (format: veritas, 17 stories, 0 tasks)
+[INFO] Planned: 9 features, 17 stories
+[INFO] Actual: 130 artifacts, 17 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\14-az-finops\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\14-az-finops\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\14-az-finops\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Azure FinOps - ESDC Cost Management
+=======================================
+Repo:    C:\AICOE\eva-foundation\14-az-finops
+Planned: 9 features, 17 stories
+
+Coverage
+---------------------------------------
+Stories total:          17
+Stories with artifacts: 17
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F14-01     ?? **NEW: Phase 1 FinOps Enter  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F14-02     Current Status (February 17, 2  3/3 artifacts  0/3 evidence  0 gaps
+[  0] F14-03     Subscriptions                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F14-04     Permission Model                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F14-05     Project Structure               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F14-06     Deployment Roadmap              6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F14-07     Quick Start                     3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F14-08     Lessons Learned (Audit Summary  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F14-09     ?? Documentation Quick Links    3/3 artifacts  0/3 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F14-01-001 -- Comprehensive Documentation Delivered (1 artifact)
+[IMPL] F14-02-001 -- What Works (1 artifact)
+[IMPL] F14-02-002 -- What Does NOT Work (1 artifact)
+[IMPL] F14-02-003 -- Active Exports (1 artifact)
+[IMPL] F14-06-001 -- ? Phase 0: Data Collection Foundation (COMPLETE - Feb 16, 2026) (1 artifact)
+[IMPL] F14-06-002 -- ?? Phase 1: Storage Foundation (Weeks 1-2, 13 Story Points) (1 artifact)
+[IMPL] F14-06-003 -- ?? Phase 2: Analytics & Ingestion (Weeks 3-4, 21 Story Points) (1 artifact)
+[IMPL] F14-06-004 -- ?? Phase 3: APIM Attribution & Telemetry (Weeks 5-7, 13 Story Points) (1 artifact)
+[IMPL] F14-06-005 -- ?? Phase 4: Reporting & Governance (Weeks 8-9, 21 Story Points) (1 artifact)
+[IMPL] F14-06-006 -- ?? Deployment Timeline Summary (1 artifact)
+[IMPL] F14-07-001 -- Ad-Hoc Cost Query (Small Date Ranges) (1 artifact)
+[IMPL] F14-07-002 -- Configure Daily Export (Portal) (1 artifact)
+[IMPL] F14-07-003 -- Historical Backfill (REST API) (1 artifact)
+[IMPL] F14-08-001 -- Extraction Attempt Timeline (1 artifact)
+[IMPL] F14-09-001 -- For Implementation Teams (1 artifact)
+[IMPL] F14-09-002 -- For Executives (1 artifact)
+[IMPL] F14-09-003 -- For Auditors (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

@@ -1,0 +1,19 @@
+{
+  "notes": "EVA-STORY: EO-05-001 EVA-STORY: EO-05-002 EVA-STORY: EO-05-003 EVA-STORY: EO-05-004 EVA-STORY: EO-05-005",
+  "evidence_for": ["EO-05-001", "EO-05-002", "EO-05-003", "EO-05-004", "EO-05-005"],
+  "run_at": "2026-02-24T18:07:00Z",
+  "command": "node src/cli.js --help && node src/cli.js audit --repo .",
+  "cli_commands_verified": {
+    "discover":      "[PASS] node src/cli.js discover --repo .",
+    "reconcile":     "[PASS] node src/cli.js reconcile --repo .",
+    "compute-trust": "[PASS] node src/cli.js compute-trust --repo .",
+    "generate-ado":  "[PASS] node src/cli.js generate-ado --repo .",
+    "report":        "[PASS] node src/cli.js report --repo ."
+  },
+  "also_verified": {
+    "audit":          "[PASS] node src/cli.js audit --repo . (discover+reconcile+trust+report in one)",
+    "scan-portfolio": "[PASS] node src/cli.js scan-portfolio --portfolio C:\\AICOE\\eva-foundation"
+  },
+  "verdict": "PASS -- all 5 Phase 1 CLI commands registered and functional via commander",
+  "confirmed_in": "src/cli.js lines 24-80"
+}

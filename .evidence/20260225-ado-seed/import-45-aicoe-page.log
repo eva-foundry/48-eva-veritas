@@ -1,0 +1,95 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0906-ado-import-artifacts-live.log
+
+=== ADO Import: 45-aicoe-page ===
+Project maturity : poc
+GitHub repo      : eva-foundry/45-aicoe-page
+Dry run          : False
+
+Epic: creating '45-aicoe-page'
+  -> Epic id=2562
+Feature: creating 'EVA Team Structural Alignment'
+  -> Feature id=2563
+Feature: creating 'Bilingual i18n Scaffold'
+  -> Feature id=2564
+Feature: creating 'Layout Shell'
+  -> Feature id=2565
+Feature: creating 'Home Page'
+  -> Feature id=2566
+Feature: creating 'Content Pages'
+  -> Feature id=2567
+Feature: creating 'CI and Test Coverage'
+  -> Feature id=2568
+Feature: existing id=1100 - 'UI Pages'
+PBI: creating '[F45-01-001] Replace FluentProvider with GCThemeProvider'
+  -> PBI id=2569
+PBI: creating '[F45-01-002] Add AnnouncerProvider for WCAG aria-live'
+  -> PBI id=2570
+PBI: creating '[F45-01-003] Add HashRouter and React.StrictMode'
+  -> PBI id=2571
+PBI: creating '[F45-01-004] Wire @eva shared deps'
+  -> PBI id=2572
+PBI: creating '[F45-01-005] Remove @github/spark Vite plugin'
+  -> PBI id=2573
+PBI: creating '[F45-02-001] Add i18next with LanguageDetector'
+  -> PBI id=2574
+PBI: creating '[F45-02-002] Seed EN and FR locale files'
+  -> PBI id=2575
+PBI: creating '[F45-03-001] Build Layout component with skip-link and nav'
+  -> PBI id=2576
+PBI: creating '[F45-03-002] Wire route-change announcer effect'
+  -> PBI id=2577
+PBI: creating '[F45-04-001] Build HomePage with hero and tool cards'
+  -> PBI id=2578
+PBI: creating '[F45-05-001] Build AboutPage route-- COMPLETE 2026-02-24'
+  -> PBI id=2579
+PBI: creating '[F45-05-002] Build ProductsPage route-- COMPLETE 2026-02-24'
+  -> PBI id=2580
+PBI: creating '[F45-06-001] Add GitHub Actions build + lint CI-- COMPLETE 2026-02-24'
+  -> PBI id=2581
+PBI: creating '[F45-06-002] Add Vitest and first component tests-- COMPLETE 2026-02-24'
+  -> PBI id=2582
+PBI: creating '[F45-UI-001] Route about'
+  -> PBI id=2583
+PBI: creating '[F45-UI-002] Route products'
+  -> PBI id=2584
+PBI: creating '[F45-UI-003] ABOUTPAGE page'
+  -> PBI id=2585
+PBI: creating '[F45-UI-004] HOMEPAGE page'
+  -> PBI id=2586
+PBI: creating '[F45-UI-005] LAYOUT page'
+  -> PBI id=2587
+PBI: creating '[F45-UI-006] PRODUCTSPAGE page'
+  -> PBI id=2588
+
+=== Import Summary: 45-aicoe-page ===
+Epic id  : 2562
+Features : 7
+PBIs     : 20
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F45-01-001 2569 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-01-002 2570 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-01-003 2571 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-01-004 2572 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-01-005 2573 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-02-001 2574 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-02-002 2575 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-03-001 2576 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-03-002 2577 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-04-001 2578 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-05-001 2579 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-05-002 2580 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-06-001 2581 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-06-002 2582 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-UI-001 2583 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-UI-002 2584 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-UI-003 2585 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-UI-004 2586 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-UI-005 2587 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F45-UI-006 2588 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

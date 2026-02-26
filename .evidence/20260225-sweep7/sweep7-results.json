@@ -1,0 +1,119 @@
+[
+  {
+    "project": "03-poc-enhanced-docs",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 20.0,
+    "stories": 20.0,
+    "gaps": 0,
+    "features": 9
+  },
+  {
+    "project": "09-eva-repo-documentation",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 6.0,
+    "stories": 6.0,
+    "gaps": 0,
+    "features": 4
+  },
+  {
+    "project": "12-work-spc-reorg",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 40.0,
+    "stories": 40.0,
+    "gaps": 0,
+    "features": 12
+  },
+  {
+    "project": "23-ei-dsst-rewrite",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 4.0,
+    "stories": 4.0,
+    "gaps": 0,
+    "features": 14
+  },
+  {
+    "project": "28-rbac",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 43.0,
+    "stories": 43.0,
+    "gaps": 0,
+    "features": 20
+  },
+  {
+    "project": "43-spark",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 5.0,
+    "stories": 5.0,
+    "gaps": 0,
+    "features": 12
+  },
+  {
+    "project": "08-cds-rag",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 158.0,
+    "stories": 158.0,
+    "gaps": 0,
+    "features": 18
+  },
+  {
+    "project": "18-azure-best",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 22.0,
+    "stories": 22.0,
+    "gaps": 0,
+    "features": 11
+  },
+  {
+    "project": "25-eva-suite",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 11.0,
+    "stories": 11.0,
+    "gaps": 0,
+    "features": 4
+  },
+  {
+    "project": "26-eva-gh",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 728.0,
+    "stories": 728.0,
+    "gaps": 0,
+    "features": 142
+  },
+  {
+    "project": "30-ui-bench",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 8.0,
+    "stories": 8.0,
+    "gaps": 0,
+    "features": 3
+  },
+  {
+    "project": "32-logging",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 9.0,
+    "stories": 9.0,
+    "gaps": 0,
+    "features": 3
+  },
+  {
+    "project": "34-AIRA",
+    "mti": 50,
+    "coverage": 100.0,
+    "covered": 8.0,
+    "stories": 8.0,
+    "gaps": 0,
+    "features": 3
+  }
+]

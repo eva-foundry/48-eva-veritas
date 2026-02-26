@@ -1,0 +1,73 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0904-ado-import-artifacts-live.log
+
+=== ADO Import: 40-eva-control-plane ===
+Project maturity : active
+GitHub repo      : eva-foundry/40-eva-control-plane
+Dry run          : False
+
+Epic: creating '40-eva-control-plane'
+  -> Epic id=2399
+Feature: creating 'ARTIFACT_ID API [ID=F40-ARTIFACT_ID]'
+  -> Feature id=2400
+Feature: creating 'EVIDENCE_ID API [ID=F40-EVIDENCE_ID]'
+  -> Feature id=2401
+Feature: creating 'RUN_ID API [ID=F40-RUN_ID]'
+  -> Feature id=2402
+Feature: creating 'Runbooks implemented'
+  -> Feature id=2403
+Feature: creating 'Runtime API (port 8020)'
+  -> Feature id=2404
+Feature: existing id=885 - 'Quick start'
+Feature: creating 'Relationship with 37-data-model'
+  -> Feature id=2405
+Feature: creating 'Evidence pack schema'
+  -> Feature id=2406
+Feature: creating 'Guardrails enforced'
+  -> Feature id=2407
+Feature: existing id=437 - 'HEALTH API'
+Feature: creating 'ARTIFACT_ID API'
+  -> Feature id=2408
+Feature: creating 'EVIDENCE_ID API'
+  -> Feature id=2409
+Feature: creating 'RUN_ID API'
+  -> Feature id=2410
+PBI: creating '[F40-01-001] GET /{artifact_id} [ID=F40-ARTIFACT_ID-001]'
+  -> PBI id=2411
+PBI: creating '[F40-02-001] GET /{evidence_id} [ID=F40-EVIDENCE_ID-001]'
+  -> PBI id=2412
+PBI: creating '[F40-03-001] GET /{run_id} [ID=F40-RUN_ID-001]'
+  -> PBI id=2413
+PBI: creating '[F40-03-002] PATCH /{run_id} [ID=F40-RUN_ID-002]'
+  -> PBI id=2414
+PBI: creating '[F40-HEALTH-001] GET /health'
+  -> PBI id=2415
+PBI: creating '[F40-ARTIFACT_ID-001] GET /{artifact_id}'
+  -> PBI id=2416
+PBI: creating '[F40-EVIDENCE_ID-001] GET /{evidence_id}'
+  -> PBI id=2417
+PBI: creating '[F40-RUN_ID-001] GET /{run_id}'
+  -> PBI id=2418
+PBI: creating '[F40-RUN_ID-002] PATCH /{run_id}'
+  -> PBI id=2419
+
+=== Import Summary: 40-eva-control-plane ===
+Epic id  : 2399
+Features : 13
+PBIs     : 9
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag                [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---                [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F40-01-001          2411 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-02-001          2412 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-03-001          2413 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-03-002          2414 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-HEALTH-001      2415 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-ARTIFACT_ID-001 2416 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-EVIDENCE_ID-001 2417 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-RUN_ID-001      2418 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F40-RUN_ID-002      2419 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+

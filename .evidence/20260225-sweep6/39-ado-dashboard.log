@@ -1,0 +1,99 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\39-ado-dashboard
+[INFO] Prefix: F39
+[INFO] Enrichment applied: code-structure (4 stories)
+[PASS] Written: C:\AICOE\eva-foundation\39-ado-dashboard\.eva\veritas-plan.json
+       8 features, 22 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID            Stories  Tasks  Title
+  ???????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F39-01               5      0  Sprint Plan
+  F39-02               7      0  ADO Setup Checklist (do once)
+  F39-03               0      0  Environment Variables Needed
+  F39-04               6      0  31-eva-faces Integration Checklist
+  F39-05               0      0  Relationship to eva-faces
+  F39-DASHBOARD        2      0  DASHBOARD API
+  F39-SUMMARY          2      0  SUMMARY API
+  F39-UI               4      0  UI Pages
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F39-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\39-ado-dashboard
+[INFO] Using veritas-plan.json (format: veritas, 26 stories, 0 tasks)
+[INFO] Planned: 8 features, 26 stories
+[INFO] Actual: 32 artifacts, 22 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\39-ado-dashboard\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\39-ado-dashboard\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\39-ado-dashboard\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 39-ado-dashboard ??? EVA ADO Dashboard
+=======================================
+Repo:    C:\AICOE\eva-foundation\39-ado-dashboard
+Planned: 8 features, 26 stories
+
+Coverage
+---------------------------------------
+Stories total:          26
+Stories with artifacts: 26
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F39-01     Sprint Plan                     5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F39-02     ADO Setup Checklist (do once)   7/7 artifacts  0/7 evidence  0 gaps
+[  0] F39-03     Environment Variables Needed    0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F39-04     31-eva-faces Integration Check  6/6 artifacts  0/6 evidence  0 gaps
+[  0] F39-05     Relationship to eva-faces       0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F39-DASHBOARD DASHBOARD API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F39-SUMMARY SUMMARY API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F39-UI     UI Pages                        4/4 artifacts  0/4 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F39-01-001 -- Sprint 1 ? Backend + APIM gateway *(blocked on WI-7 deploy)* (1 artifact)
+[IMPL] F39-01-002 -- Sprint 2 ? EVA Home page *(can start in parallel with Sprint 1)* (1 artifact)
+[IMPL] F39-01-003 -- Sprint 3 ? Sprint Board page (1 artifact)
+[IMPL] F39-01-004 -- Sprint 4 ? Velocity + entity tags (1 artifact)
+[IMPL] F39-01-005 -- Milestone backlog (post-Sprint 4) (1 artifact)
+[IMPL] F39-02-001 -- Create Feature `EVA ADO Dashboard` under Epic id=4 in ADO (1 artifact)
+[IMPL] F39-02-002 -- Create WI-0 through WI-6 as User Stories (1 artifact)
+[IMPL] F39-02-003 -- Set sprint assignments per table above (1 artifact)
+[IMPL] F39-02-004 -- Link WI-1 ? WI-7 (Blocked By) (1 artifact)
+[IMPL] F39-02-005 -- Set `ADO_EPIC_ID=4` in `33-eva-brain-v2` `.env` (1 artifact)
+[IMPL] F39-02-006 -- Set `ADO_PAT`, `ADO_ORG_URL`, `ADO_PROJECT` in brain `.env` (1 artifact)
+[IMPL] F39-02-007 -- Create Cosmos container `scrum-cache` (see Sprint 1 setup above) (1 artifact)
+[IMPL] F39-04-001 -- Build `EVAHomePage` per epic spec (route `/`) (1 artifact)
+[IMPL] F39-04-002 -- Build `SprintBoardPage` per epic spec (route `/devops/sprint`) (1 artifact)
+[IMPL] F39-04-003 -- Add "Sprint Board" to sidebar nav (role guard: `viewer` and above) (1 artifact)
+[IMPL] F39-04-004 -- Wire `userRole`, `userName`, `defaultLocale` from eva-faces auth context (1 artifact)
+[IMPL] F39-04-005 -- Confirm CORS / auth headers flow through APIM for `/v1/scrum/*` (1 artifact)
+[IMPL] F39-04-006 -- Create ADO WIs FACES-WI-A, FACES-WI-B, FACES-WI-C under eva-faces Feature (1 artifact)
+[IMPL] F39-DASHBOARD-001 -- GET /dashboard (1 artifact)
+[IMPL] F39-DASHBOARD-001 -- GET /dashboard (1 artifact)
+[IMPL] F39-SUMMARY-001 -- GET /summary (1 artifact)
+[IMPL] F39-SUMMARY-001 -- GET /summary (1 artifact)
+[IMPL] F39-UI-001 -- EVAHOMEPAGE page (1 artifact)
+[IMPL] F39-UI-002 -- SPRINTBOARDP page (1 artifact)
+[IMPL] F39-UI-001 -- EVAHOMEPAGE page (1 artifact)
+[IMPL] F39-UI-002 -- SPRINTBOARDP page (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

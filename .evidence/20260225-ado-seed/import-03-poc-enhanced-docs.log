@@ -1,0 +1,96 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0852-ado-import-artifacts-live.log
+
+=== ADO Import: 03-poc-enhanced-docs ===
+Project maturity : poc
+GitHub repo      : eva-foundry/03-poc-enhanced-docs
+Dry run          : False
+
+Epic: creating '03-poc-enhanced-docs'
+  -> Epic id=255
+Feature: existing id=229 - 'Timeline: 3 Weeks (15 working days)'
+Feature: creating 'Week 1: Diagram Generation (Days 1-5)'
+  -> Feature id=256
+Feature: creating 'Week 2: Enhanced Markdown + MkDocs Setup (Days 6-10)'
+  -> Feature id=257
+Feature: creating 'Week 3: Interactive Features + Deployment (Days 11-15)'
+  -> Feature id=258
+Feature: existing id=233 - 'Success Criteria'
+Feature: existing id=234 - 'Risk Mitigation'
+Feature: creating 'Integration with POC #1'
+  -> Feature id=259
+Feature: existing id=236 - 'Next Steps After POC'
+Feature: creating 'Collaboration with POC #1'
+  -> Feature id=260
+PBI: creating '[F03-02-001] Day 1: Diagram Generator Tool Foundation'
+  -> PBI id=261
+PBI: creating '[F03-02-002] Day 2: Mermaid Diagram Templates (Part 1)'
+  -> PBI id=262
+PBI: creating '[F03-02-003] Day 3: Diagram Generation - Architecture & Security (Phase 00-01)'
+  -> PBI id=263
+PBI: creating '[F03-02-004] Day 4: Diagram Generation - Platform & Data/AI (Phase 02-03)'
+  -> PBI id=264
+PBI: creating '[F03-02-005] Day 5: Diagram Generation - Remaining Phases + Review'
+  -> PBI id=265
+PBI: creating '[F03-03-001] Day 6: Markdown Enhancer Tool'
+  -> PBI id=266
+PBI: creating '[F03-03-002] Day 7: Enhance Markdown Files (Part 1: Phases 00-02)'
+  -> PBI id=267
+PBI: creating '[F03-03-003] Day 8: Enhance Markdown Files (Part 2: Phases 03-99)'
+  -> PBI id=268
+PBI: creating '[F03-03-004] Day 9: MkDocs Configuration (Part 1: Basic Setup)'
+  -> PBI id=269
+PBI: creating '[F03-03-005] Day 10: MkDocs Configuration (Part 2: ESDC Branding)'
+  -> PBI id=270
+PBI: creating '[F03-04-001] Day 11: Interactive Features (Part 1: Tooltips & Zoom)'
+  -> PBI id=271
+PBI: creating '[F03-04-002] Day 12: Interactive Features (Part 2: Navigation & UX)'
+  -> PBI id=272
+PBI: creating '[F03-04-003] Day 13: Testing (Cross-Browser, Accessibility, Performance)'
+  -> PBI id=273
+PBI: creating '[F03-04-004] Day 14: Deployment to Azure Static Web Apps'
+  -> PBI id=274
+PBI: creating '[F03-04-005] Day 15: Documentation, Demo Video, and POC Presentation'
+  -> PBI id=275
+PBI: creating '[F03-05-001] Diagram Generation'
+  -> PBI id=276
+PBI: creating '[F03-05-002] Enhanced Markdown'
+  -> PBI id=277
+PBI: creating '[F03-05-003] MkDocs Site'
+  -> PBI id=278
+PBI: creating '[F03-05-004] Testing & Quality'
+  -> PBI id=279
+PBI: creating '[F03-05-005] Deployment'
+  -> PBI id=280
+
+=== Import Summary: 03-poc-enhanced-docs ===
+Epic id  : 255
+Features : 9
+PBIs     : 20
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F03-02-001 261 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-02-002 262 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-02-003 263 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-02-004 264 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-02-005 265 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-03-001 266 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-03-002 267 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-03-003 268 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-03-004 269 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-03-005 270 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-04-001 271 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-04-002 272 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-04-003 273 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-04-004 274 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-04-005 275 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-05-001 276 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-05-002 277 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-05-003 278 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-05-004 279 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F03-05-005 280 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

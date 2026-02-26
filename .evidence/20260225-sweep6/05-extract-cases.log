@@ -1,0 +1,80 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\05-extract-cases
+[INFO] Prefix: F05
+[PASS] Written: C:\AICOE\eva-foundation\05-extract-cases\.eva\veritas-plan.json
+       8 features, 8 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F05-01        0      0  Purpose (Phase-1, authoritative)
+  F05-02        0      0  Non-goals (explicit)
+  F05-03        5      0  Authoritative Phase-1 data flow
+  F05-04        0      0  Canonical `metadata_storage_path` (critical)
+  F05-05        0      0  Why case-level (for future developers)
+  F05-06        3      0  Dry-run, validation, and deterministic failures
+  F05-07        0      0  Notes on repository contents
+  F05-08        0      0  Future evolution (out of scope for Project 05 Phase-1)
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F05-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\05-extract-cases
+[INFO] Using veritas-plan.json (format: veritas, 8 stories, 0 tasks)
+[INFO] Planned: 8 features, 8 stories
+[INFO] Actual: 68 artifacts, 8 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\05-extract-cases\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\05-extract-cases\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\05-extract-cases\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 05-Extract-Cases (Project 05)
+=======================================
+Repo:    C:\AICOE\eva-foundation\05-extract-cases
+Planned: 8 features, 8 stories
+
+Coverage
+---------------------------------------
+Stories total:          8
+Stories with artifacts: 8
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F05-01     Purpose (Phase-1, authoritativ  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F05-02     Non-goals (explicit)            0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F05-03     Authoritative Phase-1 data flo  5/5 artifacts  0/5 evidence  0 gaps
+[  0] F05-04     Canonical `metadata_storage_pa  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F05-05     Why case-level (for future dev  0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F05-06     Dry-run, validation, and deter  3/3 artifacts  0/3 evidence  0 gaps
+[  0] F05-07     Notes on repository contents    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F05-08     Future evolution (out of scope  0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F05-03-001 -- 1) Input (1 artifact)
+[IMPL] F05-03-002 -- 2) Aggregation strategy (1 artifact)
+[IMPL] F05-03-003 -- 3) Metadata enrichment (Plan-2) (1 artifact)
+[IMPL] F05-03-004 -- 4) Export (1 artifact)
+[IMPL] F05-03-005 -- 5) Ingestion (1 artifact)
+[IMPL] F05-06-001 -- Standard usage (random selection): (1 artifact)
+[IMPL] F05-06-002 -- CSV-driven selection (for accuracy testing): (1 artifact)
+[IMPL] F05-06-003 -- Expected files in `--out`: (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

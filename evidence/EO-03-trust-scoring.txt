@@ -1,0 +1,27 @@
+EVA-STORY: EO-03-001
+EVA-STORY: EO-03-002
+EVA-FEATURE: EO-03
+
+EVIDENCE: EO-03 Trust Scoring (MTI)
+Phase 1 -- COMPLETE 2026-02-24 09:32 ET
+Test run: 2026-02-24 13:02 ET (self-audit)
+
+EO-03-001 -- Implement MTI formula
+  Artifacts: src/lib/trust.js, src/compute-trust.js
+  [PASS] node src/cli.js compute-trust --repo .
+  [PASS] formula: (coverage*0.5 + evidence*0.2 + consistency*0.3) * 100
+  [PASS] Weights: coverage=0.5, evidence=0.2, consistency=0.3
+         Note: evidence weight reduced from 0.4 to 0.2 until evidence/ convention adopted
+  [PASS] Ungoverned guard: 0 stories -> score=null, action=add-governance
+  [PASS] trust.json written: score=62, components breakdown included
+
+EO-03-002 -- Map score to allowed actions
+  Artifacts: src/lib/trust.js, src/compute-trust.js
+  [PASS] 90+ -> [deploy, merge, release]
+  [PASS] 70+ -> [test, review, merge-with-approval]
+  [PASS] 50+ -> [review-required, no-deploy]
+  [PASS] <50  -> [block, investigate]
+  [PASS] null -> [add-governance]
+  [PASS] Self-audit result: score=62 -> actions=[review-required, no-deploy]
+  [PASS] Staleness guard: trust.prev.json written on each compute
+  [PASS] MTI trend delta computed (no change on repeat run)

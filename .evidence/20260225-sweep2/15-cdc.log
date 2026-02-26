@@ -1,0 +1,88 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\15-cdc
+[INFO] Prefix: F15
+[PASS] Written: C:\AICOE\eva-foundation\15-cdc\.eva\veritas-plan.json
+       10 features, 1 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F15-01        0      0  Purpose
+  F15-02        0      0  ?????? Prerequisites (Week 0 - MUST COMPLETE FIRST)
+  F15-03        0      0  Quick Start
+  F15-04        1      0  Architecture Overview
+  F15-05        0      0  Key Concepts
+  F15-06        0      0  Documentation Index
+  F15-07        0      0  Implementation Status
+  F15-08        0      0  Quick Reference
+  F15-09        0      0  Contributing
+  F15-10        0      0  References
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F15-04-001
+[INFO] Discovering: C:\AICOE\eva-foundation\15-cdc
+[INFO] Using veritas-plan.json (format: free-form, 1 stories, 0 tasks)
+[INFO] Planned: 10 features, 1 stories
+[INFO] Actual: 31 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\15-cdc\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\15-cdc\.eva\reconciliation.json
+[INFO] Gaps: 1
+[PASS] trust written: C:\AICOE\eva-foundation\15-cdc\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: CDC (Change Data Capture) for MS-InfoJP Jurisprudence Corpus
+=======================================
+Repo:    C:\AICOE\eva-foundation\15-cdc
+Planned: 10 features, 1 stories
+
+Coverage
+---------------------------------------
+Stories total:          1
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F15-04-001 -- Two-Plane Architecture
+
+Feature Breakdown
+---------------------------------------
+[  0] F15-04     Architecture Overview           0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F15-01     Purpose                         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-02     ?????? Prerequisites (Week 0 - MUS  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-03     Quick Start                     0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-05     Key Concepts                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-06     Documentation Index             0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-07     Implementation Status           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-08     Quick Reference                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-09     Contributing                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-10     References                      0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 1 more story with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 2 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 2 more stories with # EVA-STORY
+
+[ACT] 1 unimplemented stories by feature (highest priority first):
+      F15-04 Architecture Overview (1 gap)
+        - F15-04-001 -- Two-Plane Architecture
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

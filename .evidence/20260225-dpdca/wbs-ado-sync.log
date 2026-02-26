@@ -1,0 +1,87 @@
+[10:53:23] [STEP1] Loading WBS records with ado_id...
+[10:53:24]   WBS total=2964  linked=1869  filter_project=''  filter_level=''
+[10:53:24] [STEP2] Fetching ADO fields (State, IterationPath, StoryPoints, AssignedTo)...
+[10:55:15] [STEP1] Loading WBS records with ado_id...
+[10:55:16]   WBS total=2964  linked=1869  filter_project=''  filter_level=''
+[10:55:16] [STEP2] Fetching ADO fields (State, IterationPath, StoryPoints, AssignedTo)...
+[10:55:29] [STEP1] Loading WBS records with ado_id...
+[10:55:30]   WBS total=2964  linked=1869  filter_project=''  filter_level=''
+[10:55:30] [STEP2] Fetching ADO fields (State, IterationPath, StoryPoints, AssignedTo)...
+[10:55:30]   batch 1: 200 items
+[10:55:30]   batch 2: 200 items
+[10:55:31]   batch 3: 200 items
+[10:55:31]   batch 4: 200 items
+[10:55:31]   batch 5: 200 items
+[10:55:31]   batch 6: 200 items
+[10:55:32]   batch 7: 200 items
+[10:55:32]   batch 8: 200 items
+[10:55:32]   batch 9: 200 items
+[10:55:33]   batch 10: 69 items
+[10:55:33]   ADO data fetched: 1869
+[10:55:33] [STEP3] Fetching sprint calendar from ADO...
+[10:55:34]   sprints found: 16 (with dates: 0)
+[10:55:34] [STEP4] Syncing WBS records...
+[10:55:34]   updated=1869  unchanged=0  no_data=0  failed=0
+[10:55:34] [STEP6] Spot-check...
+[10:55:55] [STEP1] Loading WBS records with ado_id...
+[10:55:56]   WBS total=2964  linked=1869  filter_project=''  filter_level=''
+[10:55:56] [STEP2] Fetching ADO fields (State, IterationPath, StoryPoints, AssignedTo)...
+[10:55:56]   batch 1: 200 items
+[10:55:57]   batch 2: 200 items
+[10:55:57]   batch 3: 200 items
+[10:55:57]   batch 4: 200 items
+[10:55:57]   batch 5: 200 items
+[10:55:58]   batch 6: 200 items
+[10:55:58]   batch 7: 200 items
+[10:55:58]   batch 8: 200 items
+[10:55:58]   batch 9: 200 items
+[10:55:58]   batch 10: 69 items
+[10:55:58]   ADO data fetched: 1869
+[10:55:58] [STEP3] Fetching sprint calendar from ADO...
+[10:55:58]   sprints found: 16 (with dates: 0)
+[10:55:58] [STEP4] Syncing WBS records...
+[10:55:58]   updated=1869  unchanged=0  no_data=0  failed=0
+[10:55:58] [STEP6] Spot-check...
+[10:55:58]   [INFO] Dry-run mode -- showing proposed changes (no live verify)
+[10:55:58]   PROPOSED F12-04-003: status=planned sprint=Sprint-Backlog sp=
+[10:55:58]   PROPOSED F12-06-002: status=planned sprint=Sprint-Backlog sp=
+[10:55:58]   PROPOSED F20-04-001: status=planned sprint=Sprint-Backlog sp=
+[10:55:58]   PROPOSED F26-ADMIN-006: status=planned sprint=Sprint-Backlog sp=
+[10:55:58]   PROPOSED F02-02-005: status=planned sprint=Sprint-Backlog sp=
+[10:55:58] 
+[10:55:58] === WBS-ADO SYNC COMPLETE (20260225-105555) ===
+[10:55:58]   updated=1869  unchanged=0  failed=0
+[10:55:58]   sprint_calendar=16 sprints  spot=1/1  mode=DRY-RUN
+[10:55:58]   [PASS]
+[10:55:58]   evidence: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-dpdca\wbs-ado-sync-20260225-105555.json
+[10:56:05] [STEP1] Loading WBS records with ado_id...
+[10:56:05]   WBS total=2964  linked=1869  filter_project=''  filter_level=''
+[10:56:05] [STEP2] Fetching ADO fields (State, IterationPath, StoryPoints, AssignedTo)...
+[10:56:06]   batch 1: 200 items
+[10:56:06]   batch 2: 200 items
+[10:56:06]   batch 3: 200 items
+[10:56:06]   batch 4: 200 items
+[10:56:07]   batch 5: 200 items
+[10:56:07]   batch 6: 200 items
+[10:56:07]   batch 7: 200 items
+[10:56:07]   batch 8: 200 items
+[10:56:07]   batch 9: 200 items
+[10:56:07]   batch 10: 69 items
+[10:56:07]   ADO data fetched: 1869
+[10:56:07] [STEP3] Fetching sprint calendar from ADO...
+[10:56:07]   sprints found: 16 (with dates: 0)
+[10:56:07] [STEP4] Syncing WBS records...
+[10:58:12]   updated=1869  unchanged=0  no_data=0  failed=0
+[10:58:12] [STEP5] Upserting sprint definitions to data model...
+[10:58:13] [STEP6] Spot-check...
+[10:58:13]   SPOT F11-INFRA-047: status=planned sprint=Sprint-Backlog --> [PASS]
+[10:58:13]   SPOT F03-04-001: status=planned sprint=Sprint-Backlog --> [PASS]
+[10:58:13]   SPOT F28-09-003: status=planned sprint=Sprint-Backlog --> [PASS]
+[10:58:13]   SPOT F42-OPS-007: status=planned sprint=Sprint-Backlog --> [PASS]
+[10:58:13]   SPOT F42-ENTITIES-003: status=planned sprint=Sprint-Backlog --> [PASS]
+[10:58:13] 
+[10:58:13] === WBS-ADO SYNC COMPLETE (20260225-105605) ===
+[10:58:13]   updated=1869  unchanged=0  failed=0
+[10:58:13]   sprint_calendar=16 sprints  spot=5/5  mode=LIVE
+[10:58:13]   [PASS]
+[10:58:13]   evidence: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-dpdca\wbs-ado-sync-20260225-105605.json

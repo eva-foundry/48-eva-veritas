@@ -1,0 +1,77 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\15-cdc
+[INFO] Prefix: F15
+[PASS] Written: C:\AICOE\eva-foundation\15-cdc\.eva\veritas-plan.json
+       10 features, 1 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F15-01        0      0  Purpose
+  F15-02        0      0  ?? Prerequisites (Week 0 - MUST COMPLETE FIRST)
+  F15-03        0      0  Quick Start
+  F15-04        1      0  Architecture Overview
+  F15-05        0      0  Key Concepts
+  F15-06        0      0  Documentation Index
+  F15-07        0      0  Implementation Status
+  F15-08        0      0  Quick Reference
+  F15-09        0      0  Contributing
+  F15-10        0      0  References
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F15-04-001
+[INFO] Discovering: C:\AICOE\eva-foundation\15-cdc
+[INFO] Using veritas-plan.json (format: veritas, 1 stories, 0 tasks)
+[INFO] Planned: 10 features, 1 stories
+[INFO] Actual: 32 artifacts, 1 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\15-cdc\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\15-cdc\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\15-cdc\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: CDC (Change Data Capture) for MS-InfoJP Jurisprudence Corpus
+=======================================
+Repo:    C:\AICOE\eva-foundation\15-cdc
+Planned: 10 features, 1 stories
+
+Coverage
+---------------------------------------
+Stories total:          1
+Stories with artifacts: 1
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F15-01     Purpose                         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-02     ?? Prerequisites (Week 0 - MUS  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-03     Quick Start                     0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F15-04     Architecture Overview           1/1 artifacts  0/1 evidence  0 gaps
+[  0] F15-05     Key Concepts                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-06     Documentation Index             0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-07     Implementation Status           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-08     Quick Reference                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-09     Contributing                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F15-10     References                      0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F15-04-001 -- Two-Plane Architecture (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

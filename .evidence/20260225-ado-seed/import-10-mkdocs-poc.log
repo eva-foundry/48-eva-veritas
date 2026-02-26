@@ -1,0 +1,121 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0853-ado-import-artifacts-live.log
+
+=== ADO Import: 10-mkdocs-poc ===
+Project maturity : poc
+GitHub repo      : eva-foundry/10-mkdocs-poc
+Dry run          : False
+
+Epic: creating '10-mkdocs-poc'
+  -> Epic id=386
+Feature: existing id=376 - 'Executive Summary'
+Feature: creating 'Goals'
+  -> Feature id=387
+Feature: creating 'Quick Start (Zero-Setup Execution)'
+  -> Feature id=388
+Feature: existing id=208 - 'Project Structure'
+Feature: creating 'MkDocs Sample Content'
+  -> Feature id=389
+Feature: creating 'Hosting Test Strategy'
+  -> Feature id=390
+Feature: creating 'Validation Checklist'
+  -> Feature id=391
+Feature: existing id=233 - 'Success Criteria'
+Feature: creating 'Technology Stack'
+  -> Feature id=392
+Feature: creating 'Key Findings (To Be Updated Post-Testing)'
+  -> Feature id=393
+Feature: existing id=354 - 'References'
+Feature: creating 'Maintainers'
+  -> Feature id=394
+Feature: existing id=355 - 'Change Log'
+PBI: creating '[F10-02-001] Primary Objectives'
+  -> PBI id=395
+PBI: creating '[F10-02-002] Secondary Objectives'
+  -> PBI id=396
+PBI: creating '[F10-03-001] Prerequisites'
+  -> PBI id=397
+PBI: creating '[F10-03-002] Run the PoC'
+  -> PBI id=398
+PBI: creating '[F10-03-003] Manual Execution (for development)'
+  -> PBI id=399
+PBI: creating '[F10-05-001] Asset Integration (98+ Files from EVA-JP-reference-0113)'
+  -> PBI id=400
+PBI: creating '[F10-05-002] Content Validation Points'
+  -> PBI id=401
+PBI: creating '[F10-05-003] Example Pages'
+  -> PBI id=402
+PBI: creating '[F10-06-001] Test 1: SharePoint Online Document Library'
+  -> PBI id=403
+PBI: creating '[F10-06-002] Test 2: Azure Static Website (Baseline)'
+  -> PBI id=404
+PBI: creating '[F10-07-001] MkDocs site builds without errors (validated with `mkdocs build`)'
+  -> PBI id=405
+PBI: creating '[F10-07-002] Link validation script created (`mkdocs-sample/scripts/validate_links.py`)'
+  -> PBI id=406
+PBI: creating '[F10-07-003] Navigation sidebar renders correctly (manual browser test required)'
+  -> PBI id=407
+PBI: creating '[F10-07-004] Internal links navigate correctly (run link validator)'
+  -> PBI id=408
+PBI: creating '[F10-07-005] Deep links scroll to anchors (manual test required)'
+  -> PBI id=409
+PBI: creating '[F10-07-006] Tables render properly (manual test required)'
+  -> PBI id=410
+PBI: creating '[F10-07-007] Callouts/admonitions display correctly (manual test required)'
+  -> PBI id=411
+PBI: creating '[F10-07-008] Code blocks have syntax highlighting (manual test required)'
+  -> PBI id=412
+PBI: creating '[F10-07-009] CSS/JS assets load without 404s (check browser DevTools)'
+  -> PBI id=413
+PBI: creating '[F10-07-010] Mobile responsive design works (manual test required)'
+  -> PBI id=414
+PBI: creating '[F10-08-001] Phase 1: Generation ? **COMPLETE**'
+  -> PBI id=415
+PBI: creating '[F10-08-002] Phase 2: SharePoint Online Testing ? **READY TO START**'
+  -> PBI id=416
+PBI: creating '[F10-08-003] Phase 3: Azure Static Website Testing ? **READY TO START**'
+  -> PBI id=417
+PBI: creating '[F10-08-004] Phase 4: Analysis & Recommendation ? **BLOCKED** (Requires Phase 2 & 3)'
+  -> PBI id=418
+PBI: creating '[F10-10-001] SharePoint Online'
+  -> PBI id=419
+PBI: creating '[F10-10-002] Azure Static Website'
+  -> PBI id=420
+
+=== Import Summary: 10-mkdocs-poc ===
+Epic id  : 386
+Features : 13
+PBIs     : 26
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F10-02-001 395 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-02-002 396 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-03-001 397 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-03-002 398 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-03-003 399 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-05-001 400 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-05-002 401 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-05-003 402 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-06-001 403 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-06-002 404 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-001 405 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-002 406 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-003 407 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-004 408 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-005 409 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-006 410 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-007 411 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-008 412 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-009 413 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-07-010 414 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-08-001 415 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-08-002 416 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-08-003 417 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-08-004 418 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-10-001 419 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F10-10-002 420 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.9962166-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/30-ui-bench",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-30",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "30-ui-bench",
+    "description": "30-ui-bench",
+    "tags": "30-ui-bench;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F30-01",
+      "type": "Feature",
+      "title": "Component Scaffolding",
+      "description": "Component Scaffolding",
+      "tags": "30-ui-bench;F30-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F30-02",
+      "type": "Feature",
+      "title": "Component Demos",
+      "description": "Component Demos",
+      "tags": "30-ui-bench;F30-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F30-03",
+      "type": "Feature",
+      "title": "Accessibility Validation",
+      "description": "Accessibility Validation",
+      "tags": "30-ui-bench;F30-03",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F30-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F30-01-001] Fluent UI v9 environment setup",
+      "acceptance_criteria": "Fluent UI v9 environment setup",
+      "tags": "30-ui-bench;F30-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-01",
+      "state": "New",
+      "wbs_id": "F30-01-001"
+    },
+    {
+      "id_hint": "F30-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F30-01-002] Core component inventory",
+      "acceptance_criteria": "Core component inventory",
+      "tags": "30-ui-bench;F30-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-01",
+      "state": "New",
+      "wbs_id": "F30-01-002"
+    },
+    {
+      "id_hint": "F30-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F30-01-003] Theme token exploration",
+      "acceptance_criteria": "Theme token exploration",
+      "tags": "30-ui-bench;F30-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-01",
+      "state": "New",
+      "wbs_id": "F30-01-003"
+    },
+    {
+      "id_hint": "F30-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F30-02-001] Navigation and layout patterns",
+      "acceptance_criteria": "Navigation and layout patterns",
+      "tags": "30-ui-bench;F30-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-02",
+      "state": "New",
+      "wbs_id": "F30-02-001"
+    },
+    {
+      "id_hint": "F30-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F30-02-002] Form controls and validation",
+      "acceptance_criteria": "Form controls and validation",
+      "tags": "30-ui-bench;F30-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-02",
+      "state": "New",
+      "wbs_id": "F30-02-002"
+    },
+    {
+      "id_hint": "F30-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F30-02-003] Data table and grid patterns",
+      "acceptance_criteria": "Data table and grid patterns",
+      "tags": "30-ui-bench;F30-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-02",
+      "state": "New",
+      "wbs_id": "F30-02-003"
+    },
+    {
+      "id_hint": "F30-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F30-03-001] WCAG 2.1 AA compliance check",
+      "acceptance_criteria": "WCAG 2.1 AA compliance check",
+      "tags": "30-ui-bench;F30-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-03",
+      "state": "New",
+      "wbs_id": "F30-03-001"
+    },
+    {
+      "id_hint": "F30-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F30-03-002] Keyboard navigation test",
+      "acceptance_criteria": "Keyboard navigation test",
+      "tags": "30-ui-bench;F30-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F30-03",
+      "state": "New",
+      "wbs_id": "F30-03-002"
+    }
+  ]
+}

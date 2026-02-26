@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.6977300-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/16-engineered-case-law",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-16",
+  "stream": "WBS-S-AI",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "16-engineered-case-law",
+    "description": "16-engineered-case-law",
+    "tags": "16-engineered-case-law;WBS-S-AI",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F16-01",
+      "type": "Feature",
+      "title": "Status",
+      "description": "Status",
+      "tags": "16-engineered-case-law;F16-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-02",
+      "type": "Feature",
+      "title": "1. Context and Problem Statement",
+      "description": "1. Context and Problem Statement",
+      "tags": "16-engineered-case-law;F16-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-03",
+      "type": "Feature",
+      "title": "2. What ?Engineered Case Law? Means",
+      "description": "2. What ?Engineered Case Law? Means",
+      "tags": "16-engineered-case-law;F16-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-04",
+      "type": "Feature",
+      "title": "3. Core Principles (Non-Negotiable)",
+      "description": "3. Core Principles (Non-Negotiable)",
+      "tags": "16-engineered-case-law;F16-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-05",
+      "type": "Feature",
+      "title": "4. High-Level Ingestion Flow",
+      "description": "4. High-Level Ingestion Flow",
+      "tags": "16-engineered-case-law;F16-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-06",
+      "type": "Feature",
+      "title": "5. Artifact Strategy",
+      "description": "5. Artifact Strategy",
+      "tags": "16-engineered-case-law;F16-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-07",
+      "type": "Feature",
+      "title": "6. Text Extraction Strategy (Cost-Optimal)",
+      "description": "6. Text Extraction Strategy (Cost-Optimal)",
+      "tags": "16-engineered-case-law;F16-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-08",
+      "type": "Feature",
+      "title": "7. Bilingual Handling",
+      "description": "7. Bilingual Handling",
+      "tags": "16-engineered-case-law;F16-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-09",
+      "type": "Feature",
+      "title": "8. Engineered Case Law Generation (ECL v2.1)",
+      "description": "8. Engineered Case Law Generation (ECL v2.1)",
+      "tags": "16-engineered-case-law;F16-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-10",
+      "type": "Feature",
+      "title": "9. EVA DA Ingestion and Testing",
+      "description": "9. EVA DA Ingestion and Testing",
+      "tags": "16-engineered-case-law;F16-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-11",
+      "type": "Feature",
+      "title": "10. Measuring ?Does This Work??",
+      "description": "10. Measuring ?Does This Work??",
+      "tags": "16-engineered-case-law;F16-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-12",
+      "type": "Feature",
+      "title": "11. Known Risks (Acknowledged)",
+      "description": "11. Known Risks (Acknowledged)",
+      "tags": "16-engineered-case-law;F16-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-13",
+      "type": "Feature",
+      "title": "12. What This Enables",
+      "description": "12. What This Enables",
+      "tags": "16-engineered-case-law;F16-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F16-14",
+      "type": "Feature",
+      "title": "13. Completed Achievements & Next Steps",
+      "description": "13. Completed Achievements & Next Steps",
+      "tags": "16-engineered-case-law;F16-14",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F16-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F16-04-001] 3.1 The corpus is process-managed, not snapshot-managed",
+      "acceptance_criteria": "3.1 The corpus is process-managed, not snapshot-managed",
+      "tags": "16-engineered-case-law;F16-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-04",
+      "state": "New",
+      "wbs_id": "F16-04-001"
+    },
+    {
+      "id_hint": "F16-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F16-04-002] 3.2 CanLII is the authoritative discovery layer",
+      "acceptance_criteria": "3.2 CanLII is the authoritative discovery layer",
+      "tags": "16-engineered-case-law;F16-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-04",
+      "state": "New",
+      "wbs_id": "F16-04-002"
+    },
+    {
+      "id_hint": "F16-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F16-04-003] 3.3 Case is the canonical unit",
+      "acceptance_criteria": "3.3 Case is the canonical unit",
+      "tags": "16-engineered-case-law;F16-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-04",
+      "state": "New",
+      "wbs_id": "F16-04-003"
+    },
+    {
+      "id_hint": "F16-04-004",
+      "type": "Product Backlog Item",
+      "title": "[F16-04-004] 3.4 Cost must scale with *change*, not corpus size",
+      "acceptance_criteria": "3.4 Cost must scale with *change*, not corpus size",
+      "tags": "16-engineered-case-law;F16-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-04",
+      "state": "New",
+      "wbs_id": "F16-04-004"
+    },
+    {
+      "id_hint": "F16-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F16-06-001] 5.1 PoC Approach: SQLite as Convenience Source",
+      "acceptance_criteria": "5.1 PoC Approach: SQLite as Convenience Source",
+      "tags": "16-engineered-case-law;F16-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-06",
+      "state": "New",
+      "wbs_id": "F16-06-001"
+    },
+    {
+      "id_hint": "F16-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F16-06-002] 5.2 PDFs (Referenced, Not Re-Extracted)",
+      "acceptance_criteria": "5.2 PDFs (Referenced, Not Re-Extracted)",
+      "tags": "16-engineered-case-law;F16-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-06",
+      "state": "New",
+      "wbs_id": "F16-06-002"
+    },
+    {
+      "id_hint": "F16-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F16-06-003] 5.3 HTML Pages (Metadata Source)",
+      "acceptance_criteria": "5.3 HTML Pages (Metadata Source)",
+      "tags": "16-engineered-case-law;F16-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-06",
+      "state": "New",
+      "wbs_id": "F16-06-003"
+    },
+    {
+      "id_hint": "F16-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F16-07-001] Default Path",
+      "acceptance_criteria": "Default Path",
+      "tags": "16-engineered-case-law;F16-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-07",
+      "state": "New",
+      "wbs_id": "F16-07-001"
+    },
+    {
+      "id_hint": "F16-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F16-07-002] Selective OCR",
+      "acceptance_criteria": "Selective OCR",
+      "tags": "16-engineered-case-law;F16-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-07",
+      "state": "New",
+      "wbs_id": "F16-07-002"
+    },
+    {
+      "id_hint": "F16-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F16-09-001] 8.1 Canonical Case Text",
+      "acceptance_criteria": "8.1 Canonical Case Text",
+      "tags": "16-engineered-case-law;F16-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-09",
+      "state": "New",
+      "wbs_id": "F16-09-001"
+    },
+    {
+      "id_hint": "F16-09-002",
+      "type": "Product Backlog Item",
+      "title": "[F16-09-002] 8.2 Micro-Header Chunking System (EPIC 6 - 80% Complete)",
+      "acceptance_criteria": "8.2 Micro-Header Chunking System (EPIC 6 - 80% Complete)",
+      "tags": "16-engineered-case-law;F16-09-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-09",
+      "state": "New",
+      "wbs_id": "F16-09-002"
+    },
+    {
+      "id_hint": "F16-09-003",
+      "type": "Product Backlog Item",
+      "title": "[F16-09-003] 8.3 ECL v2.1 Document Structure",
+      "acceptance_criteria": "8.3 ECL v2.1 Document Structure",
+      "tags": "16-engineered-case-law;F16-09-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-09",
+      "state": "New",
+      "wbs_id": "F16-09-003"
+    },
+    {
+      "id_hint": "F16-11-001",
+      "type": "Product Backlog Item",
+      "title": "[F16-11-001] 10.1 Retrieval Quality",
+      "acceptance_criteria": "10.1 Retrieval Quality",
+      "tags": "16-engineered-case-law;F16-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-11",
+      "state": "New",
+      "wbs_id": "F16-11-001"
+    },
+    {
+      "id_hint": "F16-11-002",
+      "type": "Product Backlog Item",
+      "title": "[F16-11-002] 10.2 Citation Correctness",
+      "acceptance_criteria": "10.2 Citation Correctness",
+      "tags": "16-engineered-case-law;F16-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-11",
+      "state": "New",
+      "wbs_id": "F16-11-002"
+    },
+    {
+      "id_hint": "F16-11-003",
+      "type": "Product Backlog Item",
+      "title": "[F16-11-003] 10.3 Freshness and Coverage",
+      "acceptance_criteria": "10.3 Freshness and Coverage",
+      "tags": "16-engineered-case-law;F16-11-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-11",
+      "state": "New",
+      "wbs_id": "F16-11-003"
+    },
+    {
+      "id_hint": "F16-14-001",
+      "type": "Product Backlog Item",
+      "title": "[F16-14-001] ? Completed (February 1, 2026)",
+      "acceptance_criteria": "? Completed (February 1, 2026)",
+      "tags": "16-engineered-case-law;F16-14-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-14",
+      "state": "New",
+      "wbs_id": "F16-14-001"
+    },
+    {
+      "id_hint": "F16-14-002",
+      "type": "Product Backlog Item",
+      "title": "[F16-14-002] ? Next Steps (PoC Phase Priority)",
+      "acceptance_criteria": "? Next Steps (PoC Phase Priority)",
+      "tags": "16-engineered-case-law;F16-14-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F16-14",
+      "state": "New",
+      "wbs_id": "F16-14-002"
+    }
+  ]
+}

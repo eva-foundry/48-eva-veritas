@@ -1,0 +1,73 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0904-ado-import-artifacts-live.log
+
+=== ADO Import: 38-ado-poc ===
+Project maturity : active
+GitHub repo      : eva-foundry/38-ado-poc
+Dry run          : False
+
+Epic: creating '38-ado-poc'
+  -> Epic id=2351
+Feature: creating '1. Problem Statement'
+  -> Feature id=2352
+Feature: creating '2. Solution: EVA ADO Command Center'
+  -> Feature id=2353
+Feature: creating '3. Architecture ? 5 Layers'
+  -> Feature id=2354
+Feature: creating '4. Data Flow: ADO ? `37-data-model`'
+  -> Feature id=2355
+Feature: creating '5. Design Decisions'
+  -> Feature id=2356
+Feature: creating '6. Phasing'
+  -> Feature id=2357
+PBI: creating '[F38-03-001] Layer 1: `29-foundry` ? Central Agentic Capabilities Hub'
+  -> PBI id=2358
+PBI: creating '[F38-03-002] Layer 2: `38-ado-poc` ? EVA ADO Command Center (this repo)'
+  -> PBI id=2359
+PBI: creating '[F38-03-003] Layer 3: Project Runners'
+  -> PBI id=2360
+PBI: creating '[F38-03-004] Layer 4: `17-apim` ? API Gateway + Cost Attribution'
+  -> PBI id=2361
+PBI: creating '[F38-03-005] Layer 5: `39-ado-dashboard` ? EVA Portal + ADO Views'
+  -> PBI id=2362
+PBI: creating '[F38-05-001] D1: Isolated personal org first, ESDC-AICoE later'
+  -> PBI id=2363
+PBI: creating '[F38-05-002] D2: Scrum process template'
+  -> PBI id=2364
+PBI: creating '[F38-05-003] D3: Two-call PBI state (create then PATCH)'
+  -> PBI id=2365
+PBI: creating '[F38-05-004] D4: PAT never in any file'
+  -> PBI id=2366
+PBI: creating '[F38-05-005] D5: Tags as semantic WI identifiers'
+  -> PBI id=2367
+PBI: creating '[F38-05-006] D6: `29-foundry` as single skill master'
+  -> PBI id=2368
+PBI: creating '[F38-05-007] D7: ADO is source of truth over `SESSION-STATE.md`'
+  -> PBI id=2369
+PBI: creating '[F38-05-008] D8: Cost attribution is a first-class architectural concern, not a FinOps add-on'
+  -> PBI id=2370
+
+=== Import Summary: 38-ado-poc ===
+Epic id  : 2351
+Features : 6
+PBIs     : 13
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F38-03-001 2358 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-03-002 2359 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-03-003 2360 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-03-004 2361 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-03-005 2362 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-001 2363 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-002 2364 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-003 2365 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-004 2366 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-005 2367 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-006 2368 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-007 2369 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F38-05-008 2370 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

@@ -1,0 +1,251 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\08-cds-rag
+[INFO] Prefix: F08
+[INFO] Enrichment applied: code-structure (150 stories)
+[PASS] Written: C:\AICOE\eva-foundation\08-cds-rag\.eva\veritas-plan.json
+       18 features, 8 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID           Stories  Tasks  Title
+  ????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F08-01              3      0  AI Answers Platform Review
+  F08-02              3      0  Analysis Artifacts
+  F08-03              2      0  Integration Recommendations
+  F08-HEALTH          1      0  HEALTH API
+  F08-READY           1      0  READY API
+  F08-CHAT           32      0  CHAT API
+  F08-CONFIGJS        2      0  CONFIGJS API
+  F08-UTIL            4      0  UTIL API
+  F08-VECTOR          6      0  VECTOR API
+  F08-DB             34      0  DB API
+  F08-EVAL            8      0  EVAL API
+  F08-FEEDBACK       12      0  FEEDBACK API
+  F08-BATCH          16      0  BATCH API
+  F08-AUTH           16      0  AUTH API
+  F08-USER            2      0  USER API
+  F08-SETTING         2      0  SETTING API
+  F08-METRICS        12      0  METRICS API
+  F08-SEARCH          2      0  SEARCH API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F08-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\08-cds-rag
+[INFO] Using veritas-plan.json (format: veritas, 158 stories, 0 tasks)
+[INFO] Planned: 18 features, 158 stories
+[INFO] Actual: 615 artifacts, 158 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\08-cds-rag\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\08-cds-rag\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\08-cds-rag\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 08-cds-rag
+=======================================
+Repo:    C:\AICOE\eva-foundation\08-cds-rag
+Planned: 18 features, 158 stories
+
+Coverage
+---------------------------------------
+Stories total:          158
+Stories with artifacts: 158
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F08-01     AI Answers Platform Review      3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F08-02     Analysis Artifacts              3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F08-03     Integration Recommendations     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F08-AUTH   AUTH API                        16/16 artifacts  0/16 evidence  0 gaps
+[ 50] F08-BATCH  BATCH API                       16/16 artifacts  0/16 evidence  0 gaps
+[ 50] F08-CHAT   CHAT API                        32/32 artifacts  0/32 evidence  0 gaps
+[ 50] F08-CONFIGJS CONFIGJS API                    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F08-DB     DB API                          34/34 artifacts  0/34 evidence  0 gaps
+[ 50] F08-EVAL   EVAL API                        8/8 artifacts  0/8 evidence  0 gaps
+[ 50] F08-FEEDBACK FEEDBACK API                    12/12 artifacts  0/12 evidence  0 gaps
+[ 50] F08-HEALTH HEALTH API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F08-METRICS METRICS API                     12/12 artifacts  0/12 evidence  0 gaps
+[ 50] F08-READY  READY API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F08-SEARCH SEARCH API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F08-SETTING SETTING API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F08-USER   USER API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F08-UTIL   UTIL API                        4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F08-VECTOR VECTOR API                      6/6 artifacts  0/6 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F08-01-001 -- Ingest and survey ai-answers source repository (1 artifact)
+[IMPL] F08-01-002 -- Document CDS chat architecture patterns (1 artifact)
+[IMPL] F08-01-003 -- Identify reusable RAG components (1 artifact)
+[IMPL] F08-02-001 -- Comparative RAG pipeline analysis (1 artifact)
+[IMPL] F08-02-002 -- Dataset quality and coverage assessment (1 artifact)
+[IMPL] F08-02-003 -- Gap analysis vs EVA RAG approach (1 artifact)
+[IMPL] F08-03-001 -- Component reuse feasibility report (1 artifact)
+[IMPL] F08-03-002 -- Integration spike recommendations (1 artifact)
+[IMPL] F08-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F08-READY-001 -- GET /ready (1 artifact)
+[IMPL] F08-CHAT-001 -- GET /api/chat/chat-session-availability (1 artifact)
+[IMPL] F08-CHAT-002 -- POST /api/chat/chat-persist-interaction (1 artifact)
+[IMPL] F08-CHAT-003 -- GET /api/chat/chat-create (1 artifact)
+[IMPL] F08-CHAT-004 -- GET /api/chat/chat-session-metrics (1 artifact)
+[IMPL] F08-CHAT-005 -- POST /api/chat/chat-report (1 artifact)
+[IMPL] F08-CHAT-006 -- POST /api/chat/chat-session-fingerprint (1 artifact)
+[IMPL] F08-CHAT-007 -- DELETE /api/chat/chat-delete (1 artifact)
+[IMPL] F08-CHAT-008 -- GET /api/chat/chat-dashboard (1 artifact)
+[IMPL] F08-CHAT-009 -- GET /api/chat/chat-export-logs (1 artifact)
+[IMPL] F08-CHAT-010 -- POST /api/chat/chat-message (1 artifact)
+[IMPL] F08-CHAT-011 -- POST /api/chat/chat-context (1 artifact)
+[IMPL] F08-CHAT-012 -- POST /api/chat/chat-similar-answer (1 artifact)
+[IMPL] F08-CHAT-013 -- POST /api/chat/chat-pii-check (1 artifact)
+[IMPL] F08-CHAT-014 -- POST /api/chat/chat-detect-language (1 artifact)
+[IMPL] F08-CHAT-015 -- POST /api/chat/chat-translate (1 artifact)
+[IMPL] F08-CHAT-016 -- POST /api/chat/chat-graph-run (1 artifact)
+[IMPL] F08-CHAT-017 -- GET /api/chat/chat-session-availability (1 artifact)
+[IMPL] F08-CHAT-018 -- POST /api/chat/chat-persist-interaction (1 artifact)
+[IMPL] F08-CHAT-019 -- GET /api/chat/chat-create (1 artifact)
+[IMPL] F08-CHAT-020 -- GET /api/chat/chat-session-metrics (1 artifact)
+[IMPL] F08-CHAT-021 -- POST /api/chat/chat-report (1 artifact)
+[IMPL] F08-CHAT-022 -- POST /api/chat/chat-session-fingerprint (1 artifact)
+[IMPL] F08-CHAT-023 -- DELETE /api/chat/chat-delete (1 artifact)
+[IMPL] F08-CHAT-024 -- GET /api/chat/chat-dashboard (1 artifact)
+[IMPL] F08-CHAT-025 -- GET /api/chat/chat-export-logs (1 artifact)
+[IMPL] F08-CHAT-026 -- POST /api/chat/chat-message (1 artifact)
+[IMPL] F08-CHAT-027 -- POST /api/chat/chat-context (1 artifact)
+[IMPL] F08-CHAT-028 -- POST /api/chat/chat-similar-answer (1 artifact)
+[IMPL] F08-CHAT-029 -- POST /api/chat/chat-pii-check (1 artifact)
+[IMPL] F08-CHAT-030 -- POST /api/chat/chat-detect-language (1 artifact)
+[IMPL] F08-CHAT-031 -- POST /api/chat/chat-translate (1 artifact)
+[IMPL] F08-CHAT-032 -- POST /api/chat/chat-graph-run (1 artifact)
+[IMPL] F08-CONFIGJS-001 -- GET /config.js (1 artifact)
+[IMPL] F08-CONFIGJS-002 -- GET /config.js (1 artifact)
+[IMPL] F08-UTIL-001 -- GET /api/util/util-check-url (1 artifact)
+[IMPL] F08-UTIL-002 -- GET /api/util/util-connectivity (1 artifact)
+[IMPL] F08-UTIL-003 -- GET /api/util/util-check-url (1 artifact)
+[IMPL] F08-UTIL-004 -- GET /api/util/util-connectivity (1 artifact)
+[IMPL] F08-VECTOR-001 -- POST /api/vector/vector-reinitialize (1 artifact)
+[IMPL] F08-VECTOR-002 -- GET /api/vector/vector-similar-chats (1 artifact)
+[IMPL] F08-VECTOR-003 -- GET /api/vector/vector-stats (1 artifact)
+[IMPL] F08-VECTOR-004 -- POST /api/vector/vector-reinitialize (1 artifact)
+[IMPL] F08-VECTOR-005 -- GET /api/vector/vector-similar-chats (1 artifact)
+[IMPL] F08-VECTOR-006 -- GET /api/vector/vector-stats (1 artifact)
+[IMPL] F08-DB-001 -- GET /api/db/db-public-eval-list (1 artifact)
+[IMPL] F08-DB-002 -- GET /api/db/db-chat (1 artifact)
+[IMPL] F08-DB-003 -- GET /api/db/db-check (1 artifact)
+[IMPL] F08-DB-004 -- POST /api/db/db-log (1 artifact)
+[IMPL] F08-DB-005 -- GET /api/db/db-log (1 artifact)
+[IMPL] F08-DB-006 -- GET /api/db/db-chat-logs (1 artifact)
+[IMPL] F08-DB-007 -- POST /api/db/db-delete-expert-eval (1 artifact)
+[IMPL] F08-DB-008 -- POST /api/db/db-generate-embeddings (1 artifact)
+[IMPL] F08-DB-009 -- POST /api/db/db-generate-evals (1 artifact)
+[IMPL] F08-DB-010 -- DELETE /api/db/db-delete-system-logs (1 artifact)
+[IMPL] F08-DB-011 -- GET /api/db/db-expert-feedback-count (1 artifact)
+[IMPL] F08-DB-012 -- GET /api/db/db-eval-metrics (1 artifact)
+[IMPL] F08-DB-013 -- GET /api/db/db-eval-non-empty-count (1 artifact)
+[IMPL] F08-DB-014 -- GET /api/db/db-table-counts (1 artifact)
+[IMPL] F08-DB-015 -- POST /api/db/db-repair-timestamps (1 artifact)
+[IMPL] F08-DB-016 -- POST /api/db/db-repair-expert-feedback (1 artifact)
+[IMPL] F08-DB-017 -- POST /api/db/db-migrate-public-feedback (1 artifact)
+[IMPL] F08-DB-018 -- GET /api/db/db-public-eval-list (1 artifact)
+[IMPL] F08-DB-019 -- GET /api/db/db-chat (1 artifact)
+[IMPL] F08-DB-020 -- GET /api/db/db-check (1 artifact)
+[IMPL] F08-DB-021 -- POST /api/db/db-log (1 artifact)
+[IMPL] F08-DB-022 -- GET /api/db/db-log (1 artifact)
+[IMPL] F08-DB-023 -- GET /api/db/db-chat-logs (1 artifact)
+[IMPL] F08-DB-024 -- POST /api/db/db-delete-expert-eval (1 artifact)
+[IMPL] F08-DB-025 -- POST /api/db/db-generate-embeddings (1 artifact)
+[IMPL] F08-DB-026 -- POST /api/db/db-generate-evals (1 artifact)
+[IMPL] F08-DB-027 -- DELETE /api/db/db-delete-system-logs (1 artifact)
+[IMPL] F08-DB-028 -- GET /api/db/db-expert-feedback-count (1 artifact)
+[IMPL] F08-DB-029 -- GET /api/db/db-eval-metrics (1 artifact)
+[IMPL] F08-DB-030 -- GET /api/db/db-eval-non-empty-count (1 artifact)
+[IMPL] F08-DB-031 -- GET /api/db/db-table-counts (1 artifact)
+[IMPL] F08-DB-032 -- POST /api/db/db-repair-timestamps (1 artifact)
+[IMPL] F08-DB-033 -- POST /api/db/db-repair-expert-feedback (1 artifact)
+[IMPL] F08-DB-034 -- POST /api/db/db-migrate-public-feedback (1 artifact)
+[IMPL] F08-EVAL-001 -- POST /api/eval/eval-get (1 artifact)
+[IMPL] F08-EVAL-002 -- POST /api/eval/eval-delete (1 artifact)
+[IMPL] F08-EVAL-003 -- POST /api/eval/eval-run (1 artifact)
+[IMPL] F08-EVAL-004 -- GET /api/eval/eval-dashboard (1 artifact)
+[IMPL] F08-EVAL-005 -- POST /api/eval/eval-get (1 artifact)
+[IMPL] F08-EVAL-006 -- POST /api/eval/eval-delete (1 artifact)
+[IMPL] F08-EVAL-007 -- POST /api/eval/eval-run (1 artifact)
+[IMPL] F08-EVAL-008 -- GET /api/eval/eval-dashboard (1 artifact)
+[IMPL] F08-FEEDBACK-001 -- POST /api/feedback/feedback-persist-expert (1 artifact)
+[IMPL] F08-FEEDBACK-002 -- POST /api/feedback/feedback-persist-public (1 artifact)
+[IMPL] F08-FEEDBACK-003 -- POST /api/feedback/feedback-get-expert (1 artifact)
+[IMPL] F08-FEEDBACK-004 -- POST /api/feedback/feedback-get-public (1 artifact)
+[IMPL] F08-FEEDBACK-005 -- POST /api/feedback/feedback-delete-expert (1 artifact)
+[IMPL] F08-FEEDBACK-006 -- POST /api/feedback/feedback-expert-never-stale (1 artifact)
+[IMPL] F08-FEEDBACK-007 -- POST /api/feedback/feedback-persist-expert (1 artifact)
+[IMPL] F08-FEEDBACK-008 -- POST /api/feedback/feedback-persist-public (1 artifact)
+[IMPL] F08-FEEDBACK-009 -- POST /api/feedback/feedback-get-expert (1 artifact)
+[IMPL] F08-FEEDBACK-010 -- POST /api/feedback/feedback-get-public (1 artifact)
+[IMPL] F08-FEEDBACK-011 -- POST /api/feedback/feedback-delete-expert (1 artifact)
+[IMPL] F08-FEEDBACK-012 -- POST /api/feedback/feedback-expert-never-stale (1 artifact)
+[IMPL] F08-BATCH-001 -- GET /api/batch/batch-list (1 artifact)
+[IMPL] F08-BATCH-002 -- GET /api/batch/batch-retrieve (1 artifact)
+[IMPL] F08-BATCH-003 -- POST /api/batch/batch-persist (1 artifact)
+[IMPL] F08-BATCH-004 -- POST /api/batch/batch-items-upsert (1 artifact)
+[IMPL] F08-BATCH-005 -- POST /api/batch/batch-register-chatid (1 artifact)
+[IMPL] F08-BATCH-006 -- DELETE /api/batch/batch-delete (1 artifact)
+[IMPL] F08-BATCH-007 -- DELETE /api/batch/batch-delete-all (1 artifact)
+[IMPL] F08-BATCH-008 -- GET /api/batch/batch-stats (1 artifact)
+[IMPL] F08-BATCH-009 -- GET /api/batch/batch-list (1 artifact)
+[IMPL] F08-BATCH-010 -- GET /api/batch/batch-retrieve (1 artifact)
+[IMPL] F08-BATCH-011 -- POST /api/batch/batch-persist (1 artifact)
+[IMPL] F08-BATCH-012 -- POST /api/batch/batch-items-upsert (1 artifact)
+[IMPL] F08-BATCH-013 -- POST /api/batch/batch-register-chatid (1 artifact)
+[IMPL] F08-BATCH-014 -- DELETE /api/batch/batch-delete (1 artifact)
+[IMPL] F08-BATCH-015 -- DELETE /api/batch/batch-delete-all (1 artifact)
+[IMPL] F08-BATCH-016 -- GET /api/batch/batch-stats (1 artifact)
+[IMPL] F08-AUTH-001 -- POST /api/auth/auth-signup (1 artifact)
+[IMPL] F08-AUTH-002 -- POST /api/auth/auth-login (1 artifact)
+[IMPL] F08-AUTH-003 -- POST /api/auth/auth-logout (1 artifact)
+[IMPL] F08-AUTH-004 -- GET /api/auth/auth-me (1 artifact)
+[IMPL] F08-AUTH-005 -- POST /api/auth/auth-verify-2fa (1 artifact)
+[IMPL] F08-AUTH-006 -- POST /api/auth/auth-send-2fa (1 artifact)
+[IMPL] F08-AUTH-007 -- POST /api/auth/auth-send-reset (1 artifact)
+[IMPL] F08-AUTH-008 -- POST /api/auth/auth-reset-password (1 artifact)
+[IMPL] F08-AUTH-009 -- POST /api/auth/auth-signup (1 artifact)
+[IMPL] F08-AUTH-010 -- POST /api/auth/auth-login (1 artifact)
+[IMPL] F08-AUTH-011 -- POST /api/auth/auth-logout (1 artifact)
+[IMPL] F08-AUTH-012 -- GET /api/auth/auth-me (1 artifact)
+[IMPL] F08-AUTH-013 -- POST /api/auth/auth-verify-2fa (1 artifact)
+[IMPL] F08-AUTH-014 -- POST /api/auth/auth-send-2fa (1 artifact)
+[IMPL] F08-AUTH-015 -- POST /api/auth/auth-send-reset (1 artifact)
+[IMPL] F08-AUTH-016 -- POST /api/auth/auth-reset-password (1 artifact)
+[IMPL] F08-USER-001 -- GET /api/user/user-stats (1 artifact)
+[IMPL] F08-USER-002 -- GET /api/user/user-stats (1 artifact)
+[IMPL] F08-SETTING-001 -- GET /api/setting/setting-public-handler (1 artifact)
+[IMPL] F08-SETTING-002 -- GET /api/setting/setting-public-handler (1 artifact)
+[IMPL] F08-METRICS-001 -- GET /api/metrics/metrics-usage (1 artifact)
+[IMPL] F08-METRICS-002 -- GET /api/metrics/metrics-sessions (1 artifact)
+[IMPL] F08-METRICS-003 -- GET /api/metrics/metrics-expert-feedback (1 artifact)
+[IMPL] F08-METRICS-004 -- GET /api/metrics/metrics-ai-eval (1 artifact)
+[IMPL] F08-METRICS-005 -- GET /api/metrics/metrics-public-feedback (1 artifact)
+[IMPL] F08-METRICS-006 -- GET /api/metrics/metrics-departments (1 artifact)
+[IMPL] F08-METRICS-007 -- GET /api/metrics/metrics-usage (1 artifact)
+[IMPL] F08-METRICS-008 -- GET /api/metrics/metrics-sessions (1 artifact)
+[IMPL] F08-METRICS-009 -- GET /api/metrics/metrics-expert-feedback (1 artifact)
+[IMPL] F08-METRICS-010 -- GET /api/metrics/metrics-ai-eval (1 artifact)
+[IMPL] F08-METRICS-011 -- GET /api/metrics/metrics-public-feedback (1 artifact)
+[IMPL] F08-METRICS-012 -- GET /api/metrics/metrics-departments (1 artifact)
+[IMPL] F08-SEARCH-001 -- POST /api/search/search-context (1 artifact)
+[IMPL] F08-SEARCH-002 -- POST /api/search/search-context (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

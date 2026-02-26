@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1195343-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/41-eva-cli",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-41",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "41-eva-cli",
+    "description": "41-eva-cli",
+    "tags": "41-eva-cli;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F41-01",
+      "type": "Feature",
+      "title": "What it is",
+      "description": "What it is",
+      "tags": "41-eva-cli;F41-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-02",
+      "type": "Feature",
+      "title": "Status  ?  2026-02-21",
+      "description": "Status  ?  2026-02-21",
+      "tags": "41-eva-cli;F41-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-03",
+      "type": "Feature",
+      "title": "Installation",
+      "description": "Installation",
+      "tags": "41-eva-cli;F41-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-04",
+      "type": "Feature",
+      "title": "Quick start",
+      "description": "Quick start",
+      "tags": "41-eva-cli;F41-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-05",
+      "type": "Feature",
+      "title": "Credential setup",
+      "description": "Credential setup",
+      "tags": "41-eva-cli;F41-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-06",
+      "type": "Feature",
+      "title": "Command reference",
+      "description": "Command reference",
+      "tags": "41-eva-cli;F41-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-07",
+      "type": "Feature",
+      "title": "Evidence ID format",
+      "description": "Evidence ID format",
+      "tags": "41-eva-cli;F41-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-08",
+      "type": "Feature",
+      "title": "Architecture",
+      "description": "Architecture",
+      "tags": "41-eva-cli;F41-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-09",
+      "type": "Feature",
+      "title": "Ecosystem links",
+      "description": "Ecosystem links",
+      "tags": "41-eva-cli;F41-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F41-10",
+      "type": "Feature",
+      "title": "Next implementation steps",
+      "description": "Next implementation steps",
+      "tags": "41-eva-cli;F41-10",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F41-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-001] Global flags (all commands)",
+      "acceptance_criteria": "Global flags (all commands)",
+      "tags": "41-eva-cli;F41-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-001"
+    },
+    {
+      "id_hint": "F41-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-002] `eva init [--from-artifacts PATH] [--force]`",
+      "acceptance_criteria": "`eva init [--from-artifacts PATH] [--force]`",
+      "tags": "41-eva-cli;F41-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-002"
+    },
+    {
+      "id_hint": "F41-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-003] `eva context show / set`",
+      "acceptance_criteria": "`eva context show / set`",
+      "tags": "41-eva-cli;F41-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-003"
+    },
+    {
+      "id_hint": "F41-06-004",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-004] `eva ado create <type> --title <text> [--parent <id>]`",
+      "acceptance_criteria": "`eva ado create <type> --title <text> [--parent <id>]`",
+      "tags": "41-eva-cli;F41-06-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-004"
+    },
+    {
+      "id_hint": "F41-06-005",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-005] `eva ado update <id> [--state <state>] [--assigned-to <email>]`",
+      "acceptance_criteria": "`eva ado update <id> [--state <state>] [--assigned-to <email>]`",
+      "tags": "41-eva-cli;F41-06-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-005"
+    },
+    {
+      "id_hint": "F41-06-006",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-006] `eva ado link <id> [--pr <url>] [--evidence <id>]`",
+      "acceptance_criteria": "`eva ado link <id> [--pr <url>] [--evidence <id>]`",
+      "tags": "41-eva-cli;F41-06-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-006"
+    },
+    {
+      "id_hint": "F41-06-007",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-007] `eva gh pr-show <pr>`",
+      "acceptance_criteria": "`eva gh pr-show <pr>`",
+      "tags": "41-eva-cli;F41-06-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-007"
+    },
+    {
+      "id_hint": "F41-06-008",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-008] `eva gh pr-check <pr>`",
+      "acceptance_criteria": "`eva gh pr-check <pr>`",
+      "tags": "41-eva-cli;F41-06-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-008"
+    },
+    {
+      "id_hint": "F41-06-009",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-009] `eva runbook list / show <id> / run <id> [--env] [--dry-run]`",
+      "acceptance_criteria": "`eva runbook list / show <id> / run <id> [--env] [--dry-run]`",
+      "tags": "41-eva-cli;F41-06-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-009"
+    },
+    {
+      "id_hint": "F41-06-010",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-010] `eva evidence show <id>`",
+      "acceptance_criteria": "`eva evidence show <id>`",
+      "tags": "41-eva-cli;F41-06-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-010"
+    },
+    {
+      "id_hint": "F41-06-011",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-011] `eva evidence verify <id>`",
+      "acceptance_criteria": "`eva evidence verify <id>`",
+      "tags": "41-eva-cli;F41-06-011",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-011"
+    },
+    {
+      "id_hint": "F41-06-012",
+      "type": "Product Backlog Item",
+      "title": "[F41-06-012] `eva promote dev --from-pr <pr> [--workitem <id>] [--dry-run]`",
+      "acceptance_criteria": "`eva promote dev --from-pr <pr> [--workitem <id>] [--dry-run]`",
+      "tags": "41-eva-cli;F41-06-012",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F41-06",
+      "state": "New",
+      "wbs_id": "F41-06-012"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+Projects: 49
+===========================================
+[INFO] Discovering: C:\AICOE\eva-foundation\01-documentation-generator
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 96 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\01-documentation-generator\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\01-documentation-generator\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\01-documentation-generator\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\02-poc-agent-skills
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 14 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\02-poc-agent-skills\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\02-poc-agent-skills\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\02-poc-agent-skills\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\03-poc-enhanced-docs
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 5 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\04-os-vnext
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 8 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\04-os-vnext\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\04-os-vnext\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\04-os-vnext\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\05-extract-cases
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 67 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\05-extract-cases\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\05-extract-cases\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\05-extract-cases\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\06-jp-auto-extraction
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 72 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\06-jp-auto-extraction\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\06-jp-auto-extraction\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\06-jp-auto-extraction\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\07-foundation-layer
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 102 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\07-foundation-layer\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\07-foundation-layer\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\07-foundation-layer\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\08-cds-rag
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 613 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\08-cds-rag\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\08-cds-rag\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\08-cds-rag\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\09-eva-repo-documentation
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 132 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\10-mkdocs-poc
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 281 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\10-mkdocs-poc\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\10-mkdocs-poc\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\10-mkdocs-poc\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\11-ms-infojp
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 532 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\12-work-spc-reorg
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 4 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\13-vscode-tools
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 10 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\13-vscode-tools\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\13-vscode-tools\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\13-vscode-tools\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\14-az-finops
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 129 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\14-az-finops\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\14-az-finops\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\14-az-finops\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\15-cdc
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 31 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\15-cdc\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\15-cdc\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\15-cdc\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\16-engineered-case-law
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 44 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\16-engineered-case-law\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\16-engineered-case-law\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\16-engineered-case-law\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\17-apim
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 58 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\17-apim\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\17-apim\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\17-apim\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\18-azure-best
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 3970 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\18-azure-best\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\18-azure-best\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\18-azure-best\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\19-ai-gov
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 33 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\19-ai-gov\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\19-ai-gov\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\19-ai-gov\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\20-AssistMe
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 35 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\20-AssistMe\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\20-AssistMe\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\20-AssistMe\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\21-habit-tracker
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 80 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\22-rg-sandbox
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 63 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\23-ei-dsst-rewrite
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 16 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\23-ei-dsst-rewrite\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\23-ei-dsst-rewrite\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\23-ei-dsst-rewrite\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\24-eva-brain
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 78 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\24-eva-brain\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\24-eva-brain\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\24-eva-brain\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\25-eva-suite
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 67 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\25-eva-suite\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\25-eva-suite\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\25-eva-suite\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\26-eva-gh
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 10439 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\26-eva-gh\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\26-eva-gh\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\26-eva-gh\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\27-devbench
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 137 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\27-devbench\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\27-devbench\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\27-devbench\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\28-rbac
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 7 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\28-rbac\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\28-rbac\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\28-rbac\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\29-foundry
+[INFO] Using veritas-plan.json (format: veritas, 68 stories, 133 tasks)
+[INFO] Planned: 15 features, 68 stories
+[INFO] Actual: 458 artifacts, 64 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\29-foundry\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\29-foundry\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\29-foundry\.eva\trust.json (score: 100)
+[INFO] Discovering: C:\AICOE\eva-foundation\30-ui-bench
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 8 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\30-ui-bench\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\30-ui-bench\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\30-ui-bench\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\31-eva-faces
+[INFO] Using veritas-plan.json (format: free-form, 60 stories, 125 tasks)
+[INFO] Planned: 17 features, 60 stories
+[INFO] Actual: 607 artifacts, 45 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\31-eva-faces\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\31-eva-faces\.eva\reconciliation.json
+[INFO] Gaps: 15
+[PASS] trust written: C:\AICOE\eva-foundation\31-eva-faces\.eva\trust.json (score: 83)
+[INFO] Discovering: C:\AICOE\eva-foundation\32-logging
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 2 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\32-logging\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\32-logging\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\32-logging\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\33-eva-brain-v2
+[INFO] Using veritas-plan.json (format: free-form, 24 stories, 0 tasks)
+[INFO] Planned: 7 features, 24 stories
+[INFO] Actual: 321 artifacts, 28 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\reconciliation.json
+[INFO] Gaps: 4
+[PASS] trust written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\trust.json (score: 100)
+[INFO] Discovering: C:\AICOE\eva-foundation\34-AIRA
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 14 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\34-AIRA\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\34-AIRA\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\34-AIRA\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\35-agentic-code-fixing
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 49 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\36-red-teaming
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 33 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\36-red-teaming\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\36-red-teaming\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\36-red-teaming\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\37-data-model
+[INFO] Using veritas-plan.json (format: phase-sprint, 17 stories, 30 tasks)
+[INFO] Planned: 9 features, 17 stories
+[INFO] Actual: 165 artifacts, 17 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\37-data-model\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\37-data-model\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\37-data-model\.eva\trust.json (score: 100)
+[INFO] Discovering: C:\AICOE\eva-foundation\38-ado-poc
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 197 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\38-ado-poc\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\38-ado-poc\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\38-ado-poc\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\39-ado-dashboard
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 31 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\39-ado-dashboard\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\39-ado-dashboard\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\39-ado-dashboard\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\40-eva-control-plane
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 24 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\40-eva-control-plane\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\40-eva-control-plane\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\40-eva-control-plane\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\41-eva-cli
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 44 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\41-eva-cli\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\41-eva-cli\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\41-eva-cli\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\42-learn-foundry
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 21328 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\42-learn-foundry\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\42-learn-foundry\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\42-learn-foundry\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\43-spark
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 12 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\43-spark\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\43-spark\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\43-spark\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\44-eva-jp-spark
+[INFO] Using veritas-plan.json (format: phase-sprint, 7 stories, 0 tasks)
+[INFO] Planned: 7 features, 7 stories
+[INFO] Actual: 71 artifacts, 4 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\44-eva-jp-spark\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\44-eva-jp-spark\.eva\reconciliation.json
+[INFO] Gaps: 3
+[PASS] trust written: C:\AICOE\eva-foundation\44-eva-jp-spark\.eva\trust.json (score: 40)
+[INFO] Discovering: C:\AICOE\eva-foundation\45-aicoe-page
+[INFO] Using veritas-plan.json (format: veritas, 14 stories, 10 tasks)
+[INFO] Planned: 6 features, 14 stories
+[INFO] Actual: 50 artifacts, 14 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\45-aicoe-page\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\45-aicoe-page\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\45-aicoe-page\.eva\trust.json (score: 66)
+[INFO] Discovering: C:\AICOE\eva-foundation\46-accelerator
+[INFO] Planned: 6 features, 23 stories
+[INFO] Actual: 111 artifacts, 23 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\46-accelerator\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\46-accelerator\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\46-accelerator\.eva\trust.json (score: 70)
+[INFO] Discovering: C:\AICOE\eva-foundation\47-eva-mti
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 10 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\47-eva-mti\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\47-eva-mti\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\47-eva-mti\.eva\trust.json (score: 0)
+[INFO] Discovering: C:\AICOE\eva-foundation\48-eva-veritas
+[INFO] Using veritas-plan.json (format: veritas, 40 stories, 0 tasks)
+[INFO] Planned: 12 features, 40 stories
+[INFO] Actual: 81 artifacts, 40 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\48-eva-veritas\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\48-eva-veritas\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\48-eva-veritas\.eva\trust.json (score: 100)
+[INFO] Discovering: C:\AICOE\eva-foundation\49-eva-dtl
+[INFO] Using veritas-plan.json (format: veritas-plan-v1, 34 stories, 0 tasks)
+[INFO] Planned: 9 features, 34 stories
+[INFO] Actual: 55 artifacts, 34 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\49-eva-dtl\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\49-eva-dtl\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\49-eva-dtl\.eva\trust.json (score: 100)
+
+Project                           Stories  Coverage    MTI  Gaps  Actions
+--------------------------------------------------------------------------------
+01-documentation-generator              -       0/0      0     0  block,investigate
+02-poc-agent-skills                     -       0/0      0     0  block,investigate
+03-poc-enhanced-docs                    -       0/0      0     0  block,investigate
+04-os-vnext                             -       0/0      0     0  block,investigate
+05-extract-cases                        -       0/0      0     0  block,investigate
+06-jp-auto-extraction                   -       0/0      0     0  block,investigate
+07-foundation-layer                     -       0/0      0     0  block,investigate
+08-cds-rag                              -       0/0      0     0  block,investigate
+09-eva-repo-documentation               -       0/0      0     0  block,investigate
+10-mkdocs-poc                           -       0/0      0     0  block,investigate
+11-ms-infojp                            -       0/0      0     0  block,investigate
+12-work-spc-reorg                       -       0/0      0     0  block,investigate
+13-vscode-tools                         -       0/0      0     0  block,investigate
+14-az-finops                            -       0/0      0     0  block,investigate
+15-cdc                                  -       0/0      0     0  block,investigate
+16-engineered-case-law                  -       0/0      0     0  block,investigate
+17-apim                                 -       0/0      0     0  block,investigate
+18-azure-best                           -       0/0      0     0  block,investigate
+19-ai-gov                               -       0/0      0     0  block,investigate
+20-AssistMe                             -       0/0      0     0  block,investigate
+21-habit-tracker                        -       0/0      0     0  block,investigate
+22-rg-sandbox                           -       0/0      0     0  block,investigate
+23-ei-dsst-rewrite                      -       0/0      0     0  block,investigate
+24-eva-brain                            -       0/0      0     0  block,investigate
+25-eva-suite                            -       0/0      0     0  block,investigate
+26-eva-gh                               -       0/0      0     0  block,investigate
+27-devbench                             -       0/0      0     0  block,investigate
+28-rbac                                 -       0/0      0     0  block,investigate
+29-foundry                             68     68/68    100     0  deploy,merge,release
+30-ui-bench                             -       0/0      0     0  block,investigate
+31-eva-faces                           60     45/60     83    15  test,review,merge-with-approval
+32-logging                              -       0/0      0     0  block,investigate
+33-eva-brain-v2                        24     24/24    100     0  deploy,merge,release
+34-AIRA                                 -       0/0      0     0  block,investigate
+35-agentic-code-fixing                  -       0/0      0     0  block,investigate
+36-red-teaming                          -       0/0      0     0  block,investigate
+37-data-model                          17     17/17    100     0  deploy,merge,release
+38-ado-poc                              -       0/0      0     0  block,investigate
+39-ado-dashboard                        -       0/0      0     0  block,investigate
+40-eva-control-plane                    -       0/0      0     0  block,investigate
+41-eva-cli                              -       0/0      0     0  block,investigate
+42-learn-foundry                        -       0/0      0     0  block,investigate
+43-spark                                -       0/0      0     0  block,investigate
+44-eva-jp-spark                         7       4/7     40     3  block,investigate
+45-aicoe-page                          14     14/14     66     0  review-required,no-deploy
+46-accelerator                         23     23/23     70     0  test,review,merge-with-approval
+47-eva-mti                              -       0/0      0     0  block,investigate
+48-eva-veritas                         40     40/40    100     0  deploy,merge,release
+49-eva-dtl                             34     34/34    100     0  deploy,merge,release
+--------------------------------------------------------------------------------
+Portfolio MTI (49 governed projects)           15
+
+[SCAN_DONE]

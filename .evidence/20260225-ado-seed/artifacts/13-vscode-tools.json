@@ -1,0 +1,567 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.6888260-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/13-vscode-tools",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-13",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "13-vscode-tools",
+    "description": "13-vscode-tools",
+    "tags": "13-vscode-tools;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F13-01",
+      "type": "Feature",
+      "title": "Why This Project Exists",
+      "description": "Why This Project Exists",
+      "tags": "13-vscode-tools;F13-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-02",
+      "type": "Feature",
+      "title": "Goal",
+      "description": "Goal",
+      "tags": "13-vscode-tools;F13-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-03",
+      "type": "Feature",
+      "title": "Acceptance Criteria",
+      "description": "Acceptance Criteria",
+      "tags": "13-vscode-tools;F13-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-04",
+      "type": "Feature",
+      "title": "Complete Tool Inventory (156 Tools)",
+      "description": "Complete Tool Inventory (156 Tools)",
+      "tags": "13-vscode-tools;F13-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-05",
+      "type": "Feature",
+      "title": "Tools Mapped to Your Projects",
+      "description": "Tools Mapped to Your Projects",
+      "tags": "13-vscode-tools;F13-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-06",
+      "type": "Feature",
+      "title": "Priority Tiers: What to Master First",
+      "description": "Priority Tiers: What to Master First",
+      "tags": "13-vscode-tools;F13-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-07",
+      "type": "Feature",
+      "title": "Elimination List: Tools to Disable",
+      "description": "Elimination List: Tools to Disable",
+      "tags": "13-vscode-tools;F13-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-08",
+      "type": "Feature",
+      "title": "High-Impact Tool Usage Patterns",
+      "description": "High-Impact Tool Usage Patterns",
+      "tags": "13-vscode-tools;F13-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-09",
+      "type": "Feature",
+      "title": "Performance Baseline & Metrics",
+      "description": "Performance Baseline & Metrics",
+      "tags": "13-vscode-tools;F13-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-10",
+      "type": "Feature",
+      "title": "Next Steps",
+      "description": "Next Steps",
+      "tags": "13-vscode-tools;F13-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-11",
+      "type": "Feature",
+      "title": "The Beach Answer (Revisited)",
+      "description": "The Beach Answer (Revisited)",
+      "tags": "13-vscode-tools;F13-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-12",
+      "type": "Feature",
+      "title": "Appendix: Tool Selection Philosophy",
+      "description": "Appendix: Tool Selection Philosophy",
+      "tags": "13-vscode-tools;F13-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F13-13",
+      "type": "Feature",
+      "title": "Document Metadata",
+      "description": "Document Metadata",
+      "tags": "13-vscode-tools;F13-13",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F13-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-02-001] Key Questions This Project Answers",
+      "acceptance_criteria": "Key Questions This Project Answers",
+      "tags": "13-vscode-tools;F13-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-02",
+      "state": "New",
+      "wbs_id": "F13-02-001"
+    },
+    {
+      "id_hint": "F13-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-001] Built-In Core (7 tools)",
+      "acceptance_criteria": "Built-In Core (7 tools)",
+      "tags": "13-vscode-tools;F13-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-001"
+    },
+    {
+      "id_hint": "F13-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-002] File Operations (8 tools)",
+      "acceptance_criteria": "File Operations (8 tools)",
+      "tags": "13-vscode-tools;F13-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-002"
+    },
+    {
+      "id_hint": "F13-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-003] Development & Execution (10 tools)",
+      "acceptance_criteria": "Development & Execution (10 tools)",
+      "tags": "13-vscode-tools;F13-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-003"
+    },
+    {
+      "id_hint": "F13-04-004",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-004] Code Intelligence (5 tools)",
+      "acceptance_criteria": "Code Intelligence (5 tools)",
+      "tags": "13-vscode-tools;F13-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-004"
+    },
+    {
+      "id_hint": "F13-04-005",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-005] Project Generation (2 tools)",
+      "acceptance_criteria": "Project Generation (2 tools)",
+      "tags": "13-vscode-tools;F13-04-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-005"
+    },
+    {
+      "id_hint": "F13-04-006",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-006] Notebook Operations (2 tools)",
+      "acceptance_criteria": "Notebook Operations (2 tools)",
+      "tags": "13-vscode-tools;F13-04-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-006"
+    },
+    {
+      "id_hint": "F13-04-007",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-007] AI Agent Development (5 tools)",
+      "acceptance_criteria": "AI Agent Development (5 tools)",
+      "tags": "13-vscode-tools;F13-04-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-007"
+    },
+    {
+      "id_hint": "F13-04-008",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-008] Python Development (2 tools)",
+      "acceptance_criteria": "Python Development (2 tools)",
+      "tags": "13-vscode-tools;F13-04-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-008"
+    },
+    {
+      "id_hint": "F13-04-009",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-009] Java Development (6 tools)",
+      "acceptance_criteria": "Java Development (6 tools)",
+      "tags": "13-vscode-tools;F13-04-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-009"
+    },
+    {
+      "id_hint": "F13-04-010",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-010] Azure Services (25+ MCP tools)",
+      "acceptance_criteria": "Azure Services (25+ MCP tools)",
+      "tags": "13-vscode-tools;F13-04-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-010"
+    },
+    {
+      "id_hint": "F13-04-011",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-011] DevBox Management (8 MCP tools)",
+      "acceptance_criteria": "DevBox Management (8 MCP tools)",
+      "tags": "13-vscode-tools;F13-04-011",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-011"
+    },
+    {
+      "id_hint": "F13-04-012",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-012] Git & GitHub (15+ tools)",
+      "acceptance_criteria": "Git & GitHub (15+ tools)",
+      "tags": "13-vscode-tools;F13-04-012",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-012"
+    },
+    {
+      "id_hint": "F13-04-013",
+      "type": "Product Backlog Item",
+      "title": "[F13-04-013] Multi-Tool Execution (1 tool)",
+      "acceptance_criteria": "Multi-Tool Execution (1 tool)",
+      "tags": "13-vscode-tools;F13-04-013",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-04",
+      "state": "New",
+      "wbs_id": "F13-04-013"
+    },
+    {
+      "id_hint": "F13-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-05-001] ?? **CRITICAL for EVA AI Governance** (eva-ai-governance)",
+      "acceptance_criteria": "?? **CRITICAL for EVA AI Governance** (eva-ai-governance)",
+      "tags": "13-vscode-tools;F13-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-05",
+      "state": "New",
+      "wbs_id": "F13-05-001"
+    },
+    {
+      "id_hint": "F13-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F13-05-002] ?? **CRITICAL for Agent Skills Framework** (Project 02)",
+      "acceptance_criteria": "?? **CRITICAL for Agent Skills Framework** (Project 02)",
+      "tags": "13-vscode-tools;F13-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-05",
+      "state": "New",
+      "wbs_id": "F13-05-002"
+    },
+    {
+      "id_hint": "F13-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F13-05-003] ?? **CRITICAL for OS-vNext Workflows** (Project 04)",
+      "acceptance_criteria": "?? **CRITICAL for OS-vNext Workflows** (Project 04)",
+      "tags": "13-vscode-tools;F13-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-05",
+      "state": "New",
+      "wbs_id": "F13-05-003"
+    },
+    {
+      "id_hint": "F13-05-004",
+      "type": "Product Backlog Item",
+      "title": "[F13-05-004] ?? **HIGH for Copilot Instructions** (Project 07)",
+      "acceptance_criteria": "?? **HIGH for Copilot Instructions** (Project 07)",
+      "tags": "13-vscode-tools;F13-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-05",
+      "state": "New",
+      "wbs_id": "F13-05-004"
+    },
+    {
+      "id_hint": "F13-05-005",
+      "type": "Product Backlog Item",
+      "title": "[F13-05-005] ?? **HIGH for MS-InfoJP Deployment** (Project 11)",
+      "acceptance_criteria": "?? **HIGH for MS-InfoJP Deployment** (Project 11)",
+      "tags": "13-vscode-tools;F13-05-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-05",
+      "state": "New",
+      "wbs_id": "F13-05-005"
+    },
+    {
+      "id_hint": "F13-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-06-001] ?? **Tier 1: CRITICAL - Master Immediately** (15 tools)",
+      "acceptance_criteria": "?? **Tier 1: CRITICAL - Master Immediately** (15 tools)",
+      "tags": "13-vscode-tools;F13-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-06",
+      "state": "New",
+      "wbs_id": "F13-06-001"
+    },
+    {
+      "id_hint": "F13-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F13-06-002] ?? **Tier 2: HIGH - Master Within 2 Weeks** (20 tools)",
+      "acceptance_criteria": "?? **Tier 2: HIGH - Master Within 2 Weeks** (20 tools)",
+      "tags": "13-vscode-tools;F13-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-06",
+      "state": "New",
+      "wbs_id": "F13-06-002"
+    },
+    {
+      "id_hint": "F13-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F13-06-003] ?? **Tier 3: MEDIUM - Master As Needed** (15 tools)",
+      "acceptance_criteria": "?? **Tier 3: MEDIUM - Master As Needed** (15 tools)",
+      "tags": "13-vscode-tools;F13-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-06",
+      "state": "New",
+      "wbs_id": "F13-06-003"
+    },
+    {
+      "id_hint": "F13-06-004",
+      "type": "Product Backlog Item",
+      "title": "[F13-06-004] ?? **Tier 4: LOW - Consider Disabling** (106 tools)",
+      "acceptance_criteria": "?? **Tier 4: LOW - Consider Disabling** (106 tools)",
+      "tags": "13-vscode-tools;F13-06-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-06",
+      "state": "New",
+      "wbs_id": "F13-06-004"
+    },
+    {
+      "id_hint": "F13-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-07-001] Specific Tools to Disable",
+      "acceptance_criteria": "Specific Tools to Disable",
+      "tags": "13-vscode-tools;F13-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-07",
+      "state": "New",
+      "wbs_id": "F13-07-001"
+    },
+    {
+      "id_hint": "F13-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-08-001] Pattern 1: Governance Documentation Generation",
+      "acceptance_criteria": "Pattern 1: Governance Documentation Generation",
+      "tags": "13-vscode-tools;F13-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-08",
+      "state": "New",
+      "wbs_id": "F13-08-001"
+    },
+    {
+      "id_hint": "F13-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F13-08-002] Pattern 2: Agent Skills Refactoring",
+      "acceptance_criteria": "Pattern 2: Agent Skills Refactoring",
+      "tags": "13-vscode-tools;F13-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-08",
+      "state": "New",
+      "wbs_id": "F13-08-002"
+    },
+    {
+      "id_hint": "F13-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F13-08-003] Pattern 3: Azure Resource Troubleshooting",
+      "acceptance_criteria": "Pattern 3: Azure Resource Troubleshooting",
+      "tags": "13-vscode-tools;F13-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-08",
+      "state": "New",
+      "wbs_id": "F13-08-003"
+    },
+    {
+      "id_hint": "F13-08-004",
+      "type": "Product Backlog Item",
+      "title": "[F13-08-004] Pattern 4: Multi-Repo Copilot Instructions Standardization",
+      "acceptance_criteria": "Pattern 4: Multi-Repo Copilot Instructions Standardization",
+      "tags": "13-vscode-tools;F13-08-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-08",
+      "state": "New",
+      "wbs_id": "F13-08-004"
+    },
+    {
+      "id_hint": "F13-08-005",
+      "type": "Product Backlog Item",
+      "title": "[F13-08-005] Pattern 5: Documentation Validation Pipeline",
+      "acceptance_criteria": "Pattern 5: Documentation Validation Pipeline",
+      "tags": "13-vscode-tools;F13-08-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-08",
+      "state": "New",
+      "wbs_id": "F13-08-005"
+    },
+    {
+      "id_hint": "F13-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-09-001] Before Tool Mastery (Current State)",
+      "acceptance_criteria": "Before Tool Mastery (Current State)",
+      "tags": "13-vscode-tools;F13-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-09",
+      "state": "New",
+      "wbs_id": "F13-09-001"
+    },
+    {
+      "id_hint": "F13-09-002",
+      "type": "Product Backlog Item",
+      "title": "[F13-09-002] After Tool Mastery (Target State)",
+      "acceptance_criteria": "After Tool Mastery (Target State)",
+      "tags": "13-vscode-tools;F13-09-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-09",
+      "state": "New",
+      "wbs_id": "F13-09-002"
+    },
+    {
+      "id_hint": "F13-09-003",
+      "type": "Product Backlog Item",
+      "title": "[F13-09-003] Measurement Plan",
+      "acceptance_criteria": "Measurement Plan",
+      "tags": "13-vscode-tools;F13-09-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-09",
+      "state": "New",
+      "wbs_id": "F13-09-003"
+    },
+    {
+      "id_hint": "F13-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-10-001] Immediate Actions (Today)",
+      "acceptance_criteria": "Immediate Actions (Today)",
+      "tags": "13-vscode-tools;F13-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-10",
+      "state": "New",
+      "wbs_id": "F13-10-001"
+    },
+    {
+      "id_hint": "F13-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F13-10-002] This Week",
+      "acceptance_criteria": "This Week",
+      "tags": "13-vscode-tools;F13-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-10",
+      "state": "New",
+      "wbs_id": "F13-10-002"
+    },
+    {
+      "id_hint": "F13-10-003",
+      "type": "Product Backlog Item",
+      "title": "[F13-10-003] Next 2 Weeks",
+      "acceptance_criteria": "Next 2 Weeks",
+      "tags": "13-vscode-tools;F13-10-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-10",
+      "state": "New",
+      "wbs_id": "F13-10-003"
+    },
+    {
+      "id_hint": "F13-10-004",
+      "type": "Product Backlog Item",
+      "title": "[F13-10-004] Month 1 Goal",
+      "acceptance_criteria": "Month 1 Goal",
+      "tags": "13-vscode-tools;F13-10-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-10",
+      "state": "New",
+      "wbs_id": "F13-10-004"
+    },
+    {
+      "id_hint": "F13-12-001",
+      "type": "Product Backlog Item",
+      "title": "[F13-12-001] The 80/20 Rule Applied",
+      "acceptance_criteria": "The 80/20 Rule Applied",
+      "tags": "13-vscode-tools;F13-12-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-12",
+      "state": "New",
+      "wbs_id": "F13-12-001"
+    },
+    {
+      "id_hint": "F13-12-002",
+      "type": "Product Backlog Item",
+      "title": "[F13-12-002] Cognitive Load Management",
+      "acceptance_criteria": "Cognitive Load Management",
+      "tags": "13-vscode-tools;F13-12-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-12",
+      "state": "New",
+      "wbs_id": "F13-12-002"
+    },
+    {
+      "id_hint": "F13-12-003",
+      "type": "Product Backlog Item",
+      "title": "[F13-12-003] Workflow-Driven Selection",
+      "acceptance_criteria": "Workflow-Driven Selection",
+      "tags": "13-vscode-tools;F13-12-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-12",
+      "state": "New",
+      "wbs_id": "F13-12-003"
+    },
+    {
+      "id_hint": "F13-12-004",
+      "type": "Product Backlog Item",
+      "title": "[F13-12-004] Performance Optimization",
+      "acceptance_criteria": "Performance Optimization",
+      "tags": "13-vscode-tools;F13-12-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F13-12",
+      "state": "New",
+      "wbs_id": "F13-12-004"
+    }
+  ]
+}

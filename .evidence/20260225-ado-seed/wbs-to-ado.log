@@ -1,0 +1,599 @@
+[08:27:32] [INFO] Fetching WBS + project data from data model...
+[08:27:33] [INFO] WBS: projects=43  features=751  stories=2165
+[08:27:34] [INFO] Building per-project ADO artifacts...
+[08:27:34] [WARN] 01-documentation-generator has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 02-poc-agent-skills has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 03-poc-enhanced-docs has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 05-extract-cases has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 06-jp-auto-extraction has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 07-foundation-layer has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 09-eva-repo-documentation has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 10-mkdocs-poc has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 11-ms-infojp has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 12-work-spc-reorg has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 13-vscode-tools has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 16-engineered-case-law has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 17-apim has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 18-azure-best has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 19-ai-gov has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 20-AssistMe has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 21-habit-tracker has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 22-rg-sandbox has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 23-ei-dsst-rewrite has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 25-eva-suite has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 26-eva-gh has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 27-devbench has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 28-rbac has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 29-foundry has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 30-ui-bench has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 31-eva-faces has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 32-logging has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 33-eva-brain-v2 has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 34-eva-agents has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 35-agentic-code-fixing has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 36-red-teaming has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 37-data-model has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 38-ado-poc has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 39-ado-dashboard has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 40-eva-control-plane has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 41-eva-cli has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 42-learn-foundry has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 43-spark has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 44-eva-jp-spark has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 45-aicoe-page has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 46-accelerator has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 48-eva-veritas has WBS project node but no features -- skipping ADO artifact
+[08:27:34] [WARN] 49-eva-dtl has WBS project node but no features -- skipping ADO artifact
+[08:27:34] 
+[08:27:34] [INFO] Artifact generation complete: built=0  skipped=43
+[08:27:34] [INFO] Total PBIs staged: 0
+[08:27:34] 
+[08:27:34] === ADO IMPORT (DRY RUN) ===
+[08:27:34] [INFO] Importing 0 project artifact files...
+[08:27:34] 
+[08:27:34] === WBS-TO-ADO COMPLETE ===
+[08:27:34]   artifacts_built  : 0
+[08:27:34]   artifacts_skipped: 43
+[08:27:34]   import_success   : 0
+[08:27:34]   import_failed    : 0
+[08:27:34]   total_pbis_staged: 0
+[08:27:34]   mode             : DRY-RUN (nothing created in ADO)
+[08:27:34] [PASS] All imports completed
+[08:28:47] [INFO] Fetching WBS + project data from data model...
+[08:28:48] [INFO] WBS: projects=43  features=751  stories=2165
+[08:28:48] [INFO] Building per-project ADO artifacts...
+[08:28:48] [BUILT] 01-documentation-generator  features=10  stories=11  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\01-documentation-generator.json
+[08:28:48] [BUILT] 02-poc-agent-skills  features=8  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\02-poc-agent-skills.json
+[08:28:48] [BUILT] 03-poc-enhanced-docs  features=9  stories=20  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\03-poc-enhanced-docs.json
+[08:28:48] [BUILT] 05-extract-cases  features=8  stories=8  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\05-extract-cases.json
+[08:28:48] [BUILT] 06-jp-auto-extraction  features=16  stories=34  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\06-jp-auto-extraction.json
+[08:28:48] [BUILT] 07-foundation-layer  features=9  stories=19  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\07-foundation-layer.json
+[08:28:48] [BUILT] 09-eva-repo-documentation  features=4  stories=6  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\09-eva-repo-documentation.json
+[08:28:48] [BUILT] 10-mkdocs-poc  features=13  stories=26  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\10-mkdocs-poc.json
+[08:28:48] [BUILT] 11-ms-infojp  features=47  stories=182  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\11-ms-infojp.json
+[08:28:48] [BUILT] 12-work-spc-reorg  features=12  stories=40  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\12-work-spc-reorg.json
+[08:28:48] [BUILT] 13-vscode-tools  features=13  stories=40  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\13-vscode-tools.json
+[08:28:48] [BUILT] 16-engineered-case-law  features=14  stories=17  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\16-engineered-case-law.json
+[08:28:48] [BUILT] 17-apim  features=13  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\17-apim.json
+[08:28:48] [BUILT] 18-azure-best  features=11  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\18-azure-best.json
+[08:28:48] [BUILT] 19-ai-gov  features=2  stories=7  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\19-ai-gov.json
+[08:28:48] [BUILT] 20-AssistMe  features=12  stories=15  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\20-AssistMe.json
+[08:28:48] [BUILT] 21-habit-tracker  features=12  stories=24  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\21-habit-tracker.json
+[08:28:48] [BUILT] 22-rg-sandbox  features=13  stories=29  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\22-rg-sandbox.json
+[08:28:48] [BUILT] 23-ei-dsst-rewrite  features=14  stories=4  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\23-ei-dsst-rewrite.json
+[08:28:48] [BUILT] 25-eva-suite  features=4  stories=11  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\25-eva-suite.json
+[08:28:48] [BUILT] 26-eva-gh  features=142  stories=728  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\26-eva-gh.json
+[08:28:48] [BUILT] 27-devbench  features=12  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\27-devbench.json
+[08:28:48] [BUILT] 28-rbac  features=20  stories=43  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\28-rbac.json
+[08:28:48] [BUILT] 29-foundry  features=21  stories=56  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\29-foundry.json
+[08:28:48] [BUILT] 30-ui-bench  features=3  stories=8  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\30-ui-bench.json
+[08:28:48] [BUILT] 31-eva-faces  features=22  stories=74  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\31-eva-faces.json
+[08:28:48] [BUILT] 32-logging  features=3  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\32-logging.json
+[08:28:48] [BUILT] 33-eva-brain-v2  features=39  stories=111  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\33-eva-brain-v2.json
+[08:28:48] [WARN] 34-eva-agents has WBS project node but no features -- skipping ADO artifact
+[08:28:48] [BUILT] 35-agentic-code-fixing  features=19  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\35-agentic-code-fixing.json
+[08:28:48] [BUILT] 36-red-teaming  features=17  stories=14  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\36-red-teaming.json
+[08:28:48] [BUILT] 37-data-model  features=24  stories=42  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\37-data-model.json
+[08:28:48] [BUILT] 38-ado-poc  features=6  stories=13  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\38-ado-poc.json
+[08:28:49] [BUILT] 39-ado-dashboard  features=8  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\39-ado-dashboard.json
+[08:28:49] [BUILT] 40-eva-control-plane  features=13  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\40-eva-control-plane.json
+[08:28:50] [BUILT] 41-eva-cli  features=10  stories=12  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\41-eva-cli.json
+[08:28:50] [BUILT] 42-learn-foundry  features=23  stories=54  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\42-learn-foundry.json
+[08:28:50] [BUILT] 43-spark  features=12  stories=5  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\43-spark.json
+[08:28:50] [BUILT] 44-eva-jp-spark  features=9  stories=24  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\44-eva-jp-spark.json
+[08:28:50] [BUILT] 45-aicoe-page  features=7  stories=20  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\45-aicoe-page.json
+[08:28:50] [BUILT] 46-accelerator  features=6  stories=23  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\46-accelerator.json
+[08:28:50] [BUILT] 48-eva-veritas  features=18  stories=53  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\48-eva-veritas.json
+[08:28:50] [BUILT] 49-eva-dtl  features=8  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\49-eva-dtl.json
+[08:28:50] 
+[08:28:50] [INFO] Artifact generation complete: built=42  skipped=1
+[08:28:50] [INFO] Total PBIs staged: 1920
+[08:28:50] 
+[08:28:50] === ADO IMPORT (DRY RUN) ===
+[08:28:50] [INFO] Importing 42 project artifact files...
+[08:28:50] [START] Import: 01-documentation-generator
+[08:28:52] [FAIL] 01-documentation-generator (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-01-documentation-generator.log
+[08:28:52] [START] Import: 02-poc-agent-skills
+[08:28:54] [FAIL] 02-poc-agent-skills (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-02-poc-agent-skills.log
+[08:28:54] [START] Import: 03-poc-enhanced-docs
+[08:28:55] [FAIL] 03-poc-enhanced-docs (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-03-poc-enhanced-docs.log
+[08:28:55] [START] Import: 05-extract-cases
+[08:28:57] [FAIL] 05-extract-cases (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-05-extract-cases.log
+[08:28:57] [START] Import: 06-jp-auto-extraction
+[08:28:58] [FAIL] 06-jp-auto-extraction (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-06-jp-auto-extraction.log
+[08:28:58] [START] Import: 07-foundation-layer
+[08:29:00] [FAIL] 07-foundation-layer (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-07-foundation-layer.log
+[08:29:00] [START] Import: 09-eva-repo-documentation
+[08:29:01] [FAIL] 09-eva-repo-documentation (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-09-eva-repo-documentation.log
+[08:29:01] [START] Import: 10-mkdocs-poc
+[08:29:02] [FAIL] 10-mkdocs-poc (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-10-mkdocs-poc.log
+[08:29:02] [START] Import: 11-ms-infojp
+[08:29:04] [FAIL] 11-ms-infojp (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-11-ms-infojp.log
+[08:29:04] [START] Import: 12-work-spc-reorg
+[08:29:05] [FAIL] 12-work-spc-reorg (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-12-work-spc-reorg.log
+[08:29:05] [START] Import: 13-vscode-tools
+[08:29:06] [FAIL] 13-vscode-tools (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-13-vscode-tools.log
+[08:29:06] [START] Import: 16-engineered-case-law
+[08:29:08] [FAIL] 16-engineered-case-law (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-16-engineered-case-law.log
+[08:29:08] [START] Import: 17-apim
+[08:29:09] [FAIL] 17-apim (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-17-apim.log
+[08:29:09] [START] Import: 18-azure-best
+[08:29:10] [FAIL] 18-azure-best (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-18-azure-best.log
+[08:29:10] [START] Import: 19-ai-gov
+[08:29:12] [FAIL] 19-ai-gov (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-19-ai-gov.log
+[08:29:12] [START] Import: 20-AssistMe
+[08:29:13] [FAIL] 20-AssistMe (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-20-AssistMe.log
+[08:29:13] [START] Import: 21-habit-tracker
+[08:29:15] [FAIL] 21-habit-tracker (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-21-habit-tracker.log
+[08:29:15] [START] Import: 22-rg-sandbox
+[08:29:16] [FAIL] 22-rg-sandbox (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-22-rg-sandbox.log
+[08:29:16] [START] Import: 23-ei-dsst-rewrite
+[08:29:17] [FAIL] 23-ei-dsst-rewrite (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-23-ei-dsst-rewrite.log
+[08:29:17] [START] Import: 25-eva-suite
+[08:29:19] [FAIL] 25-eva-suite (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-25-eva-suite.log
+[08:29:19] [START] Import: 26-eva-gh
+[08:29:20] [FAIL] 26-eva-gh (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-26-eva-gh.log
+[08:29:20] [START] Import: 27-devbench
+[08:29:21] [FAIL] 27-devbench (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-27-devbench.log
+[08:29:21] [START] Import: 28-rbac
+[08:29:23] [FAIL] 28-rbac (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-28-rbac.log
+[08:29:23] [START] Import: 29-foundry
+[08:29:24] [FAIL] 29-foundry (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-29-foundry.log
+[08:29:24] [START] Import: 30-ui-bench
+[08:29:25] [FAIL] 30-ui-bench (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-30-ui-bench.log
+[08:29:25] [START] Import: 31-eva-faces
+[08:29:27] [FAIL] 31-eva-faces (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-31-eva-faces.log
+[08:29:27] [START] Import: 32-logging
+[08:29:28] [FAIL] 32-logging (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-32-logging.log
+[08:29:28] [START] Import: 33-eva-brain-v2
+[08:29:29] [FAIL] 33-eva-brain-v2 (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-33-eva-brain-v2.log
+[08:29:29] [START] Import: 35-agentic-code-fixing
+[08:29:31] [FAIL] 35-agentic-code-fixing (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-35-agentic-code-fixing.log
+[08:29:31] [START] Import: 36-red-teaming
+[08:29:32] [FAIL] 36-red-teaming (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-36-red-teaming.log
+[08:29:32] [START] Import: 37-data-model
+[08:29:33] [FAIL] 37-data-model (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-37-data-model.log
+[08:29:33] [START] Import: 38-ado-poc
+[08:29:35] [FAIL] 38-ado-poc (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-38-ado-poc.log
+[08:29:35] [START] Import: 39-ado-dashboard
+[08:29:36] [FAIL] 39-ado-dashboard (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-39-ado-dashboard.log
+[08:29:36] [START] Import: 40-eva-control-plane
+[08:29:38] [FAIL] 40-eva-control-plane (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-40-eva-control-plane.log
+[08:29:38] [START] Import: 41-eva-cli
+[08:29:39] [FAIL] 41-eva-cli (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-41-eva-cli.log
+[08:29:39] [START] Import: 42-learn-foundry
+[08:29:41] [FAIL] 42-learn-foundry (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-42-learn-foundry.log
+[08:29:41] [START] Import: 43-spark
+[08:29:42] [FAIL] 43-spark (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-43-spark.log
+[08:29:42] [START] Import: 44-eva-jp-spark
+[08:29:43] [FAIL] 44-eva-jp-spark (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-44-eva-jp-spark.log
+[08:29:43] [START] Import: 45-aicoe-page
+[08:29:45] [FAIL] 45-aicoe-page (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-45-aicoe-page.log
+[08:29:45] [START] Import: 46-accelerator
+[08:29:46] [FAIL] 46-accelerator (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-46-accelerator.log
+[08:29:46] [START] Import: 48-eva-veritas
+[08:29:48] [FAIL] 48-eva-veritas (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-48-eva-veritas.log
+[08:29:48] [START] Import: 49-eva-dtl
+[08:29:49] [FAIL] 49-eva-dtl (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-49-eva-dtl.log
+[08:29:49] 
+[08:29:49] === WBS-TO-ADO COMPLETE ===
+[08:29:49]   artifacts_built  : 42
+[08:29:49]   artifacts_skipped: 1
+[08:29:49]   import_success   : 0
+[08:29:49]   import_failed    : 42
+[08:29:49]   total_pbis_staged: 1920
+[08:29:49]   mode             : DRY-RUN (nothing created in ADO)
+[08:29:49] [WARN] 42 imports failed -- check individual import logs in C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed
+[08:31:15] [INFO] Fetching WBS + project data from data model...
+[08:31:16] [INFO] WBS: projects=43  features=751  stories=2165
+[08:31:16] [INFO] Building per-project ADO artifacts...
+[08:31:16] [BUILT] 31-eva-faces  features=22  stories=74  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\31-eva-faces.json
+[08:31:16] 
+[08:31:16] [INFO] Artifact generation complete: built=1  skipped=0
+[08:31:16] [INFO] Total PBIs staged: 74
+[08:31:16] 
+[08:31:16] === ADO IMPORT (DRY RUN) ===
+[08:31:16] [INFO] Importing 42 project artifact files...
+[08:31:16] [START] Import: 01-documentation-generator
+[08:31:17] [FAIL] 01-documentation-generator (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-01-documentation-generator.log
+[08:31:17] [START] Import: 02-poc-agent-skills
+[08:31:19] [FAIL] 02-poc-agent-skills (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-02-poc-agent-skills.log
+[08:31:19] [START] Import: 03-poc-enhanced-docs
+[08:31:20] [FAIL] 03-poc-enhanced-docs (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-03-poc-enhanced-docs.log
+[08:31:20] [START] Import: 05-extract-cases
+[08:31:21] [FAIL] 05-extract-cases (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-05-extract-cases.log
+[08:31:21] [START] Import: 06-jp-auto-extraction
+[08:31:23] [FAIL] 06-jp-auto-extraction (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-06-jp-auto-extraction.log
+[08:31:23] [START] Import: 07-foundation-layer
+[08:31:24] [FAIL] 07-foundation-layer (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-07-foundation-layer.log
+[08:31:24] [START] Import: 09-eva-repo-documentation
+[08:31:26] [FAIL] 09-eva-repo-documentation (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-09-eva-repo-documentation.log
+[08:31:26] [START] Import: 10-mkdocs-poc
+[08:31:27] [FAIL] 10-mkdocs-poc (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-10-mkdocs-poc.log
+[08:31:27] [START] Import: 11-ms-infojp
+[08:31:28] [FAIL] 11-ms-infojp (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-11-ms-infojp.log
+[08:31:28] [START] Import: 12-work-spc-reorg
+[08:31:30] [FAIL] 12-work-spc-reorg (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-12-work-spc-reorg.log
+[08:31:30] [START] Import: 13-vscode-tools
+[08:31:31] [FAIL] 13-vscode-tools (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-13-vscode-tools.log
+[08:31:31] [START] Import: 16-engineered-case-law
+[08:31:32] [FAIL] 16-engineered-case-law (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-16-engineered-case-law.log
+[08:31:32] [START] Import: 17-apim
+[08:31:34] [FAIL] 17-apim (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-17-apim.log
+[08:31:34] [START] Import: 18-azure-best
+[08:31:35] [FAIL] 18-azure-best (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-18-azure-best.log
+[08:31:35] [START] Import: 19-ai-gov
+[08:31:36] [FAIL] 19-ai-gov (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-19-ai-gov.log
+[08:31:36] [START] Import: 20-AssistMe
+[08:31:38] [FAIL] 20-AssistMe (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-20-AssistMe.log
+[08:31:38] [START] Import: 21-habit-tracker
+[08:31:39] [FAIL] 21-habit-tracker (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-21-habit-tracker.log
+[08:31:39] [START] Import: 22-rg-sandbox
+[08:31:41] [FAIL] 22-rg-sandbox (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-22-rg-sandbox.log
+[08:31:41] [START] Import: 23-ei-dsst-rewrite
+[08:31:43] [FAIL] 23-ei-dsst-rewrite (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-23-ei-dsst-rewrite.log
+[08:31:43] [START] Import: 25-eva-suite
+[08:31:44] [FAIL] 25-eva-suite (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-25-eva-suite.log
+[08:31:44] [START] Import: 26-eva-gh
+[08:31:45] [FAIL] 26-eva-gh (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-26-eva-gh.log
+[08:31:45] [START] Import: 27-devbench
+[08:31:47] [FAIL] 27-devbench (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-27-devbench.log
+[08:31:47] [START] Import: 28-rbac
+[08:31:48] [FAIL] 28-rbac (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-28-rbac.log
+[08:31:48] [START] Import: 29-foundry
+[08:31:49] [FAIL] 29-foundry (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-29-foundry.log
+[08:31:49] [START] Import: 30-ui-bench
+[08:31:51] [FAIL] 30-ui-bench (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-30-ui-bench.log
+[08:31:51] [START] Import: 31-eva-faces
+[08:31:52] [DONE] 31-eva-faces
+[08:31:52] [START] Import: 32-logging
+[08:31:54] [FAIL] 32-logging (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-32-logging.log
+[08:31:54] [START] Import: 33-eva-brain-v2
+[08:31:55] [FAIL] 33-eva-brain-v2 (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-33-eva-brain-v2.log
+[08:31:55] [START] Import: 35-agentic-code-fixing
+[08:31:57] [FAIL] 35-agentic-code-fixing (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-35-agentic-code-fixing.log
+[08:31:57] [START] Import: 36-red-teaming
+[08:31:58] [FAIL] 36-red-teaming (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-36-red-teaming.log
+[08:31:58] [START] Import: 37-data-model
+[08:31:59] [FAIL] 37-data-model (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-37-data-model.log
+[08:31:59] [START] Import: 38-ado-poc
+[08:32:01] [FAIL] 38-ado-poc (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-38-ado-poc.log
+[08:32:01] [START] Import: 39-ado-dashboard
+[08:32:02] [FAIL] 39-ado-dashboard (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-39-ado-dashboard.log
+[08:32:02] [START] Import: 40-eva-control-plane
+[08:32:04] [FAIL] 40-eva-control-plane (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-40-eva-control-plane.log
+[08:32:04] [START] Import: 41-eva-cli
+[08:32:07] [FAIL] 41-eva-cli (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-41-eva-cli.log
+[08:32:07] [START] Import: 42-learn-foundry
+[08:32:08] [FAIL] 42-learn-foundry (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-42-learn-foundry.log
+[08:32:08] [START] Import: 43-spark
+[08:32:09] [FAIL] 43-spark (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-43-spark.log
+[08:32:09] [START] Import: 44-eva-jp-spark
+[08:32:11] [FAIL] 44-eva-jp-spark (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-44-eva-jp-spark.log
+[08:32:11] [START] Import: 45-aicoe-page
+[08:32:12] [FAIL] 45-aicoe-page (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-45-aicoe-page.log
+[08:32:12] [START] Import: 46-accelerator
+[08:32:13] [FAIL] 46-accelerator (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-46-accelerator.log
+[08:32:13] [START] Import: 48-eva-veritas
+[08:32:15] [FAIL] 48-eva-veritas (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-48-eva-veritas.log
+[08:32:15] [START] Import: 49-eva-dtl
+[08:32:16] [FAIL] 49-eva-dtl (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-49-eva-dtl.log
+[08:32:16] 
+[08:32:16] === WBS-TO-ADO COMPLETE ===
+[08:32:16]   artifacts_built  : 1
+[08:32:16]   artifacts_skipped: 0
+[08:32:16]   import_success   : 1
+[08:32:16]   import_failed    : 41
+[08:32:16]   total_pbis_staged: 74
+[08:32:16]   mode             : DRY-RUN (nothing created in ADO)
+[08:32:16] [WARN] 41 imports failed -- check individual import logs in C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed
+[08:32:46] [INFO] Fetching WBS + project data from data model...
+[08:32:47] [INFO] WBS: projects=43  features=751  stories=2165
+[08:32:47] [INFO] Building per-project ADO artifacts...
+[08:32:47] [BUILT] 01-documentation-generator  features=10  stories=11  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\01-documentation-generator.json
+[08:32:47] [BUILT] 02-poc-agent-skills  features=8  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\02-poc-agent-skills.json
+[08:32:47] [BUILT] 03-poc-enhanced-docs  features=9  stories=20  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\03-poc-enhanced-docs.json
+[08:32:47] [BUILT] 05-extract-cases  features=8  stories=8  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\05-extract-cases.json
+[08:32:47] [BUILT] 06-jp-auto-extraction  features=16  stories=34  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\06-jp-auto-extraction.json
+[08:32:47] [BUILT] 07-foundation-layer  features=9  stories=19  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\07-foundation-layer.json
+[08:32:47] [BUILT] 09-eva-repo-documentation  features=4  stories=6  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\09-eva-repo-documentation.json
+[08:32:47] [BUILT] 10-mkdocs-poc  features=13  stories=26  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\10-mkdocs-poc.json
+[08:32:47] [BUILT] 11-ms-infojp  features=47  stories=182  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\11-ms-infojp.json
+[08:32:47] [BUILT] 12-work-spc-reorg  features=12  stories=40  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\12-work-spc-reorg.json
+[08:32:47] [BUILT] 13-vscode-tools  features=13  stories=40  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\13-vscode-tools.json
+[08:32:47] [BUILT] 16-engineered-case-law  features=14  stories=17  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\16-engineered-case-law.json
+[08:32:47] [BUILT] 17-apim  features=13  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\17-apim.json
+[08:32:47] [BUILT] 18-azure-best  features=11  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\18-azure-best.json
+[08:32:47] [BUILT] 19-ai-gov  features=2  stories=7  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\19-ai-gov.json
+[08:32:47] [BUILT] 20-AssistMe  features=12  stories=15  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\20-AssistMe.json
+[08:32:47] [BUILT] 21-habit-tracker  features=12  stories=24  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\21-habit-tracker.json
+[08:32:47] [BUILT] 22-rg-sandbox  features=13  stories=29  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\22-rg-sandbox.json
+[08:32:47] [BUILT] 23-ei-dsst-rewrite  features=14  stories=4  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\23-ei-dsst-rewrite.json
+[08:32:47] [BUILT] 25-eva-suite  features=4  stories=11  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\25-eva-suite.json
+[08:32:47] [BUILT] 26-eva-gh  features=142  stories=728  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\26-eva-gh.json
+[08:32:47] [BUILT] 27-devbench  features=12  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\27-devbench.json
+[08:32:47] [BUILT] 28-rbac  features=20  stories=43  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\28-rbac.json
+[08:32:47] [BUILT] 29-foundry  features=21  stories=56  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\29-foundry.json
+[08:32:48] [BUILT] 30-ui-bench  features=3  stories=8  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\30-ui-bench.json
+[08:32:48] [BUILT] 31-eva-faces  features=22  stories=74  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\31-eva-faces.json
+[08:32:48] [BUILT] 32-logging  features=3  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\32-logging.json
+[08:32:48] [BUILT] 33-eva-brain-v2  features=39  stories=111  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\33-eva-brain-v2.json
+[08:32:48] [WARN] 34-eva-agents has WBS project node but no features -- skipping ADO artifact
+[08:32:48] [BUILT] 35-agentic-code-fixing  features=19  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\35-agentic-code-fixing.json
+[08:32:48] [BUILT] 36-red-teaming  features=17  stories=14  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\36-red-teaming.json
+[08:32:48] [BUILT] 37-data-model  features=24  stories=42  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\37-data-model.json
+[08:32:48] [BUILT] 38-ado-poc  features=6  stories=13  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\38-ado-poc.json
+[08:32:48] [BUILT] 39-ado-dashboard  features=8  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\39-ado-dashboard.json
+[08:32:48] [BUILT] 40-eva-control-plane  features=13  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\40-eva-control-plane.json
+[08:32:48] [BUILT] 41-eva-cli  features=10  stories=12  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\41-eva-cli.json
+[08:32:48] [BUILT] 42-learn-foundry  features=23  stories=54  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\42-learn-foundry.json
+[08:32:48] [BUILT] 43-spark  features=12  stories=5  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\43-spark.json
+[08:32:48] [BUILT] 44-eva-jp-spark  features=9  stories=24  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\44-eva-jp-spark.json
+[08:32:48] [BUILT] 45-aicoe-page  features=7  stories=20  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\45-aicoe-page.json
+[08:32:48] [BUILT] 46-accelerator  features=6  stories=23  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\46-accelerator.json
+[08:32:48] [BUILT] 48-eva-veritas  features=18  stories=53  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\48-eva-veritas.json
+[08:32:48] [BUILT] 49-eva-dtl  features=8  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\49-eva-dtl.json
+[08:32:48] 
+[08:32:48] [INFO] Artifact generation complete: built=42  skipped=1
+[08:32:48] [INFO] Total PBIs staged: 1920
+[08:32:48] 
+[08:32:48] === ADO IMPORT (DRY RUN) ===
+[08:32:48] [INFO] Importing 42 project artifact files...
+[08:32:48] [START] Import: 01-documentation-generator
+[08:32:49] [DONE] 01-documentation-generator
+[08:32:49] [START] Import: 02-poc-agent-skills
+[08:32:51] [DONE] 02-poc-agent-skills
+[08:32:51] [START] Import: 03-poc-enhanced-docs
+[08:32:52] [DONE] 03-poc-enhanced-docs
+[08:32:52] [START] Import: 05-extract-cases
+[08:32:54] [DONE] 05-extract-cases
+[08:32:54] [START] Import: 06-jp-auto-extraction
+[08:32:55] [DONE] 06-jp-auto-extraction
+[08:32:55] [START] Import: 07-foundation-layer
+[08:32:57] [DONE] 07-foundation-layer
+[08:32:57] [START] Import: 09-eva-repo-documentation
+[08:32:58] [DONE] 09-eva-repo-documentation
+[08:32:58] [START] Import: 10-mkdocs-poc
+[08:33:00] [DONE] 10-mkdocs-poc
+[08:33:00] [START] Import: 11-ms-infojp
+[08:33:02] [DONE] 11-ms-infojp
+[08:33:02] [START] Import: 12-work-spc-reorg
+[08:33:03] [DONE] 12-work-spc-reorg
+[08:33:03] [START] Import: 13-vscode-tools
+[08:33:05] [DONE] 13-vscode-tools
+[08:33:05] [START] Import: 16-engineered-case-law
+[08:33:07] [DONE] 16-engineered-case-law
+[08:33:07] [START] Import: 17-apim
+[08:33:08] [DONE] 17-apim
+[08:33:08] [START] Import: 18-azure-best
+[08:33:10] [DONE] 18-azure-best
+[08:33:10] [START] Import: 19-ai-gov
+[08:33:11] [DONE] 19-ai-gov
+[08:33:11] [START] Import: 20-AssistMe
+[08:33:12] [DONE] 20-AssistMe
+[08:33:12] [START] Import: 21-habit-tracker
+[08:33:14] [DONE] 21-habit-tracker
+[08:33:14] [START] Import: 22-rg-sandbox
+[08:33:15] [DONE] 22-rg-sandbox
+[08:33:15] [START] Import: 23-ei-dsst-rewrite
+[08:33:17] [DONE] 23-ei-dsst-rewrite
+[08:33:17] [START] Import: 25-eva-suite
+[08:33:18] [DONE] 25-eva-suite
+[08:33:18] [START] Import: 26-eva-gh
+[08:33:23] [DONE] 26-eva-gh
+[08:33:23] [START] Import: 27-devbench
+[08:33:24] [DONE] 27-devbench
+[08:33:24] [START] Import: 28-rbac
+[08:33:26] [DONE] 28-rbac
+[08:33:26] [START] Import: 29-foundry
+[08:33:27] [DONE] 29-foundry
+[08:33:27] [START] Import: 30-ui-bench
+[08:33:28] [DONE] 30-ui-bench
+[08:33:28] [START] Import: 31-eva-faces
+[08:33:30] [DONE] 31-eva-faces
+[08:33:30] [START] Import: 32-logging
+[08:33:31] [DONE] 32-logging
+[08:33:31] [START] Import: 33-eva-brain-v2
+[08:33:33] [DONE] 33-eva-brain-v2
+[08:33:33] [START] Import: 35-agentic-code-fixing
+[08:33:35] [DONE] 35-agentic-code-fixing
+[08:33:35] [START] Import: 36-red-teaming
+[08:33:36] [DONE] 36-red-teaming
+[08:33:36] [START] Import: 37-data-model
+[08:33:38] [DONE] 37-data-model
+[08:33:38] [START] Import: 38-ado-poc
+[08:33:39] [DONE] 38-ado-poc
+[08:33:39] [START] Import: 39-ado-dashboard
+[08:33:41] [DONE] 39-ado-dashboard
+[08:33:41] [START] Import: 40-eva-control-plane
+[08:33:43] [DONE] 40-eva-control-plane
+[08:33:43] [START] Import: 41-eva-cli
+[08:33:44] [DONE] 41-eva-cli
+[08:33:44] [START] Import: 42-learn-foundry
+[08:33:46] [DONE] 42-learn-foundry
+[08:33:46] [START] Import: 43-spark
+[08:33:47] [DONE] 43-spark
+[08:33:47] [START] Import: 44-eva-jp-spark
+[08:33:49] [DONE] 44-eva-jp-spark
+[08:33:49] [START] Import: 45-aicoe-page
+[08:33:50] [DONE] 45-aicoe-page
+[08:33:50] [START] Import: 46-accelerator
+[08:33:52] [DONE] 46-accelerator
+[08:33:52] [START] Import: 48-eva-veritas
+[08:33:54] [DONE] 48-eva-veritas
+[08:33:54] [START] Import: 49-eva-dtl
+[08:33:55] [DONE] 49-eva-dtl
+[08:33:55] 
+[08:33:55] === WBS-TO-ADO COMPLETE ===
+[08:33:55]   artifacts_built  : 42
+[08:33:55]   artifacts_skipped: 1
+[08:33:55]   import_success   : 42
+[08:33:55]   import_failed    : 0
+[08:33:55]   total_pbis_staged: 1920
+[08:33:55]   mode             : DRY-RUN (nothing created in ADO)
+[08:33:55] [PASS] All imports completed
+[08:51:35] [INFO] Fetching WBS + project data from data model...
+[08:51:36] [INFO] WBS: projects=43  features=751  stories=2165
+[08:51:36] [INFO] Building per-project ADO artifacts...
+[08:51:36] [BUILT] 01-documentation-generator  features=10  stories=11  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\01-documentation-generator.json
+[08:51:36] [BUILT] 02-poc-agent-skills  features=8  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\02-poc-agent-skills.json
+[08:51:36] [BUILT] 03-poc-enhanced-docs  features=9  stories=20  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\03-poc-enhanced-docs.json
+[08:51:36] [BUILT] 05-extract-cases  features=8  stories=8  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\05-extract-cases.json
+[08:51:36] [BUILT] 06-jp-auto-extraction  features=16  stories=34  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\06-jp-auto-extraction.json
+[08:51:36] [BUILT] 07-foundation-layer  features=9  stories=19  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\07-foundation-layer.json
+[08:51:36] [BUILT] 09-eva-repo-documentation  features=4  stories=6  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\09-eva-repo-documentation.json
+[08:51:36] [BUILT] 10-mkdocs-poc  features=13  stories=26  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\10-mkdocs-poc.json
+[08:51:36] [BUILT] 11-ms-infojp  features=47  stories=182  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\11-ms-infojp.json
+[08:51:36] [BUILT] 12-work-spc-reorg  features=12  stories=40  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\12-work-spc-reorg.json
+[08:51:36] [BUILT] 13-vscode-tools  features=13  stories=40  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\13-vscode-tools.json
+[08:51:36] [BUILT] 16-engineered-case-law  features=14  stories=17  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\16-engineered-case-law.json
+[08:51:36] [BUILT] 17-apim  features=13  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\17-apim.json
+[08:51:36] [BUILT] 18-azure-best  features=11  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\18-azure-best.json
+[08:51:36] [BUILT] 19-ai-gov  features=2  stories=7  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\19-ai-gov.json
+[08:51:36] [BUILT] 20-AssistMe  features=12  stories=15  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\20-AssistMe.json
+[08:51:36] [BUILT] 21-habit-tracker  features=12  stories=24  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\21-habit-tracker.json
+[08:51:36] [BUILT] 22-rg-sandbox  features=13  stories=29  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\22-rg-sandbox.json
+[08:51:36] [BUILT] 23-ei-dsst-rewrite  features=14  stories=4  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\23-ei-dsst-rewrite.json
+[08:51:36] [BUILT] 25-eva-suite  features=4  stories=11  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\25-eva-suite.json
+[08:51:36] [BUILT] 26-eva-gh  features=142  stories=728  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\26-eva-gh.json
+[08:51:36] [BUILT] 27-devbench  features=12  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\27-devbench.json
+[08:51:36] [BUILT] 28-rbac  features=20  stories=43  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\28-rbac.json
+[08:51:36] [BUILT] 29-foundry  features=21  stories=56  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\29-foundry.json
+[08:51:36] [BUILT] 30-ui-bench  features=3  stories=8  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\30-ui-bench.json
+[08:51:37] [BUILT] 31-eva-faces  features=22  stories=74  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\31-eva-faces.json
+[08:51:37] [BUILT] 32-logging  features=3  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\32-logging.json
+[08:51:37] [BUILT] 33-eva-brain-v2  features=39  stories=111  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\33-eva-brain-v2.json
+[08:51:37] [WARN] 34-eva-agents has WBS project node but no features -- skipping ADO artifact
+[08:51:37] [BUILT] 35-agentic-code-fixing  features=19  stories=18  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\35-agentic-code-fixing.json
+[08:51:37] [BUILT] 36-red-teaming  features=17  stories=14  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\36-red-teaming.json
+[08:51:37] [BUILT] 37-data-model  features=24  stories=42  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\37-data-model.json
+[08:51:37] [BUILT] 38-ado-poc  features=6  stories=13  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\38-ado-poc.json
+[08:51:37] [BUILT] 39-ado-dashboard  features=8  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\39-ado-dashboard.json
+[08:51:37] [BUILT] 40-eva-control-plane  features=13  stories=9  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\40-eva-control-plane.json
+[08:51:37] [BUILT] 41-eva-cli  features=10  stories=12  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\41-eva-cli.json
+[08:51:37] [BUILT] 42-learn-foundry  features=23  stories=54  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\42-learn-foundry.json
+[08:51:37] [BUILT] 43-spark  features=12  stories=5  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\43-spark.json
+[08:51:37] [BUILT] 44-eva-jp-spark  features=9  stories=24  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\44-eva-jp-spark.json
+[08:51:37] [BUILT] 45-aicoe-page  features=7  stories=20  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\45-aicoe-page.json
+[08:51:37] [BUILT] 46-accelerator  features=6  stories=23  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\46-accelerator.json
+[08:51:37] [BUILT] 48-eva-veritas  features=18  stories=53  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\48-eva-veritas.json
+[08:51:37] [BUILT] 49-eva-dtl  features=8  stories=22  -> C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\artifacts\49-eva-dtl.json
+[08:51:37] 
+[08:51:37] [INFO] Artifact generation complete: built=42  skipped=1
+[08:51:37] [INFO] Total PBIs staged: 1920
+[08:51:37] 
+[08:51:37] === ADO IMPORT (LIVE) ===
+[08:51:37] [INFO] Importing 42 project artifact files...
+[08:51:37] [START] Import: 01-documentation-generator
+[08:51:53] [DONE] 01-documentation-generator
+[08:51:53] [START] Import: 02-poc-agent-skills
+[08:52:05] [DONE] 02-poc-agent-skills
+[08:52:05] [START] Import: 03-poc-enhanced-docs
+[08:52:18] [DONE] 03-poc-enhanced-docs
+[08:52:18] [START] Import: 05-extract-cases
+[08:52:31] [DONE] 05-extract-cases
+[08:52:31] [START] Import: 06-jp-auto-extraction
+[08:52:49] [DONE] 06-jp-auto-extraction
+[08:52:49] [START] Import: 07-foundation-layer
+[08:53:00] [DONE] 07-foundation-layer
+[08:53:00] [START] Import: 09-eva-repo-documentation
+[08:53:07] [DONE] 09-eva-repo-documentation
+[08:53:07] [START] Import: 10-mkdocs-poc
+[08:53:20] [DONE] 10-mkdocs-poc
+[08:53:20] [START] Import: 11-ms-infojp
+[08:54:28] [DONE] 11-ms-infojp
+[08:54:28] [START] Import: 12-work-spc-reorg
+[08:54:47] [DONE] 12-work-spc-reorg
+[08:54:47] [START] Import: 13-vscode-tools
+[08:55:07] [DONE] 13-vscode-tools
+[08:55:07] [START] Import: 16-engineered-case-law
+[08:55:19] [DONE] 16-engineered-case-law
+[08:55:19] [START] Import: 17-apim
+[08:55:31] [DONE] 17-apim
+[08:55:31] [START] Import: 18-azure-best
+[08:55:45] [DONE] 18-azure-best
+[08:55:45] [START] Import: 19-ai-gov
+[08:55:52] [DONE] 19-ai-gov
+[08:55:52] [START] Import: 20-AssistMe
+[08:56:06] [DONE] 20-AssistMe
+[08:56:06] [START] Import: 21-habit-tracker
+[08:56:19] [DONE] 21-habit-tracker
+[08:56:19] [START] Import: 22-rg-sandbox
+[08:56:34] [DONE] 22-rg-sandbox
+[08:56:34] [START] Import: 23-ei-dsst-rewrite
+[08:56:43] [DONE] 23-ei-dsst-rewrite
+[08:56:43] [START] Import: 25-eva-suite
+[08:56:51] [DONE] 25-eva-suite
+[08:56:51] [START] Import: 26-eva-gh
+[09:01:00] [DONE] 26-eva-gh
+[09:01:00] [START] Import: 27-devbench
+[09:01:10] [DONE] 27-devbench
+[09:01:10] [START] Import: 28-rbac
+[09:01:32] [DONE] 28-rbac
+[09:01:32] [START] Import: 29-foundry
+[09:01:56] [FAIL] 29-foundry (exit=1) -- see C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed\import-29-foundry.log
+[09:01:56] [START] Import: 30-ui-bench
+[09:02:15] [DONE] 30-ui-bench
+[09:02:15] [START] Import: 31-eva-faces
+[09:02:46] [DONE] 31-eva-faces
+[09:02:46] [START] Import: 32-logging
+[09:02:54] [DONE] 32-logging
+[09:02:54] [START] Import: 33-eva-brain-v2
+[09:03:39] [DONE] 33-eva-brain-v2
+[09:03:39] [START] Import: 35-agentic-code-fixing
+[09:03:55] [DONE] 35-agentic-code-fixing
+[09:03:55] [START] Import: 36-red-teaming
+[09:04:08] [DONE] 36-red-teaming
+[09:04:08] [START] Import: 37-data-model
+[09:04:29] [DONE] 37-data-model
+[09:04:29] [START] Import: 38-ado-poc
+[09:04:39] [DONE] 38-ado-poc
+[09:04:39] [START] Import: 39-ado-dashboard
+[09:04:53] [DONE] 39-ado-dashboard
+[09:04:53] [START] Import: 40-eva-control-plane
+[09:05:04] [DONE] 40-eva-control-plane
+[09:05:04] [START] Import: 41-eva-cli
+[09:05:15] [DONE] 41-eva-cli
+[09:05:15] [START] Import: 42-learn-foundry
+[09:05:42] [DONE] 42-learn-foundry
+[09:05:42] [START] Import: 43-spark
+[09:05:50] [DONE] 43-spark
+[09:05:50] [START] Import: 44-eva-jp-spark
+[09:06:03] [DONE] 44-eva-jp-spark
+[09:06:03] [START] Import: 45-aicoe-page
+[09:06:15] [DONE] 45-aicoe-page
+[09:06:15] [START] Import: 46-accelerator
+[09:06:28] [DONE] 46-accelerator
+[09:06:28] [START] Import: 48-eva-veritas
+[09:06:53] [DONE] 48-eva-veritas
+[09:06:53] [START] Import: 49-eva-dtl
+[09:07:05] [DONE] 49-eva-dtl
+[09:07:05] 
+[09:07:05] === WBS-TO-ADO COMPLETE ===
+[09:07:05]   artifacts_built  : 42
+[09:07:05]   artifacts_skipped: 1
+[09:07:05]   import_success   : 41
+[09:07:05]   import_failed    : 1
+[09:07:05]   total_pbis_staged: 1920
+[09:07:05]   mode             : LIVE
+[09:07:05] [WARN] 1 imports failed -- check individual import logs in C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-ado-seed

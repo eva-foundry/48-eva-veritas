@@ -1,0 +1,16 @@
+EVA-STORY: EO-05-008
+EVA-FEATURE: EO-05
+
+EVIDENCE: EO-05-008 init command
+Phase 1 / EO-05 CLI Interface -- added 2026-02-24 19:44
+Test run: 2026-02-24 (session 4)
+
+EO-05-008 -- Implement init command
+  Artifacts: src/init.js, src/cli.js
+  [PASS] node src/cli.js init --repo . --yes
+  [PASS] Detects project structure (PLAN.md presence, package.json, src/)
+  [PASS] Guides user through plan setup interactively (--yes skips prompts)
+  [PASS] Runs first audit to display initial MTI score after setup
+  [PASS] --prefix flag overrides project ID prefix (e.g. --prefix F33)
+  [PASS] Non-interactive mode (--yes) writes defaults without prompts
+  [PASS] File: src/init.js (tagged EVA-STORY: EO-05-008)

@@ -1,0 +1,125 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\33-eva-brain-v2
+[INFO] Prefix: F33
+[PASS] Written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\veritas-plan.json
+       7 features, 24 stories, 0 tasks (0 story orphans)
+       Sources: docs/20260220-plan.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F33-01        0      0  Context
+  F33-02        0      0  Part 1 ??? OQ Resolutions (Applied This Session)
+  F33-03        5      0  Part 2 ??? Sprint 5 Scope (This Session)
+  F33-04        0      0  Part 3 ??? New FeatureIDs
+  F33-05        0      0  Part 4 ??? Test Files to Create
+  F33-06       19      0  Part 6 ??? Edit Execution Checklist
+  F33-07        0      0  Summary
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F33-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\33-eva-brain-v2
+[INFO] Using veritas-plan.json (format: free-form, 24 stories, 0 tasks)
+[INFO] Planned: 7 features, 24 stories
+[INFO] Actual: 321 artifacts, 28 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\reconciliation.json
+[INFO] Gaps: 4
+[PASS] trust written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\trust.json (score: 100)
+
+=======================================
+EVA Veritas Report: EVA Brain v2
+=======================================
+Repo:    C:\AICOE\eva-foundation\33-eva-brain-v2
+Planned: 7 features, 24 stories
+
+Coverage
+---------------------------------------
+Stories total:          24
+Stories with artifacts: 24
+Stories with evidence:  24
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[FAIL] orphan_story_tag :: DTL-08-001
+[FAIL] orphan_story_tag :: DTL-08-002
+[FAIL] orphan_story_tag :: DTL-08-003
+[FAIL] orphan_story_tag :: DTL-08-004
+
+Feature Breakdown
+---------------------------------------
+[  0] F33-01     Context                         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F33-02     Part 1 ??? OQ Resolutions (Appli  0/0 artifacts  0/0 evidence  0 gaps
+[100] F33-03     Part 2 ??? Sprint 5 Scope (This   5/5 artifacts  5/5 evidence  0 gaps
+[  0] F33-04     Part 3 ??? New FeatureIDs         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F33-05     Part 4 ??? Test Files to Create   0/0 artifacts  0/0 evidence  0 gaps
+[100] F33-06     Part 6 ??? Edit Execution Checkl  19/19 artifacts  19/19 evidence  0 gaps
+[  0] F33-07     Summary                         0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F33-03-001 -- G1: Translations CRUD (HIGH ??? unblocks eva-faces TranslationsPage) (1 artifact)
+[EVIDENCE] F33-03-002 -- G2: Settings API (MEDIUM ??? unblocks eva-faces SettingsPage) (1 artifact)
+[EVIDENCE] F33-03-003 -- Assistants (7 endpoints) (1 artifact)
+[EVIDENCE] F33-03-004 -- Logs (8 endpoints) (1 artifact)
+[EVIDENCE] F33-03-005 -- main.py (1 artifact)
+[EVIDENCE] F33-06-001 -- **T1** ??? `docs/20260220-plan.md` created (this file) (1 artifact)
+[EVIDENCE] F33-06-002 -- **T2** ??? `docs/MANIFEST-20260220-WI5.md` created (1 artifact)
+[EVIDENCE] F33-06-003 -- **T3** ??? `app/services/translation_store_service.py` created (1 artifact)
+[EVIDENCE] F33-06-004 -- **T4** ??? `app/routes/translations.py` created (1 artifact)
+[EVIDENCE] F33-06-005 -- **T5** ??? `app/services/settings_service.py` created (1 artifact)
+[EVIDENCE] F33-06-006 -- **T6** ??? `app/routes/settings.py` created (1 artifact)
+[EVIDENCE] F33-06-007 -- **T7** ??? `app/services/math_assistant.py` created (1 artifact)
+[EVIDENCE] F33-06-008 -- **T8** ??? `app/services/tabular_assistant.py` created (1 artifact)
+[EVIDENCE] F33-06-009 -- **T9** ??? `app/routes/assistants.py` created (1 artifact)
+[EVIDENCE] F33-06-010 -- **T10** ??? `app/services/audit_log_service.py` created (1 artifact)
+[EVIDENCE] F33-06-011 -- **T11** ??? `app/services/content_log_service.py` created (1 artifact)
+[EVIDENCE] F33-06-012 -- **T12** ??? `app/routes/logs.py` created (1 artifact)
+[EVIDENCE] F33-06-013 -- **T13** ??? `app/main.py` updated (4 new try/except router mounts) (1 artifact)
+[EVIDENCE] F33-06-014 -- **T14** ??? `tests/test_translations.py` created (1 artifact)
+[EVIDENCE] F33-06-015 -- **T15** ??? `tests/test_settings.py` created (1 artifact)
+[EVIDENCE] F33-06-016 -- **T16** ??? `tests/test_assistants.py` created (1 artifact)
+[EVIDENCE] F33-06-017 -- **T17** ??? `tests/test_logs.py` created (1 artifact)
+[EVIDENCE] F33-06-018 -- **T18** ??? `pytest tests/` exits 0 (554/554 pass, 72% coverage) (1 artifact)
+[EVIDENCE] F33-06-019 -- **T19** ??? Documentator run: STATUS.md, PLAN.md, SESSION-STATE.md updated (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   100 (no change)
+Trend:   0 -> 100 -> 100 -> 100 -> 100 -> 100 -> 100
+Actions: deploy, merge, release
+Components: coverage=1 evidence=1 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   72%  (200/279 declared entities verified)
+[ACT] 79 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [endpoint] GET /v1/config/features -- declared: implemented -- actual: not_found
+  ... and 71 more
+[ACT] Container 'jobs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+

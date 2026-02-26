@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.5342760-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/01-documentation-generator",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-01",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "01-documentation-generator",
+    "description": "01-documentation-generator",
+    "tags": "01-documentation-generator;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F01-01",
+      "type": "Feature",
+      "title": "Overview",
+      "description": "Overview",
+      "tags": "01-documentation-generator;F01-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-02",
+      "type": "Feature",
+      "title": "Project Structure",
+      "description": "Project Structure",
+      "tags": "01-documentation-generator;F01-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-03",
+      "type": "Feature",
+      "title": "Features",
+      "description": "Features",
+      "tags": "01-documentation-generator;F01-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-04",
+      "type": "Feature",
+      "title": "Setup Instructions",
+      "description": "Setup Instructions",
+      "tags": "01-documentation-generator;F01-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-05",
+      "type": "Feature",
+      "title": "Usage (After Full Migration)",
+      "description": "Usage (After Full Migration)",
+      "tags": "01-documentation-generator;F01-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-06",
+      "type": "Feature",
+      "title": "Migration Status",
+      "description": "Migration Status",
+      "tags": "01-documentation-generator;F01-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-07",
+      "type": "Feature",
+      "title": "Development",
+      "description": "Development",
+      "tags": "01-documentation-generator;F01-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-08",
+      "type": "Feature",
+      "title": "Related Documentation",
+      "description": "Related Documentation",
+      "tags": "01-documentation-generator;F01-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-09",
+      "type": "Feature",
+      "title": "Contributing",
+      "description": "Contributing",
+      "tags": "01-documentation-generator;F01-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F01-10",
+      "type": "Feature",
+      "title": "License",
+      "description": "License",
+      "tags": "01-documentation-generator;F01-10",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F01-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F01-03-001] ? Completed (Migrated from automation/)",
+      "acceptance_criteria": "? Completed (Migrated from automation/)",
+      "tags": "01-documentation-generator;F01-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-03",
+      "state": "New",
+      "wbs_id": "F01-03-001"
+    },
+    {
+      "id_hint": "F01-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F01-03-002] ?? Pending Migration (See PLAN.md)",
+      "acceptance_criteria": "?? Pending Migration (See PLAN.md)",
+      "tags": "01-documentation-generator;F01-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-03",
+      "state": "New",
+      "wbs_id": "F01-03-002"
+    },
+    {
+      "id_hint": "F01-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F01-04-001] 1. Prerequisites",
+      "acceptance_criteria": "1. Prerequisites",
+      "tags": "01-documentation-generator;F01-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-04",
+      "state": "New",
+      "wbs_id": "F01-04-001"
+    },
+    {
+      "id_hint": "F01-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F01-04-002] 2. Installation",
+      "acceptance_criteria": "2. Installation",
+      "tags": "01-documentation-generator;F01-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-04",
+      "state": "New",
+      "wbs_id": "F01-04-002"
+    },
+    {
+      "id_hint": "F01-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F01-04-003] 3. Configuration",
+      "acceptance_criteria": "3. Configuration",
+      "tags": "01-documentation-generator;F01-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-04",
+      "state": "New",
+      "wbs_id": "F01-04-003"
+    },
+    {
+      "id_hint": "F01-04-004",
+      "type": "Product Backlog Item",
+      "title": "[F01-04-004] 4. Run Tests",
+      "acceptance_criteria": "4. Run Tests",
+      "tags": "01-documentation-generator;F01-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-04",
+      "state": "New",
+      "wbs_id": "F01-04-004"
+    },
+    {
+      "id_hint": "F01-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F01-05-001] Basic Generation",
+      "acceptance_criteria": "Basic Generation",
+      "tags": "01-documentation-generator;F01-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-05",
+      "state": "New",
+      "wbs_id": "F01-05-001"
+    },
+    {
+      "id_hint": "F01-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F01-05-002] CLI (Coming in Phase 4)",
+      "acceptance_criteria": "CLI (Coming in Phase 4)",
+      "tags": "01-documentation-generator;F01-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-05",
+      "state": "New",
+      "wbs_id": "F01-05-002"
+    },
+    {
+      "id_hint": "F01-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F01-07-001] Running Tests During Development",
+      "acceptance_criteria": "Running Tests During Development",
+      "tags": "01-documentation-generator;F01-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-07",
+      "state": "New",
+      "wbs_id": "F01-07-001"
+    },
+    {
+      "id_hint": "F01-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F01-07-002] Adding New Validators",
+      "acceptance_criteria": "Adding New Validators",
+      "tags": "01-documentation-generator;F01-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-07",
+      "state": "New",
+      "wbs_id": "F01-07-002"
+    },
+    {
+      "id_hint": "F01-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F01-07-003] Code Quality",
+      "acceptance_criteria": "Code Quality",
+      "tags": "01-documentation-generator;F01-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F01-07",
+      "state": "New",
+      "wbs_id": "F01-07-003"
+    }
+  ]
+}

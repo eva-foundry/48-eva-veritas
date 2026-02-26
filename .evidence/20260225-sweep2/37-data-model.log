@@ -1,0 +1,119 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\37-data-model
+[INFO] Prefix: F37
+[PASS] Written: C:\AICOE\eva-foundation\37-data-model\.eva\veritas-plan.json
+       9 features, 17 stories, 30 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: phase-sprint
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F37-01        0      0  Guiding Principle
+  F37-02        0      0  Layer Build Order
+  F37-03        2      8  Sprint 1 ??? Foundation Layers (L0???L2) ??? DONE
+  F37-04        2      8  Sprint 2 ??? Data and API Layers (L3???L5) ??? DONE
+  F37-05        2      5  Sprint 3 ??? UI Layers (L6???L7) ??? DONE
+  F37-06        2      5  Sprint 4 ??? Agent Fleet + Infrastructure Layers (L8???L9) ??? DONE
+  F37-07        2      4  Sprint 5 ??? Requirements Traceability Layer (L10) ??? DONE
+  F37-08        7      0  Ongoing ??? How the Model Grows and Is Maintained
+  F37-09        0      0  Dependencies
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F37-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\37-data-model
+[INFO] Using veritas-plan.json (format: phase-sprint, 17 stories, 30 tasks)
+[INFO] Planned: 9 features, 17 stories
+[INFO] Actual: 165 artifacts, 17 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\37-data-model\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\37-data-model\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\37-data-model\.eva\trust.json (score: 100)
+
+=======================================
+EVA Veritas Report: EVA Data Model
+=======================================
+Repo:    C:\AICOE\eva-foundation\37-data-model
+Planned: 9 features, 17 stories
+
+Coverage
+---------------------------------------
+Stories total:          17
+Stories with artifacts: 17
+Stories with evidence:  17
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F37-01     Guiding Principle               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F37-02     Layer Build Order               0/0 artifacts  0/0 evidence  0 gaps
+[100] F37-03     Sprint 1 ??? Foundation Layers (  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-04     Sprint 2 ??? Data and API Layers  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-05     Sprint 3 ??? UI Layers (L6???L7) ???  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-06     Sprint 4 ??? Agent Fleet + Infra  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-07     Sprint 5 ??? Requirements Tracea  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-08     Ongoing ??? How the Model Grows   7/7 artifacts  7/7 evidence  0 gaps
+[  0] F37-09     Dependencies                    0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F37-03-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-03-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-04-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-04-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-05-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-05-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-06-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-06-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-07-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-07-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-08-001 -- Growth Path 1 ??? Same-PR Rule (day-to-day) (1 artifact)
+[EVIDENCE] F37-08-002 -- Growth Path 2 ??? Sprint-Close Audit (every sprint) (1 artifact)
+[EVIDENCE] F37-08-003 -- Growth Path 3 ??? Ecosystem Expansion (new service or repository) (1 artifact)
+[EVIDENCE] F37-08-004 -- Growth Path 4 ??? New Model Layer (extending the schema) (1 artifact)
+[EVIDENCE] F37-08-005 -- Validation Gate (all paths) (1 artifact)
+[EVIDENCE] F37-08-006 -- Drift Signals ??? How to Know the Model Is Stale (1 artifact)
+[EVIDENCE] F37-08-007 -- Governance (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   100 (no change)
+Trend:   0 -> 0 -> 71 -> 71 -> 71 -> 71 -> 100 -> 100 -> 100 -> 100
+Actions: deploy, merge, release
+Components: coverage=1 evidence=1 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   81%  (225/279 declared entities verified)
+[ACT] 54 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [service] eva-brain-api -- declared: is_active:true -- actual: not_found
+  ... and 46 more
+[ACT] Container 'jobs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+

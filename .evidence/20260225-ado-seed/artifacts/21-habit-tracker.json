@@ -1,0 +1,383 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.7432379-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/21-habit-tracker",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-21",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "21-habit-tracker",
+    "description": "21-habit-tracker",
+    "tags": "21-habit-tracker;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F21-01",
+      "type": "Feature",
+      "title": "HABIT_ID API [ID=F21-HABIT_ID]",
+      "description": "HABIT_ID API [ID=F21-HABIT_ID]",
+      "tags": "21-habit-tracker;F21-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-02",
+      "type": "Feature",
+      "title": "Quick Start",
+      "description": "Quick Start",
+      "tags": "21-habit-tracker;F21-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-03",
+      "type": "Feature",
+      "title": "Architecture",
+      "description": "Architecture",
+      "tags": "21-habit-tracker;F21-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-04",
+      "type": "Feature",
+      "title": "Features",
+      "description": "Features",
+      "tags": "21-habit-tracker;F21-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-05",
+      "type": "Feature",
+      "title": "API Endpoints",
+      "description": "API Endpoints",
+      "tags": "21-habit-tracker;F21-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-06",
+      "type": "Feature",
+      "title": "Claude Commands",
+      "description": "Claude Commands",
+      "tags": "21-habit-tracker;F21-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-HEALTH",
+      "type": "Feature",
+      "title": "HEALTH API",
+      "description": "HEALTH API",
+      "tags": "21-habit-tracker;F21-HEALTH",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-COMPLETE",
+      "type": "Feature",
+      "title": "COMPLETE API",
+      "description": "COMPLETE API",
+      "tags": "21-habit-tracker;F21-COMPLETE",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-SKIP",
+      "type": "Feature",
+      "title": "SKIP API",
+      "description": "SKIP API",
+      "tags": "21-habit-tracker;F21-SKIP",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-COMPLETIONS",
+      "type": "Feature",
+      "title": "COMPLETIONS API",
+      "description": "COMPLETIONS API",
+      "tags": "21-habit-tracker;F21-COMPLETIONS",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-API",
+      "type": "Feature",
+      "title": "API API",
+      "description": "API API",
+      "tags": "21-habit-tracker;F21-API",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F21-HABIT_ID",
+      "type": "Feature",
+      "title": "HABIT_ID API",
+      "description": "HABIT_ID API",
+      "tags": "21-habit-tracker;F21-HABIT_ID",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F21-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-01-001] GET /{habit_id} [ID=F21-HABIT_ID-001]",
+      "acceptance_criteria": "GET /{habit_id} [ID=F21-HABIT_ID-001]",
+      "tags": "21-habit-tracker;F21-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-01",
+      "state": "New",
+      "wbs_id": "F21-01-001"
+    },
+    {
+      "id_hint": "F21-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F21-01-002] PUT /{habit_id} [ID=F21-HABIT_ID-002]",
+      "acceptance_criteria": "PUT /{habit_id} [ID=F21-HABIT_ID-002]",
+      "tags": "21-habit-tracker;F21-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-01",
+      "state": "New",
+      "wbs_id": "F21-01-002"
+    },
+    {
+      "id_hint": "F21-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F21-01-003] DELETE /{habit_id} [ID=F21-HABIT_ID-003]",
+      "acceptance_criteria": "DELETE /{habit_id} [ID=F21-HABIT_ID-003]",
+      "tags": "21-habit-tracker;F21-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-01",
+      "state": "New",
+      "wbs_id": "F21-01-003"
+    },
+    {
+      "id_hint": "F21-01-004",
+      "type": "Product Backlog Item",
+      "title": "[F21-01-004] PATCH /{habit_id}/archive [ID=F21-HABIT_ID-004]",
+      "acceptance_criteria": "PATCH /{habit_id}/archive [ID=F21-HABIT_ID-004]",
+      "tags": "21-habit-tracker;F21-01-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-01",
+      "state": "New",
+      "wbs_id": "F21-01-004"
+    },
+    {
+      "id_hint": "F21-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-02-001] 1. Clone and Setup Backend",
+      "acceptance_criteria": "1. Clone and Setup Backend",
+      "tags": "21-habit-tracker;F21-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-02",
+      "state": "New",
+      "wbs_id": "F21-02-001"
+    },
+    {
+      "id_hint": "F21-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F21-02-002] 2. Setup Frontend (new terminal)",
+      "acceptance_criteria": "2. Setup Frontend (new terminal)",
+      "tags": "21-habit-tracker;F21-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-02",
+      "state": "New",
+      "wbs_id": "F21-02-002"
+    },
+    {
+      "id_hint": "F21-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F21-02-003] 3. Open the App",
+      "acceptance_criteria": "3. Open the App",
+      "tags": "21-habit-tracker;F21-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-02",
+      "state": "New",
+      "wbs_id": "F21-02-003"
+    },
+    {
+      "id_hint": "F21-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-03-001] Tech Stack",
+      "acceptance_criteria": "Tech Stack",
+      "tags": "21-habit-tracker;F21-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-03",
+      "state": "New",
+      "wbs_id": "F21-03-001"
+    },
+    {
+      "id_hint": "F21-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F21-03-002] Project Structure",
+      "acceptance_criteria": "Project Structure",
+      "tags": "21-habit-tracker;F21-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-03",
+      "state": "New",
+      "wbs_id": "F21-03-002"
+    },
+    {
+      "id_hint": "F21-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-06-001] Planning & Execution",
+      "acceptance_criteria": "Planning & Execution",
+      "tags": "21-habit-tracker;F21-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-06",
+      "state": "New",
+      "wbs_id": "F21-06-001"
+    },
+    {
+      "id_hint": "F21-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F21-06-002] Validation",
+      "acceptance_criteria": "Validation",
+      "tags": "21-habit-tracker;F21-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-06",
+      "state": "New",
+      "wbs_id": "F21-06-002"
+    },
+    {
+      "id_hint": "F21-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F21-06-003] Bug Fixing",
+      "acceptance_criteria": "Bug Fixing",
+      "tags": "21-habit-tracker;F21-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-06",
+      "state": "New",
+      "wbs_id": "F21-06-003"
+    },
+    {
+      "id_hint": "F21-06-004",
+      "type": "Product Backlog Item",
+      "title": "[F21-06-004] Misc",
+      "acceptance_criteria": "Misc",
+      "tags": "21-habit-tracker;F21-06-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-06",
+      "state": "New",
+      "wbs_id": "F21-06-004"
+    },
+    {
+      "id_hint": "F21-HEALTH-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-HEALTH-001] GET /health",
+      "acceptance_criteria": "GET /health",
+      "tags": "21-habit-tracker;F21-HEALTH-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-HEALTH",
+      "state": "New",
+      "wbs_id": "F21-HEALTH-001"
+    },
+    {
+      "id_hint": "F21-COMPLETE-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-COMPLETE-001] POST /complete",
+      "acceptance_criteria": "POST /complete",
+      "tags": "21-habit-tracker;F21-COMPLETE-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-COMPLETE",
+      "state": "New",
+      "wbs_id": "F21-COMPLETE-001"
+    },
+    {
+      "id_hint": "F21-SKIP-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-SKIP-001] POST /skip",
+      "acceptance_criteria": "POST /skip",
+      "tags": "21-habit-tracker;F21-SKIP-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-SKIP",
+      "state": "New",
+      "wbs_id": "F21-SKIP-001"
+    },
+    {
+      "id_hint": "F21-COMPLETIONS-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-COMPLETIONS-001] DELETE /completions/{date}",
+      "acceptance_criteria": "DELETE /completions/{date}",
+      "tags": "21-habit-tracker;F21-COMPLETIONS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-COMPLETIONS",
+      "state": "New",
+      "wbs_id": "F21-COMPLETIONS-001"
+    },
+    {
+      "id_hint": "F21-COMPLETIONS-002",
+      "type": "Product Backlog Item",
+      "title": "[F21-COMPLETIONS-002] GET /completions",
+      "acceptance_criteria": "GET /completions",
+      "tags": "21-habit-tracker;F21-COMPLETIONS-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-COMPLETIONS",
+      "state": "New",
+      "wbs_id": "F21-COMPLETIONS-002"
+    },
+    {
+      "id_hint": "F21-API-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-API-001] GET /",
+      "acceptance_criteria": "GET /",
+      "tags": "21-habit-tracker;F21-API-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-API",
+      "state": "New",
+      "wbs_id": "F21-API-001"
+    },
+    {
+      "id_hint": "F21-API-002",
+      "type": "Product Backlog Item",
+      "title": "[F21-API-002] POST /",
+      "acceptance_criteria": "POST /",
+      "tags": "21-habit-tracker;F21-API-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-API",
+      "state": "New",
+      "wbs_id": "F21-API-002"
+    },
+    {
+      "id_hint": "F21-HABIT_ID-001",
+      "type": "Product Backlog Item",
+      "title": "[F21-HABIT_ID-001] GET /{habit_id}",
+      "acceptance_criteria": "GET /{habit_id}",
+      "tags": "21-habit-tracker;F21-HABIT_ID-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-HABIT_ID",
+      "state": "New",
+      "wbs_id": "F21-HABIT_ID-001"
+    },
+    {
+      "id_hint": "F21-HABIT_ID-002",
+      "type": "Product Backlog Item",
+      "title": "[F21-HABIT_ID-002] PUT /{habit_id}",
+      "acceptance_criteria": "PUT /{habit_id}",
+      "tags": "21-habit-tracker;F21-HABIT_ID-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-HABIT_ID",
+      "state": "New",
+      "wbs_id": "F21-HABIT_ID-002"
+    },
+    {
+      "id_hint": "F21-HABIT_ID-003",
+      "type": "Product Backlog Item",
+      "title": "[F21-HABIT_ID-003] DELETE /{habit_id}",
+      "acceptance_criteria": "DELETE /{habit_id}",
+      "tags": "21-habit-tracker;F21-HABIT_ID-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-HABIT_ID",
+      "state": "New",
+      "wbs_id": "F21-HABIT_ID-003"
+    },
+    {
+      "id_hint": "F21-HABIT_ID-004",
+      "type": "Product Backlog Item",
+      "title": "[F21-HABIT_ID-004] PATCH /{habit_id}/archive",
+      "acceptance_criteria": "PATCH /{habit_id}/archive",
+      "tags": "21-habit-tracker;F21-HABIT_ID-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F21-HABIT_ID",
+      "state": "New",
+      "wbs_id": "F21-HABIT_ID-004"
+    }
+  ]
+}

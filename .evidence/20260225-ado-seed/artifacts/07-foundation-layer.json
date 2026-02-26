@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.6012922-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/07-foundation-layer",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-07",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "07-foundation-layer",
+    "description": "07-foundation-layer",
+    "tags": "07-foundation-layer;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F07-01",
+      "type": "Feature",
+      "title": "Goal",
+      "description": "Goal",
+      "tags": "07-foundation-layer;F07-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-02",
+      "type": "Feature",
+      "title": "Key Discovery Findings",
+      "description": "Key Discovery Findings",
+      "tags": "07-foundation-layer;F07-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-03",
+      "type": "Feature",
+      "title": "Project Phases",
+      "description": "Project Phases",
+      "tags": "07-foundation-layer;F07-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-04",
+      "type": "Feature",
+      "title": "Project Structure",
+      "description": "Project Structure",
+      "tags": "07-foundation-layer;F07-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-05",
+      "type": "Feature",
+      "title": "Success Criteria",
+      "description": "Success Criteria",
+      "tags": "07-foundation-layer;F07-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-06",
+      "type": "Feature",
+      "title": "Deploying Project 07 to Other Projects",
+      "description": "Deploying Project 07 to Other Projects",
+      "tags": "07-foundation-layer;F07-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-07",
+      "type": "Feature",
+      "title": "Troubleshooting",
+      "description": "Troubleshooting",
+      "tags": "07-foundation-layer;F07-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-08",
+      "type": "Feature",
+      "title": "References",
+      "description": "References",
+      "tags": "07-foundation-layer;F07-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F07-09",
+      "type": "Feature",
+      "title": "Change Log",
+      "description": "Change Log",
+      "tags": "07-foundation-layer;F07-09",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F07-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F07-02-001] **?? CRITICAL Pattern #1: Windows Enterprise Encoding Safety**",
+      "acceptance_criteria": "**?? CRITICAL Pattern #1: Windows Enterprise Encoding Safety**",
+      "tags": "07-foundation-layer;F07-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-02",
+      "state": "New",
+      "wbs_id": "F07-02-001"
+    },
+    {
+      "id_hint": "F07-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F07-02-002] **? Pattern #2: Professional Component Architecture**",
+      "acceptance_criteria": "**? Pattern #2: Professional Component Architecture**",
+      "tags": "07-foundation-layer;F07-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-02",
+      "state": "New",
+      "wbs_id": "F07-02-002"
+    },
+    {
+      "id_hint": "F07-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F07-02-003] **? Pattern #3: Zero-Setup Execution**",
+      "acceptance_criteria": "**? Pattern #3: Zero-Setup Execution**",
+      "tags": "07-foundation-layer;F07-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-02",
+      "state": "New",
+      "wbs_id": "F07-02-003"
+    },
+    {
+      "id_hint": "F07-02-004",
+      "type": "Product Backlog Item",
+      "title": "[F07-02-004] **?? Patterns Pending Broader Validation**",
+      "acceptance_criteria": "**?? Patterns Pending Broader Validation**",
+      "tags": "07-foundation-layer;F07-02-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-02",
+      "state": "New",
+      "wbs_id": "F07-02-004"
+    },
+    {
+      "id_hint": "F07-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F07-03-001] Phase 1: Discovery (?? IN PROGRESS)",
+      "acceptance_criteria": "Phase 1: Discovery (?? IN PROGRESS)",
+      "tags": "07-foundation-layer;F07-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-03",
+      "state": "New",
+      "wbs_id": "F07-03-001"
+    },
+    {
+      "id_hint": "F07-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F07-03-002] Phase 2: Design (complete - January 29, 2026)",
+      "acceptance_criteria": "Phase 2: Design (complete - January 29, 2026)",
+      "tags": "07-foundation-layer;F07-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-03",
+      "state": "New",
+      "wbs_id": "F07-03-002"
+    },
+    {
+      "id_hint": "F07-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F07-03-003] Phase 5: Workspace Management (? TESTED - v1.5.2 - January 30, 2026)",
+      "acceptance_criteria": "Phase 5: Workspace Management (? TESTED - v1.5.2 - January 30, 2026)",
+      "tags": "07-foundation-layer;F07-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-03",
+      "state": "New",
+      "wbs_id": "F07-03-003"
+    },
+    {
+      "id_hint": "F07-03-004",
+      "type": "Product Backlog Item",
+      "title": "[F07-03-004] Phase 3: Development (? COMPLETE - January 29, 2026)",
+      "acceptance_criteria": "Phase 3: Development (? COMPLETE - January 29, 2026)",
+      "tags": "07-foundation-layer;F07-03-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-03",
+      "state": "New",
+      "wbs_id": "F07-03-004"
+    },
+    {
+      "id_hint": "F07-03-005",
+      "type": "Product Backlog Item",
+      "title": "[F07-03-005] Phase 4: Testing (? READY - Pester 5.x Upgraded)",
+      "acceptance_criteria": "Phase 4: Testing (? READY - Pester 5.x Upgraded)",
+      "tags": "07-foundation-layer;F07-03-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-03",
+      "state": "New",
+      "wbs_id": "F07-03-005"
+    },
+    {
+      "id_hint": "F07-03-006",
+      "type": "Product Backlog Item",
+      "title": "[F07-03-006] Phase 5: Implementation (?? ON HOLD - Waiting for Testing)",
+      "acceptance_criteria": "Phase 5: Implementation (?? ON HOLD - Waiting for Testing)",
+      "tags": "07-foundation-layer;F07-03-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-03",
+      "state": "New",
+      "wbs_id": "F07-03-006"
+    },
+    {
+      "id_hint": "F07-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F07-05-001] **Primary Success Metrics**",
+      "acceptance_criteria": "**Primary Success Metrics**",
+      "tags": "07-foundation-layer;F07-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-05",
+      "state": "New",
+      "wbs_id": "F07-05-001"
+    },
+    {
+      "id_hint": "F07-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F07-05-002] **Secondary Success Metrics**",
+      "acceptance_criteria": "**Secondary Success Metrics**",
+      "tags": "07-foundation-layer;F07-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-05",
+      "state": "New",
+      "wbs_id": "F07-05-002"
+    },
+    {
+      "id_hint": "F07-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F07-06-001] Quick Deployment Guide",
+      "acceptance_criteria": "Quick Deployment Guide",
+      "tags": "07-foundation-layer;F07-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-06",
+      "state": "New",
+      "wbs_id": "F07-06-001"
+    },
+    {
+      "id_hint": "F07-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F07-06-002] Deployment Decision Tree",
+      "acceptance_criteria": "Deployment Decision Tree",
+      "tags": "07-foundation-layer;F07-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-06",
+      "state": "New",
+      "wbs_id": "F07-06-002"
+    },
+    {
+      "id_hint": "F07-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F07-06-003] What Gets Deployed",
+      "acceptance_criteria": "What Gets Deployed",
+      "tags": "07-foundation-layer;F07-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-06",
+      "state": "New",
+      "wbs_id": "F07-06-003"
+    },
+    {
+      "id_hint": "F07-06-004",
+      "type": "Product Backlog Item",
+      "title": "[F07-06-004] Supported Project Types",
+      "acceptance_criteria": "Supported Project Types",
+      "tags": "07-foundation-layer;F07-06-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-06",
+      "state": "New",
+      "wbs_id": "F07-06-004"
+    },
+    {
+      "id_hint": "F07-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F07-07-001] Common Issues",
+      "acceptance_criteria": "Common Issues",
+      "tags": "07-foundation-layer;F07-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-07",
+      "state": "New",
+      "wbs_id": "F07-07-001"
+    },
+    {
+      "id_hint": "F07-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F07-08-001] Deployment Tools",
+      "acceptance_criteria": "Deployment Tools",
+      "tags": "07-foundation-layer;F07-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-08",
+      "state": "New",
+      "wbs_id": "F07-08-001"
+    },
+    {
+      "id_hint": "F07-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F07-08-002] Documentation",
+      "acceptance_criteria": "Documentation",
+      "tags": "07-foundation-layer;F07-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F07-08",
+      "state": "New",
+      "wbs_id": "F07-08-002"
+    }
+  ]
+}

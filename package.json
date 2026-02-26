@@ -1,0 +1,52 @@
+{
+  "name": "eva-veritas",
+  "version": "0.2.0",
+  "description": "eva-veritas -- Zero-config requirements traceability CLI with MCP server, portfolio scoring, ADO integration, and data model cross-reference.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "src/cli.js",
+  "bin": {
+    "eva": "src/cli.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "requirements",
+    "traceability",
+    "requirements-traceability",
+    "audit",
+    "governance",
+    "mcp",
+    "azure-devops",
+    "specification-coverage",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eva-foundry/eva-veritas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eva-foundry/eva-veritas/issues"
+  },
+  "homepage": "https://github.com/eva-foundry/eva-veritas#readme",
+  "scripts": {
+    "eva": "node src/cli.js",
+    "discover": "node src/cli.js discover",
+    "reconcile": "node src/cli.js reconcile",
+    "ado": "node src/cli.js generate-ado",
+    "trust": "node src/cli.js compute-trust",
+    "report": "node src/cli.js report",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fast-glob": "^3.3.2",
+    "js-yaml": "^4.1.0"
+  }
+}

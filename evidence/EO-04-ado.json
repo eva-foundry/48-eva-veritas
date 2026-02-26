@@ -1,0 +1,14 @@
+{
+  "notes": "EVA-STORY: EO-04-001 EVA-STORY: EO-04-002",
+  "evidence_for": ["EO-04-001", "EO-04-002"],
+  "run_at": "2026-02-24T18:07:00Z",
+  "command": "node src/cli.js generate-ado --repo . --gaps-only",
+  "result": {
+    "output_path": ".eva/ado.csv",
+    "csv_schema": "Epic,Feature,Story,StoryID,Type,Tags,Description",
+    "gap_tag": "[gap]",
+    "hierarchy": "Epic -> Feature -> Story (3-level ADO import ready)"
+  },
+  "verdict": "PASS -- generate-ado produces Sprint-importable CSV with Epic/Feature/Story hierarchy",
+  "confirmed_in": "src/generate-ado.js, src/lib/ado-csv.js"
+}

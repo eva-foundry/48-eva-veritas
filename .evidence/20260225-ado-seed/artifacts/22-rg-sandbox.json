@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.7550805-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/22-rg-sandbox",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-22",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "22-rg-sandbox",
+    "description": "22-rg-sandbox",
+    "tags": "22-rg-sandbox;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F22-01",
+      "type": "Feature",
+      "title": "Purpose",
+      "description": "Purpose",
+      "tags": "22-rg-sandbox;F22-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-02",
+      "type": "Feature",
+      "title": "Frozen Scope (January 29, 2026)",
+      "description": "Frozen Scope (January 29, 2026)",
+      "tags": "22-rg-sandbox;F22-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-03",
+      "type": "Feature",
+      "title": "Architecture Summary",
+      "description": "Architecture Summary",
+      "tags": "22-rg-sandbox;F22-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-04",
+      "type": "Feature",
+      "title": "Prerequisites (Before Deployment)",
+      "description": "Prerequisites (Before Deployment)",
+      "tags": "22-rg-sandbox;F22-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-05",
+      "type": "Feature",
+      "title": "Reference Architecture (Dev2 ? Sandbox Mapping)",
+      "description": "Reference Architecture (Dev2 ? Sandbox Mapping)",
+      "tags": "22-rg-sandbox;F22-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-06",
+      "type": "Feature",
+      "title": "Key Decisions & Justifications",
+      "description": "Key Decisions & Justifications",
+      "tags": "22-rg-sandbox;F22-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-07",
+      "type": "Feature",
+      "title": "Success Criteria",
+      "description": "Success Criteria",
+      "tags": "22-rg-sandbox;F22-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-08",
+      "type": "Feature",
+      "title": "Constraints",
+      "description": "Constraints",
+      "tags": "22-rg-sandbox;F22-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-09",
+      "type": "Feature",
+      "title": "Deployment Timeline",
+      "description": "Deployment Timeline",
+      "tags": "22-rg-sandbox;F22-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-10",
+      "type": "Feature",
+      "title": "Next Steps",
+      "description": "Next Steps",
+      "tags": "22-rg-sandbox;F22-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-11",
+      "type": "Feature",
+      "title": "Documentation",
+      "description": "Documentation",
+      "tags": "22-rg-sandbox;F22-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-12",
+      "type": "Feature",
+      "title": "Project Housekeeping",
+      "description": "Project Housekeeping",
+      "tags": "22-rg-sandbox;F22-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F22-13",
+      "type": "Feature",
+      "title": "Contact & Escalation",
+      "description": "Contact & Escalation",
+      "tags": "22-rg-sandbox;F22-13",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F22-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-02-001] Architecture Decision: **Public Endpoints + Reuse Strategy**",
+      "acceptance_criteria": "Architecture Decision: **Public Endpoints + Reuse Strategy**",
+      "tags": "22-rg-sandbox;F22-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-02",
+      "state": "New",
+      "wbs_id": "F22-02-001"
+    },
+    {
+      "id_hint": "F22-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-03-001] Resources to Deploy (12 total)",
+      "acceptance_criteria": "Resources to Deploy (12 total)",
+      "tags": "22-rg-sandbox;F22-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-03",
+      "state": "New",
+      "wbs_id": "F22-03-001"
+    },
+    {
+      "id_hint": "F22-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-04-001] 1. Permissions Required",
+      "acceptance_criteria": "1. Permissions Required",
+      "tags": "22-rg-sandbox;F22-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-04",
+      "state": "New",
+      "wbs_id": "F22-04-001"
+    },
+    {
+      "id_hint": "F22-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-04-002] 2. Infrastructure Team Confirmation",
+      "acceptance_criteria": "2. Infrastructure Team Confirmation",
+      "tags": "22-rg-sandbox;F22-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-04",
+      "state": "New",
+      "wbs_id": "F22-04-002"
+    },
+    {
+      "id_hint": "F22-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F22-04-003] 3. Pre-Deployment Inventory (Phase 1.1)",
+      "acceptance_criteria": "3. Pre-Deployment Inventory (Phase 1.1)",
+      "tags": "22-rg-sandbox;F22-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-04",
+      "state": "New",
+      "wbs_id": "F22-04-003"
+    },
+    {
+      "id_hint": "F22-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-05-001] Dev2 (Source - 81 resources, validated 2026-02-03)",
+      "acceptance_criteria": "Dev2 (Source - 81 resources, validated 2026-02-03)",
+      "tags": "22-rg-sandbox;F22-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-05",
+      "state": "New",
+      "wbs_id": "F22-05-001"
+    },
+    {
+      "id_hint": "F22-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-05-002] Sandbox (Target - 12 resources)",
+      "acceptance_criteria": "Sandbox (Target - 12 resources)",
+      "tags": "22-rg-sandbox;F22-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-05",
+      "state": "New",
+      "wbs_id": "F22-05-002"
+    },
+    {
+      "id_hint": "F22-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-06-001] Decision 1: Public Endpoints",
+      "acceptance_criteria": "Decision 1: Public Endpoints",
+      "tags": "22-rg-sandbox;F22-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-06",
+      "state": "New",
+      "wbs_id": "F22-06-001"
+    },
+    {
+      "id_hint": "F22-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-06-002] Decision 2: Reuse Azure OpenAI",
+      "acceptance_criteria": "Decision 2: Reuse Azure OpenAI",
+      "tags": "22-rg-sandbox;F22-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-06",
+      "state": "New",
+      "wbs_id": "F22-06-002"
+    },
+    {
+      "id_hint": "F22-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F22-06-003] Decision 3: Basic Search Tier",
+      "acceptance_criteria": "Decision 3: Basic Search Tier",
+      "tags": "22-rg-sandbox;F22-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-06",
+      "state": "New",
+      "wbs_id": "F22-06-003"
+    },
+    {
+      "id_hint": "F22-06-004",
+      "type": "Product Backlog Item",
+      "title": "[F22-06-004] Decision 4: Serverless Cosmos DB",
+      "acceptance_criteria": "Decision 4: Serverless Cosmos DB",
+      "tags": "22-rg-sandbox;F22-06-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-06",
+      "state": "New",
+      "wbs_id": "F22-06-004"
+    },
+    {
+      "id_hint": "F22-06-005",
+      "type": "Product Backlog Item",
+      "title": "[F22-06-005] Decision 5: B1 Web Apps",
+      "acceptance_criteria": "Decision 5: B1 Web Apps",
+      "tags": "22-rg-sandbox;F22-06-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-06",
+      "state": "New",
+      "wbs_id": "F22-06-005"
+    },
+    {
+      "id_hint": "F22-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-07-001] Functional Requirements",
+      "acceptance_criteria": "Functional Requirements",
+      "tags": "22-rg-sandbox;F22-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-07",
+      "state": "New",
+      "wbs_id": "F22-07-001"
+    },
+    {
+      "id_hint": "F22-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-07-002] Performance Requirements",
+      "acceptance_criteria": "Performance Requirements",
+      "tags": "22-rg-sandbox;F22-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-07",
+      "state": "New",
+      "wbs_id": "F22-07-002"
+    },
+    {
+      "id_hint": "F22-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F22-07-003] Cost Requirements",
+      "acceptance_criteria": "Cost Requirements",
+      "tags": "22-rg-sandbox;F22-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-07",
+      "state": "New",
+      "wbs_id": "F22-07-003"
+    },
+    {
+      "id_hint": "F22-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F22-07-004] Operational Requirements",
+      "acceptance_criteria": "Operational Requirements",
+      "tags": "22-rg-sandbox;F22-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-07",
+      "state": "New",
+      "wbs_id": "F22-07-004"
+    },
+    {
+      "id_hint": "F22-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-08-001] Hard Constraints (Cannot Change)",
+      "acceptance_criteria": "Hard Constraints (Cannot Change)",
+      "tags": "22-rg-sandbox;F22-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-08",
+      "state": "New",
+      "wbs_id": "F22-08-001"
+    },
+    {
+      "id_hint": "F22-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-08-002] Soft Constraints (Can Negotiate)",
+      "acceptance_criteria": "Soft Constraints (Can Negotiate)",
+      "tags": "22-rg-sandbox;F22-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-08",
+      "state": "New",
+      "wbs_id": "F22-08-002"
+    },
+    {
+      "id_hint": "F22-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-09-001] Phase 1: Pre-Deployment (Feb 3-4) ? COMPLETE",
+      "acceptance_criteria": "Phase 1: Pre-Deployment (Feb 3-4) ? COMPLETE",
+      "tags": "22-rg-sandbox;F22-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-09",
+      "state": "New",
+      "wbs_id": "F22-09-001"
+    },
+    {
+      "id_hint": "F22-09-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-09-002] Phase 2: Infrastructure Team Actions (Feb 5-7)",
+      "acceptance_criteria": "Phase 2: Infrastructure Team Actions (Feb 5-7)",
+      "tags": "22-rg-sandbox;F22-09-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-09",
+      "state": "New",
+      "wbs_id": "F22-09-002"
+    },
+    {
+      "id_hint": "F22-09-003",
+      "type": "Product Backlog Item",
+      "title": "[F22-09-003] Phase 3: Deployment (Feb 10-12)",
+      "acceptance_criteria": "Phase 3: Deployment (Feb 10-12)",
+      "tags": "22-rg-sandbox;F22-09-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-09",
+      "state": "New",
+      "wbs_id": "F22-09-003"
+    },
+    {
+      "id_hint": "F22-09-004",
+      "type": "Product Backlog Item",
+      "title": "[F22-09-004] Phase 4: Validation (Feb 12-13)",
+      "acceptance_criteria": "Phase 4: Validation (Feb 12-13)",
+      "tags": "22-rg-sandbox;F22-09-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-09",
+      "state": "New",
+      "wbs_id": "F22-09-004"
+    },
+    {
+      "id_hint": "F22-09-005",
+      "type": "Product Backlog Item",
+      "title": "[F22-09-005] Phase 5: Cost Monitoring (Feb 14+)",
+      "acceptance_criteria": "Phase 5: Cost Monitoring (Feb 14+)",
+      "tags": "22-rg-sandbox;F22-09-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-09",
+      "state": "New",
+      "wbs_id": "F22-09-005"
+    },
+    {
+      "id_hint": "F22-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-10-001] Immediate Actions (Today - Feb 3)",
+      "acceptance_criteria": "Immediate Actions (Today - Feb 3)",
+      "tags": "22-rg-sandbox;F22-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-10",
+      "state": "New",
+      "wbs_id": "F22-10-001"
+    },
+    {
+      "id_hint": "F22-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-10-002] Waiting On",
+      "acceptance_criteria": "Waiting On",
+      "tags": "22-rg-sandbox;F22-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-10",
+      "state": "New",
+      "wbs_id": "F22-10-002"
+    },
+    {
+      "id_hint": "F22-10-003",
+      "type": "Product Backlog Item",
+      "title": "[F22-10-003] Blockers",
+      "acceptance_criteria": "Blockers",
+      "tags": "22-rg-sandbox;F22-10-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-10",
+      "state": "New",
+      "wbs_id": "F22-10-003"
+    },
+    {
+      "id_hint": "F22-12-001",
+      "type": "Product Backlog Item",
+      "title": "[F22-12-001] Archived Content",
+      "acceptance_criteria": "Archived Content",
+      "tags": "22-rg-sandbox;F22-12-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-12",
+      "state": "New",
+      "wbs_id": "F22-12-001"
+    },
+    {
+      "id_hint": "F22-12-002",
+      "type": "Product Backlog Item",
+      "title": "[F22-12-002] Active Documentation",
+      "acceptance_criteria": "Active Documentation",
+      "tags": "22-rg-sandbox;F22-12-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-12",
+      "state": "New",
+      "wbs_id": "F22-12-002"
+    },
+    {
+      "id_hint": "F22-12-003",
+      "type": "Product Backlog Item",
+      "title": "[F22-12-003] Housekeeping Policy",
+      "acceptance_criteria": "Housekeeping Policy",
+      "tags": "22-rg-sandbox;F22-12-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F22-12",
+      "state": "New",
+      "wbs_id": "F22-12-003"
+    }
+  ]
+}

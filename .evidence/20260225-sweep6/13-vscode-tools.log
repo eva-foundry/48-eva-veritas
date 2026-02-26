@@ -1,0 +1,122 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\13-vscode-tools
+[INFO] Prefix: F13
+[PASS] Written: C:\AICOE\eva-foundation\13-vscode-tools\.eva\veritas-plan.json
+       13 features, 40 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F13-01        0      0  Why This Project Exists
+  F13-02        1      0  Goal
+  F13-03        0      0  Acceptance Criteria
+  F13-04       13      0  Complete Tool Inventory (156 Tools)
+  F13-05        5      0  Tools Mapped to Your Projects
+  F13-06        4      0  Priority Tiers: What to Master First
+  F13-07        1      0  Elimination List: Tools to Disable
+  F13-08        5      0  High-Impact Tool Usage Patterns
+  F13-09        3      0  Performance Baseline & Metrics
+  F13-10        4      0  Next Steps
+  F13-11        0      0  The Beach Answer (Revisited)
+  F13-12        4      0  Appendix: Tool Selection Philosophy
+  F13-13        0      0  Document Metadata
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F13-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\13-vscode-tools
+[INFO] Using veritas-plan.json (format: veritas, 40 stories, 0 tasks)
+[INFO] Planned: 13 features, 40 stories
+[INFO] Actual: 11 artifacts, 40 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\13-vscode-tools\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\13-vscode-tools\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\13-vscode-tools\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Project 13: VS Code Tools - Strategic Selection & Mastery
+=======================================
+Repo:    C:\AICOE\eva-foundation\13-vscode-tools
+Planned: 13 features, 40 stories
+
+Coverage
+---------------------------------------
+Stories total:          40
+Stories with artifacts: 40
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F13-01     Why This Project Exists         0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F13-02     Goal                            1/1 artifacts  0/1 evidence  0 gaps
+[  0] F13-03     Acceptance Criteria             0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F13-04     Complete Tool Inventory (156 T  13/13 artifacts  0/13 evidence  0 gaps
+[ 50] F13-05     Tools Mapped to Your Projects   5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F13-06     Priority Tiers: What to Master  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F13-07     Elimination List: Tools to Dis  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F13-08     High-Impact Tool Usage Pattern  5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F13-09     Performance Baseline & Metrics  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F13-10     Next Steps                      4/4 artifacts  0/4 evidence  0 gaps
+[  0] F13-11     The Beach Answer (Revisited)    0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F13-12     Appendix: Tool Selection Philo  4/4 artifacts  0/4 evidence  0 gaps
+[  0] F13-13     Document Metadata               0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F13-02-001 -- Key Questions This Project Answers (1 artifact)
+[IMPL] F13-04-001 -- Built-In Core (7 tools) (1 artifact)
+[IMPL] F13-04-002 -- File Operations (8 tools) (1 artifact)
+[IMPL] F13-04-003 -- Development & Execution (10 tools) (1 artifact)
+[IMPL] F13-04-004 -- Code Intelligence (5 tools) (1 artifact)
+[IMPL] F13-04-005 -- Project Generation (2 tools) (1 artifact)
+[IMPL] F13-04-006 -- Notebook Operations (2 tools) (1 artifact)
+[IMPL] F13-04-007 -- AI Agent Development (5 tools) (1 artifact)
+[IMPL] F13-04-008 -- Python Development (2 tools) (1 artifact)
+[IMPL] F13-04-009 -- Java Development (6 tools) (1 artifact)
+[IMPL] F13-04-010 -- Azure Services (25+ MCP tools) (1 artifact)
+[IMPL] F13-04-011 -- DevBox Management (8 MCP tools) (1 artifact)
+[IMPL] F13-04-012 -- Git & GitHub (15+ tools) (1 artifact)
+[IMPL] F13-04-013 -- Multi-Tool Execution (1 tool) (1 artifact)
+[IMPL] F13-05-001 -- ?? **CRITICAL for EVA AI Governance** (eva-ai-governance) (1 artifact)
+[IMPL] F13-05-002 -- ?? **CRITICAL for Agent Skills Framework** (Project 02) (1 artifact)
+[IMPL] F13-05-003 -- ?? **CRITICAL for OS-vNext Workflows** (Project 04) (1 artifact)
+[IMPL] F13-05-004 -- ?? **HIGH for Copilot Instructions** (Project 07) (1 artifact)
+[IMPL] F13-05-005 -- ?? **HIGH for MS-InfoJP Deployment** (Project 11) (1 artifact)
+[IMPL] F13-06-001 -- ?? **Tier 1: CRITICAL - Master Immediately** (15 tools) (1 artifact)
+[IMPL] F13-06-002 -- ?? **Tier 2: HIGH - Master Within 2 Weeks** (20 tools) (1 artifact)
+[IMPL] F13-06-003 -- ?? **Tier 3: MEDIUM - Master As Needed** (15 tools) (1 artifact)
+[IMPL] F13-06-004 -- ?? **Tier 4: LOW - Consider Disabling** (106 tools) (1 artifact)
+[IMPL] F13-07-001 -- Specific Tools to Disable (1 artifact)
+[IMPL] F13-08-001 -- Pattern 1: Governance Documentation Generation (1 artifact)
+[IMPL] F13-08-002 -- Pattern 2: Agent Skills Refactoring (1 artifact)
+[IMPL] F13-08-003 -- Pattern 3: Azure Resource Troubleshooting (1 artifact)
+[IMPL] F13-08-004 -- Pattern 4: Multi-Repo Copilot Instructions Standardization (1 artifact)
+[IMPL] F13-08-005 -- Pattern 5: Documentation Validation Pipeline (1 artifact)
+[IMPL] F13-09-001 -- Before Tool Mastery (Current State) (1 artifact)
+[IMPL] F13-09-002 -- After Tool Mastery (Target State) (1 artifact)
+[IMPL] F13-09-003 -- Measurement Plan (1 artifact)
+[IMPL] F13-10-001 -- Immediate Actions (Today) (1 artifact)
+[IMPL] F13-10-002 -- This Week (1 artifact)
+[IMPL] F13-10-003 -- Next 2 Weeks (1 artifact)
+[IMPL] F13-10-004 -- Month 1 Goal (1 artifact)
+[IMPL] F13-12-001 -- The 80/20 Rule Applied (1 artifact)
+[IMPL] F13-12-002 -- Cognitive Load Management (1 artifact)
+[IMPL] F13-12-003 -- Workflow-Driven Selection (1 artifact)
+[IMPL] F13-12-004 -- Performance Optimization (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

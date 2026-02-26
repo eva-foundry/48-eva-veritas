@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1673951-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/45-aicoe-page",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-45",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "45-aicoe-page",
+    "description": "45-aicoe-page",
+    "tags": "45-aicoe-page;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F45-01",
+      "type": "Feature",
+      "title": "EVA Team Structural Alignment",
+      "description": "EVA Team Structural Alignment",
+      "tags": "45-aicoe-page;F45-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F45-02",
+      "type": "Feature",
+      "title": "Bilingual i18n Scaffold",
+      "description": "Bilingual i18n Scaffold",
+      "tags": "45-aicoe-page;F45-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F45-03",
+      "type": "Feature",
+      "title": "Layout Shell",
+      "description": "Layout Shell",
+      "tags": "45-aicoe-page;F45-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F45-04",
+      "type": "Feature",
+      "title": "Home Page",
+      "description": "Home Page",
+      "tags": "45-aicoe-page;F45-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F45-05",
+      "type": "Feature",
+      "title": "Content Pages",
+      "description": "Content Pages",
+      "tags": "45-aicoe-page;F45-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F45-06",
+      "type": "Feature",
+      "title": "CI and Test Coverage",
+      "description": "CI and Test Coverage",
+      "tags": "45-aicoe-page;F45-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F45-UI",
+      "type": "Feature",
+      "title": "UI Pages",
+      "description": "UI Pages",
+      "tags": "45-aicoe-page;F45-UI",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F45-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F45-01-001] Replace FluentProvider with GCThemeProvider",
+      "acceptance_criteria": "Replace FluentProvider with GCThemeProvider",
+      "tags": "45-aicoe-page;F45-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-01",
+      "state": "New",
+      "wbs_id": "F45-01-001"
+    },
+    {
+      "id_hint": "F45-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F45-01-002] Add AnnouncerProvider for WCAG aria-live",
+      "acceptance_criteria": "Add AnnouncerProvider for WCAG aria-live",
+      "tags": "45-aicoe-page;F45-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-01",
+      "state": "New",
+      "wbs_id": "F45-01-002"
+    },
+    {
+      "id_hint": "F45-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F45-01-003] Add HashRouter and React.StrictMode",
+      "acceptance_criteria": "Add HashRouter and React.StrictMode",
+      "tags": "45-aicoe-page;F45-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-01",
+      "state": "New",
+      "wbs_id": "F45-01-003"
+    },
+    {
+      "id_hint": "F45-01-004",
+      "type": "Product Backlog Item",
+      "title": "[F45-01-004] Wire @eva shared deps",
+      "acceptance_criteria": "Wire @eva shared deps",
+      "tags": "45-aicoe-page;F45-01-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-01",
+      "state": "New",
+      "wbs_id": "F45-01-004"
+    },
+    {
+      "id_hint": "F45-01-005",
+      "type": "Product Backlog Item",
+      "title": "[F45-01-005] Remove @github/spark Vite plugin",
+      "acceptance_criteria": "Remove @github/spark Vite plugin",
+      "tags": "45-aicoe-page;F45-01-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-01",
+      "state": "New",
+      "wbs_id": "F45-01-005"
+    },
+    {
+      "id_hint": "F45-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F45-02-001] Add i18next with LanguageDetector",
+      "acceptance_criteria": "Add i18next with LanguageDetector",
+      "tags": "45-aicoe-page;F45-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-02",
+      "state": "New",
+      "wbs_id": "F45-02-001"
+    },
+    {
+      "id_hint": "F45-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F45-02-002] Seed EN and FR locale files",
+      "acceptance_criteria": "Seed EN and FR locale files",
+      "tags": "45-aicoe-page;F45-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-02",
+      "state": "New",
+      "wbs_id": "F45-02-002"
+    },
+    {
+      "id_hint": "F45-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F45-03-001] Build Layout component with skip-link and nav",
+      "acceptance_criteria": "Build Layout component with skip-link and nav",
+      "tags": "45-aicoe-page;F45-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-03",
+      "state": "New",
+      "wbs_id": "F45-03-001"
+    },
+    {
+      "id_hint": "F45-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F45-03-002] Wire route-change announcer effect",
+      "acceptance_criteria": "Wire route-change announcer effect",
+      "tags": "45-aicoe-page;F45-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-03",
+      "state": "New",
+      "wbs_id": "F45-03-002"
+    },
+    {
+      "id_hint": "F45-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F45-04-001] Build HomePage with hero and tool cards",
+      "acceptance_criteria": "Build HomePage with hero and tool cards",
+      "tags": "45-aicoe-page;F45-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-04",
+      "state": "New",
+      "wbs_id": "F45-04-001"
+    },
+    {
+      "id_hint": "F45-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F45-05-001] Build AboutPage route-- COMPLETE 2026-02-24",
+      "acceptance_criteria": "Build AboutPage route-- COMPLETE 2026-02-24",
+      "tags": "45-aicoe-page;F45-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-05",
+      "state": "New",
+      "wbs_id": "F45-05-001"
+    },
+    {
+      "id_hint": "F45-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F45-05-002] Build ProductsPage route-- COMPLETE 2026-02-24",
+      "acceptance_criteria": "Build ProductsPage route-- COMPLETE 2026-02-24",
+      "tags": "45-aicoe-page;F45-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-05",
+      "state": "New",
+      "wbs_id": "F45-05-002"
+    },
+    {
+      "id_hint": "F45-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F45-06-001] Add GitHub Actions build + lint CI-- COMPLETE 2026-02-24",
+      "acceptance_criteria": "Add GitHub Actions build + lint CI-- COMPLETE 2026-02-24",
+      "tags": "45-aicoe-page;F45-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-06",
+      "state": "New",
+      "wbs_id": "F45-06-001"
+    },
+    {
+      "id_hint": "F45-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F45-06-002] Add Vitest and first component tests-- COMPLETE 2026-02-24",
+      "acceptance_criteria": "Add Vitest and first component tests-- COMPLETE 2026-02-24",
+      "tags": "45-aicoe-page;F45-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-06",
+      "state": "New",
+      "wbs_id": "F45-06-002"
+    },
+    {
+      "id_hint": "F45-UI-001",
+      "type": "Product Backlog Item",
+      "title": "[F45-UI-001] Route about",
+      "acceptance_criteria": "Route about",
+      "tags": "45-aicoe-page;F45-UI-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-UI",
+      "state": "New",
+      "wbs_id": "F45-UI-001"
+    },
+    {
+      "id_hint": "F45-UI-002",
+      "type": "Product Backlog Item",
+      "title": "[F45-UI-002] Route products",
+      "acceptance_criteria": "Route products",
+      "tags": "45-aicoe-page;F45-UI-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-UI",
+      "state": "New",
+      "wbs_id": "F45-UI-002"
+    },
+    {
+      "id_hint": "F45-UI-003",
+      "type": "Product Backlog Item",
+      "title": "[F45-UI-003] ABOUTPAGE page",
+      "acceptance_criteria": "ABOUTPAGE page",
+      "tags": "45-aicoe-page;F45-UI-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-UI",
+      "state": "New",
+      "wbs_id": "F45-UI-003"
+    },
+    {
+      "id_hint": "F45-UI-004",
+      "type": "Product Backlog Item",
+      "title": "[F45-UI-004] HOMEPAGE page",
+      "acceptance_criteria": "HOMEPAGE page",
+      "tags": "45-aicoe-page;F45-UI-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-UI",
+      "state": "New",
+      "wbs_id": "F45-UI-004"
+    },
+    {
+      "id_hint": "F45-UI-005",
+      "type": "Product Backlog Item",
+      "title": "[F45-UI-005] LAYOUT page",
+      "acceptance_criteria": "LAYOUT page",
+      "tags": "45-aicoe-page;F45-UI-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-UI",
+      "state": "New",
+      "wbs_id": "F45-UI-005"
+    },
+    {
+      "id_hint": "F45-UI-006",
+      "type": "Product Backlog Item",
+      "title": "[F45-UI-006] PRODUCTSPAGE page",
+      "acceptance_criteria": "PRODUCTSPAGE page",
+      "tags": "45-aicoe-page;F45-UI-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F45-UI",
+      "state": "New",
+      "wbs_id": "F45-UI-006"
+    }
+  ]
+}

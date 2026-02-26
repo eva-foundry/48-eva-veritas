@@ -1,0 +1,101 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0855-ado-import-artifacts-live.log
+
+=== ADO Import: 16-engineered-case-law ===
+Project maturity : poc
+GitHub repo      : eva-foundry/16-engineered-case-law
+Dry run          : False
+
+Epic: creating '16-engineered-case-law'
+  -> Epic id=750
+Feature: creating 'Status'
+  -> Feature id=751
+Feature: creating '1. Context and Problem Statement'
+  -> Feature id=752
+Feature: creating '2. What ?Engineered Case Law? Means'
+  -> Feature id=753
+Feature: creating '3. Core Principles (Non-Negotiable)'
+  -> Feature id=754
+Feature: creating '4. High-Level Ingestion Flow'
+  -> Feature id=755
+Feature: creating '5. Artifact Strategy'
+  -> Feature id=756
+Feature: creating '6. Text Extraction Strategy (Cost-Optimal)'
+  -> Feature id=757
+Feature: creating '7. Bilingual Handling'
+  -> Feature id=758
+Feature: creating '8. Engineered Case Law Generation (ECL v2.1)'
+  -> Feature id=759
+Feature: creating '9. EVA DA Ingestion and Testing'
+  -> Feature id=760
+Feature: creating '10. Measuring ?Does This Work??'
+  -> Feature id=761
+Feature: creating '11. Known Risks (Acknowledged)'
+  -> Feature id=762
+Feature: creating '12. What This Enables'
+  -> Feature id=763
+Feature: creating '13. Completed Achievements & Next Steps'
+  -> Feature id=764
+PBI: creating '[F16-04-001] 3.1 The corpus is process-managed, not snapshot-managed'
+  -> PBI id=765
+PBI: creating '[F16-04-002] 3.2 CanLII is the authoritative discovery layer'
+  -> PBI id=766
+PBI: creating '[F16-04-003] 3.3 Case is the canonical unit'
+  -> PBI id=767
+PBI: creating '[F16-04-004] 3.4 Cost must scale with *change*, not corpus size'
+  -> PBI id=768
+PBI: creating '[F16-06-001] 5.1 PoC Approach: SQLite as Convenience Source'
+  -> PBI id=769
+PBI: creating '[F16-06-002] 5.2 PDFs (Referenced, Not Re-Extracted)'
+  -> PBI id=770
+PBI: creating '[F16-06-003] 5.3 HTML Pages (Metadata Source)'
+  -> PBI id=771
+PBI: creating '[F16-07-001] Default Path'
+  -> PBI id=772
+PBI: creating '[F16-07-002] Selective OCR'
+  -> PBI id=773
+PBI: creating '[F16-09-001] 8.1 Canonical Case Text'
+  -> PBI id=774
+PBI: creating '[F16-09-002] 8.2 Micro-Header Chunking System (EPIC 6 - 80% Complete)'
+  -> PBI id=775
+PBI: creating '[F16-09-003] 8.3 ECL v2.1 Document Structure'
+  -> PBI id=776
+PBI: creating '[F16-11-001] 10.1 Retrieval Quality'
+  -> PBI id=777
+PBI: creating '[F16-11-002] 10.2 Citation Correctness'
+  -> PBI id=778
+PBI: creating '[F16-11-003] 10.3 Freshness and Coverage'
+  -> PBI id=779
+PBI: creating '[F16-14-001] ? Completed (February 1, 2026)'
+  -> PBI id=780
+PBI: creating '[F16-14-002] ? Next Steps (PoC Phase Priority)'
+  -> PBI id=781
+
+=== Import Summary: 16-engineered-case-law ===
+Epic id  : 750
+Features : 14
+PBIs     : 17
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F16-04-001 765 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-04-002 766 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-04-003 767 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-04-004 768 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-06-001 769 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-06-002 770 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-06-003 771 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-07-001 772 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-07-002 773 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-09-001 774 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-09-002 775 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-09-003 776 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-11-001 777 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-11-002 778 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-11-003 779 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-14-001 780 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F16-14-002 781 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

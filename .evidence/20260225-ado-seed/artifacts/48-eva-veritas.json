@@ -1,0 +1,750 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1888492-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/48-eva-veritas",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-48",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "48-eva-veritas",
+    "description": "48-eva-veritas",
+    "tags": "48-eva-veritas;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "EO-01",
+      "type": "Feature",
+      "title": "Discovery Engine",
+      "description": "Discovery Engine",
+      "tags": "48-eva-veritas;EO-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-02",
+      "type": "Feature",
+      "title": "Reconciliation Engine",
+      "description": "Reconciliation Engine",
+      "tags": "48-eva-veritas;EO-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-03",
+      "type": "Feature",
+      "title": "Trust Scoring (MTI)",
+      "description": "Trust Scoring (MTI)",
+      "tags": "48-eva-veritas;EO-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-04",
+      "type": "Feature",
+      "title": "ADO Export",
+      "description": "ADO Export",
+      "tags": "48-eva-veritas;EO-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-05",
+      "type": "Feature",
+      "title": "CLI Interface",
+      "description": "CLI Interface",
+      "tags": "48-eva-veritas;EO-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-06",
+      "type": "Feature",
+      "title": "Reporting",
+      "description": "Reporting",
+      "tags": "48-eva-veritas;EO-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-07",
+      "type": "Feature",
+      "title": "MCP Server",
+      "description": "MCP Server",
+      "tags": "48-eva-veritas;EO-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-08",
+      "type": "Feature",
+      "title": "37-data-model Integration",
+      "description": "37-data-model Integration",
+      "tags": "48-eva-veritas;EO-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-09",
+      "type": "Feature",
+      "title": "38-ado-poc Integration",
+      "description": "38-ado-poc Integration",
+      "tags": "48-eva-veritas;EO-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-10",
+      "type": "Feature",
+      "title": "29-foundry Hosting",
+      "description": "29-foundry Hosting",
+      "tags": "48-eva-veritas;EO-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-11",
+      "type": "Feature",
+      "title": "generate-plan Command",
+      "description": "generate-plan Command",
+      "tags": "48-eva-veritas;EO-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "EO-12",
+      "type": "Feature",
+      "title": "Model Fidelity Audit",
+      "description": "Model Fidelity Audit",
+      "tags": "48-eva-veritas;EO-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F48-CHAT",
+      "type": "Feature",
+      "title": "CHAT API",
+      "description": "CHAT API",
+      "tags": "48-eva-veritas;F48-CHAT",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F48-USERS",
+      "type": "Feature",
+      "title": "USERS API",
+      "description": "USERS API",
+      "tags": "48-eva-veritas;F48-USERS",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F48-CONVERSATION",
+      "type": "Feature",
+      "title": "CONVERSATION API",
+      "description": "CONVERSATION API",
+      "tags": "48-eva-veritas;F48-CONVERSATION",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F48-OTHER",
+      "type": "Feature",
+      "title": "OTHER API",
+      "description": "OTHER API",
+      "tags": "48-eva-veritas;F48-OTHER",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F48-PING",
+      "type": "Feature",
+      "title": "PING API",
+      "description": "PING API",
+      "tags": "48-eva-veritas;F48-PING",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F48-PATH",
+      "type": "Feature",
+      "title": "PATH API",
+      "description": "PATH API",
+      "tags": "48-eva-veritas;F48-PATH",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "EO-01-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-01-001] Parse planned model from governance docs",
+      "acceptance_criteria": "Parse planned model from governance docs",
+      "tags": "48-eva-veritas;EO-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-01",
+      "state": "New",
+      "wbs_id": "EO-01-001"
+    },
+    {
+      "id_hint": "EO-01-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-01-002] Scan repo for actual artifacts",
+      "acceptance_criteria": "Scan repo for actual artifacts",
+      "tags": "48-eva-veritas;EO-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-01",
+      "state": "New",
+      "wbs_id": "EO-01-002"
+    },
+    {
+      "id_hint": "EO-01-003",
+      "type": "Product Backlog Item",
+      "title": "[EO-01-003] Map artifacts to stories via EVA-STORY tags",
+      "acceptance_criteria": "Map artifacts to stories via EVA-STORY tags",
+      "tags": "48-eva-veritas;EO-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-01",
+      "state": "New",
+      "wbs_id": "EO-01-003"
+    },
+    {
+      "id_hint": "EO-01-004",
+      "type": "Product Backlog Item",
+      "title": "[EO-01-004] Support .tsx and .jsx files as taggable code artifacts",
+      "acceptance_criteria": "Support .tsx and .jsx files as taggable code artifacts",
+      "tags": "48-eva-veritas;EO-01-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-01",
+      "state": "New",
+      "wbs_id": "EO-01-004"
+    },
+    {
+      "id_hint": "EO-02-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-02-001] Compute coverage metrics",
+      "acceptance_criteria": "Compute coverage metrics",
+      "tags": "48-eva-veritas;EO-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-02",
+      "state": "New",
+      "wbs_id": "EO-02-001"
+    },
+    {
+      "id_hint": "EO-02-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-02-002] Detect gaps",
+      "acceptance_criteria": "Detect gaps",
+      "tags": "48-eva-veritas;EO-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-02",
+      "state": "New",
+      "wbs_id": "EO-02-002"
+    },
+    {
+      "id_hint": "EO-02-003",
+      "type": "Product Backlog Item",
+      "title": "[EO-02-003] Compute consistency score",
+      "acceptance_criteria": "Compute consistency score",
+      "tags": "48-eva-veritas;EO-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-02",
+      "state": "New",
+      "wbs_id": "EO-02-003"
+    },
+    {
+      "id_hint": "EO-03-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-03-001] Implement MTI formula",
+      "acceptance_criteria": "Implement MTI formula",
+      "tags": "48-eva-veritas;EO-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-03",
+      "state": "New",
+      "wbs_id": "EO-03-001"
+    },
+    {
+      "id_hint": "EO-03-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-03-002] Map score to allowed actions",
+      "acceptance_criteria": "Map score to allowed actions",
+      "tags": "48-eva-veritas;EO-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-03",
+      "state": "New",
+      "wbs_id": "EO-03-002"
+    },
+    {
+      "id_hint": "EO-04-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-04-001] Generate Epic/Feature/Story hierarchy CSV",
+      "acceptance_criteria": "Generate Epic/Feature/Story hierarchy CSV",
+      "tags": "48-eva-veritas;EO-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-04",
+      "state": "New",
+      "wbs_id": "EO-04-001"
+    },
+    {
+      "id_hint": "EO-04-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-04-002] Annotate stories with gap tags",
+      "acceptance_criteria": "Annotate stories with gap tags",
+      "tags": "48-eva-veritas;EO-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-04",
+      "state": "New",
+      "wbs_id": "EO-04-002"
+    },
+    {
+      "id_hint": "EO-05-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-001] Implement discover command",
+      "acceptance_criteria": "Implement discover command",
+      "tags": "48-eva-veritas;EO-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-001"
+    },
+    {
+      "id_hint": "EO-05-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-002] Implement reconcile command",
+      "acceptance_criteria": "Implement reconcile command",
+      "tags": "48-eva-veritas;EO-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-002"
+    },
+    {
+      "id_hint": "EO-05-003",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-003] Implement compute-trust command",
+      "acceptance_criteria": "Implement compute-trust command",
+      "tags": "48-eva-veritas;EO-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-003"
+    },
+    {
+      "id_hint": "EO-05-004",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-004] Implement generate-ado command",
+      "acceptance_criteria": "Implement generate-ado command",
+      "tags": "48-eva-veritas;EO-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-004"
+    },
+    {
+      "id_hint": "EO-05-005",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-005] Implement report command",
+      "acceptance_criteria": "Implement report command",
+      "tags": "48-eva-veritas;EO-05-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-005"
+    },
+    {
+      "id_hint": "EO-05-007",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-007] Implement audit command",
+      "acceptance_criteria": "Implement audit command",
+      "tags": "48-eva-veritas;EO-05-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-007"
+    },
+    {
+      "id_hint": "EO-05-006",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-006] Implement scan-portfolio command",
+      "acceptance_criteria": "Implement scan-portfolio command",
+      "tags": "48-eva-veritas;EO-05-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-006"
+    },
+    {
+      "id_hint": "EO-05-008",
+      "type": "Product Backlog Item",
+      "title": "[EO-05-008] Implement init command[IMPL]",
+      "acceptance_criteria": "Implement init command[IMPL]",
+      "tags": "48-eva-veritas;EO-05-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-05",
+      "state": "New",
+      "wbs_id": "EO-05-008"
+    },
+    {
+      "id_hint": "EO-06-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-06-001] Human-readable console report",
+      "acceptance_criteria": "Human-readable console report",
+      "tags": "48-eva-veritas;EO-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-06",
+      "state": "New",
+      "wbs_id": "EO-06-001"
+    },
+    {
+      "id_hint": "EO-06-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-06-002] Evidence-ready .eva/ folder output",
+      "acceptance_criteria": "Evidence-ready .eva/ folder output",
+      "tags": "48-eva-veritas;EO-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-06",
+      "state": "New",
+      "wbs_id": "EO-06-002"
+    },
+    {
+      "id_hint": "EO-07-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-07-001] Implement MCP server entrypoint[IMPL]",
+      "acceptance_criteria": "Implement MCP server entrypoint[IMPL]",
+      "tags": "48-eva-veritas;EO-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-07",
+      "state": "New",
+      "wbs_id": "EO-07-001"
+    },
+    {
+      "id_hint": "EO-07-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-07-002] Implement audit_repo MCP tool[IMPL]",
+      "acceptance_criteria": "Implement audit_repo MCP tool[IMPL]",
+      "tags": "48-eva-veritas;EO-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-07",
+      "state": "New",
+      "wbs_id": "EO-07-002"
+    },
+    {
+      "id_hint": "EO-07-003",
+      "type": "Product Backlog Item",
+      "title": "[EO-07-003] Implement get_trust_score MCP tool[IMPL]",
+      "acceptance_criteria": "Implement get_trust_score MCP tool[IMPL]",
+      "tags": "48-eva-veritas;EO-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-07",
+      "state": "New",
+      "wbs_id": "EO-07-003"
+    },
+    {
+      "id_hint": "EO-07-004",
+      "type": "Product Backlog Item",
+      "title": "[EO-07-004] Implement get_coverage MCP tool[IMPL]",
+      "acceptance_criteria": "Implement get_coverage MCP tool[IMPL]",
+      "tags": "48-eva-veritas;EO-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-07",
+      "state": "New",
+      "wbs_id": "EO-07-004"
+    },
+    {
+      "id_hint": "EO-07-005",
+      "type": "Product Backlog Item",
+      "title": "[EO-07-005] Implement generate_ado_items MCP tool[IMPL]",
+      "acceptance_criteria": "Implement generate_ado_items MCP tool[IMPL]",
+      "tags": "48-eva-veritas;EO-07-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-07",
+      "state": "New",
+      "wbs_id": "EO-07-005"
+    },
+    {
+      "id_hint": "EO-07-006",
+      "type": "Product Backlog Item",
+      "title": "[EO-07-006] Implement scan_portfolio MCP tool[IMPL]",
+      "acceptance_criteria": "Implement scan_portfolio MCP tool[IMPL]",
+      "tags": "48-eva-veritas;EO-07-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-07",
+      "state": "New",
+      "wbs_id": "EO-07-006"
+    },
+    {
+      "id_hint": "EO-08-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-08-001] Add /model/admin/audit-repo endpoint to 37-data-model",
+      "acceptance_criteria": "Add /model/admin/audit-repo endpoint to 37-data-model",
+      "tags": "48-eva-veritas;EO-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-08",
+      "state": "New",
+      "wbs_id": "EO-08-001"
+    },
+    {
+      "id_hint": "EO-08-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-08-002] Document model integrity check pattern",
+      "acceptance_criteria": "Document model integrity check pattern",
+      "tags": "48-eva-veritas;EO-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-08",
+      "state": "New",
+      "wbs_id": "EO-08-002"
+    },
+    {
+      "id_hint": "EO-09-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-09-001] Add gap-to-PBI pipeline command",
+      "acceptance_criteria": "Add gap-to-PBI pipeline command",
+      "tags": "48-eva-veritas;EO-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-09",
+      "state": "New",
+      "wbs_id": "EO-09-001"
+    },
+    {
+      "id_hint": "EO-09-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-09-002] Document 38-ado-poc integration pattern",
+      "acceptance_criteria": "Document 38-ado-poc integration pattern",
+      "tags": "48-eva-veritas;EO-09-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-09",
+      "state": "New",
+      "wbs_id": "EO-09-002"
+    },
+    {
+      "id_hint": "EO-09-003",
+      "type": "Product Backlog Item",
+      "title": "[EO-09-003] Import OpenAPI spec as plan source[IMPL]",
+      "acceptance_criteria": "Import OpenAPI spec as plan source[IMPL]",
+      "tags": "48-eva-veritas;EO-09-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-09",
+      "state": "New",
+      "wbs_id": "EO-09-003"
+    },
+    {
+      "id_hint": "EO-09-004",
+      "type": "Product Backlog Item",
+      "title": "[EO-09-004] Parse ADO export CSV as plan source[IMPL]",
+      "acceptance_criteria": "Parse ADO export CSV as plan source[IMPL]",
+      "tags": "48-eva-veritas;EO-09-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-09",
+      "state": "New",
+      "wbs_id": "EO-09-004"
+    },
+    {
+      "id_hint": "EO-10-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-10-001] Add eva-veritas MCP server to 29-foundry mcp-servers/",
+      "acceptance_criteria": "Add eva-veritas MCP server to 29-foundry mcp-servers/",
+      "tags": "48-eva-veritas;EO-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-10",
+      "state": "New",
+      "wbs_id": "EO-10-001"
+    },
+    {
+      "id_hint": "EO-10-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-10-002] Add eva-veritas skill to 29-foundry copilot-skills/",
+      "acceptance_criteria": "Add eva-veritas skill to 29-foundry copilot-skills/",
+      "tags": "48-eva-veritas;EO-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-10",
+      "state": "New",
+      "wbs_id": "EO-10-002"
+    },
+    {
+      "id_hint": "EO-11-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-11-001] Implement infer-plan.js heuristic parser",
+      "acceptance_criteria": "Implement infer-plan.js heuristic parser",
+      "tags": "48-eva-veritas;EO-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-11",
+      "state": "New",
+      "wbs_id": "EO-11-001"
+    },
+    {
+      "id_hint": "EO-11-002",
+      "type": "Product Backlog Item",
+      "title": "[EO-11-002] Implement generate-plan CLI command",
+      "acceptance_criteria": "Implement generate-plan CLI command",
+      "tags": "48-eva-veritas;EO-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-11",
+      "state": "New",
+      "wbs_id": "EO-11-002"
+    },
+    {
+      "id_hint": "EO-11-003",
+      "type": "Product Backlog Item",
+      "title": "[EO-11-003] Update discover.js to prefer veritas-plan.json",
+      "acceptance_criteria": "Update discover.js to prefer veritas-plan.json",
+      "tags": "48-eva-veritas;EO-11-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-11",
+      "state": "New",
+      "wbs_id": "EO-11-003"
+    },
+    {
+      "id_hint": "EO-11-004",
+      "type": "Product Backlog Item",
+      "title": "[EO-11-004] Document generate-plan in README.md",
+      "acceptance_criteria": "Document generate-plan in README.md",
+      "tags": "48-eva-veritas;EO-11-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-11",
+      "state": "New",
+      "wbs_id": "EO-11-004"
+    },
+    {
+      "id_hint": "EO-12-001",
+      "type": "Product Backlog Item",
+      "title": "[EO-12-001] Implement model-audit command[IMPL]",
+      "acceptance_criteria": "Implement model-audit command[IMPL]",
+      "tags": "48-eva-veritas;EO-12-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "EO-12",
+      "state": "New",
+      "wbs_id": "EO-12-001"
+    },
+    {
+      "id_hint": "F48-CHAT-001",
+      "type": "Product Backlog Item",
+      "title": "[F48-CHAT-001] GET /v1/chat/history",
+      "acceptance_criteria": "GET /v1/chat/history",
+      "tags": "48-eva-veritas;F48-CHAT-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-CHAT",
+      "state": "New",
+      "wbs_id": "F48-CHAT-001"
+    },
+    {
+      "id_hint": "F48-CHAT-002",
+      "type": "Product Backlog Item",
+      "title": "[F48-CHAT-002] POST /v1/chat/message",
+      "acceptance_criteria": "POST /v1/chat/message",
+      "tags": "48-eva-veritas;F48-CHAT-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-CHAT",
+      "state": "New",
+      "wbs_id": "F48-CHAT-002"
+    },
+    {
+      "id_hint": "F48-CHAT-003",
+      "type": "Product Backlog Item",
+      "title": "[F48-CHAT-003] DELETE /v1/chat/{id}",
+      "acceptance_criteria": "DELETE /v1/chat/{id}",
+      "tags": "48-eva-veritas;F48-CHAT-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-CHAT",
+      "state": "New",
+      "wbs_id": "F48-CHAT-003"
+    },
+    {
+      "id_hint": "F48-USERS-001",
+      "type": "Product Backlog Item",
+      "title": "[F48-USERS-001] GET /users",
+      "acceptance_criteria": "GET /users",
+      "tags": "48-eva-veritas;F48-USERS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-USERS",
+      "state": "New",
+      "wbs_id": "F48-USERS-001"
+    },
+    {
+      "id_hint": "F48-USERS-002",
+      "type": "Product Backlog Item",
+      "title": "[F48-USERS-002] POST /users",
+      "acceptance_criteria": "POST /users",
+      "tags": "48-eva-veritas;F48-USERS-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-USERS",
+      "state": "New",
+      "wbs_id": "F48-USERS-002"
+    },
+    {
+      "id_hint": "F48-USERS-003",
+      "type": "Product Backlog Item",
+      "title": "[F48-USERS-003] DELETE /users/:id",
+      "acceptance_criteria": "DELETE /users/:id",
+      "tags": "48-eva-veritas;F48-USERS-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-USERS",
+      "state": "New",
+      "wbs_id": "F48-USERS-003"
+    },
+    {
+      "id_hint": "F48-CONVERSATION-001",
+      "type": "Product Backlog Item",
+      "title": "[F48-CONVERSATION-001] GET /v1/conversations",
+      "acceptance_criteria": "GET /v1/conversations",
+      "tags": "48-eva-veritas;F48-CONVERSATION-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F48-CONVERSATION-001"
+    },
+    {
+      "id_hint": "F48-OTHER-001",
+      "type": "Product Backlog Item",
+      "title": "[F48-OTHER-001] GET /v1/other",
+      "acceptance_criteria": "GET /v1/other",
+      "tags": "48-eva-veritas;F48-OTHER-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-OTHER",
+      "state": "New",
+      "wbs_id": "F48-OTHER-001"
+    },
+    {
+      "id_hint": "F48-PING-001",
+      "type": "Product Backlog Item",
+      "title": "[F48-PING-001] GET /v1/ping",
+      "acceptance_criteria": "GET /v1/ping",
+      "tags": "48-eva-veritas;F48-PING-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-PING",
+      "state": "New",
+      "wbs_id": "F48-PING-001"
+    },
+    {
+      "id_hint": "F48-PATH-001",
+      "type": "Product Backlog Item",
+      "title": "[F48-PATH-001] GET /path",
+      "acceptance_criteria": "GET /path",
+      "tags": "48-eva-veritas;F48-PATH-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-PATH",
+      "state": "New",
+      "wbs_id": "F48-PATH-001"
+    },
+    {
+      "id_hint": "F48-PATH-002",
+      "type": "Product Backlog Item",
+      "title": "[F48-PATH-002] POST /path",
+      "acceptance_criteria": "POST /path",
+      "tags": "48-eva-veritas;F48-PATH-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-PATH",
+      "state": "New",
+      "wbs_id": "F48-PATH-002"
+    },
+    {
+      "id_hint": "F48-PATH-003",
+      "type": "Product Backlog Item",
+      "title": "[F48-PATH-003] GET /path",
+      "acceptance_criteria": "GET /path",
+      "tags": "48-eva-veritas;F48-PATH-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-PATH",
+      "state": "New",
+      "wbs_id": "F48-PATH-003"
+    },
+    {
+      "id_hint": "F48-PATH-004",
+      "type": "Product Backlog Item",
+      "title": "[F48-PATH-004] GET /path",
+      "acceptance_criteria": "GET /path",
+      "tags": "48-eva-veritas;F48-PATH-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F48-PATH",
+      "state": "New",
+      "wbs_id": "F48-PATH-004"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0851-ado-import-artifacts-live.log
+
+=== ADO Import: 01-documentation-generator ===
+Project maturity : active
+GitHub repo      : eva-foundry/01-documentation-generator
+Dry run          : False
+
+Epic: creating '01-documentation-generator'
+  -> Epic id=206
+Feature: creating 'Overview'
+  -> Feature id=207
+Feature: creating 'Project Structure'
+  -> Feature id=208
+Feature: creating 'Features'
+  -> Feature id=209
+Feature: creating 'Setup Instructions'
+  -> Feature id=210
+Feature: creating 'Usage (After Full Migration)'
+  -> Feature id=211
+Feature: creating 'Migration Status'
+  -> Feature id=212
+Feature: creating 'Development'
+  -> Feature id=213
+Feature: creating 'Related Documentation'
+  -> Feature id=214
+Feature: creating 'Contributing'
+  -> Feature id=215
+Feature: creating 'License'
+  -> Feature id=216
+PBI: creating '[F01-03-001] ? Completed (Migrated from automation/)'
+  -> PBI id=217
+PBI: creating '[F01-03-002] ?? Pending Migration (See PLAN.md)'
+  -> PBI id=218
+PBI: creating '[F01-04-001] 1. Prerequisites'
+  -> PBI id=219
+PBI: creating '[F01-04-002] 2. Installation'
+  -> PBI id=220
+PBI: creating '[F01-04-003] 3. Configuration'
+  -> PBI id=221
+PBI: creating '[F01-04-004] 4. Run Tests'
+  -> PBI id=222
+PBI: creating '[F01-05-001] Basic Generation'
+  -> PBI id=223
+PBI: creating '[F01-05-002] CLI (Coming in Phase 4)'
+  -> PBI id=224
+PBI: creating '[F01-07-001] Running Tests During Development'
+  -> PBI id=225
+PBI: creating '[F01-07-002] Adding New Validators'
+  -> PBI id=226
+PBI: creating '[F01-07-003] Code Quality'
+  -> PBI id=227
+
+=== Import Summary: 01-documentation-generator ===
+Epic id  : 206
+Features : 10
+PBIs     : 11
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F01-03-001 217 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-03-002 218 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-04-001 219 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-04-002 220 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-04-003 221 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-04-004 222 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-05-001 223 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-05-002 224 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-07-001 225 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-07-002 226 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F01-07-003 227 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

@@ -1,0 +1,14 @@
+EVA-STORY: EO-09-001
+EVA-FEATURE: EO-09
+
+EVIDENCE: EO-09-001 Gap-to-PBI pipeline command
+Phase 1 addition -- COMPLETE 2026-02-24
+Test run: 2026-02-24 13:02 ET (self-audit)
+
+EO-09-001 -- Add gap-to-PBI pipeline command
+  Artifacts: src/generate-ado.js (--gaps-only flag)
+  [PASS] node src/cli.js generate-ado --repo . --gaps-only
+  [PASS] Only gap stories (missing_implementation + missing_evidence) included
+  [PASS] ado.csv output: 29 rows (gap stories from self-audit)
+  [PASS] Each row has gap:<type> tag for sprint filtering
+  [PASS] CSV importable to Azure DevOps via Boards -> Work Items -> Import

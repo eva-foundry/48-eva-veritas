@@ -1,0 +1,32 @@
+EVA-STORY: EO-01-001
+EVA-STORY: EO-01-002
+EVA-STORY: EO-01-003
+EVA-FEATURE: EO-01
+
+EVIDENCE: EO-01 Discovery Engine
+Phase 1 -- COMPLETE 2026-02-24 09:32 ET
+Test run: 2026-02-24 13:02 ET (self-audit)
+
+EO-01-001 -- Parse planned model from governance docs
+  Artifacts: src/lib/parse-docs.js, src/discover.js
+  [PASS] node src/cli.js discover --repo .
+  [PASS] Planned: 10 features, 31 stories parsed
+  [PASS] Epic title extracted from README.md
+  [PASS] Features + stories with IDs extracted from PLAN.md
+  [PASS] Declared status map built from STATUS.md
+  [PASS] Acceptance criteria linked to story IDs from ACCEPTANCE.md
+  [PASS] discovery.json written to .eva/
+
+EO-01-002 -- Scan repo for actual artifacts
+  Artifacts: src/lib/scan-repo.js, src/discover.js
+  [PASS] Actual: 26 artifacts found
+  [PASS] fast-glob scan excludes node_modules/.git/.eva/dist/build
+  [PASS] File classification: code/test/doc/evidence/infra/config/data/other
+  [PASS] .md files excluded from tag scanning (prevents false-positive orphans)
+
+EO-01-003 -- Map artifacts to stories via EVA-STORY tags
+  Artifacts: src/lib/map-artifacts.js, src/lib/md-utils.js
+  [PASS] 20 stories tagged in scan
+  [PASS] story_artifact_map built: story IDs -> artifact list
+  [PASS] 0 orphan story tags detected
+  [PASS] EVA-STORY comment pattern extracted from .js/.txt/.ps1 files

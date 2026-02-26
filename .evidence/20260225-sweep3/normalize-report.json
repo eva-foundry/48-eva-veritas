@@ -1,0 +1,296 @@
+[
+  {
+    "project": "01-documentation-generator",
+    "status": "ok",
+    "features": 10,
+    "stories": 11.0
+  },
+  {
+    "project": "02-poc-agent-skills",
+    "status": "ok",
+    "features": 8,
+    "stories": 18.0
+  },
+  {
+    "project": "03-poc-enhanced-docs",
+    "status": "ok",
+    "features": 9,
+    "stories": 20.0
+  },
+  {
+    "project": "04-os-vnext",
+    "status": "ok",
+    "features": 4,
+    "stories": 0.0
+  },
+  {
+    "project": "05-extract-cases",
+    "status": "ok",
+    "features": 8,
+    "stories": 8.0
+  },
+  {
+    "project": "06-jp-auto-extraction",
+    "status": "ok",
+    "features": 16,
+    "stories": 34.0
+  },
+  {
+    "project": "07-foundation-layer",
+    "status": "ok",
+    "features": 9,
+    "stories": 19.0
+  },
+  {
+    "project": "08-cds-rag",
+    "status": "skip",
+    "features": 0,
+    "stories": 0
+  },
+  {
+    "project": "09-eva-repo-documentation",
+    "status": "ok",
+    "features": 4,
+    "stories": 6.0
+  },
+  {
+    "project": "10-mkdocs-poc",
+    "status": "ok",
+    "features": 13,
+    "stories": 26.0
+  },
+  {
+    "project": "11-ms-infojp",
+    "status": "ok",
+    "features": 47,
+    "stories": 180.0
+  },
+  {
+    "project": "12-work-spc-reorg",
+    "status": "ok",
+    "features": 12,
+    "stories": 40.0
+  },
+  {
+    "project": "13-vscode-tools",
+    "status": "ok",
+    "features": 13,
+    "stories": 40.0
+  },
+  {
+    "project": "14-az-finops",
+    "status": "ok",
+    "features": 9,
+    "stories": 17.0
+  },
+  {
+    "project": "15-cdc",
+    "status": "ok",
+    "features": 10,
+    "stories": 1.0
+  },
+  {
+    "project": "16-engineered-case-law",
+    "status": "ok",
+    "features": 14,
+    "stories": 17.0
+  },
+  {
+    "project": "17-apim",
+    "status": "ok",
+    "features": 13,
+    "stories": 18.0
+  },
+  {
+    "project": "18-azure-best",
+    "status": "skip",
+    "features": 0,
+    "stories": 0
+  },
+  {
+    "project": "19-ai-gov",
+    "status": "ok",
+    "features": 2,
+    "stories": 7.0
+  },
+  {
+    "project": "20-AssistMe",
+    "status": "ok",
+    "features": 12,
+    "stories": 15.0
+  },
+  {
+    "project": "21-habit-tracker",
+    "status": "ok",
+    "features": 12,
+    "stories": 20.0
+  },
+  {
+    "project": "22-rg-sandbox",
+    "status": "ok",
+    "features": 13,
+    "stories": 29.0
+  },
+  {
+    "project": "23-ei-dsst-rewrite",
+    "status": "ok",
+    "features": 14,
+    "stories": 4.0
+  },
+  {
+    "project": "24-eva-brain",
+    "status": "ok",
+    "features": 18,
+    "stories": 56.0
+  },
+  {
+    "project": "25-eva-suite",
+    "status": "skip",
+    "features": 0,
+    "stories": 0
+  },
+  {
+    "project": "26-eva-gh",
+    "status": "skip",
+    "features": 0,
+    "stories": 0
+  },
+  {
+    "project": "27-devbench",
+    "status": "ok",
+    "features": 12,
+    "stories": 9.0
+  },
+  {
+    "project": "28-rbac",
+    "status": "ok",
+    "features": 20,
+    "stories": 43.0
+  },
+  {
+    "project": "29-foundry",
+    "status": "ok",
+    "features": 21,
+    "stories": 58.0
+  },
+  {
+    "project": "30-ui-bench",
+    "status": "skip",
+    "features": 0,
+    "stories": 0
+  },
+  {
+    "project": "31-eva-faces",
+    "status": "ok",
+    "features": 22,
+    "stories": 74.0
+  },
+  {
+    "project": "32-logging",
+    "status": "skip",
+    "features": 0,
+    "stories": 0
+  },
+  {
+    "project": "33-eva-brain-v2",
+    "status": "ok",
+    "features": 39,
+    "stories": 111.0
+  },
+  {
+    "project": "34-AIRA",
+    "status": "skip",
+    "features": 0,
+    "stories": 0
+  },
+  {
+    "project": "35-agentic-code-fixing",
+    "status": "ok",
+    "features": 19,
+    "stories": 18.0
+  },
+  {
+    "project": "36-red-teaming",
+    "status": "ok",
+    "features": 17,
+    "stories": 14.0
+  },
+  {
+    "project": "37-data-model",
+    "status": "ok",
+    "features": 24,
+    "stories": 39.0
+  },
+  {
+    "project": "38-ado-poc",
+    "status": "ok",
+    "features": 6,
+    "stories": 13.0
+  },
+  {
+    "project": "39-ado-dashboard",
+    "status": "ok",
+    "features": 8,
+    "stories": 22.0
+  },
+  {
+    "project": "40-eva-control-plane",
+    "status": "ok",
+    "features": 13,
+    "stories": 5.0
+  },
+  {
+    "project": "41-eva-cli",
+    "status": "ok",
+    "features": 10,
+    "stories": 12.0
+  },
+  {
+    "project": "42-learn-foundry",
+    "status": "ok",
+    "features": 23,
+    "stories": 51.0
+  },
+  {
+    "project": "43-spark",
+    "status": "ok",
+    "features": 12,
+    "stories": 5.0
+  },
+  {
+    "project": "44-eva-jp-spark",
+    "status": "ok",
+    "features": 9,
+    "stories": 24.0
+  },
+  {
+    "project": "45-aicoe-page",
+    "status": "ok",
+    "features": 7,
+    "stories": 20.0
+  },
+  {
+    "project": "46-accelerator",
+    "status": "ok",
+    "features": 6,
+    "stories": 23.0
+  },
+  {
+    "project": "47-eva-mti",
+    "status": "ok",
+    "features": 3,
+    "stories": 5.0
+  },
+  {
+    "project": "48-eva-veritas",
+    "status": "ok",
+    "features": 18,
+    "stories": 53.0
+  },
+  {
+    "project": "49-eva-dtl",
+    "status": "ok",
+    "features": 8,
+    "stories": 22.0
+  }
+]

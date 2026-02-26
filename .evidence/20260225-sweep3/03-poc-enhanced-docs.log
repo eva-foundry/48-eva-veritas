@@ -1,0 +1,127 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\03-poc-enhanced-docs
+[INFO] Prefix: F03
+[PASS] Written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\veritas-plan.json
+       9 features, 20 stories, 93 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F03-01        0      0  Timeline: 3 Weeks (15 working days)
+  F03-02        5     32  Week 1: Diagram Generation (Days 1-5)
+  F03-03        5     30  Week 2: Enhanced Markdown + MkDocs Setup (Days 6-10)
+  F03-04        5     31  Week 3: Interactive Features + Deployment (Days 11-15)
+  F03-05        5      0  Success Criteria
+  F03-06        0      0  Risk Mitigation
+  F03-07        0      0  Integration with POC #1
+  F03-08        0      0  Next Steps After POC
+  F03-09        0      0  Collaboration with POC #1
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F03-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\03-poc-enhanced-docs
+[INFO] Using veritas-plan.json (format: free-form, 20 stories, 93 tasks)
+[INFO] Planned: 9 features, 20 stories
+[INFO] Actual: 5 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\reconciliation.json
+[INFO] Gaps: 20
+[PASS] trust written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: POC #2: Enhanced Documentation - Diagrams + MkDocs HTML
+=======================================
+Repo:    C:\AICOE\eva-foundation\03-poc-enhanced-docs
+Planned: 9 features, 20 stories
+
+Coverage
+---------------------------------------
+Stories total:          20
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F03-02-001 -- Day 1: Diagram Generator Tool Foundation
+[FAIL] missing_implementation :: F03-02-002 -- Day 2: Mermaid Diagram Templates (Part 1)
+[FAIL] missing_implementation :: F03-02-003 -- Day 3: Diagram Generation - Architecture & Security (Phase 00-01)
+[FAIL] missing_implementation :: F03-02-004 -- Day 4: Diagram Generation - Platform & Data/AI (Phase 02-03)
+[FAIL] missing_implementation :: F03-02-005 -- Day 5: Diagram Generation - Remaining Phases + Review
+[FAIL] missing_implementation :: F03-03-001 -- Day 6: Markdown Enhancer Tool
+[FAIL] missing_implementation :: F03-03-002 -- Day 7: Enhance Markdown Files (Part 1: Phases 00-02)
+[FAIL] missing_implementation :: F03-03-003 -- Day 8: Enhance Markdown Files (Part 2: Phases 03-99)
+[FAIL] missing_implementation :: F03-03-004 -- Day 9: MkDocs Configuration (Part 1: Basic Setup)
+[FAIL] missing_implementation :: F03-03-005 -- Day 10: MkDocs Configuration (Part 2: ESDC Branding)
+[FAIL] missing_implementation :: F03-04-001 -- Day 11: Interactive Features (Part 1: Tooltips & Zoom)
+[FAIL] missing_implementation :: F03-04-002 -- Day 12: Interactive Features (Part 2: Navigation & UX)
+[FAIL] missing_implementation :: F03-04-003 -- Day 13: Testing (Cross-Browser, Accessibility, Performance)
+[FAIL] missing_implementation :: F03-04-004 -- Day 14: Deployment to Azure Static Web Apps
+[FAIL] missing_implementation :: F03-04-005 -- Day 15: Documentation, Demo Video, and POC Presentation
+[FAIL] missing_implementation :: F03-05-001 -- Diagram Generation
+[FAIL] missing_implementation :: F03-05-002 -- Enhanced Markdown
+[FAIL] missing_implementation :: F03-05-003 -- MkDocs Site
+[FAIL] missing_implementation :: F03-05-004 -- Testing & Quality
+[FAIL] missing_implementation :: F03-05-005 -- Deployment
+
+Feature Breakdown
+---------------------------------------
+[  0] F03-02     Week 1: Diagram Generation (Da  0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F03-03     Week 2: Enhanced Markdown + Mk  0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F03-04     Week 3: Interactive Features +  0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F03-05     Success Criteria                0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F03-01     Timeline: 3 Weeks (15 working   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F03-06     Risk Mitigation                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F03-07     Integration with POC #1         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F03-08     Next Steps After POC            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F03-09     Collaboration with POC #1       0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 20 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 28 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 36 more stories with # EVA-STORY
+
+[ACT] 20 unimplemented stories by feature (highest priority first):
+      F03-02 Week 1: Diagram Generation (Days 1-5) (5 gaps)
+        - F03-02-001 -- Day 1: Diagram Generator Tool Foundation
+        - F03-02-002 -- Day 2: Mermaid Diagram Templates (Part 1)
+        - F03-02-003 -- Day 3: Diagram Generation - Architecture & Security (Phase 00-01)
+        - F03-02-004 -- Day 4: Diagram Generation - Platform & Data/AI (Phase 02-03)
+        - F03-02-005 -- Day 5: Diagram Generation - Remaining Phases + Review
+      F03-03 Week 2: Enhanced Markdown + MkDocs Setup (Days 6-10) (5 gaps)
+        - F03-03-001 -- Day 6: Markdown Enhancer Tool
+        - F03-03-002 -- Day 7: Enhance Markdown Files (Part 1: Phases 00-02)
+        - F03-03-003 -- Day 8: Enhance Markdown Files (Part 2: Phases 03-99)
+        - F03-03-004 -- Day 9: MkDocs Configuration (Part 1: Basic Setup)
+        - F03-03-005 -- Day 10: MkDocs Configuration (Part 2: ESDC Branding)
+      F03-04 Week 3: Interactive Features + Deployment (Days 11-15) (5 gaps)
+        - F03-04-001 -- Day 11: Interactive Features (Part 1: Tooltips & Zoom)
+        - F03-04-002 -- Day 12: Interactive Features (Part 2: Navigation & UX)
+        - F03-04-003 -- Day 13: Testing (Cross-Browser, Accessibility, Performance)
+        - F03-04-004 -- Day 14: Deployment to Azure Static Web Apps
+        - F03-04-005 -- Day 15: Documentation, Demo Video, and POC Presentation
+      F03-05 Success Criteria (5 gaps)
+        - F03-05-001 -- Diagram Generation
+        - F03-05-002 -- Enhanced Markdown
+        - F03-05-003 -- MkDocs Site
+        - F03-05-004 -- Testing & Quality
+        - F03-05-005 -- Deployment
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

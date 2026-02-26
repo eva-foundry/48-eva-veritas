@@ -1,0 +1,86 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\09-eva-repo-documentation
+[INFO] Prefix: F09
+[PASS] Written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\veritas-plan.json
+       4 features, 6 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F09-01        0      0  EXECUTIVE SUMMARY
+  F09-02        6      0  PROPOSED DIAGRAM CATALOG
+  F09-03        0      0  KEY FEATURES
+  F09-04        0      0  IMPLEMENTATION ESTIMATE
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F09-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\09-eva-repo-documentation
+[INFO] Using veritas-plan.json (format: veritas, 6 stories, 0 tasks)
+[INFO] Planned: 4 features, 6 stories
+[INFO] Actual: 133 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\reconciliation.json
+[INFO] Gaps: 6
+[PASS] trust written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Project 09: EVA Domain Assistant Repository Documentation
+=======================================
+Repo:    C:\AICOE\eva-foundation\09-eva-repo-documentation
+Planned: 4 features, 6 stories
+
+Coverage
+---------------------------------------
+Stories total:          6
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F09-02-001 -- Part 1: Infrastructure Architecture (4 diagrams)
+[FAIL] missing_implementation :: F09-02-002 -- Part 2: Application Architecture (4 diagrams)
+[FAIL] missing_implementation :: F09-02-003 -- Part 3: Document Ingestion (6 diagrams)
+[FAIL] missing_implementation :: F09-02-004 -- Part 4: RAG Query Execution (5 diagrams)
+[FAIL] missing_implementation :: F09-02-005 -- Part 5: Data Flows (4 diagrams)
+[FAIL] missing_implementation :: F09-02-006 -- Part 6: Security Architecture (2 diagrams)
+
+Feature Breakdown
+---------------------------------------
+[  0] F09-02     PROPOSED DIAGRAM CATALOG        0/6 artifacts  0/6 evidence  6 gaps  [NOT STARTED]
+[  0] F09-01     EXECUTIVE SUMMARY               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F09-03     KEY FEATURES                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F09-04     IMPLEMENTATION ESTIMATE         0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 6 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 9 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 11 more stories with # EVA-STORY
+
+[ACT] 6 unimplemented stories by feature (highest priority first):
+      F09-02 PROPOSED DIAGRAM CATALOG (6 gaps)
+        - F09-02-001 -- Part 1: Infrastructure Architecture (4 diagrams)
+        - F09-02-002 -- Part 2: Application Architecture (4 diagrams)
+        - F09-02-003 -- Part 3: Document Ingestion (6 diagrams)
+        - F09-02-004 -- Part 4: RAG Query Execution (5 diagrams)
+        - F09-02-005 -- Part 5: Data Flows (4 diagrams)
+        - F09-02-006 -- Part 6: Security Architecture (2 diagrams)
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

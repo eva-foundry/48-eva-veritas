@@ -1,0 +1,19 @@
+EVA-STORY: EO-09-002
+EVA-FEATURE: EO-09
+
+EVIDENCE: EO-09-002 38-ado-poc integration documentation
+Phase 2 -- 2026-02-24
+
+EO-09-002 -- Integration guide added to 38-ado-poc
+  Artifact: C:\AICOE\eva-foundation\38-ado-poc\VERITAS-INTEGRATION.md
+
+  Sections documented:
+    [PASS] Overview -- veritas closes gap between PLAN.md and ADO PBIs
+    [PASS] Workflow diagram -- veritas audit -> gap CSV -> ado-import-project.ps1
+    [PASS] Step 1: Run gap pipeline (CLI + data model proxy)
+    [PASS] Step 2: Review generated CSV (format + example rows with gap tags)
+    [PASS] Step 3: Seed into ADO (ado-import-project.ps1)
+    [PASS] Trust Score Gate -- PowerShell gate (MTI >= 50 to seed)
+    [PASS] Policy table -- preventing manually-invented PBIs
+    [PASS] Portfolio gap seeding -- scan all projects, sort by trust_score
+    [PASS] Related section -- links to veritas README, 37-data-model doc, ado script

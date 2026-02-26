@@ -1,0 +1,70 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\34-AIRA
+[INFO] Prefix: F34
+[PASS] Written: C:\AICOE\eva-foundation\34-AIRA\.eva\veritas-plan.json
+       3 features, 8 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F34-01        3      0  AIRA Core Architecture
+  F34-02        3      0  Agent Orchestration
+  F34-03        2      0  Evaluation Harness
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F34-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\34-AIRA
+[INFO] Using veritas-plan.json (format: veritas, 8 stories, 0 tasks)
+[INFO] Planned: 3 features, 8 stories
+[INFO] Actual: 16 artifacts, 8 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\34-AIRA\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\34-AIRA\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\34-AIRA\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 34-AIRA
+=======================================
+Repo:    C:\AICOE\eva-foundation\34-AIRA
+Planned: 3 features, 8 stories
+
+Coverage
+---------------------------------------
+Stories total:          8
+Stories with artifacts: 8
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F34-01     AIRA Core Architecture          3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F34-02     Agent Orchestration             3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F34-03     Evaluation Harness              2/2 artifacts  0/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F34-01-001 -- Define AIRA agent roles and responsibilities (1 artifact)
+[IMPL] F34-01-002 -- Agent communication protocol design (1 artifact)
+[IMPL] F34-01-003 -- Initial scaffold and repo structure (1 artifact)
+[IMPL] F34-02-001 -- Task decomposition and routing (1 artifact)
+[IMPL] F34-02-002 -- Inter-agent message passing (1 artifact)
+[IMPL] F34-02-003 -- Failure recovery and retry logic (1 artifact)
+[IMPL] F34-03-001 -- Define success metrics for agent tasks (1 artifact)
+[IMPL] F34-03-002 -- Automated evaluation pipeline (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

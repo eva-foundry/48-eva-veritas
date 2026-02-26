@@ -1,0 +1,108 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\10-mkdocs-poc
+[INFO] Prefix: F10
+[PASS] Written: C:\AICOE\eva-foundation\10-mkdocs-poc\.eva\veritas-plan.json
+       13 features, 26 stories, 19 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F10-01        0      0  Executive Summary
+  F10-02        2      0  Goals
+  F10-03        3      0  Quick Start (Zero-Setup Execution)
+  F10-04        0      0  Project Structure
+  F10-05        3      0  MkDocs Sample Content
+  F10-06        2      0  Hosting Test Strategy
+  F10-07       10      0  Validation Checklist
+  F10-08        4     19  Success Criteria
+  F10-09        0      0  Technology Stack
+  F10-10        2      0  Key Findings (To Be Updated Post-Testing)
+  F10-11        0      0  References
+  F10-12        0      0  Maintainers
+  F10-13        0      0  Change Log
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F10-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\10-mkdocs-poc
+[INFO] Using veritas-plan.json (format: veritas, 26 stories, 19 tasks)
+[INFO] Planned: 13 features, 26 stories
+[INFO] Actual: 282 artifacts, 26 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\10-mkdocs-poc\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\10-mkdocs-poc\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\10-mkdocs-poc\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Project 10: MkDocs Proof of Concept
+=======================================
+Repo:    C:\AICOE\eva-foundation\10-mkdocs-poc
+Planned: 13 features, 26 stories
+
+Coverage
+---------------------------------------
+Stories total:          26
+Stories with artifacts: 26
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F10-01     Executive Summary               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F10-02     Goals                           2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F10-03     Quick Start (Zero-Setup Execut  3/3 artifacts  0/3 evidence  0 gaps
+[  0] F10-04     Project Structure               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F10-05     MkDocs Sample Content           3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F10-06     Hosting Test Strategy           2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F10-07     Validation Checklist            10/10 artifacts  0/10 evidence  0 gaps
+[ 50] F10-08     Success Criteria                4/4 artifacts  0/4 evidence  0 gaps
+[  0] F10-09     Technology Stack                0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F10-10     Key Findings (To Be Updated Po  2/2 artifacts  0/2 evidence  0 gaps
+[  0] F10-11     References                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F10-12     Maintainers                     0/0 artifacts  0/0 evidence  0 gaps
+[  0] F10-13     Change Log                      0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F10-02-001 -- Primary Objectives (1 artifact)
+[IMPL] F10-02-002 -- Secondary Objectives (1 artifact)
+[IMPL] F10-03-001 -- Prerequisites (1 artifact)
+[IMPL] F10-03-002 -- Run the PoC (1 artifact)
+[IMPL] F10-03-003 -- Manual Execution (for development) (1 artifact)
+[IMPL] F10-05-001 -- Asset Integration (98+ Files from EVA-JP-reference-0113) (1 artifact)
+[IMPL] F10-05-002 -- Content Validation Points (1 artifact)
+[IMPL] F10-05-003 -- Example Pages (1 artifact)
+[IMPL] F10-06-001 -- Test 1: SharePoint Online Document Library (1 artifact)
+[IMPL] F10-06-002 -- Test 2: Azure Static Website (Baseline) (1 artifact)
+[IMPL] F10-07-001 -- MkDocs site builds without errors (validated with `mkdocs build`) (1 artifact)
+[IMPL] F10-07-002 -- Link validation script created (`mkdocs-sample/scripts/validate_links.py`) (1 artifact)
+[IMPL] F10-07-003 -- Navigation sidebar renders correctly (manual browser test required) (1 artifact)
+[IMPL] F10-07-004 -- Internal links navigate correctly (run link validator) (1 artifact)
+[IMPL] F10-07-005 -- Deep links scroll to anchors (manual test required) (1 artifact)
+[IMPL] F10-07-006 -- Tables render properly (manual test required) (1 artifact)
+[IMPL] F10-07-007 -- Callouts/admonitions display correctly (manual test required) (1 artifact)
+[IMPL] F10-07-008 -- Code blocks have syntax highlighting (manual test required) (1 artifact)
+[IMPL] F10-07-009 -- CSS/JS assets load without 404s (check browser DevTools) (1 artifact)
+[IMPL] F10-07-010 -- Mobile responsive design works (manual test required) (1 artifact)
+[IMPL] F10-08-001 -- Phase 1: Generation ? **COMPLETE** (1 artifact)
+[IMPL] F10-08-002 -- Phase 2: SharePoint Online Testing ? **READY TO START** (1 artifact)
+[IMPL] F10-08-003 -- Phase 3: Azure Static Website Testing ? **READY TO START** (1 artifact)
+[IMPL] F10-08-004 -- Phase 4: Analysis & Recommendation ? **BLOCKED** (Requires Phase 2 & 3) (1 artifact)
+[IMPL] F10-10-001 -- SharePoint Online (1 artifact)
+[IMPL] F10-10-002 -- Azure Static Website (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

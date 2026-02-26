@@ -1,0 +1,122 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[06:55:48] === sweep7 START 2026-02-25 06:55:48 ===
+[06:55:48] [PASS] ACA: status=ok store=cosmos version=1.0.0
+[06:55:48] [INFO] Target projects: 13
+[06:55:48] --- 03-poc-enhanced-docs ---
+[06:55:48]   [1] generate-plan --enrich
+[06:55:48]   [1] features=9 stories=20
+[06:55:48]   [2] manifest.yml written: 20 story tags -> C:\AICOE\eva-foundation\03-poc-enhanced-docs\manifest.yml
+[06:55:48]   [3] audit
+[06:55:49]   [4] MTI=50  coverage=100%  covered=20/20  gaps=0
+[06:55:49]   [5] PUT OK rv=8
+[06:55:49] --- 09-eva-repo-documentation ---
+[06:55:49]   [1] generate-plan --enrich
+[06:55:50]   [1] features=4 stories=6
+[06:55:50]   [2] manifest.yml written: 6 story tags -> C:\AICOE\eva-foundation\09-eva-repo-documentation\manifest.yml
+[06:55:50]   [3] audit
+[06:55:50]   [4] MTI=50  coverage=100%  covered=6/6  gaps=0
+[06:55:51]   [5] PUT OK rv=8
+[06:55:51] --- 12-work-spc-reorg ---
+[06:55:51]   [1] generate-plan --enrich
+[06:55:51]   [1] features=12 stories=40
+[06:55:51]   [2] manifest.yml written: 40 story tags -> C:\AICOE\eva-foundation\12-work-spc-reorg\manifest.yml
+[06:55:51]   [3] audit
+[06:55:51]   [4] MTI=50  coverage=100%  covered=40/40  gaps=0
+[06:55:52]   [5] PUT OK rv=8
+[06:55:52] --- 23-ei-dsst-rewrite ---
+[06:55:52]   [1] generate-plan --enrich
+[06:55:52]   [1] features=14 stories=4
+[06:55:52]   [2] manifest.yml written: 4 story tags -> C:\AICOE\eva-foundation\23-ei-dsst-rewrite\manifest.yml
+[06:55:52]   [3] audit
+[06:55:53]   [4] MTI=50  coverage=100%  covered=4/4  gaps=0
+[06:55:54]   [5] PUT OK rv=8
+[06:55:54] --- 28-rbac ---
+[06:55:54]   [1] generate-plan --enrich
+[06:55:54]   [1] features=20 stories=43
+[06:55:54]   [2] manifest.yml written: 43 story tags -> C:\AICOE\eva-foundation\28-rbac\manifest.yml
+[06:55:54]   [3] audit
+[06:55:55]   [4] MTI=50  coverage=100%  covered=43/43  gaps=0
+[06:55:55]   [5] PUT OK rv=8
+[06:55:55] --- 43-spark ---
+[06:55:55]   [1] generate-plan --enrich
+[06:55:57]   [1] features=12 stories=5
+[06:55:58]   [2] manifest.yml written: 5 story tags -> C:\AICOE\eva-foundation\43-spark\manifest.yml
+[06:55:58]   [3] audit
+[06:55:59]   [4] MTI=50  coverage=100%  covered=5/5  gaps=0
+[06:56:00]   [5] PUT OK rv=9
+[06:56:00] --- 08-cds-rag ---
+[06:56:00]   [1] generate-plan --enrich
+[06:56:01]   [1] features=18 stories=158
+[06:56:01]   [2] manifest.yml written: 158 story tags -> C:\AICOE\eva-foundation\08-cds-rag\manifest.yml
+[06:56:01]   [3] audit
+[06:56:02]   [4] MTI=50  coverage=100%  covered=158/158  gaps=0
+[06:56:02]   [5] PUT OK rv=8
+[06:56:02] --- 18-azure-best ---
+[06:56:02]   [1] generate-plan --enrich
+[06:56:06]   [1] features=11 stories=22
+[06:56:06]   [2] manifest.yml written: 22 story tags -> C:\AICOE\eva-foundation\18-azure-best\manifest.yml
+[06:56:06]   [3] audit
+[06:56:12]   [4] MTI=50  coverage=100%  covered=22/22  gaps=0
+[06:56:12]   [5] PUT OK rv=8
+[06:56:12] --- 25-eva-suite ---
+[06:56:12]   [1] generate-plan --enrich
+[06:56:12]   [1] features=4 stories=11
+[06:56:12]   [2] manifest.yml written: 11 story tags -> C:\AICOE\eva-foundation\25-eva-suite\manifest.yml
+[06:56:12]   [3] audit
+[06:56:13]   [4] MTI=50  coverage=100%  covered=11/11  gaps=0
+[06:56:13]   [5] PUT OK rv=8
+[06:56:13] --- 26-eva-gh ---
+[06:56:13]   [1] generate-plan --enrich
+[06:56:15]   [1] features=142 stories=728
+[06:56:15]   [2] manifest.yml written: 728 story tags -> C:\AICOE\eva-foundation\26-eva-gh\manifest.yml
+[06:56:15]   [3] audit
+[06:56:21]   [4] MTI=50  coverage=100%  covered=728/728  gaps=0
+[06:56:21]   [5] PUT OK rv=8
+[06:56:21] --- 30-ui-bench ---
+[06:56:21]   [1] generate-plan --enrich
+[06:56:22]   [1] features=3 stories=8
+[06:56:22]   [2] manifest.yml written: 8 story tags -> C:\AICOE\eva-foundation\30-ui-bench\manifest.yml
+[06:56:22]   [3] audit
+[06:56:22]   [4] MTI=50  coverage=100%  covered=8/8  gaps=0
+[06:56:23]   [5] PUT OK rv=8
+[06:56:23] --- 32-logging ---
+[06:56:23]   [1] generate-plan --enrich
+[06:56:23]   [1] features=3 stories=9
+[06:56:23]   [2] manifest.yml written: 9 story tags -> C:\AICOE\eva-foundation\32-logging\manifest.yml
+[06:56:23]   [3] audit
+[06:56:24]   [4] MTI=50  coverage=100%  covered=9/9  gaps=0
+[06:56:24]   [5] PUT OK rv=8
+[06:56:24] --- 34-AIRA ---
+[06:56:24]   [1] generate-plan --enrich
+[06:56:24]   [1] features=3 stories=8
+[06:56:24]   [2] manifest.yml written: 8 story tags -> C:\AICOE\eva-foundation\34-AIRA\manifest.yml
+[06:56:24]   [3] audit
+[06:56:25]   [4] MTI=50  coverage=100%  covered=8/8  gaps=0
+[06:56:25]   [5] PUT OK rv=6
+[06:56:25] 
+[06:56:25] === RESULTS TABLE ===
+[06:56:25] 
+[06:56:25] 
+project                   mti coverage covered stories gaps features
+-------                   --- -------- ------- ------- ---- --------
+03-poc-enhanced-docs       50   100.00   20.00   20.00    0        9
+09-eva-repo-documentation  50   100.00    6.00    6.00    0        4
+12-work-spc-reorg          50   100.00   40.00   40.00    0       12
+23-ei-dsst-rewrite         50   100.00    4.00    4.00    0       14
+28-rbac                    50   100.00   43.00   43.00    0       20
+43-spark                   50   100.00    5.00    5.00    0       12
+08-cds-rag                 50   100.00  158.00  158.00    0       18
+18-azure-best              50   100.00   22.00   22.00    0       11
+25-eva-suite               50   100.00   11.00   11.00    0        4
+26-eva-gh                  50   100.00  728.00  728.00    0      142
+30-ui-bench                50   100.00    8.00    8.00    0        3
+32-logging                 50   100.00    9.00    9.00    0        3
+34-AIRA                    50   100.00    8.00    8.00    0        3
+
+
+[06:56:25] Results JSON: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep7\sweep7-results.json
+[06:56:25] [COMMIT] POST admin/commit
+[06:56:26] [COMMIT] status=FAIL violations=0 exported=963
+[06:56:26] [PASS] Commit clean
+[06:56:26] === sweep7 DONE 2026-02-25 06:56:26 ===
+[06:56:26] Evidence dir: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep7

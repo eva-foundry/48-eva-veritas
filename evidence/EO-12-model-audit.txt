@@ -1,0 +1,20 @@
+EVA-STORY: EO-12-001
+EVA-FEATURE: EO-12
+
+EVIDENCE: EO-12-001 -- model-audit command
+Feature EO-12 Model Fidelity Audit -- added 2026-02-24 19:44
+Test run: 2026-02-24 (session 4)
+
+EO-12-001 -- Implement model-audit command
+  Artifacts: src/model-audit.js, tests/model-audit.test.js
+  [PASS] node src/cli.js model-audit --repo . --data-model http://localhost:8010
+  [PASS] Screen repo_path check -> file exists on disk
+  [PASS] Endpoint status=implemented check -> router file references the path
+  [PASS] Service is_active=true check -> docker-compose / Dockerfile reference
+  [PASS] Container fields[] check -> schema file covers >= 50% of declared fields
+  [PASS] Writes .eva/model-fidelity.json (schema block + drift summary)
+  [PASS] Prints summary: checked N entities, K drifted, J missing
+  [PASS] Exits code 1 if drift detected (unless --warn-only flag set)
+  [PASS] Graceful offline: skips if data model API unreachable
+  [PASS] tests/model-audit.test.js covers all 4 check types
+  Source files corrected: EO-D5-001 typo -> EO-12-001 in src/model-audit.js + tests/model-audit.test.js

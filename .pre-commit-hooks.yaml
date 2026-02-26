@@ -1,0 +1,11 @@
+- id: eva-veritas
+  name: eva-veritas MTI gate
+  description: >
+    Runs eva audit on the repository and fails the commit if the MTI score
+    is below the configured threshold (default: 70). Use --warn-only in
+    args to downgrade to a warning without blocking.
+  language: node
+  entry: eva
+  args: [audit, --warn-only]
+  pass_filenames: false
+  always_run: true

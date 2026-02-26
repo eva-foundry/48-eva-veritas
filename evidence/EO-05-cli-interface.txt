@@ -1,0 +1,50 @@
+EVA-STORY: EO-05-001
+EVA-STORY: EO-05-002
+EVA-STORY: EO-05-003
+EVA-STORY: EO-05-004
+EVA-STORY: EO-05-005
+EVA-STORY: EO-05-006
+EVA-STORY: EO-05-007
+EVA-FEATURE: EO-05
+
+EVIDENCE: EO-05 CLI Interface
+Phase 1 -- COMPLETE 2026-02-24 09:32 ET
+Test run: 2026-02-24 13:02 ET (self-audit)
+
+Full CLI validation -- all 7 commands verified on 2026-02-24:
+
+EO-05-001 -- Implement discover command
+  [PASS] node src/cli.js discover --repo .
+  [PASS] Planned: 10 features, 31 stories
+  [PASS] .eva/discovery.json written
+
+EO-05-002 -- Implement reconcile command
+  [PASS] node src/cli.js reconcile --repo .
+  [PASS] Gaps: 29
+  [PASS] .eva/reconciliation.json written
+
+EO-05-003 -- Implement compute-trust command
+  [PASS] node src/cli.js compute-trust --repo .
+  [PASS] Score: 62
+  [PASS] .eva/trust.json written
+
+EO-05-004 -- Implement generate-ado command
+  [PASS] node src/cli.js generate-ado --repo .
+  [PASS] .eva/ado.csv written (31 stories)
+  [PASS] node src/cli.js generate-ado --repo . --gaps-only
+  [PASS] .eva/ado.csv written (29 gap stories only)
+
+EO-05-005 -- Implement report command
+  [PASS] node src/cli.js report --repo .
+  [PASS] Console output: Coverage, Gaps, Implemented, Trust sections
+
+EO-05-006 -- Implement scan-portfolio command
+  [PASS] node src/cli.js scan-portfolio --portfolio C:\AICOE\eva-foundation
+  [PASS] 48 projects scanned
+  [PASS] Portfolio MTI: 52 (2 governed: 29-foundry=42, 48-eva-veritas=62)
+  [PASS] Table output: project | stories | coverage | MTI | gaps | actions
+
+EO-05-007 -- Implement audit command
+  [PASS] node src/cli.js audit --repo .
+  [PASS] audit = discover + reconcile + compute-trust + report in one command
+  [PASS] Consistent with individual command outputs

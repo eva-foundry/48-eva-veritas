@@ -1,0 +1,22 @@
+EVA-STORY: EO-04-001
+EVA-STORY: EO-04-002
+EVA-FEATURE: EO-04
+
+EVIDENCE: EO-04 ADO Export
+Phase 1 -- COMPLETE 2026-02-24 09:32 ET
+Test run: 2026-02-24 13:02 ET (self-audit)
+
+EO-04-001 -- Generate Epic/Feature/Story hierarchy CSV
+  Artifacts: src/generate-ado.js, src/lib/ado-csv.js
+  [PASS] node src/cli.js generate-ado --repo .
+  [PASS] ado.csv written to .eva/
+  [PASS] Headers: Work Item Type, Title, Parent, Description, Acceptance Criteria, Tags
+  [PASS] One row per Epic / Feature / Story
+  [PASS] 10 features + 31 stories exported
+
+EO-04-002 -- Annotate stories with gap tags
+  Artifacts: src/generate-ado.js, src/lib/ado-csv.js
+  [PASS] node src/cli.js generate-ado --repo . --gaps-only
+  [PASS] gap:<type> tags appended to affected story rows
+  [PASS] --gaps-only flag filters to gap stories only (sprint seeding mode)
+  [PASS] 29 gap stories exported when --gaps-only used

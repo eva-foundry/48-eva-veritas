@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.7637190-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/23-ei-dsst-rewrite",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-23",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "23-ei-dsst-rewrite",
+    "description": "23-ei-dsst-rewrite",
+    "tags": "23-ei-dsst-rewrite;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F23-01",
+      "type": "Feature",
+      "title": "Overview",
+      "description": "Overview",
+      "tags": "23-ei-dsst-rewrite;F23-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-02",
+      "type": "Feature",
+      "title": "System Background",
+      "description": "System Background",
+      "tags": "23-ei-dsst-rewrite;F23-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-03",
+      "type": "Feature",
+      "title": "Key Findings",
+      "description": "Key Findings",
+      "tags": "23-ei-dsst-rewrite;F23-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-04",
+      "type": "Feature",
+      "title": "Project Artifacts",
+      "description": "Project Artifacts",
+      "tags": "23-ei-dsst-rewrite;F23-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-05",
+      "type": "Feature",
+      "title": "Discovery Sources",
+      "description": "Discovery Sources",
+      "tags": "23-ei-dsst-rewrite;F23-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-06",
+      "type": "Feature",
+      "title": "Scope Definition",
+      "description": "Scope Definition",
+      "tags": "23-ei-dsst-rewrite;F23-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-07",
+      "type": "Feature",
+      "title": "Success Criteria",
+      "description": "Success Criteria",
+      "tags": "23-ei-dsst-rewrite;F23-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-08",
+      "type": "Feature",
+      "title": "Team Structure",
+      "description": "Team Structure",
+      "tags": "23-ei-dsst-rewrite;F23-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-09",
+      "type": "Feature",
+      "title": "Timeline",
+      "description": "Timeline",
+      "tags": "23-ei-dsst-rewrite;F23-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-10",
+      "type": "Feature",
+      "title": "Stakeholders",
+      "description": "Stakeholders",
+      "tags": "23-ei-dsst-rewrite;F23-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-11",
+      "type": "Feature",
+      "title": "Related Systems",
+      "description": "Related Systems",
+      "tags": "23-ei-dsst-rewrite;F23-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-12",
+      "type": "Feature",
+      "title": "Risk Register",
+      "description": "Risk Register",
+      "tags": "23-ei-dsst-rewrite;F23-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-13",
+      "type": "Feature",
+      "title": "Next Steps",
+      "description": "Next Steps",
+      "tags": "23-ei-dsst-rewrite;F23-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F23-14",
+      "type": "Feature",
+      "title": "Contact",
+      "description": "Contact",
+      "tags": "23-ei-dsst-rewrite;F23-14",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F23-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F23-03-001] Technology Stack",
+      "acceptance_criteria": "Technology Stack",
+      "tags": "23-ei-dsst-rewrite;F23-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F23-03",
+      "state": "New",
+      "wbs_id": "F23-03-001"
+    },
+    {
+      "id_hint": "F23-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F23-03-002] Critical Challenges",
+      "acceptance_criteria": "Critical Challenges",
+      "tags": "23-ei-dsst-rewrite;F23-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F23-03",
+      "state": "New",
+      "wbs_id": "F23-03-002"
+    },
+    {
+      "id_hint": "F23-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F23-06-001] In Scope (Phase 1 - 6 months)",
+      "acceptance_criteria": "In Scope (Phase 1 - 6 months)",
+      "tags": "23-ei-dsst-rewrite;F23-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F23-06",
+      "state": "New",
+      "wbs_id": "F23-06-001"
+    },
+    {
+      "id_hint": "F23-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F23-06-002] Out of Scope (Future Phases)",
+      "acceptance_criteria": "Out of Scope (Future Phases)",
+      "tags": "23-ei-dsst-rewrite;F23-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F23-06",
+      "state": "New",
+      "wbs_id": "F23-06-002"
+    }
+  ]
+}

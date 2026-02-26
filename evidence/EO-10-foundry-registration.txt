@@ -1,0 +1,26 @@
+EVA-STORY: EO-10-001
+EVA-STORY: EO-10-002
+EVA-FEATURE: EO-10
+
+EVIDENCE: EO-10 29-foundry Registration
+Phase 2 -- 2026-02-24
+
+EO-10-001 -- eva-veritas MCP server registered in 29-foundry
+  Artifacts:
+    C:\AICOE\eva-foundation\29-foundry\mcp-servers\eva-veritas\config.json
+    C:\AICOE\eva-foundation\29-foundry\mcp-servers\eva-veritas\README.md
+  [PASS] config.json created: command=node, args=[mcp-server.js], env MCP_PORT=8031
+  [PASS] README.md created: purpose, tools table, quick test commands, config table
+  [PASS] Follows same pattern as existing MCP servers (blob-storage, cosmos-db, etc.)
+
+EO-10-002 -- eva-veritas skill added to 29-foundry copilot-skills
+  Artifacts:
+    C:\AICOE\eva-foundation\29-foundry\copilot-skills\07-eva-veritas.md
+    C:\AICOE\eva-foundation\29-foundry\skill-catalog.json (updated)
+  [PASS] Skill file created: 07-eva-veritas.md (domain, triggers, MCP/CLI/proxy patterns)
+  [PASS] skill-catalog.json updated: totalSkills 72 -> 73
+  [PASS] skill-catalog.json: 29-foundry project count 6 -> 7
+  [PASS] skill-catalog.json: audit category count 5 -> 6
+  [PASS] skill-catalog.json: validate phase count 6 -> 7
+  [PASS] eva-veritas added to categories.audit, byPhase.validate, byProject.29 lists
+  Trigger phrases: "audit repo", "trust score", "MTI", "find gaps", "seed sprint", "scan portfolio"

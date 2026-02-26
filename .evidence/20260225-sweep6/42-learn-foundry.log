@@ -1,0 +1,205 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\42-learn-foundry
+[INFO] Prefix: F42
+[INFO] Enrichment applied: code-structure (51 stories)
+[PASS] Written: C:\AICOE\eva-foundation\42-learn-foundry\.eva\veritas-plan.json
+       23 features, 51 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID               Stories  Tasks  Title
+  ????????????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F42-01                  1      0  CREATE_RESPO API [ID=F42-CREATE_RESPO]
+  F42-02                  1      0  USER_BROWSER API [ID=F42-USER_BROWSER]
+  F42-03                  1      0  FULL_PATHPAT API [ID=F42-FULL_PATHPAT]
+  F42-API                10      0  API API
+  F42-ARTICLE             2      0  ARTICLE API
+  F42-UPLOADIMAGE         2      0  UPLOADIMAGE API
+  F42-CONFIG              2      0  CONFIG API
+  F42-HEALTH              2      0  HEALTH API
+  F42-META                2      0  META API
+  F42-ENTITIES            8      0  ENTITIES API
+  F42-DEPLOYMENTS         8      0  DEPLOYMENTS API
+  F42-RESPONSES           4      0  RESPONSES API
+  F42-CONVERSATION       18      0  CONVERSATION API
+  F42-CHATKIT             2      0  CHATKIT API
+  F42-UPLOAD              2      0  UPLOAD API
+  F42-PREVIEW             2      0  PREVIEW API
+  F42-STREAM              2      0  STREAM API
+  F42-MCP                 8      0  MCP API
+  F42-UI                  2      0  UI Pages
+  F42-OPS                20      0  Operations Scripts
+  F42-CREATE_RESPO        1      0  CREATE_RESPO API
+  F42-USER_BROWSER        1      0  USER_BROWSER API
+  F42-FULL_PATHPAT        1      0  FULL_PATHPAT API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F42-API-001
+[INFO] Discovering: C:\AICOE\eva-foundation\42-learn-foundry
+[INFO] Using veritas-plan.json (format: veritas, 102 stories, 0 tasks)
+[INFO] Planned: 23 features, 102 stories
+[INFO] Actual: 21329 artifacts, 54 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\42-learn-foundry\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\42-learn-foundry\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\42-learn-foundry\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 42-learn-foundry -- EVA Learning & Reference Repository
+=======================================
+Repo:    C:\AICOE\eva-foundation\42-learn-foundry
+Planned: 23 features, 102 stories
+
+Coverage
+---------------------------------------
+Stories total:          102
+Stories with artifacts: 102
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F42-01     CREATE_RESPO API [ID=F42-CREAT  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F42-02     USER_BROWSER API [ID=F42-USER_  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F42-03     FULL_PATHPAT API [ID=F42-FULL_  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F42-API    API API                         10/10 artifacts  0/10 evidence  0 gaps
+[ 50] F42-ARTICLE ARTICLE API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-CHATKIT CHATKIT API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-CONFIG CONFIG API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-CONVERSATION CONVERSATION API                18/18 artifacts  0/18 evidence  0 gaps
+[ 50] F42-CREATE_RESPO CREATE_RESPO API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F42-DEPLOYMENTS DEPLOYMENTS API                 8/8 artifacts  0/8 evidence  0 gaps
+[ 50] F42-ENTITIES ENTITIES API                    8/8 artifacts  0/8 evidence  0 gaps
+[ 50] F42-FULL_PATHPAT FULL_PATHPAT API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F42-HEALTH HEALTH API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-MCP    MCP API                         8/8 artifacts  0/8 evidence  0 gaps
+[ 50] F42-META   META API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-OPS    Operations Scripts              20/20 artifacts  0/20 evidence  0 gaps
+[ 50] F42-PREVIEW PREVIEW API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-RESPONSES RESPONSES API                   4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F42-STREAM STREAM API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-UI     UI Pages                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-UPLOAD UPLOAD API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-UPLOADIMAGE UPLOADIMAGE API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F42-USER_BROWSER USER_BROWSER API                1/1 artifacts  0/1 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F42-01-001 -- POST /api/create_response [ID=F42-CREATE_RESPO-001] (1 artifact)
+[IMPL] F42-02-001 -- POST /api/user_browser_language [ID=F42-USER_BROWSER-001] (1 artifact)
+[IMPL] F42-03-001 -- GET /{full_path:path} [ID=F42-FULL_PATHPAT-001] (1 artifact)
+[IMPL] F42-API-001 -- GET / (1 artifact)
+[IMPL] F42-API-002 -- GET / (1 artifact)
+[IMPL] F42-API-003 -- GET / (1 artifact)
+[IMPL] F42-API-004 -- GET / (1 artifact)
+[IMPL] F42-API-005 -- GET / (1 artifact)
+[IMPL] F42-API-001 -- GET / (1 artifact)
+[IMPL] F42-API-002 -- GET / (1 artifact)
+[IMPL] F42-API-003 -- GET / (1 artifact)
+[IMPL] F42-API-004 -- GET / (1 artifact)
+[IMPL] F42-API-005 -- GET / (1 artifact)
+[IMPL] F42-ARTICLE-001 -- POST /api/article (1 artifact)
+[IMPL] F42-ARTICLE-001 -- POST /api/article (1 artifact)
+[IMPL] F42-UPLOADIMAGE-001 -- POST /api/upload-image (1 artifact)
+[IMPL] F42-UPLOADIMAGE-001 -- POST /api/upload-image (1 artifact)
+[IMPL] F42-CONFIG-001 -- GET /config (1 artifact)
+[IMPL] F42-CONFIG-001 -- GET /config (1 artifact)
+[IMPL] F42-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F42-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F42-META-001 -- GET /meta (1 artifact)
+[IMPL] F42-META-001 -- GET /meta (1 artifact)
+[IMPL] F42-ENTITIES-001 -- GET /v1/entities (1 artifact)
+[IMPL] F42-ENTITIES-002 -- GET /v1/entities/{entity_id}/info (1 artifact)
+[IMPL] F42-ENTITIES-003 -- POST /v1/entities/{entity_id}/reload (1 artifact)
+[IMPL] F42-ENTITIES-004 -- POST /v1/entities/{entity_id}/deploy (1 artifact)
+[IMPL] F42-ENTITIES-001 -- GET /v1/entities (1 artifact)
+[IMPL] F42-ENTITIES-002 -- GET /v1/entities/{entity_id}/info (1 artifact)
+[IMPL] F42-ENTITIES-003 -- POST /v1/entities/{entity_id}/reload (1 artifact)
+[IMPL] F42-ENTITIES-004 -- POST /v1/entities/{entity_id}/deploy (1 artifact)
+[IMPL] F42-DEPLOYMENTS-001 -- POST /v1/deployments (1 artifact)
+[IMPL] F42-DEPLOYMENTS-002 -- GET /v1/deployments (1 artifact)
+[IMPL] F42-DEPLOYMENTS-003 -- GET /v1/deployments/{deployment_id} (1 artifact)
+[IMPL] F42-DEPLOYMENTS-004 -- DELETE /v1/deployments/{deployment_id} (1 artifact)
+[IMPL] F42-DEPLOYMENTS-001 -- POST /v1/deployments (1 artifact)
+[IMPL] F42-DEPLOYMENTS-002 -- GET /v1/deployments (1 artifact)
+[IMPL] F42-DEPLOYMENTS-003 -- GET /v1/deployments/{deployment_id} (1 artifact)
+[IMPL] F42-DEPLOYMENTS-004 -- DELETE /v1/deployments/{deployment_id} (1 artifact)
+[IMPL] F42-RESPONSES-001 -- POST /v1/responses (1 artifact)
+[IMPL] F42-RESPONSES-002 -- POST /v1/responses/{response_id}/cancel (1 artifact)
+[IMPL] F42-RESPONSES-001 -- POST /v1/responses (1 artifact)
+[IMPL] F42-RESPONSES-002 -- POST /v1/responses/{response_id}/cancel (1 artifact)
+[IMPL] F42-CONVERSATION-001 -- POST /v1/conversations (1 artifact)
+[IMPL] F42-CONVERSATION-002 -- GET /v1/conversations (1 artifact)
+[IMPL] F42-CONVERSATION-003 -- GET /v1/conversations/{conversation_id} (1 artifact)
+[IMPL] F42-CONVERSATION-004 -- POST /v1/conversations/{conversation_id} (1 artifact)
+[IMPL] F42-CONVERSATION-005 -- DELETE /v1/conversations/{conversation_id} (1 artifact)
+[IMPL] F42-CONVERSATION-006 -- POST /v1/conversations/{conversation_id}/items (1 artifact)
+[IMPL] F42-CONVERSATION-007 -- GET /v1/conversations/{conversation_id}/items (1 artifact)
+[IMPL] F42-CONVERSATION-008 -- GET /v1/conversations/{conversation_id}/items/{item_id} (1 artifact)
+[IMPL] F42-CONVERSATION-009 -- DELETE /v1/conversations/{conversation_id}/items/{item_id} (1 artifact)
+[IMPL] F42-CONVERSATION-001 -- POST /v1/conversations (1 artifact)
+[IMPL] F42-CONVERSATION-002 -- GET /v1/conversations (1 artifact)
+[IMPL] F42-CONVERSATION-003 -- GET /v1/conversations/{conversation_id} (1 artifact)
+[IMPL] F42-CONVERSATION-004 -- POST /v1/conversations/{conversation_id} (1 artifact)
+[IMPL] F42-CONVERSATION-005 -- DELETE /v1/conversations/{conversation_id} (1 artifact)
+[IMPL] F42-CONVERSATION-006 -- POST /v1/conversations/{conversation_id}/items (1 artifact)
+[IMPL] F42-CONVERSATION-007 -- GET /v1/conversations/{conversation_id}/items (1 artifact)
+[IMPL] F42-CONVERSATION-008 -- GET /v1/conversations/{conversation_id}/items/{item_id} (1 artifact)
+[IMPL] F42-CONVERSATION-009 -- DELETE /v1/conversations/{conversation_id}/items/{item_id} (1 artifact)
+[IMPL] F42-CHATKIT-001 -- POST /chatkit (1 artifact)
+[IMPL] F42-CHATKIT-001 -- POST /chatkit (1 artifact)
+[IMPL] F42-UPLOAD-001 -- POST /upload/{attachment_id} (1 artifact)
+[IMPL] F42-UPLOAD-001 -- POST /upload/{attachment_id} (1 artifact)
+[IMPL] F42-PREVIEW-001 -- GET /preview/{attachment_id} (1 artifact)
+[IMPL] F42-PREVIEW-001 -- GET /preview/{attachment_id} (1 artifact)
+[IMPL] F42-STREAM-001 -- GET /stream (1 artifact)
+[IMPL] F42-STREAM-001 -- GET /stream (1 artifact)
+[IMPL] F42-MCP-001 -- POST /mcp (1 artifact)
+[IMPL] F42-MCP-002 -- GET /mcp (1 artifact)
+[IMPL] F42-MCP-003 -- DELETE /mcp (1 artifact)
+[IMPL] F42-MCP-004 -- POST /mcp (1 artifact)
+[IMPL] F42-MCP-001 -- POST /mcp (1 artifact)
+[IMPL] F42-MCP-002 -- GET /mcp (1 artifact)
+[IMPL] F42-MCP-003 -- DELETE /mcp (1 artifact)
+[IMPL] F42-MCP-004 -- POST /mcp (1 artifact)
+[IMPL] F42-UI-001 -- Route /plan/:planId (1 artifact)
+[IMPL] F42-UI-001 -- Route /plan/:planId (1 artifact)
+[IMPL] F42-OPS-001 -- merge_principal_ids() (1 artifact)
+[IMPL] F42-OPS-002 -- log_verbose() (1 artifact)
+[IMPL] F42-OPS-003 -- restore_network_access() (1 artifact)
+[IMPL] F42-OPS-004 -- cleanup_on_exit() (1 artifact)
+[IMPL] F42-OPS-005 -- test_azd_installed() (1 artifact)
+[IMPL] F42-OPS-006 -- get_values_from_azd_env() (1 artifact)
+[IMPL] F42-OPS-007 -- extract_value() (1 artifact)
+[IMPL] F42-OPS-008 -- get_values_from_az_deployment() (1 artifact)
+[IMPL] F42-OPS-009 -- get_values_using_solution_suffix() (1 artifact)
+[IMPL] F42-OPS-010 -- configure_nssdb() (1 artifact)
+[IMPL] F42-OPS-001 -- merge_principal_ids() (1 artifact)
+[IMPL] F42-OPS-002 -- log_verbose() (1 artifact)
+[IMPL] F42-OPS-003 -- restore_network_access() (1 artifact)
+[IMPL] F42-OPS-004 -- cleanup_on_exit() (1 artifact)
+[IMPL] F42-OPS-005 -- test_azd_installed() (1 artifact)
+[IMPL] F42-OPS-006 -- get_values_from_azd_env() (1 artifact)
+[IMPL] F42-OPS-007 -- extract_value() (1 artifact)
+[IMPL] F42-OPS-008 -- get_values_from_az_deployment() (1 artifact)
+[IMPL] F42-OPS-009 -- get_values_using_solution_suffix() (1 artifact)
+[IMPL] F42-OPS-010 -- configure_nssdb() (1 artifact)
+[IMPL] F42-CREATE_RESPO-001 -- POST /api/create_response (1 artifact)
+[IMPL] F42-USER_BROWSER-001 -- POST /api/user_browser_language (1 artifact)
+[IMPL] F42-FULL_PATHPAT-001 -- GET /{full_path:path} (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

@@ -1,0 +1,103 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0906-ado-import-artifacts-live.log
+
+=== ADO Import: 46-accelerator ===
+Project maturity : poc
+GitHub repo      : eva-foundry/46-accelerator
+Dry run          : False
+
+Epic: creating '46-accelerator'
+  -> Epic id=2589
+Feature: creating 'Fluent UI Migration'
+  -> Feature id=2590
+Feature: creating 'EVA Spark Design System Integration'
+  -> Feature id=2591
+Feature: creating 'EVA Brain v2 AI Assistant'
+  -> Feature id=2592
+Feature: creating 'Governance and Evidence'
+  -> Feature id=2593
+Feature: creating 'Booking Screens @eva/ui Migration'
+  -> Feature id=2594
+Feature: creating 'GitHub Actions CI'
+  -> Feature id=2595
+PBI: creating '[F46-01-001] Migrate App shell and navigation'
+  -> PBI id=2596
+PBI: creating '[F46-01-002] Migrate BookingDialog to Fluent UI'
+  -> PBI id=2597
+PBI: creating '[F46-01-003] Migrate ExitSurveyDialog to Fluent UI'
+  -> PBI id=2598
+PBI: creating '[F46-01-004] Migrate TeamManagementDialog to Fluent UI'
+  -> PBI id=2599
+PBI: creating '[F46-01-005] Migrate MyBookings to Fluent UI'
+  -> PBI id=2600
+PBI: creating '[F46-01-006] Migrate AdminDashboard to Fluent UI'
+  -> PBI id=2601
+PBI: creating '[F46-01-007] Wire localStorage persistence hook'
+  -> PBI id=2602
+PBI: creating '[F46-02-001] Wire @eva/gc-design-system and @eva/ui dependencies'
+  -> PBI id=2603
+PBI: creating '[F46-02-002] Replace FluentProvider with GCThemeProvider in App.tsx'
+  -> PBI id=2604
+PBI: creating '[F46-02-003] Replace raw Button with EvaButton in App.tsx navigation'
+  -> PBI id=2605
+PBI: creating '[F46-03-001] Implement brain-client.ts typed API client'
+  -> PBI id=2606
+PBI: creating '[F46-03-002] Add /api/brain Vite proxy'
+  -> PBI id=2607
+PBI: creating '[F46-03-003] Build AIAssistant chat panel component'
+  -> PBI id=2608
+PBI: creating '[F46-03-004] Add AI Assistant view to App.tsx'
+  -> PBI id=2609
+PBI: creating '[F46-04-001] Create PLAN.md, STATUS.md, ACCEPTANCE.md'
+  -> PBI id=2610
+PBI: creating '[F46-04-002] Add EVA-STORY tags to all source files'
+  -> PBI id=2611
+PBI: creating '[F46-04-003] Update 37-data-model project record'
+  -> PBI id=2612
+PBI: creating '[F46-05-001] Migrate WorkspaceCatalog to @eva/ui'
+  -> PBI id=2613
+PBI: creating '[F46-05-002] Migrate BookingDialog to @eva/ui'
+  -> PBI id=2614
+PBI: creating '[F46-05-003] Migrate MyBookings to @eva/ui'
+  -> PBI id=2615
+PBI: creating '[F46-05-004] Migrate ExitSurveyDialog to @eva/ui'
+  -> PBI id=2616
+PBI: creating '[F46-05-005] Migrate TeamManagementDialog to @eva/ui'
+  -> PBI id=2617
+PBI: creating '[F46-06-001] Add CI workflow'
+  -> PBI id=2618
+
+=== Import Summary: 46-accelerator ===
+Epic id  : 2589
+Features : 6
+PBIs     : 23
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F46-01-001 2596 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-01-002 2597 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-01-003 2598 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-01-004 2599 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-01-005 2600 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-01-006 2601 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-01-007 2602 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-02-001 2603 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-02-002 2604 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-02-003 2605 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-03-001 2606 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-03-002 2607 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-03-003 2608 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-03-004 2609 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-04-001 2610 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-04-002 2611 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-04-003 2612 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-05-001 2613 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-05-002 2614 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-05-003 2615 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-05-004 2616 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-05-005 2617 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F46-06-001 2618 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

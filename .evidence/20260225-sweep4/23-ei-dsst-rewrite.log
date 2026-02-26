@@ -1,0 +1,103 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\23-ei-dsst-rewrite
+[INFO] Prefix: F23
+[PASS] Written: C:\AICOE\eva-foundation\23-ei-dsst-rewrite\.eva\veritas-plan.json
+       14 features, 4 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F23-01        0      0  Overview
+  F23-02        0      0  System Background
+  F23-03        2      0  Key Findings
+  F23-04        0      0  Project Artifacts
+  F23-05        0      0  Discovery Sources
+  F23-06        2      0  Scope Definition
+  F23-07        0      0  Success Criteria
+  F23-08        0      0  Team Structure
+  F23-09        0      0  Timeline
+  F23-10        0      0  Stakeholders
+  F23-11        0      0  Related Systems
+  F23-12        0      0  Risk Register
+  F23-13        0      0  Next Steps
+  F23-14        0      0  Contact
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F23-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\23-ei-dsst-rewrite
+[INFO] Using veritas-plan.json (format: veritas, 4 stories, 0 tasks)
+[INFO] Planned: 14 features, 4 stories
+[INFO] Actual: 17 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\23-ei-dsst-rewrite\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\23-ei-dsst-rewrite\.eva\reconciliation.json
+[INFO] Gaps: 4
+[PASS] trust written: C:\AICOE\eva-foundation\23-ei-dsst-rewrite\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Project 23: EI-DSST Rewrite (ADMS-EI-SST Modernization)
+=======================================
+Repo:    C:\AICOE\eva-foundation\23-ei-dsst-rewrite
+Planned: 14 features, 4 stories
+
+Coverage
+---------------------------------------
+Stories total:          4
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F23-03-001 -- Technology Stack
+[FAIL] missing_implementation :: F23-03-002 -- Critical Challenges
+[FAIL] missing_implementation :: F23-06-001 -- In Scope (Phase 1 - 6 months)
+[FAIL] missing_implementation :: F23-06-002 -- Out of Scope (Future Phases)
+
+Feature Breakdown
+---------------------------------------
+[  0] F23-03     Key Findings                    0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F23-06     Scope Definition                0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F23-01     Overview                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-02     System Background               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-04     Project Artifacts               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-05     Discovery Sources               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-07     Success Criteria                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-08     Team Structure                  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-09     Timeline                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-10     Stakeholders                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-11     Related Systems                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-12     Risk Register                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-13     Next Steps                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F23-14     Contact                         0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 4 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 6 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 8 more stories with # EVA-STORY
+
+[ACT] 4 unimplemented stories by feature (highest priority first):
+      F23-03 Key Findings (2 gaps)
+        - F23-03-001 -- Technology Stack
+        - F23-03-002 -- Critical Challenges
+      F23-06 Scope Definition (2 gaps)
+        - F23-06-001 -- In Scope (Phase 1 - 6 months)
+        - F23-06-002 -- Out of Scope (Future Phases)
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

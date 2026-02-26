@@ -1,0 +1,20 @@
+{
+  "notes": "EVA-STORY: EO-02-001 EVA-STORY: EO-02-002 EVA-STORY: EO-02-003",
+  "evidence_for": ["EO-02-001", "EO-02-002", "EO-02-003"],
+  "run_at": "2026-02-24T18:07:00Z",
+  "command": "node src/cli.js audit --repo .",
+  "result": {
+    "reconciliation_path": ".eva/reconciliation.json",
+    "coverage": {
+      "stories_total": 31,
+      "stories_with_artifacts": 20,
+      "stories_with_evidence": 0,
+      "consistency_score": 1.0
+    },
+    "gaps_detected": 29,
+    "gap_types": ["missing_evidence", "missing_implementation"],
+    "status": "[PASS]"
+  },
+  "verdict": "PASS -- reconcile correctly computes coverage, detects gaps, calculates consistency",
+  "confirmed_in": "src/reconcile.js, src/lib/trust.js"
+}

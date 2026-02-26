@@ -1,0 +1,177 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\12-work-spc-reorg
+[INFO] Prefix: F12
+[PASS] Written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\veritas-plan.json
+       12 features, 40 stories, 7 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F12-01        2      0  Problem Statement
+  F12-02        3      0  Proposed Solution
+  F12-03        8      0  Implementation Plan
+  F12-04        4      0  Workspace Configurations
+  F12-05        6      0  Benefits
+  F12-06        2      0  Rollback Plan
+  F12-07        5      7  Post-Migration Tasks
+  F12-08       10      0  Success Criteria
+  F12-09        0      0  Timeline
+  F12-10        0      0  Next Steps
+  F12-11        0      0  Files in This Project
+  F12-12        0      0  References
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F12-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\12-work-spc-reorg
+[INFO] Using veritas-plan.json (format: free-form, 40 stories, 7 tasks)
+[INFO] Planned: 12 features, 40 stories
+[INFO] Actual: 4 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\reconciliation.json
+[INFO] Gaps: 40
+[PASS] trust written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Project 12: VS Code Workspace Reorganization
+=======================================
+Repo:    C:\AICOE\eva-foundation\12-work-spc-reorg
+Planned: 12 features, 40 stories
+
+Coverage
+---------------------------------------
+Stories total:          40
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F12-01-001 -- Current Issues
+[FAIL] missing_implementation :: F12-01-002 -- Current Structure
+[FAIL] missing_implementation :: F12-02-001 -- Organizational Principles
+[FAIL] missing_implementation :: F12-02-002 -- Target Structure
+[FAIL] missing_implementation :: F12-02-003 -- Path Length Comparison
+[FAIL] missing_implementation :: F12-03-001 -- Phase 1: Backup (5 minutes)
+[FAIL] missing_implementation :: F12-03-002 -- Phase 2: Create New Structure (2 minutes)
+[FAIL] missing_implementation :: F12-03-003 -- Phase 3: Move Active Projects (5 minutes)
+[FAIL] missing_implementation :: F12-03-004 -- Phase 4: Organize All Projects (10 minutes)
+[FAIL] missing_implementation :: F12-03-005 -- Phase 5: Move Reference Repos (5 minutes)
+[FAIL] missing_implementation :: F12-03-006 -- Phase 6: Create Convenience Shortcuts (1 minute)
+[FAIL] missing_implementation :: F12-03-007 -- Phase 7: Create VS Code Workspaces (5 minutes)
+[FAIL] missing_implementation :: F12-03-008 -- Phase 8: Update Documentation (10 minutes)
+[FAIL] missing_implementation :: F12-04-001 -- 1. `active-work.code-workspace` (Daily Driver)
+[FAIL] missing_implementation :: F12-04-002 -- 2. `ms-infojp.code-workspace` (MS-InfoJP Focused)
+[FAIL] missing_implementation :: F12-04-003 -- 3. `jp-automation.code-workspace` (JP Automation Focused)
+[FAIL] missing_implementation :: F12-04-004 -- 4. `all-references.code-workspace` (Code Comparison)
+[FAIL] missing_implementation :: F12-05-001 -- 1. **Shorter Paths**
+[FAIL] missing_implementation :: F12-05-002 -- 2. **Clear Organization**
+[FAIL] missing_implementation :: F12-05-003 -- 3. **Focused Workspaces**
+[FAIL] missing_implementation :: F12-05-004 -- 4. **Easy Scaling**
+[FAIL] missing_implementation :: F12-05-005 -- 5. **Better Git Workflows**
+[FAIL] missing_implementation :: F12-05-006 -- 6. **Discoverability**
+[FAIL] missing_implementation :: F12-06-001 -- Option A: Automated Rollback
+[FAIL] missing_implementation :: F12-06-002 -- Option B: Manual Rollback
+[FAIL] missing_implementation :: F12-07-001 -- 1. Update Hardcoded Paths in Scripts
+[FAIL] missing_implementation :: F12-07-002 -- 2. Update Project Documentation
+[FAIL] missing_implementation :: F12-07-003 -- 3. Update VS Code Settings
+[FAIL] missing_implementation :: F12-07-004 -- 4. Update Git Ignore Patterns
+[FAIL] missing_implementation :: F12-07-005 -- 5. Verify All Symlinks Work
+[FAIL] missing_implementation :: F12-08-001 -- All active projects accessible at `I:\_active\[project-name]`
+[FAIL] missing_implementation :: F12-08-002 -- All projects organized in flat `I:\_projects\` structure
+[FAIL] missing_implementation :: F12-08-003 -- Reference repos in `I:\_reference\`
+[FAIL] missing_implementation :: F12-08-004 -- VS Code workspaces created and tested
+[FAIL] missing_implementation :: F12-08-005 -- MS-InfoJP deployment runs without path errors
+[FAIL] missing_implementation :: F12-08-006 -- JP automation scripts work with new paths
+[FAIL] missing_implementation :: F12-08-007 -- Bash scripts (if any) work without modification
+[FAIL] missing_implementation :: F12-08-008 -- All symlinks functional
+[FAIL] missing_implementation :: F12-08-009 -- Documentation updated
+[FAIL] missing_implementation :: F12-08-010 -- No broken links in VS Code
+
+Feature Breakdown
+---------------------------------------
+[  0] F12-08     Success Criteria                0/10 artifacts  0/10 evidence  10 gaps  [NOT STARTED]
+[  0] F12-03     Implementation Plan             0/8 artifacts  0/8 evidence  8 gaps  [NOT STARTED]
+[  0] F12-05     Benefits                        0/6 artifacts  0/6 evidence  6 gaps  [NOT STARTED]
+[  0] F12-07     Post-Migration Tasks            0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F12-04     Workspace Configurations        0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F12-02     Proposed Solution               0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F12-01     Problem Statement               0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F12-06     Rollback Plan                   0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F12-09     Timeline                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F12-10     Next Steps                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F12-11     Files in This Project           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F12-12     References                      0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 40 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 56 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 72 more stories with # EVA-STORY
+
+[ACT] 40 unimplemented stories by feature (highest priority first):
+      F12-08 Success Criteria (10 gaps)
+        - F12-08-001 -- All active projects accessible at `I:\_active\[project-name]`
+        - F12-08-002 -- All projects organized in flat `I:\_projects\` structure
+        - F12-08-003 -- Reference repos in `I:\_reference\`
+        - F12-08-004 -- VS Code workspaces created and tested
+        - F12-08-005 -- MS-InfoJP deployment runs without path errors
+        - F12-08-006 -- JP automation scripts work with new paths
+        - F12-08-007 -- Bash scripts (if any) work without modification
+        - F12-08-008 -- All symlinks functional
+        - F12-08-009 -- Documentation updated
+        - F12-08-010 -- No broken links in VS Code
+      F12-03 Implementation Plan (8 gaps)
+        - F12-03-001 -- Phase 1: Backup (5 minutes)
+        - F12-03-002 -- Phase 2: Create New Structure (2 minutes)
+        - F12-03-003 -- Phase 3: Move Active Projects (5 minutes)
+        - F12-03-004 -- Phase 4: Organize All Projects (10 minutes)
+        - F12-03-005 -- Phase 5: Move Reference Repos (5 minutes)
+        - F12-03-006 -- Phase 6: Create Convenience Shortcuts (1 minute)
+        - F12-03-007 -- Phase 7: Create VS Code Workspaces (5 minutes)
+        - F12-03-008 -- Phase 8: Update Documentation (10 minutes)
+      F12-05 Benefits (6 gaps)
+        - F12-05-001 -- 1. **Shorter Paths**
+        - F12-05-002 -- 2. **Clear Organization**
+        - F12-05-003 -- 3. **Focused Workspaces**
+        - F12-05-004 -- 4. **Easy Scaling**
+        - F12-05-005 -- 5. **Better Git Workflows**
+        - F12-05-006 -- 6. **Discoverability**
+      F12-07 Post-Migration Tasks (5 gaps)
+        - F12-07-001 -- 1. Update Hardcoded Paths in Scripts
+        - F12-07-002 -- 2. Update Project Documentation
+        - F12-07-003 -- 3. Update VS Code Settings
+        - F12-07-004 -- 4. Update Git Ignore Patterns
+        - F12-07-005 -- 5. Verify All Symlinks Work
+      F12-04 Workspace Configurations (4 gaps)
+        - F12-04-001 -- 1. `active-work.code-workspace` (Daily Driver)
+        - F12-04-002 -- 2. `ms-infojp.code-workspace` (MS-InfoJP Focused)
+        - F12-04-003 -- 3. `jp-automation.code-workspace` (JP Automation Focused)
+        - F12-04-004 -- 4. `all-references.code-workspace` (Code Comparison)
+      F12-02 Proposed Solution (3 gaps)
+        - F12-02-001 -- Organizational Principles
+        - F12-02-002 -- Target Structure
+        - F12-02-003 -- Path Length Comparison
+      F12-01 Problem Statement (2 gaps)
+        - F12-01-001 -- Current Issues
+        - F12-01-002 -- Current Structure
+      F12-06 Rollback Plan (2 gaps)
+        - F12-06-001 -- Option A: Automated Rollback
+        - F12-06-002 -- Option B: Manual Rollback
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

@@ -1,0 +1,155 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0852-ado-import-artifacts-live.log
+
+=== ADO Import: 06-jp-auto-extraction ===
+Project maturity : poc
+GitHub repo      : eva-foundry/06-jp-auto-extraction
+Dry run          : False
+
+Epic: creating '06-jp-auto-extraction'
+  -> Epic id=298
+Feature: existing id=207 - 'Overview'
+Feature: creating 'Problem Statement'
+  -> Feature id=299
+Feature: creating 'Environment & Dependency Strategy'
+  -> Feature id=300
+Feature: creating 'Phase 1 ? Input Preparation & Validation'
+  -> Feature id=301
+Feature: creating 'Phase 2 ? Browser Automation Implementation'
+  -> Feature id=302
+Feature: creating 'Operational procedure for first run'
+  -> Feature id=303
+Feature: creating 'Phase 3 ? Citation Parsing'
+  -> Feature id=304
+Feature: creating 'Phase 4 ? Output & Traceability'
+  -> Feature id=305
+Feature: creating 'Evidence capture & run artifacts'
+  -> Feature id=306
+Feature: creating 'Phase 5 ? Error Handling & Resilience'
+  -> Feature id=307
+Feature: creating 'Phase 6 ? Validation & Quality Assurance'
+  -> Feature id=308
+Feature: creating 'Technical Specifications'
+  -> Feature id=309
+Feature: creating 'Risk Assessment'
+  -> Feature id=310
+Feature: creating 'Future Enhancements'
+  -> Feature id=311
+Feature: creating 'Summary'
+  -> Feature id=312
+Feature: creating 'Change summary (2026-01-21)'
+  -> Feature id=313
+PBI: creating '[F06-03-001] Workstation constraint summary'
+  -> PBI id=314
+PBI: creating '[F06-03-002] Baseline execution environment'
+  -> PBI id=315
+PBI: creating '[F06-03-003] Alternate execution paths (documented only)'
+  -> PBI id=316
+PBI: creating '[F06-04-001] Objectives'
+  -> PBI id=317
+PBI: creating '[F06-04-002] Tasks'
+  -> PBI id=318
+PBI: creating '[F06-04-003] Deliverables'
+  -> PBI id=319
+PBI: creating '[F06-05-001] Objectives'
+  -> PBI id=320
+PBI: creating '[F06-05-002] Architecture Decisions'
+  -> PBI id=321
+PBI: creating '[F06-05-003] Tasks'
+  -> PBI id=322
+PBI: creating '[F06-05-004] Deliverables'
+  -> PBI id=323
+PBI: creating '[F06-07-001] Objectives'
+  -> PBI id=324
+PBI: creating '[F06-07-002] Citation Formats'
+  -> PBI id=325
+PBI: creating '[F06-07-003] Parsing Algorithm'
+  -> PBI id=326
+PBI: creating '[F06-07-004] Deliverables'
+  -> PBI id=327
+PBI: creating '[F06-08-001] Objectives'
+  -> PBI id=328
+PBI: creating '[F06-08-002] Output Formats'
+  -> PBI id=329
+PBI: creating '[F06-08-003] Logging Strategy'
+  -> PBI id=330
+PBI: creating '[F06-08-004] Deliverables'
+  -> PBI id=331
+PBI: creating '[F06-10-001] Objectives'
+  -> PBI id=332
+PBI: creating '[F06-10-002] Error Scenarios'
+  -> PBI id=333
+PBI: creating '[F06-10-003] Resilience Features'
+  -> PBI id=334
+PBI: creating '[F06-10-004] Deliverables'
+  -> PBI id=335
+PBI: creating '[F06-11-001] Objectives'
+  -> PBI id=336
+PBI: creating '[F06-11-002] Validation Strategy'
+  -> PBI id=337
+PBI: creating '[F06-11-003] Success Criteria'
+  -> PBI id=338
+PBI: creating '[F06-11-004] Deliverables'
+  -> PBI id=339
+PBI: creating '[F06-12-001] Dependencies'
+  -> PBI id=340
+PBI: creating '[F06-12-002] System Requirements'
+  -> PBI id=341
+PBI: creating '[F06-12-003] Performance Expectations'
+  -> PBI id=342
+PBI: creating '[F06-12-004] Maintenance Considerations'
+  -> PBI id=343
+PBI: creating '[F06-13-001] High Risk'
+  -> PBI id=344
+PBI: creating '[F06-13-002] Medium Risk'
+  -> PBI id=345
+PBI: creating '[F06-13-003] Low Risk'
+  -> PBI id=346
+PBI: creating '[F06-14-001] Phase 7+ (Not Included)'
+  -> PBI id=347
+
+=== Import Summary: 06-jp-auto-extraction ===
+Epic id  : 298
+Features : 16
+PBIs     : 34
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F06-03-001 314 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-03-002 315 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-03-003 316 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-04-001 317 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-04-002 318 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-04-003 319 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-05-001 320 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-05-002 321 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-05-003 322 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-05-004 323 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-07-001 324 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-07-002 325 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-07-003 326 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-07-004 327 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-08-001 328 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-08-002 329 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-08-003 330 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-08-004 331 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-10-001 332 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-10-002 333 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-10-003 334 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-10-004 335 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-11-001 336 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-11-002 337 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-11-003 338 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-11-004 339 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-12-001 340 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-12-002 341 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-12-003 342 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-12-004 343 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-13-001 344 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-13-002 345 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-13-003 346 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F06-14-001 347 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

@@ -1,0 +1,60 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0905-ado-import-artifacts-live.log
+
+=== ADO Import: 43-spark ===
+Project maturity : active
+GitHub repo      : eva-foundry/43-spark
+Dry run          : False
+
+Epic: creating '43-spark'
+  -> Epic id=2512
+Feature: creating 'Objective'
+  -> Feature id=2513
+Feature: creating 'Guiding Principles'
+  -> Feature id=2514
+Feature: creating 'Phase Structure'
+  -> Feature id=2515
+Feature: creating 'Phase 0 ? Prompt Engineering ?'
+  -> Feature id=2516
+Feature: creating 'Phase 1 ? Spark Bootstrap'
+  -> Feature id=2517
+Feature: creating 'Phase 2 ? Shared Components'
+  -> Feature id=2518
+Feature: creating 'Phase 3 ? Screens'
+  -> Feature id=2519
+Feature: creating 'Phase 4 ? Quality Pass'
+  -> Feature id=2520
+Feature: creating 'Phase 5 ? Repository & CI'
+  -> Feature id=2521
+Feature: creating 'Phase 6 ? Codespace Hardening'
+  -> Feature id=2522
+Feature: existing id=967 - 'Risk Register'
+Feature: creating 'Success Definition'
+  -> Feature id=2523
+PBI: creating '[F43-02-001] 1 ? Paste the initial Spark prompt'
+  -> PBI id=2524
+PBI: creating '[F43-02-002] 2 ? Review the preview'
+  -> PBI id=2525
+PBI: creating '[F43-02-003] 3 ? Open in Codespace'
+  -> PBI id=2526
+PBI: creating '[F43-02-004] 4 ? Attach context and iterate'
+  -> PBI id=2527
+PBI: creating '[F43-02-005] 5 ? Validate'
+  -> PBI id=2528
+
+=== Import Summary: 43-spark ===
+Epic id  : 2512
+Features : 12
+PBIs     : 5
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F43-02-001 2524 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F43-02-002 2525 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F43-02-003 2526 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F43-02-004 2527 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F43-02-005 2528 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

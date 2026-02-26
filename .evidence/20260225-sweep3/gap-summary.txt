@@ -1,0 +1,264 @@
+33-eva-brain-v2 gaps=91 covered=24 total=111
+  GAP: F33-TEST-001 -- GET /test/validation
+  GAP: F33-TEST-002 -- GET /test/rbac
+  GAP: F33-TEST-003 -- GET /test/not-found
+  GAP: F33-TEST-004 -- GET /test/rate-limit
+  GAP: F33-TEST-005 -- GET /test/upstream
+  GAP: F33-TEST-006 -- GET /test/generic
+  GAP: F33-TEST-007 -- GET /test/validation
+  GAP: F33-TEST-008 -- GET /test/auth
+  GAP: F33-TEST-009 -- GET /test/persona-not-found
+  GAP: F33-TEST-010 -- GET /test/session-not-found
+  GAP: F33-TEST-011 -- GET /test/cost-override
+  GAP: F33-TEST-012 -- GET /test/generic
+  GAP: F33-CHAT-001 -- POST /v1/chat
+  GAP: F33-CHAT-002 -- POST /v1/chat
+  GAP: F33-CHAT-003 -- GET /v1/chat/approaches
+  GAP: F33-CHAT-004 -- POST /v1/chat
+  GAP: F33-CHAT-005 -- POST /v1/chat/rrr
+  GAP: F33-CHAT-006 -- POST /v1/chat/rtr
+  GAP: F33-CHAT-007 -- POST /v1/chat/work
+  GAP: F33-CHAT-008 -- POST /v1/chat/hybrid
+  GAP: F33-CHAT-009 -- POST /v1/chat/ungrounded
+  GAP: F33-CHAT-010 -- POST /v1/chat/read-retrieve-read
+  GAP: F33-USERS-001 -- POST /users
+  GAP: F33-GROUPS-001 -- GET /groups
+  GAP: F33-APP_ID-001 -- GET /{app_id}
+  GAP: F33-APP_ID-002 -- PATCH /{app_id}
+  GAP: F33-APP_ID-003 -- DELETE /{app_id}
+  GAP: F33-APP_ID-004 -- GET /{app_id}/config
+  GAP: F33-APP_ID-005 -- PATCH /{app_id}/config
+  GAP: F33-MATH-001 -- POST /math/evaluate
+  GAP: F33-MATH-002 -- POST /math/solve
+  GAP: F33-MATH-003 -- POST /math/plot
+  GAP: F33-TABULAR-001 -- POST /tabular/parse
+  GAP: F33-TABULAR-002 -- POST /tabular/query
+  GAP: F33-TABULAR-003 -- POST /tabular/summarize
+  GAP: F33-TABULAR-004 -- POST /tabular/export
+  GAP: F33-INFO-001 -- GET /info
+  GAP: F33-FEATURES-001 -- GET /features
+  GAP: F33-FEATURES-002 -- GET /features
+  GAP: F33-TRANSLATIONS-001 -- GET /translations/{language}
+  GAP: F33-DOCUMENTS-001 -- GET /v1/documents
+  GAP: F33-DOCUMENTS-002 -- GET /v1/documents/{doc_id}
+  GAP: F33-DOCUMENTS-003 -- GET /v1/documents/{doc_id}/content
+  GAP: F33-DOCUMENTS-004 -- GET /v1/documents/{doc_id}/chunks
+  GAP: F33-DOCUMENTS-005 -- PATCH /v1/documents/{doc_id}
+  GAP: F33-DOCUMENTS-006 -- DELETE /v1/documents/{doc_id}
+  GAP: F33-DOCUMENTS-007 -- DELETE /v1/documents/{doc_id}/chunks
+  GAP: F33-DOCUMENTS-008 -- POST /v1/documents/{doc_id}/reindex
+  GAP: F33-HEALTH-001 -- GET /v1/health
+  GAP: F33-HEALTH-002 -- GET /v1/health/background
+  GAP: F33-UPLOAD-001 -- POST /upload
+  GAP: F33-JOBS-001 -- GET /jobs/{job_id}
+  GAP: F33-JOBS-002 -- GET /jobs
+  GAP: F33-JOBS-003 -- DELETE /jobs/{job_id}
+  GAP: F33-REPROCESS-001 -- POST /reprocess/{job_id}
+  GAP: F33-STATS-001 -- GET /stats
+  GAP: F33-AUDIT-001 -- GET /audit
+  GAP: F33-AUDIT-002 -- GET /audit/stats
+  GAP: F33-AUDIT-003 -- GET /audit/export
+  GAP: F33-AUDIT-004 -- GET /audit/{audit_id}
+  GAP: F33-CONTENT-001 -- GET /content
+  GAP: F33-CONTENT-002 -- GET /content/stats
+  GAP: F33-CONTENT-003 -- GET /content/export
+  GAP: F33-CONTENT-004 -- GET /content/{log_id}
+  GAP: F33-RETRIEVE-001 -- POST /v1/retrieve
+  GAP: F33-DASHBOARD-001 -- GET /dashboard
+  GAP: F33-SUMMARY-001 -- GET /summary
+  GAP: F33-SAVED-001 -- POST /saved
+  GAP: F33-SAVED-002 -- GET /saved
+  GAP: F33-SAVED-003 -- DELETE /saved/{search_id}
+  GAP: F33-HISTORY-001 -- GET /history
+  GAP: F33-ANALYTICS-001 -- GET /analytics
+  GAP: F33-SESSION_ID-001 -- GET /{session_id}
+  GAP: F33-SESSION_ID-002 -- PATCH /{session_id}
+  GAP: F33-SESSION_ID-003 -- DELETE /{session_id}
+  GAP: F33-KEY-001 -- PATCH /{key}
+  GAP: F33-TAGS-001 -- GET /tags
+  GAP: F33-TAGS-002 -- GET /tags/{tag_name}/documents
+  GAP: F33-TAGS-003 -- GET /tags/suggestions
+  GAP: F33-LANG-001 -- GET /{lang}
+  GAP: F33-LANG-002 -- PUT /{lang}
+  GAP: F33-LANG-003 -- PATCH /{lang}
+  GAP: F33-LANG-004 -- DELETE /{lang}
+  GAP: F33-BACKGROUND-001 -- GET /background
+  GAP: F33-ACTINGAS-001 -- POST /acting-as
+  GAP: F33-PERSONAS-001 -- GET /personas
+  GAP: F33-PERSONA_ID-001 -- GET /{persona_id}
+  GAP: DTL-08-001 -- 
+  GAP: DTL-08-002 -- 
+  GAP: DTL-08-003 -- 
+  GAP: DTL-08-004 -- 
+37-data-model gaps=22 covered=17 total=39
+  GAP: F37-HEALTH-001 -- GET /health
+  GAP: F37-HEALTH-002 -- GET /v1/health
+  GAP: F37-HEALTH-003 -- GET /v1/health
+  GAP: F37-READY-001 -- GET /ready
+  GAP: F37-MODEL-001 -- GET /model/agent-summary
+  GAP: F37-MODEL-002 -- GET /model/agent-guide
+  GAP: F37-SEED-001 -- POST /seed
+  GAP: F37-EXPORT-001 -- POST /export
+  GAP: F37-CACHE-001 -- POST /cache/flush
+  GAP: F37-BACKFILL-001 -- POST /backfill
+  GAP: F37-AUDIT-001 -- GET /audit
+  GAP: F37-VALIDATE-001 -- GET /validate
+  GAP: F37-COMMIT-001 -- POST /commit
+  GAP: F37-AUDITREPO-001 -- POST /audit-repo
+  GAP: F37-API-001 -- GET /
+  GAP: F37-API-002 -- GET /
+  GAP: F37-API-003 -- GET /
+  GAP: F37-OBJ_IDPATH-001 -- GET /{obj_id:path}
+  GAP: F37-OBJ_IDPATH-002 -- PUT /{obj_id:path}
+  GAP: F37-OBJ_IDPATH-003 -- DELETE /{obj_id:path}
+  GAP: F37-FILTER-001 -- GET /filter
+  GAP: F37-EDGETYPES-001 -- GET /edge-types
+29-foundry gaps=62 covered=31 total=58
+  GAP: F29-03-005 -- 29-foundry ? Current State
+  GAP: F29-07-002 -- Feature 3.2 ? Azure Plane / App (UI-Exposed): ConversationAgent
+  GAP: F29-07-003 -- Feature 3.3 ? Azure Plane / Internal: ScreenGeneratorAgent, ValidatorAgent, TestGeneratorAgent
+  GAP: F29-07-004 -- Feature 3.4 ? GitHub Plane: session-workflow-agent patterns
+  GAP: F29-07-005 -- Feature 3.5 ? Import brain-v2 service layer into tools/ (Azure Plane foundations)
+  GAP: F29-10-002 -- Feature 6.2 ? Azure Plane / App: eva-brain conversation MCP server
+  GAP: F29-10-003 -- Feature 6.3 ? GitHub Plane: session-workflow MCP server
+  GAP: F29-10-004 -- Feature 6.4 ? Update `.vscode/mcp.json` index
+  GAP: F29-12-003 -- Feature 8.2 ? Wire prompts to agents and server handlers
+  GAP: F29-18-001 -- `python tools/validate-catalog.py` exits 0 with `totalSkills == 72` (updated from 63; 7 new Session-9 + 2 missing cross-cutting added)
+  GAP: F29-18-002 -- `jq '[.catalog.skills[] | select(.plane == "")] | length' skill-catalog.json` returns 0 (verified via Python)
+  GAP: F29-18-003 -- `pytest --no-cov -q` passes ? 78 passed, 1 skipped (agent-framework tests pass after stub dirs created)
+  GAP: F29-18-004 -- `POST /agents/session-workflow-agent/invoke` ? server starts, /health 200; phase 500s expected without real ADO_PAT/FOUNDRY_HUB_ENDPOINT credentials (SKIP_AUTH=true bypasses auth; business-logic 500 is expected without credentials)
+  GAP: F29-18-005 -- `from agents.azure_plane.app.conversation.conversation_agent import ConversationAgent` ? no ImportError
+  GAP: F29-18-006 -- `from agents.azure_plane.app.screen_generator.screen_agent import ScreenGeneratorAgent` ? no ImportError (path was screen_agent.py not screen_generator_agent.py; agents.json corrected)
+  GAP: F29-18-007 -- `from agents.azure_plane.internal.validator.validator_agent import ValidatorAgent` ? no ImportError
+  GAP: F29-18-008 -- Skill files by plane: 4 (github-plane) + 2 (azure-plane/control) + 3 (ado-plane) + 22 (azure/app/eva-faces) + 10 (azure/app/eva-brain-v2) + 6 (foundry core .md) + 7 (cross-cutting) = 54 on-disk; catalog total 72 (47 .skill.md + 6 foundry-core .md + cross-cutting 06+07 added to catalog)
+  GAP: F29-18-009 -- No file modified under any numbered project folder other than `29-foundry/` (exception: `37-data-model/model/agents.json` path updates per Stories 3.2.2 + 3.3.4)
+  GAP: F29-18-010 -- `jq '.catalog.skills[] | select(.skill_id == "")' skill-catalog.json` returns empty
+  GAP: F29-18-011 -- `.github/workflows/validate-skills.yml` REQUIRED_FIELDS updated to `{"skill_id", "plane"}` ? CI will pass on next push
+  GAP: F29-18-012 -- `GET /model/agents/` on `37-data-model` agents.json: ConversationAgent has `skill_file` pointing to `29-foundry/agents/azure_plane/app/conversation/conversation_agent.py` ?
+  GAP: F29-18-013 -- `ls prompty-library/*.prompty | wc -l` returns 6 (5 conversation + 1 dpdca-plan) ?
+  GAP: F29-18-014 -- `cat prompty-library/catalog.json | python -m json.tool` exits 0 ?
+  GAP: F29-18-015 -- `grep -r "Prompty.load" agents/azure_plane/app/conversation/` returns 10 matches (>= 5) ?
+  GAP: F29-18-016 -- `grep -r "Prompty.load" server/phases/plan.py` returns 1 match ?
+  GAP: F29-HEALTH-001 -- GET /health
+  GAP: F29-AGENTS-001 -- POST /agents/session-workflow-agent/invoke
+  GAP: F29-02-001 -- 
+  GAP: F29-02-002 -- 
+  GAP: F29-02-003 -- 
+  GAP: F29-02-004 -- 
+  GAP: F29-02-005 -- 
+  GAP: F29-02-006 -- 
+  GAP: F29-04-005 -- 
+  GAP: F29-05-002 -- 
+  GAP: F29-05-003 -- 
+  GAP: F29-05-004 -- 
+  GAP: F29-09-005 -- 
+  GAP: F29-09-002 -- 
+  GAP: F29-09-003 -- 
+  GAP: F29-09-004 -- 
+  GAP: F29-11-003 -- 
+  GAP: F29-11-004 -- 
+  GAP: F29-13-001 -- 
+  GAP: F29-13-002 -- 
+  GAP: F29-13-003 -- 
+  GAP: F29-19-003 -- 
+  GAP: F29-19-004 -- 
+  GAP: F29-19-008 -- 
+  GAP: F29-19-009 -- 
+  GAP: F29-19-011 -- 
+  GAP: F29-19-012 -- 
+  GAP: F29-19-001 -- 
+  GAP: F29-19-002 -- 
+  GAP: F29-19-005 -- 
+  GAP: F29-19-006 -- 
+  GAP: F29-19-007 -- 
+  GAP: F29-19-010 -- 
+  GAP: F29-19-013 -- 
+  GAP: F29-19-014 -- 
+  GAP: F29-19-015 -- 
+  GAP: F29-19-016 -- 
+44-eva-jp-spark gaps=26 covered=1 total=24
+  GAP: F44-07-001 -- Skip link is first focusable DOM element
+  GAP: F44-07-002 -- One `<h1>` in header; one `<h2>` per screen inside `#mainContent`
+  GAP: F44-07-003 -- All interactive elements show 3px `tokens.colorStrokeFocus2` ring
+  GAP: F44-07-004 -- `document.title` updates on route change
+  GAP: F44-07-005 -- `useAnnouncer()` fires on route change
+  GAP: F44-07-006 -- First `<h2>` focuses after 150 ms on navigation
+  GAP: F44-07-007 -- All dialogs: focus trapped, Escape closes, focus returns to trigger
+  GAP: F44-07-008 -- `role="log" aria-live="polite"` on chat message list
+  GAP: F44-07-009 -- `@media (forced-colors: active)` block in every `makeStyles` that sets colour
+  GAP: F44-07-010 -- axe-core: 0 critical, 0 serious
+  GAP: F44-UI-001 -- Route content
+  GAP: F44-UI-002 -- Route translator
+  GAP: F44-UI-003 -- Route urlscrapper
+  GAP: F44-UI-004 -- Route tda
+  GAP: F44-UI-005 -- Route tutor
+  GAP: F44-UI-006 -- NOPAGE page
+  GAP: F44-UI-007 -- CHAT page
+  GAP: F44-UI-008 -- CONTENT page
+  GAP: F44-UI-009 -- LAYOUT page
+  GAP: F44-UI-010 -- TDA page
+  GAP: F44-UI-011 -- TRANSLATOR page
+  GAP: F44-UI-012 -- URLSCRAPPER page
+  GAP: F44-UI-013 -- TUTOR page
+  GAP: F44-01-001 -- 
+  GAP: F44-03-001 -- 
+  GAP: F44-03-002 -- 
+45-aicoe-page gaps=6 covered=14 total=20
+  GAP: F45-UI-001 -- Route about
+  GAP: F45-UI-002 -- Route products
+  GAP: F45-UI-003 -- ABOUTPAGE page
+  GAP: F45-UI-004 -- HOMEPAGE page
+  GAP: F45-UI-005 -- LAYOUT page
+  GAP: F45-UI-006 -- PRODUCTSPAGE page
+46-accelerator gaps=0 covered=23 total=23
+48-eva-veritas gaps=13 covered=40 total=53
+  GAP: F48-CHAT-001 -- GET /v1/chat/history
+  GAP: F48-CHAT-002 -- POST /v1/chat/message
+  GAP: F48-CHAT-003 -- DELETE /v1/chat/{id}
+  GAP: F48-USERS-001 -- GET /users
+  GAP: F48-USERS-002 -- POST /users
+  GAP: F48-USERS-003 -- DELETE /users/:id
+  GAP: F48-CONVERSATION-001 -- GET /v1/conversations
+  GAP: F48-OTHER-001 -- GET /v1/other
+  GAP: F48-PING-001 -- GET /v1/ping
+  GAP: F48-PATH-001 -- GET /path
+  GAP: F48-PATH-002 -- POST /path
+  GAP: F48-PATH-003 -- GET /path
+  GAP: F48-PATH-004 -- GET /path
+49-eva-dtl gaps=16 covered=20 total=22
+  GAP: F49-EVALUATE-001 -- POST /evaluate
+  GAP: F49-HEALTH-001 -- GET /health
+  GAP: DTL-07-001 -- 
+  GAP: DTL-07-002 -- 
+  GAP: DTL-07-003 -- 
+  GAP: DTL-07-004 -- 
+  GAP: DTL-07-005 -- 
+  GAP: DTL-07-006 -- 
+  GAP: DTL-08-001 -- 
+  GAP: DTL-08-002 -- 
+  GAP: DTL-08-003 -- 
+  GAP: DTL-08-004 -- 
+  GAP: DTL-09-001 -- 
+  GAP: DTL-09-002 -- 
+  GAP: DTL-09-003 -- 
+  GAP: DTL-09-004 -- 
+38-ado-poc gaps=13 covered=0 total=13
+  GAP: F38-03-001 -- Layer 1: `29-foundry` ? Central Agentic Capabilities Hub
+  GAP: F38-03-002 -- Layer 2: `38-ado-poc` ? EVA ADO Command Center (this repo)
+  GAP: F38-03-003 -- Layer 3: Project Runners
+  GAP: F38-03-004 -- Layer 4: `17-apim` ? API Gateway + Cost Attribution
+  GAP: F38-03-005 -- Layer 5: `39-ado-dashboard` ? EVA Portal + ADO Views
+  GAP: F38-05-001 -- D1: Isolated personal org first, ESDC-AICoE later
+  GAP: F38-05-002 -- D2: Scrum process template
+  GAP: F38-05-003 -- D3: Two-call PBI state (create then PATCH)
+  GAP: F38-05-004 -- D4: PAT never in any file
+  GAP: F38-05-005 -- D5: Tags as semantic WI identifiers
+  GAP: F38-05-006 -- D6: `29-foundry` as single skill master
+  GAP: F38-05-007 -- D7: ADO is source of truth over `SESSION-STATE.md`
+  GAP: F38-05-008 -- D8: Cost attribution is a first-class architectural concern, not a FinOps add-on
+43-spark gaps=5 covered=0 total=5
+  GAP: F43-02-001 -- 1 ? Paste the initial Spark prompt
+  GAP: F43-02-002 -- 2 ? Review the preview
+  GAP: F43-02-003 -- 3 ? Open in Codespace
+  GAP: F43-02-004 -- 4 ? Attach context and iterate
+  GAP: F43-02-005 -- 5 ? Validate

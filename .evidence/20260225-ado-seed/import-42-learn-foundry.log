@@ -1,0 +1,223 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0905-ado-import-artifacts-live.log
+
+=== ADO Import: 42-learn-foundry ===
+Project maturity : poc
+GitHub repo      : eva-foundry/42-learn-foundry
+Dry run          : False
+
+Epic: creating '42-learn-foundry'
+  -> Epic id=2441
+Feature: creating 'CREATE_RESPO API [ID=F42-CREATE_RESPO]'
+  -> Feature id=2442
+Feature: creating 'USER_BROWSER API [ID=F42-USER_BROWSER]'
+  -> Feature id=2443
+Feature: creating 'FULL_PATHPAT API [ID=F42-FULL_PATHPAT]'
+  -> Feature id=2444
+Feature: existing id=436 - 'API API'
+Feature: creating 'ARTICLE API'
+  -> Feature id=2445
+Feature: creating 'UPLOADIMAGE API'
+  -> Feature id=2446
+Feature: existing id=997 - 'CONFIG API'
+Feature: existing id=437 - 'HEALTH API'
+Feature: creating 'META API'
+  -> Feature id=2447
+Feature: creating 'ENTITIES API'
+  -> Feature id=2448
+Feature: creating 'DEPLOYMENTS API'
+  -> Feature id=2449
+Feature: creating 'RESPONSES API'
+  -> Feature id=2450
+Feature: creating 'CONVERSATION API'
+  -> Feature id=2451
+Feature: creating 'CHATKIT API'
+  -> Feature id=2452
+Feature: existing id=1067 - 'UPLOAD API'
+Feature: creating 'PREVIEW API'
+  -> Feature id=2453
+Feature: existing id=456 - 'STREAM API'
+Feature: creating 'MCP API'
+  -> Feature id=2454
+Feature: existing id=1100 - 'UI Pages'
+Feature: existing id=463 - 'Operations Scripts'
+Feature: creating 'CREATE_RESPO API'
+  -> Feature id=2455
+Feature: creating 'USER_BROWSER API'
+  -> Feature id=2456
+Feature: creating 'FULL_PATHPAT API'
+  -> Feature id=2457
+PBI: creating '[F42-01-001] POST /api/create_response [ID=F42-CREATE_RESPO-001]'
+  -> PBI id=2458
+PBI: creating '[F42-02-001] POST /api/user_browser_language [ID=F42-USER_BROWSER-001]'
+  -> PBI id=2459
+PBI: creating '[F42-03-001] GET /{full_path:path} [ID=F42-FULL_PATHPAT-001]'
+  -> PBI id=2460
+PBI: creating '[F42-API-001] GET /'
+  -> PBI id=2461
+PBI: creating '[F42-API-002] GET /'
+  -> PBI id=2462
+PBI: creating '[F42-API-003] GET /'
+  -> PBI id=2463
+PBI: creating '[F42-API-004] GET /'
+  -> PBI id=2464
+PBI: creating '[F42-API-005] GET /'
+  -> PBI id=2465
+PBI: creating '[F42-ARTICLE-001] POST /api/article'
+  -> PBI id=2466
+PBI: creating '[F42-UPLOADIMAGE-001] POST /api/upload-image'
+  -> PBI id=2467
+PBI: creating '[F42-CONFIG-001] GET /config'
+  -> PBI id=2468
+PBI: creating '[F42-HEALTH-001] GET /health'
+  -> PBI id=2469
+PBI: creating '[F42-META-001] GET /meta'
+  -> PBI id=2470
+PBI: creating '[F42-ENTITIES-001] GET /v1/entities'
+  -> PBI id=2471
+PBI: creating '[F42-ENTITIES-002] GET /v1/entities/{entity_id}/info'
+  -> PBI id=2472
+PBI: creating '[F42-ENTITIES-003] POST /v1/entities/{entity_id}/reload'
+  -> PBI id=2473
+PBI: creating '[F42-ENTITIES-004] POST /v1/entities/{entity_id}/deploy'
+  -> PBI id=2474
+PBI: creating '[F42-DEPLOYMENTS-001] POST /v1/deployments'
+  -> PBI id=2475
+PBI: creating '[F42-DEPLOYMENTS-002] GET /v1/deployments'
+  -> PBI id=2476
+PBI: creating '[F42-DEPLOYMENTS-003] GET /v1/deployments/{deployment_id}'
+  -> PBI id=2477
+PBI: creating '[F42-DEPLOYMENTS-004] DELETE /v1/deployments/{deployment_id}'
+  -> PBI id=2478
+PBI: creating '[F42-RESPONSES-001] POST /v1/responses'
+  -> PBI id=2479
+PBI: creating '[F42-RESPONSES-002] POST /v1/responses/{response_id}/cancel'
+  -> PBI id=2480
+PBI: creating '[F42-CONVERSATION-001] POST /v1/conversations'
+  -> PBI id=2481
+PBI: creating '[F42-CONVERSATION-002] GET /v1/conversations'
+  -> PBI id=2482
+PBI: creating '[F42-CONVERSATION-003] GET /v1/conversations/{conversation_id}'
+  -> PBI id=2483
+PBI: creating '[F42-CONVERSATION-004] POST /v1/conversations/{conversation_id}'
+  -> PBI id=2484
+PBI: creating '[F42-CONVERSATION-005] DELETE /v1/conversations/{conversation_id}'
+  -> PBI id=2485
+PBI: creating '[F42-CONVERSATION-006] POST /v1/conversations/{conversation_id}/items'
+  -> PBI id=2486
+PBI: creating '[F42-CONVERSATION-007] GET /v1/conversations/{conversation_id}/items'
+  -> PBI id=2487
+PBI: creating '[F42-CONVERSATION-008] GET /v1/conversations/{conversation_id}/items/{item_id}'
+  -> PBI id=2488
+PBI: creating '[F42-CONVERSATION-009] DELETE /v1/conversations/{conversation_id}/items/{item_id}'
+  -> PBI id=2489
+PBI: creating '[F42-CHATKIT-001] POST /chatkit'
+  -> PBI id=2490
+PBI: creating '[F42-UPLOAD-001] POST /upload/{attachment_id}'
+  -> PBI id=2491
+PBI: creating '[F42-PREVIEW-001] GET /preview/{attachment_id}'
+  -> PBI id=2492
+PBI: creating '[F42-STREAM-001] GET /stream'
+  -> PBI id=2493
+PBI: creating '[F42-MCP-001] POST /mcp'
+  -> PBI id=2494
+PBI: creating '[F42-MCP-002] GET /mcp'
+  -> PBI id=2495
+PBI: creating '[F42-MCP-003] DELETE /mcp'
+  -> PBI id=2496
+PBI: creating '[F42-MCP-004] POST /mcp'
+  -> PBI id=2497
+PBI: creating '[F42-UI-001] Route /plan/:planId'
+  -> PBI id=2498
+PBI: creating '[F42-OPS-001] merge_principal_ids()'
+  -> PBI id=2499
+PBI: creating '[F42-OPS-002] log_verbose()'
+  -> PBI id=2500
+PBI: creating '[F42-OPS-003] restore_network_access()'
+  -> PBI id=2501
+PBI: creating '[F42-OPS-004] cleanup_on_exit()'
+  -> PBI id=2502
+PBI: creating '[F42-OPS-005] test_azd_installed()'
+  -> PBI id=2503
+PBI: creating '[F42-OPS-006] get_values_from_azd_env()'
+  -> PBI id=2504
+PBI: creating '[F42-OPS-007] extract_value()'
+  -> PBI id=2505
+PBI: creating '[F42-OPS-008] get_values_from_az_deployment()'
+  -> PBI id=2506
+PBI: creating '[F42-OPS-009] get_values_using_solution_suffix()'
+  -> PBI id=2507
+PBI: creating '[F42-OPS-010] configure_nssdb()'
+  -> PBI id=2508
+PBI: creating '[F42-CREATE_RESPO-001] POST /api/create_response'
+  -> PBI id=2509
+PBI: creating '[F42-USER_BROWSER-001] POST /api/user_browser_language'
+  -> PBI id=2510
+PBI: creating '[F42-FULL_PATHPAT-001] GET /{full_path:path}'
+  -> PBI id=2511
+
+=== Import Summary: 42-learn-foundry ===
+Epic id  : 2441
+Features : 23
+PBIs     : 54
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag                 [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---                 [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F42-01-001           2458 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-02-001           2459 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-03-001           2460 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-API-001          2461 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-API-002          2462 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-API-003          2463 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-API-004          2464 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-API-005          2465 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-ARTICLE-001      2466 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-UPLOADIMAGE-001  2467 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONFIG-001       2468 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-HEALTH-001       2469 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-META-001         2470 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-ENTITIES-001     2471 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-ENTITIES-002     2472 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-ENTITIES-003     2473 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-ENTITIES-004     2474 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-DEPLOYMENTS-001  2475 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-DEPLOYMENTS-002  2476 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-DEPLOYMENTS-003  2477 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-DEPLOYMENTS-004  2478 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-RESPONSES-001    2479 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-RESPONSES-002    2480 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-001 2481 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-002 2482 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-003 2483 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-004 2484 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-005 2485 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-006 2486 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-007 2487 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-008 2488 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CONVERSATION-009 2489 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CHATKIT-001      2490 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-UPLOAD-001       2491 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-PREVIEW-001      2492 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-STREAM-001       2493 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-MCP-001          2494 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-MCP-002          2495 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-MCP-003          2496 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-MCP-004          2497 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-UI-001           2498 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-001          2499 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-002          2500 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-003          2501 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-004          2502 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-005          2503 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-006          2504 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-007          2505 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-008          2506 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-009          2507 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-OPS-010          2508 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-CREATE_RESPO-001 2509 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-USER_BROWSER-001 2510 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F42-FULL_PATHPAT-001 2511 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+

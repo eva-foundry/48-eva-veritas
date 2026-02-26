@@ -1,0 +1,296 @@
+[
+  {
+    "project": "01-documentation-generator",
+    "status": "tagged",
+    "tagged": 11,
+    "files": 1
+  },
+  {
+    "project": "02-poc-agent-skills",
+    "status": "tagged",
+    "tagged": 18,
+    "files": 1
+  },
+  {
+    "project": "03-poc-enhanced-docs",
+    "status": "no-src",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "04-os-vnext",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "05-extract-cases",
+    "status": "tagged",
+    "tagged": 8,
+    "files": 1
+  },
+  {
+    "project": "06-jp-auto-extraction",
+    "status": "tagged",
+    "tagged": 34,
+    "files": 1
+  },
+  {
+    "project": "07-foundation-layer",
+    "status": "tagged",
+    "tagged": 19,
+    "files": 1
+  },
+  {
+    "project": "08-cds-rag",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "09-eva-repo-documentation",
+    "status": "no-src",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "10-mkdocs-poc",
+    "status": "tagged",
+    "tagged": 26,
+    "files": 3
+  },
+  {
+    "project": "11-ms-infojp",
+    "status": "tagged",
+    "tagged": 184,
+    "files": 5
+  },
+  {
+    "project": "12-work-spc-reorg",
+    "status": "no-src",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "13-vscode-tools",
+    "status": "tagged",
+    "tagged": 40,
+    "files": 1
+  },
+  {
+    "project": "14-az-finops",
+    "status": "tagged",
+    "tagged": 17,
+    "files": 2
+  },
+  {
+    "project": "15-cdc",
+    "status": "tagged",
+    "tagged": 1,
+    "files": 1
+  },
+  {
+    "project": "16-engineered-case-law",
+    "status": "tagged",
+    "tagged": 17,
+    "files": 1
+  },
+  {
+    "project": "17-apim",
+    "status": "tagged",
+    "tagged": 18,
+    "files": 1
+  },
+  {
+    "project": "18-azure-best",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "19-ai-gov",
+    "status": "tagged",
+    "tagged": 7,
+    "files": 1
+  },
+  {
+    "project": "20-AssistMe",
+    "status": "tagged",
+    "tagged": 15,
+    "files": 1
+  },
+  {
+    "project": "21-habit-tracker",
+    "status": "tagged",
+    "tagged": 24,
+    "files": 1
+  },
+  {
+    "project": "22-rg-sandbox",
+    "status": "tagged",
+    "tagged": 29,
+    "files": 1
+  },
+  {
+    "project": "23-ei-dsst-rewrite",
+    "status": "no-src",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "24-eva-brain",
+    "status": "tagged",
+    "tagged": 56,
+    "files": 2
+  },
+  {
+    "project": "25-eva-suite",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "26-eva-gh",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "27-devbench",
+    "status": "tagged",
+    "tagged": 9,
+    "files": 1
+  },
+  {
+    "project": "28-rbac",
+    "status": "no-src",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "29-foundry",
+    "status": "tagged",
+    "tagged": 27,
+    "files": 17
+  },
+  {
+    "project": "30-ui-bench",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "31-eva-faces",
+    "status": "tagged",
+    "tagged": 29,
+    "files": 9
+  },
+  {
+    "project": "32-logging",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "33-eva-brain-v2",
+    "status": "tagged",
+    "tagged": 87,
+    "files": 2
+  },
+  {
+    "project": "34-AIRA",
+    "status": "skip",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "35-agentic-code-fixing",
+    "status": "tagged",
+    "tagged": 18,
+    "files": 1
+  },
+  {
+    "project": "36-red-teaming",
+    "status": "tagged",
+    "tagged": 14,
+    "files": 1
+  },
+  {
+    "project": "37-data-model",
+    "status": "tagged",
+    "tagged": 25,
+    "files": 1
+  },
+  {
+    "project": "38-ado-poc",
+    "status": "tagged",
+    "tagged": 13,
+    "files": 1
+  },
+  {
+    "project": "39-ado-dashboard",
+    "status": "tagged",
+    "tagged": 22,
+    "files": 1
+  },
+  {
+    "project": "40-eva-control-plane",
+    "status": "tagged",
+    "tagged": 9,
+    "files": 2
+  },
+  {
+    "project": "41-eva-cli",
+    "status": "tagged",
+    "tagged": 12,
+    "files": 1
+  },
+  {
+    "project": "42-learn-foundry",
+    "status": "tagged",
+    "tagged": 54,
+    "files": 7
+  },
+  {
+    "project": "43-spark",
+    "status": "no-src",
+    "tagged": 0,
+    "files": 0
+  },
+  {
+    "project": "44-eva-jp-spark",
+    "status": "tagged",
+    "tagged": 23,
+    "files": 1
+  },
+  {
+    "project": "45-aicoe-page",
+    "status": "tagged",
+    "tagged": 6,
+    "files": 1
+  },
+  {
+    "project": "46-accelerator",
+    "status": "tagged",
+    "tagged": 21,
+    "files": 1
+  },
+  {
+    "project": "47-eva-mti",
+    "status": "tagged",
+    "tagged": 5,
+    "files": 1
+  },
+  {
+    "project": "48-eva-veritas",
+    "status": "tagged",
+    "tagged": 13,
+    "files": 1
+  },
+  {
+    "project": "49-eva-dtl",
+    "status": "tagged",
+    "tagged": 2,
+    "files": 1
+  }
+]

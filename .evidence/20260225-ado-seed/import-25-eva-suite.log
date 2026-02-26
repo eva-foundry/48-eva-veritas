@@ -1,0 +1,63 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0856-ado-import-artifacts-live.log
+
+=== ADO Import: 25-eva-suite ===
+Project maturity : poc
+GitHub repo      : eva-foundry/25-eva-suite
+Dry run          : False
+
+Epic: creating '25-eva-suite'
+  -> Epic id=973
+Feature: creating 'EVA Ecosystem Orchestration'
+  -> Feature id=974
+Feature: creating 'Cloud Housekeeping -- Azure'
+  -> Feature id=975
+Feature: creating 'Cloud Housekeeping -- GitHub'
+  -> Feature id=976
+Feature: creating 'Marco Command Center'
+  -> Feature id=977
+PBI: creating '[F25-01-001] Ecosystem refresh orchestrator'
+  -> PBI id=978
+PBI: creating '[F25-01-002] Module dependency graph'
+  -> PBI id=979
+PBI: creating '[F25-01-003] Scheduled refresh via task scheduler'
+  -> PBI id=980
+PBI: creating '[F25-02-001] Prune unused Azure resources'
+  -> PBI id=981
+PBI: creating '[F25-02-002] Tag compliance sweep'
+  -> PBI id=982
+PBI: creating '[F25-02-003] Cost anomaly alert response'
+  -> PBI id=983
+PBI: creating '[F25-03-001] Archive stale repos'
+  -> PBI id=984
+PBI: creating '[F25-03-002] Branch protection enforcement'
+  -> PBI id=985
+PBI: creating '[F25-03-003] Secret scanning status report'
+  -> PBI id=986
+PBI: creating '[F25-04-001] Quick-reference commands for common ops'
+  -> PBI id=987
+PBI: creating '[F25-04-002] Runbook integration'
+  -> PBI id=988
+
+=== Import Summary: 25-eva-suite ===
+Epic id  : 973
+Features : 4
+PBIs     : 11
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F25-01-001 978 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-01-002 979 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-01-003 980 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-02-001 981 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-02-002 982 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-02-003 983 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-03-001 984 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-03-002 985 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-03-003 986 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-04-001 987 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F25-04-002 988 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

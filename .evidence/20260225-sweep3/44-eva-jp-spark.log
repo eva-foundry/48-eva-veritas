@@ -1,0 +1,139 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\44-eva-jp-spark
+[INFO] Prefix: F44
+[INFO] Enrichment applied: code-structure (13 stories)
+[PASS] Written: C:\AICOE\eva-foundation\44-eva-jp-spark\.eva\veritas-plan.json
+       9 features, 11 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md, README.md (story fallback)
+       Format detected: phase-sprint
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F44-01        0      0  Phase 0 ??? Repo & Toolchain Bootstrap
+  F44-02        1      0  Phase 1 ??? Foundation (Spark Iteration 1)
+  F44-03        0      0  Phase 2 ??? Shared Components (Spark Iteration 2)
+  F44-04        0      0  Phase 3 ??? Chat Screen (Spark Iteration 3)
+  F44-05        0      0  Phase 4 ??? Remaining Screens (Spark Iteration 4)
+  F44-06        0      0  Phase 5 ??? Quality Pass (Spark Iteration 5)
+  F44-07       10      0  Dependency Graph
+  F44-08        0      0  Open Questions / Decisions
+  F44-UI       13      0  UI Pages
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F44-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\44-eva-jp-spark
+[INFO] Using veritas-plan.json (format: phase-sprint, 24 stories, 0 tasks)
+[INFO] Planned: 9 features, 24 stories
+[INFO] Actual: 71 artifacts, 4 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\44-eva-jp-spark\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\44-eva-jp-spark\.eva\reconciliation.json
+[INFO] Gaps: 26
+[PASS] trust written: C:\AICOE\eva-foundation\44-eva-jp-spark\.eva\trust.json (score: 3)
+
+=======================================
+EVA Veritas Report: EVA-JP v1.2 ??? Frontend Rebuild
+=======================================
+Repo:    C:\AICOE\eva-foundation\44-eva-jp-spark
+Planned: 9 features, 24 stories
+
+Coverage
+---------------------------------------
+Stories total:          24
+Stories with artifacts: 1
+Stories with evidence:  1
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F44-07-001 -- Skip link is first focusable DOM element
+[FAIL] missing_implementation :: F44-07-002 -- One `<h1>` in header; one `<h2>` per screen inside `#mainContent`
+[FAIL] missing_implementation :: F44-07-003 -- All interactive elements show 3px `tokens.colorStrokeFocus2` ring
+[FAIL] missing_implementation :: F44-07-004 -- `document.title` updates on route change
+[FAIL] missing_implementation :: F44-07-005 -- `useAnnouncer()` fires on route change
+[FAIL] missing_implementation :: F44-07-006 -- First `<h2>` focuses after 150 ms on navigation
+[FAIL] missing_implementation :: F44-07-007 -- All dialogs: focus trapped, Escape closes, focus returns to trigger
+[FAIL] missing_implementation :: F44-07-008 -- `role="log" aria-live="polite"` on chat message list
+[FAIL] missing_implementation :: F44-07-009 -- `@media (forced-colors: active)` block in every `makeStyles` that sets colour
+[FAIL] missing_implementation :: F44-07-010 -- axe-core: 0 critical, 0 serious
+[FAIL] missing_implementation :: F44-UI-001 -- Route content
+[FAIL] missing_implementation :: F44-UI-002 -- Route translator
+[FAIL] missing_implementation :: F44-UI-003 -- Route urlscrapper
+[FAIL] missing_implementation :: F44-UI-004 -- Route tda
+[FAIL] missing_implementation :: F44-UI-005 -- Route tutor
+[FAIL] missing_implementation :: F44-UI-006 -- NOPAGE page
+[FAIL] missing_implementation :: F44-UI-007 -- CHAT page
+[FAIL] missing_implementation :: F44-UI-008 -- CONTENT page
+[FAIL] missing_implementation :: F44-UI-009 -- LAYOUT page
+[FAIL] missing_implementation :: F44-UI-010 -- TDA page
+[FAIL] missing_implementation :: F44-UI-011 -- TRANSLATOR page
+[FAIL] missing_implementation :: F44-UI-012 -- URLSCRAPPER page
+[FAIL] missing_implementation :: F44-UI-013 -- TUTOR page
+[FAIL] orphan_story_tag :: F44-01-001
+[FAIL] orphan_story_tag :: F44-03-001
+[FAIL] orphan_story_tag :: F44-03-002
+
+Feature Breakdown
+---------------------------------------
+[  0] F44-UI     UI Pages                        0/13 artifacts  0/13 evidence  13 gaps  [NOT STARTED]
+[  0] F44-07     Dependency Graph                0/10 artifacts  0/10 evidence  10 gaps  [NOT STARTED]
+[  0] F44-01     Phase 0 ??? Repo & Toolchain Boo  0/0 artifacts  0/0 evidence  0 gaps
+[ 70] F44-02     Phase 1 ??? Foundation (Spark It  1/1 artifacts  1/1 evidence  0 gaps
+[  0] F44-03     Phase 2 ??? Shared Components (S  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F44-04     Phase 3 ??? Chat Screen (Spark I  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F44-05     Phase 4 ??? Remaining Screens (S  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F44-06     Phase 5 ??? Quality Pass (Spark   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F44-08     Open Questions / Decisions      0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F44-02-001 -- Zero-tolerance rules (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   3 (-3)
+Trend:   0 -> 0 -> 0 -> 57 -> 0 -> 40 -> 40 -> 40 -> 6 -> 3
+Actions: block, investigate
+Components: coverage=0.04 evidence=0.04 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 23 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 33 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 42 more stories with # EVA-STORY
+
+[ACT] 23 unimplemented stories by feature (highest priority first):
+      F44-UI UI Pages (13 gaps)
+        - F44-UI-001 -- Route content
+        - F44-UI-002 -- Route translator
+        - F44-UI-003 -- Route urlscrapper
+        - F44-UI-004 -- Route tda
+        - F44-UI-005 -- Route tutor
+        - F44-UI-006 -- NOPAGE page
+        - F44-UI-007 -- CHAT page
+        - F44-UI-008 -- CONTENT page
+        - F44-UI-009 -- LAYOUT page
+        - F44-UI-010 -- TDA page
+        - F44-UI-011 -- TRANSLATOR page
+        - F44-UI-012 -- URLSCRAPPER page
+        - F44-UI-013 -- TUTOR page
+      F44-07 Dependency Graph (10 gaps)
+        - F44-07-001 -- Skip link is first focusable DOM element
+        - F44-07-002 -- One `<h1>` in header; one `<h2>` per screen inside `#mainContent`
+        - F44-07-003 -- All interactive elements show 3px `tokens.colorStrokeFocus2` ring
+        - F44-07-004 -- `document.title` updates on route change
+        - F44-07-005 -- `useAnnouncer()` fires on route change
+        - F44-07-006 -- First `<h2>` focuses after 150 ms on navigation
+        - F44-07-007 -- All dialogs: focus trapped, Escape closes, focus returns to trigger
+        - F44-07-008 -- `role="log" aria-live="polite"` on chat message list
+        - F44-07-009 -- `@media (forced-colors: active)` block in every `makeStyles` that sets colour
+        - F44-07-010 -- axe-core: 0 critical, 0 serious
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 3 is below threshold 70 (--warn-only set, continuing)

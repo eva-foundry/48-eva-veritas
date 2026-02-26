@@ -1,0 +1,30 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] Fetching data model layers...
+[INFO] eps=186  scr=46  wbs_stories=2165
+[INFO] project->story index: 48 projects
+[INFO] Testing wbs_id field acceptance on endpoints...
+[INFO] wbs_id field ACCEPTED by endpoint layer
+[INFO] Testing wbs_id field acceptance on screens...
+[INFO] wbs_id field ACCEPTED by screens layer
+[INFO] Assigning endpoints -> WBS stories...
+[INFO] Assigning screens -> WBS stories...
+[INFO] Enriching WBS story notes with endpoint/screen coverage...
+[INFO] Committing...
+
+=== ENDPOINT LINK COMPLETE ===
+  wbs_id_on_endpoints : True
+  wbs_id_on_screens   : True
+  linked_eps          : 186  (skipped=0)
+  linked_scr          : 46  (skipped=0)
+  wbs_stories_enriched: 81  (errors=0)
+  commit_violations   : 0
+  commit_exported     : 3929
+  commit_errors       : 0
+[PASS] Commit clean
+
+=== LINKAGE SUMMARY BY PROJECT ===
+WriteError: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-endpoint-link\endpoint-link.ps1:349:10
+Line |
+ 349 |  foreach ($pid in ($svcProjectMap.Values + @("31-eva-faces","44-eva-jp .
+     |           ~~~~
+     | Cannot overwrite variable PID because it is read-only or constant.

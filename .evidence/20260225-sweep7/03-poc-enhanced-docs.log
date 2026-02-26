@@ -1,0 +1,94 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\03-poc-enhanced-docs
+[INFO] Prefix: F03
+[PASS] Written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\veritas-plan.json
+       9 features, 20 stories, 93 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F03-01        0      0  Timeline: 3 Weeks (15 working days)
+  F03-02        5     32  Week 1: Diagram Generation (Days 1-5)
+  F03-03        5     30  Week 2: Enhanced Markdown + MkDocs Setup (Days 6-10)
+  F03-04        5     31  Week 3: Interactive Features + Deployment (Days 11-15)
+  F03-05        5      0  Success Criteria
+  F03-06        0      0  Risk Mitigation
+  F03-07        0      0  Integration with POC #1
+  F03-08        0      0  Next Steps After POC
+  F03-09        0      0  Collaboration with POC #1
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F03-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\03-poc-enhanced-docs
+[INFO] Using veritas-plan.json (format: veritas, 20 stories, 93 tasks)
+[INFO] Planned: 9 features, 20 stories
+[INFO] Actual: 7 artifacts, 20 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\03-poc-enhanced-docs\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: POC #2: Enhanced Documentation - Diagrams + MkDocs HTML
+=======================================
+Repo:    C:\AICOE\eva-foundation\03-poc-enhanced-docs
+Planned: 9 features, 20 stories
+
+Coverage
+---------------------------------------
+Stories total:          20
+Stories with artifacts: 20
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F03-01     Timeline: 3 Weeks (15 working   0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F03-02     Week 1: Diagram Generation (Da  5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F03-03     Week 2: Enhanced Markdown + Mk  5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F03-04     Week 3: Interactive Features +  5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F03-05     Success Criteria                5/5 artifacts  0/5 evidence  0 gaps
+[  0] F03-06     Risk Mitigation                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F03-07     Integration with POC #1         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F03-08     Next Steps After POC            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F03-09     Collaboration with POC #1       0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F03-02-001 -- Day 1: Diagram Generator Tool Foundation (1 artifact)
+[IMPL] F03-02-002 -- Day 2: Mermaid Diagram Templates (Part 1) (1 artifact)
+[IMPL] F03-02-003 -- Day 3: Diagram Generation - Architecture & Security (Phase 00-01) (1 artifact)
+[IMPL] F03-02-004 -- Day 4: Diagram Generation - Platform & Data/AI (Phase 02-03) (1 artifact)
+[IMPL] F03-02-005 -- Day 5: Diagram Generation - Remaining Phases + Review (1 artifact)
+[IMPL] F03-03-001 -- Day 6: Markdown Enhancer Tool (1 artifact)
+[IMPL] F03-03-002 -- Day 7: Enhance Markdown Files (Part 1: Phases 00-02) (1 artifact)
+[IMPL] F03-03-003 -- Day 8: Enhance Markdown Files (Part 2: Phases 03-99) (1 artifact)
+[IMPL] F03-03-004 -- Day 9: MkDocs Configuration (Part 1: Basic Setup) (1 artifact)
+[IMPL] F03-03-005 -- Day 10: MkDocs Configuration (Part 2: ESDC Branding) (1 artifact)
+[IMPL] F03-04-001 -- Day 11: Interactive Features (Part 1: Tooltips & Zoom) (1 artifact)
+[IMPL] F03-04-002 -- Day 12: Interactive Features (Part 2: Navigation & UX) (1 artifact)
+[IMPL] F03-04-003 -- Day 13: Testing (Cross-Browser, Accessibility, Performance) (1 artifact)
+[IMPL] F03-04-004 -- Day 14: Deployment to Azure Static Web Apps (1 artifact)
+[IMPL] F03-04-005 -- Day 15: Documentation, Demo Video, and POC Presentation (1 artifact)
+[IMPL] F03-05-001 -- Diagram Generation (1 artifact)
+[IMPL] F03-05-002 -- Enhanced Markdown (1 artifact)
+[IMPL] F03-05-003 -- MkDocs Site (1 artifact)
+[IMPL] F03-05-004 -- Testing & Quality (1 artifact)
+[IMPL] F03-05-005 -- Deployment (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

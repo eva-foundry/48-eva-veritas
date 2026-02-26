@@ -1,0 +1,29 @@
+EVA-STORY: EO-02-001
+EVA-STORY: EO-02-002
+EVA-STORY: EO-02-003
+EVA-FEATURE: EO-02
+
+EVIDENCE: EO-02 Reconciliation Engine
+Phase 1 -- COMPLETE 2026-02-24 09:32 ET
+Test run: 2026-02-24 13:02 ET (self-audit)
+
+EO-02-001 -- Compute coverage metrics
+  Artifacts: src/reconcile.js
+  [PASS] node src/cli.js reconcile --repo .
+  [PASS] stories_total: 31
+  [PASS] stories_with_artifacts: 20
+  [PASS] stories_with_evidence: 0 (expected -- evidence/ convention not yet adopted)
+  [PASS] coverage block written to reconciliation.json
+
+EO-02-002 -- Detect gaps
+  Artifacts: src/reconcile.js
+  [PASS] Gaps detected: 29
+  [PASS] missing_implementation: 12 stories (EO-07 through EO-10 not yet built)
+  [PASS] missing_evidence: 17 stories (Phase 1 implemented but no evidence/ files)
+  [PASS] gaps[] array written to reconciliation.json
+
+EO-02-003 -- Compute consistency score
+  Artifacts: src/reconcile.js
+  [PASS] consistency_score: 1.00
+  [PASS] No STATUS-declared stories >= 20% progress without artifacts found
+  [PASS] Consistency penalty: 0

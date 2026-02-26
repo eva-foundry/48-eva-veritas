@@ -1,0 +1,55 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0902-ado-import-artifacts-live.log
+
+=== ADO Import: 32-logging ===
+Project maturity : poc
+GitHub repo      : eva-foundry/32-logging
+Dry run          : False
+
+Epic: creating '32-logging'
+  -> Epic id=2076
+Feature: creating 'Log Schema Design'
+  -> Feature id=2077
+Feature: creating 'Log Transport'
+  -> Feature id=2078
+Feature: creating 'Log Query Library'
+  -> Feature id=2079
+PBI: creating '[F32-01-001] Define EVA structured log schema'
+  -> PBI id=2080
+PBI: creating '[F32-01-002] Correlation ID propagation strategy'
+  -> PBI id=2081
+PBI: creating '[F32-01-003] Severity level taxonomy'
+  -> PBI id=2082
+PBI: creating '[F32-02-001] Application Insights integration'
+  -> PBI id=2083
+PBI: creating '[F32-02-002] Log Analytics workspace routing'
+  -> PBI id=2084
+PBI: creating '[F32-02-003] Local dev console handler'
+  -> PBI id=2085
+PBI: creating '[F32-03-001] KQL query templates for common patterns'
+  -> PBI id=2086
+PBI: creating '[F32-03-002] Alerting rules for error rate thresholds'
+  -> PBI id=2087
+PBI: creating '[F32-03-003] Dashboard for cross-service log correlation'
+  -> PBI id=2088
+
+=== Import Summary: 32-logging ===
+Epic id  : 2076
+Features : 3
+PBIs     : 9
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F32-01-001 2080 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-01-002 2081 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-01-003 2082 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-02-001 2083 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-02-002 2084 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-02-003 2085 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-03-001 2086 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-03-002 2087 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F32-03-003 2088 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

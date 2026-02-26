@@ -1,0 +1,58 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0856-ado-import-artifacts-live.log
+
+=== ADO Import: 23-ei-dsst-rewrite ===
+Project maturity : poc
+GitHub repo      : eva-foundry/23-ei-dsst-rewrite
+Dry run          : False
+
+Epic: creating '23-ei-dsst-rewrite'
+  -> Epic id=958
+Feature: existing id=207 - 'Overview'
+Feature: creating 'System Background'
+  -> Feature id=959
+Feature: creating 'Key Findings'
+  -> Feature id=960
+Feature: creating 'Project Artifacts'
+  -> Feature id=961
+Feature: creating 'Discovery Sources'
+  -> Feature id=962
+Feature: creating 'Scope Definition'
+  -> Feature id=963
+Feature: existing id=233 - 'Success Criteria'
+Feature: creating 'Team Structure'
+  -> Feature id=964
+Feature: existing id=655 - 'Timeline'
+Feature: creating 'Stakeholders'
+  -> Feature id=965
+Feature: creating 'Related Systems'
+  -> Feature id=966
+Feature: creating 'Risk Register'
+  -> Feature id=967
+Feature: existing id=656 - 'Next Steps'
+Feature: creating 'Contact'
+  -> Feature id=968
+PBI: creating '[F23-03-001] Technology Stack'
+  -> PBI id=969
+PBI: creating '[F23-03-002] Critical Challenges'
+  -> PBI id=970
+PBI: creating '[F23-06-001] In Scope (Phase 1 - 6 months)'
+  -> PBI id=971
+PBI: creating '[F23-06-002] Out of Scope (Future Phases)'
+  -> PBI id=972
+
+=== Import Summary: 23-ei-dsst-rewrite ===
+Epic id  : 958
+Features : 14
+PBIs     : 4
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F23-03-001 969 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F23-03-002 970 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F23-06-001 971 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F23-06-002 972 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

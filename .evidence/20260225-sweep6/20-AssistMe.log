@@ -1,0 +1,95 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\20-AssistMe
+[INFO] Prefix: F20
+[PASS] Written: C:\AICOE\eva-foundation\20-AssistMe\.eva\veritas-plan.json
+       12 features, 15 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F20-01        0      0  Overview
+  F20-02        0      0  ?? Structure
+  F20-03        4      0  ?? Quick Start
+  F20-04        2      0  ?? Documentation
+  F20-05        2      0  ?? Evidence Sources
+  F20-06        3      0  ? What This System Proves
+  F20-07        3      0  ??? Troubleshooting
+  F20-08        0      0  ?? Workflow: From Evidence to Conclusion
+  F20-09        1      0  ?? Next Steps
+  F20-10        0      0  ?? Additional Resources
+  F20-11        0      0  ?? Contributing
+  F20-12        0      0  ?? Maintenance
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F20-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\20-AssistMe
+[INFO] Using veritas-plan.json (format: veritas, 15 stories, 0 tasks)
+[INFO] Planned: 12 features, 15 stories
+[INFO] Actual: 36 artifacts, 15 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\20-AssistMe\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\20-AssistMe\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\20-AssistMe\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: EVA DA XML Ingestion Evidence System
+=======================================
+Repo:    C:\AICOE\eva-foundation\20-AssistMe
+Planned: 12 features, 15 stories
+
+Coverage
+---------------------------------------
+Stories total:          15
+Stories with artifacts: 15
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F20-01     Overview                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-02     ?? Structure                    0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F20-03     ?? Quick Start                  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F20-04     ?? Documentation                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F20-05     ?? Evidence Sources             2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F20-06     ? What This System Proves       3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F20-07     ??? Troubleshooting             3/3 artifacts  0/3 evidence  0 gaps
+[  0] F20-08     ?? Workflow: From Evidence to   0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F20-09     ?? Next Steps                   1/1 artifacts  0/1 evidence  0 gaps
+[  0] F20-10     ?? Additional Resources         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-11     ?? Contributing                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-12     ?? Maintenance                  0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F20-03-001 -- 1. Install Dependencies (1 artifact)
+[IMPL] F20-03-002 -- 2. Run Evidence Collection (1 artifact)
+[IMPL] F20-03-003 -- 3. Review Evidence (1 artifact)
+[IMPL] F20-03-004 -- 4. Update Main Report (1 artifact)
+[IMPL] F20-04-001 -- Main Documents (1 artifact)
+[IMPL] F20-04-002 -- Script Documentation (1 artifact)
+[IMPL] F20-05-001 -- Azure Resources (1 artifact)
+[IMPL] F20-05-002 -- Code Analysis (1 artifact)
+[IMPL] F20-06-001 -- 1. How AssistMe XML Was Ingested (November 2025) (1 artifact)
+[IMPL] F20-06-002 -- 2. What EVA DA Does with XML (1 artifact)
+[IMPL] F20-06-003 -- 3. Why New XML Fails (1 artifact)
+[IMPL] F20-07-001 -- No Results from Scripts (1 artifact)
+[IMPL] F20-07-002 -- Authentication Errors (1 artifact)
+[IMPL] F20-07-003 -- Missing Environment Variables (1 artifact)
+[IMPL] F20-09-001 -- For Your Investigation (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

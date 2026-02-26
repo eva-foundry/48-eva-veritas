@@ -1,0 +1,22 @@
+{
+  "notes": "EVA-STORY: EO-03-001 EVA-STORY: EO-03-002",
+  "evidence_for": ["EO-03-001", "EO-03-002"],
+  "run_at": "2026-02-24T18:07:09Z",
+  "command": "node src/cli.js audit --repo . (trust.json output)",
+  "result": {
+    "trust_path": ".eva/trust.json",
+    "score": 62,
+    "formula": "Coverage*0.5 + Evidence*0.2 + Consistency*0.3",
+    "components": {
+      "coverage": 0.65,
+      "evidenceCompleteness": 0,
+      "consistencyScore": 1.0
+    },
+    "actions": ["review-required", "no-deploy"],
+    "stale": false
+  },
+  "formula_verified": "(20/31)*0.5 + 0*0.2 + 1.0*0.3 = 0.3226 + 0 + 0.30 = 62",
+  "action_mapping_verified": "score=62 -> 50+: review-required, no-deploy [PASS]",
+  "verdict": "PASS -- MTI formula computes correctly; actions map as expected",
+  "confirmed_in": "src/lib/trust.js lines 14-37"
+}

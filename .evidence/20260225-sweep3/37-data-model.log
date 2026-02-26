@@ -1,0 +1,221 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\37-data-model
+[INFO] Prefix: F37
+[INFO] Enrichment applied: code-structure (22 stories)
+[PASS] Written: C:\AICOE\eva-foundation\37-data-model\.eva\veritas-plan.json
+       24 features, 17 stories, 30 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: phase-sprint
+
+  +ID             Stories  Tasks  Title
+  ??????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F37-01                0      0  Guiding Principle
+  F37-02                0      0  Layer Build Order
+  F37-03                2      8  Sprint 1 ??? Foundation Layers (L0???L2) ??? DONE
+  F37-04                2      8  Sprint 2 ??? Data and API Layers (L3???L5) ??? DONE
+  F37-05                2      5  Sprint 3 ??? UI Layers (L6???L7) ??? DONE
+  F37-06                2      5  Sprint 4 ??? Agent Fleet + Infrastructure Layers (L8???L9) ??? DONE
+  F37-07                2      4  Sprint 5 ??? Requirements Traceability Layer (L10) ??? DONE
+  F37-08                7      0  Ongoing ??? How the Model Grows and Is Maintained
+  F37-09                0      0  Dependencies
+  F37-HEALTH            3      0  HEALTH API
+  F37-READY             1      0  READY API
+  F37-MODEL             2      0  MODEL API
+  F37-SEED              1      0  SEED API
+  F37-EXPORT            1      0  EXPORT API
+  F37-CACHE             1      0  CACHE API
+  F37-BACKFILL          1      0  BACKFILL API
+  F37-AUDIT             1      0  AUDIT API
+  F37-VALIDATE          1      0  VALIDATE API
+  F37-COMMIT            1      0  COMMIT API
+  F37-AUDITREPO         1      0  AUDITREPO API
+  F37-API               3      0  API API
+  F37-OBJ_IDPATH        3      0  OBJ_IDPATH API
+  F37-FILTER            1      0  FILTER API
+  F37-EDGETYPES         1      0  EDGETYPES API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F37-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\37-data-model
+[INFO] Using veritas-plan.json (format: phase-sprint, 39 stories, 30 tasks)
+[INFO] Planned: 24 features, 39 stories
+[INFO] Actual: 165 artifacts, 17 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\37-data-model\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\37-data-model\.eva\reconciliation.json
+[INFO] Gaps: 22
+[PASS] trust written: C:\AICOE\eva-foundation\37-data-model\.eva\trust.json (score: 61)
+
+=======================================
+EVA Veritas Report: EVA Data Model
+=======================================
+Repo:    C:\AICOE\eva-foundation\37-data-model
+Planned: 24 features, 39 stories
+
+Coverage
+---------------------------------------
+Stories total:          39
+Stories with artifacts: 17
+Stories with evidence:  17
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F37-HEALTH-001 -- GET /health
+[FAIL] missing_implementation :: F37-HEALTH-002 -- GET /v1/health
+[FAIL] missing_implementation :: F37-HEALTH-003 -- GET /v1/health
+[FAIL] missing_implementation :: F37-READY-001 -- GET /ready
+[FAIL] missing_implementation :: F37-MODEL-001 -- GET /model/agent-summary
+[FAIL] missing_implementation :: F37-MODEL-002 -- GET /model/agent-guide
+[FAIL] missing_implementation :: F37-SEED-001 -- POST /seed
+[FAIL] missing_implementation :: F37-EXPORT-001 -- POST /export
+[FAIL] missing_implementation :: F37-CACHE-001 -- POST /cache/flush
+[FAIL] missing_implementation :: F37-BACKFILL-001 -- POST /backfill
+[FAIL] missing_implementation :: F37-AUDIT-001 -- GET /audit
+[FAIL] missing_implementation :: F37-VALIDATE-001 -- GET /validate
+[FAIL] missing_implementation :: F37-COMMIT-001 -- POST /commit
+[FAIL] missing_implementation :: F37-AUDITREPO-001 -- POST /audit-repo
+[FAIL] missing_implementation :: F37-API-001 -- GET /
+[FAIL] missing_implementation :: F37-API-002 -- GET /
+[FAIL] missing_implementation :: F37-API-003 -- GET /
+[FAIL] missing_implementation :: F37-OBJ_IDPATH-001 -- GET /{obj_id:path}
+[FAIL] missing_implementation :: F37-OBJ_IDPATH-002 -- PUT /{obj_id:path}
+[FAIL] missing_implementation :: F37-OBJ_IDPATH-003 -- DELETE /{obj_id:path}
+[FAIL] missing_implementation :: F37-FILTER-001 -- GET /filter
+[FAIL] missing_implementation :: F37-EDGETYPES-001 -- GET /edge-types
+
+Feature Breakdown
+---------------------------------------
+[  0] F37-API    API API                         0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F37-HEALTH HEALTH API                      0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F37-OBJ_IDPATH OBJ_IDPATH API                  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F37-MODEL  MODEL API                       0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F37-AUDIT  AUDIT API                       0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-AUDITREPO AUDITREPO API                   0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-BACKFILL BACKFILL API                    0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-CACHE  CACHE API                       0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-COMMIT COMMIT API                      0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-EDGETYPES EDGETYPES API                   0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-EXPORT EXPORT API                      0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-FILTER FILTER API                      0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-READY  READY API                       0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-SEED   SEED API                        0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-VALIDATE VALIDATE API                    0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F37-01     Guiding Principle               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F37-02     Layer Build Order               0/0 artifacts  0/0 evidence  0 gaps
+[100] F37-03     Sprint 1 ??? Foundation Layers (  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-04     Sprint 2 ??? Data and API Layers  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-05     Sprint 3 ??? UI Layers (L6???L7) ???  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-06     Sprint 4 ??? Agent Fleet + Infra  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-07     Sprint 5 ??? Requirements Tracea  2/2 artifacts  2/2 evidence  0 gaps
+[100] F37-08     Ongoing ??? How the Model Grows   7/7 artifacts  7/7 evidence  0 gaps
+[  0] F37-09     Dependencies                    0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F37-03-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-03-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-04-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-04-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-05-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-05-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-06-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-06-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-07-001 -- Deliverables (1 artifact)
+[EVIDENCE] F37-07-002 -- Acceptance (1 artifact)
+[EVIDENCE] F37-08-001 -- Growth Path 1 ??? Same-PR Rule (day-to-day) (1 artifact)
+[EVIDENCE] F37-08-002 -- Growth Path 2 ??? Sprint-Close Audit (every sprint) (1 artifact)
+[EVIDENCE] F37-08-003 -- Growth Path 3 ??? Ecosystem Expansion (new service or repository) (1 artifact)
+[EVIDENCE] F37-08-004 -- Growth Path 4 ??? New Model Layer (extending the schema) (1 artifact)
+[EVIDENCE] F37-08-005 -- Validation Gate (all paths) (1 artifact)
+[EVIDENCE] F37-08-006 -- Drift Signals ??? How to Know the Model Is Stale (1 artifact)
+[EVIDENCE] F37-08-007 -- Governance (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   61 (-39)
+Trend:   0 -> 71 -> 71 -> 71 -> 71 -> 100 -> 100 -> 100 -> 100 -> 61
+Actions: review-required, no-deploy
+Components: coverage=0.44 evidence=0.44 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 70 (merge-with-approval): tag 8 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 23 more stories with # EVA-STORY
+
+[ACT] 22 unimplemented stories by feature (highest priority first):
+      F37-HEALTH HEALTH API (3 gaps)
+        - F37-HEALTH-001 -- GET /health
+        - F37-HEALTH-002 -- GET /v1/health
+        - F37-HEALTH-003 -- GET /v1/health
+      F37-API API API (3 gaps)
+        - F37-API-001 -- GET /
+        - F37-API-002 -- GET /
+        - F37-API-003 -- GET /
+      F37-OBJ_IDPATH OBJ_IDPATH API (3 gaps)
+        - F37-OBJ_IDPATH-001 -- GET /{obj_id:path}
+        - F37-OBJ_IDPATH-002 -- PUT /{obj_id:path}
+        - F37-OBJ_IDPATH-003 -- DELETE /{obj_id:path}
+      F37-MODEL MODEL API (2 gaps)
+        - F37-MODEL-001 -- GET /model/agent-summary
+        - F37-MODEL-002 -- GET /model/agent-guide
+      F37-READY READY API (1 gap)
+        - F37-READY-001 -- GET /ready
+      F37-SEED SEED API (1 gap)
+        - F37-SEED-001 -- POST /seed
+      F37-EXPORT EXPORT API (1 gap)
+        - F37-EXPORT-001 -- POST /export
+      F37-CACHE CACHE API (1 gap)
+        - F37-CACHE-001 -- POST /cache/flush
+      F37-BACKFILL BACKFILL API (1 gap)
+        - F37-BACKFILL-001 -- POST /backfill
+      F37-AUDIT AUDIT API (1 gap)
+        - F37-AUDIT-001 -- GET /audit
+      F37-VALIDATE VALIDATE API (1 gap)
+        - F37-VALIDATE-001 -- GET /validate
+      F37-COMMIT COMMIT API (1 gap)
+        - F37-COMMIT-001 -- POST /commit
+      F37-AUDITREPO AUDITREPO API (1 gap)
+        - F37-AUDITREPO-001 -- POST /audit-repo
+      F37-FILTER FILTER API (1 gap)
+        - F37-FILTER-001 -- GET /filter
+      F37-EDGETYPES EDGETYPES API (1 gap)
+        - F37-EDGETYPES-001 -- GET /edge-types
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   81%  (225/279 declared entities verified)
+[ACT] 54 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [service] eva-brain-api -- declared: is_active:true -- actual: not_found
+  ... and 46 more
+[ACT] Container 'jobs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+
+[WARN] MTI 61 is below threshold 70 (--warn-only set, continuing)

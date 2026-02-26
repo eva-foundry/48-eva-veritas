@@ -1,0 +1,2459 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0856-ado-import-artifacts-live.log
+
+=== ADO Import: 26-eva-gh ===
+Project maturity : poc
+GitHub repo      : eva-foundry/26-eva-gh
+Dry run          : False
+
+Epic: creating '26-eva-gh'
+  -> Epic id=989
+Feature: creating 'EVA Core Sub-Repos'
+  -> Feature id=990
+Feature: creating 'EVA Sovereign UI'
+  -> Feature id=991
+Feature: creating 'InfoAssistant Variants'
+  -> Feature id=992
+Feature: creating 'Infrastructure Clones'
+  -> Feature id=993
+Feature: creating 'Cloud Housekeeping'
+  -> Feature id=994
+Feature: existing id=461 - 'MODELS API'
+Feature: creating 'EMBEDDINGS API'
+  -> Feature id=995
+Feature: existing id=438 - 'CHAT API'
+Feature: creating 'TASKS API'
+  -> Feature id=996
+Feature: creating 'CONFIG API'
+  -> Feature id=997
+Feature: creating 'WEBHOOK API'
+  -> Feature id=998
+Feature: creating 'VERSION API'
+  -> Feature id=999
+Feature: creating 'CHANGELOG API'
+  -> Feature id=1000
+Feature: creating 'USAGE API'
+  -> Feature id=1001
+Feature: creating 'OAUTH API'
+  -> Feature id=1002
+Feature: creating 'MANIFESTJSON API'
+  -> Feature id=1003
+Feature: creating 'OPENSEARCHXM API'
+  -> Feature id=1004
+Feature: existing id=437 - 'HEALTH API'
+Feature: creating 'CACHE API'
+  -> Feature id=1005
+Feature: existing id=436 - 'API API'
+Feature: existing id=439 - 'GETALLUPLOAD API'
+Feature: existing id=440 - 'GETFOLDERS API'
+Feature: existing id=441 - 'DELETEITEMS API'
+Feature: existing id=442 - 'RESUBMITITEM API'
+Feature: existing id=443 - 'GETTAGS API'
+Feature: existing id=444 - 'LOGSTATUS API'
+Feature: existing id=445 - 'GETINFODATA API'
+Feature: existing id=446 - 'GETWARNINGBA API'
+Feature: existing id=447 - 'GETMAXCSVFIL API'
+Feature: existing id=448 - 'GETCITATION API'
+Feature: existing id=449 - 'GETAPPLICATI API'
+Feature: existing id=450 - 'GETALLTAGS API'
+Feature: existing id=451 - 'GETTEMPIMAGE API'
+Feature: existing id=452 - 'GETHINT API'
+Feature: existing id=453 - 'POSTTD API'
+Feature: existing id=464 - 'PROCESS_TD_A API'
+Feature: existing id=454 - 'GETTDANALYSI API'
+Feature: existing id=455 - 'REFRESH API'
+Feature: existing id=456 - 'STREAM API'
+Feature: existing id=457 - 'TDSTREAM API'
+Feature: existing id=465 - 'PROCESS_AGEN API'
+Feature: existing id=458 - 'GETFEATUREFL API'
+Feature: existing id=459 - 'FILE API'
+Feature: existing id=460 - 'GETFILE API'
+Feature: creating 'READY API'
+  -> Feature id=1006
+Feature: creating 'INGEST API'
+  -> Feature id=1007
+Feature: creating 'DOCUMENTS API'
+  -> Feature id=1008
+Feature: creating 'COLLECTION API'
+  -> Feature id=1009
+Feature: creating 'QUERY API'
+  -> Feature id=1010
+Feature: creating 'TENANT API'
+  -> Feature id=1011
+Feature: creating 'RESOURCE API'
+  -> Feature id=1012
+Feature: creating 'SPEECH API'
+  -> Feature id=1013
+Feature: creating 'TRANSCRIPTIO API'
+  -> Feature id=1014
+Feature: creating 'VOICES API'
+  -> Feature id=1015
+Feature: creating 'UPDATE API'
+  -> Feature id=1016
+Feature: creating 'LDAP API'
+  -> Feature id=1017
+Feature: creating 'SIGNIN API'
+  -> Feature id=1018
+Feature: creating 'SIGNUP API'
+  -> Feature id=1019
+Feature: creating 'SIGNOUT API'
+  -> Feature id=1020
+Feature: creating 'ADD API'
+  -> Feature id=1021
+Feature: creating 'ADMIN API'
+  -> Feature id=1022
+Feature: creating 'API_KEY API'
+  -> Feature id=1023
+Feature: creating 'LIST API'
+  -> Feature id=1024
+Feature: creating 'CREATE API'
+  -> Feature id=1025
+Feature: creating 'ID API'
+  -> Feature id=1026
+Feature: creating 'NEW API'
+  -> Feature id=1027
+Feature: creating 'IMPORT API'
+  -> Feature id=1028
+Feature: creating 'SEARCH API'
+  -> Feature id=1029
+Feature: creating 'FOLDER API'
+  -> Feature id=1030
+Feature: creating 'PINNED API'
+  -> Feature id=1031
+Feature: creating 'ALL API'
+  -> Feature id=1032
+Feature: creating 'ARCHIVED API'
+  -> Feature id=1033
+Feature: creating 'ARCHIVE API'
+  -> Feature id=1034
+Feature: creating 'UNARCHIVE API'
+  -> Feature id=1035
+Feature: creating 'SHARE API'
+  -> Feature id=1036
+Feature: creating 'TAGS API'
+  -> Feature id=1037
+Feature: creating 'EXPORT API'
+  -> Feature id=1038
+Feature: creating 'CONNECTIONS API'
+  -> Feature id=1039
+Feature: creating 'TOOL_SERVERS API'
+  -> Feature id=1040
+Feature: creating 'CODE_EXECUTI API'
+  -> Feature id=1041
+Feature: creating 'SUGGESTIONS API'
+  -> Feature id=1042
+Feature: creating 'BANNERS API'
+  -> Feature id=1043
+Feature: creating 'FEEDBACKS API'
+  -> Feature id=1044
+Feature: creating 'FEEDBACK API'
+  -> Feature id=1045
+Feature: creating 'LOAD API'
+  -> Feature id=1046
+Feature: creating 'SYNC API'
+  -> Feature id=1047
+Feature: creating 'GENERATIONS API'
+  -> Feature id=1048
+Feature: creating 'EDIT API'
+  -> Feature id=1049
+Feature: creating 'REINDEX API'
+  -> Feature id=1050
+Feature: creating 'EF API'
+  -> Feature id=1051
+Feature: creating 'RESET API'
+  -> Feature id=1052
+Feature: creating 'DELETE API'
+  -> Feature id=1053
+Feature: creating 'MEMORY_ID API'
+  -> Feature id=1054
+Feature: creating 'BASE API'
+  -> Feature id=1055
+Feature: creating 'MODEL API'
+  -> Feature id=1056
+Feature: creating 'VERIFY API'
+  -> Feature id=1057
+Feature: creating 'PS API'
+  -> Feature id=1058
+Feature: creating 'UNLOAD API'
+  -> Feature id=1059
+Feature: creating 'PULL API'
+  -> Feature id=1060
+Feature: creating 'PUSH API'
+  -> Feature id=1061
+Feature: creating 'COPY API'
+  -> Feature id=1062
+Feature: creating 'SHOW API'
+  -> Feature id=1063
+Feature: creating 'EMBED API'
+  -> Feature id=1064
+Feature: creating 'GENERATE API'
+  -> Feature id=1065
+Feature: existing id=891 - 'COMPLETIONS API'
+Feature: creating 'AUDIO API'
+  -> Feature id=1066
+Feature: creating 'UPLOAD API'
+  -> Feature id=1067
+Feature: creating 'PIPELINE_ID API'
+  -> Feature id=1068
+Feature: creating 'COMMAND API'
+  -> Feature id=1069
+Feature: creating 'EMBEDDING API'
+  -> Feature id=1070
+Feature: creating 'PROCESS API'
+  -> Feature id=1071
+Feature: creating 'SERVICEPROVI API'
+  -> Feature id=1072
+Feature: creating 'RESOURCETYPE API'
+  -> Feature id=1073
+Feature: creating 'SCHEMAS API'
+  -> Feature id=1074
+Feature: creating 'USERS API'
+  -> Feature id=1075
+Feature: creating 'GROUPS API'
+  -> Feature id=1076
+Feature: creating 'TITLE API'
+  -> Feature id=1077
+Feature: creating 'FOLLOW_UP API'
+  -> Feature id=1078
+Feature: creating 'IMAGE_PROMPT API'
+  -> Feature id=1079
+Feature: creating 'QUERIES API'
+  -> Feature id=1080
+Feature: creating 'AUTO API'
+  -> Feature id=1081
+Feature: creating 'EMOJI API'
+  -> Feature id=1082
+Feature: creating 'MOA API'
+  -> Feature id=1083
+Feature: creating 'ACTIVE API'
+  -> Feature id=1084
+Feature: creating 'PERMISSIONS API'
+  -> Feature id=1085
+Feature: creating 'DEFAULT API'
+  -> Feature id=1086
+Feature: creating 'USER API'
+  -> Feature id=1087
+Feature: creating 'USER_ID API'
+  -> Feature id=1088
+Feature: creating 'GRAVATAR API'
+  -> Feature id=1089
+Feature: creating 'CODE API'
+  -> Feature id=1090
+Feature: creating 'MARKDOWN API'
+  -> Feature id=1091
+Feature: creating 'PDF API'
+  -> Feature id=1092
+Feature: creating 'DB API'
+  -> Feature id=1093
+Feature: creating 'RAG API'
+  -> Feature id=1094
+Feature: creating 'PRICING API'
+  -> Feature id=1095
+Feature: creating 'PROJECTS API'
+  -> Feature id=1096
+Feature: creating 'LAYOUTS API'
+  -> Feature id=1097
+Feature: creating 'ASSETS API'
+  -> Feature id=1098
+Feature: creating 'TEMPLATES API'
+  -> Feature id=1099
+Feature: creating 'UI Pages'
+  -> Feature id=1100
+Feature: existing id=462 - 'Infrastructure Resources'
+Feature: existing id=463 - 'Operations Scripts'
+PBI: creating '[F26-01-001] eva-rag clone and sync'
+  -> PBI id=1101
+PBI: creating '[F26-01-002] eva-registry clone and sync'
+  -> PBI id=1102
+PBI: creating '[F26-01-003] eva-safety clone and sync'
+  -> PBI id=1103
+PBI: creating '[F26-01-004] eva-seed clone and sync'
+  -> PBI id=1104
+PBI: creating '[F26-01-005] eva-utils clone and sync'
+  -> PBI id=1105
+PBI: creating '[F26-02-001] EVA-Sovereign-UI baseline'
+  -> PBI id=1106
+PBI: creating '[F26-02-002] EVA-Sovereign-UI-by-Copilot variant'
+  -> PBI id=1107
+PBI: creating '[F26-02-003] eva-sovereign-ui-des design system'
+  -> PBI id=1108
+PBI: creating '[F26-02-004] eva-ui GC design system integration'
+  -> PBI id=1109
+PBI: creating '[F26-02-005] ux-accessibility audit'
+  -> PBI id=1110
+PBI: creating '[F26-03-001] PubSec-Info-Assistant baseline clone'
+  -> PBI id=1111
+PBI: creating '[F26-03-002] PubSec-Info-Assistant-by-Copilot variant'
+  -> PBI id=1112
+PBI: creating '[F26-03-003] ms-infojp fork sync'
+  -> PBI id=1113
+PBI: creating '[F26-04-001] ia-gateway clone and review'
+  -> PBI id=1114
+PBI: creating '[F26-04-002] ia-ingestion-service clone and review'
+  -> PBI id=1115
+PBI: creating '[F26-04-003] OpenWebUI integration baseline'
+  -> PBI id=1116
+PBI: creating '[F26-05-001] Stale branch cleanup across sub-repos'
+  -> PBI id=1117
+PBI: creating '[F26-05-002] Dependency version audit'
+  -> PBI id=1118
+PBI: creating '[F26-05-003] EVA Sandbox isolation review'
+  -> PBI id=1119
+PBI: creating '[F26-MODELS-001] GET /api/models'
+  -> PBI id=1120
+PBI: creating '[F26-MODELS-002] GET /api/v1/models'
+  -> PBI id=1121
+PBI: creating '[F26-MODELS-003] GET /api/models/base'
+  -> PBI id=1122
+PBI: creating '[F26-MODELS-004] GET /models'
+  -> PBI id=1123
+PBI: creating '[F26-MODELS-005] GET /models/{model}'
+  -> PBI id=1124
+PBI: creating '[F26-MODELS-006] POST /models/{model}/embed'
+  -> PBI id=1125
+PBI: creating '[F26-MODELS-007] GET /models'
+  -> PBI id=1126
+PBI: creating '[F26-MODELS-008] GET /models/{model}'
+  -> PBI id=1127
+PBI: creating '[F26-MODELS-009] POST /models/{model}/embed'
+  -> PBI id=1128
+PBI: creating '[F26-MODELS-010] GET /models'
+  -> PBI id=1129
+PBI: creating '[F26-MODELS-011] GET /models'
+  -> PBI id=1130
+PBI: creating '[F26-MODELS-012] POST /models'
+  -> PBI id=1131
+PBI: creating '[F26-MODELS-013] GET /models'
+  -> PBI id=1132
+PBI: creating '[F26-MODELS-014] GET /v1/models'
+  -> PBI id=1133
+PBI: creating '[F26-MODELS-015] GET /v1/models/{url_idx}'
+  -> PBI id=1134
+PBI: creating '[F26-MODELS-016] POST /models/download'
+  -> PBI id=1135
+PBI: creating '[F26-MODELS-017] POST /models/download/{url_idx}'
+  -> PBI id=1136
+PBI: creating '[F26-MODELS-018] POST /models/upload'
+  -> PBI id=1137
+PBI: creating '[F26-MODELS-019] POST /models/upload/{url_idx}'
+  -> PBI id=1138
+PBI: creating '[F26-MODELS-020] GET /models'
+  -> PBI id=1139
+PBI: creating '[F26-MODELS-021] GET /models/{url_idx}'
+  -> PBI id=1140
+PBI: creating '[F26-EMBEDDINGS-001] POST /api/embeddings'
+  -> PBI id=1141
+PBI: creating '[F26-EMBEDDINGS-002] POST /api/v1/embeddings'
+  -> PBI id=1142
+PBI: creating '[F26-EMBEDDINGS-003] POST /api/embeddings'
+  -> PBI id=1143
+PBI: creating '[F26-EMBEDDINGS-004] POST /api/embeddings/{url_idx}'
+  -> PBI id=1144
+PBI: creating '[F26-CHAT-001] POST /api/chat/completions'
+  -> PBI id=1145
+PBI: creating '[F26-CHAT-002] POST /api/v1/chat/completions'
+  -> PBI id=1146
+PBI: creating '[F26-CHAT-003] POST /api/chat/completed'
+  -> PBI id=1147
+PBI: creating '[F26-CHAT-004] POST /api/chat/actions/{action_id}'
+  -> PBI id=1148
+PBI: creating '[F26-CHAT-005] POST /chat'
+  -> PBI id=1149
+PBI: creating '[F26-CHAT-006] POST /chat'
+  -> PBI id=1150
+PBI: creating '[F26-CHAT-007] POST /api/chat'
+  -> PBI id=1151
+PBI: creating '[F26-CHAT-008] POST /api/chat/{url_idx}'
+  -> PBI id=1152
+PBI: creating '[F26-CHAT-009] POST /v1/chat/completions'
+  -> PBI id=1153
+PBI: creating '[F26-CHAT-010] POST /v1/chat/completions/{url_idx}'
+  -> PBI id=1154
+PBI: creating '[F26-CHAT-011] POST /chat/completions'
+  -> PBI id=1155
+PBI: creating '[F26-TASKS-001] POST /api/tasks/stop/{task_id}'
+  -> PBI id=1156
+PBI: creating '[F26-TASKS-002] GET /api/tasks'
+  -> PBI id=1157
+PBI: creating '[F26-TASKS-003] GET /api/tasks/chat/{chat_id}'
+  -> PBI id=1158
+PBI: creating '[F26-CONFIG-001] GET /api/config'
+  -> PBI id=1159
+PBI: creating '[F26-CONFIG-002] GET /config'
+  -> PBI id=1160
+PBI: creating '[F26-CONFIG-003] POST /config/update'
+  -> PBI id=1161
+PBI: creating '[F26-CONFIG-004] GET /config'
+  -> PBI id=1162
+PBI: creating '[F26-CONFIG-005] POST /config'
+  -> PBI id=1163
+PBI: creating '[F26-CONFIG-006] GET /config'
+  -> PBI id=1164
+PBI: creating '[F26-CONFIG-007] POST /config/update'
+  -> PBI id=1165
+PBI: creating '[F26-CONFIG-008] GET /config/url/verify'
+  -> PBI id=1166
+PBI: creating '[F26-CONFIG-009] GET /config'
+  -> PBI id=1167
+PBI: creating '[F26-CONFIG-010] POST /config/update'
+  -> PBI id=1168
+PBI: creating '[F26-CONFIG-011] GET /config'
+  -> PBI id=1169
+PBI: creating '[F26-CONFIG-012] POST /config/update'
+  -> PBI id=1170
+PBI: creating '[F26-CONFIG-013] GET /config'
+  -> PBI id=1171
+PBI: creating '[F26-CONFIG-014] POST /config/update'
+  -> PBI id=1172
+PBI: creating '[F26-CONFIG-015] GET /config'
+  -> PBI id=1173
+PBI: creating '[F26-CONFIG-016] POST /config/update'
+  -> PBI id=1174
+PBI: creating '[F26-WEBHOOK-001] GET /api/webhook'
+  -> PBI id=1175
+PBI: creating '[F26-WEBHOOK-002] POST /api/webhook'
+  -> PBI id=1176
+PBI: creating '[F26-VERSION-001] GET /api/version'
+  -> PBI id=1177
+PBI: creating '[F26-VERSION-002] GET /api/version/updates'
+  -> PBI id=1178
+PBI: creating '[F26-VERSION-003] GET /api/version'
+  -> PBI id=1179
+PBI: creating '[F26-VERSION-004] GET /api/version/{url_idx}'
+  -> PBI id=1180
+PBI: creating '[F26-CHANGELOG-001] GET /api/changelog'
+  -> PBI id=1181
+PBI: creating '[F26-USAGE-001] GET /api/usage'
+  -> PBI id=1182
+PBI: creating '[F26-OAUTH-001] GET /oauth/clients/{client_id}/authorize'
+  -> PBI id=1183
+PBI: creating '[F26-OAUTH-002] GET /oauth/clients/{client_id}/callback'
+  -> PBI id=1184
+PBI: creating '[F26-OAUTH-003] GET /oauth/{provider}/login'
+  -> PBI id=1185
+PBI: creating '[F26-OAUTH-004] GET /oauth/{provider}/login/callback'
+  -> PBI id=1186
+PBI: creating '[F26-OAUTH-005] GET /oauth/{provider}/callback'
+  -> PBI id=1187
+PBI: creating '[F26-OAUTH-006] POST /oauth/clients/register'
+  -> PBI id=1188
+PBI: creating '[F26-MANIFESTJSON-001] GET /manifest.json'
+  -> PBI id=1189
+PBI: creating '[F26-OPENSEARCHXM-001] GET /opensearch.xml'
+  -> PBI id=1190
+PBI: creating '[F26-HEALTH-001] GET /health'
+  -> PBI id=1191
+PBI: creating '[F26-HEALTH-002] GET /health/db'
+  -> PBI id=1192
+PBI: creating '[F26-HEALTH-003] GET /health'
+  -> PBI id=1193
+PBI: creating '[F26-HEALTH-004] GET /health'
+  -> PBI id=1194
+PBI: creating '[F26-HEALTH-005] GET /health'
+  -> PBI id=1195
+PBI: creating '[F26-HEALTH-006] GET /health'
+  -> PBI id=1196
+PBI: creating '[F26-HEALTH-007] GET /health'
+  -> PBI id=1197
+PBI: creating '[F26-CACHE-001] GET /cache/{path:path}'
+  -> PBI id=1198
+PBI: creating '[F26-API-001] GET /'
+  -> PBI id=1199
+PBI: creating '[F26-API-002] GET /'
+  -> PBI id=1200
+PBI: creating '[F26-API-003] GET /'
+  -> PBI id=1201
+PBI: creating '[F26-API-004] GET /'
+  -> PBI id=1202
+PBI: creating '[F26-API-005] GET /'
+  -> PBI id=1203
+PBI: creating '[F26-API-006] GET /'
+  -> PBI id=1204
+PBI: creating '[F26-API-007] GET /'
+  -> PBI id=1205
+PBI: creating '[F26-API-008] GET /'
+  -> PBI id=1206
+PBI: creating '[F26-API-009] DELETE /'
+  -> PBI id=1207
+PBI: creating '[F26-API-010] POST /'
+  -> PBI id=1208
+PBI: creating '[F26-API-011] GET /'
+  -> PBI id=1209
+PBI: creating '[F26-API-012] GET /'
+  -> PBI id=1210
+PBI: creating '[F26-API-013] POST /'
+  -> PBI id=1211
+PBI: creating '[F26-API-014] GET /'
+  -> PBI id=1212
+PBI: creating '[F26-API-015] GET /'
+  -> PBI id=1213
+PBI: creating '[F26-API-016] GET /'
+  -> PBI id=1214
+PBI: creating '[F26-API-017] GET /'
+  -> PBI id=1215
+PBI: creating '[F26-API-018] GET /'
+  -> PBI id=1216
+PBI: creating '[F26-API-019] HEAD /'
+  -> PBI id=1217
+PBI: creating '[F26-API-020] GET /'
+  -> PBI id=1218
+PBI: creating '[F26-API-021] GET /'
+  -> PBI id=1219
+PBI: creating '[F26-API-022] GET /'
+  -> PBI id=1220
+PBI: creating '[F26-API-023] GET /'
+  -> PBI id=1221
+PBI: creating '[F26-API-024] GET /'
+  -> PBI id=1222
+PBI: creating '[F26-API-025] GET /'
+  -> PBI id=1223
+PBI: creating '[F26-GETALLUPLOAD-001] POST /getalluploadstatus'
+  -> PBI id=1224
+PBI: creating '[F26-GETALLUPLOAD-002] POST /getalluploadstatus'
+  -> PBI id=1225
+PBI: creating '[F26-GETFOLDERS-001] POST /getfolders'
+  -> PBI id=1226
+PBI: creating '[F26-GETFOLDERS-002] POST /getfolders'
+  -> PBI id=1227
+PBI: creating '[F26-DELETEITEMS-001] POST /deleteItems'
+  -> PBI id=1228
+PBI: creating '[F26-DELETEITEMS-002] POST /deleteItems'
+  -> PBI id=1229
+PBI: creating '[F26-RESUBMITITEM-001] POST /resubmitItems'
+  -> PBI id=1230
+PBI: creating '[F26-RESUBMITITEM-002] POST /resubmitItems'
+  -> PBI id=1231
+PBI: creating '[F26-GETTAGS-001] POST /gettags'
+  -> PBI id=1232
+PBI: creating '[F26-GETTAGS-002] POST /gettags'
+  -> PBI id=1233
+PBI: creating '[F26-LOGSTATUS-001] POST /logstatus'
+  -> PBI id=1234
+PBI: creating '[F26-LOGSTATUS-002] POST /logstatus'
+  -> PBI id=1235
+PBI: creating '[F26-GETINFODATA-001] GET /getInfoData'
+  -> PBI id=1236
+PBI: creating '[F26-GETINFODATA-002] GET /getInfoData'
+  -> PBI id=1237
+PBI: creating '[F26-GETWARNINGBA-001] GET /getWarningBanner'
+  -> PBI id=1238
+PBI: creating '[F26-GETWARNINGBA-002] GET /getWarningBanner'
+  -> PBI id=1239
+PBI: creating '[F26-GETMAXCSVFIL-001] GET /getMaxCSVFileSize'
+  -> PBI id=1240
+PBI: creating '[F26-GETMAXCSVFIL-002] GET /getMaxCSVFileSize'
+  -> PBI id=1241
+PBI: creating '[F26-GETCITATION-001] POST /getcitation'
+  -> PBI id=1242
+PBI: creating '[F26-GETCITATION-002] POST /getcitation'
+  -> PBI id=1243
+PBI: creating '[F26-GETAPPLICATI-001] GET /getApplicationTitle'
+  -> PBI id=1244
+PBI: creating '[F26-GETAPPLICATI-002] GET /getApplicationTitle'
+  -> PBI id=1245
+PBI: creating '[F26-GETALLTAGS-001] GET /getalltags'
+  -> PBI id=1246
+PBI: creating '[F26-GETALLTAGS-002] GET /getalltags'
+  -> PBI id=1247
+PBI: creating '[F26-GETTEMPIMAGE-001] GET /getTempImages'
+  -> PBI id=1248
+PBI: creating '[F26-GETTEMPIMAGE-002] GET /getTempImages'
+  -> PBI id=1249
+PBI: creating '[F26-GETHINT-001] GET /getHint'
+  -> PBI id=1250
+PBI: creating '[F26-GETHINT-002] GET /getHint'
+  -> PBI id=1251
+PBI: creating '[F26-POSTTD-001] POST /posttd'
+  -> PBI id=1252
+PBI: creating '[F26-POSTTD-002] POST /posttd'
+  -> PBI id=1253
+PBI: creating '[F26-PROCESS_TD_A-001] GET /process_td_agent_response'
+  -> PBI id=1254
+PBI: creating '[F26-PROCESS_TD_A-002] GET /process_td_agent_response'
+  -> PBI id=1255
+PBI: creating '[F26-GETTDANALYSI-001] GET /getTdAnalysis'
+  -> PBI id=1256
+PBI: creating '[F26-GETTDANALYSI-002] GET /getTdAnalysis'
+  -> PBI id=1257
+PBI: creating '[F26-REFRESH-001] POST /refresh'
+  -> PBI id=1258
+PBI: creating '[F26-REFRESH-002] POST /refresh'
+  -> PBI id=1259
+PBI: creating '[F26-STREAM-001] GET /stream'
+  -> PBI id=1260
+PBI: creating '[F26-STREAM-002] GET /stream'
+  -> PBI id=1261
+PBI: creating '[F26-TDSTREAM-001] GET /tdstream'
+  -> PBI id=1262
+PBI: creating '[F26-TDSTREAM-002] GET /tdstream'
+  -> PBI id=1263
+PBI: creating '[F26-PROCESS_AGEN-001] GET /process_agent_response'
+  -> PBI id=1264
+PBI: creating '[F26-PROCESS_AGEN-002] GET /process_agent_response'
+  -> PBI id=1265
+PBI: creating '[F26-GETFEATUREFL-001] GET /getFeatureFlags'
+  -> PBI id=1266
+PBI: creating '[F26-GETFEATUREFL-002] GET /getFeatureFlags'
+  -> PBI id=1267
+PBI: creating '[F26-FILE-001] POST /file'
+  -> PBI id=1268
+PBI: creating '[F26-FILE-002] POST /file'
+  -> PBI id=1269
+PBI: creating '[F26-GETFILE-001] POST /get-file'
+  -> PBI id=1270
+PBI: creating '[F26-GETFILE-002] POST /get-file'
+  -> PBI id=1271
+PBI: creating '[F26-READY-001] GET /ready'
+  -> PBI id=1272
+PBI: creating '[F26-INGEST-001] POST /api/v1/ingest'
+  -> PBI id=1273
+PBI: creating '[F26-DOCUMENTS-001] DELETE /api/v1/documents/{document_id}'
+  -> PBI id=1274
+PBI: creating '[F26-COLLECTION-001] GET /api/v1/collection/stats'
+  -> PBI id=1275
+PBI: creating '[F26-QUERY-001] OPTIONS /api/v1/query'
+  -> PBI id=1276
+PBI: creating '[F26-QUERY-002] POST /api/v1/query'
+  -> PBI id=1277
+PBI: creating '[F26-QUERY-003] POST /query'
+  -> PBI id=1278
+PBI: creating '[F26-QUERY-004] POST /query/doc'
+  -> PBI id=1279
+PBI: creating '[F26-QUERY-005] POST /query/collection'
+  -> PBI id=1280
+PBI: creating '[F26-TENANT-001] GET /api/v1/tenant/stats'
+  -> PBI id=1281
+PBI: creating '[F26-RESOURCE-001] GET /api/v1/resource'
+  -> PBI id=1282
+PBI: creating '[F26-SPEECH-001] POST /speech'
+  -> PBI id=1283
+PBI: creating '[F26-TRANSCRIPTIO-001] POST /transcriptions'
+  -> PBI id=1284
+PBI: creating '[F26-VOICES-001] GET /voices'
+  -> PBI id=1285
+PBI: creating '[F26-UPDATE-001] POST /update/profile'
+  -> PBI id=1286
+PBI: creating '[F26-UPDATE-002] POST /update/password'
+  -> PBI id=1287
+PBI: creating '[F26-LDAP-001] POST /ldap'
+  -> PBI id=1288
+PBI: creating '[F26-SIGNIN-001] POST /signin'
+  -> PBI id=1289
+PBI: creating '[F26-SIGNUP-001] POST /signup'
+  -> PBI id=1290
+PBI: creating '[F26-SIGNOUT-001] GET /signout'
+  -> PBI id=1291
+PBI: creating '[F26-ADD-001] POST /add'
+  -> PBI id=1292
+PBI: creating '[F26-ADD-002] POST /add'
+  -> PBI id=1293
+PBI: creating '[F26-ADD-003] POST /add'
+  -> PBI id=1294
+PBI: creating '[F26-ADMIN-001] GET /admin/details'
+  -> PBI id=1295
+PBI: creating '[F26-ADMIN-002] GET /admin/config'
+  -> PBI id=1296
+PBI: creating '[F26-ADMIN-003] POST /admin/config'
+  -> PBI id=1297
+PBI: creating '[F26-ADMIN-004] GET /admin/config/ldap/server'
+  -> PBI id=1298
+PBI: creating '[F26-ADMIN-005] POST /admin/config/ldap/server'
+  -> PBI id=1299
+PBI: creating '[F26-ADMIN-006] GET /admin/config/ldap'
+  -> PBI id=1300
+PBI: creating '[F26-ADMIN-007] POST /admin/config/ldap'
+  -> PBI id=1301
+PBI: creating '[F26-API_KEY-001] POST /api_key'
+  -> PBI id=1302
+PBI: creating '[F26-API_KEY-002] DELETE /api_key'
+  -> PBI id=1303
+PBI: creating '[F26-API_KEY-003] GET /api_key'
+  -> PBI id=1304
+PBI: creating '[F26-LIST-001] GET /list'
+  -> PBI id=1305
+PBI: creating '[F26-LIST-002] GET /list'
+  -> PBI id=1306
+PBI: creating '[F26-LIST-003] GET /list/user/{user_id}'
+  -> PBI id=1307
+PBI: creating '[F26-LIST-004] GET /list'
+  -> PBI id=1308
+PBI: creating '[F26-LIST-005] GET /list'
+  -> PBI id=1309
+PBI: creating '[F26-LIST-006] GET /list'
+  -> PBI id=1310
+PBI: creating '[F26-LIST-007] GET /list'
+  -> PBI id=1311
+PBI: creating '[F26-LIST-008] GET /list'
+  -> PBI id=1312
+PBI: creating '[F26-LIST-009] GET /list'
+  -> PBI id=1313
+PBI: creating '[F26-LIST-010] GET /list'
+  -> PBI id=1314
+PBI: creating '[F26-CREATE-001] POST /create'
+  -> PBI id=1315
+PBI: creating '[F26-CREATE-002] POST /create'
+  -> PBI id=1316
+PBI: creating '[F26-CREATE-003] POST /create'
+  -> PBI id=1317
+PBI: creating '[F26-CREATE-004] POST /create'
+  -> PBI id=1318
+PBI: creating '[F26-CREATE-005] POST /create'
+  -> PBI id=1319
+PBI: creating '[F26-CREATE-006] POST /create'
+  -> PBI id=1320
+PBI: creating '[F26-CREATE-007] POST /api/create'
+  -> PBI id=1321
+PBI: creating '[F26-CREATE-008] POST /api/create/{url_idx}'
+  -> PBI id=1322
+PBI: creating '[F26-CREATE-009] POST /create'
+  -> PBI id=1323
+PBI: creating '[F26-CREATE-010] POST /create'
+  -> PBI id=1324
+PBI: creating '[F26-ID-001] GET /{id}'
+  -> PBI id=1325
+PBI: creating '[F26-ID-002] GET /{id}/users'
+  -> PBI id=1326
+PBI: creating '[F26-ID-003] POST /{id}/update'
+  -> PBI id=1327
+PBI: creating '[F26-ID-004] DELETE /{id}/delete'
+  -> PBI id=1328
+PBI: creating '[F26-ID-005] GET /{id}/messages'
+  -> PBI id=1329
+PBI: creating '[F26-ID-006] POST /{id}/messages/post'
+  -> PBI id=1330
+PBI: creating '[F26-ID-007] GET /{id}/messages/{message_id}'
+  -> PBI id=1331
+PBI: creating '[F26-ID-008] GET /{id}/messages/{message_id}/thread'
+  -> PBI id=1332
+PBI: creating '[F26-ID-009] POST /{id}/messages/{message_id}/update'
+  -> PBI id=1333
+PBI: creating '[F26-ID-010] POST /{id}/messages/{message_id}/reactions/add'
+  -> PBI id=1334
+PBI: creating '[F26-ID-011] POST /{id}/messages/{message_id}/reactions/remove'
+  -> PBI id=1335
+PBI: creating '[F26-ID-012] DELETE /{id}/messages/{message_id}/delete'
+  -> PBI id=1336
+PBI: creating '[F26-ID-013] GET /{id}'
+  -> PBI id=1337
+PBI: creating '[F26-ID-014] POST /{id}'
+  -> PBI id=1338
+PBI: creating '[F26-ID-015] POST /{id}/messages/{message_id}'
+  -> PBI id=1339
+PBI: creating '[F26-ID-016] POST /{id}/messages/{message_id}/event'
+  -> PBI id=1340
+PBI: creating '[F26-ID-017] DELETE /{id}'
+  -> PBI id=1341
+PBI: creating '[F26-ID-018] GET /{id}/pinned'
+  -> PBI id=1342
+PBI: creating '[F26-ID-019] POST /{id}/pin'
+  -> PBI id=1343
+PBI: creating '[F26-ID-020] POST /{id}/clone'
+  -> PBI id=1344
+PBI: creating '[F26-ID-021] POST /{id}/clone/shared'
+  -> PBI id=1345
+PBI: creating '[F26-ID-022] POST /{id}/archive'
+  -> PBI id=1346
+PBI: creating '[F26-ID-023] POST /{id}/share'
+  -> PBI id=1347
+PBI: creating '[F26-ID-024] DELETE /{id}/share'
+  -> PBI id=1348
+PBI: creating '[F26-ID-025] POST /{id}/folder'
+  -> PBI id=1349
+PBI: creating '[F26-ID-026] GET /{id}/tags'
+  -> PBI id=1350
+PBI: creating '[F26-ID-027] POST /{id}/tags'
+  -> PBI id=1351
+PBI: creating '[F26-ID-028] DELETE /{id}/tags'
+  -> PBI id=1352
+PBI: creating '[F26-ID-029] DELETE /{id}/tags/all'
+  -> PBI id=1353
+PBI: creating '[F26-ID-030] GET /{id}'
+  -> PBI id=1354
+PBI: creating '[F26-ID-031] GET /{id}/process/status'
+  -> PBI id=1355
+PBI: creating '[F26-ID-032] GET /{id}/data/content'
+  -> PBI id=1356
+PBI: creating '[F26-ID-033] POST /{id}/data/content/update'
+  -> PBI id=1357
+PBI: creating '[F26-ID-034] GET /{id}/content'
+  -> PBI id=1358
+PBI: creating '[F26-ID-035] GET /{id}/content/html'
+  -> PBI id=1359
+PBI: creating '[F26-ID-036] GET /{id}/content/{file_name}'
+  -> PBI id=1360
+PBI: creating '[F26-ID-037] DELETE /{id}'
+  -> PBI id=1361
+PBI: creating '[F26-ID-038] GET /{id}'
+  -> PBI id=1362
+PBI: creating '[F26-ID-039] POST /{id}/update'
+  -> PBI id=1363
+PBI: creating '[F26-ID-040] POST /{id}/update/parent'
+  -> PBI id=1364
+PBI: creating '[F26-ID-041] POST /{id}/update/expanded'
+  -> PBI id=1365
+PBI: creating '[F26-ID-042] DELETE /{id}'
+  -> PBI id=1366
+PBI: creating '[F26-ID-043] GET /id/{id}'
+  -> PBI id=1367
+PBI: creating '[F26-ID-044] POST /id/{id}/toggle'
+  -> PBI id=1368
+PBI: creating '[F26-ID-045] POST /id/{id}/toggle/global'
+  -> PBI id=1369
+PBI: creating '[F26-ID-046] POST /id/{id}/update'
+  -> PBI id=1370
+PBI: creating '[F26-ID-047] DELETE /id/{id}/delete'
+  -> PBI id=1371
+PBI: creating '[F26-ID-048] GET /id/{id}/valves'
+  -> PBI id=1372
+PBI: creating '[F26-ID-049] GET /id/{id}/valves/spec'
+  -> PBI id=1373
+PBI: creating '[F26-ID-050] POST /id/{id}/valves/update'
+  -> PBI id=1374
+PBI: creating '[F26-ID-051] GET /id/{id}/valves/user'
+  -> PBI id=1375
+PBI: creating '[F26-ID-052] GET /id/{id}/valves/user/spec'
+  -> PBI id=1376
+PBI: creating '[F26-ID-053] POST /id/{id}/valves/user/update'
+  -> PBI id=1377
+PBI: creating '[F26-ID-054] GET /id/{id}'
+  -> PBI id=1378
+PBI: creating '[F26-ID-055] POST /id/{id}/update'
+  -> PBI id=1379
+PBI: creating '[F26-ID-056] POST /id/{id}/users/add'
+  -> PBI id=1380
+PBI: creating '[F26-ID-057] POST /id/{id}/users/remove'
+  -> PBI id=1381
+PBI: creating '[F26-ID-058] DELETE /id/{id}/delete'
+  -> PBI id=1382
+PBI: creating '[F26-ID-059] GET /{id}'
+  -> PBI id=1383
+PBI: creating '[F26-ID-060] POST /{id}/update'
+  -> PBI id=1384
+PBI: creating '[F26-ID-061] POST /{id}/file/add'
+  -> PBI id=1385
+PBI: creating '[F26-ID-062] POST /{id}/file/update'
+  -> PBI id=1386
+PBI: creating '[F26-ID-063] POST /{id}/file/remove'
+  -> PBI id=1387
+PBI: creating '[F26-ID-064] DELETE /{id}/delete'
+  -> PBI id=1388
+PBI: creating '[F26-ID-065] POST /{id}/reset'
+  -> PBI id=1389
+PBI: creating '[F26-ID-066] POST /{id}/files/batch/add'
+  -> PBI id=1390
+PBI: creating '[F26-ID-067] GET /{id}'
+  -> PBI id=1391
+PBI: creating '[F26-ID-068] POST /{id}/update'
+  -> PBI id=1392
+PBI: creating '[F26-ID-069] DELETE /{id}/delete'
+  -> PBI id=1393
+PBI: creating '[F26-ID-070] GET /id/{id}'
+  -> PBI id=1394
+PBI: creating '[F26-ID-071] POST /id/{id}/update'
+  -> PBI id=1395
+PBI: creating '[F26-ID-072] DELETE /id/{id}/delete'
+  -> PBI id=1396
+PBI: creating '[F26-ID-073] GET /id/{id}/valves'
+  -> PBI id=1397
+PBI: creating '[F26-ID-074] GET /id/{id}/valves/spec'
+  -> PBI id=1398
+PBI: creating '[F26-ID-075] POST /id/{id}/valves/update'
+  -> PBI id=1399
+PBI: creating '[F26-ID-076] GET /id/{id}/valves/user'
+  -> PBI id=1400
+PBI: creating '[F26-ID-077] GET /id/{id}/valves/user/spec'
+  -> PBI id=1401
+PBI: creating '[F26-ID-078] POST /id/{id}/valves/user/update'
+  -> PBI id=1402
+PBI: creating '[F26-NEW-001] POST /new'
+  -> PBI id=1403
+PBI: creating '[F26-IMPORT-001] POST /import'
+  -> PBI id=1404
+PBI: creating '[F26-IMPORT-002] POST /import'
+  -> PBI id=1405
+PBI: creating '[F26-IMPORT-003] POST /import'
+  -> PBI id=1406
+PBI: creating '[F26-SEARCH-001] GET /search'
+  -> PBI id=1407
+PBI: creating '[F26-SEARCH-002] GET /search'
+  -> PBI id=1408
+PBI: creating '[F26-SEARCH-003] GET /search'
+  -> PBI id=1409
+PBI: creating '[F26-FOLDER-001] GET /folder/{folder_id}'
+  -> PBI id=1410
+PBI: creating '[F26-FOLDER-002] GET /folder/{folder_id}/list'
+  -> PBI id=1411
+PBI: creating '[F26-PINNED-001] GET /pinned'
+  -> PBI id=1412
+PBI: creating '[F26-ALL-001] GET /all'
+  -> PBI id=1413
+PBI: creating '[F26-ALL-002] GET /all/archived'
+  -> PBI id=1414
+PBI: creating '[F26-ALL-003] GET /all/tags'
+  -> PBI id=1415
+PBI: creating '[F26-ALL-004] GET /all/db'
+  -> PBI id=1416
+PBI: creating '[F26-ALL-005] DELETE /all'
+  -> PBI id=1417
+PBI: creating '[F26-ALL-006] GET /all'
+  -> PBI id=1418
+PBI: creating '[F26-ARCHIVED-001] GET /archived'
+  -> PBI id=1419
+PBI: creating '[F26-ARCHIVE-001] POST /archive/all'
+  -> PBI id=1420
+PBI: creating '[F26-UNARCHIVE-001] POST /unarchive/all'
+  -> PBI id=1421
+PBI: creating '[F26-SHARE-001] GET /share/{share_id}'
+  -> PBI id=1422
+PBI: creating '[F26-TAGS-001] POST /tags'
+  -> PBI id=1423
+PBI: creating '[F26-TAGS-002] GET /tags'
+  -> PBI id=1424
+PBI: creating '[F26-TAGS-003] GET /api/tags'
+  -> PBI id=1425
+PBI: creating '[F26-TAGS-004] GET /api/tags/{url_idx}'
+  -> PBI id=1426
+PBI: creating '[F26-TAGS-005] POST /tags/completions'
+  -> PBI id=1427
+PBI: creating '[F26-EXPORT-001] GET /export'
+  -> PBI id=1428
+PBI: creating '[F26-EXPORT-002] GET /export'
+  -> PBI id=1429
+PBI: creating '[F26-EXPORT-003] GET /export'
+  -> PBI id=1430
+PBI: creating '[F26-EXPORT-004] GET /export'
+  -> PBI id=1431
+PBI: creating '[F26-CONNECTIONS-001] GET /connections'
+  -> PBI id=1432
+PBI: creating '[F26-CONNECTIONS-002] POST /connections'
+  -> PBI id=1433
+PBI: creating '[F26-TOOL_SERVERS-001] GET /tool_servers'
+  -> PBI id=1434
+PBI: creating '[F26-TOOL_SERVERS-002] POST /tool_servers'
+  -> PBI id=1435
+PBI: creating '[F26-TOOL_SERVERS-003] POST /tool_servers/verify'
+  -> PBI id=1436
+PBI: creating '[F26-CODE_EXECUTI-001] GET /code_execution'
+  -> PBI id=1437
+PBI: creating '[F26-CODE_EXECUTI-002] POST /code_execution'
+  -> PBI id=1438
+PBI: creating '[F26-SUGGESTIONS-001] POST /suggestions'
+  -> PBI id=1439
+PBI: creating '[F26-BANNERS-001] POST /banners'
+  -> PBI id=1440
+PBI: creating '[F26-BANNERS-002] GET /banners'
+  -> PBI id=1441
+PBI: creating '[F26-FEEDBACKS-001] GET /feedbacks/all'
+  -> PBI id=1442
+PBI: creating '[F26-FEEDBACKS-002] DELETE /feedbacks/all'
+  -> PBI id=1443
+PBI: creating '[F26-FEEDBACKS-003] GET /feedbacks/all/export'
+  -> PBI id=1444
+PBI: creating '[F26-FEEDBACKS-004] GET /feedbacks/user'
+  -> PBI id=1445
+PBI: creating '[F26-FEEDBACKS-005] DELETE /feedbacks'
+  -> PBI id=1446
+PBI: creating '[F26-FEEDBACKS-006] GET /feedbacks/list'
+  -> PBI id=1447
+PBI: creating '[F26-FEEDBACK-001] POST /feedback'
+  -> PBI id=1448
+PBI: creating '[F26-FEEDBACK-002] GET /feedback/{id}'
+  -> PBI id=1449
+PBI: creating '[F26-FEEDBACK-003] POST /feedback/{id}'
+  -> PBI id=1450
+PBI: creating '[F26-FEEDBACK-004] DELETE /feedback/{id}'
+  -> PBI id=1451
+PBI: creating '[F26-LOAD-001] POST /load/url'
+  -> PBI id=1452
+PBI: creating '[F26-LOAD-002] POST /load/url'
+  -> PBI id=1453
+PBI: creating '[F26-SYNC-001] POST /sync'
+  -> PBI id=1454
+PBI: creating '[F26-SYNC-002] POST /sync'
+  -> PBI id=1455
+PBI: creating '[F26-GENERATIONS-001] POST /generations'
+  -> PBI id=1456
+PBI: creating '[F26-EDIT-001] POST /edit'
+  -> PBI id=1457
+PBI: creating '[F26-REINDEX-001] POST /reindex'
+  -> PBI id=1458
+PBI: creating '[F26-EF-001] GET /ef'
+  -> PBI id=1459
+PBI: creating '[F26-EF-002] GET /ef/{text}'
+  -> PBI id=1460
+PBI: creating '[F26-RESET-001] POST /reset'
+  -> PBI id=1461
+PBI: creating '[F26-RESET-002] POST /reset/db'
+  -> PBI id=1462
+PBI: creating '[F26-RESET-003] POST /reset/uploads'
+  -> PBI id=1463
+PBI: creating '[F26-DELETE-001] DELETE /delete/user'
+  -> PBI id=1464
+PBI: creating '[F26-DELETE-002] DELETE /delete/all'
+  -> PBI id=1465
+PBI: creating '[F26-DELETE-003] DELETE /api/delete'
+  -> PBI id=1466
+PBI: creating '[F26-DELETE-004] DELETE /api/delete/{url_idx}'
+  -> PBI id=1467
+PBI: creating '[F26-DELETE-005] DELETE /delete'
+  -> PBI id=1468
+PBI: creating '[F26-DELETE-006] POST /delete'
+  -> PBI id=1469
+PBI: creating '[F26-MEMORY_ID-001] POST /{memory_id}/update'
+  -> PBI id=1470
+PBI: creating '[F26-MEMORY_ID-002] DELETE /{memory_id}'
+  -> PBI id=1471
+PBI: creating '[F26-BASE-001] GET /base'
+  -> PBI id=1472
+PBI: creating '[F26-MODEL-001] GET /model'
+  -> PBI id=1473
+PBI: creating '[F26-MODEL-002] GET /model/profile/image'
+  -> PBI id=1474
+PBI: creating '[F26-MODEL-003] POST /model/toggle'
+  -> PBI id=1475
+PBI: creating '[F26-MODEL-004] POST /model/update'
+  -> PBI id=1476
+PBI: creating '[F26-MODEL-005] POST /model/delete'
+  -> PBI id=1477
+PBI: creating '[F26-VERIFY-001] POST /verify'
+  -> PBI id=1478
+PBI: creating '[F26-VERIFY-002] POST /verify'
+  -> PBI id=1479
+PBI: creating '[F26-PS-001] GET /api/ps'
+  -> PBI id=1480
+PBI: creating '[F26-UNLOAD-001] POST /api/unload'
+  -> PBI id=1481
+PBI: creating '[F26-PULL-001] POST /api/pull'
+  -> PBI id=1482
+PBI: creating '[F26-PULL-002] POST /api/pull/{url_idx}'
+  -> PBI id=1483
+PBI: creating '[F26-PUSH-001] DELETE /api/push'
+  -> PBI id=1484
+PBI: creating '[F26-PUSH-002] DELETE /api/push/{url_idx}'
+  -> PBI id=1485
+PBI: creating '[F26-COPY-001] POST /api/copy'
+  -> PBI id=1486
+PBI: creating '[F26-COPY-002] POST /api/copy/{url_idx}'
+  -> PBI id=1487
+PBI: creating '[F26-SHOW-001] POST /api/show'
+  -> PBI id=1488
+PBI: creating '[F26-EMBED-001] POST /api/embed'
+  -> PBI id=1489
+PBI: creating '[F26-EMBED-002] POST /api/embed/{url_idx}'
+  -> PBI id=1490
+PBI: creating '[F26-GENERATE-001] POST /api/generate'
+  -> PBI id=1491
+PBI: creating '[F26-GENERATE-002] POST /api/generate/{url_idx}'
+  -> PBI id=1492
+PBI: creating '[F26-COMPLETIONS-001] POST /v1/completions'
+  -> PBI id=1493
+PBI: creating '[F26-COMPLETIONS-002] POST /v1/completions/{url_idx}'
+  -> PBI id=1494
+PBI: creating '[F26-AUDIO-001] POST /audio/speech'
+  -> PBI id=1495
+PBI: creating '[F26-UPLOAD-001] POST /upload'
+  -> PBI id=1496
+PBI: creating '[F26-PIPELINE_ID-001] GET /{pipeline_id}/valves'
+  -> PBI id=1497
+PBI: creating '[F26-PIPELINE_ID-002] GET /{pipeline_id}/valves/spec'
+  -> PBI id=1498
+PBI: creating '[F26-PIPELINE_ID-003] POST /{pipeline_id}/valves/update'
+  -> PBI id=1499
+PBI: creating '[F26-COMMAND-001] GET /command/{command}'
+  -> PBI id=1500
+PBI: creating '[F26-COMMAND-002] POST /command/{command}/update'
+  -> PBI id=1501
+PBI: creating '[F26-COMMAND-003] DELETE /command/{command}/delete'
+  -> PBI id=1502
+PBI: creating '[F26-EMBEDDING-001] GET /embedding'
+  -> PBI id=1503
+PBI: creating '[F26-EMBEDDING-002] POST /embedding/update'
+  -> PBI id=1504
+PBI: creating '[F26-PROCESS-001] POST /process/file'
+  -> PBI id=1505
+PBI: creating '[F26-PROCESS-002] POST /process/text'
+  -> PBI id=1506
+PBI: creating '[F26-PROCESS-003] POST /process/youtube'
+  -> PBI id=1507
+PBI: creating '[F26-PROCESS-004] POST /process/web'
+  -> PBI id=1508
+PBI: creating '[F26-PROCESS-005] POST /process/web/search'
+  -> PBI id=1509
+PBI: creating '[F26-PROCESS-006] POST /process/files/batch'
+  -> PBI id=1510
+PBI: creating '[F26-SERVICEPROVI-001] GET /ServiceProviderConfig'
+  -> PBI id=1511
+PBI: creating '[F26-RESOURCETYPE-001] GET /ResourceTypes'
+  -> PBI id=1512
+PBI: creating '[F26-SCHEMAS-001] GET /Schemas'
+  -> PBI id=1513
+PBI: creating '[F26-USERS-001] GET /Users'
+  -> PBI id=1514
+PBI: creating '[F26-USERS-002] GET /Users/{user_id}'
+  -> PBI id=1515
+PBI: creating '[F26-USERS-003] POST /Users'
+  -> PBI id=1516
+PBI: creating '[F26-USERS-004] PUT /Users/{user_id}'
+  -> PBI id=1517
+PBI: creating '[F26-USERS-005] PATCH /Users/{user_id}'
+  -> PBI id=1518
+PBI: creating '[F26-USERS-006] DELETE /Users/{user_id}'
+  -> PBI id=1519
+PBI: creating '[F26-GROUPS-001] GET /Groups'
+  -> PBI id=1520
+PBI: creating '[F26-GROUPS-002] GET /Groups/{group_id}'
+  -> PBI id=1521
+PBI: creating '[F26-GROUPS-003] POST /Groups'
+  -> PBI id=1522
+PBI: creating '[F26-GROUPS-004] PUT /Groups/{group_id}'
+  -> PBI id=1523
+PBI: creating '[F26-GROUPS-005] PATCH /Groups/{group_id}'
+  -> PBI id=1524
+PBI: creating '[F26-GROUPS-006] DELETE /Groups/{group_id}'
+  -> PBI id=1525
+PBI: creating '[F26-GROUPS-007] GET /groups'
+  -> PBI id=1526
+PBI: creating '[F26-TITLE-001] POST /title/completions'
+  -> PBI id=1527
+PBI: creating '[F26-FOLLOW_UP-001] POST /follow_up/completions'
+  -> PBI id=1528
+PBI: creating '[F26-IMAGE_PROMPT-001] POST /image_prompt/completions'
+  -> PBI id=1529
+PBI: creating '[F26-QUERIES-001] POST /queries/completions'
+  -> PBI id=1530
+PBI: creating '[F26-AUTO-001] POST /auto/completions'
+  -> PBI id=1531
+PBI: creating '[F26-EMOJI-001] POST /emoji/completions'
+  -> PBI id=1532
+PBI: creating '[F26-MOA-001] POST /moa/completions'
+  -> PBI id=1533
+PBI: creating '[F26-ACTIVE-001] GET /active'
+  -> PBI id=1534
+PBI: creating '[F26-PERMISSIONS-001] GET /permissions'
+  -> PBI id=1535
+PBI: creating '[F26-DEFAULT-001] GET /default/permissions'
+  -> PBI id=1536
+PBI: creating '[F26-DEFAULT-002] POST /default/permissions'
+  -> PBI id=1537
+PBI: creating '[F26-USER-001] GET /user/settings'
+  -> PBI id=1538
+PBI: creating '[F26-USER-002] POST /user/settings/update'
+  -> PBI id=1539
+PBI: creating '[F26-USER-003] GET /user/info'
+  -> PBI id=1540
+PBI: creating '[F26-USER-004] POST /user/info/update'
+  -> PBI id=1541
+PBI: creating '[F26-USER_ID-001] GET /{user_id}'
+  -> PBI id=1542
+PBI: creating '[F26-USER_ID-002] GET /{user_id}/oauth/sessions'
+  -> PBI id=1543
+PBI: creating '[F26-USER_ID-003] GET /{user_id}/profile/image'
+  -> PBI id=1544
+PBI: creating '[F26-USER_ID-004] GET /{user_id}/active'
+  -> PBI id=1545
+PBI: creating '[F26-USER_ID-005] POST /{user_id}/update'
+  -> PBI id=1546
+PBI: creating '[F26-USER_ID-006] DELETE /{user_id}'
+  -> PBI id=1547
+PBI: creating '[F26-USER_ID-007] GET /{user_id}/groups'
+  -> PBI id=1548
+PBI: creating '[F26-GRAVATAR-001] GET /gravatar'
+  -> PBI id=1549
+PBI: creating '[F26-CODE-001] POST /code/format'
+  -> PBI id=1550
+PBI: creating '[F26-CODE-002] POST /code/execute'
+  -> PBI id=1551
+PBI: creating '[F26-MARKDOWN-001] POST /markdown'
+  -> PBI id=1552
+PBI: creating '[F26-PDF-001] POST /pdf'
+  -> PBI id=1553
+PBI: creating '[F26-DB-001] GET /db/download'
+  -> PBI id=1554
+PBI: creating '[F26-RAG-001] POST /rag/answer'
+  -> PBI id=1555
+PBI: creating '[F26-RAG-002] POST /rag/answer'
+  -> PBI id=1556
+PBI: creating '[F26-PRICING-001] GET /pricing'
+  -> PBI id=1557
+PBI: creating '[F26-PRICING-002] GET /pricing/:evaKey'
+  -> PBI id=1558
+PBI: creating '[F26-PROJECTS-001] GET /projects'
+  -> PBI id=1559
+PBI: creating '[F26-LAYOUTS-001] GET /layouts/:pageId'
+  -> PBI id=1560
+PBI: creating '[F26-ASSETS-001] GET /assets'
+  -> PBI id=1561
+PBI: creating '[F26-TEMPLATES-001] GET /templates'
+  -> PBI id=1562
+PBI: creating '[F26-UI-001] Route /products/:id'
+  -> PBI id=1563
+PBI: creating '[F26-UI-002] Route /devtools'
+  -> PBI id=1564
+PBI: creating '[F26-UI-003] Route /gc-demo'
+  -> PBI id=1565
+PBI: creating '[F26-UI-004] Route /project-stats'
+  -> PBI id=1566
+PBI: creating '[F26-UI-005] Route /ops/batch'
+  -> PBI id=1567
+PBI: creating '[F26-UI-006] Route /rag/ingest'
+  -> PBI id=1568
+PBI: creating '[F26-UI-007] Route /events'
+  -> PBI id=1569
+PBI: creating '[F26-UI-008] Route /metrics'
+  -> PBI id=1570
+PBI: creating '[F26-UI-009] Route /safety'
+  -> PBI id=1571
+PBI: creating '[F26-INFRA-001] azurerm_resource_group "rg"'
+  -> PBI id=1572
+PBI: creating '[F26-INFRA-002] azurerm_cosmosdb_sql_role_assignment "user_cosmosdb_data_contributor"'
+  -> PBI id=1573
+PBI: creating '[F26-INFRA-003] azurerm_cosmosdb_sql_role_assignment "webApp_cosmosdb_data_contributor"'
+  -> PBI id=1574
+PBI: creating '[F26-INFRA-004] azurerm_cosmosdb_sql_role_assignment "functionApp_cosmosdb_data_contributor"'
+  -> PBI id=1575
+PBI: creating '[F26-INFRA-005] azurerm_cosmosdb_sql_role_assignment "enrichmentApp_cosmosdb_data_contributor"'
+  -> PBI id=1576
+PBI: creating '[F26-INFRA-006] azurerm_resource_group_template_deployment "customer_attribution"'
+  -> PBI id=1577
+PBI: creating '[F26-INFRA-007] azurerm_resource_group "main"'
+  -> PBI id=1578
+PBI: creating '[F26-INFRA-008] azurerm_resource_group "rg"'
+  -> PBI id=1579
+PBI: creating '[F26-INFRA-009] azurerm_cosmosdb_sql_role_assignment "user_cosmosdb_data_contributor"'
+  -> PBI id=1580
+PBI: creating '[F26-INFRA-010] azurerm_cosmosdb_sql_role_assignment "webApp_cosmosdb_data_contributor"'
+  -> PBI id=1581
+PBI: creating '[F26-INFRA-011] azurerm_cosmosdb_sql_role_assignment "functionApp_cosmosdb_data_contributor"'
+  -> PBI id=1582
+PBI: creating '[F26-INFRA-012] azurerm_cosmosdb_sql_role_assignment "enrichmentApp_cosmosdb_data_contributor"'
+  -> PBI id=1583
+PBI: creating '[F26-INFRA-013] azurerm_resource_group_template_deployment "customer_attribution"'
+  -> PBI id=1584
+PBI: creating '[F26-INFRA-014] azurerm_container_registry "acr"'
+  -> PBI id=1585
+PBI: creating '[F26-INFRA-015] azurerm_private_endpoint "ContainerRegistryPrivateEndpoint"'
+  -> PBI id=1586
+PBI: creating '[F26-INFRA-016] azurerm_cosmosdb_account "cosmosdb_account"'
+  -> PBI id=1587
+PBI: creating '[F26-INFRA-017] azurerm_cosmosdb_sql_database "log_database"'
+  -> PBI id=1588
+PBI: creating '[F26-INFRA-018] azurerm_cosmosdb_sql_container "log_container"'
+  -> PBI id=1589
+PBI: creating '[F26-INFRA-019] azurerm_private_endpoint "cosmosPrivateEndpoint"'
+  -> PBI id=1590
+PBI: creating '[F26-INFRA-020] azurerm_search_service "search"'
+  -> PBI id=1591
+PBI: creating '[F26-INFRA-021] azurerm_private_endpoint "searchPrivateEndpoint"'
+  -> PBI id=1592
+PBI: creating '[F26-INFRA-022] azurerm_resource_group_template_deployment "sharepoint_logicapp"'
+  -> PBI id=1593
+PBI: creating '[F26-INFRA-023] azurerm_storage_account "storage"'
+  -> PBI id=1594
+PBI: creating '[F26-INFRA-024] azurerm_monitor_diagnostic_setting "diagnostic_logs"'
+  -> PBI id=1595
+PBI: creating '[F26-INFRA-025] azurerm_monitor_diagnostic_setting "blob_diagnostic_logs"'
+  -> PBI id=1596
+PBI: creating '[F26-INFRA-026] azurerm_monitor_diagnostic_setting "file_diagnostic_logs"'
+  -> PBI id=1597
+PBI: creating '[F26-INFRA-027] azurerm_monitor_diagnostic_setting "queue_diagnostic_logs"'
+  -> PBI id=1598
+PBI: creating '[F26-INFRA-028] azurerm_monitor_diagnostic_setting "table_diagnostic_logs"'
+  -> PBI id=1599
+PBI: creating '[F26-INFRA-029] azurerm_resource_group_template_deployment "container"'
+  -> PBI id=1600
+PBI: creating '[F26-INFRA-030] azurerm_resource_group_template_deployment "queue"'
+  -> PBI id=1601
+PBI: creating '[F26-INFRA-031] azurerm_private_endpoint "blobPrivateEndpoint"'
+  -> PBI id=1602
+PBI: creating '[F26-INFRA-032] azurerm_private_endpoint "filePrivateEndpoint"'
+  -> PBI id=1603
+PBI: creating '[F26-INFRA-033] azurerm_private_endpoint "tablePrivateEndpoint"'
+  -> PBI id=1604
+PBI: creating '[F26-INFRA-034] azurerm_private_endpoint "queuePrivateEndpoint"'
+  -> PBI id=1605
+PBI: creating '[F26-INFRA-035] azurerm_storage_blob "config"'
+  -> PBI id=1606
+PBI: creating '[F26-INFRA-036] azurerm_container_registry "acr"'
+  -> PBI id=1607
+PBI: creating '[F26-INFRA-037] azurerm_private_endpoint "acr"'
+  -> PBI id=1608
+PBI: creating '[F26-INFRA-038] azurerm_kubernetes_cluster "aks"'
+  -> PBI id=1609
+PBI: creating '[F26-INFRA-039] azurerm_kubernetes_cluster_node_pool "user"'
+  -> PBI id=1610
+PBI: creating '[F26-INFRA-040] azurerm_role_assignment "aks_acr_pull"'
+  -> PBI id=1611
+PBI: creating '[F26-INFRA-041] azurerm_public_ip "appgw"'
+  -> PBI id=1612
+PBI: creating '[F26-INFRA-042] azurerm_application_gateway "appgw"'
+  -> PBI id=1613
+PBI: creating '[F26-INFRA-043] azurerm_monitor_diagnostic_setting "appgw"'
+  -> PBI id=1614
+PBI: creating '[F26-INFRA-044] azurerm_log_analytics_workspace "law"'
+  -> PBI id=1615
+PBI: creating '[F26-INFRA-045] azurerm_application_insights "ai"'
+  -> PBI id=1616
+PBI: creating '[F26-INFRA-046] azurerm_monitor_action_group "main"'
+  -> PBI id=1617
+PBI: creating '[F26-INFRA-047] azurerm_monitor_metric_alert "aks_cpu"'
+  -> PBI id=1618
+PBI: creating '[F26-INFRA-048] azurerm_monitor_metric_alert "aks_memory"'
+  -> PBI id=1619
+PBI: creating '[F26-INFRA-049] azurerm_key_vault "kv"'
+  -> PBI id=1620
+PBI: creating '[F26-INFRA-050] azurerm_private_endpoint "kv"'
+  -> PBI id=1621
+PBI: creating '[F26-INFRA-051] azurerm_role_assignment "aks_secrets_user"'
+  -> PBI id=1622
+PBI: creating '[F26-INFRA-052] azurerm_role_assignment "kv_secrets_officer_current"'
+  -> PBI id=1623
+PBI: creating '[F26-INFRA-053] azurerm_key_vault_secret "secrets"'
+  -> PBI id=1624
+PBI: creating '[F26-INFRA-054] azurerm_virtual_network "vnet"'
+  -> PBI id=1625
+PBI: creating '[F26-INFRA-055] azurerm_subnet "aks"'
+  -> PBI id=1626
+PBI: creating '[F26-INFRA-056] azurerm_subnet "appgw"'
+  -> PBI id=1627
+PBI: creating '[F26-INFRA-057] azurerm_subnet "private_endpoint"'
+  -> PBI id=1628
+PBI: creating '[F26-INFRA-058] azurerm_subnet "database"'
+  -> PBI id=1629
+PBI: creating '[F26-INFRA-059] azurerm_network_security_group "aks"'
+  -> PBI id=1630
+PBI: creating '[F26-INFRA-060] azurerm_subnet_network_security_group_association "aks"'
+  -> PBI id=1631
+PBI: creating '[F26-INFRA-061] azurerm_private_dns_zone "acr"'
+  -> PBI id=1632
+PBI: creating '[F26-INFRA-062] azurerm_private_dns_zone_virtual_network_link "acr"'
+  -> PBI id=1633
+PBI: creating '[F26-INFRA-063] azurerm_private_dns_zone "keyvault"'
+  -> PBI id=1634
+PBI: creating '[F26-INFRA-064] azurerm_private_dns_zone_virtual_network_link "keyvault"'
+  -> PBI id=1635
+PBI: creating '[F26-INFRA-065] azurerm_private_dns_zone "aks"'
+  -> PBI id=1636
+PBI: creating '[F26-INFRA-066] azurerm_private_dns_zone_virtual_network_link "aks"'
+  -> PBI id=1637
+PBI: creating '[F26-INFRA-067] azurerm_container_registry "acr"'
+  -> PBI id=1638
+PBI: creating '[F26-INFRA-068] azurerm_private_endpoint "ContainerRegistryPrivateEndpoint"'
+  -> PBI id=1639
+PBI: creating '[F26-INFRA-069] azurerm_cosmosdb_account "cosmosdb_account"'
+  -> PBI id=1640
+PBI: creating '[F26-INFRA-070] azurerm_cosmosdb_sql_database "log_database"'
+  -> PBI id=1641
+PBI: creating '[F26-INFRA-071] azurerm_cosmosdb_sql_container "log_container"'
+  -> PBI id=1642
+PBI: creating '[F26-INFRA-072] azurerm_private_endpoint "cosmosPrivateEndpoint"'
+  -> PBI id=1643
+PBI: creating '[F26-INFRA-073] azurerm_search_service "search"'
+  -> PBI id=1644
+PBI: creating '[F26-INFRA-074] azurerm_private_endpoint "searchPrivateEndpoint"'
+  -> PBI id=1645
+PBI: creating '[F26-INFRA-075] azurerm_resource_group_template_deployment "sharepoint_logicapp"'
+  -> PBI id=1646
+PBI: creating '[F26-INFRA-076] azurerm_storage_account "storage"'
+  -> PBI id=1647
+PBI: creating '[F26-INFRA-077] azurerm_monitor_diagnostic_setting "diagnostic_logs"'
+  -> PBI id=1648
+PBI: creating '[F26-INFRA-078] azurerm_monitor_diagnostic_setting "blob_diagnostic_logs"'
+  -> PBI id=1649
+PBI: creating '[F26-INFRA-079] azurerm_monitor_diagnostic_setting "file_diagnostic_logs"'
+  -> PBI id=1650
+PBI: creating '[F26-INFRA-080] azurerm_monitor_diagnostic_setting "queue_diagnostic_logs"'
+  -> PBI id=1651
+PBI: creating '[F26-INFRA-081] azurerm_monitor_diagnostic_setting "table_diagnostic_logs"'
+  -> PBI id=1652
+PBI: creating '[F26-INFRA-082] azurerm_resource_group_template_deployment "container"'
+  -> PBI id=1653
+PBI: creating '[F26-INFRA-083] azurerm_resource_group_template_deployment "queue"'
+  -> PBI id=1654
+PBI: creating '[F26-INFRA-084] azurerm_private_endpoint "blobPrivateEndpoint"'
+  -> PBI id=1655
+PBI: creating '[F26-INFRA-085] azurerm_private_endpoint "filePrivateEndpoint"'
+  -> PBI id=1656
+PBI: creating '[F26-INFRA-086] azurerm_private_endpoint "tablePrivateEndpoint"'
+  -> PBI id=1657
+PBI: creating '[F26-INFRA-087] azurerm_private_endpoint "queuePrivateEndpoint"'
+  -> PBI id=1658
+PBI: creating '[F26-INFRA-088] azurerm_storage_blob "config"'
+  -> PBI id=1659
+PBI: creating '[F26-INFRA-089] azurerm_cognitive_account "cognitiveService"'
+  -> PBI id=1660
+PBI: creating '[F26-INFRA-090] azurerm_private_endpoint "accountPrivateEndpoint"'
+  -> PBI id=1661
+PBI: creating '[F26-INFRA-091] azurerm_resource_group_template_deployment "bing_search"'
+  -> PBI id=1662
+PBI: creating '[F26-INFRA-092] azurerm_cognitive_account "openaiAccount"'
+  -> PBI id=1663
+PBI: creating '[F26-INFRA-093] azurerm_cognitive_deployment "deployment"'
+  -> PBI id=1664
+PBI: creating '[F26-INFRA-094] azurerm_monitor_diagnostic_setting "diagnostic_logs"'
+  -> PBI id=1665
+PBI: creating '[F26-INFRA-095] azurerm_private_endpoint "openaiPrivateEndpoint"'
+  -> PBI id=1666
+PBI: creating '[F26-INFRA-096] azurerm_cognitive_account "docIntelligenceAccount"'
+  -> PBI id=1667
+PBI: creating '[F26-INFRA-097] azurerm_private_endpoint "docintPrivateEndpoint"'
+  -> PBI id=1668
+PBI: creating '[F26-INFRA-098] azurerm_service_plan "funcServicePlan"'
+  -> PBI id=1669
+PBI: creating '[F26-INFRA-099] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=1670
+PBI: creating '[F26-INFRA-100] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=1671
+PBI: creating '[F26-INFRA-101] azurerm_linux_function_app "function_app"'
+  -> PBI id=1672
+PBI: creating '[F26-INFRA-102] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=1673
+PBI: creating '[F26-INFRA-103] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=1674
+PBI: creating '[F26-INFRA-104] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=1675
+PBI: creating '[F26-INFRA-105] azurerm_private_endpoint "privateFunctionEndpoint"'
+  -> PBI id=1676
+PBI: creating '[F26-INFRA-106] azurerm_service_plan "appServicePlan"'
+  -> PBI id=1677
+PBI: creating '[F26-INFRA-107] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=1678
+PBI: creating '[F26-INFRA-108] azurerm_linux_web_app "enrichmentapp"'
+  -> PBI id=1679
+PBI: creating '[F26-INFRA-109] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=1680
+PBI: creating '[F26-INFRA-110] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=1681
+PBI: creating '[F26-INFRA-111] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=1682
+PBI: creating '[F26-INFRA-112] azurerm_private_endpoint "privateEnrichmentEndpoint"'
+  -> PBI id=1683
+PBI: creating '[F26-INFRA-113] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=1684
+PBI: creating '[F26-INFRA-114] azurerm_service_plan "appServicePlan"'
+  -> PBI id=1685
+PBI: creating '[F26-INFRA-115] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=1686
+PBI: creating '[F26-INFRA-116] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=1687
+PBI: creating '[F26-INFRA-117] azurerm_linux_web_app "app_service"'
+  -> PBI id=1688
+PBI: creating '[F26-INFRA-118] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=1689
+PBI: creating '[F26-INFRA-119] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=1690
+PBI: creating '[F26-INFRA-120] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=1691
+PBI: creating '[F26-INFRA-121] azurerm_private_endpoint "backendPrivateEndpoint"'
+  -> PBI id=1692
+PBI: creating '[F26-INFRA-122] azurerm_log_analytics_workspace "logAnalytics"'
+  -> PBI id=1693
+PBI: creating '[F26-INFRA-123] azurerm_application_insights "applicationInsights"'
+  -> PBI id=1694
+PBI: creating '[F26-INFRA-124] azurerm_monitor_diagnostic_setting "nsg_diagnostic_logs"'
+  -> PBI id=1695
+PBI: creating '[F26-INFRA-125] azurerm_monitor_private_link_scope "ampls"'
+  -> PBI id=1696
+PBI: creating '[F26-INFRA-126] azurerm_monitor_private_link_scoped_service "ampl-ss_log_analytics"'
+  -> PBI id=1697
+PBI: creating '[F26-INFRA-127] azurerm_monitor_private_link_scoped_service "ampl_ss_app_insights"'
+  -> PBI id=1698
+PBI: creating '[F26-INFRA-128] azurerm_private_endpoint "ampls"'
+  -> PBI id=1699
+PBI: creating '[F26-INFRA-129] azurerm_private_dns_zone "monitor"'
+  -> PBI id=1700
+PBI: creating '[F26-INFRA-130] azurerm_private_dns_a_record "monitor_api"'
+  -> PBI id=1701
+PBI: creating '[F26-INFRA-131] azurerm_private_dns_a_record "monitor_global"'
+  -> PBI id=1702
+PBI: creating '[F26-INFRA-132] azurerm_private_dns_a_record "monitor_profiler"'
+  -> PBI id=1703
+PBI: creating '[F26-INFRA-133] azurerm_private_dns_a_record "monitor_live"'
+  -> PBI id=1704
+PBI: creating '[F26-INFRA-134] azurerm_private_dns_a_record "monitor_snapshot"'
+  -> PBI id=1705
+PBI: creating '[F26-INFRA-135] azurerm_private_dns_zone_virtual_network_link "monitor-net"'
+  -> PBI id=1706
+PBI: creating '[F26-INFRA-136] azurerm_private_dns_zone "oms"'
+  -> PBI id=1707
+PBI: creating '[F26-INFRA-137] azurerm_private_dns_a_record "oms_law_id"'
+  -> PBI id=1708
+PBI: creating '[F26-INFRA-138] azurerm_private_dns_zone_virtual_network_link "oms-net"'
+  -> PBI id=1709
+PBI: creating '[F26-INFRA-139] azurerm_private_dns_zone "ods"'
+  -> PBI id=1710
+PBI: creating '[F26-INFRA-140] azurerm_private_dns_a_record "ods_law_id"'
+  -> PBI id=1711
+PBI: creating '[F26-INFRA-141] azurerm_private_dns_zone_virtual_network_link "ods-net"'
+  -> PBI id=1712
+PBI: creating '[F26-INFRA-142] azurerm_private_dns_zone "agentsvc"'
+  -> PBI id=1713
+PBI: creating '[F26-INFRA-143] azurerm_private_dns_a_record "agentsvc_law_id"'
+  -> PBI id=1714
+PBI: creating '[F26-INFRA-144] azurerm_private_dns_zone_virtual_network_link "agentsvc-net"'
+  -> PBI id=1715
+PBI: creating '[F26-INFRA-145] azurerm_private_dns_a_record "blob_scadvisorcontentpld"'
+  -> PBI id=1716
+PBI: creating '[F26-INFRA-146] azurerm_application_insights_workbook "example"'
+  -> PBI id=1717
+PBI: creating '[F26-INFRA-147] azurerm_private_dns_zone "pr_dns_zone"'
+  -> PBI id=1718
+PBI: creating '[F26-INFRA-148] azurerm_private_dns_zone_virtual_network_link "pr_dns_vnet_link"'
+  -> PBI id=1719
+PBI: creating '[F26-INFRA-149] azurerm_network_security_group "nsg"'
+  -> PBI id=1720
+PBI: creating '[F26-INFRA-150] azurerm_network_ddos_protection_plan "ddos"'
+  -> PBI id=1721
+PBI: creating '[F26-INFRA-151] azurerm_resource_group_template_deployment "vnet_w_subnets"'
+  -> PBI id=1722
+PBI: creating '[F26-INFRA-152] azurerm_private_dns_resolver "private_dns_resolver"'
+  -> PBI id=1723
+PBI: creating '[F26-INFRA-153] azurerm_private_dns_resolver_inbound_endpoint "private_dns_resolver"'
+  -> PBI id=1724
+PBI: creating '[F26-INFRA-154] azurerm_key_vault "kv"'
+  -> PBI id=1725
+PBI: creating '[F26-INFRA-155] azurerm_key_vault_access_policy "infoasst"'
+  -> PBI id=1726
+PBI: creating '[F26-INFRA-156] azurerm_private_endpoint "kv_private_endpoint"'
+  -> PBI id=1727
+PBI: creating '[F26-INFRA-157] azurerm_role_assignment "role"'
+  -> PBI id=1728
+PBI: creating '[F26-INFRA-158] azurerm_resource_group_template_deployment "kv_secret"'
+  -> PBI id=1729
+PBI: creating '[F26-INFRA-159] azurerm_resource_group_template_deployment "bing_search"'
+  -> PBI id=1730
+PBI: creating '[F26-INFRA-160] azurerm_cognitive_account "cognitiveService"'
+  -> PBI id=1731
+PBI: creating '[F26-INFRA-161] azurerm_private_endpoint "accountPrivateEndpoint"'
+  -> PBI id=1732
+PBI: creating '[F26-INFRA-162] azurerm_cognitive_account "docIntelligenceAccount"'
+  -> PBI id=1733
+PBI: creating '[F26-INFRA-163] azurerm_private_endpoint "docintPrivateEndpoint"'
+  -> PBI id=1734
+PBI: creating '[F26-INFRA-164] azurerm_cognitive_account "openaiAccount"'
+  -> PBI id=1735
+PBI: creating '[F26-INFRA-165] azurerm_cognitive_deployment "deployment"'
+  -> PBI id=1736
+PBI: creating '[F26-INFRA-166] azurerm_monitor_diagnostic_setting "diagnostic_logs"'
+  -> PBI id=1737
+PBI: creating '[F26-INFRA-167] azurerm_private_endpoint "openaiPrivateEndpoint"'
+  -> PBI id=1738
+PBI: creating '[F26-INFRA-168] azurerm_service_plan "appServicePlan"'
+  -> PBI id=1739
+PBI: creating '[F26-INFRA-169] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=1740
+PBI: creating '[F26-INFRA-170] azurerm_linux_web_app "enrichmentapp"'
+  -> PBI id=1741
+PBI: creating '[F26-INFRA-171] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=1742
+PBI: creating '[F26-INFRA-172] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=1743
+PBI: creating '[F26-INFRA-173] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=1744
+PBI: creating '[F26-INFRA-174] azurerm_private_endpoint "privateEnrichmentEndpoint"'
+  -> PBI id=1745
+PBI: creating '[F26-INFRA-175] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=1746
+PBI: creating '[F26-INFRA-176] azurerm_service_plan "funcServicePlan"'
+  -> PBI id=1747
+PBI: creating '[F26-INFRA-177] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=1748
+PBI: creating '[F26-INFRA-178] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=1749
+PBI: creating '[F26-INFRA-179] azurerm_linux_function_app "function_app"'
+  -> PBI id=1750
+PBI: creating '[F26-INFRA-180] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=1751
+PBI: creating '[F26-INFRA-181] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=1752
+PBI: creating '[F26-INFRA-182] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=1753
+PBI: creating '[F26-INFRA-183] azurerm_private_endpoint "privateFunctionEndpoint"'
+  -> PBI id=1754
+PBI: creating '[F26-INFRA-184] azurerm_service_plan "appServicePlan"'
+  -> PBI id=1755
+PBI: creating '[F26-INFRA-185] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=1756
+PBI: creating '[F26-INFRA-186] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=1757
+PBI: creating '[F26-INFRA-187] azurerm_linux_web_app "app_service"'
+  -> PBI id=1758
+PBI: creating '[F26-INFRA-188] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=1759
+PBI: creating '[F26-INFRA-189] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=1760
+PBI: creating '[F26-INFRA-190] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=1761
+PBI: creating '[F26-INFRA-191] azurerm_private_endpoint "backendPrivateEndpoint"'
+  -> PBI id=1762
+PBI: creating '[F26-INFRA-192] azurerm_log_analytics_workspace "logAnalytics"'
+  -> PBI id=1763
+PBI: creating '[F26-INFRA-193] azurerm_application_insights "applicationInsights"'
+  -> PBI id=1764
+PBI: creating '[F26-INFRA-194] azurerm_monitor_diagnostic_setting "nsg_diagnostic_logs"'
+  -> PBI id=1765
+PBI: creating '[F26-INFRA-195] azurerm_monitor_private_link_scope "ampls"'
+  -> PBI id=1766
+PBI: creating '[F26-INFRA-196] azurerm_monitor_private_link_scoped_service "ampl-ss_log_analytics"'
+  -> PBI id=1767
+PBI: creating '[F26-INFRA-197] azurerm_monitor_private_link_scoped_service "ampl_ss_app_insights"'
+  -> PBI id=1768
+PBI: creating '[F26-INFRA-198] azurerm_private_endpoint "ampls"'
+  -> PBI id=1769
+PBI: creating '[F26-INFRA-199] azurerm_private_dns_zone "monitor"'
+  -> PBI id=1770
+PBI: creating '[F26-INFRA-200] azurerm_private_dns_a_record "monitor_api"'
+  -> PBI id=1771
+PBI: creating '[F26-INFRA-201] azurerm_private_dns_a_record "monitor_global"'
+  -> PBI id=1772
+PBI: creating '[F26-INFRA-202] azurerm_private_dns_a_record "monitor_profiler"'
+  -> PBI id=1773
+PBI: creating '[F26-INFRA-203] azurerm_private_dns_a_record "monitor_live"'
+  -> PBI id=1774
+PBI: creating '[F26-INFRA-204] azurerm_private_dns_a_record "monitor_snapshot"'
+  -> PBI id=1775
+PBI: creating '[F26-INFRA-205] azurerm_private_dns_zone_virtual_network_link "monitor-net"'
+  -> PBI id=1776
+PBI: creating '[F26-INFRA-206] azurerm_private_dns_zone "oms"'
+  -> PBI id=1777
+PBI: creating '[F26-INFRA-207] azurerm_private_dns_a_record "oms_law_id"'
+  -> PBI id=1778
+PBI: creating '[F26-INFRA-208] azurerm_private_dns_zone_virtual_network_link "oms-net"'
+  -> PBI id=1779
+PBI: creating '[F26-INFRA-209] azurerm_private_dns_zone "ods"'
+  -> PBI id=1780
+PBI: creating '[F26-INFRA-210] azurerm_private_dns_a_record "ods_law_id"'
+  -> PBI id=1781
+PBI: creating '[F26-INFRA-211] azurerm_private_dns_zone_virtual_network_link "ods-net"'
+  -> PBI id=1782
+PBI: creating '[F26-INFRA-212] azurerm_private_dns_zone "agentsvc"'
+  -> PBI id=1783
+PBI: creating '[F26-INFRA-213] azurerm_private_dns_a_record "agentsvc_law_id"'
+  -> PBI id=1784
+PBI: creating '[F26-INFRA-214] azurerm_private_dns_zone_virtual_network_link "agentsvc-net"'
+  -> PBI id=1785
+PBI: creating '[F26-INFRA-215] azurerm_private_dns_a_record "blob_scadvisorcontentpld"'
+  -> PBI id=1786
+PBI: creating '[F26-INFRA-216] azurerm_application_insights_workbook "example"'
+  -> PBI id=1787
+PBI: creating '[F26-INFRA-217] azurerm_network_security_group "nsg"'
+  -> PBI id=1788
+PBI: creating '[F26-INFRA-218] azurerm_network_ddos_protection_plan "ddos"'
+  -> PBI id=1789
+PBI: creating '[F26-INFRA-219] azurerm_resource_group_template_deployment "vnet_w_subnets"'
+  -> PBI id=1790
+PBI: creating '[F26-INFRA-220] azurerm_private_dns_resolver "private_dns_resolver"'
+  -> PBI id=1791
+PBI: creating '[F26-INFRA-221] azurerm_private_dns_resolver_inbound_endpoint "private_dns_resolver"'
+  -> PBI id=1792
+PBI: creating '[F26-INFRA-222] azurerm_private_dns_zone "pr_dns_zone"'
+  -> PBI id=1793
+PBI: creating '[F26-INFRA-223] azurerm_private_dns_zone_virtual_network_link "pr_dns_vnet_link"'
+  -> PBI id=1794
+PBI: creating '[F26-INFRA-224] azurerm_key_vault "kv"'
+  -> PBI id=1795
+PBI: creating '[F26-INFRA-225] azurerm_key_vault_access_policy "infoasst"'
+  -> PBI id=1796
+PBI: creating '[F26-INFRA-226] azurerm_private_endpoint "kv_private_endpoint"'
+  -> PBI id=1797
+PBI: creating '[F26-INFRA-227] azurerm_resource_group_template_deployment "kv_secret"'
+  -> PBI id=1798
+PBI: creating '[F26-INFRA-228] azurerm_role_assignment "role"'
+  -> PBI id=1799
+PBI: creating '[F26-OPS-001] command_exists()'
+  -> PBI id=1800
+PBI: creating '[F26-OPS-002] install_azure_cli()'
+  -> PBI id=1801
+PBI: creating '[F26-OPS-003] get_gpu_driver()'
+  -> PBI id=1802
+PBI: creating '[F26-OPS-004] show_loading()'
+  -> PBI id=1803
+PBI: creating '[F26-OPS-005] extract_value()'
+  -> PBI id=1804
+PBI: creating '[F26-OPS-006] check_cmd()'
+  -> PBI id=1805
+PBI: creating '[F26-OPS-007] check_dir()'
+  -> PBI id=1806
+PBI: creating '[F26-OPS-008] write_array_block()'
+  -> PBI id=1807
+PBI: creating '[F26-OPS-009] printInfo()'
+  -> PBI id=1808
+PBI: creating '[F26-OPS-010] set_yellow_text()'
+  -> PBI id=1809
+PBI: creating '[F26-OPS-011] reset_text_color()'
+  -> PBI id=1810
+PBI: creating '[F26-OPS-012] escape_string()'
+  -> PBI id=1811
+PBI: creating '[F26-OPS-013] import_resource_if_needed()'
+  -> PBI id=1812
+PBI: creating '[F26-OPS-014] get_secret()'
+  -> PBI id=1813
+PBI: creating '[F26-OPS-015] set_yellow_text()'
+  -> PBI id=1814
+PBI: creating '[F26-OPS-016] reset_text_color()'
+  -> PBI id=1815
+PBI: creating '[F26-OPS-017] show_usage()'
+  -> PBI id=1816
+PBI: creating '[F26-OPS-018] printInfo()'
+  -> PBI id=1817
+PBI: creating '[F26-OPS-019] write_array_block()'
+  -> PBI id=1818
+PBI: creating '[F26-OPS-020] printInfo()'
+  -> PBI id=1819
+PBI: creating '[F26-OPS-021] set_yellow_text()'
+  -> PBI id=1820
+PBI: creating '[F26-OPS-022] reset_text_color()'
+  -> PBI id=1821
+PBI: creating '[F26-OPS-023] escape_string()'
+  -> PBI id=1822
+PBI: creating '[F26-OPS-024] import_resource_if_needed()'
+  -> PBI id=1823
+PBI: creating '[F26-OPS-025] get_secret()'
+  -> PBI id=1824
+PBI: creating '[F26-OPS-026] set_yellow_text()'
+  -> PBI id=1825
+PBI: creating '[F26-OPS-027] reset_text_color()'
+  -> PBI id=1826
+PBI: creating '[F26-OPS-028] show_usage()'
+  -> PBI id=1827
+PBI: creating '[F26-OPS-029] printInfo()'
+  -> PBI id=1828
+
+=== Import Summary: 26-eva-gh ===
+Epic id  : 989
+Features : 142
+PBIs     : 728
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag                 [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---                 [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F26-01-001           1101 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-01-002           1102 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-01-003           1103 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-01-004           1104 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-01-005           1105 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-02-001           1106 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-02-002           1107 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-02-003           1108 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-02-004           1109 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-02-005           1110 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-03-001           1111 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-03-002           1112 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-03-003           1113 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-04-001           1114 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-04-002           1115 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-04-003           1116 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-05-001           1117 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-05-002           1118 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-05-003           1119 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-001       1120 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-002       1121 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-003       1122 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-004       1123 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-005       1124 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-006       1125 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-007       1126 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-008       1127 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-009       1128 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-010       1129 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-011       1130 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-012       1131 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-013       1132 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-014       1133 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-015       1134 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-016       1135 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-017       1136 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-018       1137 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-019       1138 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-020       1139 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODELS-021       1140 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBEDDINGS-001   1141 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBEDDINGS-002   1142 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBEDDINGS-003   1143 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBEDDINGS-004   1144 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-001         1145 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-002         1146 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-003         1147 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-004         1148 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-005         1149 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-006         1150 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-007         1151 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-008         1152 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-009         1153 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-010         1154 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHAT-011         1155 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TASKS-001        1156 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TASKS-002        1157 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TASKS-003        1158 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-001       1159 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-002       1160 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-003       1161 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-004       1162 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-005       1163 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-006       1164 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-007       1165 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-008       1166 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-009       1167 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-010       1168 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-011       1169 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-012       1170 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-013       1171 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-014       1172 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-015       1173 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONFIG-016       1174 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-WEBHOOK-001      1175 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-WEBHOOK-002      1176 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-VERSION-001      1177 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-VERSION-002      1178 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-VERSION-003      1179 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-VERSION-004      1180 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CHANGELOG-001    1181 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USAGE-001        1182 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OAUTH-001        1183 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OAUTH-002        1184 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OAUTH-003        1185 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OAUTH-004        1186 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OAUTH-005        1187 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OAUTH-006        1188 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MANIFESTJSON-001 1189 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPENSEARCHXM-001 1190 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-HEALTH-001       1191 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-HEALTH-002       1192 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-HEALTH-003       1193 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-HEALTH-004       1194 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-HEALTH-005       1195 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-HEALTH-006       1196 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-HEALTH-007       1197 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CACHE-001        1198 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-001          1199 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-002          1200 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-003          1201 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-004          1202 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-005          1203 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-006          1204 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-007          1205 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-008          1206 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-009          1207 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-010          1208 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-011          1209 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-012          1210 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-013          1211 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-014          1212 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-015          1213 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-016          1214 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-017          1215 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-018          1216 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-019          1217 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-020          1218 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-021          1219 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-022          1220 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-023          1221 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-024          1222 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API-025          1223 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETALLUPLOAD-001 1224 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETALLUPLOAD-002 1225 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETFOLDERS-001   1226 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETFOLDERS-002   1227 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETEITEMS-001  1228 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETEITEMS-002  1229 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RESUBMITITEM-001 1230 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RESUBMITITEM-002 1231 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETTAGS-001      1232 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETTAGS-002      1233 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LOGSTATUS-001    1234 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LOGSTATUS-002    1235 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETINFODATA-001  1236 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETINFODATA-002  1237 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETWARNINGBA-001 1238 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETWARNINGBA-002 1239 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETMAXCSVFIL-001 1240 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETMAXCSVFIL-002 1241 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETCITATION-001  1242 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETCITATION-002  1243 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETAPPLICATI-001 1244 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETAPPLICATI-002 1245 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETALLTAGS-001   1246 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETALLTAGS-002   1247 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETTEMPIMAGE-001 1248 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETTEMPIMAGE-002 1249 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETHINT-001      1250 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETHINT-002      1251 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-POSTTD-001       1252 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-POSTTD-002       1253 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS_TD_A-001 1254 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS_TD_A-002 1255 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETTDANALYSI-001 1256 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETTDANALYSI-002 1257 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-REFRESH-001      1258 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-REFRESH-002      1259 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-STREAM-001       1260 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-STREAM-002       1261 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TDSTREAM-001     1262 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TDSTREAM-002     1263 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS_AGEN-001 1264 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS_AGEN-002 1265 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETFEATUREFL-001 1266 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETFEATUREFL-002 1267 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FILE-001         1268 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FILE-002         1269 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETFILE-001      1270 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GETFILE-002      1271 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-READY-001        1272 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INGEST-001       1273 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DOCUMENTS-001    1274 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COLLECTION-001   1275 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-QUERY-001        1276 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-QUERY-002        1277 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-QUERY-003        1278 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-QUERY-004        1279 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-QUERY-005        1280 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TENANT-001       1281 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RESOURCE-001     1282 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SPEECH-001       1283 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TRANSCRIPTIO-001 1284 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-VOICES-001       1285 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UPDATE-001       1286 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UPDATE-002       1287 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LDAP-001         1288 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SIGNIN-001       1289 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SIGNUP-001       1290 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SIGNOUT-001      1291 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADD-001          1292 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADD-002          1293 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADD-003          1294 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADMIN-001        1295 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADMIN-002        1296 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADMIN-003        1297 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADMIN-004        1298 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADMIN-005        1299 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADMIN-006        1300 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ADMIN-007        1301 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API_KEY-001      1302 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API_KEY-002      1303 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-API_KEY-003      1304 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-001         1305 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-002         1306 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-003         1307 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-004         1308 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-005         1309 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-006         1310 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-007         1311 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-008         1312 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-009         1313 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LIST-010         1314 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-001       1315 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-002       1316 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-003       1317 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-004       1318 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-005       1319 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-006       1320 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-007       1321 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-008       1322 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-009       1323 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CREATE-010       1324 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-001           1325 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-002           1326 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-003           1327 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-004           1328 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-005           1329 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-006           1330 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-007           1331 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-008           1332 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-009           1333 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-010           1334 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-011           1335 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-012           1336 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-013           1337 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-014           1338 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-015           1339 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-016           1340 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-017           1341 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-018           1342 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-019           1343 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-020           1344 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-021           1345 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-022           1346 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-023           1347 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-024           1348 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-025           1349 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-026           1350 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-027           1351 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-028           1352 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-029           1353 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-030           1354 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-031           1355 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-032           1356 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-033           1357 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-034           1358 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-035           1359 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-036           1360 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-037           1361 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-038           1362 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-039           1363 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-040           1364 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-041           1365 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-042           1366 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-043           1367 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-044           1368 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-045           1369 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-046           1370 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-047           1371 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-048           1372 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-049           1373 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-050           1374 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-051           1375 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-052           1376 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-053           1377 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-054           1378 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-055           1379 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-056           1380 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-057           1381 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-058           1382 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-059           1383 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-060           1384 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-061           1385 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-062           1386 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-063           1387 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-064           1388 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-065           1389 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-066           1390 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-067           1391 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-068           1392 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-069           1393 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-070           1394 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-071           1395 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-072           1396 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-073           1397 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-074           1398 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-075           1399 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-076           1400 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-077           1401 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ID-078           1402 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-NEW-001          1403 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-IMPORT-001       1404 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-IMPORT-002       1405 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-IMPORT-003       1406 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SEARCH-001       1407 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SEARCH-002       1408 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SEARCH-003       1409 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FOLDER-001       1410 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FOLDER-002       1411 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PINNED-001       1412 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ALL-001          1413 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ALL-002          1414 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ALL-003          1415 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ALL-004          1416 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ALL-005          1417 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ALL-006          1418 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ARCHIVED-001     1419 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ARCHIVE-001      1420 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UNARCHIVE-001    1421 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SHARE-001        1422 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TAGS-001         1423 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TAGS-002         1424 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TAGS-003         1425 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TAGS-004         1426 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TAGS-005         1427 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EXPORT-001       1428 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EXPORT-002       1429 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EXPORT-003       1430 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EXPORT-004       1431 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONNECTIONS-001  1432 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CONNECTIONS-002  1433 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TOOL_SERVERS-001 1434 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TOOL_SERVERS-002 1435 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TOOL_SERVERS-003 1436 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CODE_EXECUTI-001 1437 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CODE_EXECUTI-002 1438 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SUGGESTIONS-001  1439 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-BANNERS-001      1440 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-BANNERS-002      1441 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACKS-001    1442 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACKS-002    1443 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACKS-003    1444 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACKS-004    1445 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACKS-005    1446 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACKS-006    1447 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACK-001     1448 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACK-002     1449 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACK-003     1450 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FEEDBACK-004     1451 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LOAD-001         1452 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LOAD-002         1453 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SYNC-001         1454 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SYNC-002         1455 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GENERATIONS-001  1456 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EDIT-001         1457 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-REINDEX-001      1458 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EF-001           1459 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EF-002           1460 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RESET-001        1461 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RESET-002        1462 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RESET-003        1463 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETE-001       1464 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETE-002       1465 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETE-003       1466 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETE-004       1467 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETE-005       1468 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DELETE-006       1469 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MEMORY_ID-001    1470 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MEMORY_ID-002    1471 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-BASE-001         1472 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODEL-001        1473 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODEL-002        1474 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODEL-003        1475 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODEL-004        1476 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MODEL-005        1477 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-VERIFY-001       1478 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-VERIFY-002       1479 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PS-001           1480 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UNLOAD-001       1481 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PULL-001         1482 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PULL-002         1483 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PUSH-001         1484 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PUSH-002         1485 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COPY-001         1486 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COPY-002         1487 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SHOW-001         1488 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBED-001        1489 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBED-002        1490 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GENERATE-001     1491 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GENERATE-002     1492 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COMPLETIONS-001  1493 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COMPLETIONS-002  1494 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-AUDIO-001        1495 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UPLOAD-001       1496 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PIPELINE_ID-001  1497 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PIPELINE_ID-002  1498 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PIPELINE_ID-003  1499 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COMMAND-001      1500 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COMMAND-002      1501 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-COMMAND-003      1502 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBEDDING-001    1503 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMBEDDING-002    1504 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS-001      1505 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS-002      1506 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS-003      1507 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS-004      1508 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS-005      1509 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROCESS-006      1510 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SERVICEPROVI-001 1511 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RESOURCETYPE-001 1512 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-SCHEMAS-001      1513 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USERS-001        1514 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USERS-002        1515 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USERS-003        1516 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USERS-004        1517 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USERS-005        1518 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USERS-006        1519 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GROUPS-001       1520 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GROUPS-002       1521 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GROUPS-003       1522 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GROUPS-004       1523 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GROUPS-005       1524 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GROUPS-006       1525 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GROUPS-007       1526 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TITLE-001        1527 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-FOLLOW_UP-001    1528 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-IMAGE_PROMPT-001 1529 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-QUERIES-001      1530 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-AUTO-001         1531 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-EMOJI-001        1532 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MOA-001          1533 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ACTIVE-001       1534 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PERMISSIONS-001  1535 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DEFAULT-001      1536 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DEFAULT-002      1537 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER-001         1538 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER-002         1539 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER-003         1540 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER-004         1541 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER_ID-001      1542 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER_ID-002      1543 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER_ID-003      1544 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER_ID-004      1545 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER_ID-005      1546 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER_ID-006      1547 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-USER_ID-007      1548 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-GRAVATAR-001     1549 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CODE-001         1550 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-CODE-002         1551 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-MARKDOWN-001     1552 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PDF-001          1553 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-DB-001           1554 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RAG-001          1555 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-RAG-002          1556 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PRICING-001      1557 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PRICING-002      1558 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-PROJECTS-001     1559 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-LAYOUTS-001      1560 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-ASSETS-001       1561 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-TEMPLATES-001    1562 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-001           1563 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-002           1564 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-003           1565 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-004           1566 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-005           1567 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-006           1568 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-007           1569 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-008           1570 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-UI-009           1571 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-001        1572 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-002        1573 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-003        1574 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-004        1575 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-005        1576 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-006        1577 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-007        1578 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-008        1579 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-009        1580 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-010        1581 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-011        1582 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-012        1583 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-013        1584 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-014        1585 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-015        1586 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-016        1587 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-017        1588 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-018        1589 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-019        1590 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-020        1591 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-021        1592 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-022        1593 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-023        1594 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-024        1595 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-025        1596 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-026        1597 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-027        1598 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-028        1599 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-029        1600 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-030        1601 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-031        1602 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-032        1603 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-033        1604 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-034        1605 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-035        1606 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-036        1607 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-037        1608 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-038        1609 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-039        1610 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-040        1611 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-041        1612 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-042        1613 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-043        1614 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-044        1615 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-045        1616 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-046        1617 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-047        1618 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-048        1619 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-049        1620 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-050        1621 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-051        1622 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-052        1623 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-053        1624 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-054        1625 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-055        1626 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-056        1627 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-057        1628 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-058        1629 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-059        1630 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-060        1631 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-061        1632 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-062        1633 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-063        1634 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-064        1635 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-065        1636 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-066        1637 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-067        1638 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-068        1639 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-069        1640 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-070        1641 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-071        1642 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-072        1643 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-073        1644 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-074        1645 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-075        1646 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-076        1647 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-077        1648 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-078        1649 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-079        1650 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-080        1651 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-081        1652 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-082        1653 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-083        1654 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-084        1655 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-085        1656 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-086        1657 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-087        1658 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-088        1659 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-089        1660 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-090        1661 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-091        1662 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-092        1663 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-093        1664 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-094        1665 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-095        1666 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-096        1667 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-097        1668 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-098        1669 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-099        1670 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-100        1671 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-101        1672 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-102        1673 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-103        1674 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-104        1675 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-105        1676 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-106        1677 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-107        1678 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-108        1679 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-109        1680 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-110        1681 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-111        1682 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-112        1683 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-113        1684 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-114        1685 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-115        1686 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-116        1687 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-117        1688 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-118        1689 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-119        1690 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-120        1691 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-121        1692 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-122        1693 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-123        1694 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-124        1695 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-125        1696 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-126        1697 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-127        1698 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-128        1699 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-129        1700 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-130        1701 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-131        1702 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-132        1703 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-133        1704 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-134        1705 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-135        1706 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-136        1707 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-137        1708 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-138        1709 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-139        1710 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-140        1711 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-141        1712 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-142        1713 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-143        1714 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-144        1715 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-145        1716 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-146        1717 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-147        1718 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-148        1719 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-149        1720 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-150        1721 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-151        1722 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-152        1723 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-153        1724 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-154        1725 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-155        1726 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-156        1727 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-157        1728 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-158        1729 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-159        1730 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-160        1731 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-161        1732 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-162        1733 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-163        1734 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-164        1735 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-165        1736 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-166        1737 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-167        1738 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-168        1739 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-169        1740 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-170        1741 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-171        1742 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-172        1743 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-173        1744 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-174        1745 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-175        1746 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-176        1747 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-177        1748 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-178        1749 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-179        1750 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-180        1751 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-181        1752 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-182        1753 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-183        1754 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-184        1755 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-185        1756 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-186        1757 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-187        1758 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-188        1759 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-189        1760 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-190        1761 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-191        1762 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-192        1763 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-193        1764 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-194        1765 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-195        1766 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-196        1767 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-197        1768 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-198        1769 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-199        1770 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-200        1771 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-201        1772 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-202        1773 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-203        1774 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-204        1775 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-205        1776 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-206        1777 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-207        1778 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-208        1779 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-209        1780 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-210        1781 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-211        1782 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-212        1783 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-213        1784 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-214        1785 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-215        1786 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-216        1787 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-217        1788 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-218        1789 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-219        1790 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-220        1791 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-221        1792 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-222        1793 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-223        1794 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-224        1795 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-225        1796 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-226        1797 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-227        1798 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-INFRA-228        1799 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-001          1800 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-002          1801 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-003          1802 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-004          1803 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-005          1804 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-006          1805 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-007          1806 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-008          1807 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-009          1808 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-010          1809 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-011          1810 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-012          1811 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-013          1812 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-014          1813 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-015          1814 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-016          1815 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-017          1816 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-018          1817 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-019          1818 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-020          1819 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-021          1820 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-022          1821 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-023          1822 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-024          1823 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-025          1824 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-026          1825 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-027          1826 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-028          1827 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F26-OPS-029          1828 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+

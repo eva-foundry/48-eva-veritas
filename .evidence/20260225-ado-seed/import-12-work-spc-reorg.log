@@ -1,0 +1,163 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0854-ado-import-artifacts-live.log
+
+=== ADO Import: 12-work-spc-reorg ===
+Project maturity : poc
+GitHub repo      : eva-foundry/12-work-spc-reorg
+Dry run          : False
+
+Epic: creating '12-work-spc-reorg'
+  -> Epic id=648
+Feature: existing id=299 - 'Problem Statement'
+Feature: creating 'Proposed Solution'
+  -> Feature id=649
+Feature: creating 'Implementation Plan'
+  -> Feature id=650
+Feature: creating 'Workspace Configurations'
+  -> Feature id=651
+Feature: creating 'Benefits'
+  -> Feature id=652
+Feature: creating 'Rollback Plan'
+  -> Feature id=653
+Feature: creating 'Post-Migration Tasks'
+  -> Feature id=654
+Feature: existing id=233 - 'Success Criteria'
+Feature: creating 'Timeline'
+  -> Feature id=655
+Feature: creating 'Next Steps'
+  -> Feature id=656
+Feature: creating 'Files in This Project'
+  -> Feature id=657
+Feature: existing id=354 - 'References'
+PBI: creating '[F12-01-001] Current Issues'
+  -> PBI id=658
+PBI: creating '[F12-01-002] Current Structure'
+  -> PBI id=659
+PBI: creating '[F12-02-001] Organizational Principles'
+  -> PBI id=660
+PBI: creating '[F12-02-002] Target Structure'
+  -> PBI id=661
+PBI: creating '[F12-02-003] Path Length Comparison'
+  -> PBI id=662
+PBI: creating '[F12-03-001] Phase 1: Backup (5 minutes)'
+  -> PBI id=663
+PBI: creating '[F12-03-002] Phase 2: Create New Structure (2 minutes)'
+  -> PBI id=664
+PBI: creating '[F12-03-003] Phase 3: Move Active Projects (5 minutes)'
+  -> PBI id=665
+PBI: creating '[F12-03-004] Phase 4: Organize All Projects (10 minutes)'
+  -> PBI id=666
+PBI: creating '[F12-03-005] Phase 5: Move Reference Repos (5 minutes)'
+  -> PBI id=667
+PBI: creating '[F12-03-006] Phase 6: Create Convenience Shortcuts (1 minute)'
+  -> PBI id=668
+PBI: creating '[F12-03-007] Phase 7: Create VS Code Workspaces (5 minutes)'
+  -> PBI id=669
+PBI: creating '[F12-03-008] Phase 8: Update Documentation (10 minutes)'
+  -> PBI id=670
+PBI: creating '[F12-04-001] 1. `active-work.code-workspace` (Daily Driver)'
+  -> PBI id=671
+PBI: creating '[F12-04-002] 2. `ms-infojp.code-workspace` (MS-InfoJP Focused)'
+  -> PBI id=672
+PBI: creating '[F12-04-003] 3. `jp-automation.code-workspace` (JP Automation Focused)'
+  -> PBI id=673
+PBI: creating '[F12-04-004] 4. `all-references.code-workspace` (Code Comparison)'
+  -> PBI id=674
+PBI: creating '[F12-05-001] 1. **Shorter Paths**'
+  -> PBI id=675
+PBI: creating '[F12-05-002] 2. **Clear Organization**'
+  -> PBI id=676
+PBI: creating '[F12-05-003] 3. **Focused Workspaces**'
+  -> PBI id=677
+PBI: creating '[F12-05-004] 4. **Easy Scaling**'
+  -> PBI id=678
+PBI: creating '[F12-05-005] 5. **Better Git Workflows**'
+  -> PBI id=679
+PBI: creating '[F12-05-006] 6. **Discoverability**'
+  -> PBI id=680
+PBI: creating '[F12-06-001] Option A: Automated Rollback'
+  -> PBI id=681
+PBI: creating '[F12-06-002] Option B: Manual Rollback'
+  -> PBI id=682
+PBI: creating '[F12-07-001] 1. Update Hardcoded Paths in Scripts'
+  -> PBI id=683
+PBI: creating '[F12-07-002] 2. Update Project Documentation'
+  -> PBI id=684
+PBI: creating '[F12-07-003] 3. Update VS Code Settings'
+  -> PBI id=685
+PBI: creating '[F12-07-004] 4. Update Git Ignore Patterns'
+  -> PBI id=686
+PBI: creating '[F12-07-005] 5. Verify All Symlinks Work'
+  -> PBI id=687
+PBI: creating '[F12-08-001] All active projects accessible at `I:\_active\[project-name]`'
+  -> PBI id=688
+PBI: creating '[F12-08-002] All projects organized in flat `I:\_projects\` structure'
+  -> PBI id=689
+PBI: creating '[F12-08-003] Reference repos in `I:\_reference\`'
+  -> PBI id=690
+PBI: creating '[F12-08-004] VS Code workspaces created and tested'
+  -> PBI id=691
+PBI: creating '[F12-08-005] MS-InfoJP deployment runs without path errors'
+  -> PBI id=692
+PBI: creating '[F12-08-006] JP automation scripts work with new paths'
+  -> PBI id=693
+PBI: creating '[F12-08-007] Bash scripts (if any) work without modification'
+  -> PBI id=694
+PBI: creating '[F12-08-008] All symlinks functional'
+  -> PBI id=695
+PBI: creating '[F12-08-009] Documentation updated'
+  -> PBI id=696
+PBI: creating '[F12-08-010] No broken links in VS Code'
+  -> PBI id=697
+
+=== Import Summary: 12-work-spc-reorg ===
+Epic id  : 648
+Features : 12
+PBIs     : 40
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F12-01-001 658 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-01-002 659 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-02-001 660 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-02-002 661 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-02-003 662 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-001 663 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-002 664 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-003 665 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-004 666 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-005 667 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-006 668 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-007 669 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-03-008 670 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-04-001 671 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-04-002 672 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-04-003 673 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-04-004 674 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-05-001 675 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-05-002 676 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-05-003 677 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-05-004 678 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-05-005 679 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-05-006 680 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-06-001 681 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-06-002 682 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-07-001 683 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-07-002 684 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-07-003 685 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-07-004 686 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-07-005 687 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-001 688 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-002 689 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-003 690 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-004 691 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-005 692 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-006 693 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-007 694 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-008 695 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-009 696 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F12-08-010 697 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

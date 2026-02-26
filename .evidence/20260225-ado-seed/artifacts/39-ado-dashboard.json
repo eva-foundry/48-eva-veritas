@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1028812-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/39-ado-dashboard",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-39",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "39-ado-dashboard",
+    "description": "39-ado-dashboard",
+    "tags": "39-ado-dashboard;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F39-01",
+      "type": "Feature",
+      "title": "Sprint Plan",
+      "description": "Sprint Plan",
+      "tags": "39-ado-dashboard;F39-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F39-02",
+      "type": "Feature",
+      "title": "ADO Setup Checklist (do once)",
+      "description": "ADO Setup Checklist (do once)",
+      "tags": "39-ado-dashboard;F39-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F39-03",
+      "type": "Feature",
+      "title": "Environment Variables Needed",
+      "description": "Environment Variables Needed",
+      "tags": "39-ado-dashboard;F39-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F39-04",
+      "type": "Feature",
+      "title": "31-eva-faces Integration Checklist",
+      "description": "31-eva-faces Integration Checklist",
+      "tags": "39-ado-dashboard;F39-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F39-05",
+      "type": "Feature",
+      "title": "Relationship to eva-faces",
+      "description": "Relationship to eva-faces",
+      "tags": "39-ado-dashboard;F39-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F39-DASHBOARD",
+      "type": "Feature",
+      "title": "DASHBOARD API",
+      "description": "DASHBOARD API",
+      "tags": "39-ado-dashboard;F39-DASHBOARD",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F39-SUMMARY",
+      "type": "Feature",
+      "title": "SUMMARY API",
+      "description": "SUMMARY API",
+      "tags": "39-ado-dashboard;F39-SUMMARY",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F39-UI",
+      "type": "Feature",
+      "title": "UI Pages",
+      "description": "UI Pages",
+      "tags": "39-ado-dashboard;F39-UI",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F39-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F39-01-001] Sprint 1 ? Backend + APIM gateway *(blocked on WI-7 deploy)*",
+      "acceptance_criteria": "Sprint 1 ? Backend + APIM gateway *(blocked on WI-7 deploy)*",
+      "tags": "39-ado-dashboard;F39-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-01",
+      "state": "New",
+      "wbs_id": "F39-01-001"
+    },
+    {
+      "id_hint": "F39-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F39-01-002] Sprint 2 ? EVA Home page *(can start in parallel with Sprint 1)*",
+      "acceptance_criteria": "Sprint 2 ? EVA Home page *(can start in parallel with Sprint 1)*",
+      "tags": "39-ado-dashboard;F39-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-01",
+      "state": "New",
+      "wbs_id": "F39-01-002"
+    },
+    {
+      "id_hint": "F39-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F39-01-003] Sprint 3 ? Sprint Board page",
+      "acceptance_criteria": "Sprint 3 ? Sprint Board page",
+      "tags": "39-ado-dashboard;F39-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-01",
+      "state": "New",
+      "wbs_id": "F39-01-003"
+    },
+    {
+      "id_hint": "F39-01-004",
+      "type": "Product Backlog Item",
+      "title": "[F39-01-004] Sprint 4 ? Velocity + entity tags",
+      "acceptance_criteria": "Sprint 4 ? Velocity + entity tags",
+      "tags": "39-ado-dashboard;F39-01-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-01",
+      "state": "New",
+      "wbs_id": "F39-01-004"
+    },
+    {
+      "id_hint": "F39-01-005",
+      "type": "Product Backlog Item",
+      "title": "[F39-01-005] Milestone backlog (post-Sprint 4)",
+      "acceptance_criteria": "Milestone backlog (post-Sprint 4)",
+      "tags": "39-ado-dashboard;F39-01-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-01",
+      "state": "New",
+      "wbs_id": "F39-01-005"
+    },
+    {
+      "id_hint": "F39-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F39-02-001] Create Feature `EVA ADO Dashboard` under Epic id=4 in ADO",
+      "acceptance_criteria": "Create Feature `EVA ADO Dashboard` under Epic id=4 in ADO",
+      "tags": "39-ado-dashboard;F39-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-02",
+      "state": "New",
+      "wbs_id": "F39-02-001"
+    },
+    {
+      "id_hint": "F39-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F39-02-002] Create WI-0 through WI-6 as User Stories",
+      "acceptance_criteria": "Create WI-0 through WI-6 as User Stories",
+      "tags": "39-ado-dashboard;F39-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-02",
+      "state": "New",
+      "wbs_id": "F39-02-002"
+    },
+    {
+      "id_hint": "F39-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F39-02-003] Set sprint assignments per table above",
+      "acceptance_criteria": "Set sprint assignments per table above",
+      "tags": "39-ado-dashboard;F39-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-02",
+      "state": "New",
+      "wbs_id": "F39-02-003"
+    },
+    {
+      "id_hint": "F39-02-004",
+      "type": "Product Backlog Item",
+      "title": "[F39-02-004] Link WI-1 ? WI-7 (Blocked By)",
+      "acceptance_criteria": "Link WI-1 ? WI-7 (Blocked By)",
+      "tags": "39-ado-dashboard;F39-02-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-02",
+      "state": "New",
+      "wbs_id": "F39-02-004"
+    },
+    {
+      "id_hint": "F39-02-005",
+      "type": "Product Backlog Item",
+      "title": "[F39-02-005] Set `ADO_EPIC_ID=4` in `33-eva-brain-v2` `.env`",
+      "acceptance_criteria": "Set `ADO_EPIC_ID=4` in `33-eva-brain-v2` `.env`",
+      "tags": "39-ado-dashboard;F39-02-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-02",
+      "state": "New",
+      "wbs_id": "F39-02-005"
+    },
+    {
+      "id_hint": "F39-02-006",
+      "type": "Product Backlog Item",
+      "title": "[F39-02-006] Set `ADO_PAT`, `ADO_ORG_URL`, `ADO_PROJECT` in brain `.env`",
+      "acceptance_criteria": "Set `ADO_PAT`, `ADO_ORG_URL`, `ADO_PROJECT` in brain `.env`",
+      "tags": "39-ado-dashboard;F39-02-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-02",
+      "state": "New",
+      "wbs_id": "F39-02-006"
+    },
+    {
+      "id_hint": "F39-02-007",
+      "type": "Product Backlog Item",
+      "title": "[F39-02-007] Create Cosmos container `scrum-cache` (see Sprint 1 setup above)",
+      "acceptance_criteria": "Create Cosmos container `scrum-cache` (see Sprint 1 setup above)",
+      "tags": "39-ado-dashboard;F39-02-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-02",
+      "state": "New",
+      "wbs_id": "F39-02-007"
+    },
+    {
+      "id_hint": "F39-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F39-04-001] Build `EVAHomePage` per epic spec (route `/`)",
+      "acceptance_criteria": "Build `EVAHomePage` per epic spec (route `/`)",
+      "tags": "39-ado-dashboard;F39-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-04",
+      "state": "New",
+      "wbs_id": "F39-04-001"
+    },
+    {
+      "id_hint": "F39-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F39-04-002] Build `SprintBoardPage` per epic spec (route `/devops/sprint`)",
+      "acceptance_criteria": "Build `SprintBoardPage` per epic spec (route `/devops/sprint`)",
+      "tags": "39-ado-dashboard;F39-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-04",
+      "state": "New",
+      "wbs_id": "F39-04-002"
+    },
+    {
+      "id_hint": "F39-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F39-04-003] Add \"Sprint Board\" to sidebar nav (role guard: `viewer` and above)",
+      "acceptance_criteria": "Add \"Sprint Board\" to sidebar nav (role guard: `viewer` and above)",
+      "tags": "39-ado-dashboard;F39-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-04",
+      "state": "New",
+      "wbs_id": "F39-04-003"
+    },
+    {
+      "id_hint": "F39-04-004",
+      "type": "Product Backlog Item",
+      "title": "[F39-04-004] Wire `userRole`, `userName`, `defaultLocale` from eva-faces auth context",
+      "acceptance_criteria": "Wire `userRole`, `userName`, `defaultLocale` from eva-faces auth context",
+      "tags": "39-ado-dashboard;F39-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-04",
+      "state": "New",
+      "wbs_id": "F39-04-004"
+    },
+    {
+      "id_hint": "F39-04-005",
+      "type": "Product Backlog Item",
+      "title": "[F39-04-005] Confirm CORS / auth headers flow through APIM for `/v1/scrum/*`",
+      "acceptance_criteria": "Confirm CORS / auth headers flow through APIM for `/v1/scrum/*`",
+      "tags": "39-ado-dashboard;F39-04-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-04",
+      "state": "New",
+      "wbs_id": "F39-04-005"
+    },
+    {
+      "id_hint": "F39-04-006",
+      "type": "Product Backlog Item",
+      "title": "[F39-04-006] Create ADO WIs FACES-WI-A, FACES-WI-B, FACES-WI-C under eva-faces Feature",
+      "acceptance_criteria": "Create ADO WIs FACES-WI-A, FACES-WI-B, FACES-WI-C under eva-faces Feature",
+      "tags": "39-ado-dashboard;F39-04-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-04",
+      "state": "New",
+      "wbs_id": "F39-04-006"
+    },
+    {
+      "id_hint": "F39-DASHBOARD-001",
+      "type": "Product Backlog Item",
+      "title": "[F39-DASHBOARD-001] GET /dashboard",
+      "acceptance_criteria": "GET /dashboard",
+      "tags": "39-ado-dashboard;F39-DASHBOARD-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-DASHBOARD",
+      "state": "New",
+      "wbs_id": "F39-DASHBOARD-001"
+    },
+    {
+      "id_hint": "F39-SUMMARY-001",
+      "type": "Product Backlog Item",
+      "title": "[F39-SUMMARY-001] GET /summary",
+      "acceptance_criteria": "GET /summary",
+      "tags": "39-ado-dashboard;F39-SUMMARY-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-SUMMARY",
+      "state": "New",
+      "wbs_id": "F39-SUMMARY-001"
+    },
+    {
+      "id_hint": "F39-UI-001",
+      "type": "Product Backlog Item",
+      "title": "[F39-UI-001] EVAHOMEPAGE page",
+      "acceptance_criteria": "EVAHOMEPAGE page",
+      "tags": "39-ado-dashboard;F39-UI-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-UI",
+      "state": "New",
+      "wbs_id": "F39-UI-001"
+    },
+    {
+      "id_hint": "F39-UI-002",
+      "type": "Product Backlog Item",
+      "title": "[F39-UI-002] SPRINTBOARDP page",
+      "acceptance_criteria": "SPRINTBOARDP page",
+      "tags": "39-ado-dashboard;F39-UI-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F39-UI",
+      "state": "New",
+      "wbs_id": "F39-UI-002"
+    }
+  ]
+}

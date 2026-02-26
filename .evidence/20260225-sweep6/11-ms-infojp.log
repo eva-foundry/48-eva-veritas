@@ -1,0 +1,474 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\11-ms-infojp
+[INFO] Prefix: F11
+[INFO] Enrichment applied: code-structure (143 stories)
+[PASS] Written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\veritas-plan.json
+       47 features, 180 stories, 2 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID               Stories  Tasks  Title
+  ????????????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F11-01                  1      0  PROCESS_TD_A API [ID=F11-PROCESS_TD_A]
+  F11-02                  1      0  PROCESS_AGEN API [ID=F11-PROCESS_AGEN]
+  F11-03                  3      0  ?? Quick Start with GitHub Codespaces (5 Minutes)
+  F11-04                  1      0  MVP Goal
+  F11-05                  2      0  Scope
+  F11-06                  2      0  Architecture Overview
+  F11-07                  3      2  Data Ingestion & CanLII CDC Approach
+  F11-08                  3      0  UX Principles and Improvements
+  F11-09                  3      0  Success Criteria (Testable)
+  F11-10                  1      0  Project Structure
+  F11-11                  4      0  Developer Quickstart
+  F11-12                  3      0  Post-Deployment: Cherry-Picking from EVA-JP-v1.2
+  F11-13                  5      0  Delivery Phases
+  F11-14                  7      0  Risks and Mitigations
+  F11-15                  0      0  References
+  F11-16                  0      0  Contact and Support
+  F11-17                  0      0  License
+  F11-API                 4      0  API API
+  F11-HEALTH              4      0  HEALTH API
+  F11-CHAT                2      0  CHAT API
+  F11-GETALLUPLOAD        2      0  GETALLUPLOAD API
+  F11-GETFOLDERS          2      0  GETFOLDERS API
+  F11-DELETEITEMS         2      0  DELETEITEMS API
+  F11-RESUBMITITEM        2      0  RESUBMITITEM API
+  F11-GETTAGS             2      0  GETTAGS API
+  F11-LOGSTATUS           2      0  LOGSTATUS API
+  F11-GETINFODATA         2      0  GETINFODATA API
+  F11-GETWARNINGBA        2      0  GETWARNINGBA API
+  F11-GETMAXCSVFIL        2      0  GETMAXCSVFIL API
+  F11-GETCITATION         2      0  GETCITATION API
+  F11-GETAPPLICATI        2      0  GETAPPLICATI API
+  F11-GETALLTAGS          2      0  GETALLTAGS API
+  F11-GETTEMPIMAGE        2      0  GETTEMPIMAGE API
+  F11-GETHINT             2      0  GETHINT API
+  F11-POSTTD              2      0  POSTTD API
+  F11-GETTDANALYSI        2      0  GETTDANALYSI API
+  F11-REFRESH             2      0  REFRESH API
+  F11-STREAM              2      0  STREAM API
+  F11-TDSTREAM            2      0  TDSTREAM API
+  F11-GETFEATUREFL        2      0  GETFEATUREFL API
+  F11-FILE                2      0  FILE API
+  F11-GETFILE             2      0  GETFILE API
+  F11-MODELS              6      0  MODELS API
+  F11-INFRA             196      0  Infrastructure Resources
+  F11-OPS                26      0  Operations Scripts
+  F11-PROCESS_TD_A        1      0  PROCESS_TD_A API
+  F11-PROCESS_AGEN        1      0  PROCESS_AGEN API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F11-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\11-ms-infojp
+[INFO] Using veritas-plan.json (format: veritas, 323 stories, 2 tasks)
+[INFO] Planned: 47 features, 323 stories
+[INFO] Actual: 533 artifacts, 182 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: MS-InfoJP: Jurisprudence AI Assistant MVP
+=======================================
+Repo:    C:\AICOE\eva-foundation\11-ms-infojp
+Planned: 47 features, 323 stories
+
+Coverage
+---------------------------------------
+Stories total:          323
+Stories with artifacts: 323
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F11-01     PROCESS_TD_A API [ID=F11-PROCE  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F11-02     PROCESS_AGEN API [ID=F11-PROCE  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F11-03     ?? Quick Start with GitHub Cod  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F11-04     MVP Goal                        1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F11-05     Scope                           2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-06     Architecture Overview           2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-07     Data Ingestion & CanLII CDC Ap  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F11-08     UX Principles and Improvements  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F11-09     Success Criteria (Testable)     3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F11-10     Project Structure               1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F11-11     Developer Quickstart            4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F11-12     Post-Deployment: Cherry-Pickin  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F11-13     Delivery Phases                 5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F11-14     Risks and Mitigations           7/7 artifacts  0/7 evidence  0 gaps
+[  0] F11-15     References                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F11-16     Contact and Support             0/0 artifacts  0/0 evidence  0 gaps
+[  0] F11-17     License                         0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F11-API    API API                         4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F11-CHAT   CHAT API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-DELETEITEMS DELETEITEMS API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-FILE   FILE API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETALLTAGS GETALLTAGS API                  2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETALLUPLOAD GETALLUPLOAD API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETAPPLICATI GETAPPLICATI API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETCITATION GETCITATION API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETFEATUREFL GETFEATUREFL API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETFILE GETFILE API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETFOLDERS GETFOLDERS API                  2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETHINT GETHINT API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETINFODATA GETINFODATA API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETMAXCSVFIL GETMAXCSVFIL API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETTAGS GETTAGS API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETTDANALYSI GETTDANALYSI API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETTEMPIMAGE GETTEMPIMAGE API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-GETWARNINGBA GETWARNINGBA API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-HEALTH HEALTH API                      4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F11-INFRA  Infrastructure Resources        196/196 artifacts  0/196 evidence  0 gaps
+[ 50] F11-LOGSTATUS LOGSTATUS API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-MODELS MODELS API                      6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F11-OPS    Operations Scripts              26/26 artifacts  0/26 evidence  0 gaps
+[ 50] F11-POSTTD POSTTD API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-PROCESS_AGEN PROCESS_AGEN API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F11-PROCESS_TD_A PROCESS_TD_A API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F11-REFRESH REFRESH API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-RESUBMITITEM RESUBMITITEM API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-STREAM STREAM API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F11-TDSTREAM TDSTREAM API                    2/2 artifacts  0/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F11-01-001 -- GET /process_td_agent_response [ID=F11-PROCESS_TD_A-001] (1 artifact)
+[IMPL] F11-02-001 -- GET /process_agent_response [ID=F11-PROCESS_AGEN-001] (1 artifact)
+[IMPL] F11-03-001 -- 1. Create Codespace (1 artifact)
+[IMPL] F11-03-002 -- 2. Run Deployment (1 artifact)
+[IMPL] F11-03-003 -- 3. Start Development Servers (1 artifact)
+[IMPL] F11-04-001 -- Advanced Features Roadmap (1 artifact)
+[IMPL] F11-05-001 -- In-Scope for MVP (1 artifact)
+[IMPL] F11-05-002 -- Out-of-Scope for MVP (1 artifact)
+[IMPL] F11-06-001 -- Logical Architecture (ABRG-aligned) (1 artifact)
+[IMPL] F11-06-002 -- Key Components (1 artifact)
+[IMPL] F11-07-001 -- Change Data Capture (CDC) Strategy (1 artifact)
+[IMPL] F11-07-002 -- CDC Core Principles (1 artifact)
+[IMPL] F11-07-003 -- Deterministic Re-runs (1 artifact)
+[IMPL] F11-08-001 -- Current State (Baseline) (1 artifact)
+[IMPL] F11-08-002 -- MVP UX Enhancements (1 artifact)
+[IMPL] F11-08-003 -- Design Philosophy (1 artifact)
+[IMPL] F11-09-001 -- Functional Criteria (1 artifact)
+[IMPL] F11-09-002 -- UX Criteria (1 artifact)
+[IMPL] F11-09-003 -- Non-Functional Criteria (1 artifact)
+[IMPL] F11-10-001 -- Why Fresh Clone Instead of EVA-JP-v1.2? (1 artifact)
+[IMPL] F11-11-001 -- Prerequisites Status (1 artifact)
+[IMPL] F11-11-002 -- Quickstart: GitHub Codespaces (Recommended) (1 artifact)
+[IMPL] F11-11-003 -- Alternative: Local Development Setup (1 artifact)
+[IMPL] F11-11-004 -- Key Configuration Files (1 artifact)
+[IMPL] F11-12-001 -- 1. RAG Approach Enhancements (1 artifact)
+[IMPL] F11-12-002 -- 2. Jurisprudence-Specific Prompts (1 artifact)
+[IMPL] F11-12-003 -- 3. Testing with ESDC Enhancements (1 artifact)
+[IMPL] F11-13-001 -- Phase 0: Baseline Setup (Week 1) (1 artifact)
+[IMPL] F11-13-002 -- Phase 1: JP Ingestion Pipeline (Weeks 2-3) (1 artifact)
+[IMPL] F11-13-003 -- Phase 2: RAG with Citations (Weeks 4-5) (1 artifact)
+[IMPL] F11-13-004 -- Phase 3: UX Polish and Prompt Tuning (Week 6) (1 artifact)
+[IMPL] F11-13-005 -- Phase 4: Hardening and Handoff (Week 7) (1 artifact)
+[IMPL] F11-14-001 -- Risk 1: CanLII API Limitations (1 artifact)
+[IMPL] F11-14-002 -- Risk 2: Citation Accuracy (1 artifact)
+[IMPL] F11-14-003 -- Risk 3: Response Time Exceeds 30 Seconds (1 artifact)
+[IMPL] F11-14-004 -- Risk 4: Insufficient Azure OpenAI Quota (1 artifact)
+[IMPL] F11-14-005 -- Risk 5: Security / Authentication Issues (1 artifact)
+[IMPL] F11-14-006 -- Risk 6: Data Quality Issues (1 artifact)
+[IMPL] F11-14-007 -- Risk 7: Scope Creep (1 artifact)
+[IMPL] F11-API-001 -- GET / (1 artifact)
+[IMPL] F11-API-002 -- GET / (1 artifact)
+[IMPL] F11-API-001 -- GET / (1 artifact)
+[IMPL] F11-API-002 -- GET / (1 artifact)
+[IMPL] F11-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F11-HEALTH-002 -- GET /health (1 artifact)
+[IMPL] F11-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F11-HEALTH-002 -- GET /health (1 artifact)
+[IMPL] F11-CHAT-001 -- POST /chat (1 artifact)
+[IMPL] F11-CHAT-001 -- POST /chat (1 artifact)
+[IMPL] F11-GETALLUPLOAD-001 -- POST /getalluploadstatus (1 artifact)
+[IMPL] F11-GETALLUPLOAD-001 -- POST /getalluploadstatus (1 artifact)
+[IMPL] F11-GETFOLDERS-001 -- POST /getfolders (1 artifact)
+[IMPL] F11-GETFOLDERS-001 -- POST /getfolders (1 artifact)
+[IMPL] F11-DELETEITEMS-001 -- POST /deleteItems (1 artifact)
+[IMPL] F11-DELETEITEMS-001 -- POST /deleteItems (1 artifact)
+[IMPL] F11-RESUBMITITEM-001 -- POST /resubmitItems (1 artifact)
+[IMPL] F11-RESUBMITITEM-001 -- POST /resubmitItems (1 artifact)
+[IMPL] F11-GETTAGS-001 -- POST /gettags (1 artifact)
+[IMPL] F11-GETTAGS-001 -- POST /gettags (1 artifact)
+[IMPL] F11-LOGSTATUS-001 -- POST /logstatus (1 artifact)
+[IMPL] F11-LOGSTATUS-001 -- POST /logstatus (1 artifact)
+[IMPL] F11-GETINFODATA-001 -- GET /getInfoData (1 artifact)
+[IMPL] F11-GETINFODATA-001 -- GET /getInfoData (1 artifact)
+[IMPL] F11-GETWARNINGBA-001 -- GET /getWarningBanner (1 artifact)
+[IMPL] F11-GETWARNINGBA-001 -- GET /getWarningBanner (1 artifact)
+[IMPL] F11-GETMAXCSVFIL-001 -- GET /getMaxCSVFileSize (1 artifact)
+[IMPL] F11-GETMAXCSVFIL-001 -- GET /getMaxCSVFileSize (1 artifact)
+[IMPL] F11-GETCITATION-001 -- POST /getcitation (1 artifact)
+[IMPL] F11-GETCITATION-001 -- POST /getcitation (1 artifact)
+[IMPL] F11-GETAPPLICATI-001 -- GET /getApplicationTitle (1 artifact)
+[IMPL] F11-GETAPPLICATI-001 -- GET /getApplicationTitle (1 artifact)
+[IMPL] F11-GETALLTAGS-001 -- GET /getalltags (1 artifact)
+[IMPL] F11-GETALLTAGS-001 -- GET /getalltags (1 artifact)
+[IMPL] F11-GETTEMPIMAGE-001 -- GET /getTempImages (1 artifact)
+[IMPL] F11-GETTEMPIMAGE-001 -- GET /getTempImages (1 artifact)
+[IMPL] F11-GETHINT-001 -- GET /getHint (1 artifact)
+[IMPL] F11-GETHINT-001 -- GET /getHint (1 artifact)
+[IMPL] F11-POSTTD-001 -- POST /posttd (1 artifact)
+[IMPL] F11-POSTTD-001 -- POST /posttd (1 artifact)
+[IMPL] F11-GETTDANALYSI-001 -- GET /getTdAnalysis (1 artifact)
+[IMPL] F11-GETTDANALYSI-001 -- GET /getTdAnalysis (1 artifact)
+[IMPL] F11-REFRESH-001 -- POST /refresh (1 artifact)
+[IMPL] F11-REFRESH-001 -- POST /refresh (1 artifact)
+[IMPL] F11-STREAM-001 -- GET /stream (1 artifact)
+[IMPL] F11-STREAM-001 -- GET /stream (1 artifact)
+[IMPL] F11-TDSTREAM-001 -- GET /tdstream (1 artifact)
+[IMPL] F11-TDSTREAM-001 -- GET /tdstream (1 artifact)
+[IMPL] F11-GETFEATUREFL-001 -- GET /getFeatureFlags (1 artifact)
+[IMPL] F11-GETFEATUREFL-001 -- GET /getFeatureFlags (1 artifact)
+[IMPL] F11-FILE-001 -- POST /file (1 artifact)
+[IMPL] F11-FILE-001 -- POST /file (1 artifact)
+[IMPL] F11-GETFILE-001 -- POST /get-file (1 artifact)
+[IMPL] F11-GETFILE-001 -- POST /get-file (1 artifact)
+[IMPL] F11-MODELS-001 -- GET /models (1 artifact)
+[IMPL] F11-MODELS-002 -- GET /models/{model} (1 artifact)
+[IMPL] F11-MODELS-003 -- POST /models/{model}/embed (1 artifact)
+[IMPL] F11-MODELS-001 -- GET /models (1 artifact)
+[IMPL] F11-MODELS-002 -- GET /models/{model} (1 artifact)
+[IMPL] F11-MODELS-003 -- POST /models/{model}/embed (1 artifact)
+[IMPL] F11-INFRA-001 -- azurerm_resource_group "rg" (1 artifact)
+[IMPL] F11-INFRA-002 -- azurerm_cosmosdb_sql_role_assignment "user_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-003 -- azurerm_cosmosdb_sql_role_assignment "webApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-004 -- azurerm_cosmosdb_sql_role_assignment "functionApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-005 -- azurerm_cosmosdb_sql_role_assignment "enrichmentApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-006 -- azurerm_resource_group_template_deployment "customer_attribution" (1 artifact)
+[IMPL] F11-INFRA-007 -- azurerm_container_registry "acr" (1 artifact)
+[IMPL] F11-INFRA-008 -- azurerm_private_endpoint "ContainerRegistryPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-009 -- azurerm_cosmosdb_account "cosmosdb_account" (1 artifact)
+[IMPL] F11-INFRA-010 -- azurerm_cosmosdb_sql_database "log_database" (1 artifact)
+[IMPL] F11-INFRA-011 -- azurerm_cosmosdb_sql_container "log_container" (1 artifact)
+[IMPL] F11-INFRA-012 -- azurerm_private_endpoint "cosmosPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-013 -- azurerm_search_service "search" (1 artifact)
+[IMPL] F11-INFRA-014 -- azurerm_private_endpoint "searchPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-015 -- azurerm_resource_group_template_deployment "sharepoint_logicapp" (1 artifact)
+[IMPL] F11-INFRA-016 -- azurerm_storage_account "storage" (1 artifact)
+[IMPL] F11-INFRA-017 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-018 -- azurerm_monitor_diagnostic_setting "blob_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-019 -- azurerm_monitor_diagnostic_setting "file_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-020 -- azurerm_monitor_diagnostic_setting "queue_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-021 -- azurerm_monitor_diagnostic_setting "table_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-022 -- azurerm_resource_group_template_deployment "container" (1 artifact)
+[IMPL] F11-INFRA-023 -- azurerm_resource_group_template_deployment "queue" (1 artifact)
+[IMPL] F11-INFRA-024 -- azurerm_private_endpoint "blobPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-025 -- azurerm_private_endpoint "filePrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-026 -- azurerm_private_endpoint "tablePrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-027 -- azurerm_private_endpoint "queuePrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-028 -- azurerm_storage_blob "config" (1 artifact)
+[IMPL] F11-INFRA-029 -- azurerm_resource_group_template_deployment "bing_search" (1 artifact)
+[IMPL] F11-INFRA-030 -- azurerm_cognitive_account "cognitiveService" (1 artifact)
+[IMPL] F11-INFRA-031 -- azurerm_private_endpoint "accountPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-032 -- azurerm_cognitive_account "docIntelligenceAccount" (1 artifact)
+[IMPL] F11-INFRA-033 -- azurerm_private_endpoint "docintPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-034 -- azurerm_cognitive_account "openaiAccount" (1 artifact)
+[IMPL] F11-INFRA-035 -- azurerm_cognitive_deployment "deployment" (1 artifact)
+[IMPL] F11-INFRA-036 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-037 -- azurerm_private_endpoint "openaiPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-038 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F11-INFRA-039 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F11-INFRA-040 -- azurerm_linux_web_app "enrichmentapp" (1 artifact)
+[IMPL] F11-INFRA-041 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F11-INFRA-042 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F11-INFRA-043 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F11-INFRA-044 -- azurerm_private_endpoint "privateEnrichmentEndpoint" (1 artifact)
+[IMPL] F11-INFRA-045 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F11-INFRA-046 -- azurerm_service_plan "funcServicePlan" (1 artifact)
+[IMPL] F11-INFRA-047 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F11-INFRA-048 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F11-INFRA-049 -- azurerm_linux_function_app "function_app" (1 artifact)
+[IMPL] F11-INFRA-050 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F11-INFRA-051 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F11-INFRA-052 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F11-INFRA-053 -- azurerm_private_endpoint "privateFunctionEndpoint" (1 artifact)
+[IMPL] F11-INFRA-054 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F11-INFRA-055 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F11-INFRA-056 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F11-INFRA-057 -- azurerm_linux_web_app "app_service" (1 artifact)
+[IMPL] F11-INFRA-058 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F11-INFRA-059 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F11-INFRA-060 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F11-INFRA-061 -- azurerm_private_endpoint "backendPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-062 -- azurerm_network_security_group "nsg" (1 artifact)
+[IMPL] F11-INFRA-063 -- azurerm_network_ddos_protection_plan "ddos" (1 artifact)
+[IMPL] F11-INFRA-064 -- azurerm_resource_group_template_deployment "vnet_w_subnets" (1 artifact)
+[IMPL] F11-INFRA-065 -- azurerm_private_dns_resolver "private_dns_resolver" (1 artifact)
+[IMPL] F11-INFRA-066 -- azurerm_private_dns_resolver_inbound_endpoint "private_dns_resolver" (1 artifact)
+[IMPL] F11-INFRA-067 -- azurerm_private_dns_zone "pr_dns_zone" (2 artifacts)
+[IMPL] F11-INFRA-068 -- azurerm_private_dns_zone_virtual_network_link "pr_dns_vnet_link" (1 artifact)
+[IMPL] F11-INFRA-069 -- azurerm_log_analytics_workspace "logAnalytics" (1 artifact)
+[IMPL] F11-INFRA-070 -- azurerm_application_insights "applicationInsights" (1 artifact)
+[IMPL] F11-INFRA-071 -- azurerm_monitor_diagnostic_setting "nsg_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-072 -- azurerm_monitor_private_link_scope "ampls" (1 artifact)
+[IMPL] F11-INFRA-073 -- azurerm_monitor_private_link_scoped_service "ampl-ss_log_analytics" (1 artifact)
+[IMPL] F11-INFRA-074 -- azurerm_monitor_private_link_scoped_service "ampl_ss_app_insights" (1 artifact)
+[IMPL] F11-INFRA-075 -- azurerm_private_endpoint "ampls" (1 artifact)
+[IMPL] F11-INFRA-076 -- azurerm_private_dns_zone "monitor" (1 artifact)
+[IMPL] F11-INFRA-077 -- azurerm_private_dns_a_record "monitor_api" (1 artifact)
+[IMPL] F11-INFRA-078 -- azurerm_private_dns_a_record "monitor_global" (1 artifact)
+[IMPL] F11-INFRA-079 -- azurerm_private_dns_a_record "monitor_profiler" (1 artifact)
+[IMPL] F11-INFRA-080 -- azurerm_private_dns_a_record "monitor_live" (1 artifact)
+[IMPL] F11-INFRA-081 -- azurerm_private_dns_a_record "monitor_snapshot" (1 artifact)
+[IMPL] F11-INFRA-082 -- azurerm_private_dns_zone_virtual_network_link "monitor-net" (1 artifact)
+[IMPL] F11-INFRA-083 -- azurerm_private_dns_zone "oms" (1 artifact)
+[IMPL] F11-INFRA-084 -- azurerm_private_dns_a_record "oms_law_id" (1 artifact)
+[IMPL] F11-INFRA-085 -- azurerm_private_dns_zone_virtual_network_link "oms-net" (1 artifact)
+[IMPL] F11-INFRA-086 -- azurerm_private_dns_zone "ods" (1 artifact)
+[IMPL] F11-INFRA-087 -- azurerm_private_dns_a_record "ods_law_id" (1 artifact)
+[IMPL] F11-INFRA-088 -- azurerm_private_dns_zone_virtual_network_link "ods-net" (1 artifact)
+[IMPL] F11-INFRA-089 -- azurerm_private_dns_zone "agentsvc" (1 artifact)
+[IMPL] F11-INFRA-090 -- azurerm_private_dns_a_record "agentsvc_law_id" (1 artifact)
+[IMPL] F11-INFRA-091 -- azurerm_private_dns_zone_virtual_network_link "agentsvc-net" (1 artifact)
+[IMPL] F11-INFRA-092 -- azurerm_private_dns_a_record "blob_scadvisorcontentpld" (2 artifacts)
+[IMPL] F11-INFRA-093 -- azurerm_application_insights_workbook "example" (1 artifact)
+[IMPL] F11-INFRA-094 -- azurerm_key_vault "kv" (1 artifact)
+[IMPL] F11-INFRA-095 -- azurerm_key_vault_access_policy "infoasst" (1 artifact)
+[IMPL] F11-INFRA-096 -- azurerm_private_endpoint "kv_private_endpoint" (1 artifact)
+[IMPL] F11-INFRA-097 -- azurerm_resource_group_template_deployment "kv_secret" (1 artifact)
+[IMPL] F11-INFRA-098 -- azurerm_role_assignment "role" (1 artifact)
+[IMPL] F11-INFRA-001 -- azurerm_resource_group "rg" (1 artifact)
+[IMPL] F11-INFRA-002 -- azurerm_cosmosdb_sql_role_assignment "user_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-003 -- azurerm_cosmosdb_sql_role_assignment "webApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-004 -- azurerm_cosmosdb_sql_role_assignment "functionApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-005 -- azurerm_cosmosdb_sql_role_assignment "enrichmentApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F11-INFRA-006 -- azurerm_resource_group_template_deployment "customer_attribution" (1 artifact)
+[IMPL] F11-INFRA-007 -- azurerm_container_registry "acr" (1 artifact)
+[IMPL] F11-INFRA-008 -- azurerm_private_endpoint "ContainerRegistryPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-009 -- azurerm_cosmosdb_account "cosmosdb_account" (1 artifact)
+[IMPL] F11-INFRA-010 -- azurerm_cosmosdb_sql_database "log_database" (1 artifact)
+[IMPL] F11-INFRA-011 -- azurerm_cosmosdb_sql_container "log_container" (1 artifact)
+[IMPL] F11-INFRA-012 -- azurerm_private_endpoint "cosmosPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-013 -- azurerm_search_service "search" (1 artifact)
+[IMPL] F11-INFRA-014 -- azurerm_private_endpoint "searchPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-015 -- azurerm_resource_group_template_deployment "sharepoint_logicapp" (1 artifact)
+[IMPL] F11-INFRA-016 -- azurerm_storage_account "storage" (1 artifact)
+[IMPL] F11-INFRA-017 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-018 -- azurerm_monitor_diagnostic_setting "blob_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-019 -- azurerm_monitor_diagnostic_setting "file_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-020 -- azurerm_monitor_diagnostic_setting "queue_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-021 -- azurerm_monitor_diagnostic_setting "table_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-022 -- azurerm_resource_group_template_deployment "container" (1 artifact)
+[IMPL] F11-INFRA-023 -- azurerm_resource_group_template_deployment "queue" (1 artifact)
+[IMPL] F11-INFRA-024 -- azurerm_private_endpoint "blobPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-025 -- azurerm_private_endpoint "filePrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-026 -- azurerm_private_endpoint "tablePrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-027 -- azurerm_private_endpoint "queuePrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-028 -- azurerm_storage_blob "config" (1 artifact)
+[IMPL] F11-INFRA-029 -- azurerm_resource_group_template_deployment "bing_search" (1 artifact)
+[IMPL] F11-INFRA-030 -- azurerm_cognitive_account "cognitiveService" (1 artifact)
+[IMPL] F11-INFRA-031 -- azurerm_private_endpoint "accountPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-032 -- azurerm_cognitive_account "docIntelligenceAccount" (1 artifact)
+[IMPL] F11-INFRA-033 -- azurerm_private_endpoint "docintPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-034 -- azurerm_cognitive_account "openaiAccount" (1 artifact)
+[IMPL] F11-INFRA-035 -- azurerm_cognitive_deployment "deployment" (1 artifact)
+[IMPL] F11-INFRA-036 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-037 -- azurerm_private_endpoint "openaiPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-038 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F11-INFRA-039 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F11-INFRA-040 -- azurerm_linux_web_app "enrichmentapp" (1 artifact)
+[IMPL] F11-INFRA-041 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F11-INFRA-042 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F11-INFRA-043 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F11-INFRA-044 -- azurerm_private_endpoint "privateEnrichmentEndpoint" (1 artifact)
+[IMPL] F11-INFRA-045 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F11-INFRA-046 -- azurerm_service_plan "funcServicePlan" (1 artifact)
+[IMPL] F11-INFRA-047 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F11-INFRA-048 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F11-INFRA-049 -- azurerm_linux_function_app "function_app" (1 artifact)
+[IMPL] F11-INFRA-050 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F11-INFRA-051 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F11-INFRA-052 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F11-INFRA-053 -- azurerm_private_endpoint "privateFunctionEndpoint" (1 artifact)
+[IMPL] F11-INFRA-054 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F11-INFRA-055 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F11-INFRA-056 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F11-INFRA-057 -- azurerm_linux_web_app "app_service" (1 artifact)
+[IMPL] F11-INFRA-058 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F11-INFRA-059 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F11-INFRA-060 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F11-INFRA-061 -- azurerm_private_endpoint "backendPrivateEndpoint" (1 artifact)
+[IMPL] F11-INFRA-062 -- azurerm_log_analytics_workspace "logAnalytics" (1 artifact)
+[IMPL] F11-INFRA-063 -- azurerm_application_insights "applicationInsights" (1 artifact)
+[IMPL] F11-INFRA-064 -- azurerm_monitor_diagnostic_setting "nsg_diagnostic_logs" (1 artifact)
+[IMPL] F11-INFRA-065 -- azurerm_monitor_private_link_scope "ampls" (1 artifact)
+[IMPL] F11-INFRA-066 -- azurerm_monitor_private_link_scoped_service "ampl-ss_log_analytics" (1 artifact)
+[IMPL] F11-INFRA-067 -- azurerm_monitor_private_link_scoped_service "ampl_ss_app_insights" (2 artifacts)
+[IMPL] F11-INFRA-068 -- azurerm_private_endpoint "ampls" (1 artifact)
+[IMPL] F11-INFRA-069 -- azurerm_private_dns_zone "monitor" (1 artifact)
+[IMPL] F11-INFRA-070 -- azurerm_private_dns_a_record "monitor_api" (1 artifact)
+[IMPL] F11-INFRA-071 -- azurerm_private_dns_a_record "monitor_global" (1 artifact)
+[IMPL] F11-INFRA-072 -- azurerm_private_dns_a_record "monitor_profiler" (1 artifact)
+[IMPL] F11-INFRA-073 -- azurerm_private_dns_a_record "monitor_live" (1 artifact)
+[IMPL] F11-INFRA-074 -- azurerm_private_dns_a_record "monitor_snapshot" (1 artifact)
+[IMPL] F11-INFRA-075 -- azurerm_private_dns_zone_virtual_network_link "monitor-net" (1 artifact)
+[IMPL] F11-INFRA-076 -- azurerm_private_dns_zone "oms" (1 artifact)
+[IMPL] F11-INFRA-077 -- azurerm_private_dns_a_record "oms_law_id" (1 artifact)
+[IMPL] F11-INFRA-078 -- azurerm_private_dns_zone_virtual_network_link "oms-net" (1 artifact)
+[IMPL] F11-INFRA-079 -- azurerm_private_dns_zone "ods" (1 artifact)
+[IMPL] F11-INFRA-080 -- azurerm_private_dns_a_record "ods_law_id" (1 artifact)
+[IMPL] F11-INFRA-081 -- azurerm_private_dns_zone_virtual_network_link "ods-net" (1 artifact)
+[IMPL] F11-INFRA-082 -- azurerm_private_dns_zone "agentsvc" (1 artifact)
+[IMPL] F11-INFRA-083 -- azurerm_private_dns_a_record "agentsvc_law_id" (1 artifact)
+[IMPL] F11-INFRA-084 -- azurerm_private_dns_zone_virtual_network_link "agentsvc-net" (1 artifact)
+[IMPL] F11-INFRA-085 -- azurerm_private_dns_a_record "blob_scadvisorcontentpld" (1 artifact)
+[IMPL] F11-INFRA-086 -- azurerm_application_insights_workbook "example" (1 artifact)
+[IMPL] F11-INFRA-087 -- azurerm_network_security_group "nsg" (1 artifact)
+[IMPL] F11-INFRA-088 -- azurerm_network_ddos_protection_plan "ddos" (1 artifact)
+[IMPL] F11-INFRA-089 -- azurerm_resource_group_template_deployment "vnet_w_subnets" (1 artifact)
+[IMPL] F11-INFRA-090 -- azurerm_private_dns_resolver "private_dns_resolver" (1 artifact)
+[IMPL] F11-INFRA-091 -- azurerm_private_dns_resolver_inbound_endpoint "private_dns_resolver" (1 artifact)
+[IMPL] F11-INFRA-092 -- azurerm_private_dns_zone "pr_dns_zone" (2 artifacts)
+[IMPL] F11-INFRA-093 -- azurerm_private_dns_zone_virtual_network_link "pr_dns_vnet_link" (1 artifact)
+[IMPL] F11-INFRA-094 -- azurerm_key_vault "kv" (1 artifact)
+[IMPL] F11-INFRA-095 -- azurerm_key_vault_access_policy "infoasst" (1 artifact)
+[IMPL] F11-INFRA-096 -- azurerm_private_endpoint "kv_private_endpoint" (1 artifact)
+[IMPL] F11-INFRA-097 -- azurerm_resource_group_template_deployment "kv_secret" (1 artifact)
+[IMPL] F11-INFRA-098 -- azurerm_role_assignment "role" (1 artifact)
+[IMPL] F11-OPS-001 -- command_exists() (1 artifact)
+[IMPL] F11-OPS-002 -- install_azure_cli() (1 artifact)
+[IMPL] F11-OPS-003 -- write_array_block() (1 artifact)
+[IMPL] F11-OPS-004 -- printInfo() (1 artifact)
+[IMPL] F11-OPS-005 -- set_yellow_text() (1 artifact)
+[IMPL] F11-OPS-006 -- reset_text_color() (1 artifact)
+[IMPL] F11-OPS-007 -- escape_string() (1 artifact)
+[IMPL] F11-OPS-008 -- import_resource_if_needed() (1 artifact)
+[IMPL] F11-OPS-009 -- get_secret() (1 artifact)
+[IMPL] F11-OPS-010 -- set_yellow_text() (1 artifact)
+[IMPL] F11-OPS-011 -- reset_text_color() (1 artifact)
+[IMPL] F11-OPS-012 -- show_usage() (1 artifact)
+[IMPL] F11-OPS-013 -- printInfo() (1 artifact)
+[IMPL] F11-OPS-001 -- command_exists() (1 artifact)
+[IMPL] F11-OPS-002 -- install_azure_cli() (1 artifact)
+[IMPL] F11-OPS-003 -- write_array_block() (1 artifact)
+[IMPL] F11-OPS-004 -- printInfo() (1 artifact)
+[IMPL] F11-OPS-005 -- set_yellow_text() (1 artifact)
+[IMPL] F11-OPS-006 -- reset_text_color() (1 artifact)
+[IMPL] F11-OPS-007 -- escape_string() (1 artifact)
+[IMPL] F11-OPS-008 -- import_resource_if_needed() (1 artifact)
+[IMPL] F11-OPS-009 -- get_secret() (1 artifact)
+[IMPL] F11-OPS-010 -- set_yellow_text() (1 artifact)
+[IMPL] F11-OPS-011 -- reset_text_color() (1 artifact)
+[IMPL] F11-OPS-012 -- show_usage() (1 artifact)
+[IMPL] F11-OPS-013 -- printInfo() (1 artifact)
+[IMPL] F11-PROCESS_TD_A-001 -- GET /process_td_agent_response (1 artifact)
+[IMPL] F11-PROCESS_AGEN-001 -- GET /process_agent_response (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

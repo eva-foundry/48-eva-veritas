@@ -1,0 +1,37 @@
+EVA-STORY: EO-11-001
+EVA-STORY: EO-11-002
+EVA-STORY: EO-11-003
+EVA-FEATURE: EO-11
+
+EVIDENCE: EO-11 generate-plan Command
+Phase 2 -- COMPLETE 2026-02-24
+Test run: 2026-02-24 (session 3)
+
+EO-11-001 -- infer-plan.js heuristic parser
+  Artifacts: src/lib/infer-plan.js
+  [PASS] Reads PLAN.md (veritas native format: ## Feature / ### Story)
+  [PASS] Reads docs/YYYYMMDD-plan.md (latest dated plan preferred)
+  [PASS] Auto-generates IDs (F48-001 etc.) where [ID=...] not present
+  [PASS] Detects format: veritas-native | phase-sprint | free-form
+  [PASS] derivePrefix("48-eva-veritas") -> "F48"
+
+EO-11-002 -- generate-plan CLI command
+  Artifacts: src/generate-plan.js, src/cli.js
+  [PASS] node src/cli.js generate-plan --repo .
+  [PASS] Output: 11 features, 35 stories, 0 tasks
+  [PASS] Sources: PLAN.md (format: veritas)
+  [PASS] Written: .eva/veritas-plan.json (schema: eva.veritas-plan.v1)
+  [PASS] Feature breakdown table printed to console
+  [PASS] --sync-model flag pushes plan summary to data model API (graceful skip if offline)
+  Sample output table:
+    +ID     Stories  Tasks  Title
+    EO-01         3      0  Discovery Engine
+    EO-07         6      0  MCP Server
+    EO-11         4      0  generate-plan Command
+
+EO-11-003 -- discover.js prefers veritas-plan.json
+  Artifacts: src/discover.js (lines 32-73)
+  [PASS] Checks .eva/veritas-plan.json before calling parsePlan()
+  [PASS] Flattens nested features[].stories[] to { features, stories } shape
+  [PASS] Logs format_detected on load: [INFO] Using veritas-plan.json (format: veritas)
+  [PASS] Falls back to parsePlan(README/PLAN/STATUS) if veritas-plan.json absent or invalid

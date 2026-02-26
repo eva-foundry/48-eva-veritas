@@ -1,0 +1,353 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.7170435-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/18-azure-best",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-18",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "18-azure-best",
+    "description": "18-azure-best",
+    "tags": "18-azure-best;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F18-01",
+      "type": "Feature",
+      "title": "Monitoring and Observability",
+      "description": "Monitoring and Observability",
+      "tags": "18-azure-best;F18-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-02",
+      "type": "Feature",
+      "title": "Cost Management",
+      "description": "Cost Management",
+      "tags": "18-azure-best;F18-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-03",
+      "type": "Feature",
+      "title": "Well-Architected Review",
+      "description": "Well-Architected Review",
+      "tags": "18-azure-best;F18-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-04",
+      "type": "Feature",
+      "title": "Terraform Modules",
+      "description": "Terraform Modules",
+      "tags": "18-azure-best;F18-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-05",
+      "type": "Feature",
+      "title": "Durable Functions Patterns",
+      "description": "Durable Functions Patterns",
+      "tags": "18-azure-best;F18-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-06",
+      "type": "Feature",
+      "title": "Container Apps",
+      "description": "Container Apps",
+      "tags": "18-azure-best;F18-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-07",
+      "type": "Feature",
+      "title": "APIM DevOps",
+      "description": "APIM DevOps",
+      "tags": "18-azure-best;F18-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-08",
+      "type": "Feature",
+      "title": "Enhanced RAG",
+      "description": "Enhanced RAG",
+      "tags": "18-azure-best;F18-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-09",
+      "type": "Feature",
+      "title": "Pipelines",
+      "description": "Pipelines",
+      "tags": "18-azure-best;F18-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-10",
+      "type": "Feature",
+      "title": "Project Templates",
+      "description": "Project Templates",
+      "tags": "18-azure-best;F18-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F18-11",
+      "type": "Feature",
+      "title": "Red Teaming",
+      "description": "Red Teaming",
+      "tags": "18-azure-best;F18-11",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F18-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-01-001] Azure Monitor alert rules and dashboards",
+      "acceptance_criteria": "Azure Monitor alert rules and dashboards",
+      "tags": "18-azure-best;F18-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-01",
+      "state": "New",
+      "wbs_id": "F18-01-001"
+    },
+    {
+      "id_hint": "F18-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-01-002] Log Analytics workspace configuration",
+      "acceptance_criteria": "Log Analytics workspace configuration",
+      "tags": "18-azure-best;F18-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-01",
+      "state": "New",
+      "wbs_id": "F18-01-002"
+    },
+    {
+      "id_hint": "F18-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-02-001] FinOps tagging strategy and policy",
+      "acceptance_criteria": "FinOps tagging strategy and policy",
+      "tags": "18-azure-best;F18-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-02",
+      "state": "New",
+      "wbs_id": "F18-02-001"
+    },
+    {
+      "id_hint": "F18-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-02-002] Budget alerts and spending anomaly detection",
+      "acceptance_criteria": "Budget alerts and spending anomaly detection",
+      "tags": "18-azure-best;F18-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-02",
+      "state": "New",
+      "wbs_id": "F18-02-002"
+    },
+    {
+      "id_hint": "F18-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-03-001] Reliability pillar assessment",
+      "acceptance_criteria": "Reliability pillar assessment",
+      "tags": "18-azure-best;F18-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-03",
+      "state": "New",
+      "wbs_id": "F18-03-001"
+    },
+    {
+      "id_hint": "F18-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-03-002] Security pillar assessment",
+      "acceptance_criteria": "Security pillar assessment",
+      "tags": "18-azure-best;F18-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-03",
+      "state": "New",
+      "wbs_id": "F18-03-002"
+    },
+    {
+      "id_hint": "F18-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-04-001] Landing zone Terraform modules",
+      "acceptance_criteria": "Landing zone Terraform modules",
+      "tags": "18-azure-best;F18-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-04",
+      "state": "New",
+      "wbs_id": "F18-04-001"
+    },
+    {
+      "id_hint": "F18-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-04-002] Reusable network and identity modules",
+      "acceptance_criteria": "Reusable network and identity modules",
+      "tags": "18-azure-best;F18-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-04",
+      "state": "New",
+      "wbs_id": "F18-04-002"
+    },
+    {
+      "id_hint": "F18-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-05-001] Long-running workflow patterns",
+      "acceptance_criteria": "Long-running workflow patterns",
+      "tags": "18-azure-best;F18-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-05",
+      "state": "New",
+      "wbs_id": "F18-05-001"
+    },
+    {
+      "id_hint": "F18-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-05-002] Fan-out fan-in orchestration example",
+      "acceptance_criteria": "Fan-out fan-in orchestration example",
+      "tags": "18-azure-best;F18-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-05",
+      "state": "New",
+      "wbs_id": "F18-05-002"
+    },
+    {
+      "id_hint": "F18-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-06-001] Container Apps environment setup",
+      "acceptance_criteria": "Container Apps environment setup",
+      "tags": "18-azure-best;F18-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-06",
+      "state": "New",
+      "wbs_id": "F18-06-001"
+    },
+    {
+      "id_hint": "F18-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-06-002] DAPR sidecar integration pattern",
+      "acceptance_criteria": "DAPR sidecar integration pattern",
+      "tags": "18-azure-best;F18-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-06",
+      "state": "New",
+      "wbs_id": "F18-06-002"
+    },
+    {
+      "id_hint": "F18-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-07-001] API Management CI/CD pipeline",
+      "acceptance_criteria": "API Management CI/CD pipeline",
+      "tags": "18-azure-best;F18-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-07",
+      "state": "New",
+      "wbs_id": "F18-07-001"
+    },
+    {
+      "id_hint": "F18-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-07-002] Policy fragments and named values",
+      "acceptance_criteria": "Policy fragments and named values",
+      "tags": "18-azure-best;F18-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-07",
+      "state": "New",
+      "wbs_id": "F18-07-002"
+    },
+    {
+      "id_hint": "F18-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-08-001] Hybrid search with semantic ranker",
+      "acceptance_criteria": "Hybrid search with semantic ranker",
+      "tags": "18-azure-best;F18-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-08",
+      "state": "New",
+      "wbs_id": "F18-08-001"
+    },
+    {
+      "id_hint": "F18-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-08-002] Document chunking strategy",
+      "acceptance_criteria": "Document chunking strategy",
+      "tags": "18-azure-best;F18-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-08",
+      "state": "New",
+      "wbs_id": "F18-08-002"
+    },
+    {
+      "id_hint": "F18-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-09-001] Azure DevOps YAML pipeline templates",
+      "acceptance_criteria": "Azure DevOps YAML pipeline templates",
+      "tags": "18-azure-best;F18-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-09",
+      "state": "New",
+      "wbs_id": "F18-09-001"
+    },
+    {
+      "id_hint": "F18-09-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-09-002] GitHub Actions integration",
+      "acceptance_criteria": "GitHub Actions integration",
+      "tags": "18-azure-best;F18-09-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-09",
+      "state": "New",
+      "wbs_id": "F18-09-002"
+    },
+    {
+      "id_hint": "F18-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-10-001] Scaffold new project from template",
+      "acceptance_criteria": "Scaffold new project from template",
+      "tags": "18-azure-best;F18-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-10",
+      "state": "New",
+      "wbs_id": "F18-10-001"
+    },
+    {
+      "id_hint": "F18-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-10-002] Template governance and versioning",
+      "acceptance_criteria": "Template governance and versioning",
+      "tags": "18-azure-best;F18-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-10",
+      "state": "New",
+      "wbs_id": "F18-10-002"
+    },
+    {
+      "id_hint": "F18-11-001",
+      "type": "Product Backlog Item",
+      "title": "[F18-11-001] Promptfoo adversarial test harness",
+      "acceptance_criteria": "Promptfoo adversarial test harness",
+      "tags": "18-azure-best;F18-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-11",
+      "state": "New",
+      "wbs_id": "F18-11-001"
+    },
+    {
+      "id_hint": "F18-11-002",
+      "type": "Product Backlog Item",
+      "title": "[F18-11-002] Risk scoring and remediation guidance",
+      "acceptance_criteria": "Risk scoring and remediation guidance",
+      "tags": "18-azure-best;F18-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F18-11",
+      "state": "New",
+      "wbs_id": "F18-11-002"
+    }
+  ]
+}

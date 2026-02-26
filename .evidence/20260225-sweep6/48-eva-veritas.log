@@ -1,0 +1,187 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\48-eva-veritas
+[INFO] Prefix: F48
+[INFO] Enrichment applied: code-structure (13 stories)
+[PASS] Written: C:\AICOE\eva-foundation\48-eva-veritas\.eva\veritas-plan.json
+       18 features, 53 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID               Stories  Tasks  Title
+  ????????????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  EO-01                   4      0  Discovery Engine
+  EO-02                   3      0  Reconciliation Engine
+  EO-03                   2      0  Trust Scoring (MTI)
+  EO-04                   2      0  ADO Export
+  EO-05                   8      0  CLI Interface
+  EO-06                   2      0  Reporting
+  EO-07                   6      0  MCP Server
+  EO-08                   2      0  37-data-model Integration
+  EO-09                   4      0  38-ado-poc Integration
+  EO-10                   2      0  29-foundry Hosting
+  EO-11                   4      0  generate-plan Command
+  EO-12                   1      0  Model Fidelity Audit
+  F48-CHAT                6      0  CHAT API
+  F48-USERS               6      0  USERS API
+  F48-CONVERSATION        2      0  CONVERSATION API
+  F48-OTHER               2      0  OTHER API
+  F48-PING                2      0  PING API
+  F48-PATH                8      0  PATH API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: EO-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\48-eva-veritas
+[INFO] Using veritas-plan.json (format: veritas, 66 stories, 0 tasks)
+[INFO] Planned: 18 features, 66 stories
+[INFO] Actual: 376 artifacts, 53 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\48-eva-veritas\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\48-eva-veritas\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\48-eva-veritas\.eva\trust.json (score: 92)
+
+=======================================
+EVA Veritas Report: eva-veritas
+=======================================
+Repo:    C:\AICOE\eva-foundation\48-eva-veritas
+Planned: 18 features, 66 stories
+
+Coverage
+---------------------------------------
+Stories total:          66
+Stories with artifacts: 66
+Stories with evidence:  40
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[100] EO-01      Discovery Engine                4/4 artifacts  4/4 evidence  0 gaps
+[100] EO-02      Reconciliation Engine           3/3 artifacts  3/3 evidence  0 gaps
+[100] EO-03      Trust Scoring (MTI)             2/2 artifacts  2/2 evidence  0 gaps
+[100] EO-04      ADO Export                      2/2 artifacts  2/2 evidence  0 gaps
+[100] EO-05      CLI Interface                   8/8 artifacts  8/8 evidence  0 gaps
+[100] EO-06      Reporting                       2/2 artifacts  2/2 evidence  0 gaps
+[100] EO-07      MCP Server                      6/6 artifacts  6/6 evidence  0 gaps
+[100] EO-08      37-data-model Integration       2/2 artifacts  2/2 evidence  0 gaps
+[100] EO-09      38-ado-poc Integration          4/4 artifacts  4/4 evidence  0 gaps
+[100] EO-10      29-foundry Hosting              2/2 artifacts  2/2 evidence  0 gaps
+[100] EO-11      generate-plan Command           4/4 artifacts  4/4 evidence  0 gaps
+[100] EO-12      Model Fidelity Audit            1/1 artifacts  1/1 evidence  0 gaps
+[ 50] F48-CHAT   CHAT API                        6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F48-CONVERSATION CONVERSATION API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F48-OTHER  OTHER API                       2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F48-PATH   PATH API                        8/8 artifacts  0/8 evidence  0 gaps
+[ 50] F48-PING   PING API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F48-USERS  USERS API                       6/6 artifacts  0/6 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] EO-01-001 -- Parse planned model from governance docs (4 artifacts)
+[EVIDENCE] EO-01-002 -- Scan repo for actual artifacts (4 artifacts)
+[EVIDENCE] EO-01-003 -- Map artifacts to stories via EVA-STORY tags (6 artifacts)
+[EVIDENCE] EO-01-004 -- Support .tsx and .jsx files as taggable code artifacts (2 artifacts)
+[EVIDENCE] EO-02-001 -- Compute coverage metrics (3 artifacts)
+[EVIDENCE] EO-02-002 -- Detect gaps (3 artifacts)
+[EVIDENCE] EO-02-003 -- Compute consistency score (3 artifacts)
+[EVIDENCE] EO-03-001 -- Implement MTI formula (5 artifacts)
+[EVIDENCE] EO-03-002 -- Map score to allowed actions (5 artifacts)
+[EVIDENCE] EO-04-001 -- Generate Epic/Feature/Story hierarchy CSV (4 artifacts)
+[EVIDENCE] EO-04-002 -- Annotate stories with gap tags (4 artifacts)
+[EVIDENCE] EO-05-001 -- Implement discover command (5 artifacts)
+[EVIDENCE] EO-05-002 -- Implement reconcile command (4 artifacts)
+[EVIDENCE] EO-05-003 -- Implement compute-trust command (5 artifacts)
+[EVIDENCE] EO-05-004 -- Implement generate-ado command (5 artifacts)
+[EVIDENCE] EO-05-005 -- Implement report command (5 artifacts)
+[EVIDENCE] EO-05-007 -- Implement audit command (4 artifacts)
+[EVIDENCE] EO-05-006 -- Implement scan-portfolio command (3 artifacts)
+[EVIDENCE] EO-05-008 -- Implement init command[IMPL] (3 artifacts)
+[EVIDENCE] EO-06-001 -- Human-readable console report (3 artifacts)
+[EVIDENCE] EO-06-002 -- Evidence-ready .eva/ folder output (3 artifacts)
+[EVIDENCE] EO-07-001 -- Implement MCP server entrypoint[IMPL] (4 artifacts)
+[EVIDENCE] EO-07-002 -- Implement audit_repo MCP tool[IMPL] (4 artifacts)
+[EVIDENCE] EO-07-003 -- Implement get_trust_score MCP tool[IMPL] (4 artifacts)
+[EVIDENCE] EO-07-004 -- Implement get_coverage MCP tool[IMPL] (4 artifacts)
+[EVIDENCE] EO-07-005 -- Implement generate_ado_items MCP tool[IMPL] (4 artifacts)
+[EVIDENCE] EO-07-006 -- Implement scan_portfolio MCP tool[IMPL] (4 artifacts)
+[EVIDENCE] EO-08-001 -- Add /model/admin/audit-repo endpoint to 37-data-model (1 artifact)
+[EVIDENCE] EO-08-002 -- Document model integrity check pattern (1 artifact)
+[EVIDENCE] EO-09-001 -- Add gap-to-PBI pipeline command (4 artifacts)
+[EVIDENCE] EO-09-002 -- Document 38-ado-poc integration pattern (3 artifacts)
+[EVIDENCE] EO-09-003 -- Import OpenAPI spec as plan source[IMPL] (3 artifacts)
+[EVIDENCE] EO-09-004 -- Parse ADO export CSV as plan source[IMPL] (3 artifacts)
+[EVIDENCE] EO-10-001 -- Add eva-veritas MCP server to 29-foundry mcp-servers/ (1 artifact)
+[EVIDENCE] EO-10-002 -- Add eva-veritas skill to 29-foundry copilot-skills/ (1 artifact)
+[EVIDENCE] EO-11-001 -- Implement infer-plan.js heuristic parser (2 artifacts)
+[EVIDENCE] EO-11-002 -- Implement generate-plan CLI command (2 artifacts)
+[EVIDENCE] EO-11-003 -- Update discover.js to prefer veritas-plan.json (2 artifacts)
+[EVIDENCE] EO-11-004 -- Document generate-plan in README.md (2 artifacts)
+[EVIDENCE] EO-12-001 -- Implement model-audit command[IMPL] (4 artifacts)
+[IMPL] F48-CHAT-001 -- GET /v1/chat/history (1 artifact)
+[IMPL] F48-CHAT-002 -- POST /v1/chat/message (1 artifact)
+[IMPL] F48-CHAT-003 -- DELETE /v1/chat/{id} (1 artifact)
+[IMPL] F48-CHAT-001 -- GET /v1/chat/history (1 artifact)
+[IMPL] F48-CHAT-002 -- POST /v1/chat/message (1 artifact)
+[IMPL] F48-CHAT-003 -- DELETE /v1/chat/{id} (1 artifact)
+[IMPL] F48-USERS-001 -- GET /users (1 artifact)
+[IMPL] F48-USERS-002 -- POST /users (1 artifact)
+[IMPL] F48-USERS-003 -- DELETE /users/:id (1 artifact)
+[IMPL] F48-USERS-001 -- GET /users (1 artifact)
+[IMPL] F48-USERS-002 -- POST /users (1 artifact)
+[IMPL] F48-USERS-003 -- DELETE /users/:id (1 artifact)
+[IMPL] F48-CONVERSATION-001 -- GET /v1/conversations (1 artifact)
+[IMPL] F48-CONVERSATION-001 -- GET /v1/conversations (1 artifact)
+[IMPL] F48-OTHER-001 -- GET /v1/other (1 artifact)
+[IMPL] F48-OTHER-001 -- GET /v1/other (1 artifact)
+[IMPL] F48-PING-001 -- GET /v1/ping (1 artifact)
+[IMPL] F48-PING-001 -- GET /v1/ping (1 artifact)
+[IMPL] F48-PATH-001 -- GET /path (1 artifact)
+[IMPL] F48-PATH-002 -- POST /path (1 artifact)
+[IMPL] F48-PATH-003 -- GET /path (1 artifact)
+[IMPL] F48-PATH-004 -- GET /path (1 artifact)
+[IMPL] F48-PATH-001 -- GET /path (1 artifact)
+[IMPL] F48-PATH-002 -- POST /path (1 artifact)
+[IMPL] F48-PATH-003 -- GET /path (1 artifact)
+[IMPL] F48-PATH-004 -- GET /path (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   92 (+20)
+Trend:   100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 83 -> 72 -> 92
+Actions: deploy, merge, release
+Components: coverage=1 evidence=0.61 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   54%  (152/279 declared entities verified)
+[ACT] 127 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [endpoint] GET /v1/health -- declared: implemented -- actual: not_found
+  ... and 119 more
+[ACT] Container 'jobs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+

@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.7715724-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/25-eva-suite",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-25",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "25-eva-suite",
+    "description": "25-eva-suite",
+    "tags": "25-eva-suite;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F25-01",
+      "type": "Feature",
+      "title": "EVA Ecosystem Orchestration",
+      "description": "EVA Ecosystem Orchestration",
+      "tags": "25-eva-suite;F25-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F25-02",
+      "type": "Feature",
+      "title": "Cloud Housekeeping -- Azure",
+      "description": "Cloud Housekeeping -- Azure",
+      "tags": "25-eva-suite;F25-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F25-03",
+      "type": "Feature",
+      "title": "Cloud Housekeeping -- GitHub",
+      "description": "Cloud Housekeeping -- GitHub",
+      "tags": "25-eva-suite;F25-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F25-04",
+      "type": "Feature",
+      "title": "Marco Command Center",
+      "description": "Marco Command Center",
+      "tags": "25-eva-suite;F25-04",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F25-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F25-01-001] Ecosystem refresh orchestrator",
+      "acceptance_criteria": "Ecosystem refresh orchestrator",
+      "tags": "25-eva-suite;F25-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-01",
+      "state": "New",
+      "wbs_id": "F25-01-001"
+    },
+    {
+      "id_hint": "F25-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F25-01-002] Module dependency graph",
+      "acceptance_criteria": "Module dependency graph",
+      "tags": "25-eva-suite;F25-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-01",
+      "state": "New",
+      "wbs_id": "F25-01-002"
+    },
+    {
+      "id_hint": "F25-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F25-01-003] Scheduled refresh via task scheduler",
+      "acceptance_criteria": "Scheduled refresh via task scheduler",
+      "tags": "25-eva-suite;F25-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-01",
+      "state": "New",
+      "wbs_id": "F25-01-003"
+    },
+    {
+      "id_hint": "F25-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F25-02-001] Prune unused Azure resources",
+      "acceptance_criteria": "Prune unused Azure resources",
+      "tags": "25-eva-suite;F25-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-02",
+      "state": "New",
+      "wbs_id": "F25-02-001"
+    },
+    {
+      "id_hint": "F25-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F25-02-002] Tag compliance sweep",
+      "acceptance_criteria": "Tag compliance sweep",
+      "tags": "25-eva-suite;F25-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-02",
+      "state": "New",
+      "wbs_id": "F25-02-002"
+    },
+    {
+      "id_hint": "F25-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F25-02-003] Cost anomaly alert response",
+      "acceptance_criteria": "Cost anomaly alert response",
+      "tags": "25-eva-suite;F25-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-02",
+      "state": "New",
+      "wbs_id": "F25-02-003"
+    },
+    {
+      "id_hint": "F25-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F25-03-001] Archive stale repos",
+      "acceptance_criteria": "Archive stale repos",
+      "tags": "25-eva-suite;F25-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-03",
+      "state": "New",
+      "wbs_id": "F25-03-001"
+    },
+    {
+      "id_hint": "F25-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F25-03-002] Branch protection enforcement",
+      "acceptance_criteria": "Branch protection enforcement",
+      "tags": "25-eva-suite;F25-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-03",
+      "state": "New",
+      "wbs_id": "F25-03-002"
+    },
+    {
+      "id_hint": "F25-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F25-03-003] Secret scanning status report",
+      "acceptance_criteria": "Secret scanning status report",
+      "tags": "25-eva-suite;F25-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-03",
+      "state": "New",
+      "wbs_id": "F25-03-003"
+    },
+    {
+      "id_hint": "F25-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F25-04-001] Quick-reference commands for common ops",
+      "acceptance_criteria": "Quick-reference commands for common ops",
+      "tags": "25-eva-suite;F25-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-04",
+      "state": "New",
+      "wbs_id": "F25-04-001"
+    },
+    {
+      "id_hint": "F25-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F25-04-002] Runbook integration",
+      "acceptance_criteria": "Runbook integration",
+      "tags": "25-eva-suite;F25-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F25-04",
+      "state": "New",
+      "wbs_id": "F25-04-002"
+    }
+  ]
+}

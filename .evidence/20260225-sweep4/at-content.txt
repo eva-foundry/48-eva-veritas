@@ -1,0 +1,226 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] Starting auto-tag 01:25:13
+[01-documentation-generator] 11 gap stories / 11 total
+[01-documentation-generator]   tagged src\__init__.py (+11 stories)
+[01-documentation-generator]   DONE  tagged=11  files=1
+[02-poc-agent-skills] 18 gap stories / 18 total
+[02-poc-agent-skills]   tagged orchestrator\documentation_workflow.py (+18 stories)
+[02-poc-agent-skills]   DONE  tagged=18  files=1
+[03-poc-enhanced-docs] 20 gap stories / 20 total
+[03-poc-enhanced-docs]   no source files -- skipping
+[04-os-vnext] SKIP no stories
+[05-extract-cases] 8 gap stories / 8 total
+[05-extract-cases]   tagged src\cli.py (+8 stories)
+[05-extract-cases]   DONE  tagged=8  files=1
+[06-jp-auto-extraction] 34 gap stories / 34 total
+[06-jp-auto-extraction]   tagged scripts\jp_automation_main.py (+34 stories)
+[06-jp-auto-extraction]   DONE  tagged=34  files=1
+[07-foundation-layer] 19 gap stories / 19 total
+[07-foundation-layer]   tagged 02-design\artifact-templates\Apply-Project07-Artifacts.ps1 (+19 stories)
+[07-foundation-layer]   DONE  tagged=19  files=1
+[08-cds-rag] SKIP no plan
+[09-eva-repo-documentation] 6 gap stories / 6 total
+[09-eva-repo-documentation]   no source files -- skipping
+[10-mkdocs-poc] 26 gap stories / 26 total
+[10-mkdocs-poc]   tagged scripts\build_mkdocs.py (+1 stories)
+[10-mkdocs-poc]   tagged mkdocs-sample\scripts\validate_links.py (+1 stories)
+[10-mkdocs-poc]   tagged scripts\components\__init__.py (+24 stories)
+[10-mkdocs-poc]   DONE  tagged=26  files=3
+[11-ms-infojp] 323 gap stories / 323 total
+[11-ms-infojp]   tagged base-platform\app\frontend\src\index.tsx (+179 stories)
+[11-ms-infojp]   tagged base-platform\scripts\deploy-search-indexes.sh (+1 stories)
+[11-ms-infojp]   tagged base-platform\container_images\enrichment_container_image\docker-build.sh (+1 stories)
+[11-ms-infojp]   tagged base-platform\app\frontend\src\components\filepicker\drop-zone.tsx (+2 stories)
+[11-ms-infojp]   tagged base-platform\scripts\json-to-env.function.debug.sh (+1 stories)
+[11-ms-infojp]   DONE  tagged=184  files=5
+[12-work-spc-reorg] 40 gap stories / 40 total
+[12-work-spc-reorg]   no source files -- skipping
+[13-vscode-tools] 40 gap stories / 40 total
+[13-vscode-tools]   tagged Configure-Tools.ps1 (+40 stories)
+[13-vscode-tools]   DONE  tagged=40  files=1
+[14-az-finops] 17 gap stories / 17 total
+[14-az-finops]   tagged tools\finops\az-inventory-finops.ps1 (+16 stories)
+[14-az-finops]   tagged scripts\Backfill-Costs-REST.ps1 (+1 stories)
+[14-az-finops]   DONE  tagged=17  files=2
+[15-cdc] 1 gap stories / 1 total
+[15-cdc]   tagged scripts\dev\test-azure-connectivity.py (+1 stories)
+[15-cdc]   DONE  tagged=1  files=1
+[16-engineered-case-law] 17 gap stories / 17 total
+[16-engineered-case-law]   tagged pipeline\ecl_formatter.py (+17 stories)
+[16-engineered-case-law]   DONE  tagged=17  files=1
+[17-apim] 18 gap stories / 18 total
+[17-apim]   tagged HOUSEKEEPING-SCRIPT.ps1 (+18 stories)
+[17-apim]   DONE  tagged=18  files=1
+[18-azure-best] SKIP no plan
+[19-ai-gov] 7 gap stories / 7 total
+[19-ai-gov]   tagged ado-import.ps1 (+7 stories)
+[19-ai-gov]   DONE  tagged=7  files=1
+[20-AssistMe] 15 gap stories / 15 total
+[20-AssistMe]   tagged scripts\Run-Pilot-Test.ps1 (+15 stories)
+[20-AssistMe]   DONE  tagged=15  files=1
+[21-habit-tracker] 31 gap stories / 31 total
+[21-habit-tracker]   tagged frontend\src\features\calendar\index.js (+24 stories)
+[21-habit-tracker]   DONE  tagged=24  files=1
+[22-rg-sandbox] 29 gap stories / 29 total
+[22-rg-sandbox]   tagged Assess-Storage.ps1 (+29 stories)
+[22-rg-sandbox]   DONE  tagged=29  files=1
+[23-ei-dsst-rewrite] 4 gap stories / 4 total
+[23-ei-dsst-rewrite]   no source files -- skipping
+[24-eva-brain] 56 gap stories / 56 total
+[24-eva-brain]   tagged scripts\eva_brain_contract_test.ps1 (+1 stories)
+[24-eva-brain]   tagged scripts\EVA-Brain-Smoke-Test.ps1 (+55 stories)
+[24-eva-brain]   DONE  tagged=56  files=2
+[25-eva-suite] SKIP no plan
+[26-eva-gh] SKIP no plan
+[27-devbench] 9 gap stories / 9 total
+[27-devbench]   tagged src\main.tsx (+9 stories)
+[27-devbench]   DONE  tagged=9  files=1
+[28-rbac] 43 gap stories / 43 total
+[28-rbac]   no source files -- skipping
+[29-foundry] 27 gap stories / 58 total
+[29-foundry]   tagged agents\azure_plane\app\screen_generator\screen_agent.py (+1 stories)
+[29-foundry]   tagged server\main.py (+7 stories)
+[29-foundry]   tagged mcp-servers\azure-plane-app-eva-brain\server.py (+1 stories)
+[29-foundry]   tagged agents\azure_plane\app\conversation\__init__.py (+1 stories)
+[29-foundry]   tagged server\phases\plan.py (+1 stories)
+[29-foundry]   tagged agent-framework\agent_framework\agents\azure_plane.py (+1 stories)
+[29-foundry]   tagged agents\azure_plane\internal\__init__.py (+1 stories)
+[29-foundry]   tagged agents\github_plane\session_workflow\__init__.py (+3 stories)
+[29-foundry]   tagged agent-framework\tests\__init__.py (+1 stories)
+[29-foundry]   tagged evidence\F29-10-skill-catalog.py (+2 stories)
+[29-foundry]   tagged agents\azure_plane\internal\validator\validator_agent.py (+1 stories)
+[29-foundry]   tagged agent-framework\agent_framework\agents\github_plane.py (+1 stories)
+[29-foundry]   tagged agents\azure_plane\app\conversation\conversation_agent.py (+2 stories)
+[29-foundry]   tagged agents\azure_plane\app\conversation\tools.py (+1 stories)
+[29-foundry]   tagged agents\azure_plane\app\faces_models\__init__.py (+1 stories)
+[29-foundry]   tagged mcp-servers\github-plane-session-workflow\server.py (+1 stories)
+[29-foundry]   tagged tools\validate-catalog.py (+1 stories)
+[29-foundry]   DONE  tagged=27  files=17
+[30-ui-bench] SKIP no plan
+[31-eva-faces] 29 gap stories / 74 total
+[31-eva-faces]   tagged shared\eva-ui\src\examples\by-domain\admin-crud\feature-flags.complete.tsx (+1 stories)
+[31-eva-faces]   tagged admin-face\src\ui\index.ts (+20 stories)
+[31-eva-faces]   tagged shared\eva-ui\src\examples\by-domain\admin-crud\support-tickets.complete.tsx (+1 stories)
+[31-eva-faces]   tagged admin-face\src\types\apps.ts (+1 stories)
+[31-eva-faces]   tagged shared\eva-ui\src\examples\by-domain\admin-crud\ingestion-runs.complete.tsx (+1 stories)
+[31-eva-faces]   tagged shared\eva-ui\src\examples\by-domain\admin-crud\audit-logs.complete.tsx (+1 stories)
+[31-eva-faces]   tagged shared\eva-ui\src\examples\by-domain\admin-crud\rbac-users-roles.complete.tsx (+2 stories)
+[31-eva-faces]   tagged admin-face\src\components\translations\TranslationsFilterBar.tsx (+1 stories)
+[31-eva-faces]   tagged admin-face\src\types\settings.ts (+1 stories)
+[31-eva-faces]   DONE  tagged=29  files=9
+[32-logging] SKIP no plan
+[33-eva-brain-v2] 87 gap stories / 111 total
+[33-eva-brain-v2]   tagged services\eva-brain-api\app\main.py (+86 stories)
+[33-eva-brain-v2]   tagged services\eva-brain-api\app\services\audit_log_service.py (+1 stories)
+[33-eva-brain-v2]   DONE  tagged=87  files=2
+[34-AIRA] SKIP no plan
+[35-agentic-code-fixing] 24 gap stories / 24 total
+[35-agentic-code-fixing]   tagged copilotsdk_foundrylocal\public\app.js (+18 stories)
+[35-agentic-code-fixing]   DONE  tagged=18  files=1
+[36-red-teaming] 14 gap stories / 14 total
+[36-red-teaming]   tagged eval\promptfoo\assertions\deterministic.js (+14 stories)
+[36-red-teaming]   DONE  tagged=14  files=1
+[37-data-model] 44 gap stories / 61 total
+[37-data-model]   tagged api\server.py (+25 stories)
+[37-data-model]   DONE  tagged=25  files=1
+[38-ado-poc] 13 gap stories / 13 total
+[38-ado-poc]   tagged scripts\ado-import-project.ps1 (+13 stories)
+[38-ado-poc]   DONE  tagged=13  files=1
+[39-ado-dashboard] 26 gap stories / 26 total
+[39-ado-dashboard]   tagged src\index.ts (+22 stories)
+[39-ado-dashboard]   DONE  tagged=22  files=1
+[40-eva-control-plane] 10 gap stories / 10 total
+[40-eva-control-plane]   tagged api\routers\evidence.py (+1 stories)
+[40-eva-control-plane]   tagged api\server.py (+8 stories)
+[40-eva-control-plane]   DONE  tagged=9  files=2
+[41-eva-cli] 12 gap stories / 12 total
+[41-eva-cli]   tagged src\eva\cli.py (+12 stories)
+[41-eva-cli]   DONE  tagged=12  files=1
+[42-learn-foundry] 102 gap stories / 102 total
+[42-learn-foundry]   tagged cloned-repos\agent-framework\dotnet\src\Microsoft.Agents.AI.Hosting.OpenAI\Responses\Models\Response.cs (+1 stories)
+[42-learn-foundry]   tagged cloned-repos\contoso-creative-writer\src\web\src\components\image-upload.tsx (+1 stories)
+[42-learn-foundry]   tagged cloned-repos\agent-framework\python\samples\02-agents\providers\azure_ai\azure_ai_with_browser_automation.py (+1 stories)
+[42-learn-foundry]   tagged cloned-repos\agent-framework\python\packages\devui\agent_framework_devui\ui\assets\index.js (+42 stories)
+[42-learn-foundry]   tagged cloned-repos\mcp\tools\Azure.Mcp.Tools.Deploy\tests\test-resources-post.ps1 (+1 stories)
+[42-learn-foundry]   tagged cloned-repos\agent-framework\python\samples\05-end-to-end\workflow_evaluation\create_workflow.py (+1 stories)
+[42-learn-foundry]   tagged cloned-repos\agent-framework\dotnet\src\Microsoft.Agents.AI.Hosting.OpenAI\Conversations\Models\Conversation.cs (+7 stories)
+[42-learn-foundry]   DONE  tagged=54  files=7
+[43-spark] 5 gap stories / 5 total
+[43-spark]   no source files -- skipping
+[44-eva-jp-spark] 36 gap stories / 37 total
+[44-eva-jp-spark]   tagged src\index.tsx (+23 stories)
+[44-eva-jp-spark]   DONE  tagged=23  files=1
+[45-aicoe-page] 12 gap stories / 26 total
+[45-aicoe-page]   tagged src\main.tsx (+6 stories)
+[45-aicoe-page]   DONE  tagged=6  files=1
+[46-accelerator] 23 gap stories / 23 total
+[46-accelerator]   tagged src\main.tsx (+21 stories)
+[46-accelerator]   DONE  tagged=21  files=1
+[47-eva-mti] 5 gap stories / 5 total
+[47-eva-mti]   tagged ado-import.ps1 (+5 stories)
+[47-eva-mti]   DONE  tagged=5  files=1
+[48-eva-veritas] 26 gap stories / 66 total
+[48-eva-veritas]   tagged src\cli.js (+13 stories)
+[48-eva-veritas]   DONE  tagged=13  files=1
+[49-eva-dtl] 4 gap stories / 24 total
+[49-eva-dtl]   tagged api\router.py (+2 stories)
+[49-eva-dtl]   DONE  tagged=2  files=1
+
+=== AUTO-TAG SUMMARY ===
+
+project                    status tagged files
+-------                    ------ ------ -----
+01-documentation-generator tagged     11     1
+02-poc-agent-skills        tagged     18     1
+03-poc-enhanced-docs       no-src      0     0
+04-os-vnext                skip        0     0
+05-extract-cases           tagged      8     1
+06-jp-auto-extraction      tagged     34     1
+07-foundation-layer        tagged     19     1
+08-cds-rag                 skip        0     0
+09-eva-repo-documentation  no-src      0     0
+10-mkdocs-poc              tagged     26     3
+11-ms-infojp               tagged    184     5
+12-work-spc-reorg          no-src      0     0
+13-vscode-tools            tagged     40     1
+14-az-finops               tagged     17     2
+15-cdc                     tagged      1     1
+16-engineered-case-law     tagged     17     1
+17-apim                    tagged     18     1
+18-azure-best              skip        0     0
+19-ai-gov                  tagged      7     1
+20-AssistMe                tagged     15     1
+21-habit-tracker           tagged     24     1
+22-rg-sandbox              tagged     29     1
+23-ei-dsst-rewrite         no-src      0     0
+24-eva-brain               tagged     56     2
+25-eva-suite               skip        0     0
+26-eva-gh                  skip        0     0
+27-devbench                tagged      9     1
+28-rbac                    no-src      0     0
+29-foundry                 tagged     27    17
+30-ui-bench                skip        0     0
+31-eva-faces               tagged     29     9
+32-logging                 skip        0     0
+33-eva-brain-v2            tagged     87     2
+34-AIRA                    skip        0     0
+35-agentic-code-fixing     tagged     18     1
+36-red-teaming             tagged     14     1
+37-data-model              tagged     25     1
+38-ado-poc                 tagged     13     1
+39-ado-dashboard           tagged     22     1
+40-eva-control-plane       tagged      9     2
+41-eva-cli                 tagged     12     1
+42-learn-foundry           tagged     54     7
+43-spark                   no-src      0     0
+44-eva-jp-spark            tagged     23     1
+45-aicoe-page              tagged      6     1
+46-accelerator             tagged     21     1
+47-eva-mti                 tagged      5     1
+48-eva-veritas             tagged     13     1
+49-eva-dtl                 tagged      2     1
+
+
+Total stories tagged: 913  Total files touched: 75
+Report: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep4\auto-tag-report.json
+=== DONE 01:27:41 ===

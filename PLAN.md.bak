@@ -1,0 +1,318 @@
+# PLAN.md -- eva-veritas
+
+**Project**: 48-eva-veritas (eva-veritas)
+**Phase 1**: Core CLI (Discover + Reconcile + Trust + Report) -- COMPLETE 2026-02-24 09:32 ET
+**Phase 2**: MCP Server + EVA Integrations (29-foundry / 37-data-model / 38-ado-poc) -- COMPLETE 2026-02-24 (MTI=100)
+
+---
+
+## Feature: Discovery Engine [ID=EO-01]
+
+Build top-down (docs) and bottom-up (filesystem) discovery into a unified `discovery.json`.
+
+### Story: Parse planned model from governance docs [ID=EO-01-001]
+
+Read README.md, PLAN.md, STATUS.md, ACCEPTANCE.md and optional project.yaml.
+Extract: epic title, features, stories (with IDs), acceptance criteria, declared progress.
+
+### Story: Scan repo for actual artifacts [ID=EO-01-002]
+
+Walk the filesystem using fast-glob.
+Classify every file: code, test, infra, doc, evidence, config, data, other.
+Skip: node_modules, .git, .eva, dist, build.
+
+### Story: Map artifacts to stories via EVA-STORY tags [ID=EO-01-003]
+
+Read file headers looking for `EVA-STORY: <ID>` and `EVA-FEATURE: <ID>` tags.
+Build a story -> [artifact] index.
+
+### Story: Support .tsx and .jsx files as taggable code artifacts [ID=EO-01-004]
+
+Bug: `classify()` in `lib/scan-repo.js` did not list `.tsx`/`.jsx` extensions, classifying them as `"other"`.
+Bug: `isTextLike` regex in `lib/scan-repo.js` excluded `.tsx`/`.jsx`, so file content was never loaded.
+Effect: All EVA-STORY tags in React component files were silently ignored -- MTI showed 0 for any React/TSX project even with correct tags.
+Fix: Add `.tsx` and `.jsx` to both `classify()` and the `isTextLike` regex in `scan-repo.js`.
+Discovered during: 46-accelerator session 2026-02-24.
+
+---
+
+## Feature: Reconciliation Engine [ID=EO-02]
+
+Compare planned vs actual models to surface gaps and risks.
+
+### Story: Compute coverage metrics [ID=EO-02-001]
+
+Calculate: stories_total, stories_with_artifacts, stories_with_evidence.
+Emit a `coverage` block in reconciliation.json.
+
+### Story: Detect gaps [ID=EO-02-002]
+
+Classify gap types: missing_implementation, missing_evidence, orphan_story_tag.
+Emit `gaps[]` array per story.
+
+### Story: Compute consistency score [ID=EO-02-003]
+
+Penalise stories where STATUS declares progress >= 20% but no artifacts are tagged.
+Emit a float 0..1 `consistency_score`.
+
+---
+
+## Feature: Trust Scoring (MTI) [ID=EO-03]
+
+Compute a Machine Trust Index score from reconciliation outputs.
+
+### Story: Implement MTI formula [ID=EO-03-001]
+
+```
+MTI = (Coverage * 0.4) + (Evidence * 0.4) + (Consistency * 0.2)
+```
+
+Emit `score` (0-100 int) and component breakdown.
+
+### Story: Map score to allowed actions [ID=EO-03-002]
+
+Output `actions[]` based on score band:
+- 90+ -> deploy, merge, release
+- 70+ -> test, review, merge-with-approval
+- 50+ -> review-required, no-deploy
+- < 50 -> block, investigate
+
+---
+
+## Feature: ADO Export [ID=EO-04]
+
+Generate an Azure DevOps import-ready CSV from the planned model.
+
+### Story: Generate Epic/Feature/Story hierarchy CSV [ID=EO-04-001]
+
+One row per work item: Epic, Feature, User Story.
+Headers: Work Item Type, Title, Parent, Description, Acceptance Criteria, Tags.
+
+### Story: Annotate stories with gap tags [ID=EO-04-002]
+
+If reconciliation data is available, add `gap:<type>` tag to affected story rows.
+
+---
+
+---
+
+> Phase 1 complete. All 6 features implemented, self-tested, POC proved.
+> Phase 2 begins 2026-02-24.
+
+---
+
+## Feature: CLI Interface [ID=EO-05]
+
+Expose all capabilities as a single `eva` CLI using commander.
+
+### Story: Implement discover command [ID=EO-05-001]
+
+`eva discover [--repo <path>] [--out <path>]`
+Runs top-down + bottom-up discovery.
+
+### Story: Implement reconcile command [ID=EO-05-002]
+
+`eva reconcile [--repo <path>] [--in <path>] [--out <path>]`
+Consumes discovery.json, emits reconciliation.json.
+
+### Story: Implement compute-trust command [ID=EO-05-003]
+
+`eva compute-trust [--repo <path>] [--recon <path>] [--out <path>]`
+
+### Story: Implement generate-ado command [ID=EO-05-004]
+
+`eva generate-ado [--repo <path>] [--discovery <path>] [--recon <path>] [--out <path>]`
+
+### Story: Implement report command [ID=EO-05-005]
+
+`eva report [--repo <path>]`
+Prints coverage, gaps, trust score to console.
+
+### Story: Implement audit command [ID=EO-05-007]
+
+`eva audit [--repo <path>]`
+Combined: discover + reconcile + compute-trust + report in one shot.
+Eliminates 4-command pipeline; guarantees artifact freshness before scoring.
+
+### Story: Implement scan-portfolio command [ID=EO-05-006]
+
+`eva scan-portfolio [--portfolio <path>] [--filter <ids>]`
+Audits all numbered EVA project folders under a root.
+Prints a portfolio-wide MTI table with actions per project.
+
+### Story: Implement init command [ID=EO-05-008] [IMPL]
+
+`eva init [--repo <path>] [--yes] [--prefix <id>]`
+Interactive onboarding wizard. Detects project structure, guides plan setup,
+runs first audit to display initial MTI score. `--yes` = non-interactive defaults.
+
+---
+
+## Feature: Reporting [ID=EO-06]
+
+Human-readable + machine-readable outputs that feed EVA governance.
+
+### Story: Human-readable console report [ID=EO-06-001]
+
+Print: epic title, feature/story counts, coverage table, gap list, trust score + actions.
+
+### Story: Evidence-ready .eva/ folder output [ID=EO-06-002]
+
+All JSON outputs written to `.eva/` in the target repo.
+Each file includes `meta.schema`, `meta.generated_at`, `meta.repo`.
+
+---
+
+# Phase 2 -- MCP Server + EVA Integrations
+
+---
+
+## Feature: MCP Server [ID=EO-07]
+
+Expose all eva-veritas capabilities as MCP tools so any agent in the EVA ecosystem (or external) can invoke them.
+Host in **29-foundry** alongside existing MCP servers.
+
+### Story: Implement MCP server entrypoint [ID=EO-07-001] [IMPL]
+
+`src/mcp-server.js` -- HTTP server exposing MCP-compatible JSON tool definitions.
+Tool manifest endpoint: `GET /tools`.
+Tool invoke endpoint: `POST /tools/{name}`.
+
+### Story: Implement audit_repo MCP tool [ID=EO-07-002] [IMPL]
+
+Inputs: `repo_path` (string).
+Runs discover + reconcile internally.
+Returns: `{ gaps[], coverage{}, trust_score, actions[] }`.
+No filesystem side effects in MCP mode (in-memory only).
+
+### Story: Implement get_trust_score MCP tool [ID=EO-07-003] [IMPL]
+
+Inputs: `repo_path`.
+Returns: `{ score, components{}, actions[] }`.
+Runs full pipeline if `.eva/trust.json` is stale or absent.
+
+### Story: Implement get_coverage MCP tool [ID=EO-07-004] [IMPL]
+
+Inputs: `repo_path`.
+Returns: `{ stories_total, stories_with_artifacts, stories_with_evidence, consistency_score }`.
+
+### Story: Implement generate_ado_items MCP tool [ID=EO-07-005] [IMPL]
+
+Inputs: `repo_path`, optional `include_gaps` (bool, default true).
+Returns: structured array of work items (Epic / Feature / Story) with gap tags.
+
+### Story: Implement scan_portfolio MCP tool [ID=EO-07-006] [IMPL]
+
+Inputs: `portfolio_root` (e.g. `C:\AICOE\eva-foundation`), optional `project_filter[]`.
+Runs `audit_repo` for each numbered project folder.
+Returns: `{ projects: [{ id, name, trust_score, gap_count }], portfolio_mti }`.
+
+---
+
+## Feature: 37-data-model Integration [ID=EO-08]
+
+Allow 37-data-model API to invoke eva-veritas to validate that declared
+objects (endpoints, screens, services) have real artifact evidence.
+
+### Story: Add /model/admin/audit-repo endpoint to 37-data-model [ID=EO-08-001]
+
+Proxy endpoint in 37-data-model that calls eva-veritas MCP `audit_repo` tool.
+Input: `project_id` (e.g. `33-eva-brain-v2`).
+Returns: standard veritas audit response.
+Registered in model as endpoint `POST /model/admin/audit-repo`.
+
+### Story: Document model integrity check pattern [ID=EO-08-002]
+
+Add `docs/library/08-EVA-VERITAS-INTEGRATION.md` to 37-data-model library.
+Describes: when to call audit, how to interpret gaps, how trust gates model commits.
+
+---
+
+## Feature: 38-ado-poc Integration [ID=EO-09]
+
+Allow 38-ado-poc ADO Command Center to auto-seed sprint PBIs from verified gap stories.
+
+### Story: Add gap-to-PBI pipeline command [ID=EO-09-001]
+
+`eva generate-ado --repo <path> --gaps-only` flag.
+Filters ADO CSV to stories with gap tags only.
+Designed to be consumed by 38-ado-poc sprint seeder.
+
+### Story: Document 38-ado-poc integration pattern [ID=EO-09-002]
+
+Add integration guide to 38-ado-poc: how to invoke eva-veritas, consume the CSV,
+and prevent manually-invented PBIs from entering the sprint.
+
+### Story: Import OpenAPI spec as plan source [ID=EO-09-003] [IMPL]
+
+`src/lib/openapi-parser.js` — probes repo root and docs/ for openapi.json/yaml or swagger.json/yaml.
+Converts OpenAPI 2/3 paths/operations into veritas features + stories.
+Output shape: `{ features: [], stories: [] }` with 3-part IDs `{prefix}-{DOMAIN}-{seq}`.
+
+### Story: Parse ADO export CSV as plan source [ID=EO-09-004] [IMPL]
+
+`src/lib/ado-import.js` — parses Azure DevOps work-item export CSV.
+Maps Work Item Type (Epic/Feature/User Story/Task) → veritas plan hierarchy.
+Wires stories to features and tasks to stories via Parent column.
+
+---
+
+## Feature: 29-foundry Hosting [ID=EO-10]
+
+Register eva-veritas as a first-class MCP server in the 29-foundry agentic hub.
+
+### Story: Add eva-veritas MCP server to 29-foundry mcp-servers/ [ID=EO-10-001]
+
+Create `29-foundry/mcp-servers/eva-veritas/` with server entry point and manifest.
+Register in `29-foundry/skill-catalog.json`.
+
+### Story: Add eva-veritas skill to 29-foundry copilot-skills/ [ID=EO-10-002]
+
+Create `29-foundry/copilot-skills/eva-veritas.skill.md`.
+Describes: trigger phrases, tool names, expected inputs/outputs.
+
+## Feature: generate-plan Command [ID=EO-11]
+
+Agent-driven plan inference from any doc format.
+Allows repos to gain veritas governance without reformatting PLAN.md.
+
+### Story: Implement infer-plan.js heuristic parser [ID=EO-11-001]
+
+Reads Phase/Sprint/Feature/Story/checklist structure from any markdown.
+Auto-generates IDs where [ID=...] not present.
+Detects format: veritas-native | phase-sprint | free-form.
+
+### Story: Implement generate-plan CLI command [ID=EO-11-002]
+
+Nests stories under features in veritas-plan.json (eva.veritas-plan.v1).
+Prints feature breakdown table after writing.
+Supports --sync-model flag to push summary to EVA data model API.
+
+### Story: Update discover.js to prefer veritas-plan.json [ID=EO-11-003]
+
+Checks .eva/veritas-plan.json before calling parsePlan().
+Flattens nested features[].stories[] to { features, stories } shape.
+Logs format_detected on load.
+
+### Story: Document generate-plan in README.md [ID=EO-11-004]
+
+For Agents section: zero-friction onboarding, format detection table, source priority.
+CLI Commands section: generate-plan entry with --prefix and --sync-model options.
+Output Artifacts: veritas-plan.json schema block.
+---
+
+## Feature: Model Fidelity Audit [ID=EO-12]
+
+Cross-reference declared data model entities (endpoints, screens, services, containers)
+against what actually exists in the repository. Detects drift between the 37-data-model
+API declarations and real filesystem/code evidence.
+
+### Story: Implement model-audit command [ID=EO-12-001] [IMPL]
+
+`eva model-audit [--repo <path>] [--data-model <url>] [--warn-only]`
+`src/model-audit.js` — checks:
+  - Screen `repo_path` -> file exists on disk
+  - Endpoint `status=implemented` -> router file references the path
+  - Service `is_active=true` -> docker-compose / Dockerfile reference
+  - Container `fields[]` -> schema file covers >= 50% of declared fields
+Writes `.eva/model-fidelity.json`. Exits code 1 if drift detected (unless --warn-only).

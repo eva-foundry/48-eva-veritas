@@ -1,0 +1,127 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\07-foundation-layer
+[INFO] Prefix: F07
+[PASS] Written: C:\AICOE\eva-foundation\07-foundation-layer\.eva\veritas-plan.json
+       9 features, 19 stories, 83 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F07-01        0      0  Goal
+  F07-02        4      0  Key Discovery Findings
+  F07-03        6     83  Project Phases
+  F07-04        0      0  Project Structure
+  F07-05        2      0  Success Criteria
+  F07-06        4      0  Deploying Project 07 to Other Projects
+  F07-07        1      0  Troubleshooting
+  F07-08        2      0  References
+  F07-09        0      0  Change Log
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F07-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\07-foundation-layer
+[INFO] Using veritas-plan.json (format: free-form, 19 stories, 83 tasks)
+[INFO] Planned: 9 features, 19 stories
+[INFO] Actual: 102 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\07-foundation-layer\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\07-foundation-layer\.eva\reconciliation.json
+[INFO] Gaps: 19
+[PASS] trust written: C:\AICOE\eva-foundation\07-foundation-layer\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Project 07: EVA Foundation Layer (Patterns & Standards Baseline)
+=======================================
+Repo:    C:\AICOE\eva-foundation\07-foundation-layer
+Planned: 9 features, 19 stories
+
+Coverage
+---------------------------------------
+Stories total:          19
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F07-02-001 -- **???? CRITICAL Pattern #1: Windows Enterprise Encoding Safety**
+[FAIL] missing_implementation :: F07-02-002 -- **??? Pattern #2: Professional Component Architecture**
+[FAIL] missing_implementation :: F07-02-003 -- **??? Pattern #3: Zero-Setup Execution**
+[FAIL] missing_implementation :: F07-02-004 -- **?????? Patterns Pending Broader Validation**
+[FAIL] missing_implementation :: F07-03-001 -- Phase 1: Discovery (???? IN PROGRESS)
+[FAIL] missing_implementation :: F07-03-002 -- Phase 2: Design (complete - January 29, 2026)
+[FAIL] missing_implementation :: F07-03-003 -- Phase 5: Workspace Management (??? TESTED - v1.5.2 - January 30, 2026)
+[FAIL] missing_implementation :: F07-03-004 -- Phase 3: Development (??? COMPLETE - January 29, 2026)
+[FAIL] missing_implementation :: F07-03-005 -- Phase 4: Testing (??? READY - Pester 5.x Upgraded)
+[FAIL] missing_implementation :: F07-03-006 -- Phase 5: Implementation (?????? ON HOLD - Waiting for Testing)
+[FAIL] missing_implementation :: F07-05-001 -- **Primary Success Metrics**
+[FAIL] missing_implementation :: F07-05-002 -- **Secondary Success Metrics**
+[FAIL] missing_implementation :: F07-06-001 -- Quick Deployment Guide
+[FAIL] missing_implementation :: F07-06-002 -- Deployment Decision Tree
+[FAIL] missing_implementation :: F07-06-003 -- What Gets Deployed
+[FAIL] missing_implementation :: F07-06-004 -- Supported Project Types
+[FAIL] missing_implementation :: F07-07-001 -- Common Issues
+[FAIL] missing_implementation :: F07-08-001 -- Deployment Tools
+[FAIL] missing_implementation :: F07-08-002 -- Documentation
+
+Feature Breakdown
+---------------------------------------
+[  0] F07-03     Project Phases                  0/6 artifacts  0/6 evidence  6 gaps  [NOT STARTED]
+[  0] F07-02     Key Discovery Findings          0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F07-06     Deploying Project 07 to Other   0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F07-05     Success Criteria                0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F07-08     References                      0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F07-07     Troubleshooting                 0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F07-01     Goal                            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F07-04     Project Structure               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F07-09     Change Log                      0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 19 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 27 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 35 more stories with # EVA-STORY
+
+[ACT] 19 unimplemented stories by feature (highest priority first):
+      F07-03 Project Phases (6 gaps)
+        - F07-03-001 -- Phase 1: Discovery (???? IN PROGRESS)
+        - F07-03-002 -- Phase 2: Design (complete - January 29, 2026)
+        - F07-03-003 -- Phase 5: Workspace Management (??? TESTED - v1.5.2 - January 30, 2026)
+        - F07-03-004 -- Phase 3: Development (??? COMPLETE - January 29, 2026)
+        - F07-03-005 -- Phase 4: Testing (??? READY - Pester 5.x Upgraded)
+        - F07-03-006 -- Phase 5: Implementation (?????? ON HOLD - Waiting for Testing)
+      F07-02 Key Discovery Findings (4 gaps)
+        - F07-02-001 -- **???? CRITICAL Pattern #1: Windows Enterprise Encoding Safety**
+        - F07-02-002 -- **??? Pattern #2: Professional Component Architecture**
+        - F07-02-003 -- **??? Pattern #3: Zero-Setup Execution**
+        - F07-02-004 -- **?????? Patterns Pending Broader Validation**
+      F07-06 Deploying Project 07 to Other Projects (4 gaps)
+        - F07-06-001 -- Quick Deployment Guide
+        - F07-06-002 -- Deployment Decision Tree
+        - F07-06-003 -- What Gets Deployed
+        - F07-06-004 -- Supported Project Types
+      F07-05 Success Criteria (2 gaps)
+        - F07-05-001 -- **Primary Success Metrics**
+        - F07-05-002 -- **Secondary Success Metrics**
+      F07-08 References (2 gaps)
+        - F07-08-001 -- Deployment Tools
+        - F07-08-002 -- Documentation
+      F07-07 Troubleshooting (1 gap)
+        - F07-07-001 -- Common Issues
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

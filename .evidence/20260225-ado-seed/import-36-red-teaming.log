@@ -1,0 +1,95 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0903-ado-import-artifacts-live.log
+
+=== ADO Import: 36-red-teaming ===
+Project maturity : active
+GitHub repo      : eva-foundry/36-red-teaming
+Dry run          : False
+
+Epic: creating '36-red-teaming'
+  -> Epic id=2262
+Feature: creating '?? Overview'
+  -> Feature id=2263
+Feature: creating '?? Security & ATO Context'
+  -> Feature id=2264
+Feature: existing id=1830 - '?? Purpose'
+Feature: creating '?? Principles'
+  -> Feature id=2265
+Feature: creating '??? Architecture'
+  -> Feature id=2266
+Feature: creating '?? Project Structure'
+  -> Feature id=2267
+Feature: existing id=858 - '?? Quick Start'
+Feature: creating '?? Test Suites'
+  -> Feature id=2268
+Feature: creating '?? Deterministic Assertions'
+  -> Feature id=2269
+Feature: creating '?? Evidence Pack (ATO-Ready)'
+  -> Feature id=2270
+Feature: creating '?? CI/CD Integration'
+  -> Feature id=2271
+Feature: creating '?? Standards Mapping'
+  -> Feature id=2272
+Feature: creating '?? Non-Goals (MVP)'
+  -> Feature id=2273
+Feature: creating '?? Definition of Done (MVP)'
+  -> Feature id=2274
+Feature: creating '??? Roadmap'
+  -> Feature id=2275
+Feature: creating '?? Ownership'
+  -> Feature id=2276
+Feature: existing id=312 - 'Summary'
+PBI: creating '[F36-05-001] Evaluation Model'
+  -> PBI id=2277
+PBI: creating '[F36-07-001] Prerequisites'
+  -> PBI id=2278
+PBI: creating '[F36-07-002] Environment Variables'
+  -> PBI id=2279
+PBI: creating '[F36-07-003] Run Smoke Suite'
+  -> PBI id=2280
+PBI: creating '[F36-07-004] Run All Suites'
+  -> PBI id=2281
+PBI: creating '[F36-08-001] Smoke (PR Gate)'
+  -> PBI id=2282
+PBI: creating '[F36-08-002] Golden (Regression)'
+  -> PBI id=2283
+PBI: creating '[F36-08-003] ATLAS Adversarial Suites'
+  -> PBI id=2284
+PBI: creating '[F36-10-001] Directory Structure'
+  -> PBI id=2285
+PBI: creating '[F36-10-002] Example manifest.json'
+  -> PBI id=2286
+PBI: creating '[F36-11-001] PR Gate'
+  -> PBI id=2287
+PBI: creating '[F36-11-002] Nightly'
+  -> PBI id=2288
+PBI: creating '[F36-15-001] Phase 2'
+  -> PBI id=2289
+PBI: creating '[F36-15-002] Phase 3'
+  -> PBI id=2290
+
+=== Import Summary: 36-red-teaming ===
+Epic id  : 2262
+Features : 17
+PBIs     : 14
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F36-05-001 2277 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-07-001 2278 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-07-002 2279 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-07-003 2280 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-07-004 2281 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-08-001 2282 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-08-002 2283 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-08-003 2284 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-10-001 2285 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-10-002 2286 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-11-001 2287 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-11-002 2288 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-15-001 2289 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F36-15-002 2290 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

@@ -1,0 +1,226 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\24-eva-brain
+[INFO] Prefix: F24
+[PASS] Written: C:\AICOE\eva-foundation\24-eva-brain\.eva\veritas-plan.json
+       18 features, 56 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F24-01        0      0  ???? The Complete Vision
+  F24-02        0      0  Table of Contents
+  F24-03        2      0  Strategic Overview
+  F24-04        3      0  Architecture
+  F24-05        5      0  Quick Start
+  F24-06        0      0  Project Structure
+  F24-07        8      0  Key Artifacts
+  F24-08        5      0  Development Workflow
+  F24-09        0      0  Testing
+  F24-10        6      0  Testing
+  F24-11        4      0  Deployment
+  F24-12        4      0  Documentation References
+  F24-13        5      0  Related Projects
+  F24-14        0      0  Governance & Compliance
+  F24-15        3      0  Governance & Compliance
+  F24-16        5      0  Success Metrics
+  F24-17        3      0  Support & Contact
+  F24-18        3      0  Changelog
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F24-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\24-eva-brain
+[INFO] Using veritas-plan.json (format: free-form, 56 stories, 0 tasks)
+[INFO] Planned: 18 features, 56 stories
+[INFO] Actual: 78 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\24-eva-brain\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\24-eva-brain\.eva\reconciliation.json
+[INFO] Gaps: 56
+[PASS] trust written: C:\AICOE\eva-foundation\24-eva-brain\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: EVA Brain - Universal AI Intelligence Platform
+=======================================
+Repo:    C:\AICOE\eva-foundation\24-eva-brain
+Planned: 18 features, 56 stories
+
+Coverage
+---------------------------------------
+Stories total:          56
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F24-03-001 -- Purpose
+[FAIL] missing_implementation :: F24-03-002 -- Strategic Value
+[FAIL] missing_implementation :: F24-04-001 -- Current State: Monolithic
+[FAIL] missing_implementation :: F24-04-002 -- Target State: Microservices with EVA Face
+[FAIL] missing_implementation :: F24-04-003 -- EVA-JP Backend Stack
+[FAIL] missing_implementation :: F24-05-001 -- Prerequisites
+[FAIL] missing_implementation :: F24-05-002 -- 1. Review Documentation
+[FAIL] missing_implementation :: F24-05-003 -- 2. Validate API Contracts
+[FAIL] missing_implementation :: F24-05-004 -- 3. Start Spark Development
+[FAIL] missing_implementation :: F24-05-005 -- 4. Merge to EVA Brain
+[FAIL] missing_implementation :: F24-07-001 -- 1. EVA-JP-v1.2-ARCHITECTURE.md ??? NEW
+[FAIL] missing_implementation :: F24-07-002 -- 2. EVA-FACE-STRATEGY.md ???
+[FAIL] missing_implementation :: F24-07-003 -- 3. EVA-Brain-Smoke-Test.ps1 ???
+[FAIL] missing_implementation :: F24-07-004 -- 4. EVA-BRAIN-API-CONTRACTS.md
+[FAIL] missing_implementation :: F24-07-005 -- 5. prd-eva-chat-spark-poc.md
+[FAIL] missing_implementation :: F24-07-006 -- 6. COPILOT-DISCOVERY-RUNBOOK.md
+[FAIL] missing_implementation :: F24-07-007 -- 7. eva_brain_contract_test.ps1
+[FAIL] missing_implementation :: F24-07-008 -- 5. EVA-BRAIN.postman_collection.json
+[FAIL] missing_implementation :: F24-08-001 -- Phase 0: Smoke Test Validation ??? CURRENT
+[FAIL] missing_implementation :: F24-08-002 -- Phase 1: EVA Face API Gateway (Week 1-2)
+[FAIL] missing_implementation :: F24-08-003 -- Phase 2: EVA Face Clients (Week 3-4)
+[FAIL] missing_implementation :: F24-08-004 -- Phase 3: Governance Integration (Week 5-6)
+[FAIL] missing_implementation :: F24-08-005 -- Phase 4: Scale & Optimize (Week 7-10)
+[FAIL] missing_implementation :: F24-10-001 -- Smoke Test (Phase 0 Validation)
+[FAIL] missing_implementation :: F24-10-002 -- Contract Testing (Production Validation)
+[FAIL] missing_implementation :: F24-10-003 -- Integration Testing (Phase 2+)
+[FAIL] missing_implementation :: F24-10-004 -- Load Testing (Phase 4)
+[FAIL] missing_implementation :: F24-10-005 -- Manual Testing with Postman
+[FAIL] missing_implementation :: F24-10-006 -- Browser-Based Testing
+[FAIL] missing_implementation :: F24-11-001 -- Phase 0: Local Development (Current)
+[FAIL] missing_implementation :: F24-11-002 -- Phase 1: EVA Face Gateway (Week 1-2)
+[FAIL] missing_implementation :: F24-11-003 -- Phase 2: Multi-Client Deployment (Week 3-4)
+[FAIL] missing_implementation :: F24-11-004 -- Phase 3: Production (Week 7-10)
+[FAIL] missing_implementation :: F24-12-001 -- Strategic Vision
+[FAIL] missing_implementation :: F24-12-002 -- API Contracts & Testing
+[FAIL] missing_implementation :: F24-12-003 -- EVA-JP Documentation
+[FAIL] missing_implementation :: F24-12-004 -- Foundation Best Practices
+[FAIL] missing_implementation :: F24-13-001 -- EVA-JP-v1.2 (Production Monolith)
+[FAIL] missing_implementation :: F24-13-002 -- PubSec-Info-Assistant (Microsoft Base)
+[FAIL] missing_implementation :: F24-13-003 -- Project 02: PoC Agent Skills
+[FAIL] missing_implementation :: F24-13-004 -- Project 14: Azure FinOps
+[FAIL] missing_implementation :: F24-13-005 -- Open-WebUI (Reference Architecture)
+[FAIL] missing_implementation :: F24-15-001 -- ESDC Requirements Traceability
+[FAIL] missing_implementation :: F24-15-002 -- AI Governance Integration
+[FAIL] missing_implementation :: F24-15-003 -- Security Controls
+[FAIL] missing_implementation :: F24-16-001 -- Phase 0: Smoke Test (Current)
+[FAIL] missing_implementation :: F24-16-002 -- Phase 1: EVA Face Gateway (Week 1-2)
+[FAIL] missing_implementation :: F24-16-003 -- Phase 2: Multi-Client Adoption (Week 3-4)
+[FAIL] missing_implementation :: F24-16-004 -- Phase 3: Governance at Scale (Week 5-6)
+[FAIL] missing_implementation :: F24-16-005 -- Phase 4: Production (Week 7-10)
+[FAIL] missing_implementation :: F24-17-001 -- EVA Face Project
+[FAIL] missing_implementation :: F24-17-002 -- EVA Brain Backend (EVA-JP)
+[FAIL] missing_implementation :: F24-17-003 -- Related Services
+[FAIL] missing_implementation :: F24-18-001 -- 2026-02-03 - Strategic Vision Complete ???
+[FAIL] missing_implementation :: F24-18-002 -- 2026-02-02 - Phase 0 API Validation Complete ???
+[FAIL] missing_implementation :: F24-18-003 -- Next Milestones
+
+Feature Breakdown
+---------------------------------------
+[  0] F24-07     Key Artifacts                   0/8 artifacts  0/8 evidence  8 gaps  [NOT STARTED]
+[  0] F24-10     Testing                         0/6 artifacts  0/6 evidence  6 gaps  [NOT STARTED]
+[  0] F24-05     Quick Start                     0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F24-08     Development Workflow            0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F24-13     Related Projects                0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F24-16     Success Metrics                 0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F24-11     Deployment                      0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F24-12     Documentation References        0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F24-04     Architecture                    0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F24-15     Governance & Compliance         0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F24-17     Support & Contact               0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F24-18     Changelog                       0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F24-03     Strategic Overview              0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F24-01     ???? The Complete Vision          0/0 artifacts  0/0 evidence  0 gaps
+[  0] F24-02     Table of Contents               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F24-06     Project Structure               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F24-09     Testing                         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F24-14     Governance & Compliance         0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 56 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 79 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 101 more stories with # EVA-STORY
+
+[ACT] 56 unimplemented stories by feature (highest priority first):
+      F24-07 Key Artifacts (8 gaps)
+        - F24-07-001 -- 1. EVA-JP-v1.2-ARCHITECTURE.md ??? NEW
+        - F24-07-002 -- 2. EVA-FACE-STRATEGY.md ???
+        - F24-07-003 -- 3. EVA-Brain-Smoke-Test.ps1 ???
+        - F24-07-004 -- 4. EVA-BRAIN-API-CONTRACTS.md
+        - F24-07-005 -- 5. prd-eva-chat-spark-poc.md
+        - F24-07-006 -- 6. COPILOT-DISCOVERY-RUNBOOK.md
+        - F24-07-007 -- 7. eva_brain_contract_test.ps1
+        - F24-07-008 -- 5. EVA-BRAIN.postman_collection.json
+      F24-10 Testing (6 gaps)
+        - F24-10-001 -- Smoke Test (Phase 0 Validation)
+        - F24-10-002 -- Contract Testing (Production Validation)
+        - F24-10-003 -- Integration Testing (Phase 2+)
+        - F24-10-004 -- Load Testing (Phase 4)
+        - F24-10-005 -- Manual Testing with Postman
+        - F24-10-006 -- Browser-Based Testing
+      F24-05 Quick Start (5 gaps)
+        - F24-05-001 -- Prerequisites
+        - F24-05-002 -- 1. Review Documentation
+        - F24-05-003 -- 2. Validate API Contracts
+        - F24-05-004 -- 3. Start Spark Development
+        - F24-05-005 -- 4. Merge to EVA Brain
+      F24-08 Development Workflow (5 gaps)
+        - F24-08-001 -- Phase 0: Smoke Test Validation ??? CURRENT
+        - F24-08-002 -- Phase 1: EVA Face API Gateway (Week 1-2)
+        - F24-08-003 -- Phase 2: EVA Face Clients (Week 3-4)
+        - F24-08-004 -- Phase 3: Governance Integration (Week 5-6)
+        - F24-08-005 -- Phase 4: Scale & Optimize (Week 7-10)
+      F24-13 Related Projects (5 gaps)
+        - F24-13-001 -- EVA-JP-v1.2 (Production Monolith)
+        - F24-13-002 -- PubSec-Info-Assistant (Microsoft Base)
+        - F24-13-003 -- Project 02: PoC Agent Skills
+        - F24-13-004 -- Project 14: Azure FinOps
+        - F24-13-005 -- Open-WebUI (Reference Architecture)
+      F24-16 Success Metrics (5 gaps)
+        - F24-16-001 -- Phase 0: Smoke Test (Current)
+        - F24-16-002 -- Phase 1: EVA Face Gateway (Week 1-2)
+        - F24-16-003 -- Phase 2: Multi-Client Adoption (Week 3-4)
+        - F24-16-004 -- Phase 3: Governance at Scale (Week 5-6)
+        - F24-16-005 -- Phase 4: Production (Week 7-10)
+      F24-11 Deployment (4 gaps)
+        - F24-11-001 -- Phase 0: Local Development (Current)
+        - F24-11-002 -- Phase 1: EVA Face Gateway (Week 1-2)
+        - F24-11-003 -- Phase 2: Multi-Client Deployment (Week 3-4)
+        - F24-11-004 -- Phase 3: Production (Week 7-10)
+      F24-12 Documentation References (4 gaps)
+        - F24-12-001 -- Strategic Vision
+        - F24-12-002 -- API Contracts & Testing
+        - F24-12-003 -- EVA-JP Documentation
+        - F24-12-004 -- Foundation Best Practices
+      F24-04 Architecture (3 gaps)
+        - F24-04-001 -- Current State: Monolithic
+        - F24-04-002 -- Target State: Microservices with EVA Face
+        - F24-04-003 -- EVA-JP Backend Stack
+      F24-15 Governance & Compliance (3 gaps)
+        - F24-15-001 -- ESDC Requirements Traceability
+        - F24-15-002 -- AI Governance Integration
+        - F24-15-003 -- Security Controls
+      F24-17 Support & Contact (3 gaps)
+        - F24-17-001 -- EVA Face Project
+        - F24-17-002 -- EVA Brain Backend (EVA-JP)
+        - F24-17-003 -- Related Services
+      F24-18 Changelog (3 gaps)
+        - F24-18-001 -- 2026-02-03 - Strategic Vision Complete ???
+        - F24-18-002 -- 2026-02-02 - Phase 0 API Validation Complete ???
+        - F24-18-003 -- Next Milestones
+      F24-03 Strategic Overview (2 gaps)
+        - F24-03-001 -- Purpose
+        - F24-03-002 -- Strategic Value
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

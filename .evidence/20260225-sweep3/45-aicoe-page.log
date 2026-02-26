@@ -1,0 +1,110 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\45-aicoe-page
+[INFO] Prefix: F45
+[INFO] Enrichment applied: code-structure (6 stories)
+[PASS] Written: C:\AICOE\eva-foundation\45-aicoe-page\.eva\veritas-plan.json
+       7 features, 14 stories, 11 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F45-01        5      0  EVA Team Structural Alignment
+  F45-02        2      0  Bilingual i18n Scaffold
+  F45-03        2      0  Layout Shell
+  F45-04        1      0  Home Page
+  F45-05        2      6  Content Pages
+  F45-06        2      5  CI and Test Coverage
+  F45-UI        6      0  UI Pages
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F45-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\45-aicoe-page
+[INFO] Using veritas-plan.json (format: veritas, 20 stories, 11 tasks)
+[INFO] Planned: 7 features, 20 stories
+[INFO] Actual: 50 artifacts, 14 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\45-aicoe-page\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\45-aicoe-page\.eva\reconciliation.json
+[INFO] Gaps: 6
+[PASS] trust written: C:\AICOE\eva-foundation\45-aicoe-page\.eva\trust.json (score: 46)
+
+=======================================
+EVA Veritas Report: AICOE Public Page
+=======================================
+Repo:    C:\AICOE\eva-foundation\45-aicoe-page
+Planned: 7 features, 20 stories
+
+Coverage
+---------------------------------------
+Stories total:          20
+Stories with artifacts: 14
+Stories with evidence:  11
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F45-UI-001 -- Route about
+[FAIL] missing_implementation :: F45-UI-002 -- Route products
+[FAIL] missing_implementation :: F45-UI-003 -- ABOUTPAGE page
+[FAIL] missing_implementation :: F45-UI-004 -- HOMEPAGE page
+[FAIL] missing_implementation :: F45-UI-005 -- LAYOUT page
+[FAIL] missing_implementation :: F45-UI-006 -- PRODUCTSPAGE page
+
+Feature Breakdown
+---------------------------------------
+[  0] F45-UI     UI Pages                        0/6 artifacts  0/6 evidence  6 gaps  [NOT STARTED]
+[ 70] F45-01     EVA Team Structural Alignment   5/5 artifacts  5/5 evidence  0 gaps
+[ 70] F45-02     Bilingual i18n Scaffold         2/2 artifacts  2/2 evidence  0 gaps
+[ 70] F45-03     Layout Shell                    2/2 artifacts  2/2 evidence  0 gaps
+[ 70] F45-04     Home Page                       1/1 artifacts  1/1 evidence  0 gaps
+[ 50] F45-05     Content Pages                   2/2 artifacts  0/2 evidence  0 gaps
+[ 60] F45-06     CI and Test Coverage            2/2 artifacts  1/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F45-01-001 -- Replace FluentProvider with GCThemeProvider (2 artifacts)
+[EVIDENCE] F45-01-002 -- Add AnnouncerProvider for WCAG aria-live (3 artifacts)
+[EVIDENCE] F45-01-003 -- Add HashRouter and React.StrictMode (1 artifact)
+[EVIDENCE] F45-01-004 -- Wire @eva shared deps (1 artifact)
+[EVIDENCE] F45-01-005 -- Remove @github/spark Vite plugin (2 artifacts)
+[EVIDENCE] F45-02-001 -- Add i18next with LanguageDetector (2 artifacts)
+[EVIDENCE] F45-02-002 -- Seed EN and FR locale files (1 artifact)
+[EVIDENCE] F45-03-001 -- Build Layout component with skip-link and nav (2 artifacts)
+[EVIDENCE] F45-03-002 -- Wire route-change announcer effect (1 artifact)
+[EVIDENCE] F45-04-001 -- Build HomePage with hero and tool cards (3 artifacts)
+[IMPL] F45-05-001 -- Build AboutPage route-- COMPLETE 2026-02-24 (1 artifact)
+[IMPL] F45-05-002 -- Build ProductsPage route-- COMPLETE 2026-02-24 (1 artifact)
+[IMPL] F45-06-001 -- Add GitHub Actions build + lint CI-- COMPLETE 2026-02-24 (1 artifact)
+[IMPL] F45-06-002 -- Add Vitest and first component tests-- COMPLETE 2026-02-24 (4 artifacts)
+
+Trust (MTI)
+---------------------------------------
+Score:   46 (-20)
+Trend:   0 -> 7 -> 7 -> 50 -> 50 -> 50 -> 57 -> 66 -> 66 -> 46
+Actions: block, investigate
+Components: coverage=0.7 evidence=0.55 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 2 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 10 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 18 more stories with # EVA-STORY
+
+[ACT] 6 unimplemented stories by feature (highest priority first):
+      F45-UI UI Pages (6 gaps)
+        - F45-UI-001 -- Route about
+        - F45-UI-002 -- Route products
+        - F45-UI-003 -- ABOUTPAGE page
+        - F45-UI-004 -- HOMEPAGE page
+        - F45-UI-005 -- LAYOUT page
+        - F45-UI-006 -- PRODUCTSPAGE page
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 46 is below threshold 70 (--warn-only set, continuing)

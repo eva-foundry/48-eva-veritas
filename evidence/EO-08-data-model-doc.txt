@@ -1,0 +1,19 @@
+EVA-STORY: EO-08-002
+EVA-FEATURE: EO-08
+
+EVIDENCE: EO-08-002 37-data-model integration documentation
+Phase 2 -- 2026-02-24
+
+EO-08-002 -- Integration guide added to 37-data-model
+  Artifact: C:\AICOE\eva-foundation\37-data-model\docs\library\08-EVA-VERITAS-INTEGRATION.md
+
+  Sections documented:
+    [PASS] Overview -- what eva-veritas does and why model calls it
+    [PASS] When to Call -- commit gates, sprint seeding, release gates
+    [PASS] How to Call -- PowerShell examples, response shape
+    [PASS] Trust Score interpretation table -- 4 action bands
+    [PASS] Gap Types table -- 3 types with fix instructions
+    [PASS] Prerequisites -- how to start the MCP server, env var config
+    [PASS] Configuration table -- EVA_VERITAS_MCP_URL + portfolio root
+    [PASS] Commit Gate Pattern -- PowerShell gate script gating on MTI >= 70
+    [PASS] Related section -- links to EO-09, EO-10, validate endpoint

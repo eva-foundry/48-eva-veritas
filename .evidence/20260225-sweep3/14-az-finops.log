@@ -1,0 +1,123 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\14-az-finops
+[INFO] Prefix: F14
+[PASS] Written: C:\AICOE\eva-foundation\14-az-finops\.eva\veritas-plan.json
+       9 features, 17 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F14-01        1      0  ???? **NEW: Phase 1 FinOps Enterprise Roadmap (February 17, 2026)**
+  F14-02        3      0  Current Status (February 17, 2026)
+  F14-03        0      0  Subscriptions
+  F14-04        0      0  Permission Model
+  F14-05        0      0  Project Structure
+  F14-06        6      0  Deployment Roadmap
+  F14-07        3      0  Quick Start
+  F14-08        1      0  Lessons Learned (Audit Summary)
+  F14-09        3      0  ???? Documentation Quick Links
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F14-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\14-az-finops
+[INFO] Using veritas-plan.json (format: free-form, 17 stories, 0 tasks)
+[INFO] Planned: 9 features, 17 stories
+[INFO] Actual: 129 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\14-az-finops\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\14-az-finops\.eva\reconciliation.json
+[INFO] Gaps: 17
+[PASS] trust written: C:\AICOE\eva-foundation\14-az-finops\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Azure FinOps - ESDC Cost Management
+=======================================
+Repo:    C:\AICOE\eva-foundation\14-az-finops
+Planned: 9 features, 17 stories
+
+Coverage
+---------------------------------------
+Stories total:          17
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F14-01-001 -- Comprehensive Documentation Delivered
+[FAIL] missing_implementation :: F14-02-001 -- What Works
+[FAIL] missing_implementation :: F14-02-002 -- What Does NOT Work
+[FAIL] missing_implementation :: F14-02-003 -- Active Exports
+[FAIL] missing_implementation :: F14-06-001 -- ??? Phase 0: Data Collection Foundation (COMPLETE - Feb 16, 2026)
+[FAIL] missing_implementation :: F14-06-002 -- ???? Phase 1: Storage Foundation (Weeks 1-2, 13 Story Points)
+[FAIL] missing_implementation :: F14-06-003 -- ???? Phase 2: Analytics & Ingestion (Weeks 3-4, 21 Story Points)
+[FAIL] missing_implementation :: F14-06-004 -- ???? Phase 3: APIM Attribution & Telemetry (Weeks 5-7, 13 Story Points)
+[FAIL] missing_implementation :: F14-06-005 -- ???? Phase 4: Reporting & Governance (Weeks 8-9, 21 Story Points)
+[FAIL] missing_implementation :: F14-06-006 -- ???? Deployment Timeline Summary
+[FAIL] missing_implementation :: F14-07-001 -- Ad-Hoc Cost Query (Small Date Ranges)
+[FAIL] missing_implementation :: F14-07-002 -- Configure Daily Export (Portal)
+[FAIL] missing_implementation :: F14-07-003 -- Historical Backfill (REST API)
+[FAIL] missing_implementation :: F14-08-001 -- Extraction Attempt Timeline
+[FAIL] missing_implementation :: F14-09-001 -- For Implementation Teams
+[FAIL] missing_implementation :: F14-09-002 -- For Executives
+[FAIL] missing_implementation :: F14-09-003 -- For Auditors
+
+Feature Breakdown
+---------------------------------------
+[  0] F14-06     Deployment Roadmap              0/6 artifacts  0/6 evidence  6 gaps  [NOT STARTED]
+[  0] F14-02     Current Status (February 17, 2  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F14-07     Quick Start                     0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F14-09     ???? Documentation Quick Links    0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F14-01     ???? **NEW: Phase 1 FinOps Enter  0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F14-08     Lessons Learned (Audit Summary  0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F14-03     Subscriptions                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F14-04     Permission Model                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F14-05     Project Structure               0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 17 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 24 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 31 more stories with # EVA-STORY
+
+[ACT] 17 unimplemented stories by feature (highest priority first):
+      F14-06 Deployment Roadmap (6 gaps)
+        - F14-06-001 -- ??? Phase 0: Data Collection Foundation (COMPLETE - Feb 16, 2026)
+        - F14-06-002 -- ???? Phase 1: Storage Foundation (Weeks 1-2, 13 Story Points)
+        - F14-06-003 -- ???? Phase 2: Analytics & Ingestion (Weeks 3-4, 21 Story Points)
+        - F14-06-004 -- ???? Phase 3: APIM Attribution & Telemetry (Weeks 5-7, 13 Story Points)
+        - F14-06-005 -- ???? Phase 4: Reporting & Governance (Weeks 8-9, 21 Story Points)
+        - F14-06-006 -- ???? Deployment Timeline Summary
+      F14-02 Current Status (February 17, 2026) (3 gaps)
+        - F14-02-001 -- What Works
+        - F14-02-002 -- What Does NOT Work
+        - F14-02-003 -- Active Exports
+      F14-07 Quick Start (3 gaps)
+        - F14-07-001 -- Ad-Hoc Cost Query (Small Date Ranges)
+        - F14-07-002 -- Configure Daily Export (Portal)
+        - F14-07-003 -- Historical Backfill (REST API)
+      F14-09 ???? Documentation Quick Links (3 gaps)
+        - F14-09-001 -- For Implementation Teams
+        - F14-09-002 -- For Executives
+        - F14-09-003 -- For Auditors
+      F14-01 ???? **NEW: Phase 1 FinOps Enterprise Roadmap (February 17, 2026)** (1 gap)
+        - F14-01-001 -- Comprehensive Documentation Delivered
+      F14-08 Lessons Learned (Audit Summary) (1 gap)
+        - F14-08-001 -- Extraction Attempt Timeline
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

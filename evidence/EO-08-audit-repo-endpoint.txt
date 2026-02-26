@@ -1,0 +1,30 @@
+EVA-STORY: EO-08-001
+EVA-FEATURE: EO-08
+
+EVIDENCE: EO-08-001 37-data-model audit-repo endpoint
+Phase 2 -- 2026-02-24
+
+EO-08-001 -- POST /model/admin/audit-repo added to 37-data-model
+  Artifacts: C:\AICOE\eva-foundation\37-data-model\api\routers\admin.py
+
+  Implementation:
+    [PASS] Added POST /model/admin/audit-repo endpoint to api/routers/admin.py
+    [PASS] Proxies to eva-veritas MCP server (default http://localhost:8031)
+    [PASS] Input: { "project_id": "33-eva-brain-v2" } or { "repo_path": "/absolute/path" }
+    [PASS] Returns: { trust_score, coverage, gaps[], actions[] }
+    [PASS] Resolves repo from eva-foundation portfolio root (parent of 37-data-model/../)
+    [PASS] Graceful 503 if eva-veritas MCP server is unreachable
+    [PASS] Override URL via env var EVA_VERITAS_MCP_URL
+    [PASS] Python syntax check passed (ast.parse)
+
+  Model registration:
+    [PASS] Registered in data model: PUT http://localhost:8010/model/endpoints/POST /model/admin/audit-repo
+    [PASS] row_version=5, status=implemented, auth=["admin"]
+
+  Usage:
+    POST http://localhost:8010/model/admin/audit-repo
+    Authorization: Bearer dev-admin
+    Body: { "project_id": "33-eva-brain-v2" }
+
+    Response:
+      { "project_id": "33-eva-brain-v2", "trust_score": N, "coverage": {...}, "gaps": [...], "actions": [...] }

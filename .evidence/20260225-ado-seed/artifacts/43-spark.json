@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1471883-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/43-spark",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-43",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "43-spark",
+    "description": "43-spark",
+    "tags": "43-spark;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F43-01",
+      "type": "Feature",
+      "title": "Objective",
+      "description": "Objective",
+      "tags": "43-spark;F43-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-02",
+      "type": "Feature",
+      "title": "Guiding Principles",
+      "description": "Guiding Principles",
+      "tags": "43-spark;F43-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-03",
+      "type": "Feature",
+      "title": "Phase Structure",
+      "description": "Phase Structure",
+      "tags": "43-spark;F43-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-04",
+      "type": "Feature",
+      "title": "Phase 0 ? Prompt Engineering ?",
+      "description": "Phase 0 ? Prompt Engineering ?",
+      "tags": "43-spark;F43-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-05",
+      "type": "Feature",
+      "title": "Phase 1 ? Spark Bootstrap",
+      "description": "Phase 1 ? Spark Bootstrap",
+      "tags": "43-spark;F43-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-06",
+      "type": "Feature",
+      "title": "Phase 2 ? Shared Components",
+      "description": "Phase 2 ? Shared Components",
+      "tags": "43-spark;F43-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-07",
+      "type": "Feature",
+      "title": "Phase 3 ? Screens",
+      "description": "Phase 3 ? Screens",
+      "tags": "43-spark;F43-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-08",
+      "type": "Feature",
+      "title": "Phase 4 ? Quality Pass",
+      "description": "Phase 4 ? Quality Pass",
+      "tags": "43-spark;F43-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-09",
+      "type": "Feature",
+      "title": "Phase 5 ? Repository & CI",
+      "description": "Phase 5 ? Repository & CI",
+      "tags": "43-spark;F43-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-10",
+      "type": "Feature",
+      "title": "Phase 6 ? Codespace Hardening",
+      "description": "Phase 6 ? Codespace Hardening",
+      "tags": "43-spark;F43-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-11",
+      "type": "Feature",
+      "title": "Risk Register",
+      "description": "Risk Register",
+      "tags": "43-spark;F43-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F43-12",
+      "type": "Feature",
+      "title": "Success Definition",
+      "description": "Success Definition",
+      "tags": "43-spark;F43-12",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F43-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F43-02-001] 1 ? Paste the initial Spark prompt",
+      "acceptance_criteria": "1 ? Paste the initial Spark prompt",
+      "tags": "43-spark;F43-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F43-02",
+      "state": "New",
+      "wbs_id": "F43-02-001"
+    },
+    {
+      "id_hint": "F43-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F43-02-002] 2 ? Review the preview",
+      "acceptance_criteria": "2 ? Review the preview",
+      "tags": "43-spark;F43-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F43-02",
+      "state": "New",
+      "wbs_id": "F43-02-002"
+    },
+    {
+      "id_hint": "F43-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F43-02-003] 3 ? Open in Codespace",
+      "acceptance_criteria": "3 ? Open in Codespace",
+      "tags": "43-spark;F43-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F43-02",
+      "state": "New",
+      "wbs_id": "F43-02-003"
+    },
+    {
+      "id_hint": "F43-02-004",
+      "type": "Product Backlog Item",
+      "title": "[F43-02-004] 4 ? Attach context and iterate",
+      "acceptance_criteria": "4 ? Attach context and iterate",
+      "tags": "43-spark;F43-02-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F43-02",
+      "state": "New",
+      "wbs_id": "F43-02-004"
+    },
+    {
+      "id_hint": "F43-02-005",
+      "type": "Product Backlog Item",
+      "title": "[F43-02-005] 5 ? Validate",
+      "acceptance_criteria": "5 ? Validate",
+      "tags": "43-spark;F43-02-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F43-02",
+      "state": "New",
+      "wbs_id": "F43-02-005"
+    }
+  ]
+}

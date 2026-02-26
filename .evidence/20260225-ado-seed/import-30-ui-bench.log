@@ -1,0 +1,52 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0902-ado-import-artifacts-live.log
+
+=== ADO Import: 30-ui-bench ===
+Project maturity : poc
+GitHub repo      : eva-foundry/30-ui-bench
+Dry run          : False
+
+Epic: creating '30-ui-bench'
+  -> Epic id=1971
+Feature: creating 'Component Scaffolding'
+  -> Feature id=1972
+Feature: creating 'Component Demos'
+  -> Feature id=1973
+Feature: creating 'Accessibility Validation'
+  -> Feature id=1974
+PBI: creating '[F30-01-001] Fluent UI v9 environment setup'
+  -> PBI id=1975
+PBI: creating '[F30-01-002] Core component inventory'
+  -> PBI id=1976
+PBI: creating '[F30-01-003] Theme token exploration'
+  -> PBI id=1977
+PBI: creating '[F30-02-001] Navigation and layout patterns'
+  -> PBI id=1978
+PBI: creating '[F30-02-002] Form controls and validation'
+  -> PBI id=1979
+PBI: creating '[F30-02-003] Data table and grid patterns'
+  -> PBI id=1980
+PBI: creating '[F30-03-001] WCAG 2.1 AA compliance check'
+  -> PBI id=1981
+PBI: creating '[F30-03-002] Keyboard navigation test'
+  -> PBI id=1982
+
+=== Import Summary: 30-ui-bench ===
+Epic id  : 1971
+Features : 3
+PBIs     : 8
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F30-01-001 1975 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F30-01-002 1976 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F30-01-003 1977 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F30-02-001 1978 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F30-02-002 1979 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F30-02-003 1980 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F30-03-001 1981 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F30-03-002 1982 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

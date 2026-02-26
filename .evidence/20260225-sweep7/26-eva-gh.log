@@ -1,0 +1,1069 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\26-eva-gh
+[INFO] Prefix: F26
+[INFO] Enrichment applied: code-structure (709 stories)
+[PASS] Written: C:\AICOE\eva-foundation\26-eva-gh\.eva\veritas-plan.json
+       142 features, 19 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID               Stories  Tasks  Title
+  ????????????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F26-01                  5      0  EVA Core Sub-Repos
+  F26-02                  5      0  EVA Sovereign UI
+  F26-03                  3      0  InfoAssistant Variants
+  F26-04                  3      0  Infrastructure Clones
+  F26-05                  3      0  Cloud Housekeeping
+  F26-MODELS             21      0  MODELS API
+  F26-EMBEDDINGS          4      0  EMBEDDINGS API
+  F26-CHAT               11      0  CHAT API
+  F26-TASKS               3      0  TASKS API
+  F26-CONFIG             16      0  CONFIG API
+  F26-WEBHOOK             2      0  WEBHOOK API
+  F26-VERSION             4      0  VERSION API
+  F26-CHANGELOG           1      0  CHANGELOG API
+  F26-USAGE               1      0  USAGE API
+  F26-OAUTH               6      0  OAUTH API
+  F26-MANIFESTJSON        1      0  MANIFESTJSON API
+  F26-OPENSEARCHXM        1      0  OPENSEARCHXM API
+  F26-HEALTH              7      0  HEALTH API
+  F26-CACHE               1      0  CACHE API
+  F26-API                25      0  API API
+  F26-GETALLUPLOAD        2      0  GETALLUPLOAD API
+  F26-GETFOLDERS          2      0  GETFOLDERS API
+  F26-DELETEITEMS         2      0  DELETEITEMS API
+  F26-RESUBMITITEM        2      0  RESUBMITITEM API
+  F26-GETTAGS             2      0  GETTAGS API
+  F26-LOGSTATUS           2      0  LOGSTATUS API
+  F26-GETINFODATA         2      0  GETINFODATA API
+  F26-GETWARNINGBA        2      0  GETWARNINGBA API
+  F26-GETMAXCSVFIL        2      0  GETMAXCSVFIL API
+  F26-GETCITATION         2      0  GETCITATION API
+  F26-GETAPPLICATI        2      0  GETAPPLICATI API
+  F26-GETALLTAGS          2      0  GETALLTAGS API
+  F26-GETTEMPIMAGE        2      0  GETTEMPIMAGE API
+  F26-GETHINT             2      0  GETHINT API
+  F26-POSTTD              2      0  POSTTD API
+  F26-PROCESS_TD_A        2      0  PROCESS_TD_A API
+  F26-GETTDANALYSI        2      0  GETTDANALYSI API
+  F26-REFRESH             2      0  REFRESH API
+  F26-STREAM              2      0  STREAM API
+  F26-TDSTREAM            2      0  TDSTREAM API
+  F26-PROCESS_AGEN        2      0  PROCESS_AGEN API
+  F26-GETFEATUREFL        2      0  GETFEATUREFL API
+  F26-FILE                2      0  FILE API
+  F26-GETFILE             2      0  GETFILE API
+  F26-READY               1      0  READY API
+  F26-INGEST              1      0  INGEST API
+  F26-DOCUMENTS           1      0  DOCUMENTS API
+  F26-COLLECTION          1      0  COLLECTION API
+  F26-QUERY               5      0  QUERY API
+  F26-TENANT              1      0  TENANT API
+  F26-RESOURCE            1      0  RESOURCE API
+  F26-SPEECH              1      0  SPEECH API
+  F26-TRANSCRIPTIO        1      0  TRANSCRIPTIO API
+  F26-VOICES              1      0  VOICES API
+  F26-UPDATE              2      0  UPDATE API
+  F26-LDAP                1      0  LDAP API
+  F26-SIGNIN              1      0  SIGNIN API
+  F26-SIGNUP              1      0  SIGNUP API
+  F26-SIGNOUT             1      0  SIGNOUT API
+  F26-ADD                 3      0  ADD API
+  F26-ADMIN               7      0  ADMIN API
+  F26-API_KEY             3      0  API_KEY API
+  F26-LIST               10      0  LIST API
+  F26-CREATE             10      0  CREATE API
+  F26-ID                 78      0  ID API
+  F26-NEW                 1      0  NEW API
+  F26-IMPORT              3      0  IMPORT API
+  F26-SEARCH              3      0  SEARCH API
+  F26-FOLDER              2      0  FOLDER API
+  F26-PINNED              1      0  PINNED API
+  F26-ALL                 6      0  ALL API
+  F26-ARCHIVED            1      0  ARCHIVED API
+  F26-ARCHIVE             1      0  ARCHIVE API
+  F26-UNARCHIVE           1      0  UNARCHIVE API
+  F26-SHARE               1      0  SHARE API
+  F26-TAGS                5      0  TAGS API
+  F26-EXPORT              4      0  EXPORT API
+  F26-CONNECTIONS         2      0  CONNECTIONS API
+  F26-TOOL_SERVERS        3      0  TOOL_SERVERS API
+  F26-CODE_EXECUTI        2      0  CODE_EXECUTI API
+  F26-SUGGESTIONS         1      0  SUGGESTIONS API
+  F26-BANNERS             2      0  BANNERS API
+  F26-FEEDBACKS           6      0  FEEDBACKS API
+  F26-FEEDBACK            4      0  FEEDBACK API
+  F26-LOAD                2      0  LOAD API
+  F26-SYNC                2      0  SYNC API
+  F26-GENERATIONS         1      0  GENERATIONS API
+  F26-EDIT                1      0  EDIT API
+  F26-REINDEX             1      0  REINDEX API
+  F26-EF                  2      0  EF API
+  F26-RESET               3      0  RESET API
+  F26-DELETE              6      0  DELETE API
+  F26-MEMORY_ID           2      0  MEMORY_ID API
+  F26-BASE                1      0  BASE API
+  F26-MODEL               5      0  MODEL API
+  F26-VERIFY              2      0  VERIFY API
+  F26-PS                  1      0  PS API
+  F26-UNLOAD              1      0  UNLOAD API
+  F26-PULL                2      0  PULL API
+  F26-PUSH                2      0  PUSH API
+  F26-COPY                2      0  COPY API
+  F26-SHOW                1      0  SHOW API
+  F26-EMBED               2      0  EMBED API
+  F26-GENERATE            2      0  GENERATE API
+  F26-COMPLETIONS         2      0  COMPLETIONS API
+  F26-AUDIO               1      0  AUDIO API
+  F26-UPLOAD              1      0  UPLOAD API
+  F26-PIPELINE_ID         3      0  PIPELINE_ID API
+  F26-COMMAND             3      0  COMMAND API
+  F26-EMBEDDING           2      0  EMBEDDING API
+  F26-PROCESS             6      0  PROCESS API
+  F26-SERVICEPROVI        1      0  SERVICEPROVI API
+  F26-RESOURCETYPE        1      0  RESOURCETYPE API
+  F26-SCHEMAS             1      0  SCHEMAS API
+  F26-USERS               6      0  USERS API
+  F26-GROUPS              7      0  GROUPS API
+  F26-TITLE               1      0  TITLE API
+  F26-FOLLOW_UP           1      0  FOLLOW_UP API
+  F26-IMAGE_PROMPT        1      0  IMAGE_PROMPT API
+  F26-QUERIES             1      0  QUERIES API
+  F26-AUTO                1      0  AUTO API
+  F26-EMOJI               1      0  EMOJI API
+  F26-MOA                 1      0  MOA API
+  F26-ACTIVE              1      0  ACTIVE API
+  F26-PERMISSIONS         1      0  PERMISSIONS API
+  F26-DEFAULT             2      0  DEFAULT API
+  F26-USER                4      0  USER API
+  F26-USER_ID             7      0  USER_ID API
+  F26-GRAVATAR            1      0  GRAVATAR API
+  F26-CODE                2      0  CODE API
+  F26-MARKDOWN            1      0  MARKDOWN API
+  F26-PDF                 1      0  PDF API
+  F26-DB                  1      0  DB API
+  F26-RAG                 2      0  RAG API
+  F26-PRICING             2      0  PRICING API
+  F26-PROJECTS            1      0  PROJECTS API
+  F26-LAYOUTS             1      0  LAYOUTS API
+  F26-ASSETS              1      0  ASSETS API
+  F26-TEMPLATES           1      0  TEMPLATES API
+  F26-UI                  9      0  UI Pages
+  F26-INFRA             228      0  Infrastructure Resources
+  F26-OPS                29      0  Operations Scripts
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F26-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\26-eva-gh
+[INFO] Using veritas-plan.json (format: veritas, 728 stories, 0 tasks)
+[INFO] Planned: 142 features, 728 stories
+[INFO] Actual: 10441 artifacts, 728 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\26-eva-gh\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\26-eva-gh\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\26-eva-gh\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 26-eva-gh
+=======================================
+Repo:    C:\AICOE\eva-foundation\26-eva-gh
+Planned: 142 features, 728 stories
+
+Coverage
+---------------------------------------
+Stories total:          728
+Stories with artifacts: 728
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F26-01     EVA Core Sub-Repos              5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F26-02     EVA Sovereign UI                5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F26-03     InfoAssistant Variants          3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-04     Infrastructure Clones           3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-05     Cloud Housekeeping              3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-ACTIVE ACTIVE API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-ADD    ADD API                         3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-ADMIN  ADMIN API                       7/7 artifacts  0/7 evidence  0 gaps
+[ 50] F26-ALL    ALL API                         6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F26-API    API API                         25/25 artifacts  0/25 evidence  0 gaps
+[ 50] F26-API_KEY API_KEY API                     3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-ARCHIVE ARCHIVE API                     1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-ARCHIVED ARCHIVED API                    1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-ASSETS ASSETS API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-AUDIO  AUDIO API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-AUTO   AUTO API                        1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-BANNERS BANNERS API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-BASE   BASE API                        1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-CACHE  CACHE API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-CHANGELOG CHANGELOG API                   1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-CHAT   CHAT API                        11/11 artifacts  0/11 evidence  0 gaps
+[ 50] F26-CODE   CODE API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-CODE_EXECUTI CODE_EXECUTI API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-COLLECTION COLLECTION API                  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-COMMAND COMMAND API                     3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-COMPLETIONS COMPLETIONS API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-CONFIG CONFIG API                      16/16 artifacts  0/16 evidence  0 gaps
+[ 50] F26-CONNECTIONS CONNECTIONS API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-COPY   COPY API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-CREATE CREATE API                      10/10 artifacts  0/10 evidence  0 gaps
+[ 50] F26-DB     DB API                          1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-DEFAULT DEFAULT API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-DELETE DELETE API                      6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F26-DELETEITEMS DELETEITEMS API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-DOCUMENTS DOCUMENTS API                   1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-EDIT   EDIT API                        1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-EF     EF API                          2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-EMBED  EMBED API                       2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-EMBEDDING EMBEDDING API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-EMBEDDINGS EMBEDDINGS API                  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F26-EMOJI  EMOJI API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-EXPORT EXPORT API                      4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F26-FEEDBACK FEEDBACK API                    4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F26-FEEDBACKS FEEDBACKS API                   6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F26-FILE   FILE API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-FOLDER FOLDER API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-FOLLOW_UP FOLLOW_UP API                   1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-GENERATE GENERATE API                    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GENERATIONS GENERATIONS API                 1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-GETALLTAGS GETALLTAGS API                  2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETALLUPLOAD GETALLUPLOAD API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETAPPLICATI GETAPPLICATI API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETCITATION GETCITATION API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETFEATUREFL GETFEATUREFL API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETFILE GETFILE API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETFOLDERS GETFOLDERS API                  2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETHINT GETHINT API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETINFODATA GETINFODATA API                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETMAXCSVFIL GETMAXCSVFIL API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETTAGS GETTAGS API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETTDANALYSI GETTDANALYSI API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETTEMPIMAGE GETTEMPIMAGE API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GETWARNINGBA GETWARNINGBA API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-GRAVATAR GRAVATAR API                    1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-GROUPS GROUPS API                      7/7 artifacts  0/7 evidence  0 gaps
+[ 50] F26-HEALTH HEALTH API                      7/7 artifacts  0/7 evidence  0 gaps
+[ 50] F26-ID     ID API                          78/78 artifacts  0/78 evidence  0 gaps
+[ 50] F26-IMAGE_PROMPT IMAGE_PROMPT API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-IMPORT IMPORT API                      3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-INFRA  Infrastructure Resources        228/228 artifacts  0/228 evidence  0 gaps
+[ 50] F26-INGEST INGEST API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-LAYOUTS LAYOUTS API                     1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-LDAP   LDAP API                        1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-LIST   LIST API                        10/10 artifacts  0/10 evidence  0 gaps
+[ 50] F26-LOAD   LOAD API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-LOGSTATUS LOGSTATUS API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-MANIFESTJSON MANIFESTJSON API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-MARKDOWN MARKDOWN API                    1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-MEMORY_ID MEMORY_ID API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-MOA    MOA API                         1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-MODEL  MODEL API                       5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F26-MODELS MODELS API                      21/21 artifacts  0/21 evidence  0 gaps
+[ 50] F26-NEW    NEW API                         1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-OAUTH  OAUTH API                       6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F26-OPENSEARCHXM OPENSEARCHXM API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-OPS    Operations Scripts              29/29 artifacts  0/29 evidence  0 gaps
+[ 50] F26-PDF    PDF API                         1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-PERMISSIONS PERMISSIONS API                 1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-PINNED PINNED API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-PIPELINE_ID PIPELINE_ID API                 3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-POSTTD POSTTD API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-PRICING PRICING API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-PROCESS PROCESS API                     6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F26-PROCESS_AGEN PROCESS_AGEN API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-PROCESS_TD_A PROCESS_TD_A API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-PROJECTS PROJECTS API                    1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-PS     PS API                          1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-PULL   PULL API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-PUSH   PUSH API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-QUERIES QUERIES API                     1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-QUERY  QUERY API                       5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F26-RAG    RAG API                         2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-READY  READY API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-REFRESH REFRESH API                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-REINDEX REINDEX API                     1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-RESET  RESET API                       3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-RESOURCE RESOURCE API                    1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-RESOURCETYPE RESOURCETYPE API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-RESUBMITITEM RESUBMITITEM API                2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-SCHEMAS SCHEMAS API                     1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SEARCH SEARCH API                      3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-SERVICEPROVI SERVICEPROVI API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SHARE  SHARE API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SHOW   SHOW API                        1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SIGNIN SIGNIN API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SIGNOUT SIGNOUT API                     1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SIGNUP SIGNUP API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SPEECH SPEECH API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-STREAM STREAM API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-SUGGESTIONS SUGGESTIONS API                 1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-SYNC   SYNC API                        2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-TAGS   TAGS API                        5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F26-TASKS  TASKS API                       3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-TDSTREAM TDSTREAM API                    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-TEMPLATES TEMPLATES API                   1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-TENANT TENANT API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-TITLE  TITLE API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-TOOL_SERVERS TOOL_SERVERS API                3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F26-TRANSCRIPTIO TRANSCRIPTIO API                1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-UI     UI Pages                        9/9 artifacts  0/9 evidence  0 gaps
+[ 50] F26-UNARCHIVE UNARCHIVE API                   1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-UNLOAD UNLOAD API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-UPDATE UPDATE API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-UPLOAD UPLOAD API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-USAGE  USAGE API                       1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-USER   USER API                        4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F26-USER_ID USER_ID API                     7/7 artifacts  0/7 evidence  0 gaps
+[ 50] F26-USERS  USERS API                       6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F26-VERIFY VERIFY API                      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F26-VERSION VERSION API                     4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F26-VOICES VOICES API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F26-WEBHOOK WEBHOOK API                     2/2 artifacts  0/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F26-01-001 -- eva-rag clone and sync (1 artifact)
+[IMPL] F26-01-002 -- eva-registry clone and sync (1 artifact)
+[IMPL] F26-01-003 -- eva-safety clone and sync (1 artifact)
+[IMPL] F26-01-004 -- eva-seed clone and sync (1 artifact)
+[IMPL] F26-01-005 -- eva-utils clone and sync (1 artifact)
+[IMPL] F26-02-001 -- EVA-Sovereign-UI baseline (1 artifact)
+[IMPL] F26-02-002 -- EVA-Sovereign-UI-by-Copilot variant (1 artifact)
+[IMPL] F26-02-003 -- eva-sovereign-ui-des design system (1 artifact)
+[IMPL] F26-02-004 -- eva-ui GC design system integration (1 artifact)
+[IMPL] F26-02-005 -- ux-accessibility audit (1 artifact)
+[IMPL] F26-03-001 -- PubSec-Info-Assistant baseline clone (1 artifact)
+[IMPL] F26-03-002 -- PubSec-Info-Assistant-by-Copilot variant (1 artifact)
+[IMPL] F26-03-003 -- ms-infojp fork sync (1 artifact)
+[IMPL] F26-04-001 -- ia-gateway clone and review (1 artifact)
+[IMPL] F26-04-002 -- ia-ingestion-service clone and review (1 artifact)
+[IMPL] F26-04-003 -- OpenWebUI integration baseline (1 artifact)
+[IMPL] F26-05-001 -- Stale branch cleanup across sub-repos (1 artifact)
+[IMPL] F26-05-002 -- Dependency version audit (1 artifact)
+[IMPL] F26-05-003 -- EVA Sandbox isolation review (1 artifact)
+[IMPL] F26-MODELS-001 -- GET /api/models (1 artifact)
+[IMPL] F26-MODELS-002 -- GET /api/v1/models (1 artifact)
+[IMPL] F26-MODELS-003 -- GET /api/models/base (1 artifact)
+[IMPL] F26-MODELS-004 -- GET /models (1 artifact)
+[IMPL] F26-MODELS-005 -- GET /models/{model} (1 artifact)
+[IMPL] F26-MODELS-006 -- POST /models/{model}/embed (1 artifact)
+[IMPL] F26-MODELS-007 -- GET /models (1 artifact)
+[IMPL] F26-MODELS-008 -- GET /models/{model} (1 artifact)
+[IMPL] F26-MODELS-009 -- POST /models/{model}/embed (1 artifact)
+[IMPL] F26-MODELS-010 -- GET /models (1 artifact)
+[IMPL] F26-MODELS-011 -- GET /models (1 artifact)
+[IMPL] F26-MODELS-012 -- POST /models (1 artifact)
+[IMPL] F26-MODELS-013 -- GET /models (1 artifact)
+[IMPL] F26-MODELS-014 -- GET /v1/models (1 artifact)
+[IMPL] F26-MODELS-015 -- GET /v1/models/{url_idx} (1 artifact)
+[IMPL] F26-MODELS-016 -- POST /models/download (1 artifact)
+[IMPL] F26-MODELS-017 -- POST /models/download/{url_idx} (1 artifact)
+[IMPL] F26-MODELS-018 -- POST /models/upload (1 artifact)
+[IMPL] F26-MODELS-019 -- POST /models/upload/{url_idx} (1 artifact)
+[IMPL] F26-MODELS-020 -- GET /models (1 artifact)
+[IMPL] F26-MODELS-021 -- GET /models/{url_idx} (1 artifact)
+[IMPL] F26-EMBEDDINGS-001 -- POST /api/embeddings (1 artifact)
+[IMPL] F26-EMBEDDINGS-002 -- POST /api/v1/embeddings (1 artifact)
+[IMPL] F26-EMBEDDINGS-003 -- POST /api/embeddings (1 artifact)
+[IMPL] F26-EMBEDDINGS-004 -- POST /api/embeddings/{url_idx} (1 artifact)
+[IMPL] F26-CHAT-001 -- POST /api/chat/completions (1 artifact)
+[IMPL] F26-CHAT-002 -- POST /api/v1/chat/completions (1 artifact)
+[IMPL] F26-CHAT-003 -- POST /api/chat/completed (1 artifact)
+[IMPL] F26-CHAT-004 -- POST /api/chat/actions/{action_id} (1 artifact)
+[IMPL] F26-CHAT-005 -- POST /chat (1 artifact)
+[IMPL] F26-CHAT-006 -- POST /chat (1 artifact)
+[IMPL] F26-CHAT-007 -- POST /api/chat (1 artifact)
+[IMPL] F26-CHAT-008 -- POST /api/chat/{url_idx} (1 artifact)
+[IMPL] F26-CHAT-009 -- POST /v1/chat/completions (1 artifact)
+[IMPL] F26-CHAT-010 -- POST /v1/chat/completions/{url_idx} (1 artifact)
+[IMPL] F26-CHAT-011 -- POST /chat/completions (1 artifact)
+[IMPL] F26-TASKS-001 -- POST /api/tasks/stop/{task_id} (1 artifact)
+[IMPL] F26-TASKS-002 -- GET /api/tasks (1 artifact)
+[IMPL] F26-TASKS-003 -- GET /api/tasks/chat/{chat_id} (1 artifact)
+[IMPL] F26-CONFIG-001 -- GET /api/config (1 artifact)
+[IMPL] F26-CONFIG-002 -- GET /config (1 artifact)
+[IMPL] F26-CONFIG-003 -- POST /config/update (1 artifact)
+[IMPL] F26-CONFIG-004 -- GET /config (1 artifact)
+[IMPL] F26-CONFIG-005 -- POST /config (1 artifact)
+[IMPL] F26-CONFIG-006 -- GET /config (1 artifact)
+[IMPL] F26-CONFIG-007 -- POST /config/update (1 artifact)
+[IMPL] F26-CONFIG-008 -- GET /config/url/verify (1 artifact)
+[IMPL] F26-CONFIG-009 -- GET /config (1 artifact)
+[IMPL] F26-CONFIG-010 -- POST /config/update (1 artifact)
+[IMPL] F26-CONFIG-011 -- GET /config (1 artifact)
+[IMPL] F26-CONFIG-012 -- POST /config/update (1 artifact)
+[IMPL] F26-CONFIG-013 -- GET /config (1 artifact)
+[IMPL] F26-CONFIG-014 -- POST /config/update (1 artifact)
+[IMPL] F26-CONFIG-015 -- GET /config (1 artifact)
+[IMPL] F26-CONFIG-016 -- POST /config/update (1 artifact)
+[IMPL] F26-WEBHOOK-001 -- GET /api/webhook (1 artifact)
+[IMPL] F26-WEBHOOK-002 -- POST /api/webhook (1 artifact)
+[IMPL] F26-VERSION-001 -- GET /api/version (1 artifact)
+[IMPL] F26-VERSION-002 -- GET /api/version/updates (1 artifact)
+[IMPL] F26-VERSION-003 -- GET /api/version (1 artifact)
+[IMPL] F26-VERSION-004 -- GET /api/version/{url_idx} (1 artifact)
+[IMPL] F26-CHANGELOG-001 -- GET /api/changelog (1 artifact)
+[IMPL] F26-USAGE-001 -- GET /api/usage (1 artifact)
+[IMPL] F26-OAUTH-001 -- GET /oauth/clients/{client_id}/authorize (1 artifact)
+[IMPL] F26-OAUTH-002 -- GET /oauth/clients/{client_id}/callback (1 artifact)
+[IMPL] F26-OAUTH-003 -- GET /oauth/{provider}/login (1 artifact)
+[IMPL] F26-OAUTH-004 -- GET /oauth/{provider}/login/callback (1 artifact)
+[IMPL] F26-OAUTH-005 -- GET /oauth/{provider}/callback (1 artifact)
+[IMPL] F26-OAUTH-006 -- POST /oauth/clients/register (1 artifact)
+[IMPL] F26-MANIFESTJSON-001 -- GET /manifest.json (1 artifact)
+[IMPL] F26-OPENSEARCHXM-001 -- GET /opensearch.xml (1 artifact)
+[IMPL] F26-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F26-HEALTH-002 -- GET /health/db (1 artifact)
+[IMPL] F26-HEALTH-003 -- GET /health (1 artifact)
+[IMPL] F26-HEALTH-004 -- GET /health (1 artifact)
+[IMPL] F26-HEALTH-005 -- GET /health (1 artifact)
+[IMPL] F26-HEALTH-006 -- GET /health (1 artifact)
+[IMPL] F26-HEALTH-007 -- GET /health (1 artifact)
+[IMPL] F26-CACHE-001 -- GET /cache/{path:path} (1 artifact)
+[IMPL] F26-API-001 -- GET / (1 artifact)
+[IMPL] F26-API-002 -- GET / (1 artifact)
+[IMPL] F26-API-003 -- GET / (1 artifact)
+[IMPL] F26-API-004 -- GET / (1 artifact)
+[IMPL] F26-API-005 -- GET / (1 artifact)
+[IMPL] F26-API-006 -- GET / (1 artifact)
+[IMPL] F26-API-007 -- GET / (1 artifact)
+[IMPL] F26-API-008 -- GET / (1 artifact)
+[IMPL] F26-API-009 -- DELETE / (1 artifact)
+[IMPL] F26-API-010 -- POST / (1 artifact)
+[IMPL] F26-API-011 -- GET / (1 artifact)
+[IMPL] F26-API-012 -- GET / (1 artifact)
+[IMPL] F26-API-013 -- POST / (1 artifact)
+[IMPL] F26-API-014 -- GET / (1 artifact)
+[IMPL] F26-API-015 -- GET / (1 artifact)
+[IMPL] F26-API-016 -- GET / (1 artifact)
+[IMPL] F26-API-017 -- GET / (1 artifact)
+[IMPL] F26-API-018 -- GET / (1 artifact)
+[IMPL] F26-API-019 -- HEAD / (1 artifact)
+[IMPL] F26-API-020 -- GET / (1 artifact)
+[IMPL] F26-API-021 -- GET / (1 artifact)
+[IMPL] F26-API-022 -- GET / (1 artifact)
+[IMPL] F26-API-023 -- GET / (1 artifact)
+[IMPL] F26-API-024 -- GET / (1 artifact)
+[IMPL] F26-API-025 -- GET / (1 artifact)
+[IMPL] F26-GETALLUPLOAD-001 -- POST /getalluploadstatus (1 artifact)
+[IMPL] F26-GETALLUPLOAD-002 -- POST /getalluploadstatus (1 artifact)
+[IMPL] F26-GETFOLDERS-001 -- POST /getfolders (1 artifact)
+[IMPL] F26-GETFOLDERS-002 -- POST /getfolders (1 artifact)
+[IMPL] F26-DELETEITEMS-001 -- POST /deleteItems (1 artifact)
+[IMPL] F26-DELETEITEMS-002 -- POST /deleteItems (1 artifact)
+[IMPL] F26-RESUBMITITEM-001 -- POST /resubmitItems (1 artifact)
+[IMPL] F26-RESUBMITITEM-002 -- POST /resubmitItems (1 artifact)
+[IMPL] F26-GETTAGS-001 -- POST /gettags (1 artifact)
+[IMPL] F26-GETTAGS-002 -- POST /gettags (1 artifact)
+[IMPL] F26-LOGSTATUS-001 -- POST /logstatus (1 artifact)
+[IMPL] F26-LOGSTATUS-002 -- POST /logstatus (1 artifact)
+[IMPL] F26-GETINFODATA-001 -- GET /getInfoData (1 artifact)
+[IMPL] F26-GETINFODATA-002 -- GET /getInfoData (1 artifact)
+[IMPL] F26-GETWARNINGBA-001 -- GET /getWarningBanner (1 artifact)
+[IMPL] F26-GETWARNINGBA-002 -- GET /getWarningBanner (1 artifact)
+[IMPL] F26-GETMAXCSVFIL-001 -- GET /getMaxCSVFileSize (1 artifact)
+[IMPL] F26-GETMAXCSVFIL-002 -- GET /getMaxCSVFileSize (1 artifact)
+[IMPL] F26-GETCITATION-001 -- POST /getcitation (1 artifact)
+[IMPL] F26-GETCITATION-002 -- POST /getcitation (1 artifact)
+[IMPL] F26-GETAPPLICATI-001 -- GET /getApplicationTitle (1 artifact)
+[IMPL] F26-GETAPPLICATI-002 -- GET /getApplicationTitle (1 artifact)
+[IMPL] F26-GETALLTAGS-001 -- GET /getalltags (1 artifact)
+[IMPL] F26-GETALLTAGS-002 -- GET /getalltags (1 artifact)
+[IMPL] F26-GETTEMPIMAGE-001 -- GET /getTempImages (1 artifact)
+[IMPL] F26-GETTEMPIMAGE-002 -- GET /getTempImages (1 artifact)
+[IMPL] F26-GETHINT-001 -- GET /getHint (1 artifact)
+[IMPL] F26-GETHINT-002 -- GET /getHint (1 artifact)
+[IMPL] F26-POSTTD-001 -- POST /posttd (1 artifact)
+[IMPL] F26-POSTTD-002 -- POST /posttd (1 artifact)
+[IMPL] F26-PROCESS_TD_A-001 -- GET /process_td_agent_response (1 artifact)
+[IMPL] F26-PROCESS_TD_A-002 -- GET /process_td_agent_response (1 artifact)
+[IMPL] F26-GETTDANALYSI-001 -- GET /getTdAnalysis (1 artifact)
+[IMPL] F26-GETTDANALYSI-002 -- GET /getTdAnalysis (1 artifact)
+[IMPL] F26-REFRESH-001 -- POST /refresh (1 artifact)
+[IMPL] F26-REFRESH-002 -- POST /refresh (1 artifact)
+[IMPL] F26-STREAM-001 -- GET /stream (1 artifact)
+[IMPL] F26-STREAM-002 -- GET /stream (1 artifact)
+[IMPL] F26-TDSTREAM-001 -- GET /tdstream (1 artifact)
+[IMPL] F26-TDSTREAM-002 -- GET /tdstream (1 artifact)
+[IMPL] F26-PROCESS_AGEN-001 -- GET /process_agent_response (1 artifact)
+[IMPL] F26-PROCESS_AGEN-002 -- GET /process_agent_response (1 artifact)
+[IMPL] F26-GETFEATUREFL-001 -- GET /getFeatureFlags (1 artifact)
+[IMPL] F26-GETFEATUREFL-002 -- GET /getFeatureFlags (1 artifact)
+[IMPL] F26-FILE-001 -- POST /file (1 artifact)
+[IMPL] F26-FILE-002 -- POST /file (1 artifact)
+[IMPL] F26-GETFILE-001 -- POST /get-file (1 artifact)
+[IMPL] F26-GETFILE-002 -- POST /get-file (1 artifact)
+[IMPL] F26-READY-001 -- GET /ready (1 artifact)
+[IMPL] F26-INGEST-001 -- POST /api/v1/ingest (1 artifact)
+[IMPL] F26-DOCUMENTS-001 -- DELETE /api/v1/documents/{document_id} (1 artifact)
+[IMPL] F26-COLLECTION-001 -- GET /api/v1/collection/stats (1 artifact)
+[IMPL] F26-QUERY-001 -- OPTIONS /api/v1/query (1 artifact)
+[IMPL] F26-QUERY-002 -- POST /api/v1/query (1 artifact)
+[IMPL] F26-QUERY-003 -- POST /query (1 artifact)
+[IMPL] F26-QUERY-004 -- POST /query/doc (1 artifact)
+[IMPL] F26-QUERY-005 -- POST /query/collection (1 artifact)
+[IMPL] F26-TENANT-001 -- GET /api/v1/tenant/stats (1 artifact)
+[IMPL] F26-RESOURCE-001 -- GET /api/v1/resource (1 artifact)
+[IMPL] F26-SPEECH-001 -- POST /speech (1 artifact)
+[IMPL] F26-TRANSCRIPTIO-001 -- POST /transcriptions (1 artifact)
+[IMPL] F26-VOICES-001 -- GET /voices (1 artifact)
+[IMPL] F26-UPDATE-001 -- POST /update/profile (1 artifact)
+[IMPL] F26-UPDATE-002 -- POST /update/password (1 artifact)
+[IMPL] F26-LDAP-001 -- POST /ldap (1 artifact)
+[IMPL] F26-SIGNIN-001 -- POST /signin (1 artifact)
+[IMPL] F26-SIGNUP-001 -- POST /signup (1 artifact)
+[IMPL] F26-SIGNOUT-001 -- GET /signout (1 artifact)
+[IMPL] F26-ADD-001 -- POST /add (1 artifact)
+[IMPL] F26-ADD-002 -- POST /add (1 artifact)
+[IMPL] F26-ADD-003 -- POST /add (1 artifact)
+[IMPL] F26-ADMIN-001 -- GET /admin/details (1 artifact)
+[IMPL] F26-ADMIN-002 -- GET /admin/config (1 artifact)
+[IMPL] F26-ADMIN-003 -- POST /admin/config (1 artifact)
+[IMPL] F26-ADMIN-004 -- GET /admin/config/ldap/server (1 artifact)
+[IMPL] F26-ADMIN-005 -- POST /admin/config/ldap/server (1 artifact)
+[IMPL] F26-ADMIN-006 -- GET /admin/config/ldap (1 artifact)
+[IMPL] F26-ADMIN-007 -- POST /admin/config/ldap (1 artifact)
+[IMPL] F26-API_KEY-001 -- POST /api_key (1 artifact)
+[IMPL] F26-API_KEY-002 -- DELETE /api_key (1 artifact)
+[IMPL] F26-API_KEY-003 -- GET /api_key (1 artifact)
+[IMPL] F26-LIST-001 -- GET /list (1 artifact)
+[IMPL] F26-LIST-002 -- GET /list (1 artifact)
+[IMPL] F26-LIST-003 -- GET /list/user/{user_id} (1 artifact)
+[IMPL] F26-LIST-004 -- GET /list (1 artifact)
+[IMPL] F26-LIST-005 -- GET /list (1 artifact)
+[IMPL] F26-LIST-006 -- GET /list (1 artifact)
+[IMPL] F26-LIST-007 -- GET /list (1 artifact)
+[IMPL] F26-LIST-008 -- GET /list (1 artifact)
+[IMPL] F26-LIST-009 -- GET /list (1 artifact)
+[IMPL] F26-LIST-010 -- GET /list (1 artifact)
+[IMPL] F26-CREATE-001 -- POST /create (1 artifact)
+[IMPL] F26-CREATE-002 -- POST /create (1 artifact)
+[IMPL] F26-CREATE-003 -- POST /create (1 artifact)
+[IMPL] F26-CREATE-004 -- POST /create (1 artifact)
+[IMPL] F26-CREATE-005 -- POST /create (1 artifact)
+[IMPL] F26-CREATE-006 -- POST /create (1 artifact)
+[IMPL] F26-CREATE-007 -- POST /api/create (1 artifact)
+[IMPL] F26-CREATE-008 -- POST /api/create/{url_idx} (1 artifact)
+[IMPL] F26-CREATE-009 -- POST /create (1 artifact)
+[IMPL] F26-CREATE-010 -- POST /create (1 artifact)
+[IMPL] F26-ID-001 -- GET /{id} (1 artifact)
+[IMPL] F26-ID-002 -- GET /{id}/users (1 artifact)
+[IMPL] F26-ID-003 -- POST /{id}/update (1 artifact)
+[IMPL] F26-ID-004 -- DELETE /{id}/delete (1 artifact)
+[IMPL] F26-ID-005 -- GET /{id}/messages (1 artifact)
+[IMPL] F26-ID-006 -- POST /{id}/messages/post (1 artifact)
+[IMPL] F26-ID-007 -- GET /{id}/messages/{message_id} (1 artifact)
+[IMPL] F26-ID-008 -- GET /{id}/messages/{message_id}/thread (1 artifact)
+[IMPL] F26-ID-009 -- POST /{id}/messages/{message_id}/update (1 artifact)
+[IMPL] F26-ID-010 -- POST /{id}/messages/{message_id}/reactions/add (1 artifact)
+[IMPL] F26-ID-011 -- POST /{id}/messages/{message_id}/reactions/remove (1 artifact)
+[IMPL] F26-ID-012 -- DELETE /{id}/messages/{message_id}/delete (1 artifact)
+[IMPL] F26-ID-013 -- GET /{id} (1 artifact)
+[IMPL] F26-ID-014 -- POST /{id} (1 artifact)
+[IMPL] F26-ID-015 -- POST /{id}/messages/{message_id} (1 artifact)
+[IMPL] F26-ID-016 -- POST /{id}/messages/{message_id}/event (1 artifact)
+[IMPL] F26-ID-017 -- DELETE /{id} (1 artifact)
+[IMPL] F26-ID-018 -- GET /{id}/pinned (1 artifact)
+[IMPL] F26-ID-019 -- POST /{id}/pin (1 artifact)
+[IMPL] F26-ID-020 -- POST /{id}/clone (1 artifact)
+[IMPL] F26-ID-021 -- POST /{id}/clone/shared (1 artifact)
+[IMPL] F26-ID-022 -- POST /{id}/archive (1 artifact)
+[IMPL] F26-ID-023 -- POST /{id}/share (1 artifact)
+[IMPL] F26-ID-024 -- DELETE /{id}/share (1 artifact)
+[IMPL] F26-ID-025 -- POST /{id}/folder (1 artifact)
+[IMPL] F26-ID-026 -- GET /{id}/tags (1 artifact)
+[IMPL] F26-ID-027 -- POST /{id}/tags (1 artifact)
+[IMPL] F26-ID-028 -- DELETE /{id}/tags (1 artifact)
+[IMPL] F26-ID-029 -- DELETE /{id}/tags/all (1 artifact)
+[IMPL] F26-ID-030 -- GET /{id} (1 artifact)
+[IMPL] F26-ID-031 -- GET /{id}/process/status (1 artifact)
+[IMPL] F26-ID-032 -- GET /{id}/data/content (1 artifact)
+[IMPL] F26-ID-033 -- POST /{id}/data/content/update (1 artifact)
+[IMPL] F26-ID-034 -- GET /{id}/content (1 artifact)
+[IMPL] F26-ID-035 -- GET /{id}/content/html (1 artifact)
+[IMPL] F26-ID-036 -- GET /{id}/content/{file_name} (1 artifact)
+[IMPL] F26-ID-037 -- DELETE /{id} (1 artifact)
+[IMPL] F26-ID-038 -- GET /{id} (1 artifact)
+[IMPL] F26-ID-039 -- POST /{id}/update (1 artifact)
+[IMPL] F26-ID-040 -- POST /{id}/update/parent (1 artifact)
+[IMPL] F26-ID-041 -- POST /{id}/update/expanded (1 artifact)
+[IMPL] F26-ID-042 -- DELETE /{id} (1 artifact)
+[IMPL] F26-ID-043 -- GET /id/{id} (1 artifact)
+[IMPL] F26-ID-044 -- POST /id/{id}/toggle (1 artifact)
+[IMPL] F26-ID-045 -- POST /id/{id}/toggle/global (1 artifact)
+[IMPL] F26-ID-046 -- POST /id/{id}/update (1 artifact)
+[IMPL] F26-ID-047 -- DELETE /id/{id}/delete (1 artifact)
+[IMPL] F26-ID-048 -- GET /id/{id}/valves (1 artifact)
+[IMPL] F26-ID-049 -- GET /id/{id}/valves/spec (1 artifact)
+[IMPL] F26-ID-050 -- POST /id/{id}/valves/update (1 artifact)
+[IMPL] F26-ID-051 -- GET /id/{id}/valves/user (1 artifact)
+[IMPL] F26-ID-052 -- GET /id/{id}/valves/user/spec (1 artifact)
+[IMPL] F26-ID-053 -- POST /id/{id}/valves/user/update (1 artifact)
+[IMPL] F26-ID-054 -- GET /id/{id} (1 artifact)
+[IMPL] F26-ID-055 -- POST /id/{id}/update (1 artifact)
+[IMPL] F26-ID-056 -- POST /id/{id}/users/add (1 artifact)
+[IMPL] F26-ID-057 -- POST /id/{id}/users/remove (1 artifact)
+[IMPL] F26-ID-058 -- DELETE /id/{id}/delete (1 artifact)
+[IMPL] F26-ID-059 -- GET /{id} (1 artifact)
+[IMPL] F26-ID-060 -- POST /{id}/update (1 artifact)
+[IMPL] F26-ID-061 -- POST /{id}/file/add (1 artifact)
+[IMPL] F26-ID-062 -- POST /{id}/file/update (1 artifact)
+[IMPL] F26-ID-063 -- POST /{id}/file/remove (1 artifact)
+[IMPL] F26-ID-064 -- DELETE /{id}/delete (1 artifact)
+[IMPL] F26-ID-065 -- POST /{id}/reset (1 artifact)
+[IMPL] F26-ID-066 -- POST /{id}/files/batch/add (1 artifact)
+[IMPL] F26-ID-067 -- GET /{id} (1 artifact)
+[IMPL] F26-ID-068 -- POST /{id}/update (1 artifact)
+[IMPL] F26-ID-069 -- DELETE /{id}/delete (1 artifact)
+[IMPL] F26-ID-070 -- GET /id/{id} (1 artifact)
+[IMPL] F26-ID-071 -- POST /id/{id}/update (1 artifact)
+[IMPL] F26-ID-072 -- DELETE /id/{id}/delete (1 artifact)
+[IMPL] F26-ID-073 -- GET /id/{id}/valves (1 artifact)
+[IMPL] F26-ID-074 -- GET /id/{id}/valves/spec (1 artifact)
+[IMPL] F26-ID-075 -- POST /id/{id}/valves/update (1 artifact)
+[IMPL] F26-ID-076 -- GET /id/{id}/valves/user (1 artifact)
+[IMPL] F26-ID-077 -- GET /id/{id}/valves/user/spec (1 artifact)
+[IMPL] F26-ID-078 -- POST /id/{id}/valves/user/update (1 artifact)
+[IMPL] F26-NEW-001 -- POST /new (1 artifact)
+[IMPL] F26-IMPORT-001 -- POST /import (1 artifact)
+[IMPL] F26-IMPORT-002 -- POST /import (1 artifact)
+[IMPL] F26-IMPORT-003 -- POST /import (1 artifact)
+[IMPL] F26-SEARCH-001 -- GET /search (1 artifact)
+[IMPL] F26-SEARCH-002 -- GET /search (1 artifact)
+[IMPL] F26-SEARCH-003 -- GET /search (1 artifact)
+[IMPL] F26-FOLDER-001 -- GET /folder/{folder_id} (1 artifact)
+[IMPL] F26-FOLDER-002 -- GET /folder/{folder_id}/list (1 artifact)
+[IMPL] F26-PINNED-001 -- GET /pinned (1 artifact)
+[IMPL] F26-ALL-001 -- GET /all (1 artifact)
+[IMPL] F26-ALL-002 -- GET /all/archived (1 artifact)
+[IMPL] F26-ALL-003 -- GET /all/tags (1 artifact)
+[IMPL] F26-ALL-004 -- GET /all/db (1 artifact)
+[IMPL] F26-ALL-005 -- DELETE /all (1 artifact)
+[IMPL] F26-ALL-006 -- GET /all (1 artifact)
+[IMPL] F26-ARCHIVED-001 -- GET /archived (1 artifact)
+[IMPL] F26-ARCHIVE-001 -- POST /archive/all (1 artifact)
+[IMPL] F26-UNARCHIVE-001 -- POST /unarchive/all (1 artifact)
+[IMPL] F26-SHARE-001 -- GET /share/{share_id} (1 artifact)
+[IMPL] F26-TAGS-001 -- POST /tags (1 artifact)
+[IMPL] F26-TAGS-002 -- GET /tags (1 artifact)
+[IMPL] F26-TAGS-003 -- GET /api/tags (1 artifact)
+[IMPL] F26-TAGS-004 -- GET /api/tags/{url_idx} (1 artifact)
+[IMPL] F26-TAGS-005 -- POST /tags/completions (1 artifact)
+[IMPL] F26-EXPORT-001 -- GET /export (1 artifact)
+[IMPL] F26-EXPORT-002 -- GET /export (1 artifact)
+[IMPL] F26-EXPORT-003 -- GET /export (1 artifact)
+[IMPL] F26-EXPORT-004 -- GET /export (1 artifact)
+[IMPL] F26-CONNECTIONS-001 -- GET /connections (1 artifact)
+[IMPL] F26-CONNECTIONS-002 -- POST /connections (1 artifact)
+[IMPL] F26-TOOL_SERVERS-001 -- GET /tool_servers (1 artifact)
+[IMPL] F26-TOOL_SERVERS-002 -- POST /tool_servers (1 artifact)
+[IMPL] F26-TOOL_SERVERS-003 -- POST /tool_servers/verify (1 artifact)
+[IMPL] F26-CODE_EXECUTI-001 -- GET /code_execution (1 artifact)
+[IMPL] F26-CODE_EXECUTI-002 -- POST /code_execution (1 artifact)
+[IMPL] F26-SUGGESTIONS-001 -- POST /suggestions (1 artifact)
+[IMPL] F26-BANNERS-001 -- POST /banners (1 artifact)
+[IMPL] F26-BANNERS-002 -- GET /banners (1 artifact)
+[IMPL] F26-FEEDBACKS-001 -- GET /feedbacks/all (1 artifact)
+[IMPL] F26-FEEDBACKS-002 -- DELETE /feedbacks/all (1 artifact)
+[IMPL] F26-FEEDBACKS-003 -- GET /feedbacks/all/export (1 artifact)
+[IMPL] F26-FEEDBACKS-004 -- GET /feedbacks/user (1 artifact)
+[IMPL] F26-FEEDBACKS-005 -- DELETE /feedbacks (1 artifact)
+[IMPL] F26-FEEDBACKS-006 -- GET /feedbacks/list (1 artifact)
+[IMPL] F26-FEEDBACK-001 -- POST /feedback (1 artifact)
+[IMPL] F26-FEEDBACK-002 -- GET /feedback/{id} (1 artifact)
+[IMPL] F26-FEEDBACK-003 -- POST /feedback/{id} (1 artifact)
+[IMPL] F26-FEEDBACK-004 -- DELETE /feedback/{id} (1 artifact)
+[IMPL] F26-LOAD-001 -- POST /load/url (1 artifact)
+[IMPL] F26-LOAD-002 -- POST /load/url (1 artifact)
+[IMPL] F26-SYNC-001 -- POST /sync (1 artifact)
+[IMPL] F26-SYNC-002 -- POST /sync (1 artifact)
+[IMPL] F26-GENERATIONS-001 -- POST /generations (1 artifact)
+[IMPL] F26-EDIT-001 -- POST /edit (1 artifact)
+[IMPL] F26-REINDEX-001 -- POST /reindex (1 artifact)
+[IMPL] F26-EF-001 -- GET /ef (1 artifact)
+[IMPL] F26-EF-002 -- GET /ef/{text} (1 artifact)
+[IMPL] F26-RESET-001 -- POST /reset (1 artifact)
+[IMPL] F26-RESET-002 -- POST /reset/db (1 artifact)
+[IMPL] F26-RESET-003 -- POST /reset/uploads (1 artifact)
+[IMPL] F26-DELETE-001 -- DELETE /delete/user (1 artifact)
+[IMPL] F26-DELETE-002 -- DELETE /delete/all (1 artifact)
+[IMPL] F26-DELETE-003 -- DELETE /api/delete (1 artifact)
+[IMPL] F26-DELETE-004 -- DELETE /api/delete/{url_idx} (1 artifact)
+[IMPL] F26-DELETE-005 -- DELETE /delete (1 artifact)
+[IMPL] F26-DELETE-006 -- POST /delete (1 artifact)
+[IMPL] F26-MEMORY_ID-001 -- POST /{memory_id}/update (1 artifact)
+[IMPL] F26-MEMORY_ID-002 -- DELETE /{memory_id} (1 artifact)
+[IMPL] F26-BASE-001 -- GET /base (1 artifact)
+[IMPL] F26-MODEL-001 -- GET /model (1 artifact)
+[IMPL] F26-MODEL-002 -- GET /model/profile/image (1 artifact)
+[IMPL] F26-MODEL-003 -- POST /model/toggle (1 artifact)
+[IMPL] F26-MODEL-004 -- POST /model/update (1 artifact)
+[IMPL] F26-MODEL-005 -- POST /model/delete (1 artifact)
+[IMPL] F26-VERIFY-001 -- POST /verify (1 artifact)
+[IMPL] F26-VERIFY-002 -- POST /verify (1 artifact)
+[IMPL] F26-PS-001 -- GET /api/ps (1 artifact)
+[IMPL] F26-UNLOAD-001 -- POST /api/unload (1 artifact)
+[IMPL] F26-PULL-001 -- POST /api/pull (1 artifact)
+[IMPL] F26-PULL-002 -- POST /api/pull/{url_idx} (1 artifact)
+[IMPL] F26-PUSH-001 -- DELETE /api/push (1 artifact)
+[IMPL] F26-PUSH-002 -- DELETE /api/push/{url_idx} (1 artifact)
+[IMPL] F26-COPY-001 -- POST /api/copy (1 artifact)
+[IMPL] F26-COPY-002 -- POST /api/copy/{url_idx} (1 artifact)
+[IMPL] F26-SHOW-001 -- POST /api/show (1 artifact)
+[IMPL] F26-EMBED-001 -- POST /api/embed (1 artifact)
+[IMPL] F26-EMBED-002 -- POST /api/embed/{url_idx} (1 artifact)
+[IMPL] F26-GENERATE-001 -- POST /api/generate (1 artifact)
+[IMPL] F26-GENERATE-002 -- POST /api/generate/{url_idx} (1 artifact)
+[IMPL] F26-COMPLETIONS-001 -- POST /v1/completions (1 artifact)
+[IMPL] F26-COMPLETIONS-002 -- POST /v1/completions/{url_idx} (1 artifact)
+[IMPL] F26-AUDIO-001 -- POST /audio/speech (1 artifact)
+[IMPL] F26-UPLOAD-001 -- POST /upload (1 artifact)
+[IMPL] F26-PIPELINE_ID-001 -- GET /{pipeline_id}/valves (1 artifact)
+[IMPL] F26-PIPELINE_ID-002 -- GET /{pipeline_id}/valves/spec (1 artifact)
+[IMPL] F26-PIPELINE_ID-003 -- POST /{pipeline_id}/valves/update (1 artifact)
+[IMPL] F26-COMMAND-001 -- GET /command/{command} (1 artifact)
+[IMPL] F26-COMMAND-002 -- POST /command/{command}/update (1 artifact)
+[IMPL] F26-COMMAND-003 -- DELETE /command/{command}/delete (1 artifact)
+[IMPL] F26-EMBEDDING-001 -- GET /embedding (1 artifact)
+[IMPL] F26-EMBEDDING-002 -- POST /embedding/update (1 artifact)
+[IMPL] F26-PROCESS-001 -- POST /process/file (1 artifact)
+[IMPL] F26-PROCESS-002 -- POST /process/text (1 artifact)
+[IMPL] F26-PROCESS-003 -- POST /process/youtube (1 artifact)
+[IMPL] F26-PROCESS-004 -- POST /process/web (1 artifact)
+[IMPL] F26-PROCESS-005 -- POST /process/web/search (1 artifact)
+[IMPL] F26-PROCESS-006 -- POST /process/files/batch (1 artifact)
+[IMPL] F26-SERVICEPROVI-001 -- GET /ServiceProviderConfig (1 artifact)
+[IMPL] F26-RESOURCETYPE-001 -- GET /ResourceTypes (1 artifact)
+[IMPL] F26-SCHEMAS-001 -- GET /Schemas (1 artifact)
+[IMPL] F26-USERS-001 -- GET /Users (1 artifact)
+[IMPL] F26-USERS-002 -- GET /Users/{user_id} (1 artifact)
+[IMPL] F26-USERS-003 -- POST /Users (1 artifact)
+[IMPL] F26-USERS-004 -- PUT /Users/{user_id} (1 artifact)
+[IMPL] F26-USERS-005 -- PATCH /Users/{user_id} (1 artifact)
+[IMPL] F26-USERS-006 -- DELETE /Users/{user_id} (1 artifact)
+[IMPL] F26-GROUPS-001 -- GET /Groups (1 artifact)
+[IMPL] F26-GROUPS-002 -- GET /Groups/{group_id} (1 artifact)
+[IMPL] F26-GROUPS-003 -- POST /Groups (1 artifact)
+[IMPL] F26-GROUPS-004 -- PUT /Groups/{group_id} (1 artifact)
+[IMPL] F26-GROUPS-005 -- PATCH /Groups/{group_id} (1 artifact)
+[IMPL] F26-GROUPS-006 -- DELETE /Groups/{group_id} (1 artifact)
+[IMPL] F26-GROUPS-007 -- GET /groups (1 artifact)
+[IMPL] F26-TITLE-001 -- POST /title/completions (1 artifact)
+[IMPL] F26-FOLLOW_UP-001 -- POST /follow_up/completions (1 artifact)
+[IMPL] F26-IMAGE_PROMPT-001 -- POST /image_prompt/completions (1 artifact)
+[IMPL] F26-QUERIES-001 -- POST /queries/completions (1 artifact)
+[IMPL] F26-AUTO-001 -- POST /auto/completions (1 artifact)
+[IMPL] F26-EMOJI-001 -- POST /emoji/completions (1 artifact)
+[IMPL] F26-MOA-001 -- POST /moa/completions (1 artifact)
+[IMPL] F26-ACTIVE-001 -- GET /active (1 artifact)
+[IMPL] F26-PERMISSIONS-001 -- GET /permissions (1 artifact)
+[IMPL] F26-DEFAULT-001 -- GET /default/permissions (1 artifact)
+[IMPL] F26-DEFAULT-002 -- POST /default/permissions (1 artifact)
+[IMPL] F26-USER-001 -- GET /user/settings (1 artifact)
+[IMPL] F26-USER-002 -- POST /user/settings/update (1 artifact)
+[IMPL] F26-USER-003 -- GET /user/info (1 artifact)
+[IMPL] F26-USER-004 -- POST /user/info/update (1 artifact)
+[IMPL] F26-USER_ID-001 -- GET /{user_id} (1 artifact)
+[IMPL] F26-USER_ID-002 -- GET /{user_id}/oauth/sessions (1 artifact)
+[IMPL] F26-USER_ID-003 -- GET /{user_id}/profile/image (1 artifact)
+[IMPL] F26-USER_ID-004 -- GET /{user_id}/active (1 artifact)
+[IMPL] F26-USER_ID-005 -- POST /{user_id}/update (1 artifact)
+[IMPL] F26-USER_ID-006 -- DELETE /{user_id} (1 artifact)
+[IMPL] F26-USER_ID-007 -- GET /{user_id}/groups (1 artifact)
+[IMPL] F26-GRAVATAR-001 -- GET /gravatar (1 artifact)
+[IMPL] F26-CODE-001 -- POST /code/format (1 artifact)
+[IMPL] F26-CODE-002 -- POST /code/execute (1 artifact)
+[IMPL] F26-MARKDOWN-001 -- POST /markdown (1 artifact)
+[IMPL] F26-PDF-001 -- POST /pdf (1 artifact)
+[IMPL] F26-DB-001 -- GET /db/download (1 artifact)
+[IMPL] F26-RAG-001 -- POST /rag/answer (1 artifact)
+[IMPL] F26-RAG-002 -- POST /rag/answer (1 artifact)
+[IMPL] F26-PRICING-001 -- GET /pricing (1 artifact)
+[IMPL] F26-PRICING-002 -- GET /pricing/:evaKey (1 artifact)
+[IMPL] F26-PROJECTS-001 -- GET /projects (1 artifact)
+[IMPL] F26-LAYOUTS-001 -- GET /layouts/:pageId (1 artifact)
+[IMPL] F26-ASSETS-001 -- GET /assets (1 artifact)
+[IMPL] F26-TEMPLATES-001 -- GET /templates (1 artifact)
+[IMPL] F26-UI-001 -- Route /products/:id (1 artifact)
+[IMPL] F26-UI-002 -- Route /devtools (1 artifact)
+[IMPL] F26-UI-003 -- Route /gc-demo (1 artifact)
+[IMPL] F26-UI-004 -- Route /project-stats (1 artifact)
+[IMPL] F26-UI-005 -- Route /ops/batch (1 artifact)
+[IMPL] F26-UI-006 -- Route /rag/ingest (1 artifact)
+[IMPL] F26-UI-007 -- Route /events (1 artifact)
+[IMPL] F26-UI-008 -- Route /metrics (1 artifact)
+[IMPL] F26-UI-009 -- Route /safety (1 artifact)
+[IMPL] F26-INFRA-001 -- azurerm_resource_group "rg" (1 artifact)
+[IMPL] F26-INFRA-002 -- azurerm_cosmosdb_sql_role_assignment "user_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-003 -- azurerm_cosmosdb_sql_role_assignment "webApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-004 -- azurerm_cosmosdb_sql_role_assignment "functionApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-005 -- azurerm_cosmosdb_sql_role_assignment "enrichmentApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-006 -- azurerm_resource_group_template_deployment "customer_attribution" (1 artifact)
+[IMPL] F26-INFRA-007 -- azurerm_resource_group "main" (1 artifact)
+[IMPL] F26-INFRA-008 -- azurerm_resource_group "rg" (1 artifact)
+[IMPL] F26-INFRA-009 -- azurerm_cosmosdb_sql_role_assignment "user_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-010 -- azurerm_cosmosdb_sql_role_assignment "webApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-011 -- azurerm_cosmosdb_sql_role_assignment "functionApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-012 -- azurerm_cosmosdb_sql_role_assignment "enrichmentApp_cosmosdb_data_contributor" (1 artifact)
+[IMPL] F26-INFRA-013 -- azurerm_resource_group_template_deployment "customer_attribution" (1 artifact)
+[IMPL] F26-INFRA-014 -- azurerm_container_registry "acr" (1 artifact)
+[IMPL] F26-INFRA-015 -- azurerm_private_endpoint "ContainerRegistryPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-016 -- azurerm_cosmosdb_account "cosmosdb_account" (1 artifact)
+[IMPL] F26-INFRA-017 -- azurerm_cosmosdb_sql_database "log_database" (1 artifact)
+[IMPL] F26-INFRA-018 -- azurerm_cosmosdb_sql_container "log_container" (1 artifact)
+[IMPL] F26-INFRA-019 -- azurerm_private_endpoint "cosmosPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-020 -- azurerm_search_service "search" (1 artifact)
+[IMPL] F26-INFRA-021 -- azurerm_private_endpoint "searchPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-022 -- azurerm_resource_group_template_deployment "sharepoint_logicapp" (1 artifact)
+[IMPL] F26-INFRA-023 -- azurerm_storage_account "storage" (1 artifact)
+[IMPL] F26-INFRA-024 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-025 -- azurerm_monitor_diagnostic_setting "blob_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-026 -- azurerm_monitor_diagnostic_setting "file_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-027 -- azurerm_monitor_diagnostic_setting "queue_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-028 -- azurerm_monitor_diagnostic_setting "table_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-029 -- azurerm_resource_group_template_deployment "container" (1 artifact)
+[IMPL] F26-INFRA-030 -- azurerm_resource_group_template_deployment "queue" (1 artifact)
+[IMPL] F26-INFRA-031 -- azurerm_private_endpoint "blobPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-032 -- azurerm_private_endpoint "filePrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-033 -- azurerm_private_endpoint "tablePrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-034 -- azurerm_private_endpoint "queuePrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-035 -- azurerm_storage_blob "config" (1 artifact)
+[IMPL] F26-INFRA-036 -- azurerm_container_registry "acr" (1 artifact)
+[IMPL] F26-INFRA-037 -- azurerm_private_endpoint "acr" (1 artifact)
+[IMPL] F26-INFRA-038 -- azurerm_kubernetes_cluster "aks" (1 artifact)
+[IMPL] F26-INFRA-039 -- azurerm_kubernetes_cluster_node_pool "user" (1 artifact)
+[IMPL] F26-INFRA-040 -- azurerm_role_assignment "aks_acr_pull" (1 artifact)
+[IMPL] F26-INFRA-041 -- azurerm_public_ip "appgw" (1 artifact)
+[IMPL] F26-INFRA-042 -- azurerm_application_gateway "appgw" (1 artifact)
+[IMPL] F26-INFRA-043 -- azurerm_monitor_diagnostic_setting "appgw" (1 artifact)
+[IMPL] F26-INFRA-044 -- azurerm_log_analytics_workspace "law" (1 artifact)
+[IMPL] F26-INFRA-045 -- azurerm_application_insights "ai" (1 artifact)
+[IMPL] F26-INFRA-046 -- azurerm_monitor_action_group "main" (1 artifact)
+[IMPL] F26-INFRA-047 -- azurerm_monitor_metric_alert "aks_cpu" (1 artifact)
+[IMPL] F26-INFRA-048 -- azurerm_monitor_metric_alert "aks_memory" (1 artifact)
+[IMPL] F26-INFRA-049 -- azurerm_key_vault "kv" (1 artifact)
+[IMPL] F26-INFRA-050 -- azurerm_private_endpoint "kv" (1 artifact)
+[IMPL] F26-INFRA-051 -- azurerm_role_assignment "aks_secrets_user" (1 artifact)
+[IMPL] F26-INFRA-052 -- azurerm_role_assignment "kv_secrets_officer_current" (1 artifact)
+[IMPL] F26-INFRA-053 -- azurerm_key_vault_secret "secrets" (1 artifact)
+[IMPL] F26-INFRA-054 -- azurerm_virtual_network "vnet" (1 artifact)
+[IMPL] F26-INFRA-055 -- azurerm_subnet "aks" (1 artifact)
+[IMPL] F26-INFRA-056 -- azurerm_subnet "appgw" (1 artifact)
+[IMPL] F26-INFRA-057 -- azurerm_subnet "private_endpoint" (1 artifact)
+[IMPL] F26-INFRA-058 -- azurerm_subnet "database" (1 artifact)
+[IMPL] F26-INFRA-059 -- azurerm_network_security_group "aks" (1 artifact)
+[IMPL] F26-INFRA-060 -- azurerm_subnet_network_security_group_association "aks" (1 artifact)
+[IMPL] F26-INFRA-061 -- azurerm_private_dns_zone "acr" (1 artifact)
+[IMPL] F26-INFRA-062 -- azurerm_private_dns_zone_virtual_network_link "acr" (1 artifact)
+[IMPL] F26-INFRA-063 -- azurerm_private_dns_zone "keyvault" (1 artifact)
+[IMPL] F26-INFRA-064 -- azurerm_private_dns_zone_virtual_network_link "keyvault" (1 artifact)
+[IMPL] F26-INFRA-065 -- azurerm_private_dns_zone "aks" (1 artifact)
+[IMPL] F26-INFRA-066 -- azurerm_private_dns_zone_virtual_network_link "aks" (1 artifact)
+[IMPL] F26-INFRA-067 -- azurerm_container_registry "acr" (1 artifact)
+[IMPL] F26-INFRA-068 -- azurerm_private_endpoint "ContainerRegistryPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-069 -- azurerm_cosmosdb_account "cosmosdb_account" (1 artifact)
+[IMPL] F26-INFRA-070 -- azurerm_cosmosdb_sql_database "log_database" (1 artifact)
+[IMPL] F26-INFRA-071 -- azurerm_cosmosdb_sql_container "log_container" (1 artifact)
+[IMPL] F26-INFRA-072 -- azurerm_private_endpoint "cosmosPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-073 -- azurerm_search_service "search" (1 artifact)
+[IMPL] F26-INFRA-074 -- azurerm_private_endpoint "searchPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-075 -- azurerm_resource_group_template_deployment "sharepoint_logicapp" (1 artifact)
+[IMPL] F26-INFRA-076 -- azurerm_storage_account "storage" (1 artifact)
+[IMPL] F26-INFRA-077 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-078 -- azurerm_monitor_diagnostic_setting "blob_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-079 -- azurerm_monitor_diagnostic_setting "file_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-080 -- azurerm_monitor_diagnostic_setting "queue_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-081 -- azurerm_monitor_diagnostic_setting "table_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-082 -- azurerm_resource_group_template_deployment "container" (1 artifact)
+[IMPL] F26-INFRA-083 -- azurerm_resource_group_template_deployment "queue" (1 artifact)
+[IMPL] F26-INFRA-084 -- azurerm_private_endpoint "blobPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-085 -- azurerm_private_endpoint "filePrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-086 -- azurerm_private_endpoint "tablePrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-087 -- azurerm_private_endpoint "queuePrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-088 -- azurerm_storage_blob "config" (1 artifact)
+[IMPL] F26-INFRA-089 -- azurerm_cognitive_account "cognitiveService" (1 artifact)
+[IMPL] F26-INFRA-090 -- azurerm_private_endpoint "accountPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-091 -- azurerm_resource_group_template_deployment "bing_search" (1 artifact)
+[IMPL] F26-INFRA-092 -- azurerm_cognitive_account "openaiAccount" (1 artifact)
+[IMPL] F26-INFRA-093 -- azurerm_cognitive_deployment "deployment" (1 artifact)
+[IMPL] F26-INFRA-094 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-095 -- azurerm_private_endpoint "openaiPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-096 -- azurerm_cognitive_account "docIntelligenceAccount" (1 artifact)
+[IMPL] F26-INFRA-097 -- azurerm_private_endpoint "docintPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-098 -- azurerm_service_plan "funcServicePlan" (1 artifact)
+[IMPL] F26-INFRA-099 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F26-INFRA-100 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F26-INFRA-101 -- azurerm_linux_function_app "function_app" (1 artifact)
+[IMPL] F26-INFRA-102 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F26-INFRA-103 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F26-INFRA-104 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F26-INFRA-105 -- azurerm_private_endpoint "privateFunctionEndpoint" (1 artifact)
+[IMPL] F26-INFRA-106 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F26-INFRA-107 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F26-INFRA-108 -- azurerm_linux_web_app "enrichmentapp" (1 artifact)
+[IMPL] F26-INFRA-109 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F26-INFRA-110 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F26-INFRA-111 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F26-INFRA-112 -- azurerm_private_endpoint "privateEnrichmentEndpoint" (1 artifact)
+[IMPL] F26-INFRA-113 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F26-INFRA-114 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F26-INFRA-115 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F26-INFRA-116 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F26-INFRA-117 -- azurerm_linux_web_app "app_service" (1 artifact)
+[IMPL] F26-INFRA-118 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F26-INFRA-119 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F26-INFRA-120 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F26-INFRA-121 -- azurerm_private_endpoint "backendPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-122 -- azurerm_log_analytics_workspace "logAnalytics" (1 artifact)
+[IMPL] F26-INFRA-123 -- azurerm_application_insights "applicationInsights" (1 artifact)
+[IMPL] F26-INFRA-124 -- azurerm_monitor_diagnostic_setting "nsg_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-125 -- azurerm_monitor_private_link_scope "ampls" (1 artifact)
+[IMPL] F26-INFRA-126 -- azurerm_monitor_private_link_scoped_service "ampl-ss_log_analytics" (1 artifact)
+[IMPL] F26-INFRA-127 -- azurerm_monitor_private_link_scoped_service "ampl_ss_app_insights" (1 artifact)
+[IMPL] F26-INFRA-128 -- azurerm_private_endpoint "ampls" (1 artifact)
+[IMPL] F26-INFRA-129 -- azurerm_private_dns_zone "monitor" (1 artifact)
+[IMPL] F26-INFRA-130 -- azurerm_private_dns_a_record "monitor_api" (1 artifact)
+[IMPL] F26-INFRA-131 -- azurerm_private_dns_a_record "monitor_global" (1 artifact)
+[IMPL] F26-INFRA-132 -- azurerm_private_dns_a_record "monitor_profiler" (1 artifact)
+[IMPL] F26-INFRA-133 -- azurerm_private_dns_a_record "monitor_live" (1 artifact)
+[IMPL] F26-INFRA-134 -- azurerm_private_dns_a_record "monitor_snapshot" (1 artifact)
+[IMPL] F26-INFRA-135 -- azurerm_private_dns_zone_virtual_network_link "monitor-net" (1 artifact)
+[IMPL] F26-INFRA-136 -- azurerm_private_dns_zone "oms" (1 artifact)
+[IMPL] F26-INFRA-137 -- azurerm_private_dns_a_record "oms_law_id" (1 artifact)
+[IMPL] F26-INFRA-138 -- azurerm_private_dns_zone_virtual_network_link "oms-net" (1 artifact)
+[IMPL] F26-INFRA-139 -- azurerm_private_dns_zone "ods" (1 artifact)
+[IMPL] F26-INFRA-140 -- azurerm_private_dns_a_record "ods_law_id" (1 artifact)
+[IMPL] F26-INFRA-141 -- azurerm_private_dns_zone_virtual_network_link "ods-net" (1 artifact)
+[IMPL] F26-INFRA-142 -- azurerm_private_dns_zone "agentsvc" (1 artifact)
+[IMPL] F26-INFRA-143 -- azurerm_private_dns_a_record "agentsvc_law_id" (1 artifact)
+[IMPL] F26-INFRA-144 -- azurerm_private_dns_zone_virtual_network_link "agentsvc-net" (1 artifact)
+[IMPL] F26-INFRA-145 -- azurerm_private_dns_a_record "blob_scadvisorcontentpld" (1 artifact)
+[IMPL] F26-INFRA-146 -- azurerm_application_insights_workbook "example" (1 artifact)
+[IMPL] F26-INFRA-147 -- azurerm_private_dns_zone "pr_dns_zone" (1 artifact)
+[IMPL] F26-INFRA-148 -- azurerm_private_dns_zone_virtual_network_link "pr_dns_vnet_link" (1 artifact)
+[IMPL] F26-INFRA-149 -- azurerm_network_security_group "nsg" (1 artifact)
+[IMPL] F26-INFRA-150 -- azurerm_network_ddos_protection_plan "ddos" (1 artifact)
+[IMPL] F26-INFRA-151 -- azurerm_resource_group_template_deployment "vnet_w_subnets" (1 artifact)
+[IMPL] F26-INFRA-152 -- azurerm_private_dns_resolver "private_dns_resolver" (1 artifact)
+[IMPL] F26-INFRA-153 -- azurerm_private_dns_resolver_inbound_endpoint "private_dns_resolver" (1 artifact)
+[IMPL] F26-INFRA-154 -- azurerm_key_vault "kv" (1 artifact)
+[IMPL] F26-INFRA-155 -- azurerm_key_vault_access_policy "infoasst" (1 artifact)
+[IMPL] F26-INFRA-156 -- azurerm_private_endpoint "kv_private_endpoint" (1 artifact)
+[IMPL] F26-INFRA-157 -- azurerm_role_assignment "role" (1 artifact)
+[IMPL] F26-INFRA-158 -- azurerm_resource_group_template_deployment "kv_secret" (1 artifact)
+[IMPL] F26-INFRA-159 -- azurerm_resource_group_template_deployment "bing_search" (1 artifact)
+[IMPL] F26-INFRA-160 -- azurerm_cognitive_account "cognitiveService" (1 artifact)
+[IMPL] F26-INFRA-161 -- azurerm_private_endpoint "accountPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-162 -- azurerm_cognitive_account "docIntelligenceAccount" (1 artifact)
+[IMPL] F26-INFRA-163 -- azurerm_private_endpoint "docintPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-164 -- azurerm_cognitive_account "openaiAccount" (1 artifact)
+[IMPL] F26-INFRA-165 -- azurerm_cognitive_deployment "deployment" (1 artifact)
+[IMPL] F26-INFRA-166 -- azurerm_monitor_diagnostic_setting "diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-167 -- azurerm_private_endpoint "openaiPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-168 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F26-INFRA-169 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F26-INFRA-170 -- azurerm_linux_web_app "enrichmentapp" (1 artifact)
+[IMPL] F26-INFRA-171 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F26-INFRA-172 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F26-INFRA-173 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F26-INFRA-174 -- azurerm_private_endpoint "privateEnrichmentEndpoint" (1 artifact)
+[IMPL] F26-INFRA-175 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F26-INFRA-176 -- azurerm_service_plan "funcServicePlan" (1 artifact)
+[IMPL] F26-INFRA-177 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F26-INFRA-178 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F26-INFRA-179 -- azurerm_linux_function_app "function_app" (1 artifact)
+[IMPL] F26-INFRA-180 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F26-INFRA-181 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F26-INFRA-182 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F26-INFRA-183 -- azurerm_private_endpoint "privateFunctionEndpoint" (1 artifact)
+[IMPL] F26-INFRA-184 -- azurerm_service_plan "appServicePlan" (1 artifact)
+[IMPL] F26-INFRA-185 -- azurerm_monitor_autoscale_setting "scaleout" (1 artifact)
+[IMPL] F26-INFRA-186 -- azurerm_role_assignment "acr_pull_role" (1 artifact)
+[IMPL] F26-INFRA-187 -- azurerm_linux_web_app "app_service" (1 artifact)
+[IMPL] F26-INFRA-188 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial" (1 artifact)
+[IMPL] F26-INFRA-189 -- azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov" (1 artifact)
+[IMPL] F26-INFRA-190 -- azurerm_key_vault_access_policy "policy" (1 artifact)
+[IMPL] F26-INFRA-191 -- azurerm_private_endpoint "backendPrivateEndpoint" (1 artifact)
+[IMPL] F26-INFRA-192 -- azurerm_log_analytics_workspace "logAnalytics" (1 artifact)
+[IMPL] F26-INFRA-193 -- azurerm_application_insights "applicationInsights" (1 artifact)
+[IMPL] F26-INFRA-194 -- azurerm_monitor_diagnostic_setting "nsg_diagnostic_logs" (1 artifact)
+[IMPL] F26-INFRA-195 -- azurerm_monitor_private_link_scope "ampls" (1 artifact)
+[IMPL] F26-INFRA-196 -- azurerm_monitor_private_link_scoped_service "ampl-ss_log_analytics" (1 artifact)
+[IMPL] F26-INFRA-197 -- azurerm_monitor_private_link_scoped_service "ampl_ss_app_insights" (1 artifact)
+[IMPL] F26-INFRA-198 -- azurerm_private_endpoint "ampls" (1 artifact)
+[IMPL] F26-INFRA-199 -- azurerm_private_dns_zone "monitor" (1 artifact)
+[IMPL] F26-INFRA-200 -- azurerm_private_dns_a_record "monitor_api" (1 artifact)
+[IMPL] F26-INFRA-201 -- azurerm_private_dns_a_record "monitor_global" (1 artifact)
+[IMPL] F26-INFRA-202 -- azurerm_private_dns_a_record "monitor_profiler" (1 artifact)
+[IMPL] F26-INFRA-203 -- azurerm_private_dns_a_record "monitor_live" (1 artifact)
+[IMPL] F26-INFRA-204 -- azurerm_private_dns_a_record "monitor_snapshot" (1 artifact)
+[IMPL] F26-INFRA-205 -- azurerm_private_dns_zone_virtual_network_link "monitor-net" (1 artifact)
+[IMPL] F26-INFRA-206 -- azurerm_private_dns_zone "oms" (1 artifact)
+[IMPL] F26-INFRA-207 -- azurerm_private_dns_a_record "oms_law_id" (1 artifact)
+[IMPL] F26-INFRA-208 -- azurerm_private_dns_zone_virtual_network_link "oms-net" (1 artifact)
+[IMPL] F26-INFRA-209 -- azurerm_private_dns_zone "ods" (1 artifact)
+[IMPL] F26-INFRA-210 -- azurerm_private_dns_a_record "ods_law_id" (1 artifact)
+[IMPL] F26-INFRA-211 -- azurerm_private_dns_zone_virtual_network_link "ods-net" (1 artifact)
+[IMPL] F26-INFRA-212 -- azurerm_private_dns_zone "agentsvc" (1 artifact)
+[IMPL] F26-INFRA-213 -- azurerm_private_dns_a_record "agentsvc_law_id" (1 artifact)
+[IMPL] F26-INFRA-214 -- azurerm_private_dns_zone_virtual_network_link "agentsvc-net" (1 artifact)
+[IMPL] F26-INFRA-215 -- azurerm_private_dns_a_record "blob_scadvisorcontentpld" (1 artifact)
+[IMPL] F26-INFRA-216 -- azurerm_application_insights_workbook "example" (1 artifact)
+[IMPL] F26-INFRA-217 -- azurerm_network_security_group "nsg" (1 artifact)
+[IMPL] F26-INFRA-218 -- azurerm_network_ddos_protection_plan "ddos" (1 artifact)
+[IMPL] F26-INFRA-219 -- azurerm_resource_group_template_deployment "vnet_w_subnets" (1 artifact)
+[IMPL] F26-INFRA-220 -- azurerm_private_dns_resolver "private_dns_resolver" (1 artifact)
+[IMPL] F26-INFRA-221 -- azurerm_private_dns_resolver_inbound_endpoint "private_dns_resolver" (1 artifact)
+[IMPL] F26-INFRA-222 -- azurerm_private_dns_zone "pr_dns_zone" (1 artifact)
+[IMPL] F26-INFRA-223 -- azurerm_private_dns_zone_virtual_network_link "pr_dns_vnet_link" (1 artifact)
+[IMPL] F26-INFRA-224 -- azurerm_key_vault "kv" (1 artifact)
+[IMPL] F26-INFRA-225 -- azurerm_key_vault_access_policy "infoasst" (1 artifact)
+[IMPL] F26-INFRA-226 -- azurerm_private_endpoint "kv_private_endpoint" (1 artifact)
+[IMPL] F26-INFRA-227 -- azurerm_resource_group_template_deployment "kv_secret" (1 artifact)
+[IMPL] F26-INFRA-228 -- azurerm_role_assignment "role" (1 artifact)
+[IMPL] F26-OPS-001 -- command_exists() (1 artifact)
+[IMPL] F26-OPS-002 -- install_azure_cli() (1 artifact)
+[IMPL] F26-OPS-003 -- get_gpu_driver() (1 artifact)
+[IMPL] F26-OPS-004 -- show_loading() (1 artifact)
+[IMPL] F26-OPS-005 -- extract_value() (1 artifact)
+[IMPL] F26-OPS-006 -- check_cmd() (1 artifact)
+[IMPL] F26-OPS-007 -- check_dir() (1 artifact)
+[IMPL] F26-OPS-008 -- write_array_block() (1 artifact)
+[IMPL] F26-OPS-009 -- printInfo() (1 artifact)
+[IMPL] F26-OPS-010 -- set_yellow_text() (1 artifact)
+[IMPL] F26-OPS-011 -- reset_text_color() (1 artifact)
+[IMPL] F26-OPS-012 -- escape_string() (1 artifact)
+[IMPL] F26-OPS-013 -- import_resource_if_needed() (1 artifact)
+[IMPL] F26-OPS-014 -- get_secret() (1 artifact)
+[IMPL] F26-OPS-015 -- set_yellow_text() (1 artifact)
+[IMPL] F26-OPS-016 -- reset_text_color() (1 artifact)
+[IMPL] F26-OPS-017 -- show_usage() (1 artifact)
+[IMPL] F26-OPS-018 -- printInfo() (1 artifact)
+[IMPL] F26-OPS-019 -- write_array_block() (1 artifact)
+[IMPL] F26-OPS-020 -- printInfo() (1 artifact)
+[IMPL] F26-OPS-021 -- set_yellow_text() (1 artifact)
+[IMPL] F26-OPS-022 -- reset_text_color() (1 artifact)
+[IMPL] F26-OPS-023 -- escape_string() (1 artifact)
+[IMPL] F26-OPS-024 -- import_resource_if_needed() (1 artifact)
+[IMPL] F26-OPS-025 -- get_secret() (1 artifact)
+[IMPL] F26-OPS-026 -- set_yellow_text() (1 artifact)
+[IMPL] F26-OPS-027 -- reset_text_color() (1 artifact)
+[IMPL] F26-OPS-028 -- show_usage() (1 artifact)
+[IMPL] F26-OPS-029 -- printInfo() (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

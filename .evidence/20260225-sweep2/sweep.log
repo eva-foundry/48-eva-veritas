@@ -1,0 +1,2579 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[01:01:40] === SWEEP2 START 2026-02-25 01:01:40 ===
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:40] [PASS] ACA: status=ok store=cosmos version=1.0.0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:41] [INFO] ACA total objects before sweep: 962
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:41] [INFO] Projects found: 49
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:41] --- 01-documentation-generator ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:41]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:41]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:41]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:42]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:42]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:42] --- 02-poc-agent-skills ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:42]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:42]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:42]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:43]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:43]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:43] --- 03-poc-enhanced-docs ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:43]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:44]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:44]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:44]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:44]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:44] --- 04-os-vnext ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:44]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:45]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:45]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:45]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:45]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:45] --- 05-extract-cases ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:45]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:46]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:46]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:46]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:46]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:46] --- 06-jp-auto-extraction ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:46]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:47]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:47]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:47]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:47]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:47] --- 07-foundation-layer ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:47]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:48]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:48]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:48]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:49]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:49] --- 08-cds-rag ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:49]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:49]   [1] WARN: no veritas-plan.json produced
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:49]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:50]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:50]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:50] --- 09-eva-repo-documentation ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:50]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:50]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:50]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:51]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:51]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:51] --- 10-mkdocs-poc ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:51]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:51]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:51]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:52]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:52]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:52] --- 11-ms-infojp ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:52]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:52]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:52]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:53]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:53]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:53] --- 12-work-spc-reorg ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:53]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:54]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:54]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:54]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:54]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:54] --- 13-vscode-tools ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:54]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:55]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:55]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:55]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:55]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:55] --- 14-az-finops ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:55]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:56]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:56]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:56]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:57]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:57] --- 15-cdc ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:57]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:57]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:57]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:57]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:58]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:58] --- 16-engineered-case-law ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:58]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:58]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:58]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:58]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:59]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:59] --- 17-apim ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:59]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:59]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:59]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:01:59]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:00]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:00] --- 18-azure-best ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:00]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:00]   [1] WARN: no veritas-plan.json produced
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:00]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:02]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:02]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:02] --- 19-ai-gov ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:02]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:02]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:02]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:03]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:03]   [4] PUT OK rv=4
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:03] --- 20-AssistMe ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:03]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:03]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:03]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:04]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:04]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:04] --- 21-habit-tracker ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:04]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:04]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:04]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:05]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:05]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:05] --- 22-rg-sandbox ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:05]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:05]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:05]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:06]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:06]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:06] --- 23-ei-dsst-rewrite ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:06]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:06]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:06]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:07]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:07]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:07] --- 24-eva-brain ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:07]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:07]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:07]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:08]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:08]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:08] --- 25-eva-suite ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:08]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:08]   [1] WARN: no veritas-plan.json produced
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:08]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:09]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:09]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:09] --- 26-eva-gh ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:09]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:09]   [1] WARN: no veritas-plan.json produced
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:09]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:14]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:14]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:14] --- 27-devbench ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:14]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:14]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:14]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:15]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:15]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:15] --- 28-rbac ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[01:02:15]   [1] generate-plan
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:15]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:15]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:15]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:16]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:16] --- 29-foundry ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:16]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:16]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:16]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:17]   [3] MTI=69  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:17]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:17] --- 30-ui-bench ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:17]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:17]   [1] WARN: no veritas-plan.json produced
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:17]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:18]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:18]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:18] --- 31-eva-faces ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:18]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:18]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:18]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:19]   [3] MTI=83  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:19]   [4] PUT OK rv=7
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:19] --- 32-logging ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:19]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:19]   [1] WARN: no veritas-plan.json produced
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:19]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:20]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:20]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:20] --- 33-eva-brain-v2 ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:20]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:20]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:20]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:21]   [3] MTI=100  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:21]   [4] PUT OK rv=5
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:21] --- 34-AIRA ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:21]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:21]   [1] WARN: no veritas-plan.json produced
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:21]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:22]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+Invoke-RestMethod: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:87:19
+Line |
+  87 |  . rojRecord = Invoke-RestMethod "$base/model/projects/$proj" -ErrorActi .
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     |  {   "detail": "Not found: projects::34-AIRA" }
+[01:02:22]   [4] WARN rv unexpected: got 1 expected 5
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:22] --- 35-agentic-code-fixing ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:22]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:22]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:22]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:23]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:23]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:23] --- 36-red-teaming ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:23]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:24]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:24]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:24]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:24]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:24] --- 37-data-model ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:24]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:25]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:25]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:25]   [3] MTI=100  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:25]   [4] PUT OK rv=4
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:25] --- 38-ado-poc ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:25]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:26]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:26]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:26]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:27]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:27] --- 39-ado-dashboard ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:27]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:27]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:27]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:28]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:28]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:28] --- 40-eva-control-plane ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:28]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:28]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:28]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:29]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:29]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:29] --- 41-eva-cli ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:29]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:29]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:29]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:30]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:30]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:30] --- 42-learn-foundry ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:30]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:34]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:34]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:45]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:45]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:45] --- 43-spark ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:45]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:45]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:45]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:46]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:46]   [4] PUT OK rv=4
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:46] --- 44-eva-jp-spark ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:46]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:46]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:46]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:47]   [3] MTI=6  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:47]   [4] PUT OK rv=5
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:47] --- 45-aicoe-page ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+[01:02:47]   [1] generate-plan
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:47]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:47]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:48]   [3] MTI=66  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:48]   [4] PUT OK rv=6
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:48] --- 46-accelerator ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:48]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:48]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:48]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:49]   [3] MTI=70  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:49]   [4] PUT OK rv=3
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:49] --- 47-eva-mti ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:49]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:49]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:49]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:50]   [3] MTI=0  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:90:9
+Line |
+  90 |          $projRecord.notes = "veritas_scan=2026-02-25 mti=$mti gaps=$g .
+     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "notes": "The property 'notes' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[01:02:50]   [4] PUT OK rv=4
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:50] --- 48-eva-veritas ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:50]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:50]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:50]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:51]   [3] MTI=100  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:51]   [4] PUT OK rv=4
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:51] --- 49-eva-dtl ---
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:51]   [1] generate-plan
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:51]   [1] plan written: 0 stories
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:51]   [2] audit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52]   [3] MTI=100  gaps=0
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52]   [4] PUT OK rv=5
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] === RESULTS TABLE ===
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] project                    mti gaps stories in_model
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] -------                    --- ---- ------- --------
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 01-documentation-generator   0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 02-poc-agent-skills          0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 03-poc-enhanced-docs         0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 04-os-vnext                  0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 05-extract-cases             0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 06-jp-auto-extraction        0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 07-foundation-layer          0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 08-cds-rag                   0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 09-eva-repo-documentation    0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 10-mkdocs-poc                0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 11-ms-infojp                 0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 12-work-spc-reorg            0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 13-vscode-tools              0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 14-az-finops                 0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 15-cdc                       0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 16-engineered-case-law       0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 17-apim                      0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 18-azure-best                0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 19-ai-gov                    0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 20-AssistMe                  0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 21-habit-tracker             0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 22-rg-sandbox                0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 23-ei-dsst-rewrite           0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 24-eva-brain                 0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 25-eva-suite                 0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 26-eva-gh                    0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 27-devbench                  0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 28-rbac                      0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 29-foundry                  69    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 30-ui-bench                  0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 31-eva-faces                83    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 32-logging                   0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 33-eva-brain-v2            100    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 34-AIRA                      0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 35-agentic-code-fixing       0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 36-red-teaming               0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 37-data-model              100    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 38-ado-poc                   0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 39-ado-dashboard             0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 40-eva-control-plane         0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 41-eva-cli                   0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 42-learn-foundry             0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 43-spark                     0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 44-eva-jp-spark              6    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 45-aicoe-page               66    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 46-accelerator              70    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 47-eva-mti                   0    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 48-eva-veritas             100    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 49-eva-dtl                 100    0       0     True
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 
+
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] 
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:52] [5] POST admin/commit
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:54] [5] status=FAIL violations=0 exported=963
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:54] [PASS] Commit clean
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:55] === SWEEP2 DONE 2026-02-25 01:02:55 ===
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.
+[01:02:55] Evidence dir: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2
+Add-Content: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\run-full-sweep.ps1:23:5
+Line |
+  23 |      Add-Content -Path $logFile -Value $line -Encoding ASCII
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The process cannot access the file
+     | 'C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep2\sweep.log' because it is being used by another process.

@@ -1,0 +1,51 @@
+EVA-STORY: EO-07-001
+EVA-STORY: EO-07-002
+EVA-STORY: EO-07-003
+EVA-STORY: EO-07-004
+EVA-STORY: EO-07-005
+EVA-STORY: EO-07-006
+EVA-FEATURE: EO-07
+
+EVIDENCE: EO-07 MCP Server
+Phase 2 -- COMPLETE 2026-02-24
+Test run: 2026-02-24 (session 3)
+Server: node src/mcp-server.js --port 8031
+
+EO-07-001 -- MCP server entrypoint
+  Artifacts: src/mcp-server.js (startServer, createServer)
+  [PASS] node src/mcp-server.js --port 8031 starts successfully
+  [PASS] GET /health returns { status: ok, service: eva-veritas-mcp, tool_count: 5 }
+  [PASS] GET /tools returns manifest of 5 tools
+  [PASS] POST /tools/{unknown} returns 404 with available list
+  [PASS] OPTIONS returns 204 (CORS preflight)
+
+EO-07-002 -- audit_repo MCP tool
+  Artifacts: src/mcp-server.js (handleAuditRepo)
+  [PASS] POST /tools/audit_repo { repo_path: "..." }
+  [PASS] Returns: trust_score=88, gap_count=5, coverage object, actions array
+  [PASS] Runs full discover+reconcile+trust pipeline internally
+  [PASS] Filters orphan_story_tag gaps from returned list
+
+EO-07-003 -- get_trust_score MCP tool
+  Artifacts: src/mcp-server.js (handleGetTrustScore, isTrustStale)
+  [PASS] POST /tools/get_trust_score { repo_path: "..." }
+  [PASS] Returns: score=88, components object, actions array
+  [PASS] Re-runs pipeline if trust.json older than 24h or absent
+
+EO-07-004 -- get_coverage MCP tool
+  Artifacts: src/mcp-server.js (handleGetCoverage)
+  [PASS] POST /tools/get_coverage { repo_path: "..." }
+  [PASS] Returns: stories_total=35, stories_with_artifacts=30, stories_with_evidence=27, consistency_score=1
+
+EO-07-005 -- generate_ado_items MCP tool
+  Artifacts: src/mcp-server.js (handleGenerateAdoItems)
+  [PASS] POST /tools/generate_ado_items { repo_path: "...", include_gaps: true }
+  [PASS] Returns: gap stories only when include_gaps=true
+  [PASS] Returns structured items array with type, title, gap_tag fields
+
+EO-07-006 -- scan_portfolio MCP tool
+  Artifacts: src/mcp-server.js (handleScanPortfolio)
+  [PASS] POST /tools/scan_portfolio { portfolio_root: "..." }
+  [PASS] Discovers all ##-name folders under root
+  [PASS] Returns per-project trust_score, gap_count, portfolio_mti average
+  [PASS] project_filter array narrows scope to specified project prefixes

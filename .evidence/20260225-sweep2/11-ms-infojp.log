@@ -1,0 +1,185 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\11-ms-infojp
+[INFO] Prefix: F11
+[PASS] Written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\veritas-plan.json
+       17 features, 37 stories, 2 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F11-01        0      0  Overview
+  F11-02        0      0  Deployment Information
+  F11-03        3      0  ???? Quick Start with GitHub Codespaces (5 Minutes)
+  F11-04        1      0  MVP Goal
+  F11-05        2      0  Scope
+  F11-06        2      0  Architecture Overview
+  F11-07        3      2  Data Ingestion & CanLII CDC Approach
+  F11-08        3      0  UX Principles and Improvements
+  F11-09        3      0  Success Criteria (Testable)
+  F11-10        1      0  Project Structure
+  F11-11        4      0  Developer Quickstart
+  F11-12        3      0  Post-Deployment: Cherry-Picking from EVA-JP-v1.2
+  F11-13        5      0  Delivery Phases
+  F11-14        7      0  Risks and Mitigations
+  F11-15        0      0  References
+  F11-16        0      0  Contact and Support
+  F11-17        0      0  License
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F11-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\11-ms-infojp
+[INFO] Using veritas-plan.json (format: free-form, 37 stories, 2 tasks)
+[INFO] Planned: 17 features, 37 stories
+[INFO] Actual: 532 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\reconciliation.json
+[INFO] Gaps: 37
+[PASS] trust written: C:\AICOE\eva-foundation\11-ms-infojp\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: MS-InfoJP: Jurisprudence AI Assistant MVP
+=======================================
+Repo:    C:\AICOE\eva-foundation\11-ms-infojp
+Planned: 17 features, 37 stories
+
+Coverage
+---------------------------------------
+Stories total:          37
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F11-03-001 -- 1. Create Codespace
+[FAIL] missing_implementation :: F11-03-002 -- 2. Run Deployment
+[FAIL] missing_implementation :: F11-03-003 -- 3. Start Development Servers
+[FAIL] missing_implementation :: F11-04-001 -- Advanced Features Roadmap
+[FAIL] missing_implementation :: F11-05-001 -- In-Scope for MVP
+[FAIL] missing_implementation :: F11-05-002 -- Out-of-Scope for MVP
+[FAIL] missing_implementation :: F11-06-001 -- Logical Architecture (ABRG-aligned)
+[FAIL] missing_implementation :: F11-06-002 -- Key Components
+[FAIL] missing_implementation :: F11-07-001 -- Change Data Capture (CDC) Strategy
+[FAIL] missing_implementation :: F11-07-002 -- CDC Core Principles
+[FAIL] missing_implementation :: F11-07-003 -- Deterministic Re-runs
+[FAIL] missing_implementation :: F11-08-001 -- Current State (Baseline)
+[FAIL] missing_implementation :: F11-08-002 -- MVP UX Enhancements
+[FAIL] missing_implementation :: F11-08-003 -- Design Philosophy
+[FAIL] missing_implementation :: F11-09-001 -- Functional Criteria
+[FAIL] missing_implementation :: F11-09-002 -- UX Criteria
+[FAIL] missing_implementation :: F11-09-003 -- Non-Functional Criteria
+[FAIL] missing_implementation :: F11-10-001 -- Why Fresh Clone Instead of EVA-JP-v1.2?
+[FAIL] missing_implementation :: F11-11-001 -- Prerequisites Status
+[FAIL] missing_implementation :: F11-11-002 -- Quickstart: GitHub Codespaces (Recommended)
+[FAIL] missing_implementation :: F11-11-003 -- Alternative: Local Development Setup
+[FAIL] missing_implementation :: F11-11-004 -- Key Configuration Files
+[FAIL] missing_implementation :: F11-12-001 -- 1. RAG Approach Enhancements
+[FAIL] missing_implementation :: F11-12-002 -- 2. Jurisprudence-Specific Prompts
+[FAIL] missing_implementation :: F11-12-003 -- 3. Testing with ESDC Enhancements
+[FAIL] missing_implementation :: F11-13-001 -- Phase 0: Baseline Setup (Week 1)
+[FAIL] missing_implementation :: F11-13-002 -- Phase 1: JP Ingestion Pipeline (Weeks 2-3)
+[FAIL] missing_implementation :: F11-13-003 -- Phase 2: RAG with Citations (Weeks 4-5)
+[FAIL] missing_implementation :: F11-13-004 -- Phase 3: UX Polish and Prompt Tuning (Week 6)
+[FAIL] missing_implementation :: F11-13-005 -- Phase 4: Hardening and Handoff (Week 7)
+[FAIL] missing_implementation :: F11-14-001 -- Risk 1: CanLII API Limitations
+[FAIL] missing_implementation :: F11-14-002 -- Risk 2: Citation Accuracy
+[FAIL] missing_implementation :: F11-14-003 -- Risk 3: Response Time Exceeds 30 Seconds
+[FAIL] missing_implementation :: F11-14-004 -- Risk 4: Insufficient Azure OpenAI Quota
+[FAIL] missing_implementation :: F11-14-005 -- Risk 5: Security / Authentication Issues
+[FAIL] missing_implementation :: F11-14-006 -- Risk 6: Data Quality Issues
+[FAIL] missing_implementation :: F11-14-007 -- Risk 7: Scope Creep
+
+Feature Breakdown
+---------------------------------------
+[  0] F11-14     Risks and Mitigations           0/7 artifacts  0/7 evidence  7 gaps  [NOT STARTED]
+[  0] F11-13     Delivery Phases                 0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F11-11     Developer Quickstart            0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F11-03     ???? Quick Start with GitHub Cod  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F11-07     Data Ingestion & CanLII CDC Ap  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F11-08     UX Principles and Improvements  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F11-09     Success Criteria (Testable)     0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F11-12     Post-Deployment: Cherry-Pickin  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F11-05     Scope                           0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F11-06     Architecture Overview           0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F11-04     MVP Goal                        0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F11-10     Project Structure               0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F11-01     Overview                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F11-02     Deployment Information          0/0 artifacts  0/0 evidence  0 gaps
+[  0] F11-15     References                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F11-16     Contact and Support             0/0 artifacts  0/0 evidence  0 gaps
+[  0] F11-17     License                         0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 37 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 52 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 67 more stories with # EVA-STORY
+
+[ACT] 37 unimplemented stories by feature (highest priority first):
+      F11-14 Risks and Mitigations (7 gaps)
+        - F11-14-001 -- Risk 1: CanLII API Limitations
+        - F11-14-002 -- Risk 2: Citation Accuracy
+        - F11-14-003 -- Risk 3: Response Time Exceeds 30 Seconds
+        - F11-14-004 -- Risk 4: Insufficient Azure OpenAI Quota
+        - F11-14-005 -- Risk 5: Security / Authentication Issues
+        - F11-14-006 -- Risk 6: Data Quality Issues
+        - F11-14-007 -- Risk 7: Scope Creep
+      F11-13 Delivery Phases (5 gaps)
+        - F11-13-001 -- Phase 0: Baseline Setup (Week 1)
+        - F11-13-002 -- Phase 1: JP Ingestion Pipeline (Weeks 2-3)
+        - F11-13-003 -- Phase 2: RAG with Citations (Weeks 4-5)
+        - F11-13-004 -- Phase 3: UX Polish and Prompt Tuning (Week 6)
+        - F11-13-005 -- Phase 4: Hardening and Handoff (Week 7)
+      F11-11 Developer Quickstart (4 gaps)
+        - F11-11-001 -- Prerequisites Status
+        - F11-11-002 -- Quickstart: GitHub Codespaces (Recommended)
+        - F11-11-003 -- Alternative: Local Development Setup
+        - F11-11-004 -- Key Configuration Files
+      F11-03 ???? Quick Start with GitHub Codespaces (5 Minutes) (3 gaps)
+        - F11-03-001 -- 1. Create Codespace
+        - F11-03-002 -- 2. Run Deployment
+        - F11-03-003 -- 3. Start Development Servers
+      F11-07 Data Ingestion & CanLII CDC Approach (3 gaps)
+        - F11-07-001 -- Change Data Capture (CDC) Strategy
+        - F11-07-002 -- CDC Core Principles
+        - F11-07-003 -- Deterministic Re-runs
+      F11-08 UX Principles and Improvements (3 gaps)
+        - F11-08-001 -- Current State (Baseline)
+        - F11-08-002 -- MVP UX Enhancements
+        - F11-08-003 -- Design Philosophy
+      F11-09 Success Criteria (Testable) (3 gaps)
+        - F11-09-001 -- Functional Criteria
+        - F11-09-002 -- UX Criteria
+        - F11-09-003 -- Non-Functional Criteria
+      F11-12 Post-Deployment: Cherry-Picking from EVA-JP-v1.2 (3 gaps)
+        - F11-12-001 -- 1. RAG Approach Enhancements
+        - F11-12-002 -- 2. Jurisprudence-Specific Prompts
+        - F11-12-003 -- 3. Testing with ESDC Enhancements
+      F11-05 Scope (2 gaps)
+        - F11-05-001 -- In-Scope for MVP
+        - F11-05-002 -- Out-of-Scope for MVP
+      F11-06 Architecture Overview (2 gaps)
+        - F11-06-001 -- Logical Architecture (ABRG-aligned)
+        - F11-06-002 -- Key Components
+      F11-04 MVP Goal (1 gap)
+        - F11-04-001 -- Advanced Features Roadmap
+      F11-10 Project Structure (1 gap)
+        - F11-10-001 -- Why Fresh Clone Instead of EVA-JP-v1.2?
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

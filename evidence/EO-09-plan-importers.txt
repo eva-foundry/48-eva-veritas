@@ -1,0 +1,24 @@
+EVA-STORY: EO-09-003
+EVA-STORY: EO-09-004
+EVA-FEATURE: EO-09
+
+EVIDENCE: EO-09-003 + EO-09-004 -- Plan importers (OpenAPI + ADO CSV)
+Phase 2 / EO-09 38-ado-poc Integration -- added 2026-02-24 19:44
+Test run: 2026-02-24 (session 4)
+
+EO-09-003 -- Import OpenAPI spec as plan source
+  Artifacts: src/lib/openapi-parser.js
+  [PASS] Probes repo root and docs/ for openapi.json/yaml, swagger.json/yaml
+  [PASS] Parses OpenAPI 2.x (Swagger) and 3.x path/operation structure
+  [PASS] Converts paths+operations -> veritas { features: [], stories: [] }
+  [PASS] Story IDs derived as {prefix}-{DOMAIN}-{seq} (3-part format)
+  [PASS] source_tag = "openapi" (treated as stronger signal than code-structure)
+  [PASS] Graceful fallback: returns empty plan if no spec found
+
+EO-09-004 -- Parse ADO export CSV as plan source
+  Artifacts: src/lib/ado-import.js
+  [PASS] Parses Azure DevOps work-item export CSV (standard + eva.csv format)
+  [PASS] Maps: Epic (context), Feature -> features[], User Story -> stories[], Task -> tasks[]
+  [PASS] Wires stories to features via Parent column
+  [PASS] Wires tasks to stories via Parent column
+  [PASS] Accepts custom column headers (robust to ADO export variations)

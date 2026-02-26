@@ -1,0 +1,425 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0902-ado-import-artifacts-live.log
+
+=== ADO Import: 33-eva-brain-v2 ===
+Project maturity : active
+GitHub repo      : eva-foundry/33-eva-brain-v2
+Dry run          : False
+
+Epic: creating '33-eva-brain-v2'
+  -> Epic id=2089
+Feature: creating 'Context'
+  -> Feature id=2090
+Feature: creating 'Part 1 ? OQ Resolutions (Applied This Session)'
+  -> Feature id=2091
+Feature: creating 'Part 2 ? Sprint 5 Scope (This Session)'
+  -> Feature id=2092
+Feature: creating 'Part 3 ? New FeatureIDs'
+  -> Feature id=2093
+Feature: creating 'Part 4 ? Test Files to Create'
+  -> Feature id=2094
+Feature: creating 'Part 6 ? Edit Execution Checklist'
+  -> Feature id=2095
+Feature: existing id=312 - 'Summary'
+Feature: creating 'TEST API'
+  -> Feature id=2096
+Feature: existing id=438 - 'CHAT API'
+Feature: existing id=1075 - 'USERS API'
+Feature: existing id=1076 - 'GROUPS API'
+Feature: creating 'APP_ID API'
+  -> Feature id=2097
+Feature: creating 'MATH API'
+  -> Feature id=2098
+Feature: creating 'TABULAR API'
+  -> Feature id=2099
+Feature: creating 'INFO API'
+  -> Feature id=2100
+Feature: creating 'FEATURES API'
+  -> Feature id=2101
+Feature: creating 'TRANSLATIONS API'
+  -> Feature id=2102
+Feature: existing id=1008 - 'DOCUMENTS API'
+Feature: existing id=437 - 'HEALTH API'
+Feature: existing id=1067 - 'UPLOAD API'
+Feature: creating 'JOBS API'
+  -> Feature id=2103
+Feature: creating 'REPROCESS API'
+  -> Feature id=2104
+Feature: creating 'STATS API'
+  -> Feature id=2105
+Feature: creating 'AUDIT API'
+  -> Feature id=2106
+Feature: creating 'CONTENT API'
+  -> Feature id=2107
+Feature: creating 'RETRIEVE API'
+  -> Feature id=2108
+Feature: creating 'DASHBOARD API'
+  -> Feature id=2109
+Feature: creating 'SUMMARY API'
+  -> Feature id=2110
+Feature: creating 'SAVED API'
+  -> Feature id=2111
+Feature: creating 'HISTORY API'
+  -> Feature id=2112
+Feature: creating 'ANALYTICS API'
+  -> Feature id=2113
+Feature: creating 'SESSION_ID API'
+  -> Feature id=2114
+Feature: creating 'KEY API'
+  -> Feature id=2115
+Feature: existing id=1037 - 'TAGS API'
+Feature: creating 'LANG API'
+  -> Feature id=2116
+Feature: creating 'BACKGROUND API'
+  -> Feature id=2117
+Feature: creating 'ACTINGAS API'
+  -> Feature id=2118
+Feature: creating 'PERSONAS API'
+  -> Feature id=2119
+Feature: creating 'PERSONA_ID API'
+  -> Feature id=2120
+PBI: creating '[F33-03-001] G1: Translations CRUD (HIGH ? unblocks eva-faces TranslationsPage)'
+  -> PBI id=2121
+PBI: creating '[F33-03-002] G2: Settings API (MEDIUM ? unblocks eva-faces SettingsPage)'
+  -> PBI id=2122
+PBI: creating '[F33-03-003] Assistants (7 endpoints)'
+  -> PBI id=2123
+PBI: creating '[F33-03-004] Logs (8 endpoints)'
+  -> PBI id=2124
+PBI: creating '[F33-03-005] main.py'
+  -> PBI id=2125
+PBI: creating '[F33-06-001] **T1** ? `docs/20260220-plan.md` created (this file)'
+  -> PBI id=2126
+PBI: creating '[F33-06-002] **T2** ? `docs/MANIFEST-20260220-WI5.md` created'
+  -> PBI id=2127
+PBI: creating '[F33-06-003] **T3** ? `app/services/translation_store_service.py` created'
+  -> PBI id=2128
+PBI: creating '[F33-06-004] **T4** ? `app/routes/translations.py` created'
+  -> PBI id=2129
+PBI: creating '[F33-06-005] **T5** ? `app/services/settings_service.py` created'
+  -> PBI id=2130
+PBI: creating '[F33-06-006] **T6** ? `app/routes/settings.py` created'
+  -> PBI id=2131
+PBI: creating '[F33-06-007] **T7** ? `app/services/math_assistant.py` created'
+  -> PBI id=2132
+PBI: creating '[F33-06-008] **T8** ? `app/services/tabular_assistant.py` created'
+  -> PBI id=2133
+PBI: creating '[F33-06-009] **T9** ? `app/routes/assistants.py` created'
+  -> PBI id=2134
+PBI: creating '[F33-06-010] **T10** ? `app/services/audit_log_service.py` created'
+  -> PBI id=2135
+PBI: creating '[F33-06-011] **T11** ? `app/services/content_log_service.py` created'
+  -> PBI id=2136
+PBI: creating '[F33-06-012] **T12** ? `app/routes/logs.py` created'
+  -> PBI id=2137
+PBI: creating '[F33-06-013] **T13** ? `app/main.py` updated (4 new try/except router mounts)'
+  -> PBI id=2138
+PBI: creating '[F33-06-014] **T14** ? `tests/test_translations.py` created'
+  -> PBI id=2139
+PBI: creating '[F33-06-015] **T15** ? `tests/test_settings.py` created'
+  -> PBI id=2140
+PBI: creating '[F33-06-016] **T16** ? `tests/test_assistants.py` created'
+  -> PBI id=2141
+PBI: creating '[F33-06-017] **T17** ? `tests/test_logs.py` created'
+  -> PBI id=2142
+PBI: creating '[F33-06-018] **T18** ? `pytest tests/` exits 0 (554/554 pass, 72% coverage)'
+  -> PBI id=2143
+PBI: creating '[F33-06-019] **T19** ? Documentator run: STATUS.md, PLAN.md, SESSION-STATE.md updated'
+  -> PBI id=2144
+PBI: creating '[F33-TEST-001] GET /test/validation'
+  -> PBI id=2145
+PBI: creating '[F33-TEST-002] GET /test/rbac'
+  -> PBI id=2146
+PBI: creating '[F33-TEST-003] GET /test/not-found'
+  -> PBI id=2147
+PBI: creating '[F33-TEST-004] GET /test/rate-limit'
+  -> PBI id=2148
+PBI: creating '[F33-TEST-005] GET /test/upstream'
+  -> PBI id=2149
+PBI: creating '[F33-TEST-006] GET /test/generic'
+  -> PBI id=2150
+PBI: creating '[F33-TEST-007] GET /test/validation'
+  -> PBI id=2151
+PBI: creating '[F33-TEST-008] GET /test/auth'
+  -> PBI id=2152
+PBI: creating '[F33-TEST-009] GET /test/persona-not-found'
+  -> PBI id=2153
+PBI: creating '[F33-TEST-010] GET /test/session-not-found'
+  -> PBI id=2154
+PBI: creating '[F33-TEST-011] GET /test/cost-override'
+  -> PBI id=2155
+PBI: creating '[F33-TEST-012] GET /test/generic'
+  -> PBI id=2156
+PBI: creating '[F33-CHAT-001] POST /v1/chat'
+  -> PBI id=2157
+PBI: creating '[F33-CHAT-002] POST /v1/chat'
+  -> PBI id=2158
+PBI: creating '[F33-CHAT-003] GET /v1/chat/approaches'
+  -> PBI id=2159
+PBI: creating '[F33-CHAT-004] POST /v1/chat'
+  -> PBI id=2160
+PBI: creating '[F33-CHAT-005] POST /v1/chat/rrr'
+  -> PBI id=2161
+PBI: creating '[F33-CHAT-006] POST /v1/chat/rtr'
+  -> PBI id=2162
+PBI: creating '[F33-CHAT-007] POST /v1/chat/work'
+  -> PBI id=2163
+PBI: creating '[F33-CHAT-008] POST /v1/chat/hybrid'
+  -> PBI id=2164
+PBI: creating '[F33-CHAT-009] POST /v1/chat/ungrounded'
+  -> PBI id=2165
+PBI: creating '[F33-CHAT-010] POST /v1/chat/read-retrieve-read'
+  -> PBI id=2166
+PBI: creating '[F33-USERS-001] POST /users'
+  -> PBI id=2167
+PBI: creating '[F33-GROUPS-001] GET /groups'
+  -> PBI id=2168
+PBI: creating '[F33-APP_ID-001] GET /{app_id}'
+  -> PBI id=2169
+PBI: creating '[F33-APP_ID-002] PATCH /{app_id}'
+  -> PBI id=2170
+PBI: creating '[F33-APP_ID-003] DELETE /{app_id}'
+  -> PBI id=2171
+PBI: creating '[F33-APP_ID-004] GET /{app_id}/config'
+  -> PBI id=2172
+PBI: creating '[F33-APP_ID-005] PATCH /{app_id}/config'
+  -> PBI id=2173
+PBI: creating '[F33-MATH-001] POST /math/evaluate'
+  -> PBI id=2174
+PBI: creating '[F33-MATH-002] POST /math/solve'
+  -> PBI id=2175
+PBI: creating '[F33-MATH-003] POST /math/plot'
+  -> PBI id=2176
+PBI: creating '[F33-TABULAR-001] POST /tabular/parse'
+  -> PBI id=2177
+PBI: creating '[F33-TABULAR-002] POST /tabular/query'
+  -> PBI id=2178
+PBI: creating '[F33-TABULAR-003] POST /tabular/summarize'
+  -> PBI id=2179
+PBI: creating '[F33-TABULAR-004] POST /tabular/export'
+  -> PBI id=2180
+PBI: creating '[F33-INFO-001] GET /info'
+  -> PBI id=2181
+PBI: creating '[F33-FEATURES-001] GET /features'
+  -> PBI id=2182
+PBI: creating '[F33-FEATURES-002] GET /features'
+  -> PBI id=2183
+PBI: creating '[F33-TRANSLATIONS-001] GET /translations/{language}'
+  -> PBI id=2184
+PBI: creating '[F33-DOCUMENTS-001] GET /v1/documents'
+  -> PBI id=2185
+PBI: creating '[F33-DOCUMENTS-002] GET /v1/documents/{doc_id}'
+  -> PBI id=2186
+PBI: creating '[F33-DOCUMENTS-003] GET /v1/documents/{doc_id}/content'
+  -> PBI id=2187
+PBI: creating '[F33-DOCUMENTS-004] GET /v1/documents/{doc_id}/chunks'
+  -> PBI id=2188
+PBI: creating '[F33-DOCUMENTS-005] PATCH /v1/documents/{doc_id}'
+  -> PBI id=2189
+PBI: creating '[F33-DOCUMENTS-006] DELETE /v1/documents/{doc_id}'
+  -> PBI id=2190
+PBI: creating '[F33-DOCUMENTS-007] DELETE /v1/documents/{doc_id}/chunks'
+  -> PBI id=2191
+PBI: creating '[F33-DOCUMENTS-008] POST /v1/documents/{doc_id}/reindex'
+  -> PBI id=2192
+PBI: creating '[F33-HEALTH-001] GET /v1/health'
+  -> PBI id=2193
+PBI: creating '[F33-HEALTH-002] GET /v1/health/background'
+  -> PBI id=2194
+PBI: creating '[F33-UPLOAD-001] POST /upload'
+  -> PBI id=2195
+PBI: creating '[F33-JOBS-001] GET /jobs/{job_id}'
+  -> PBI id=2196
+PBI: creating '[F33-JOBS-002] GET /jobs'
+  -> PBI id=2197
+PBI: creating '[F33-JOBS-003] DELETE /jobs/{job_id}'
+  -> PBI id=2198
+PBI: creating '[F33-REPROCESS-001] POST /reprocess/{job_id}'
+  -> PBI id=2199
+PBI: creating '[F33-STATS-001] GET /stats'
+  -> PBI id=2200
+PBI: creating '[F33-AUDIT-001] GET /audit'
+  -> PBI id=2201
+PBI: creating '[F33-AUDIT-002] GET /audit/stats'
+  -> PBI id=2202
+PBI: creating '[F33-AUDIT-003] GET /audit/export'
+  -> PBI id=2203
+PBI: creating '[F33-AUDIT-004] GET /audit/{audit_id}'
+  -> PBI id=2204
+PBI: creating '[F33-CONTENT-001] GET /content'
+  -> PBI id=2205
+PBI: creating '[F33-CONTENT-002] GET /content/stats'
+  -> PBI id=2206
+PBI: creating '[F33-CONTENT-003] GET /content/export'
+  -> PBI id=2207
+PBI: creating '[F33-CONTENT-004] GET /content/{log_id}'
+  -> PBI id=2208
+PBI: creating '[F33-RETRIEVE-001] POST /v1/retrieve'
+  -> PBI id=2209
+PBI: creating '[F33-DASHBOARD-001] GET /dashboard'
+  -> PBI id=2210
+PBI: creating '[F33-SUMMARY-001] GET /summary'
+  -> PBI id=2211
+PBI: creating '[F33-SAVED-001] POST /saved'
+  -> PBI id=2212
+PBI: creating '[F33-SAVED-002] GET /saved'
+  -> PBI id=2213
+PBI: creating '[F33-SAVED-003] DELETE /saved/{search_id}'
+  -> PBI id=2214
+PBI: creating '[F33-HISTORY-001] GET /history'
+  -> PBI id=2215
+PBI: creating '[F33-ANALYTICS-001] GET /analytics'
+  -> PBI id=2216
+PBI: creating '[F33-SESSION_ID-001] GET /{session_id}'
+  -> PBI id=2217
+PBI: creating '[F33-SESSION_ID-002] PATCH /{session_id}'
+  -> PBI id=2218
+PBI: creating '[F33-SESSION_ID-003] DELETE /{session_id}'
+  -> PBI id=2219
+PBI: creating '[F33-KEY-001] PATCH /{key}'
+  -> PBI id=2220
+PBI: creating '[F33-TAGS-001] GET /tags'
+  -> PBI id=2221
+PBI: creating '[F33-TAGS-002] GET /tags/{tag_name}/documents'
+  -> PBI id=2222
+PBI: creating '[F33-TAGS-003] GET /tags/suggestions'
+  -> PBI id=2223
+PBI: creating '[F33-LANG-001] GET /{lang}'
+  -> PBI id=2224
+PBI: creating '[F33-LANG-002] PUT /{lang}'
+  -> PBI id=2225
+PBI: creating '[F33-LANG-003] PATCH /{lang}'
+  -> PBI id=2226
+PBI: creating '[F33-LANG-004] DELETE /{lang}'
+  -> PBI id=2227
+PBI: creating '[F33-BACKGROUND-001] GET /background'
+  -> PBI id=2228
+PBI: creating '[F33-ACTINGAS-001] POST /acting-as'
+  -> PBI id=2229
+PBI: creating '[F33-PERSONAS-001] GET /personas'
+  -> PBI id=2230
+PBI: creating '[F33-PERSONA_ID-001] GET /{persona_id}'
+  -> PBI id=2231
+
+=== Import Summary: 33-eva-brain-v2 ===
+Epic id  : 2089
+Features : 39
+PBIs     : 111
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag                 [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---                 [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F33-03-001           2121 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-03-002           2122 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-03-003           2123 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-03-004           2124 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-03-005           2125 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-001           2126 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-002           2127 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-003           2128 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-004           2129 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-005           2130 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-006           2131 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-007           2132 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-008           2133 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-009           2134 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-010           2135 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-011           2136 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-012           2137 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-013           2138 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-014           2139 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-015           2140 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-016           2141 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-017           2142 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-018           2143 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-06-019           2144 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-001         2145 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-002         2146 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-003         2147 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-004         2148 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-005         2149 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-006         2150 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-007         2151 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-008         2152 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-009         2153 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-010         2154 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-011         2155 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TEST-012         2156 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-001         2157 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-002         2158 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-003         2159 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-004         2160 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-005         2161 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-006         2162 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-007         2163 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-008         2164 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-009         2165 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CHAT-010         2166 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-USERS-001        2167 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-GROUPS-001       2168 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-APP_ID-001       2169 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-APP_ID-002       2170 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-APP_ID-003       2171 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-APP_ID-004       2172 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-APP_ID-005       2173 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-MATH-001         2174 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-MATH-002         2175 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-MATH-003         2176 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TABULAR-001      2177 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TABULAR-002      2178 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TABULAR-003      2179 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TABULAR-004      2180 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-INFO-001         2181 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-FEATURES-001     2182 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-FEATURES-002     2183 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TRANSLATIONS-001 2184 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-001    2185 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-002    2186 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-003    2187 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-004    2188 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-005    2189 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-006    2190 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-007    2191 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DOCUMENTS-008    2192 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-HEALTH-001       2193 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-HEALTH-002       2194 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-UPLOAD-001       2195 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-JOBS-001         2196 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-JOBS-002         2197 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-JOBS-003         2198 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-REPROCESS-001    2199 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-STATS-001        2200 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-AUDIT-001        2201 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-AUDIT-002        2202 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-AUDIT-003        2203 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-AUDIT-004        2204 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CONTENT-001      2205 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CONTENT-002      2206 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CONTENT-003      2207 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-CONTENT-004      2208 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-RETRIEVE-001     2209 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-DASHBOARD-001    2210 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-SUMMARY-001      2211 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-SAVED-001        2212 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-SAVED-002        2213 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-SAVED-003        2214 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-HISTORY-001      2215 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-ANALYTICS-001    2216 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-SESSION_ID-001   2217 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-SESSION_ID-002   2218 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-SESSION_ID-003   2219 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-KEY-001          2220 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TAGS-001         2221 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TAGS-002         2222 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-TAGS-003         2223 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-LANG-001         2224 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-LANG-002         2225 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-LANG-003         2226 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-LANG-004         2227 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-BACKGROUND-001   2228 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-ACTINGAS-001     2229 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-PERSONAS-001     2230 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F33-PERSONA_ID-001   2231 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+

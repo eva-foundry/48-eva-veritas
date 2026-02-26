@@ -1,0 +1,47 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0855-ado-import-artifacts-live.log
+
+=== ADO Import: 19-ai-gov ===
+Project maturity : active
+GitHub repo      : eva-foundry/19-ai-gov
+Dry run          : False
+
+Epic: creating '19-ai-gov'
+  -> Epic id=846
+Feature: creating 'Design Phases'
+  -> Feature id=847
+Feature: creating 'Design Completion Summary'
+  -> Feature id=848
+PBI: creating '[F19-01-001] Phase 1 ? Foundation (Complete)'
+  -> PBI id=849
+PBI: creating '[F19-01-002] Phase 2 ? Actor Model (Complete)'
+  -> PBI id=850
+PBI: creating '[F19-01-003] Phase 3 ? Machine Trust Index (Complete)'
+  -> PBI id=851
+PBI: creating '[F19-01-004] Phase 4 ? Decision Engine (Complete)'
+  -> PBI id=852
+PBI: creating '[F19-01-005] Phase 5 ? API and Data Contracts (Complete)'
+  -> PBI id=853
+PBI: creating '[F19-01-006] Phase 6 ? MTI Separation and Integration Spec (Feb 23, 2026)'
+  -> PBI id=854
+PBI: creating '[F19-01-007] Phase 7 ? EVA State Paper (Feb 24, 2026)'
+  -> PBI id=855
+
+=== Import Summary: 19-ai-gov ===
+Epic id  : 846
+Features : 2
+PBIs     : 7
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F19-01-001 849 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F19-01-002 850 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F19-01-003 851 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F19-01-004 852 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F19-01-005 853 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F19-01-006 854 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F19-01-007 855 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

@@ -1,0 +1,166 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0854-ado-import-artifacts-live.log
+
+=== ADO Import: 13-vscode-tools ===
+Project maturity : poc
+GitHub repo      : eva-foundry/13-vscode-tools
+Dry run          : False
+
+Epic: creating '13-vscode-tools'
+  -> Epic id=698
+Feature: creating 'Why This Project Exists'
+  -> Feature id=699
+Feature: existing id=349 - 'Goal'
+Feature: creating 'Acceptance Criteria'
+  -> Feature id=700
+Feature: creating 'Complete Tool Inventory (156 Tools)'
+  -> Feature id=701
+Feature: creating 'Tools Mapped to Your Projects'
+  -> Feature id=702
+Feature: creating 'Priority Tiers: What to Master First'
+  -> Feature id=703
+Feature: creating 'Elimination List: Tools to Disable'
+  -> Feature id=704
+Feature: creating 'High-Impact Tool Usage Patterns'
+  -> Feature id=705
+Feature: creating 'Performance Baseline & Metrics'
+  -> Feature id=706
+Feature: existing id=656 - 'Next Steps'
+Feature: creating 'The Beach Answer (Revisited)'
+  -> Feature id=707
+Feature: creating 'Appendix: Tool Selection Philosophy'
+  -> Feature id=708
+Feature: creating 'Document Metadata'
+  -> Feature id=709
+PBI: creating '[F13-02-001] Key Questions This Project Answers'
+  -> PBI id=710
+PBI: creating '[F13-04-001] Built-In Core (7 tools)'
+  -> PBI id=711
+PBI: creating '[F13-04-002] File Operations (8 tools)'
+  -> PBI id=712
+PBI: creating '[F13-04-003] Development & Execution (10 tools)'
+  -> PBI id=713
+PBI: creating '[F13-04-004] Code Intelligence (5 tools)'
+  -> PBI id=714
+PBI: creating '[F13-04-005] Project Generation (2 tools)'
+  -> PBI id=715
+PBI: creating '[F13-04-006] Notebook Operations (2 tools)'
+  -> PBI id=716
+PBI: creating '[F13-04-007] AI Agent Development (5 tools)'
+  -> PBI id=717
+PBI: creating '[F13-04-008] Python Development (2 tools)'
+  -> PBI id=718
+PBI: creating '[F13-04-009] Java Development (6 tools)'
+  -> PBI id=719
+PBI: creating '[F13-04-010] Azure Services (25+ MCP tools)'
+  -> PBI id=720
+PBI: creating '[F13-04-011] DevBox Management (8 MCP tools)'
+  -> PBI id=721
+PBI: creating '[F13-04-012] Git & GitHub (15+ tools)'
+  -> PBI id=722
+PBI: creating '[F13-04-013] Multi-Tool Execution (1 tool)'
+  -> PBI id=723
+PBI: creating '[F13-05-001] ?? **CRITICAL for EVA AI Governance** (eva-ai-governance)'
+  -> PBI id=724
+PBI: creating '[F13-05-002] ?? **CRITICAL for Agent Skills Framework** (Project 02)'
+  -> PBI id=725
+PBI: creating '[F13-05-003] ?? **CRITICAL for OS-vNext Workflows** (Project 04)'
+  -> PBI id=726
+PBI: creating '[F13-05-004] ?? **HIGH for Copilot Instructions** (Project 07)'
+  -> PBI id=727
+PBI: creating '[F13-05-005] ?? **HIGH for MS-InfoJP Deployment** (Project 11)'
+  -> PBI id=728
+PBI: creating '[F13-06-001] ?? **Tier 1: CRITICAL - Master Immediately** (15 tools)'
+  -> PBI id=729
+PBI: creating '[F13-06-002] ?? **Tier 2: HIGH - Master Within 2 Weeks** (20 tools)'
+  -> PBI id=730
+PBI: creating '[F13-06-003] ?? **Tier 3: MEDIUM - Master As Needed** (15 tools)'
+  -> PBI id=731
+PBI: creating '[F13-06-004] ?? **Tier 4: LOW - Consider Disabling** (106 tools)'
+  -> PBI id=732
+PBI: creating '[F13-07-001] Specific Tools to Disable'
+  -> PBI id=733
+PBI: creating '[F13-08-001] Pattern 1: Governance Documentation Generation'
+  -> PBI id=734
+PBI: creating '[F13-08-002] Pattern 2: Agent Skills Refactoring'
+  -> PBI id=735
+PBI: creating '[F13-08-003] Pattern 3: Azure Resource Troubleshooting'
+  -> PBI id=736
+PBI: creating '[F13-08-004] Pattern 4: Multi-Repo Copilot Instructions Standardization'
+  -> PBI id=737
+PBI: creating '[F13-08-005] Pattern 5: Documentation Validation Pipeline'
+  -> PBI id=738
+PBI: creating '[F13-09-001] Before Tool Mastery (Current State)'
+  -> PBI id=739
+PBI: creating '[F13-09-002] After Tool Mastery (Target State)'
+  -> PBI id=740
+PBI: creating '[F13-09-003] Measurement Plan'
+  -> PBI id=741
+PBI: creating '[F13-10-001] Immediate Actions (Today)'
+  -> PBI id=742
+PBI: creating '[F13-10-002] This Week'
+  -> PBI id=743
+PBI: creating '[F13-10-003] Next 2 Weeks'
+  -> PBI id=744
+PBI: creating '[F13-10-004] Month 1 Goal'
+  -> PBI id=745
+PBI: creating '[F13-12-001] The 80/20 Rule Applied'
+  -> PBI id=746
+PBI: creating '[F13-12-002] Cognitive Load Management'
+  -> PBI id=747
+PBI: creating '[F13-12-003] Workflow-Driven Selection'
+  -> PBI id=748
+PBI: creating '[F13-12-004] Performance Optimization'
+  -> PBI id=749
+
+=== Import Summary: 13-vscode-tools ===
+Epic id  : 698
+Features : 13
+PBIs     : 40
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F13-02-001 710 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-001 711 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-002 712 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-003 713 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-004 714 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-005 715 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-006 716 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-007 717 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-008 718 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-009 719 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-010 720 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-011 721 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-012 722 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-04-013 723 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-05-001 724 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-05-002 725 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-05-003 726 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-05-004 727 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-05-005 728 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-06-001 729 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-06-002 730 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-06-003 731 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-06-004 732 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-07-001 733 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-08-001 734 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-08-002 735 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-08-003 736 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-08-004 737 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-08-005 738 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-09-001 739 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-09-002 740 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-09-003 741 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-10-001 742 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-10-002 743 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-10-003 744 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-10-004 745 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-12-001 746 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-12-002 747 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-12-003 748 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F13-12-004 749 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

@@ -1,0 +1,48 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0853-ado-import-artifacts-live.log
+
+=== ADO Import: 09-eva-repo-documentation ===
+Project maturity : active
+GitHub repo      : eva-foundry/09-eva-repo-documentation
+Dry run          : False
+
+Epic: creating '09-eva-repo-documentation'
+  -> Epic id=375
+Feature: creating 'EXECUTIVE SUMMARY'
+  -> Feature id=376
+Feature: creating 'PROPOSED DIAGRAM CATALOG'
+  -> Feature id=377
+Feature: creating 'KEY FEATURES'
+  -> Feature id=378
+Feature: creating 'IMPLEMENTATION ESTIMATE'
+  -> Feature id=379
+PBI: creating '[F09-02-001] Part 1: Infrastructure Architecture (4 diagrams)'
+  -> PBI id=380
+PBI: creating '[F09-02-002] Part 2: Application Architecture (4 diagrams)'
+  -> PBI id=381
+PBI: creating '[F09-02-003] Part 3: Document Ingestion (6 diagrams)'
+  -> PBI id=382
+PBI: creating '[F09-02-004] Part 4: RAG Query Execution (5 diagrams)'
+  -> PBI id=383
+PBI: creating '[F09-02-005] Part 5: Data Flows (4 diagrams)'
+  -> PBI id=384
+PBI: creating '[F09-02-006] Part 6: Security Architecture (2 diagrams)'
+  -> PBI id=385
+
+=== Import Summary: 09-eva-repo-documentation ===
+Epic id  : 375
+Features : 4
+PBIs     : 6
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F09-02-001 380 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F09-02-002 381 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F09-02-003 382 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F09-02-004 383 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F09-02-005 384 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F09-02-006 385 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

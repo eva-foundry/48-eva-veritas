@@ -1,0 +1,103 @@
+{
+  "mode": "live",
+  "sprint_calendar_count": 16,
+  "passed": true,
+  "filter": {
+    "level": "",
+    "project": ""
+  },
+  "spot_check": {
+    "total": 5,
+    "pass": 5
+  },
+  "generated_at": "2026-02-25T10:58:13.8001143-05:00",
+  "sync_id": "wbs-ado-sync-20260225-105605",
+  "result": {
+    "unchanged": 0,
+    "failed": 0,
+    "updated": 1869,
+    "no_data": 0
+  },
+  "sample_changes": [
+    {
+      "wbs_id": "F01-03-001",
+      "ado_id": 217,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-03-002",
+      "ado_id": 218,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-04-001",
+      "ado_id": 219,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-04-002",
+      "ado_id": 220,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-04-003",
+      "ado_id": 221,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-04-004",
+      "ado_id": 222,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-05-001",
+      "ado_id": 223,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-05-002",
+      "ado_id": 224,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-07-001",
+      "ado_id": 225,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    },
+    {
+      "wbs_id": "F01-07-002",
+      "ado_id": 226,
+      "old_status": "planned",
+      "new_status": "planned",
+      "sprint_id": "Sprint-Backlog",
+      "story_points": null
+    }
+  ]
+}

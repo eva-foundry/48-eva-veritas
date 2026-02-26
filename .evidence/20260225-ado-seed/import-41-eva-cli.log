@@ -1,0 +1,76 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0905-ado-import-artifacts-live.log
+
+=== ADO Import: 41-eva-cli ===
+Project maturity : poc
+GitHub repo      : eva-foundry/41-eva-cli
+Dry run          : False
+
+Epic: creating '41-eva-cli'
+  -> Epic id=2420
+Feature: creating 'What it is'
+  -> Feature id=2421
+Feature: creating 'Status  ?  2026-02-21'
+  -> Feature id=2422
+Feature: creating 'Installation'
+  -> Feature id=2423
+Feature: existing id=885 - 'Quick start'
+Feature: creating 'Credential setup'
+  -> Feature id=2424
+Feature: creating 'Command reference'
+  -> Feature id=2425
+Feature: creating 'Evidence ID format'
+  -> Feature id=2426
+Feature: existing id=886 - 'Architecture'
+Feature: creating 'Ecosystem links'
+  -> Feature id=2427
+Feature: creating 'Next implementation steps'
+  -> Feature id=2428
+PBI: creating '[F41-06-001] Global flags (all commands)'
+  -> PBI id=2429
+PBI: creating '[F41-06-002] `eva init [--from-artifacts PATH] [--force]`'
+  -> PBI id=2430
+PBI: creating '[F41-06-003] `eva context show / set`'
+  -> PBI id=2431
+PBI: creating '[F41-06-004] `eva ado create <type> --title <text> [--parent <id>]`'
+  -> PBI id=2432
+PBI: creating '[F41-06-005] `eva ado update <id> [--state <state>] [--assigned-to <email>]`'
+  -> PBI id=2433
+PBI: creating '[F41-06-006] `eva ado link <id> [--pr <url>] [--evidence <id>]`'
+  -> PBI id=2434
+PBI: creating '[F41-06-007] `eva gh pr-show <pr>`'
+  -> PBI id=2435
+PBI: creating '[F41-06-008] `eva gh pr-check <pr>`'
+  -> PBI id=2436
+PBI: creating '[F41-06-009] `eva runbook list / show <id> / run <id> [--env] [--dry-run]`'
+  -> PBI id=2437
+PBI: creating '[F41-06-010] `eva evidence show <id>`'
+  -> PBI id=2438
+PBI: creating '[F41-06-011] `eva evidence verify <id>`'
+  -> PBI id=2439
+PBI: creating '[F41-06-012] `eva promote dev --from-pr <pr> [--workitem <id>] [--dry-run]`'
+  -> PBI id=2440
+
+=== Import Summary: 41-eva-cli ===
+Epic id  : 2420
+Features : 10
+PBIs     : 12
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F41-06-001 2429 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-002 2430 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-003 2431 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-004 2432 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-005 2433 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-006 2434 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-007 2435 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-008 2436 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-009 2437 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-010 2438 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-011 2439 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F41-06-012 2440 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

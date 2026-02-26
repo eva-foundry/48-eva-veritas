@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.7237271-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/19-ai-gov",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-19",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "19-ai-gov",
+    "description": "19-ai-gov",
+    "tags": "19-ai-gov;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F19-01",
+      "type": "Feature",
+      "title": "Design Phases",
+      "description": "Design Phases",
+      "tags": "19-ai-gov;F19-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F19-02",
+      "type": "Feature",
+      "title": "Design Completion Summary",
+      "description": "Design Completion Summary",
+      "tags": "19-ai-gov;F19-02",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F19-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F19-01-001] Phase 1 ? Foundation (Complete)",
+      "acceptance_criteria": "Phase 1 ? Foundation (Complete)",
+      "tags": "19-ai-gov;F19-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F19-01",
+      "state": "New",
+      "wbs_id": "F19-01-001"
+    },
+    {
+      "id_hint": "F19-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F19-01-002] Phase 2 ? Actor Model (Complete)",
+      "acceptance_criteria": "Phase 2 ? Actor Model (Complete)",
+      "tags": "19-ai-gov;F19-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F19-01",
+      "state": "New",
+      "wbs_id": "F19-01-002"
+    },
+    {
+      "id_hint": "F19-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F19-01-003] Phase 3 ? Machine Trust Index (Complete)",
+      "acceptance_criteria": "Phase 3 ? Machine Trust Index (Complete)",
+      "tags": "19-ai-gov;F19-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F19-01",
+      "state": "New",
+      "wbs_id": "F19-01-003"
+    },
+    {
+      "id_hint": "F19-01-004",
+      "type": "Product Backlog Item",
+      "title": "[F19-01-004] Phase 4 ? Decision Engine (Complete)",
+      "acceptance_criteria": "Phase 4 ? Decision Engine (Complete)",
+      "tags": "19-ai-gov;F19-01-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F19-01",
+      "state": "New",
+      "wbs_id": "F19-01-004"
+    },
+    {
+      "id_hint": "F19-01-005",
+      "type": "Product Backlog Item",
+      "title": "[F19-01-005] Phase 5 ? API and Data Contracts (Complete)",
+      "acceptance_criteria": "Phase 5 ? API and Data Contracts (Complete)",
+      "tags": "19-ai-gov;F19-01-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F19-01",
+      "state": "New",
+      "wbs_id": "F19-01-005"
+    },
+    {
+      "id_hint": "F19-01-006",
+      "type": "Product Backlog Item",
+      "title": "[F19-01-006] Phase 6 ? MTI Separation and Integration Spec (Feb 23, 2026)",
+      "acceptance_criteria": "Phase 6 ? MTI Separation and Integration Spec (Feb 23, 2026)",
+      "tags": "19-ai-gov;F19-01-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F19-01",
+      "state": "New",
+      "wbs_id": "F19-01-006"
+    },
+    {
+      "id_hint": "F19-01-007",
+      "type": "Product Backlog Item",
+      "title": "[F19-01-007] Phase 7 ? EVA State Paper (Feb 24, 2026)",
+      "acceptance_criteria": "Phase 7 ? EVA State Paper (Feb 24, 2026)",
+      "tags": "19-ai-gov;F19-01-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F19-01",
+      "state": "New",
+      "wbs_id": "F19-01-007"
+    }
+  ]
+}

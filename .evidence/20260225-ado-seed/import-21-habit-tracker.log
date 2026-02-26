@@ -1,0 +1,115 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0856-ado-import-artifacts-live.log
+
+=== ADO Import: 21-habit-tracker ===
+Project maturity : poc
+GitHub repo      : eva-foundry/21-habit-tracker
+Dry run          : False
+
+Epic: creating '21-habit-tracker'
+  -> Epic id=883
+Feature: creating 'HABIT_ID API [ID=F21-HABIT_ID]'
+  -> Feature id=884
+Feature: creating 'Quick Start'
+  -> Feature id=885
+Feature: creating 'Architecture'
+  -> Feature id=886
+Feature: existing id=209 - 'Features'
+Feature: creating 'API Endpoints'
+  -> Feature id=887
+Feature: creating 'Claude Commands'
+  -> Feature id=888
+Feature: existing id=437 - 'HEALTH API'
+Feature: creating 'COMPLETE API'
+  -> Feature id=889
+Feature: creating 'SKIP API'
+  -> Feature id=890
+Feature: creating 'COMPLETIONS API'
+  -> Feature id=891
+Feature: existing id=436 - 'API API'
+Feature: creating 'HABIT_ID API'
+  -> Feature id=892
+PBI: creating '[F21-01-001] GET /{habit_id} [ID=F21-HABIT_ID-001]'
+  -> PBI id=893
+PBI: creating '[F21-01-002] PUT /{habit_id} [ID=F21-HABIT_ID-002]'
+  -> PBI id=894
+PBI: creating '[F21-01-003] DELETE /{habit_id} [ID=F21-HABIT_ID-003]'
+  -> PBI id=895
+PBI: creating '[F21-01-004] PATCH /{habit_id}/archive [ID=F21-HABIT_ID-004]'
+  -> PBI id=896
+PBI: creating '[F21-02-001] 1. Clone and Setup Backend'
+  -> PBI id=897
+PBI: creating '[F21-02-002] 2. Setup Frontend (new terminal)'
+  -> PBI id=898
+PBI: creating '[F21-02-003] 3. Open the App'
+  -> PBI id=899
+PBI: creating '[F21-03-001] Tech Stack'
+  -> PBI id=900
+PBI: creating '[F21-03-002] Project Structure'
+  -> PBI id=901
+PBI: creating '[F21-06-001] Planning & Execution'
+  -> PBI id=902
+PBI: creating '[F21-06-002] Validation'
+  -> PBI id=903
+PBI: creating '[F21-06-003] Bug Fixing'
+  -> PBI id=904
+PBI: creating '[F21-06-004] Misc'
+  -> PBI id=905
+PBI: creating '[F21-HEALTH-001] GET /health'
+  -> PBI id=906
+PBI: creating '[F21-COMPLETE-001] POST /complete'
+  -> PBI id=907
+PBI: creating '[F21-SKIP-001] POST /skip'
+  -> PBI id=908
+PBI: creating '[F21-COMPLETIONS-001] DELETE /completions/{date}'
+  -> PBI id=909
+PBI: creating '[F21-COMPLETIONS-002] GET /completions'
+  -> PBI id=910
+PBI: creating '[F21-API-001] GET /'
+  -> PBI id=911
+PBI: creating '[F21-API-002] POST /'
+  -> PBI id=912
+PBI: creating '[F21-HABIT_ID-001] GET /{habit_id}'
+  -> PBI id=913
+PBI: creating '[F21-HABIT_ID-002] PUT /{habit_id}'
+  -> PBI id=914
+PBI: creating '[F21-HABIT_ID-003] DELETE /{habit_id}'
+  -> PBI id=915
+PBI: creating '[F21-HABIT_ID-004] PATCH /{habit_id}/archive'
+  -> PBI id=916
+
+=== Import Summary: 21-habit-tracker ===
+Epic id  : 883
+Features : 12
+PBIs     : 24
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag                [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---                [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F21-01-001          893 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-01-002          894 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-01-003          895 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-01-004          896 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-02-001          897 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-02-002          898 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-02-003          899 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-03-001          900 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-03-002          901 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-06-001          902 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-06-002          903 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-06-003          904 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-06-004          905 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-HEALTH-001      906 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-COMPLETE-001    907 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-SKIP-001        908 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-COMPLETIONS-001 909 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-COMPLETIONS-002 910 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-API-001         911 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-API-002         912 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-HABIT_ID-001    913 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-HABIT_ID-002    914 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-HABIT_ID-003    915 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F21-HABIT_ID-004    916 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+

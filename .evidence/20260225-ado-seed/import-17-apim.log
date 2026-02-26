@@ -1,0 +1,100 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0855-ado-import-artifacts-live.log
+
+=== ADO Import: 17-apim ===
+Project maturity : poc
+GitHub repo      : eva-foundry/17-apim
+Dry run          : False
+
+Epic: creating '17-apim'
+  -> Epic id=782
+Feature: creating '?? PROJECT STATUS DASHBOARD'
+  -> Feature id=783
+Feature: existing id=376 - 'Executive Summary'
+Feature: creating 'Phase 3: APIM Design & Setup (2-3 weeks, 44-60 hours)'
+  -> Feature id=784
+Feature: creating 'Phase 4: Backend Middleware & Header Propagation (2 weeks, 40-56 hours)'
+  -> Feature id=785
+Feature: creating 'Phase 5: Testing & Cutover (1 week, 40-56 hours)'
+  -> Feature id=786
+Feature: creating 'Master Timeline & Sequencing'
+  -> Feature id=787
+Feature: creating 'Critical Path & Risk Mitigation'
+  -> Feature id=788
+Feature: creating 'Definition of Done (Project-Level)'
+  -> Feature id=789
+Feature: existing id=700 - 'Acceptance Criteria'
+Feature: creating 'Owner & Team Composition'
+  -> Feature id=790
+Feature: creating 'Success Metrics (Post-Go-Live)'
+  -> Feature id=791
+Feature: creating 'Next Steps (Immediate)'
+  -> Feature id=792
+Feature: creating 'Reference Documents'
+  -> Feature id=793
+PBI: creating '[F17-01-001] Phase Completion Matrix'
+  -> PBI id=794
+PBI: creating '[F17-01-002] Critical Findings Impact'
+  -> PBI id=795
+PBI: creating '[F17-01-003] Current Blockers & Risks'
+  -> PBI id=796
+PBI: creating '[F17-01-004] Next Milestone: Phase 3A Kickoff'
+  -> PBI id=797
+PBI: creating '[F17-03-001] Phase 3A: Generate OpenAPI Specification'
+  -> PBI id=798
+PBI: creating '[F17-03-002] Phase 3B: Design APIM Policies'
+  -> PBI id=799
+PBI: creating '[F17-03-003] Phase 3C: Create Deployment & Cutover Plan'
+  -> PBI id=800
+PBI: creating '[F17-03-004] Phase 3 Summary Table'
+  -> PBI id=801
+PBI: creating '[F17-04-001] Phase 4A: Governance Logging Middleware'
+  -> PBI id=802
+PBI: creating '[F17-04-002] Phase 4B: Authorization Enforcement Middleware'
+  -> PBI id=803
+PBI: creating '[F17-04-003] Phase 4C: Cosmos DB Schema Extension'
+  -> PBI id=804
+PBI: creating '[F17-04-004] Phase 4D: Cost Attribution Queries (KQL/SQL)'
+  -> PBI id=805
+PBI: creating '[F17-04-005] Phase 4 Summary Table'
+  -> PBI id=806
+PBI: creating '[F17-05-001] Phase 5A: Integration Testing'
+  -> PBI id=807
+PBI: creating '[F17-05-002] Phase 5B: Performance Testing'
+  -> PBI id=808
+PBI: creating '[F17-05-003] Phase 5C: User Acceptance Testing (UAT)'
+  -> PBI id=809
+PBI: creating '[F17-05-004] Phase 5D: Go-Live Cutover & Monitoring'
+  -> PBI id=810
+PBI: creating '[F17-05-005] Phase 5 Summary Table'
+  -> PBI id=811
+
+=== Import Summary: 17-apim ===
+Epic id  : 782
+Features : 13
+PBIs     : 18
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F17-01-001 794 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-01-002 795 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-01-003 796 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-01-004 797 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-03-001 798 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-03-002 799 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-03-003 800 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-03-004 801 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-04-001 802 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-04-002 803 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-04-003 804 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-04-004 805 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-04-005 806 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-05-001 807 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-05-002 808 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-05-003 809 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-05-004 810 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F17-05-005 811 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

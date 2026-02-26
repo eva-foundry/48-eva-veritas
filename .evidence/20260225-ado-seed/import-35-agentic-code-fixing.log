@@ -1,0 +1,106 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0903-ado-import-artifacts-live.log
+
+=== ADO Import: 35-agentic-code-fixing ===
+Project maturity : poc
+GitHub repo      : eva-foundry/35-agentic-code-fixing
+Dry run          : False
+
+Epic: creating '35-agentic-code-fixing'
+  -> Epic id=2232
+Feature: existing id=207 - 'Overview'
+Feature: creating 'Why This Matters'
+  -> Feature id=2233
+Feature: existing id=392 - 'Technology Stack'
+Feature: existing id=886 - 'Architecture'
+Feature: creating 'The 4-Phase Workflow'
+  -> Feature id=2234
+Feature: creating 'Security Considerations'
+  -> Feature id=2235
+Feature: existing id=208 - 'Project Structure'
+Feature: existing id=885 - 'Quick Start'
+Feature: creating 'Configuration'
+  -> Feature id=2236
+Feature: creating 'Demo Repository'
+  -> Feature id=2237
+Feature: creating 'Web Dashboard Features'
+  -> Feature id=2238
+Feature: creating 'Real-World Extensions'
+  -> Feature id=2239
+Feature: creating 'Key Takeaways'
+  -> Feature id=2240
+Feature: creating 'Resources'
+  -> Feature id=2241
+Feature: existing id=656 - 'Next Steps'
+Feature: existing id=2001 - 'STATUS API'
+Feature: creating 'PREFLIGHT API'
+  -> Feature id=2242
+Feature: creating 'RUN API'
+  -> Feature id=2243
+Feature: existing id=463 - 'Operations Scripts'
+PBI: creating '[F35-01-001] Key Features'
+  -> PBI id=2244
+PBI: creating '[F35-03-001] GitHub Copilot SDK'
+  -> PBI id=2245
+PBI: creating '[F35-03-002] Azure Foundry Local'
+  -> PBI id=2246
+PBI: creating '[F35-03-003] BYOK Integration'
+  -> PBI id=2247
+PBI: creating '[F35-05-001] Phase 1: PLAN ??'
+  -> PBI id=2248
+PBI: creating '[F35-05-002] Phase 2: EDIT ??'
+  -> PBI id=2249
+PBI: creating '[F35-05-003] Phase 3: VERIFY ?'
+  -> PBI id=2250
+PBI: creating '[F35-05-004] Phase 4: SUMMARY ??'
+  -> PBI id=2251
+PBI: creating '[F35-08-001] Prerequisites'
+  -> PBI id=2252
+PBI: creating '[F35-08-002] One-Command Setup'
+  -> PBI id=2253
+PBI: creating '[F35-08-003] Run the Agent'
+  -> PBI id=2254
+PBI: creating '[F35-09-001] Using Different Models'
+  -> PBI id=2255
+PBI: creating '[F35-STATUS-001] GET /api/status'
+  -> PBI id=2256
+PBI: creating '[F35-PREFLIGHT-001] GET /api/preflight'
+  -> PBI id=2257
+PBI: creating '[F35-RUN-001] POST /api/run'
+  -> PBI id=2258
+PBI: creating '[F35-OPS-001] header()'
+  -> PBI id=2259
+PBI: creating '[F35-OPS-002] ok()'
+  -> PBI id=2260
+PBI: creating '[F35-OPS-003] fail()'
+  -> PBI id=2261
+
+=== Import Summary: 35-agentic-code-fixing ===
+Epic id  : 2232
+Features : 19
+PBIs     : 18
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag              [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---              [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F35-01-001        2244 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-03-001        2245 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-03-002        2246 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-03-003        2247 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-05-001        2248 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-05-002        2249 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-05-003        2250 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-05-004        2251 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-08-001        2252 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-08-002        2253 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-08-003        2254 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-09-001        2255 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-STATUS-001    2256 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-PREFLIGHT-001 2257 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-RUN-001       2258 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-OPS-001       2259 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-OPS-002       2260 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F35-OPS-003       2261 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+

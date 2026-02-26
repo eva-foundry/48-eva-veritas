@@ -1,0 +1,26 @@
+EVA-STORY: EO-06-001
+EVA-STORY: EO-06-002
+EVA-FEATURE: EO-06
+
+EVIDENCE: EO-06 Reporting
+Phase 1 -- COMPLETE 2026-02-24 09:32 ET
+Test run: 2026-02-24 13:02 ET (self-audit)
+
+EO-06-001 -- Human-readable console report
+  Artifacts: src/report.js
+  [PASS] node src/cli.js report --repo .
+  [PASS] Sections rendered: Coverage / Gaps / Implemented / Trust (MTI)
+  [PASS] [FAIL] prefix on gap lines
+  [PASS] [IMPL] prefix on implemented story lines with artifact count
+  [PASS] MTI trend delta shown (no change / +N / -N)
+  [PASS] [STALE] flag when trust.json is > 24h old
+
+EO-06-002 -- Evidence-ready .eva/ folder output
+  Artifacts: src/report.js, src/lib/fs-utils.js
+  [PASS] .eva/ folder created on first run
+  [PASS] .eva/discovery.json: full planned+actual model
+  [PASS] .eva/reconciliation.json: gaps, coverage, consistency
+  [PASS] .eva/trust.json: MTI score + components + actions
+  [PASS] .eva/trust.prev.json: previous score for trend delta
+  [PASS] .eva/ado.csv: Azure DevOps import CSV
+  [PASS] All files are machine-readable JSON/CSV

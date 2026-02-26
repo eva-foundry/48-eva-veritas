@@ -1,0 +1,159 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\22-rg-sandbox
+[INFO] Prefix: F22
+[PASS] Written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\veritas-plan.json
+       13 features, 29 stories, 21 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F22-01        0      0  Purpose
+  F22-02        1      0  Frozen Scope (January 29, 2026)
+  F22-03        1      0  Architecture Summary
+  F22-04        3      7  Prerequisites (Before Deployment)
+  F22-05        2      0  Reference Architecture (Dev2 ??? Sandbox Mapping)
+  F22-06        5      0  Key Decisions & Justifications
+  F22-07        4     14  Success Criteria
+  F22-08        2      0  Constraints
+  F22-09        5      0  Deployment Timeline
+  F22-10        3      0  Next Steps
+  F22-11        0      0  Documentation
+  F22-12        3      0  Project Housekeeping
+  F22-13        0      0  Contact & Escalation
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F22-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\22-rg-sandbox
+[INFO] Using veritas-plan.json (format: free-form, 29 stories, 21 tasks)
+[INFO] Planned: 13 features, 29 stories
+[INFO] Actual: 63 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\reconciliation.json
+[INFO] Gaps: 29
+[PASS] trust written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Project 22: EsDAICoE-Sandbox Deployment
+=======================================
+Repo:    C:\AICOE\eva-foundation\22-rg-sandbox
+Planned: 13 features, 29 stories
+
+Coverage
+---------------------------------------
+Stories total:          29
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F22-02-001 -- Architecture Decision: **Public Endpoints + Reuse Strategy**
+[FAIL] missing_implementation :: F22-03-001 -- Resources to Deploy (12 total)
+[FAIL] missing_implementation :: F22-04-001 -- 1. Permissions Required
+[FAIL] missing_implementation :: F22-04-002 -- 2. Infrastructure Team Confirmation
+[FAIL] missing_implementation :: F22-04-003 -- 3. Pre-Deployment Inventory (Phase 1.1)
+[FAIL] missing_implementation :: F22-05-001 -- Dev2 (Source - 81 resources, validated 2026-02-03)
+[FAIL] missing_implementation :: F22-05-002 -- Sandbox (Target - 12 resources)
+[FAIL] missing_implementation :: F22-06-001 -- Decision 1: Public Endpoints
+[FAIL] missing_implementation :: F22-06-002 -- Decision 2: Reuse Azure OpenAI
+[FAIL] missing_implementation :: F22-06-003 -- Decision 3: Basic Search Tier
+[FAIL] missing_implementation :: F22-06-004 -- Decision 4: Serverless Cosmos DB
+[FAIL] missing_implementation :: F22-06-005 -- Decision 5: B1 Web Apps
+[FAIL] missing_implementation :: F22-07-001 -- Functional Requirements
+[FAIL] missing_implementation :: F22-07-002 -- Performance Requirements
+[FAIL] missing_implementation :: F22-07-003 -- Cost Requirements
+[FAIL] missing_implementation :: F22-07-004 -- Operational Requirements
+[FAIL] missing_implementation :: F22-08-001 -- Hard Constraints (Cannot Change)
+[FAIL] missing_implementation :: F22-08-002 -- Soft Constraints (Can Negotiate)
+[FAIL] missing_implementation :: F22-09-001 -- Phase 1: Pre-Deployment (Feb 3-4) ??? COMPLETE
+[FAIL] missing_implementation :: F22-09-002 -- Phase 2: Infrastructure Team Actions (Feb 5-7)
+[FAIL] missing_implementation :: F22-09-003 -- Phase 3: Deployment (Feb 10-12)
+[FAIL] missing_implementation :: F22-09-004 -- Phase 4: Validation (Feb 12-13)
+[FAIL] missing_implementation :: F22-09-005 -- Phase 5: Cost Monitoring (Feb 14+)
+[FAIL] missing_implementation :: F22-10-001 -- Immediate Actions (Today - Feb 3)
+[FAIL] missing_implementation :: F22-10-002 -- Waiting On
+[FAIL] missing_implementation :: F22-10-003 -- Blockers
+[FAIL] missing_implementation :: F22-12-001 -- Archived Content
+[FAIL] missing_implementation :: F22-12-002 -- Active Documentation
+[FAIL] missing_implementation :: F22-12-003 -- Housekeeping Policy
+
+Feature Breakdown
+---------------------------------------
+[  0] F22-06     Key Decisions & Justifications  0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F22-09     Deployment Timeline             0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F22-07     Success Criteria                0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F22-04     Prerequisites (Before Deployme  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F22-10     Next Steps                      0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F22-12     Project Housekeeping            0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F22-05     Reference Architecture (Dev2 ???  0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F22-08     Constraints                     0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F22-02     Frozen Scope (January 29, 2026  0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F22-03     Architecture Summary            0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F22-01     Purpose                         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F22-11     Documentation                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F22-13     Contact & Escalation            0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 29 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 41 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 53 more stories with # EVA-STORY
+
+[ACT] 29 unimplemented stories by feature (highest priority first):
+      F22-06 Key Decisions & Justifications (5 gaps)
+        - F22-06-001 -- Decision 1: Public Endpoints
+        - F22-06-002 -- Decision 2: Reuse Azure OpenAI
+        - F22-06-003 -- Decision 3: Basic Search Tier
+        - F22-06-004 -- Decision 4: Serverless Cosmos DB
+        - F22-06-005 -- Decision 5: B1 Web Apps
+      F22-09 Deployment Timeline (5 gaps)
+        - F22-09-001 -- Phase 1: Pre-Deployment (Feb 3-4) ??? COMPLETE
+        - F22-09-002 -- Phase 2: Infrastructure Team Actions (Feb 5-7)
+        - F22-09-003 -- Phase 3: Deployment (Feb 10-12)
+        - F22-09-004 -- Phase 4: Validation (Feb 12-13)
+        - F22-09-005 -- Phase 5: Cost Monitoring (Feb 14+)
+      F22-07 Success Criteria (4 gaps)
+        - F22-07-001 -- Functional Requirements
+        - F22-07-002 -- Performance Requirements
+        - F22-07-003 -- Cost Requirements
+        - F22-07-004 -- Operational Requirements
+      F22-04 Prerequisites (Before Deployment) (3 gaps)
+        - F22-04-001 -- 1. Permissions Required
+        - F22-04-002 -- 2. Infrastructure Team Confirmation
+        - F22-04-003 -- 3. Pre-Deployment Inventory (Phase 1.1)
+      F22-10 Next Steps (3 gaps)
+        - F22-10-001 -- Immediate Actions (Today - Feb 3)
+        - F22-10-002 -- Waiting On
+        - F22-10-003 -- Blockers
+      F22-12 Project Housekeeping (3 gaps)
+        - F22-12-001 -- Archived Content
+        - F22-12-002 -- Active Documentation
+        - F22-12-003 -- Housekeeping Policy
+      F22-05 Reference Architecture (Dev2 ??? Sandbox Mapping) (2 gaps)
+        - F22-05-001 -- Dev2 (Source - 81 resources, validated 2026-02-03)
+        - F22-05-002 -- Sandbox (Target - 12 resources)
+      F22-08 Constraints (2 gaps)
+        - F22-08-001 -- Hard Constraints (Cannot Change)
+        - F22-08-002 -- Soft Constraints (Can Negotiate)
+      F22-02 Frozen Scope (January 29, 2026) (1 gap)
+        - F22-02-001 -- Architecture Decision: **Public Endpoints + Reuse Strategy**
+      F22-03 Architecture Summary (1 gap)
+        - F22-03-001 -- Resources to Deploy (12 total)
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

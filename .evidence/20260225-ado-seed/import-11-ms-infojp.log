@@ -1,0 +1,659 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0853-ado-import-artifacts-live.log
+
+=== ADO Import: 11-ms-infojp ===
+Project maturity : active
+GitHub repo      : eva-foundry/11-ms-infojp
+Dry run          : False
+
+Epic: creating '11-ms-infojp'
+  -> Epic id=421
+Feature: creating 'PROCESS_TD_A API [ID=F11-PROCESS_TD_A]'
+  -> Feature id=422
+Feature: creating 'PROCESS_AGEN API [ID=F11-PROCESS_AGEN]'
+  -> Feature id=423
+Feature: creating '?? Quick Start with GitHub Codespaces (5 Minutes)'
+  -> Feature id=424
+Feature: creating 'MVP Goal'
+  -> Feature id=425
+Feature: creating 'Scope'
+  -> Feature id=426
+Feature: creating 'Architecture Overview'
+  -> Feature id=427
+Feature: creating 'Data Ingestion & CanLII CDC Approach'
+  -> Feature id=428
+Feature: creating 'UX Principles and Improvements'
+  -> Feature id=429
+Feature: creating 'Success Criteria (Testable)'
+  -> Feature id=430
+Feature: existing id=208 - 'Project Structure'
+Feature: creating 'Developer Quickstart'
+  -> Feature id=431
+Feature: creating 'Post-Deployment: Cherry-Picking from EVA-JP-v1.2'
+  -> Feature id=432
+Feature: creating 'Delivery Phases'
+  -> Feature id=433
+Feature: creating 'Risks and Mitigations'
+  -> Feature id=434
+Feature: existing id=354 - 'References'
+Feature: creating 'Contact and Support'
+  -> Feature id=435
+Feature: existing id=216 - 'License'
+Feature: creating 'API API'
+  -> Feature id=436
+Feature: creating 'HEALTH API'
+  -> Feature id=437
+Feature: creating 'CHAT API'
+  -> Feature id=438
+Feature: creating 'GETALLUPLOAD API'
+  -> Feature id=439
+Feature: creating 'GETFOLDERS API'
+  -> Feature id=440
+Feature: creating 'DELETEITEMS API'
+  -> Feature id=441
+Feature: creating 'RESUBMITITEM API'
+  -> Feature id=442
+Feature: creating 'GETTAGS API'
+  -> Feature id=443
+Feature: creating 'LOGSTATUS API'
+  -> Feature id=444
+Feature: creating 'GETINFODATA API'
+  -> Feature id=445
+Feature: creating 'GETWARNINGBA API'
+  -> Feature id=446
+Feature: creating 'GETMAXCSVFIL API'
+  -> Feature id=447
+Feature: creating 'GETCITATION API'
+  -> Feature id=448
+Feature: creating 'GETAPPLICATI API'
+  -> Feature id=449
+Feature: creating 'GETALLTAGS API'
+  -> Feature id=450
+Feature: creating 'GETTEMPIMAGE API'
+  -> Feature id=451
+Feature: creating 'GETHINT API'
+  -> Feature id=452
+Feature: creating 'POSTTD API'
+  -> Feature id=453
+Feature: creating 'GETTDANALYSI API'
+  -> Feature id=454
+Feature: creating 'REFRESH API'
+  -> Feature id=455
+Feature: creating 'STREAM API'
+  -> Feature id=456
+Feature: creating 'TDSTREAM API'
+  -> Feature id=457
+Feature: creating 'GETFEATUREFL API'
+  -> Feature id=458
+Feature: creating 'FILE API'
+  -> Feature id=459
+Feature: creating 'GETFILE API'
+  -> Feature id=460
+Feature: creating 'MODELS API'
+  -> Feature id=461
+Feature: creating 'Infrastructure Resources'
+  -> Feature id=462
+Feature: creating 'Operations Scripts'
+  -> Feature id=463
+Feature: creating 'PROCESS_TD_A API'
+  -> Feature id=464
+Feature: creating 'PROCESS_AGEN API'
+  -> Feature id=465
+PBI: creating '[F11-01-001] GET /process_td_agent_response [ID=F11-PROCESS_TD_A-001]'
+  -> PBI id=466
+PBI: creating '[F11-02-001] GET /process_agent_response [ID=F11-PROCESS_AGEN-001]'
+  -> PBI id=467
+PBI: creating '[F11-03-001] 1. Create Codespace'
+  -> PBI id=468
+PBI: creating '[F11-03-002] 2. Run Deployment'
+  -> PBI id=469
+PBI: creating '[F11-03-003] 3. Start Development Servers'
+  -> PBI id=470
+PBI: creating '[F11-04-001] Advanced Features Roadmap'
+  -> PBI id=471
+PBI: creating '[F11-05-001] In-Scope for MVP'
+  -> PBI id=472
+PBI: creating '[F11-05-002] Out-of-Scope for MVP'
+  -> PBI id=473
+PBI: creating '[F11-06-001] Logical Architecture (ABRG-aligned)'
+  -> PBI id=474
+PBI: creating '[F11-06-002] Key Components'
+  -> PBI id=475
+PBI: creating '[F11-07-001] Change Data Capture (CDC) Strategy'
+  -> PBI id=476
+PBI: creating '[F11-07-002] CDC Core Principles'
+  -> PBI id=477
+PBI: creating '[F11-07-003] Deterministic Re-runs'
+  -> PBI id=478
+PBI: creating '[F11-08-001] Current State (Baseline)'
+  -> PBI id=479
+PBI: creating '[F11-08-002] MVP UX Enhancements'
+  -> PBI id=480
+PBI: creating '[F11-08-003] Design Philosophy'
+  -> PBI id=481
+PBI: creating '[F11-09-001] Functional Criteria'
+  -> PBI id=482
+PBI: creating '[F11-09-002] UX Criteria'
+  -> PBI id=483
+PBI: creating '[F11-09-003] Non-Functional Criteria'
+  -> PBI id=484
+PBI: creating '[F11-10-001] Why Fresh Clone Instead of EVA-JP-v1.2?'
+  -> PBI id=485
+PBI: creating '[F11-11-001] Prerequisites Status'
+  -> PBI id=486
+PBI: creating '[F11-11-002] Quickstart: GitHub Codespaces (Recommended)'
+  -> PBI id=487
+PBI: creating '[F11-11-003] Alternative: Local Development Setup'
+  -> PBI id=488
+PBI: creating '[F11-11-004] Key Configuration Files'
+  -> PBI id=489
+PBI: creating '[F11-12-001] 1. RAG Approach Enhancements'
+  -> PBI id=490
+PBI: creating '[F11-12-002] 2. Jurisprudence-Specific Prompts'
+  -> PBI id=491
+PBI: creating '[F11-12-003] 3. Testing with ESDC Enhancements'
+  -> PBI id=492
+PBI: creating '[F11-13-001] Phase 0: Baseline Setup (Week 1)'
+  -> PBI id=493
+PBI: creating '[F11-13-002] Phase 1: JP Ingestion Pipeline (Weeks 2-3)'
+  -> PBI id=494
+PBI: creating '[F11-13-003] Phase 2: RAG with Citations (Weeks 4-5)'
+  -> PBI id=495
+PBI: creating '[F11-13-004] Phase 3: UX Polish and Prompt Tuning (Week 6)'
+  -> PBI id=496
+PBI: creating '[F11-13-005] Phase 4: Hardening and Handoff (Week 7)'
+  -> PBI id=497
+PBI: creating '[F11-14-001] Risk 1: CanLII API Limitations'
+  -> PBI id=498
+PBI: creating '[F11-14-002] Risk 2: Citation Accuracy'
+  -> PBI id=499
+PBI: creating '[F11-14-003] Risk 3: Response Time Exceeds 30 Seconds'
+  -> PBI id=500
+PBI: creating '[F11-14-004] Risk 4: Insufficient Azure OpenAI Quota'
+  -> PBI id=501
+PBI: creating '[F11-14-005] Risk 5: Security / Authentication Issues'
+  -> PBI id=502
+PBI: creating '[F11-14-006] Risk 6: Data Quality Issues'
+  -> PBI id=503
+PBI: creating '[F11-14-007] Risk 7: Scope Creep'
+  -> PBI id=504
+PBI: creating '[F11-API-001] GET /'
+  -> PBI id=505
+PBI: creating '[F11-API-002] GET /'
+  -> PBI id=506
+PBI: creating '[F11-HEALTH-001] GET /health'
+  -> PBI id=507
+PBI: creating '[F11-HEALTH-002] GET /health'
+  -> PBI id=508
+PBI: creating '[F11-CHAT-001] POST /chat'
+  -> PBI id=509
+PBI: creating '[F11-GETALLUPLOAD-001] POST /getalluploadstatus'
+  -> PBI id=510
+PBI: creating '[F11-GETFOLDERS-001] POST /getfolders'
+  -> PBI id=511
+PBI: creating '[F11-DELETEITEMS-001] POST /deleteItems'
+  -> PBI id=512
+PBI: creating '[F11-RESUBMITITEM-001] POST /resubmitItems'
+  -> PBI id=513
+PBI: creating '[F11-GETTAGS-001] POST /gettags'
+  -> PBI id=514
+PBI: creating '[F11-LOGSTATUS-001] POST /logstatus'
+  -> PBI id=515
+PBI: creating '[F11-GETINFODATA-001] GET /getInfoData'
+  -> PBI id=516
+PBI: creating '[F11-GETWARNINGBA-001] GET /getWarningBanner'
+  -> PBI id=517
+PBI: creating '[F11-GETMAXCSVFIL-001] GET /getMaxCSVFileSize'
+  -> PBI id=518
+PBI: creating '[F11-GETCITATION-001] POST /getcitation'
+  -> PBI id=519
+PBI: creating '[F11-GETAPPLICATI-001] GET /getApplicationTitle'
+  -> PBI id=520
+PBI: creating '[F11-GETALLTAGS-001] GET /getalltags'
+  -> PBI id=521
+PBI: creating '[F11-GETTEMPIMAGE-001] GET /getTempImages'
+  -> PBI id=522
+PBI: creating '[F11-GETHINT-001] GET /getHint'
+  -> PBI id=523
+PBI: creating '[F11-POSTTD-001] POST /posttd'
+  -> PBI id=524
+PBI: creating '[F11-GETTDANALYSI-001] GET /getTdAnalysis'
+  -> PBI id=525
+PBI: creating '[F11-REFRESH-001] POST /refresh'
+  -> PBI id=526
+PBI: creating '[F11-STREAM-001] GET /stream'
+  -> PBI id=527
+PBI: creating '[F11-TDSTREAM-001] GET /tdstream'
+  -> PBI id=528
+PBI: creating '[F11-GETFEATUREFL-001] GET /getFeatureFlags'
+  -> PBI id=529
+PBI: creating '[F11-FILE-001] POST /file'
+  -> PBI id=530
+PBI: creating '[F11-GETFILE-001] POST /get-file'
+  -> PBI id=531
+PBI: creating '[F11-MODELS-001] GET /models'
+  -> PBI id=532
+PBI: creating '[F11-MODELS-002] GET /models/{model}'
+  -> PBI id=533
+PBI: creating '[F11-MODELS-003] POST /models/{model}/embed'
+  -> PBI id=534
+PBI: creating '[F11-INFRA-001] azurerm_resource_group "rg"'
+  -> PBI id=535
+PBI: creating '[F11-INFRA-002] azurerm_cosmosdb_sql_role_assignment "user_cosmosdb_data_contributor"'
+  -> PBI id=536
+PBI: creating '[F11-INFRA-003] azurerm_cosmosdb_sql_role_assignment "webApp_cosmosdb_data_contributor"'
+  -> PBI id=537
+PBI: creating '[F11-INFRA-004] azurerm_cosmosdb_sql_role_assignment "functionApp_cosmosdb_data_contributor"'
+  -> PBI id=538
+PBI: creating '[F11-INFRA-005] azurerm_cosmosdb_sql_role_assignment "enrichmentApp_cosmosdb_data_contributor"'
+  -> PBI id=539
+PBI: creating '[F11-INFRA-006] azurerm_resource_group_template_deployment "customer_attribution"'
+  -> PBI id=540
+PBI: creating '[F11-INFRA-007] azurerm_container_registry "acr"'
+  -> PBI id=541
+PBI: creating '[F11-INFRA-008] azurerm_private_endpoint "ContainerRegistryPrivateEndpoint"'
+  -> PBI id=542
+PBI: creating '[F11-INFRA-009] azurerm_cosmosdb_account "cosmosdb_account"'
+  -> PBI id=543
+PBI: creating '[F11-INFRA-010] azurerm_cosmosdb_sql_database "log_database"'
+  -> PBI id=544
+PBI: creating '[F11-INFRA-011] azurerm_cosmosdb_sql_container "log_container"'
+  -> PBI id=545
+PBI: creating '[F11-INFRA-012] azurerm_private_endpoint "cosmosPrivateEndpoint"'
+  -> PBI id=546
+PBI: creating '[F11-INFRA-013] azurerm_search_service "search"'
+  -> PBI id=547
+PBI: creating '[F11-INFRA-014] azurerm_private_endpoint "searchPrivateEndpoint"'
+  -> PBI id=548
+PBI: creating '[F11-INFRA-015] azurerm_resource_group_template_deployment "sharepoint_logicapp"'
+  -> PBI id=549
+PBI: creating '[F11-INFRA-016] azurerm_storage_account "storage"'
+  -> PBI id=550
+PBI: creating '[F11-INFRA-017] azurerm_monitor_diagnostic_setting "diagnostic_logs"'
+  -> PBI id=551
+PBI: creating '[F11-INFRA-018] azurerm_monitor_diagnostic_setting "blob_diagnostic_logs"'
+  -> PBI id=552
+PBI: creating '[F11-INFRA-019] azurerm_monitor_diagnostic_setting "file_diagnostic_logs"'
+  -> PBI id=553
+PBI: creating '[F11-INFRA-020] azurerm_monitor_diagnostic_setting "queue_diagnostic_logs"'
+  -> PBI id=554
+PBI: creating '[F11-INFRA-021] azurerm_monitor_diagnostic_setting "table_diagnostic_logs"'
+  -> PBI id=555
+PBI: creating '[F11-INFRA-022] azurerm_resource_group_template_deployment "container"'
+  -> PBI id=556
+PBI: creating '[F11-INFRA-023] azurerm_resource_group_template_deployment "queue"'
+  -> PBI id=557
+PBI: creating '[F11-INFRA-024] azurerm_private_endpoint "blobPrivateEndpoint"'
+  -> PBI id=558
+PBI: creating '[F11-INFRA-025] azurerm_private_endpoint "filePrivateEndpoint"'
+  -> PBI id=559
+PBI: creating '[F11-INFRA-026] azurerm_private_endpoint "tablePrivateEndpoint"'
+  -> PBI id=560
+PBI: creating '[F11-INFRA-027] azurerm_private_endpoint "queuePrivateEndpoint"'
+  -> PBI id=561
+PBI: creating '[F11-INFRA-028] azurerm_storage_blob "config"'
+  -> PBI id=562
+PBI: creating '[F11-INFRA-029] azurerm_resource_group_template_deployment "bing_search"'
+  -> PBI id=563
+PBI: creating '[F11-INFRA-030] azurerm_cognitive_account "cognitiveService"'
+  -> PBI id=564
+PBI: creating '[F11-INFRA-031] azurerm_private_endpoint "accountPrivateEndpoint"'
+  -> PBI id=565
+PBI: creating '[F11-INFRA-032] azurerm_cognitive_account "docIntelligenceAccount"'
+  -> PBI id=566
+PBI: creating '[F11-INFRA-033] azurerm_private_endpoint "docintPrivateEndpoint"'
+  -> PBI id=567
+PBI: creating '[F11-INFRA-034] azurerm_cognitive_account "openaiAccount"'
+  -> PBI id=568
+PBI: creating '[F11-INFRA-035] azurerm_cognitive_deployment "deployment"'
+  -> PBI id=569
+PBI: creating '[F11-INFRA-036] azurerm_monitor_diagnostic_setting "diagnostic_logs"'
+  -> PBI id=570
+PBI: creating '[F11-INFRA-037] azurerm_private_endpoint "openaiPrivateEndpoint"'
+  -> PBI id=571
+PBI: creating '[F11-INFRA-038] azurerm_service_plan "appServicePlan"'
+  -> PBI id=572
+PBI: creating '[F11-INFRA-039] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=573
+PBI: creating '[F11-INFRA-040] azurerm_linux_web_app "enrichmentapp"'
+  -> PBI id=574
+PBI: creating '[F11-INFRA-041] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=575
+PBI: creating '[F11-INFRA-042] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=576
+PBI: creating '[F11-INFRA-043] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=577
+PBI: creating '[F11-INFRA-044] azurerm_private_endpoint "privateEnrichmentEndpoint"'
+  -> PBI id=578
+PBI: creating '[F11-INFRA-045] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=579
+PBI: creating '[F11-INFRA-046] azurerm_service_plan "funcServicePlan"'
+  -> PBI id=580
+PBI: creating '[F11-INFRA-047] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=581
+PBI: creating '[F11-INFRA-048] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=582
+PBI: creating '[F11-INFRA-049] azurerm_linux_function_app "function_app"'
+  -> PBI id=583
+PBI: creating '[F11-INFRA-050] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=584
+PBI: creating '[F11-INFRA-051] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=585
+PBI: creating '[F11-INFRA-052] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=586
+PBI: creating '[F11-INFRA-053] azurerm_private_endpoint "privateFunctionEndpoint"'
+  -> PBI id=587
+PBI: creating '[F11-INFRA-054] azurerm_service_plan "appServicePlan"'
+  -> PBI id=588
+PBI: creating '[F11-INFRA-055] azurerm_monitor_autoscale_setting "scaleout"'
+  -> PBI id=589
+PBI: creating '[F11-INFRA-056] azurerm_role_assignment "acr_pull_role"'
+  -> PBI id=590
+PBI: creating '[F11-INFRA-057] azurerm_linux_web_app "app_service"'
+  -> PBI id=591
+PBI: creating '[F11-INFRA-058] azurerm_monitor_diagnostic_setting "diagnostic_logs_commercial"'
+  -> PBI id=592
+PBI: creating '[F11-INFRA-059] azurerm_monitor_diagnostic_setting "diagnostic_logs_usgov"'
+  -> PBI id=593
+PBI: creating '[F11-INFRA-060] azurerm_key_vault_access_policy "policy"'
+  -> PBI id=594
+PBI: creating '[F11-INFRA-061] azurerm_private_endpoint "backendPrivateEndpoint"'
+  -> PBI id=595
+PBI: creating '[F11-INFRA-062] azurerm_log_analytics_workspace "logAnalytics"'
+  -> PBI id=596
+PBI: creating '[F11-INFRA-063] azurerm_application_insights "applicationInsights"'
+  -> PBI id=597
+PBI: creating '[F11-INFRA-064] azurerm_monitor_diagnostic_setting "nsg_diagnostic_logs"'
+  -> PBI id=598
+PBI: creating '[F11-INFRA-065] azurerm_monitor_private_link_scope "ampls"'
+  -> PBI id=599
+PBI: creating '[F11-INFRA-066] azurerm_monitor_private_link_scoped_service "ampl-ss_log_analytics"'
+  -> PBI id=600
+PBI: creating '[F11-INFRA-067] azurerm_monitor_private_link_scoped_service "ampl_ss_app_insights"'
+  -> PBI id=601
+PBI: creating '[F11-INFRA-068] azurerm_private_endpoint "ampls"'
+  -> PBI id=602
+PBI: creating '[F11-INFRA-069] azurerm_private_dns_zone "monitor"'
+  -> PBI id=603
+PBI: creating '[F11-INFRA-070] azurerm_private_dns_a_record "monitor_api"'
+  -> PBI id=604
+PBI: creating '[F11-INFRA-071] azurerm_private_dns_a_record "monitor_global"'
+  -> PBI id=605
+PBI: creating '[F11-INFRA-072] azurerm_private_dns_a_record "monitor_profiler"'
+  -> PBI id=606
+PBI: creating '[F11-INFRA-073] azurerm_private_dns_a_record "monitor_live"'
+  -> PBI id=607
+PBI: creating '[F11-INFRA-074] azurerm_private_dns_a_record "monitor_snapshot"'
+  -> PBI id=608
+PBI: creating '[F11-INFRA-075] azurerm_private_dns_zone_virtual_network_link "monitor-net"'
+  -> PBI id=609
+PBI: creating '[F11-INFRA-076] azurerm_private_dns_zone "oms"'
+  -> PBI id=610
+PBI: creating '[F11-INFRA-077] azurerm_private_dns_a_record "oms_law_id"'
+  -> PBI id=611
+PBI: creating '[F11-INFRA-078] azurerm_private_dns_zone_virtual_network_link "oms-net"'
+  -> PBI id=612
+PBI: creating '[F11-INFRA-079] azurerm_private_dns_zone "ods"'
+  -> PBI id=613
+PBI: creating '[F11-INFRA-080] azurerm_private_dns_a_record "ods_law_id"'
+  -> PBI id=614
+PBI: creating '[F11-INFRA-081] azurerm_private_dns_zone_virtual_network_link "ods-net"'
+  -> PBI id=615
+PBI: creating '[F11-INFRA-082] azurerm_private_dns_zone "agentsvc"'
+  -> PBI id=616
+PBI: creating '[F11-INFRA-083] azurerm_private_dns_a_record "agentsvc_law_id"'
+  -> PBI id=617
+PBI: creating '[F11-INFRA-084] azurerm_private_dns_zone_virtual_network_link "agentsvc-net"'
+  -> PBI id=618
+PBI: creating '[F11-INFRA-085] azurerm_private_dns_a_record "blob_scadvisorcontentpld"'
+  -> PBI id=619
+PBI: creating '[F11-INFRA-086] azurerm_application_insights_workbook "example"'
+  -> PBI id=620
+PBI: creating '[F11-INFRA-087] azurerm_network_security_group "nsg"'
+  -> PBI id=621
+PBI: creating '[F11-INFRA-088] azurerm_network_ddos_protection_plan "ddos"'
+  -> PBI id=622
+PBI: creating '[F11-INFRA-089] azurerm_resource_group_template_deployment "vnet_w_subnets"'
+  -> PBI id=623
+PBI: creating '[F11-INFRA-090] azurerm_private_dns_resolver "private_dns_resolver"'
+  -> PBI id=624
+PBI: creating '[F11-INFRA-091] azurerm_private_dns_resolver_inbound_endpoint "private_dns_resolver"'
+  -> PBI id=625
+PBI: creating '[F11-INFRA-092] azurerm_private_dns_zone "pr_dns_zone"'
+  -> PBI id=626
+PBI: creating '[F11-INFRA-093] azurerm_private_dns_zone_virtual_network_link "pr_dns_vnet_link"'
+  -> PBI id=627
+PBI: creating '[F11-INFRA-094] azurerm_key_vault "kv"'
+  -> PBI id=628
+PBI: creating '[F11-INFRA-095] azurerm_key_vault_access_policy "infoasst"'
+  -> PBI id=629
+PBI: creating '[F11-INFRA-096] azurerm_private_endpoint "kv_private_endpoint"'
+  -> PBI id=630
+PBI: creating '[F11-INFRA-097] azurerm_resource_group_template_deployment "kv_secret"'
+  -> PBI id=631
+PBI: creating '[F11-INFRA-098] azurerm_role_assignment "role"'
+  -> PBI id=632
+PBI: creating '[F11-OPS-001] command_exists()'
+  -> PBI id=633
+PBI: creating '[F11-OPS-002] install_azure_cli()'
+  -> PBI id=634
+PBI: creating '[F11-OPS-003] write_array_block()'
+  -> PBI id=635
+PBI: creating '[F11-OPS-004] printInfo()'
+  -> PBI id=636
+PBI: creating '[F11-OPS-005] set_yellow_text()'
+  -> PBI id=637
+PBI: creating '[F11-OPS-006] reset_text_color()'
+  -> PBI id=638
+PBI: creating '[F11-OPS-007] escape_string()'
+  -> PBI id=639
+PBI: creating '[F11-OPS-008] import_resource_if_needed()'
+  -> PBI id=640
+PBI: creating '[F11-OPS-009] get_secret()'
+  -> PBI id=641
+PBI: creating '[F11-OPS-010] set_yellow_text()'
+  -> PBI id=642
+PBI: creating '[F11-OPS-011] reset_text_color()'
+  -> PBI id=643
+PBI: creating '[F11-OPS-012] show_usage()'
+  -> PBI id=644
+PBI: creating '[F11-OPS-013] printInfo()'
+  -> PBI id=645
+PBI: creating '[F11-PROCESS_TD_A-001] GET /process_td_agent_response'
+  -> PBI id=646
+PBI: creating '[F11-PROCESS_AGEN-001] GET /process_agent_response'
+  -> PBI id=647
+
+=== Import Summary: 11-ms-infojp ===
+Epic id  : 421
+Features : 47
+PBIs     : 182
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag                 [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---                 [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F11-01-001           466 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-02-001           467 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-03-001           468 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-03-002           469 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-03-003           470 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-04-001           471 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-05-001           472 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-05-002           473 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-06-001           474 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-06-002           475 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-07-001           476 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-07-002           477 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-07-003           478 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-08-001           479 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-08-002           480 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-08-003           481 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-09-001           482 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-09-002           483 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-09-003           484 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-10-001           485 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-11-001           486 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-11-002           487 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-11-003           488 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-11-004           489 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-12-001           490 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-12-002           491 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-12-003           492 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-13-001           493 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-13-002           494 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-13-003           495 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-13-004           496 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-13-005           497 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-14-001           498 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-14-002           499 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-14-003           500 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-14-004           501 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-14-005           502 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-14-006           503 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-14-007           504 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-API-001          505 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-API-002          506 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-HEALTH-001       507 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-HEALTH-002       508 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-CHAT-001         509 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETALLUPLOAD-001 510 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETFOLDERS-001   511 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-DELETEITEMS-001  512 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-RESUBMITITEM-001 513 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETTAGS-001      514 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-LOGSTATUS-001    515 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETINFODATA-001  516 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETWARNINGBA-001 517 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETMAXCSVFIL-001 518 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETCITATION-001  519 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETAPPLICATI-001 520 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETALLTAGS-001   521 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETTEMPIMAGE-001 522 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETHINT-001      523 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-POSTTD-001       524 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETTDANALYSI-001 525 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-REFRESH-001      526 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-STREAM-001       527 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-TDSTREAM-001     528 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETFEATUREFL-001 529 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-FILE-001         530 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-GETFILE-001      531 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-MODELS-001       532 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-MODELS-002       533 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-MODELS-003       534 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-001        535 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-002        536 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-003        537 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-004        538 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-005        539 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-006        540 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-007        541 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-008        542 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-009        543 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-010        544 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-011        545 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-012        546 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-013        547 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-014        548 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-015        549 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-016        550 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-017        551 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-018        552 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-019        553 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-020        554 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-021        555 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-022        556 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-023        557 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-024        558 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-025        559 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-026        560 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-027        561 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-028        562 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-029        563 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-030        564 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-031        565 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-032        566 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-033        567 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-034        568 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-035        569 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-036        570 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-037        571 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-038        572 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-039        573 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-040        574 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-041        575 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-042        576 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-043        577 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-044        578 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-045        579 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-046        580 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-047        581 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-048        582 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-049        583 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-050        584 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-051        585 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-052        586 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-053        587 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-054        588 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-055        589 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-056        590 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-057        591 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-058        592 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-059        593 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-060        594 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-061        595 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-062        596 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-063        597 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-064        598 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-065        599 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-066        600 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-067        601 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-068        602 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-069        603 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-070        604 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-071        605 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-072        606 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-073        607 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-074        608 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-075        609 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-076        610 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-077        611 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-078        612 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-079        613 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-080        614 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-081        615 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-082        616 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-083        617 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-084        618 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-085        619 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-086        620 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-087        621 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-088        622 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-089        623 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-090        624 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-091        625 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-092        626 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-093        627 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-094        628 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-095        629 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-096        630 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-097        631 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-INFRA-098        632 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-001          633 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-002          634 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-003          635 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-004          636 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-005          637 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-006          638 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-007          639 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-008          640 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-009          641 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-010          642 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-011          643 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-012          644 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-OPS-013          645 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-PROCESS_TD_A-001 646 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+F11-PROCESS_AGEN-001 647 New   https://dev.azure.com/marcopresta/eva-poc/_work.
+

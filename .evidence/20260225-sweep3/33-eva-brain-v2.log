@@ -1,0 +1,410 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\33-eva-brain-v2
+[INFO] Prefix: F33
+[INFO] Enrichment applied: code-structure (87 stories)
+[PASS] Written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\veritas-plan.json
+       39 features, 24 stories, 0 tasks (0 story orphans)
+       Sources: docs/20260220-plan.md
+       Format detected: free-form
+
+  +ID               Stories  Tasks  Title
+  ????????????????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F33-01                  0      0  Context
+  F33-02                  0      0  Part 1 ??? OQ Resolutions (Applied This Session)
+  F33-03                  5      0  Part 2 ??? Sprint 5 Scope (This Session)
+  F33-04                  0      0  Part 3 ??? New FeatureIDs
+  F33-05                  0      0  Part 4 ??? Test Files to Create
+  F33-06                 19      0  Part 6 ??? Edit Execution Checklist
+  F33-07                  0      0  Summary
+  F33-TEST               12      0  TEST API
+  F33-CHAT               10      0  CHAT API
+  F33-USERS               1      0  USERS API
+  F33-GROUPS              1      0  GROUPS API
+  F33-APP_ID              5      0  APP_ID API
+  F33-MATH                3      0  MATH API
+  F33-TABULAR             4      0  TABULAR API
+  F33-INFO                1      0  INFO API
+  F33-FEATURES            2      0  FEATURES API
+  F33-TRANSLATIONS        1      0  TRANSLATIONS API
+  F33-DOCUMENTS           8      0  DOCUMENTS API
+  F33-HEALTH              2      0  HEALTH API
+  F33-UPLOAD              1      0  UPLOAD API
+  F33-JOBS                3      0  JOBS API
+  F33-REPROCESS           1      0  REPROCESS API
+  F33-STATS               1      0  STATS API
+  F33-AUDIT               4      0  AUDIT API
+  F33-CONTENT             4      0  CONTENT API
+  F33-RETRIEVE            1      0  RETRIEVE API
+  F33-DASHBOARD           1      0  DASHBOARD API
+  F33-SUMMARY             1      0  SUMMARY API
+  F33-SAVED               3      0  SAVED API
+  F33-HISTORY             1      0  HISTORY API
+  F33-ANALYTICS           1      0  ANALYTICS API
+  F33-SESSION_ID          3      0  SESSION_ID API
+  F33-KEY                 1      0  KEY API
+  F33-TAGS                3      0  TAGS API
+  F33-LANG                4      0  LANG API
+  F33-BACKGROUND          1      0  BACKGROUND API
+  F33-ACTINGAS            1      0  ACTINGAS API
+  F33-PERSONAS            1      0  PERSONAS API
+  F33-PERSONA_ID          1      0  PERSONA_ID API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F33-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\33-eva-brain-v2
+[INFO] Using veritas-plan.json (format: free-form, 111 stories, 0 tasks)
+[INFO] Planned: 39 features, 111 stories
+[INFO] Actual: 321 artifacts, 28 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\reconciliation.json
+[INFO] Gaps: 91
+[PASS] trust written: C:\AICOE\eva-foundation\33-eva-brain-v2\.eva\trust.json (score: 45)
+
+=======================================
+EVA Veritas Report: EVA Brain v2
+=======================================
+Repo:    C:\AICOE\eva-foundation\33-eva-brain-v2
+Planned: 39 features, 111 stories
+
+Coverage
+---------------------------------------
+Stories total:          111
+Stories with artifacts: 24
+Stories with evidence:  24
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F33-TEST-001 -- GET /test/validation
+[FAIL] missing_implementation :: F33-TEST-002 -- GET /test/rbac
+[FAIL] missing_implementation :: F33-TEST-003 -- GET /test/not-found
+[FAIL] missing_implementation :: F33-TEST-004 -- GET /test/rate-limit
+[FAIL] missing_implementation :: F33-TEST-005 -- GET /test/upstream
+[FAIL] missing_implementation :: F33-TEST-006 -- GET /test/generic
+[FAIL] missing_implementation :: F33-TEST-007 -- GET /test/validation
+[FAIL] missing_implementation :: F33-TEST-008 -- GET /test/auth
+[FAIL] missing_implementation :: F33-TEST-009 -- GET /test/persona-not-found
+[FAIL] missing_implementation :: F33-TEST-010 -- GET /test/session-not-found
+[FAIL] missing_implementation :: F33-TEST-011 -- GET /test/cost-override
+[FAIL] missing_implementation :: F33-TEST-012 -- GET /test/generic
+[FAIL] missing_implementation :: F33-CHAT-001 -- POST /v1/chat
+[FAIL] missing_implementation :: F33-CHAT-002 -- POST /v1/chat
+[FAIL] missing_implementation :: F33-CHAT-003 -- GET /v1/chat/approaches
+[FAIL] missing_implementation :: F33-CHAT-004 -- POST /v1/chat
+[FAIL] missing_implementation :: F33-CHAT-005 -- POST /v1/chat/rrr
+[FAIL] missing_implementation :: F33-CHAT-006 -- POST /v1/chat/rtr
+[FAIL] missing_implementation :: F33-CHAT-007 -- POST /v1/chat/work
+[FAIL] missing_implementation :: F33-CHAT-008 -- POST /v1/chat/hybrid
+[FAIL] missing_implementation :: F33-CHAT-009 -- POST /v1/chat/ungrounded
+[FAIL] missing_implementation :: F33-CHAT-010 -- POST /v1/chat/read-retrieve-read
+[FAIL] missing_implementation :: F33-USERS-001 -- POST /users
+[FAIL] missing_implementation :: F33-GROUPS-001 -- GET /groups
+[FAIL] missing_implementation :: F33-APP_ID-001 -- GET /{app_id}
+[FAIL] missing_implementation :: F33-APP_ID-002 -- PATCH /{app_id}
+[FAIL] missing_implementation :: F33-APP_ID-003 -- DELETE /{app_id}
+[FAIL] missing_implementation :: F33-APP_ID-004 -- GET /{app_id}/config
+[FAIL] missing_implementation :: F33-APP_ID-005 -- PATCH /{app_id}/config
+[FAIL] missing_implementation :: F33-MATH-001 -- POST /math/evaluate
+[FAIL] missing_implementation :: F33-MATH-002 -- POST /math/solve
+[FAIL] missing_implementation :: F33-MATH-003 -- POST /math/plot
+[FAIL] missing_implementation :: F33-TABULAR-001 -- POST /tabular/parse
+[FAIL] missing_implementation :: F33-TABULAR-002 -- POST /tabular/query
+[FAIL] missing_implementation :: F33-TABULAR-003 -- POST /tabular/summarize
+[FAIL] missing_implementation :: F33-TABULAR-004 -- POST /tabular/export
+[FAIL] missing_implementation :: F33-INFO-001 -- GET /info
+[FAIL] missing_implementation :: F33-FEATURES-001 -- GET /features
+[FAIL] missing_implementation :: F33-FEATURES-002 -- GET /features
+[FAIL] missing_implementation :: F33-TRANSLATIONS-001 -- GET /translations/{language}
+[FAIL] missing_implementation :: F33-DOCUMENTS-001 -- GET /v1/documents
+[FAIL] missing_implementation :: F33-DOCUMENTS-002 -- GET /v1/documents/{doc_id}
+[FAIL] missing_implementation :: F33-DOCUMENTS-003 -- GET /v1/documents/{doc_id}/content
+[FAIL] missing_implementation :: F33-DOCUMENTS-004 -- GET /v1/documents/{doc_id}/chunks
+[FAIL] missing_implementation :: F33-DOCUMENTS-005 -- PATCH /v1/documents/{doc_id}
+[FAIL] missing_implementation :: F33-DOCUMENTS-006 -- DELETE /v1/documents/{doc_id}
+[FAIL] missing_implementation :: F33-DOCUMENTS-007 -- DELETE /v1/documents/{doc_id}/chunks
+[FAIL] missing_implementation :: F33-DOCUMENTS-008 -- POST /v1/documents/{doc_id}/reindex
+[FAIL] missing_implementation :: F33-HEALTH-001 -- GET /v1/health
+[FAIL] missing_implementation :: F33-HEALTH-002 -- GET /v1/health/background
+[FAIL] missing_implementation :: F33-UPLOAD-001 -- POST /upload
+[FAIL] missing_implementation :: F33-JOBS-001 -- GET /jobs/{job_id}
+[FAIL] missing_implementation :: F33-JOBS-002 -- GET /jobs
+[FAIL] missing_implementation :: F33-JOBS-003 -- DELETE /jobs/{job_id}
+[FAIL] missing_implementation :: F33-REPROCESS-001 -- POST /reprocess/{job_id}
+[FAIL] missing_implementation :: F33-STATS-001 -- GET /stats
+[FAIL] missing_implementation :: F33-AUDIT-001 -- GET /audit
+[FAIL] missing_implementation :: F33-AUDIT-002 -- GET /audit/stats
+[FAIL] missing_implementation :: F33-AUDIT-003 -- GET /audit/export
+[FAIL] missing_implementation :: F33-AUDIT-004 -- GET /audit/{audit_id}
+[FAIL] missing_implementation :: F33-CONTENT-001 -- GET /content
+[FAIL] missing_implementation :: F33-CONTENT-002 -- GET /content/stats
+[FAIL] missing_implementation :: F33-CONTENT-003 -- GET /content/export
+[FAIL] missing_implementation :: F33-CONTENT-004 -- GET /content/{log_id}
+[FAIL] missing_implementation :: F33-RETRIEVE-001 -- POST /v1/retrieve
+[FAIL] missing_implementation :: F33-DASHBOARD-001 -- GET /dashboard
+[FAIL] missing_implementation :: F33-SUMMARY-001 -- GET /summary
+[FAIL] missing_implementation :: F33-SAVED-001 -- POST /saved
+[FAIL] missing_implementation :: F33-SAVED-002 -- GET /saved
+[FAIL] missing_implementation :: F33-SAVED-003 -- DELETE /saved/{search_id}
+[FAIL] missing_implementation :: F33-HISTORY-001 -- GET /history
+[FAIL] missing_implementation :: F33-ANALYTICS-001 -- GET /analytics
+[FAIL] missing_implementation :: F33-SESSION_ID-001 -- GET /{session_id}
+[FAIL] missing_implementation :: F33-SESSION_ID-002 -- PATCH /{session_id}
+[FAIL] missing_implementation :: F33-SESSION_ID-003 -- DELETE /{session_id}
+[FAIL] missing_implementation :: F33-KEY-001 -- PATCH /{key}
+[FAIL] missing_implementation :: F33-TAGS-001 -- GET /tags
+[FAIL] missing_implementation :: F33-TAGS-002 -- GET /tags/{tag_name}/documents
+[FAIL] missing_implementation :: F33-TAGS-003 -- GET /tags/suggestions
+[FAIL] missing_implementation :: F33-LANG-001 -- GET /{lang}
+[FAIL] missing_implementation :: F33-LANG-002 -- PUT /{lang}
+[FAIL] missing_implementation :: F33-LANG-003 -- PATCH /{lang}
+[FAIL] missing_implementation :: F33-LANG-004 -- DELETE /{lang}
+[FAIL] missing_implementation :: F33-BACKGROUND-001 -- GET /background
+[FAIL] missing_implementation :: F33-ACTINGAS-001 -- POST /acting-as
+[FAIL] missing_implementation :: F33-PERSONAS-001 -- GET /personas
+[FAIL] missing_implementation :: F33-PERSONA_ID-001 -- GET /{persona_id}
+[FAIL] orphan_story_tag :: DTL-08-001
+[FAIL] orphan_story_tag :: DTL-08-002
+[FAIL] orphan_story_tag :: DTL-08-003
+[FAIL] orphan_story_tag :: DTL-08-004
+
+Feature Breakdown
+---------------------------------------
+[  0] F33-TEST   TEST API                        0/12 artifacts  0/12 evidence  12 gaps  [NOT STARTED]
+[  0] F33-CHAT   CHAT API                        0/10 artifacts  0/10 evidence  10 gaps  [NOT STARTED]
+[  0] F33-DOCUMENTS DOCUMENTS API                   0/8 artifacts  0/8 evidence  8 gaps  [NOT STARTED]
+[  0] F33-APP_ID APP_ID API                      0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F33-AUDIT  AUDIT API                       0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F33-CONTENT CONTENT API                     0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F33-LANG   LANG API                        0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F33-TABULAR TABULAR API                     0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F33-JOBS   JOBS API                        0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F33-MATH   MATH API                        0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F33-SAVED  SAVED API                       0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F33-SESSION_ID SESSION_ID API                  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F33-TAGS   TAGS API                        0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F33-FEATURES FEATURES API                    0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F33-HEALTH HEALTH API                      0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F33-ACTINGAS ACTINGAS API                    0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-ANALYTICS ANALYTICS API                   0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-BACKGROUND BACKGROUND API                  0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-DASHBOARD DASHBOARD API                   0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-GROUPS GROUPS API                      0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-HISTORY HISTORY API                     0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-INFO   INFO API                        0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-KEY    KEY API                         0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-PERSONA_ID PERSONA_ID API                  0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-PERSONAS PERSONAS API                    0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-REPROCESS REPROCESS API                   0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-RETRIEVE RETRIEVE API                    0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-STATS  STATS API                       0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-SUMMARY SUMMARY API                     0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-TRANSLATIONS TRANSLATIONS API                0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-UPLOAD UPLOAD API                      0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-USERS  USERS API                       0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F33-01     Context                         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F33-02     Part 1 ??? OQ Resolutions (Appli  0/0 artifacts  0/0 evidence  0 gaps
+[100] F33-03     Part 2 ??? Sprint 5 Scope (This   5/5 artifacts  5/5 evidence  0 gaps
+[  0] F33-04     Part 3 ??? New FeatureIDs         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F33-05     Part 4 ??? Test Files to Create   0/0 artifacts  0/0 evidence  0 gaps
+[100] F33-06     Part 6 ??? Edit Execution Checkl  19/19 artifacts  19/19 evidence  0 gaps
+[  0] F33-07     Summary                         0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F33-03-001 -- G1: Translations CRUD (HIGH ??? unblocks eva-faces TranslationsPage) (1 artifact)
+[EVIDENCE] F33-03-002 -- G2: Settings API (MEDIUM ??? unblocks eva-faces SettingsPage) (1 artifact)
+[EVIDENCE] F33-03-003 -- Assistants (7 endpoints) (1 artifact)
+[EVIDENCE] F33-03-004 -- Logs (8 endpoints) (1 artifact)
+[EVIDENCE] F33-03-005 -- main.py (1 artifact)
+[EVIDENCE] F33-06-001 -- **T1** ??? `docs/20260220-plan.md` created (this file) (1 artifact)
+[EVIDENCE] F33-06-002 -- **T2** ??? `docs/MANIFEST-20260220-WI5.md` created (1 artifact)
+[EVIDENCE] F33-06-003 -- **T3** ??? `app/services/translation_store_service.py` created (1 artifact)
+[EVIDENCE] F33-06-004 -- **T4** ??? `app/routes/translations.py` created (1 artifact)
+[EVIDENCE] F33-06-005 -- **T5** ??? `app/services/settings_service.py` created (1 artifact)
+[EVIDENCE] F33-06-006 -- **T6** ??? `app/routes/settings.py` created (1 artifact)
+[EVIDENCE] F33-06-007 -- **T7** ??? `app/services/math_assistant.py` created (1 artifact)
+[EVIDENCE] F33-06-008 -- **T8** ??? `app/services/tabular_assistant.py` created (1 artifact)
+[EVIDENCE] F33-06-009 -- **T9** ??? `app/routes/assistants.py` created (1 artifact)
+[EVIDENCE] F33-06-010 -- **T10** ??? `app/services/audit_log_service.py` created (1 artifact)
+[EVIDENCE] F33-06-011 -- **T11** ??? `app/services/content_log_service.py` created (1 artifact)
+[EVIDENCE] F33-06-012 -- **T12** ??? `app/routes/logs.py` created (1 artifact)
+[EVIDENCE] F33-06-013 -- **T13** ??? `app/main.py` updated (4 new try/except router mounts) (1 artifact)
+[EVIDENCE] F33-06-014 -- **T14** ??? `tests/test_translations.py` created (1 artifact)
+[EVIDENCE] F33-06-015 -- **T15** ??? `tests/test_settings.py` created (1 artifact)
+[EVIDENCE] F33-06-016 -- **T16** ??? `tests/test_assistants.py` created (1 artifact)
+[EVIDENCE] F33-06-017 -- **T17** ??? `tests/test_logs.py` created (1 artifact)
+[EVIDENCE] F33-06-018 -- **T18** ??? `pytest tests/` exits 0 (554/554 pass, 72% coverage) (1 artifact)
+[EVIDENCE] F33-06-019 -- **T19** ??? Documentator run: STATUS.md, PLAN.md, SESSION-STATE.md updated (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   45 (-55)
+Trend:   0 -> 100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 45
+Actions: block, investigate
+Components: coverage=0.22 evidence=0.22 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 11 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 56 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 100 more stories with # EVA-STORY
+
+[ACT] 87 unimplemented stories by feature (highest priority first):
+      F33-TEST TEST API (12 gaps)
+        - F33-TEST-001 -- GET /test/validation
+        - F33-TEST-002 -- GET /test/rbac
+        - F33-TEST-003 -- GET /test/not-found
+        - F33-TEST-004 -- GET /test/rate-limit
+        - F33-TEST-005 -- GET /test/upstream
+        - F33-TEST-006 -- GET /test/generic
+        - F33-TEST-007 -- GET /test/validation
+        - F33-TEST-008 -- GET /test/auth
+        - F33-TEST-009 -- GET /test/persona-not-found
+        - F33-TEST-010 -- GET /test/session-not-found
+        - F33-TEST-011 -- GET /test/cost-override
+        - F33-TEST-012 -- GET /test/generic
+      F33-CHAT CHAT API (10 gaps)
+        - F33-CHAT-001 -- POST /v1/chat
+        - F33-CHAT-002 -- POST /v1/chat
+        - F33-CHAT-003 -- GET /v1/chat/approaches
+        - F33-CHAT-004 -- POST /v1/chat
+        - F33-CHAT-005 -- POST /v1/chat/rrr
+        - F33-CHAT-006 -- POST /v1/chat/rtr
+        - F33-CHAT-007 -- POST /v1/chat/work
+        - F33-CHAT-008 -- POST /v1/chat/hybrid
+        - F33-CHAT-009 -- POST /v1/chat/ungrounded
+        - F33-CHAT-010 -- POST /v1/chat/read-retrieve-read
+      F33-DOCUMENTS DOCUMENTS API (8 gaps)
+        - F33-DOCUMENTS-001 -- GET /v1/documents
+        - F33-DOCUMENTS-002 -- GET /v1/documents/{doc_id}
+        - F33-DOCUMENTS-003 -- GET /v1/documents/{doc_id}/content
+        - F33-DOCUMENTS-004 -- GET /v1/documents/{doc_id}/chunks
+        - F33-DOCUMENTS-005 -- PATCH /v1/documents/{doc_id}
+        - F33-DOCUMENTS-006 -- DELETE /v1/documents/{doc_id}
+        - F33-DOCUMENTS-007 -- DELETE /v1/documents/{doc_id}/chunks
+        - F33-DOCUMENTS-008 -- POST /v1/documents/{doc_id}/reindex
+      F33-APP_ID APP_ID API (5 gaps)
+        - F33-APP_ID-001 -- GET /{app_id}
+        - F33-APP_ID-002 -- PATCH /{app_id}
+        - F33-APP_ID-003 -- DELETE /{app_id}
+        - F33-APP_ID-004 -- GET /{app_id}/config
+        - F33-APP_ID-005 -- PATCH /{app_id}/config
+      F33-TABULAR TABULAR API (4 gaps)
+        - F33-TABULAR-001 -- POST /tabular/parse
+        - F33-TABULAR-002 -- POST /tabular/query
+        - F33-TABULAR-003 -- POST /tabular/summarize
+        - F33-TABULAR-004 -- POST /tabular/export
+      F33-AUDIT AUDIT API (4 gaps)
+        - F33-AUDIT-001 -- GET /audit
+        - F33-AUDIT-002 -- GET /audit/stats
+        - F33-AUDIT-003 -- GET /audit/export
+        - F33-AUDIT-004 -- GET /audit/{audit_id}
+      F33-CONTENT CONTENT API (4 gaps)
+        - F33-CONTENT-001 -- GET /content
+        - F33-CONTENT-002 -- GET /content/stats
+        - F33-CONTENT-003 -- GET /content/export
+        - F33-CONTENT-004 -- GET /content/{log_id}
+      F33-LANG LANG API (4 gaps)
+        - F33-LANG-001 -- GET /{lang}
+        - F33-LANG-002 -- PUT /{lang}
+        - F33-LANG-003 -- PATCH /{lang}
+        - F33-LANG-004 -- DELETE /{lang}
+      F33-MATH MATH API (3 gaps)
+        - F33-MATH-001 -- POST /math/evaluate
+        - F33-MATH-002 -- POST /math/solve
+        - F33-MATH-003 -- POST /math/plot
+      F33-JOBS JOBS API (3 gaps)
+        - F33-JOBS-001 -- GET /jobs/{job_id}
+        - F33-JOBS-002 -- GET /jobs
+        - F33-JOBS-003 -- DELETE /jobs/{job_id}
+      F33-SAVED SAVED API (3 gaps)
+        - F33-SAVED-001 -- POST /saved
+        - F33-SAVED-002 -- GET /saved
+        - F33-SAVED-003 -- DELETE /saved/{search_id}
+      F33-SESSION_ID SESSION_ID API (3 gaps)
+        - F33-SESSION_ID-001 -- GET /{session_id}
+        - F33-SESSION_ID-002 -- PATCH /{session_id}
+        - F33-SESSION_ID-003 -- DELETE /{session_id}
+      F33-TAGS TAGS API (3 gaps)
+        - F33-TAGS-001 -- GET /tags
+        - F33-TAGS-002 -- GET /tags/{tag_name}/documents
+        - F33-TAGS-003 -- GET /tags/suggestions
+      F33-FEATURES FEATURES API (2 gaps)
+        - F33-FEATURES-001 -- GET /features
+        - F33-FEATURES-002 -- GET /features
+      F33-HEALTH HEALTH API (2 gaps)
+        - F33-HEALTH-001 -- GET /v1/health
+        - F33-HEALTH-002 -- GET /v1/health/background
+      F33-USERS USERS API (1 gap)
+        - F33-USERS-001 -- POST /users
+      F33-GROUPS GROUPS API (1 gap)
+        - F33-GROUPS-001 -- GET /groups
+      F33-INFO INFO API (1 gap)
+        - F33-INFO-001 -- GET /info
+      F33-TRANSLATIONS TRANSLATIONS API (1 gap)
+        - F33-TRANSLATIONS-001 -- GET /translations/{language}
+      F33-UPLOAD UPLOAD API (1 gap)
+        - F33-UPLOAD-001 -- POST /upload
+      F33-REPROCESS REPROCESS API (1 gap)
+        - F33-REPROCESS-001 -- POST /reprocess/{job_id}
+      F33-STATS STATS API (1 gap)
+        - F33-STATS-001 -- GET /stats
+      F33-RETRIEVE RETRIEVE API (1 gap)
+        - F33-RETRIEVE-001 -- POST /v1/retrieve
+      F33-DASHBOARD DASHBOARD API (1 gap)
+        - F33-DASHBOARD-001 -- GET /dashboard
+      F33-SUMMARY SUMMARY API (1 gap)
+        - F33-SUMMARY-001 -- GET /summary
+      F33-HISTORY HISTORY API (1 gap)
+        - F33-HISTORY-001 -- GET /history
+      F33-ANALYTICS ANALYTICS API (1 gap)
+        - F33-ANALYTICS-001 -- GET /analytics
+      F33-KEY KEY API (1 gap)
+        - F33-KEY-001 -- PATCH /{key}
+      F33-BACKGROUND BACKGROUND API (1 gap)
+        - F33-BACKGROUND-001 -- GET /background
+      F33-ACTINGAS ACTINGAS API (1 gap)
+        - F33-ACTINGAS-001 -- POST /acting-as
+      F33-PERSONAS PERSONAS API (1 gap)
+        - F33-PERSONAS-001 -- GET /personas
+      F33-PERSONA_ID PERSONA_ID API (1 gap)
+        - F33-PERSONA_ID-001 -- GET /{persona_id}
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   72%  (200/279 declared entities verified)
+[ACT] 79 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [endpoint] GET /v1/config/features -- declared: implemented -- actual: not_found
+  ... and 71 more
+[ACT] Container 'jobs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+
+[WARN] MTI 45 is below threshold 70 (--warn-only set, continuing)

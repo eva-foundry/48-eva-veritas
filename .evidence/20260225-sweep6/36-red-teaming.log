@@ -1,0 +1,104 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\36-red-teaming
+[INFO] Prefix: F36
+[PASS] Written: C:\AICOE\eva-foundation\36-red-teaming\.eva\veritas-plan.json
+       17 features, 14 stories, 3 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F36-01        0      0  ?? Overview
+  F36-02        0      0  ?? Security & ATO Context
+  F36-03        0      0  ?? Purpose
+  F36-04        0      0  ?? Principles
+  F36-05        1      0  ??? Architecture
+  F36-06        0      0  ?? Project Structure
+  F36-07        4      0  ?? Quick Start
+  F36-08        3      3  ?? Test Suites
+  F36-09        0      0  ?? Deterministic Assertions
+  F36-10        2      0  ?? Evidence Pack (ATO-Ready)
+  F36-11        2      0  ?? CI/CD Integration
+  F36-12        0      0  ?? Standards Mapping
+  F36-13        0      0  ?? Non-Goals (MVP)
+  F36-14        0      0  ?? Definition of Done (MVP)
+  F36-15        2      0  ??? Roadmap
+  F36-16        0      0  ?? Ownership
+  F36-17        0      0  Summary
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F36-05-001
+[INFO] Discovering: C:\AICOE\eva-foundation\36-red-teaming
+[INFO] Using veritas-plan.json (format: veritas, 14 stories, 3 tasks)
+[INFO] Planned: 17 features, 14 stories
+[INFO] Actual: 34 artifacts, 14 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\36-red-teaming\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\36-red-teaming\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\36-red-teaming\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: ???? EVA Project 36: Red Teaming & Evaluation Framework
+=======================================
+Repo:    C:\AICOE\eva-foundation\36-red-teaming
+Planned: 17 features, 14 stories
+
+Coverage
+---------------------------------------
+Stories total:          14
+Stories with artifacts: 14
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F36-01     ?? Overview                     0/0 artifacts  0/0 evidence  0 gaps
+[  0] F36-02     ?? Security & ATO Context       0/0 artifacts  0/0 evidence  0 gaps
+[  0] F36-03     ?? Purpose                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F36-04     ?? Principles                   0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F36-05     ??? Architecture                1/1 artifacts  0/1 evidence  0 gaps
+[  0] F36-06     ?? Project Structure            0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F36-07     ?? Quick Start                  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F36-08     ?? Test Suites                  3/3 artifacts  0/3 evidence  0 gaps
+[  0] F36-09     ?? Deterministic Assertions     0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F36-10     ?? Evidence Pack (ATO-Ready)    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F36-11     ?? CI/CD Integration            2/2 artifacts  0/2 evidence  0 gaps
+[  0] F36-12     ?? Standards Mapping            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F36-13     ?? Non-Goals (MVP)              0/0 artifacts  0/0 evidence  0 gaps
+[  0] F36-14     ?? Definition of Done (MVP)     0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F36-15     ??? Roadmap                     2/2 artifacts  0/2 evidence  0 gaps
+[  0] F36-16     ?? Ownership                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F36-17     Summary                         0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F36-05-001 -- Evaluation Model (1 artifact)
+[IMPL] F36-07-001 -- Prerequisites (1 artifact)
+[IMPL] F36-07-002 -- Environment Variables (1 artifact)
+[IMPL] F36-07-003 -- Run Smoke Suite (1 artifact)
+[IMPL] F36-07-004 -- Run All Suites (1 artifact)
+[IMPL] F36-08-001 -- Smoke (PR Gate) (1 artifact)
+[IMPL] F36-08-002 -- Golden (Regression) (1 artifact)
+[IMPL] F36-08-003 -- ATLAS Adversarial Suites (1 artifact)
+[IMPL] F36-10-001 -- Directory Structure (1 artifact)
+[IMPL] F36-10-002 -- Example manifest.json (1 artifact)
+[IMPL] F36-11-001 -- PR Gate (1 artifact)
+[IMPL] F36-11-002 -- Nightly (1 artifact)
+[IMPL] F36-15-001 -- Phase 2 (1 artifact)
+[IMPL] F36-15-002 -- Phase 3 (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

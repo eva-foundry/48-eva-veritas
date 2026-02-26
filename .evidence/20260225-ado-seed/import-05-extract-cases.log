@@ -1,0 +1,63 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0852-ado-import-artifacts-live.log
+
+=== ADO Import: 05-extract-cases ===
+Project maturity : active
+GitHub repo      : eva-foundry/05-extract-cases
+Dry run          : False
+
+Epic: creating '05-extract-cases'
+  -> Epic id=281
+Feature: creating 'Purpose (Phase-1, authoritative)'
+  -> Feature id=282
+Feature: creating 'Non-goals (explicit)'
+  -> Feature id=283
+Feature: creating 'Authoritative Phase-1 data flow'
+  -> Feature id=284
+Feature: creating 'Canonical `metadata_storage_path` (critical)'
+  -> Feature id=285
+Feature: creating 'Why case-level (for future developers)'
+  -> Feature id=286
+Feature: creating 'Dry-run, validation, and deterministic failures'
+  -> Feature id=287
+Feature: creating 'Notes on repository contents'
+  -> Feature id=288
+Feature: creating 'Future evolution (out of scope for Project 05 Phase-1)'
+  -> Feature id=289
+PBI: creating '[F05-03-001] 1) Input'
+  -> PBI id=290
+PBI: creating '[F05-03-002] 2) Aggregation strategy'
+  -> PBI id=291
+PBI: creating '[F05-03-003] 3) Metadata enrichment (Plan-2)'
+  -> PBI id=292
+PBI: creating '[F05-03-004] 4) Export'
+  -> PBI id=293
+PBI: creating '[F05-03-005] 5) Ingestion'
+  [WARN] HTTP 503 - retrying in 2s...
+  -> PBI id=294
+PBI: creating '[F05-06-001] Standard usage (random selection):'
+  -> PBI id=295
+PBI: creating '[F05-06-002] CSV-driven selection (for accuracy testing):'
+  -> PBI id=296
+PBI: creating '[F05-06-003] Expected files in `--out`:'
+  -> PBI id=297
+
+=== Import Summary: 05-extract-cases ===
+Epic id  : 281
+Features : 8
+PBIs     : 8
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F05-03-001 290 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F05-03-002 291 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F05-03-003 292 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F05-03-004 293 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F05-03-005 294 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F05-06-001 295 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F05-06-002 296 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F05-06-003 297 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

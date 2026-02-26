@@ -1,0 +1,71 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\32-logging
+[INFO] Prefix: F32
+[PASS] Written: C:\AICOE\eva-foundation\32-logging\.eva\veritas-plan.json
+       3 features, 9 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F32-01        3      0  Log Schema Design
+  F32-02        3      0  Log Transport
+  F32-03        3      0  Log Query Library
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F32-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\32-logging
+[INFO] Using veritas-plan.json (format: veritas, 9 stories, 0 tasks)
+[INFO] Planned: 3 features, 9 stories
+[INFO] Actual: 4 artifacts, 9 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\32-logging\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\32-logging\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\32-logging\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 32-logging
+=======================================
+Repo:    C:\AICOE\eva-foundation\32-logging
+Planned: 3 features, 9 stories
+
+Coverage
+---------------------------------------
+Stories total:          9
+Stories with artifacts: 9
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F32-01     Log Schema Design               3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F32-02     Log Transport                   3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F32-03     Log Query Library               3/3 artifacts  0/3 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F32-01-001 -- Define EVA structured log schema (1 artifact)
+[IMPL] F32-01-002 -- Correlation ID propagation strategy (1 artifact)
+[IMPL] F32-01-003 -- Severity level taxonomy (1 artifact)
+[IMPL] F32-02-001 -- Application Insights integration (1 artifact)
+[IMPL] F32-02-002 -- Log Analytics workspace routing (1 artifact)
+[IMPL] F32-02-003 -- Local dev console handler (1 artifact)
+[IMPL] F32-03-001 -- KQL query templates for common patterns (1 artifact)
+[IMPL] F32-03-002 -- Alerting rules for error rate thresholds (1 artifact)
+[IMPL] F32-03-003 -- Dashboard for cross-service log correlation (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

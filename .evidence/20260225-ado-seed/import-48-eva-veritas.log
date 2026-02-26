@@ -1,0 +1,214 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0906-ado-import-artifacts-live.log
+
+=== ADO Import: 48-eva-veritas ===
+Project maturity : active
+GitHub repo      : eva-foundry/48-eva-veritas
+Dry run          : False
+
+Epic: creating '48-eva-veritas'
+  -> Epic id=2619
+Feature: creating 'Discovery Engine'
+  -> Feature id=2620
+Feature: creating 'Reconciliation Engine'
+  -> Feature id=2621
+Feature: creating 'Trust Scoring (MTI)'
+  -> Feature id=2622
+Feature: creating 'ADO Export'
+  -> Feature id=2623
+Feature: creating 'CLI Interface'
+  -> Feature id=2624
+Feature: creating 'Reporting'
+  -> Feature id=2625
+Feature: creating 'MCP Server'
+  -> Feature id=2626
+Feature: creating '37-data-model Integration'
+  -> Feature id=2627
+Feature: creating '38-ado-poc Integration'
+  -> Feature id=2628
+Feature: creating '29-foundry Hosting'
+  -> Feature id=2629
+Feature: creating 'generate-plan Command'
+  -> Feature id=2630
+Feature: creating 'Model Fidelity Audit'
+  -> Feature id=2631
+Feature: existing id=438 - 'CHAT API'
+Feature: existing id=1075 - 'USERS API'
+Feature: existing id=2451 - 'CONVERSATION API'
+Feature: creating 'OTHER API'
+  -> Feature id=2632
+Feature: creating 'PING API'
+  -> Feature id=2633
+Feature: creating 'PATH API'
+  -> Feature id=2634
+PBI: creating '[EO-01-001] Parse planned model from governance docs'
+  -> PBI id=2635
+PBI: creating '[EO-01-002] Scan repo for actual artifacts'
+  -> PBI id=2636
+PBI: creating '[EO-01-003] Map artifacts to stories via EVA-STORY tags'
+  -> PBI id=2637
+PBI: creating '[EO-01-004] Support .tsx and .jsx files as taggable code artifacts'
+  -> PBI id=2638
+PBI: creating '[EO-02-001] Compute coverage metrics'
+  -> PBI id=2639
+PBI: creating '[EO-02-002] Detect gaps'
+  -> PBI id=2640
+PBI: creating '[EO-02-003] Compute consistency score'
+  -> PBI id=2641
+PBI: creating '[EO-03-001] Implement MTI formula'
+  -> PBI id=2642
+PBI: creating '[EO-03-002] Map score to allowed actions'
+  -> PBI id=2643
+PBI: creating '[EO-04-001] Generate Epic/Feature/Story hierarchy CSV'
+  -> PBI id=2644
+PBI: creating '[EO-04-002] Annotate stories with gap tags'
+  -> PBI id=2645
+PBI: creating '[EO-05-001] Implement discover command'
+  -> PBI id=2646
+PBI: creating '[EO-05-002] Implement reconcile command'
+  -> PBI id=2647
+PBI: creating '[EO-05-003] Implement compute-trust command'
+  -> PBI id=2648
+PBI: creating '[EO-05-004] Implement generate-ado command'
+  -> PBI id=2649
+PBI: creating '[EO-05-005] Implement report command'
+  -> PBI id=2650
+PBI: creating '[EO-05-007] Implement audit command'
+  -> PBI id=2651
+PBI: creating '[EO-05-006] Implement scan-portfolio command'
+  -> PBI id=2652
+PBI: creating '[EO-05-008] Implement init command[IMPL]'
+  -> PBI id=2653
+PBI: creating '[EO-06-001] Human-readable console report'
+  -> PBI id=2654
+PBI: creating '[EO-06-002] Evidence-ready .eva/ folder output'
+  -> PBI id=2655
+PBI: creating '[EO-07-001] Implement MCP server entrypoint[IMPL]'
+  -> PBI id=2656
+PBI: creating '[EO-07-002] Implement audit_repo MCP tool[IMPL]'
+  -> PBI id=2657
+PBI: creating '[EO-07-003] Implement get_trust_score MCP tool[IMPL]'
+  -> PBI id=2658
+PBI: creating '[EO-07-004] Implement get_coverage MCP tool[IMPL]'
+  -> PBI id=2659
+PBI: creating '[EO-07-005] Implement generate_ado_items MCP tool[IMPL]'
+  -> PBI id=2660
+PBI: creating '[EO-07-006] Implement scan_portfolio MCP tool[IMPL]'
+  -> PBI id=2661
+PBI: creating '[EO-08-001] Add /model/admin/audit-repo endpoint to 37-data-model'
+  -> PBI id=2662
+PBI: creating '[EO-08-002] Document model integrity check pattern'
+  -> PBI id=2663
+PBI: creating '[EO-09-001] Add gap-to-PBI pipeline command'
+  -> PBI id=2664
+PBI: creating '[EO-09-002] Document 38-ado-poc integration pattern'
+  -> PBI id=2665
+PBI: creating '[EO-09-003] Import OpenAPI spec as plan source[IMPL]'
+  -> PBI id=2666
+PBI: creating '[EO-09-004] Parse ADO export CSV as plan source[IMPL]'
+  -> PBI id=2667
+PBI: creating '[EO-10-001] Add eva-veritas MCP server to 29-foundry mcp-servers/'
+  -> PBI id=2668
+PBI: creating '[EO-10-002] Add eva-veritas skill to 29-foundry copilot-skills/'
+  -> PBI id=2669
+PBI: creating '[EO-11-001] Implement infer-plan.js heuristic parser'
+  -> PBI id=2670
+PBI: creating '[EO-11-002] Implement generate-plan CLI command'
+  -> PBI id=2671
+PBI: creating '[EO-11-003] Update discover.js to prefer veritas-plan.json'
+  -> PBI id=2672
+PBI: creating '[EO-11-004] Document generate-plan in README.md'
+  -> PBI id=2673
+PBI: creating '[EO-12-001] Implement model-audit command[IMPL]'
+  -> PBI id=2674
+PBI: creating '[F48-CHAT-001] GET /v1/chat/history'
+  -> PBI id=2675
+PBI: creating '[F48-CHAT-002] POST /v1/chat/message'
+  -> PBI id=2676
+PBI: creating '[F48-CHAT-003] DELETE /v1/chat/{id}'
+  -> PBI id=2677
+PBI: creating '[F48-USERS-001] GET /users'
+  -> PBI id=2678
+PBI: creating '[F48-USERS-002] POST /users'
+  -> PBI id=2679
+PBI: creating '[F48-USERS-003] DELETE /users/:id'
+  -> PBI id=2680
+PBI: creating '[F48-CONVERSATION-001] GET /v1/conversations'
+  -> PBI id=2681
+PBI: creating '[F48-OTHER-001] GET /v1/other'
+  -> PBI id=2682
+PBI: creating '[F48-PING-001] GET /v1/ping'
+  -> PBI id=2683
+PBI: creating '[F48-PATH-001] GET /path'
+  -> PBI id=2684
+PBI: creating '[F48-PATH-002] POST /path'
+  -> PBI id=2685
+PBI: creating '[F48-PATH-003] GET /path'
+  -> PBI id=2686
+PBI: creating '[F48-PATH-004] GET /path'
+  -> PBI id=2687
+
+=== Import Summary: 48-eva-veritas ===
+Epic id  : 2619
+Features : 18
+PBIs     : 53
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag                 [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---                 [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+EO-01-001            2635 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-01-002            2636 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-01-003            2637 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-01-004            2638 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-02-001            2639 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-02-002            2640 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-02-003            2641 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-03-001            2642 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-03-002            2643 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-04-001            2644 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-04-002            2645 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-001            2646 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-002            2647 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-003            2648 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-004            2649 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-005            2650 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-007            2651 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-006            2652 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-05-008            2653 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-06-001            2654 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-06-002            2655 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-07-001            2656 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-07-002            2657 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-07-003            2658 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-07-004            2659 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-07-005            2660 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-07-006            2661 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-08-001            2662 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-08-002            2663 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-09-001            2664 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-09-002            2665 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-09-003            2666 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-09-004            2667 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-10-001            2668 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-10-002            2669 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-11-001            2670 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-11-002            2671 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-11-003            2672 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-11-004            2673 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+EO-12-001            2674 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-CHAT-001         2675 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-CHAT-002         2676 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-CHAT-003         2677 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-USERS-001        2678 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-USERS-002        2679 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-USERS-003        2680 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-CONVERSATION-001 2681 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-OTHER-001        2682 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-PING-001         2683 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-PATH-001         2684 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-PATH-002         2685 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-PATH-003         2686 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+F48-PATH-004         2687 New   https://dev.azure.com/marcopresta/eva-poc/_wor.
+

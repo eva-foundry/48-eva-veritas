@@ -1,0 +1,189 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0904-ado-import-artifacts-live.log
+
+=== ADO Import: 37-data-model ===
+Project maturity : active
+GitHub repo      : eva-foundry/37-data-model
+Dry run          : False
+
+Epic: creating '37-data-model'
+  -> Epic id=2291
+Feature: creating 'OBJ_IDPATH API [ID=F37-OBJ_IDPATH]'
+  -> Feature id=2292
+Feature: creating 'Layer Build Order'
+  -> Feature id=2293
+Feature: creating 'Sprint 1 ? Foundation Layers (L0?L2) ? DONE'
+  -> Feature id=2294
+Feature: creating 'Sprint 2 ? Data and API Layers (L3?L5) ? DONE'
+  -> Feature id=2295
+Feature: creating 'Sprint 3 ? UI Layers (L6?L7) ? DONE'
+  -> Feature id=2296
+Feature: creating 'Sprint 4 ? Agent Fleet + Infrastructure Layers (L8?L9) ? DONE'
+  -> Feature id=2297
+Feature: creating 'Sprint 5 ? Requirements Traceability Layer (L10) ? DONE'
+  -> Feature id=2298
+Feature: creating 'Ongoing ? How the Model Grows and Is Maintained'
+  -> Feature id=2299
+Feature: creating 'Dependencies'
+  -> Feature id=2300
+Feature: existing id=437 - 'HEALTH API'
+Feature: existing id=1006 - 'READY API'
+Feature: existing id=1056 - 'MODEL API'
+Feature: creating 'SEED API'
+  -> Feature id=2301
+Feature: existing id=1038 - 'EXPORT API'
+Feature: existing id=1005 - 'CACHE API'
+Feature: creating 'BACKFILL API'
+  -> Feature id=2302
+Feature: existing id=2106 - 'AUDIT API'
+Feature: creating 'VALIDATE API'
+  -> Feature id=2303
+Feature: creating 'COMMIT API'
+  -> Feature id=2304
+Feature: creating 'AUDITREPO API'
+  -> Feature id=2305
+Feature: existing id=436 - 'API API'
+Feature: creating 'FILTER API'
+  -> Feature id=2306
+Feature: creating 'EDGETYPES API'
+  -> Feature id=2307
+Feature: creating 'OBJ_IDPATH API'
+  -> Feature id=2308
+PBI: creating '[F37-01-001] GET /{obj_id:path} [ID=F37-OBJ_IDPATH-001]'
+  -> PBI id=2309
+PBI: creating '[F37-01-002] PUT /{obj_id:path} [ID=F37-OBJ_IDPATH-002]'
+  -> PBI id=2310
+PBI: creating '[F37-01-003] DELETE /{obj_id:path} [ID=F37-OBJ_IDPATH-003]'
+  -> PBI id=2311
+PBI: creating '[F37-03-001] Deliverables'
+  -> PBI id=2312
+PBI: creating '[F37-03-002] Acceptance'
+  -> PBI id=2313
+PBI: creating '[F37-04-001] Deliverables'
+  -> PBI id=2314
+PBI: creating '[F37-04-002] Acceptance'
+  -> PBI id=2315
+PBI: creating '[F37-05-001] Deliverables'
+  -> PBI id=2316
+PBI: creating '[F37-05-002] Acceptance'
+  -> PBI id=2317
+PBI: creating '[F37-06-001] Deliverables'
+  -> PBI id=2318
+PBI: creating '[F37-06-002] Acceptance'
+  -> PBI id=2319
+PBI: creating '[F37-07-001] Deliverables'
+  -> PBI id=2320
+PBI: creating '[F37-07-002] Acceptance'
+  -> PBI id=2321
+PBI: creating '[F37-08-001] Growth Path 1 ? Same-PR Rule (day-to-day)'
+  -> PBI id=2322
+PBI: creating '[F37-08-002] Growth Path 2 ? Sprint-Close Audit (every sprint)'
+  -> PBI id=2323
+PBI: creating '[F37-08-003] Growth Path 3 ? Ecosystem Expansion (new service or repository)'
+  -> PBI id=2324
+PBI: creating '[F37-08-004] Growth Path 4 ? New Model Layer (extending the schema)'
+  -> PBI id=2325
+PBI: creating '[F37-08-005] Validation Gate (all paths)'
+  -> PBI id=2326
+PBI: creating '[F37-08-006] Drift Signals ? How to Know the Model Is Stale'
+  -> PBI id=2327
+PBI: creating '[F37-08-007] Governance'
+  -> PBI id=2328
+PBI: creating '[F37-HEALTH-001] GET /health'
+  -> PBI id=2329
+PBI: creating '[F37-HEALTH-002] GET /v1/health'
+  -> PBI id=2330
+PBI: creating '[F37-HEALTH-003] GET /v1/health'
+  -> PBI id=2331
+PBI: creating '[F37-READY-001] GET /ready'
+  -> PBI id=2332
+PBI: creating '[F37-MODEL-001] GET /model/agent-summary'
+  -> PBI id=2333
+PBI: creating '[F37-MODEL-002] GET /model/agent-guide'
+  -> PBI id=2334
+PBI: creating '[F37-SEED-001] POST /seed'
+  -> PBI id=2335
+PBI: creating '[F37-EXPORT-001] POST /export'
+  -> PBI id=2336
+PBI: creating '[F37-CACHE-001] POST /cache/flush'
+  -> PBI id=2337
+PBI: creating '[F37-BACKFILL-001] POST /backfill'
+  -> PBI id=2338
+PBI: creating '[F37-AUDIT-001] GET /audit'
+  -> PBI id=2339
+PBI: creating '[F37-VALIDATE-001] GET /validate'
+  -> PBI id=2340
+PBI: creating '[F37-COMMIT-001] POST /commit'
+  -> PBI id=2341
+PBI: creating '[F37-AUDITREPO-001] POST /audit-repo'
+  -> PBI id=2342
+PBI: creating '[F37-API-001] GET /'
+  -> PBI id=2343
+PBI: creating '[F37-API-002] GET /'
+  -> PBI id=2344
+PBI: creating '[F37-API-003] GET /'
+  -> PBI id=2345
+PBI: creating '[F37-FILTER-001] GET /filter'
+  -> PBI id=2346
+PBI: creating '[F37-EDGETYPES-001] GET /edge-types'
+  -> PBI id=2347
+PBI: creating '[F37-OBJ_IDPATH-001] GET /{obj_id:path}'
+  -> PBI id=2348
+PBI: creating '[F37-OBJ_IDPATH-002] PUT /{obj_id:path}'
+  -> PBI id=2349
+PBI: creating '[F37-OBJ_IDPATH-003] DELETE /{obj_id:path}'
+  -> PBI id=2350
+
+=== Import Summary: 37-data-model ===
+Epic id  : 2291
+Features : 24
+PBIs     : 42
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag               [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---               [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F37-01-001         2309 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-01-002         2310 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-01-003         2311 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-03-001         2312 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-03-002         2313 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-04-001         2314 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-04-002         2315 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-05-001         2316 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-05-002         2317 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-06-001         2318 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-06-002         2319 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-07-001         2320 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-07-002         2321 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-08-001         2322 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-08-002         2323 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-08-003         2324 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-08-004         2325 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-08-005         2326 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-08-006         2327 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-08-007         2328 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-HEALTH-001     2329 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-HEALTH-002     2330 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-HEALTH-003     2331 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-READY-001      2332 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-MODEL-001      2333 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-MODEL-002      2334 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-SEED-001       2335 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-EXPORT-001     2336 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-CACHE-001      2337 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-BACKFILL-001   2338 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-AUDIT-001      2339 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-VALIDATE-001   2340 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-COMMIT-001     2341 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-AUDITREPO-001  2342 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-API-001        2343 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-API-002        2344 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-API-003        2345 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-FILTER-001     2346 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-EDGETYPES-001  2347 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-OBJ_IDPATH-001 2348 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-OBJ_IDPATH-002 2349 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+F37-OBJ_IDPATH-003 2350 New   https://dev.azure.com/marcopresta/eva-poc/_worki.
+

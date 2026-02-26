@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.0218448-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/32-logging",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-32",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "32-logging",
+    "description": "Centralized structured logging: log ingestion, filtering, export, and analysis for all EVA Foundation services.",
+    "tags": "32-logging;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F32-01",
+      "type": "Feature",
+      "title": "Log Schema Design",
+      "description": "Log Schema Design",
+      "tags": "32-logging;F32-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F32-02",
+      "type": "Feature",
+      "title": "Log Transport",
+      "description": "Log Transport",
+      "tags": "32-logging;F32-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F32-03",
+      "type": "Feature",
+      "title": "Log Query Library",
+      "description": "Log Query Library",
+      "tags": "32-logging;F32-03",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F32-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F32-01-001] Define EVA structured log schema",
+      "acceptance_criteria": "Define EVA structured log schema",
+      "tags": "32-logging;F32-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-01",
+      "state": "New",
+      "wbs_id": "F32-01-001"
+    },
+    {
+      "id_hint": "F32-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F32-01-002] Correlation ID propagation strategy",
+      "acceptance_criteria": "Correlation ID propagation strategy",
+      "tags": "32-logging;F32-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-01",
+      "state": "New",
+      "wbs_id": "F32-01-002"
+    },
+    {
+      "id_hint": "F32-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F32-01-003] Severity level taxonomy",
+      "acceptance_criteria": "Severity level taxonomy",
+      "tags": "32-logging;F32-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-01",
+      "state": "New",
+      "wbs_id": "F32-01-003"
+    },
+    {
+      "id_hint": "F32-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F32-02-001] Application Insights integration",
+      "acceptance_criteria": "Application Insights integration",
+      "tags": "32-logging;F32-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-02",
+      "state": "New",
+      "wbs_id": "F32-02-001"
+    },
+    {
+      "id_hint": "F32-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F32-02-002] Log Analytics workspace routing",
+      "acceptance_criteria": "Log Analytics workspace routing",
+      "tags": "32-logging;F32-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-02",
+      "state": "New",
+      "wbs_id": "F32-02-002"
+    },
+    {
+      "id_hint": "F32-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F32-02-003] Local dev console handler",
+      "acceptance_criteria": "Local dev console handler",
+      "tags": "32-logging;F32-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-02",
+      "state": "New",
+      "wbs_id": "F32-02-003"
+    },
+    {
+      "id_hint": "F32-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F32-03-001] KQL query templates for common patterns",
+      "acceptance_criteria": "KQL query templates for common patterns",
+      "tags": "32-logging;F32-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-03",
+      "state": "New",
+      "wbs_id": "F32-03-001"
+    },
+    {
+      "id_hint": "F32-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F32-03-002] Alerting rules for error rate thresholds",
+      "acceptance_criteria": "Alerting rules for error rate thresholds",
+      "tags": "32-logging;F32-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-03",
+      "state": "New",
+      "wbs_id": "F32-03-002"
+    },
+    {
+      "id_hint": "F32-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F32-03-003] Dashboard for cross-service log correlation",
+      "acceptance_criteria": "Dashboard for cross-service log correlation",
+      "tags": "32-logging;F32-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F32-03",
+      "state": "New",
+      "wbs_id": "F32-03-003"
+    }
+  ]
+}

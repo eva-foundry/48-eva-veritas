@@ -1,0 +1,78 @@
+{
+  "evidence_id": "DPDCA-20260225-ado-id-writeback",
+  "run_id": "run-dpdca-20260225102518",
+  "generated_at": "2026-02-25T10:29:31.7607806-05:00",
+  "actor": "agent:ado-id-writeback",
+  "mode": "live",
+  "plan": {
+    "scope": "ADO-ID writeback: link ADO integer IDs to WBS records",
+    "wbs_total": 2979,
+    "ado_items_found": 2725
+  },
+  "do_result": {
+    "matched": 1880,
+    "already_set": 0,
+    "not_found": 91,
+    "skipped": 754,
+    "failed": 0
+  },
+  "check_result": {
+    "fk_coverage_pct": 69.0,
+    "total_linked": 1880,
+    "spot_pass": 5,
+    "spot_total": 5,
+    "passed": true
+  },
+  "sample_mappings": [
+    {
+      "wbs_id": "EO-07-001",
+      "ado_id": 183,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-07-002",
+      "ado_id": 184,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-07-003",
+      "ado_id": 185,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-07-004",
+      "ado_id": 186,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-07-005",
+      "ado_id": 187,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-07-006",
+      "ado_id": 188,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-08-001",
+      "ado_id": 194,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-08-002",
+      "ado_id": 195,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-09-003",
+      "ado_id": 200,
+      "wi_type": "Product Backlog Item"
+    },
+    {
+      "wbs_id": "EO-06-001",
+      "ado_id": 201,
+      "wi_type": "Product Backlog Item"
+    }
+  ]
+}

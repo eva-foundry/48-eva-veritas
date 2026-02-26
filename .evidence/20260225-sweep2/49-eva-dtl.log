@@ -1,0 +1,129 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\49-eva-dtl
+[INFO] Prefix: F49
+[PASS] Written: C:\AICOE\eva-foundation\49-eva-dtl\.eva\veritas-plan.json
+       6 features, 20 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  DTL-01        3      0  Trust Vector Engine
+  DTL-02        3      0  Context Risk Engine
+  DTL-03        3      0  Policy Engine
+  DTL-04        4      0  Decision Engine
+  DTL-05        3      0  API Layer
+  DTL-06        4      0  Test Suite
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: DTL-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\49-eva-dtl
+[INFO] Using veritas-plan.json (format: veritas, 20 stories, 0 tasks)
+[INFO] Planned: 6 features, 20 stories
+[INFO] Actual: 55 artifacts, 34 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\49-eva-dtl\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\49-eva-dtl\.eva\reconciliation.json
+[INFO] Gaps: 14
+[PASS] trust written: C:\AICOE\eva-foundation\49-eva-dtl\.eva\trust.json (score: 100)
+
+=======================================
+EVA Veritas Report: EVA Decision Trust Level (DTL)
+=======================================
+Repo:    C:\AICOE\eva-foundation\49-eva-dtl
+Planned: 6 features, 20 stories
+
+Coverage
+---------------------------------------
+Stories total:          20
+Stories with artifacts: 20
+Stories with evidence:  20
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[FAIL] orphan_story_tag :: DTL-07-001
+[FAIL] orphan_story_tag :: DTL-07-002
+[FAIL] orphan_story_tag :: DTL-07-003
+[FAIL] orphan_story_tag :: DTL-07-004
+[FAIL] orphan_story_tag :: DTL-07-005
+[FAIL] orphan_story_tag :: DTL-07-006
+[FAIL] orphan_story_tag :: DTL-08-001
+[FAIL] orphan_story_tag :: DTL-08-002
+[FAIL] orphan_story_tag :: DTL-08-003
+[FAIL] orphan_story_tag :: DTL-08-004
+[FAIL] orphan_story_tag :: DTL-09-001
+[FAIL] orphan_story_tag :: DTL-09-002
+[FAIL] orphan_story_tag :: DTL-09-003
+[FAIL] orphan_story_tag :: DTL-09-004
+
+Feature Breakdown
+---------------------------------------
+[100] DTL-01     Trust Vector Engine             3/3 artifacts  3/3 evidence  0 gaps
+[100] DTL-02     Context Risk Engine             3/3 artifacts  3/3 evidence  0 gaps
+[100] DTL-03     Policy Engine                   3/3 artifacts  3/3 evidence  0 gaps
+[100] DTL-04     Decision Engine                 4/4 artifacts  4/4 evidence  0 gaps
+[100] DTL-05     API Layer                       3/3 artifacts  3/3 evidence  0 gaps
+[100] DTL-06     Test Suite                      4/4 artifacts  4/4 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] DTL-01-001 -- TrustVector dataclass with 6 dimensions (2 artifacts)
+[EVIDENCE] DTL-01-002 -- Penalty for missing signals (2 artifacts)
+[EVIDENCE] DTL-01-003 -- Evidence dimension mandatory validation (2 artifacts)
+[EVIDENCE] DTL-02-001 -- ContextRisk formula implementation (2 artifacts)
+[EVIDENCE] DTL-02-002 -- Data classification mapping (2 artifacts)
+[EVIDENCE] DTL-02-003 -- Autonomy level mapping (2 artifacts)
+[EVIDENCE] DTL-03-001 -- YAML policy loading (2 artifacts)
+[EVIDENCE] DTL-03-002 -- Policy rule evaluation (2 artifacts)
+[EVIDENCE] DTL-03-003 -- On-fail/on-pass decision routing (2 artifacts)
+[EVIDENCE] DTL-04-001 -- 9-step evaluation pipeline (2 artifacts)
+[EVIDENCE] DTL-04-002 -- DTL state assignment logic (2 artifacts)
+[EVIDENCE] DTL-04-003 -- Obligations and expiry attachment (2 artifacts)
+[EVIDENCE] DTL-04-004 -- Confidence score computation (2 artifacts)
+[EVIDENCE] DTL-05-001 -- FastAPI application scaffolding (2 artifacts)
+[EVIDENCE] DTL-05-002 -- POST /decision/evaluate endpoint (3 artifacts)
+[EVIDENCE] DTL-05-003 -- POST /health endpoint (2 artifacts)
+[EVIDENCE] DTL-06-001 -- Trust vector unit tests (2 artifacts)
+[EVIDENCE] DTL-06-002 -- Context risk unit tests (2 artifacts)
+[EVIDENCE] DTL-06-003 -- Policy engine unit tests (2 artifacts)
+[EVIDENCE] DTL-06-004 -- Decision engine integration tests (2 artifacts)
+
+Trust (MTI)
+---------------------------------------
+Score:   100 (no change)
+Trend:   100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 100
+Actions: deploy, merge, release
+Components: coverage=1 evidence=1 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   54%  (151/279 declared entities verified)
+[ACT] 128 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [endpoint] GET /v1/health -- declared: implemented -- actual: not_found
+  ... and 120 more
+[ACT] Container 'jobs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+

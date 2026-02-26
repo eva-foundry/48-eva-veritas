@@ -1,0 +1,801 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1381089-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/42-learn-foundry",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-42",
+  "stream": "WBS-S-AI",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "42-learn-foundry",
+    "description": "42-learn-foundry",
+    "tags": "42-learn-foundry;WBS-S-AI",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F42-01",
+      "type": "Feature",
+      "title": "CREATE_RESPO API [ID=F42-CREATE_RESPO]",
+      "description": "CREATE_RESPO API [ID=F42-CREATE_RESPO]",
+      "tags": "42-learn-foundry;F42-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-02",
+      "type": "Feature",
+      "title": "USER_BROWSER API [ID=F42-USER_BROWSER]",
+      "description": "USER_BROWSER API [ID=F42-USER_BROWSER]",
+      "tags": "42-learn-foundry;F42-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-03",
+      "type": "Feature",
+      "title": "FULL_PATHPAT API [ID=F42-FULL_PATHPAT]",
+      "description": "FULL_PATHPAT API [ID=F42-FULL_PATHPAT]",
+      "tags": "42-learn-foundry;F42-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-API",
+      "type": "Feature",
+      "title": "API API",
+      "description": "API API",
+      "tags": "42-learn-foundry;F42-API",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-ARTICLE",
+      "type": "Feature",
+      "title": "ARTICLE API",
+      "description": "ARTICLE API",
+      "tags": "42-learn-foundry;F42-ARTICLE",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-UPLOADIMAGE",
+      "type": "Feature",
+      "title": "UPLOADIMAGE API",
+      "description": "UPLOADIMAGE API",
+      "tags": "42-learn-foundry;F42-UPLOADIMAGE",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-CONFIG",
+      "type": "Feature",
+      "title": "CONFIG API",
+      "description": "CONFIG API",
+      "tags": "42-learn-foundry;F42-CONFIG",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-HEALTH",
+      "type": "Feature",
+      "title": "HEALTH API",
+      "description": "HEALTH API",
+      "tags": "42-learn-foundry;F42-HEALTH",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-META",
+      "type": "Feature",
+      "title": "META API",
+      "description": "META API",
+      "tags": "42-learn-foundry;F42-META",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-ENTITIES",
+      "type": "Feature",
+      "title": "ENTITIES API",
+      "description": "ENTITIES API",
+      "tags": "42-learn-foundry;F42-ENTITIES",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-DEPLOYMENTS",
+      "type": "Feature",
+      "title": "DEPLOYMENTS API",
+      "description": "DEPLOYMENTS API",
+      "tags": "42-learn-foundry;F42-DEPLOYMENTS",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-RESPONSES",
+      "type": "Feature",
+      "title": "RESPONSES API",
+      "description": "RESPONSES API",
+      "tags": "42-learn-foundry;F42-RESPONSES",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-CONVERSATION",
+      "type": "Feature",
+      "title": "CONVERSATION API",
+      "description": "CONVERSATION API",
+      "tags": "42-learn-foundry;F42-CONVERSATION",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-CHATKIT",
+      "type": "Feature",
+      "title": "CHATKIT API",
+      "description": "CHATKIT API",
+      "tags": "42-learn-foundry;F42-CHATKIT",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-UPLOAD",
+      "type": "Feature",
+      "title": "UPLOAD API",
+      "description": "UPLOAD API",
+      "tags": "42-learn-foundry;F42-UPLOAD",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-PREVIEW",
+      "type": "Feature",
+      "title": "PREVIEW API",
+      "description": "PREVIEW API",
+      "tags": "42-learn-foundry;F42-PREVIEW",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-STREAM",
+      "type": "Feature",
+      "title": "STREAM API",
+      "description": "STREAM API",
+      "tags": "42-learn-foundry;F42-STREAM",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-MCP",
+      "type": "Feature",
+      "title": "MCP API",
+      "description": "MCP API",
+      "tags": "42-learn-foundry;F42-MCP",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-UI",
+      "type": "Feature",
+      "title": "UI Pages",
+      "description": "UI Pages",
+      "tags": "42-learn-foundry;F42-UI",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-OPS",
+      "type": "Feature",
+      "title": "Operations Scripts",
+      "description": "Operations Scripts",
+      "tags": "42-learn-foundry;F42-OPS",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-CREATE_RESPO",
+      "type": "Feature",
+      "title": "CREATE_RESPO API",
+      "description": "CREATE_RESPO API",
+      "tags": "42-learn-foundry;F42-CREATE_RESPO",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-USER_BROWSER",
+      "type": "Feature",
+      "title": "USER_BROWSER API",
+      "description": "USER_BROWSER API",
+      "tags": "42-learn-foundry;F42-USER_BROWSER",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F42-FULL_PATHPAT",
+      "type": "Feature",
+      "title": "FULL_PATHPAT API",
+      "description": "FULL_PATHPAT API",
+      "tags": "42-learn-foundry;F42-FULL_PATHPAT",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F42-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-01-001] POST /api/create_response [ID=F42-CREATE_RESPO-001]",
+      "acceptance_criteria": "POST /api/create_response [ID=F42-CREATE_RESPO-001]",
+      "tags": "42-learn-foundry;F42-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-01",
+      "state": "New",
+      "wbs_id": "F42-01-001"
+    },
+    {
+      "id_hint": "F42-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-02-001] POST /api/user_browser_language [ID=F42-USER_BROWSER-001]",
+      "acceptance_criteria": "POST /api/user_browser_language [ID=F42-USER_BROWSER-001]",
+      "tags": "42-learn-foundry;F42-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-02",
+      "state": "New",
+      "wbs_id": "F42-02-001"
+    },
+    {
+      "id_hint": "F42-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-03-001] GET /{full_path:path} [ID=F42-FULL_PATHPAT-001]",
+      "acceptance_criteria": "GET /{full_path:path} [ID=F42-FULL_PATHPAT-001]",
+      "tags": "42-learn-foundry;F42-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-03",
+      "state": "New",
+      "wbs_id": "F42-03-001"
+    },
+    {
+      "id_hint": "F42-API-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-API-001] GET /",
+      "acceptance_criteria": "GET /",
+      "tags": "42-learn-foundry;F42-API-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-API",
+      "state": "New",
+      "wbs_id": "F42-API-001"
+    },
+    {
+      "id_hint": "F42-API-002",
+      "type": "Product Backlog Item",
+      "title": "[F42-API-002] GET /",
+      "acceptance_criteria": "GET /",
+      "tags": "42-learn-foundry;F42-API-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-API",
+      "state": "New",
+      "wbs_id": "F42-API-002"
+    },
+    {
+      "id_hint": "F42-API-003",
+      "type": "Product Backlog Item",
+      "title": "[F42-API-003] GET /",
+      "acceptance_criteria": "GET /",
+      "tags": "42-learn-foundry;F42-API-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-API",
+      "state": "New",
+      "wbs_id": "F42-API-003"
+    },
+    {
+      "id_hint": "F42-API-004",
+      "type": "Product Backlog Item",
+      "title": "[F42-API-004] GET /",
+      "acceptance_criteria": "GET /",
+      "tags": "42-learn-foundry;F42-API-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-API",
+      "state": "New",
+      "wbs_id": "F42-API-004"
+    },
+    {
+      "id_hint": "F42-API-005",
+      "type": "Product Backlog Item",
+      "title": "[F42-API-005] GET /",
+      "acceptance_criteria": "GET /",
+      "tags": "42-learn-foundry;F42-API-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-API",
+      "state": "New",
+      "wbs_id": "F42-API-005"
+    },
+    {
+      "id_hint": "F42-ARTICLE-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-ARTICLE-001] POST /api/article",
+      "acceptance_criteria": "POST /api/article",
+      "tags": "42-learn-foundry;F42-ARTICLE-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-ARTICLE",
+      "state": "New",
+      "wbs_id": "F42-ARTICLE-001"
+    },
+    {
+      "id_hint": "F42-UPLOADIMAGE-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-UPLOADIMAGE-001] POST /api/upload-image",
+      "acceptance_criteria": "POST /api/upload-image",
+      "tags": "42-learn-foundry;F42-UPLOADIMAGE-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-UPLOADIMAGE",
+      "state": "New",
+      "wbs_id": "F42-UPLOADIMAGE-001"
+    },
+    {
+      "id_hint": "F42-CONFIG-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONFIG-001] GET /config",
+      "acceptance_criteria": "GET /config",
+      "tags": "42-learn-foundry;F42-CONFIG-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONFIG",
+      "state": "New",
+      "wbs_id": "F42-CONFIG-001"
+    },
+    {
+      "id_hint": "F42-HEALTH-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-HEALTH-001] GET /health",
+      "acceptance_criteria": "GET /health",
+      "tags": "42-learn-foundry;F42-HEALTH-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-HEALTH",
+      "state": "New",
+      "wbs_id": "F42-HEALTH-001"
+    },
+    {
+      "id_hint": "F42-META-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-META-001] GET /meta",
+      "acceptance_criteria": "GET /meta",
+      "tags": "42-learn-foundry;F42-META-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-META",
+      "state": "New",
+      "wbs_id": "F42-META-001"
+    },
+    {
+      "id_hint": "F42-ENTITIES-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-ENTITIES-001] GET /v1/entities",
+      "acceptance_criteria": "GET /v1/entities",
+      "tags": "42-learn-foundry;F42-ENTITIES-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-ENTITIES",
+      "state": "New",
+      "wbs_id": "F42-ENTITIES-001"
+    },
+    {
+      "id_hint": "F42-ENTITIES-002",
+      "type": "Product Backlog Item",
+      "title": "[F42-ENTITIES-002] GET /v1/entities/{entity_id}/info",
+      "acceptance_criteria": "GET /v1/entities/{entity_id}/info",
+      "tags": "42-learn-foundry;F42-ENTITIES-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-ENTITIES",
+      "state": "New",
+      "wbs_id": "F42-ENTITIES-002"
+    },
+    {
+      "id_hint": "F42-ENTITIES-003",
+      "type": "Product Backlog Item",
+      "title": "[F42-ENTITIES-003] POST /v1/entities/{entity_id}/reload",
+      "acceptance_criteria": "POST /v1/entities/{entity_id}/reload",
+      "tags": "42-learn-foundry;F42-ENTITIES-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-ENTITIES",
+      "state": "New",
+      "wbs_id": "F42-ENTITIES-003"
+    },
+    {
+      "id_hint": "F42-ENTITIES-004",
+      "type": "Product Backlog Item",
+      "title": "[F42-ENTITIES-004] POST /v1/entities/{entity_id}/deploy",
+      "acceptance_criteria": "POST /v1/entities/{entity_id}/deploy",
+      "tags": "42-learn-foundry;F42-ENTITIES-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-ENTITIES",
+      "state": "New",
+      "wbs_id": "F42-ENTITIES-004"
+    },
+    {
+      "id_hint": "F42-DEPLOYMENTS-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-DEPLOYMENTS-001] POST /v1/deployments",
+      "acceptance_criteria": "POST /v1/deployments",
+      "tags": "42-learn-foundry;F42-DEPLOYMENTS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-DEPLOYMENTS",
+      "state": "New",
+      "wbs_id": "F42-DEPLOYMENTS-001"
+    },
+    {
+      "id_hint": "F42-DEPLOYMENTS-002",
+      "type": "Product Backlog Item",
+      "title": "[F42-DEPLOYMENTS-002] GET /v1/deployments",
+      "acceptance_criteria": "GET /v1/deployments",
+      "tags": "42-learn-foundry;F42-DEPLOYMENTS-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-DEPLOYMENTS",
+      "state": "New",
+      "wbs_id": "F42-DEPLOYMENTS-002"
+    },
+    {
+      "id_hint": "F42-DEPLOYMENTS-003",
+      "type": "Product Backlog Item",
+      "title": "[F42-DEPLOYMENTS-003] GET /v1/deployments/{deployment_id}",
+      "acceptance_criteria": "GET /v1/deployments/{deployment_id}",
+      "tags": "42-learn-foundry;F42-DEPLOYMENTS-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-DEPLOYMENTS",
+      "state": "New",
+      "wbs_id": "F42-DEPLOYMENTS-003"
+    },
+    {
+      "id_hint": "F42-DEPLOYMENTS-004",
+      "type": "Product Backlog Item",
+      "title": "[F42-DEPLOYMENTS-004] DELETE /v1/deployments/{deployment_id}",
+      "acceptance_criteria": "DELETE /v1/deployments/{deployment_id}",
+      "tags": "42-learn-foundry;F42-DEPLOYMENTS-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-DEPLOYMENTS",
+      "state": "New",
+      "wbs_id": "F42-DEPLOYMENTS-004"
+    },
+    {
+      "id_hint": "F42-RESPONSES-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-RESPONSES-001] POST /v1/responses",
+      "acceptance_criteria": "POST /v1/responses",
+      "tags": "42-learn-foundry;F42-RESPONSES-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-RESPONSES",
+      "state": "New",
+      "wbs_id": "F42-RESPONSES-001"
+    },
+    {
+      "id_hint": "F42-RESPONSES-002",
+      "type": "Product Backlog Item",
+      "title": "[F42-RESPONSES-002] POST /v1/responses/{response_id}/cancel",
+      "acceptance_criteria": "POST /v1/responses/{response_id}/cancel",
+      "tags": "42-learn-foundry;F42-RESPONSES-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-RESPONSES",
+      "state": "New",
+      "wbs_id": "F42-RESPONSES-002"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-001] POST /v1/conversations",
+      "acceptance_criteria": "POST /v1/conversations",
+      "tags": "42-learn-foundry;F42-CONVERSATION-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-001"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-002",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-002] GET /v1/conversations",
+      "acceptance_criteria": "GET /v1/conversations",
+      "tags": "42-learn-foundry;F42-CONVERSATION-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-002"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-003",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-003] GET /v1/conversations/{conversation_id}",
+      "acceptance_criteria": "GET /v1/conversations/{conversation_id}",
+      "tags": "42-learn-foundry;F42-CONVERSATION-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-003"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-004",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-004] POST /v1/conversations/{conversation_id}",
+      "acceptance_criteria": "POST /v1/conversations/{conversation_id}",
+      "tags": "42-learn-foundry;F42-CONVERSATION-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-004"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-005",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-005] DELETE /v1/conversations/{conversation_id}",
+      "acceptance_criteria": "DELETE /v1/conversations/{conversation_id}",
+      "tags": "42-learn-foundry;F42-CONVERSATION-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-005"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-006",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-006] POST /v1/conversations/{conversation_id}/items",
+      "acceptance_criteria": "POST /v1/conversations/{conversation_id}/items",
+      "tags": "42-learn-foundry;F42-CONVERSATION-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-006"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-007",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-007] GET /v1/conversations/{conversation_id}/items",
+      "acceptance_criteria": "GET /v1/conversations/{conversation_id}/items",
+      "tags": "42-learn-foundry;F42-CONVERSATION-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-007"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-008",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-008] GET /v1/conversations/{conversation_id}/items/{item_id}",
+      "acceptance_criteria": "GET /v1/conversations/{conversation_id}/items/{item_id}",
+      "tags": "42-learn-foundry;F42-CONVERSATION-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-008"
+    },
+    {
+      "id_hint": "F42-CONVERSATION-009",
+      "type": "Product Backlog Item",
+      "title": "[F42-CONVERSATION-009] DELETE /v1/conversations/{conversation_id}/items/{item_id}",
+      "acceptance_criteria": "DELETE /v1/conversations/{conversation_id}/items/{item_id}",
+      "tags": "42-learn-foundry;F42-CONVERSATION-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CONVERSATION",
+      "state": "New",
+      "wbs_id": "F42-CONVERSATION-009"
+    },
+    {
+      "id_hint": "F42-CHATKIT-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-CHATKIT-001] POST /chatkit",
+      "acceptance_criteria": "POST /chatkit",
+      "tags": "42-learn-foundry;F42-CHATKIT-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CHATKIT",
+      "state": "New",
+      "wbs_id": "F42-CHATKIT-001"
+    },
+    {
+      "id_hint": "F42-UPLOAD-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-UPLOAD-001] POST /upload/{attachment_id}",
+      "acceptance_criteria": "POST /upload/{attachment_id}",
+      "tags": "42-learn-foundry;F42-UPLOAD-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-UPLOAD",
+      "state": "New",
+      "wbs_id": "F42-UPLOAD-001"
+    },
+    {
+      "id_hint": "F42-PREVIEW-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-PREVIEW-001] GET /preview/{attachment_id}",
+      "acceptance_criteria": "GET /preview/{attachment_id}",
+      "tags": "42-learn-foundry;F42-PREVIEW-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-PREVIEW",
+      "state": "New",
+      "wbs_id": "F42-PREVIEW-001"
+    },
+    {
+      "id_hint": "F42-STREAM-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-STREAM-001] GET /stream",
+      "acceptance_criteria": "GET /stream",
+      "tags": "42-learn-foundry;F42-STREAM-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-STREAM",
+      "state": "New",
+      "wbs_id": "F42-STREAM-001"
+    },
+    {
+      "id_hint": "F42-MCP-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-MCP-001] POST /mcp",
+      "acceptance_criteria": "POST /mcp",
+      "tags": "42-learn-foundry;F42-MCP-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-MCP",
+      "state": "New",
+      "wbs_id": "F42-MCP-001"
+    },
+    {
+      "id_hint": "F42-MCP-002",
+      "type": "Product Backlog Item",
+      "title": "[F42-MCP-002] GET /mcp",
+      "acceptance_criteria": "GET /mcp",
+      "tags": "42-learn-foundry;F42-MCP-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-MCP",
+      "state": "New",
+      "wbs_id": "F42-MCP-002"
+    },
+    {
+      "id_hint": "F42-MCP-003",
+      "type": "Product Backlog Item",
+      "title": "[F42-MCP-003] DELETE /mcp",
+      "acceptance_criteria": "DELETE /mcp",
+      "tags": "42-learn-foundry;F42-MCP-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-MCP",
+      "state": "New",
+      "wbs_id": "F42-MCP-003"
+    },
+    {
+      "id_hint": "F42-MCP-004",
+      "type": "Product Backlog Item",
+      "title": "[F42-MCP-004] POST /mcp",
+      "acceptance_criteria": "POST /mcp",
+      "tags": "42-learn-foundry;F42-MCP-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-MCP",
+      "state": "New",
+      "wbs_id": "F42-MCP-004"
+    },
+    {
+      "id_hint": "F42-UI-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-UI-001] Route /plan/:planId",
+      "acceptance_criteria": "Route /plan/:planId",
+      "tags": "42-learn-foundry;F42-UI-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-UI",
+      "state": "New",
+      "wbs_id": "F42-UI-001"
+    },
+    {
+      "id_hint": "F42-OPS-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-001] merge_principal_ids()",
+      "acceptance_criteria": "merge_principal_ids()",
+      "tags": "42-learn-foundry;F42-OPS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-001"
+    },
+    {
+      "id_hint": "F42-OPS-002",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-002] log_verbose()",
+      "acceptance_criteria": "log_verbose()",
+      "tags": "42-learn-foundry;F42-OPS-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-002"
+    },
+    {
+      "id_hint": "F42-OPS-003",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-003] restore_network_access()",
+      "acceptance_criteria": "restore_network_access()",
+      "tags": "42-learn-foundry;F42-OPS-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-003"
+    },
+    {
+      "id_hint": "F42-OPS-004",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-004] cleanup_on_exit()",
+      "acceptance_criteria": "cleanup_on_exit()",
+      "tags": "42-learn-foundry;F42-OPS-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-004"
+    },
+    {
+      "id_hint": "F42-OPS-005",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-005] test_azd_installed()",
+      "acceptance_criteria": "test_azd_installed()",
+      "tags": "42-learn-foundry;F42-OPS-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-005"
+    },
+    {
+      "id_hint": "F42-OPS-006",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-006] get_values_from_azd_env()",
+      "acceptance_criteria": "get_values_from_azd_env()",
+      "tags": "42-learn-foundry;F42-OPS-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-006"
+    },
+    {
+      "id_hint": "F42-OPS-007",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-007] extract_value()",
+      "acceptance_criteria": "extract_value()",
+      "tags": "42-learn-foundry;F42-OPS-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-007"
+    },
+    {
+      "id_hint": "F42-OPS-008",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-008] get_values_from_az_deployment()",
+      "acceptance_criteria": "get_values_from_az_deployment()",
+      "tags": "42-learn-foundry;F42-OPS-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-008"
+    },
+    {
+      "id_hint": "F42-OPS-009",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-009] get_values_using_solution_suffix()",
+      "acceptance_criteria": "get_values_using_solution_suffix()",
+      "tags": "42-learn-foundry;F42-OPS-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-009"
+    },
+    {
+      "id_hint": "F42-OPS-010",
+      "type": "Product Backlog Item",
+      "title": "[F42-OPS-010] configure_nssdb()",
+      "acceptance_criteria": "configure_nssdb()",
+      "tags": "42-learn-foundry;F42-OPS-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-OPS",
+      "state": "New",
+      "wbs_id": "F42-OPS-010"
+    },
+    {
+      "id_hint": "F42-CREATE_RESPO-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-CREATE_RESPO-001] POST /api/create_response",
+      "acceptance_criteria": "POST /api/create_response",
+      "tags": "42-learn-foundry;F42-CREATE_RESPO-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-CREATE_RESPO",
+      "state": "New",
+      "wbs_id": "F42-CREATE_RESPO-001"
+    },
+    {
+      "id_hint": "F42-USER_BROWSER-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-USER_BROWSER-001] POST /api/user_browser_language",
+      "acceptance_criteria": "POST /api/user_browser_language",
+      "tags": "42-learn-foundry;F42-USER_BROWSER-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-USER_BROWSER",
+      "state": "New",
+      "wbs_id": "F42-USER_BROWSER-001"
+    },
+    {
+      "id_hint": "F42-FULL_PATHPAT-001",
+      "type": "Product Backlog Item",
+      "title": "[F42-FULL_PATHPAT-001] GET /{full_path:path}",
+      "acceptance_criteria": "GET /{full_path:path}",
+      "tags": "42-learn-foundry;F42-FULL_PATHPAT-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F42-FULL_PATHPAT",
+      "state": "New",
+      "wbs_id": "F42-FULL_PATHPAT-001"
+    }
+  ]
+}

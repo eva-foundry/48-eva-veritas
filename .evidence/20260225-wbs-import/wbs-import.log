@@ -1,0 +1,704 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[08:02:28] === wbs-import START 2026-02-25 08:02:28 ===
+[08:02:28] [PASS] ACA: status=ok store=cosmos
+[08:02:28] [INFO] WBS layer empty -- proceeding
+[08:02:28] --- Programme ---
+[08:02:28]   [OK] WBS-000 rv=4
+[08:02:28] --- Streams ---
+[08:02:28]   [OK] WBS-S-AI rv=4
+[08:02:29]   [OK] WBS-S-DEV rv=4
+[08:02:29]   [OK] WBS-S-PL rv=4
+[08:02:29]   [OK] WBS-S-UP rv=4
+[08:02:29] --- Projects (51) ---
+[08:02:29]   [01-documentation-generator] -> WBS-01 stream=WBS-S-DEV
+[08:02:29]     [PROJ OK] WBS-01 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:31]     features=10 stories=11
+[08:02:31]   [02-poc-agent-skills] -> WBS-02 stream=WBS-S-DEV
+[08:02:31]     [PROJ OK] WBS-02 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:33]     features=8 stories=18
+[08:02:33]   [03-poc-enhanced-docs] -> WBS-03 stream=WBS-S-UP
+[08:02:33]     [PROJ OK] WBS-03 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:35]     features=9 stories=20
+[08:02:35]   [04-os-vnext] -> WBS-04 stream=WBS-S-DEV
+[08:02:35]     [PROJ OK] WBS-04 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:35]     features=4 stories=0
+[08:02:35]   [05-extract-cases] -> WBS-05 stream=WBS-S-DEV
+[08:02:35]     [PROJ OK] WBS-05 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:37]     features=8 stories=8
+[08:02:37]   [06-jp-auto-extraction] -> WBS-06 stream=WBS-S-DEV
+[08:02:37]     [PROJ OK] WBS-06 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:40]     features=16 stories=34
+[08:02:40]   [07-foundation-layer] -> WBS-07 stream=WBS-S-DEV
+[08:02:40]     [PROJ OK] WBS-07 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:42]     features=9 stories=19
+[08:02:42]   [08-cds-rag] -> WBS-08 stream=WBS-S-AI
+[08:02:42]     [PROJ OK] WBS-08 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:53]     features=18 stories=158
+[08:02:53]   [09-eva-repo-documentation] -> WBS-09 stream=WBS-S-UP
+[08:02:54]     [PROJ OK] WBS-09 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:54]     features=4 stories=6
+[08:02:54]   [10-mkdocs-poc] -> WBS-10 stream=WBS-S-UP
+[08:02:54]     [PROJ OK] WBS-10 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:02:57]     features=13 stories=26
+[08:02:57]   [11-ms-infojp] -> WBS-11 stream=WBS-S-AI
+[08:02:57]     [PROJ OK] WBS-11 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be found on
+     | this object. Verify that the property exists and can be set."
+[08:03:21]     features=47 stories=323
+[08:03:21]   [12-work-spc-reorg] -> WBS-12 stream=WBS-S-PL
+[08:03:22]     [PROJ OK] WBS-12 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[08:03:25]     features=12 stories=40
+[08:03:25]   [13-vscode-tools] -> WBS-13 stream=WBS-S-DEV
+[08:03:25]     [PROJ OK] WBS-13 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[08:03:28]     features=13 stories=40
+[08:03:28]   [14-az-finops] -> WBS-14 stream=WBS-S-PL
+[08:03:29]     [PROJ OK] WBS-14 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[08:03:30]     features=9 stories=17
+[08:03:30]   [15-cdc] -> WBS-15 stream=WBS-S-PL
+[08:03:30]     [PROJ OK] WBS-15 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[08:03:31]     features=10 stories=1
+[08:03:31]   [16-engineered-case-law] -> WBS-16 stream=WBS-S-AI
+[08:03:31]     [PROJ OK] WBS-16 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[08:03:33]     features=14 stories=17
+[08:03:33]   [17-apim] -> WBS-17 stream=WBS-S-PL
+[08:03:33]     [PROJ OK] WBS-17 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[08:03:35]     features=13 stories=18
+[08:03:35]   [18-azure-best] -> WBS-18 stream=WBS-S-PL
+[08:03:35]     [PROJ OK] WBS-18 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "stream": "The property 'stream' cannot be
+     | found on this object. Verify that the property exists and can
+     | be set."
+[08:03:38]     features=11 stories=22
+[08:03:38]   [19-ai-gov] -> WBS-19 stream=WBS-S-PL
+[08:03:38]     [PROJ OK] WBS-19 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:03:38]     features=2 stories=7
+[08:03:38]   [20-AssistMe] -> WBS-20 stream=WBS-S-UP
+[08:03:38]     [PROJ OK] WBS-20 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:03:40]     features=12 stories=15
+[08:03:41]   [21-habit-tracker] -> WBS-21 stream=WBS-S-UP
+[08:03:41]     [PROJ OK] WBS-21 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:03:43]     features=12 stories=31
+[08:03:43]   [22-rg-sandbox] -> WBS-22 stream=WBS-S-PL
+[08:03:43]     [PROJ OK] WBS-22 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:03:46]     features=13 stories=29
+[08:03:46]   [23-ei-dsst-rewrite] -> WBS-23 stream=WBS-S-DEV
+[08:03:46]     [PROJ OK] WBS-23 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:03:47]     features=14 stories=4
+[08:03:47]   [24-eva-brain] -> WBS-24 stream=WBS-S-AI
+[08:03:47]     [PROJ OK] WBS-24 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:03:52]     features=18 stories=56
+[08:03:52]   [25-eva-suite] -> WBS-25 stream=WBS-S-DEV
+[08:03:52]     [PROJ OK] WBS-25 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:03:53]     features=4 stories=11
+[08:03:53]   [26-eva-gh] -> WBS-26 stream=WBS-S-DEV
+[08:03:53]     [PROJ OK] WBS-26 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:04:51]     features=142 stories=728
+[08:04:51]   [27-devbench] -> WBS-27 stream=WBS-S-DEV
+[08:04:51]     [PROJ OK] WBS-27 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:04:52]     features=12 stories=9
+[08:04:52]   [28-rbac] -> WBS-28 stream=WBS-S-PL
+[08:04:52]     [PROJ OK] WBS-28 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:04:57]     features=20 stories=43
+[08:04:57]   [29-foundry] -> WBS-29 stream=WBS-S-AI
+[08:04:57]     [PROJ OK] WBS-29 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:02]     features=21 stories=58
+[08:05:02]   [30-ui-bench] -> WBS-30 stream=WBS-S-UP
+[08:05:02]     [PROJ OK] WBS-30 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:03]     features=3 stories=8
+[08:05:03]   [31-eva-faces] -> WBS-31 stream=WBS-S-UP
+[08:05:03]     [PROJ OK] WBS-31 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:10]     features=22 stories=74
+[08:05:10]   [32-logging] -> WBS-32 stream=WBS-S-PL
+[08:05:10]     [PROJ OK] WBS-32 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:215:5
+Line |
+ 215 |      $projBody.wbs_id = $wbsProjId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "wbs_id": "The
+     | property 'wbs_id'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:11]     features=3 stories=9
+[08:05:11]   [33-eva-brain-v2] -> WBS-33 stream=WBS-S-AI
+[08:05:11]     [PROJ OK] WBS-33 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:21]     features=39 stories=111
+[08:05:21]   [34-AIRA] -> WBS-34 stream=WBS-S-AI
+[08:05:21]     [PROJ OK] WBS-34 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:22]     features=3 stories=8
+[08:05:22]   [34-eva-agents] -> WBS-34 stream=WBS-S-PL
+[08:05:22]     [PROJ OK] WBS-34 rv=2
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:22]     [SKIP] no veritas-plan.json
+[08:05:22]   [35-agentic-code-fixing] -> WBS-35 stream=WBS-S-DEV
+[08:05:22]     [PROJ OK] WBS-35 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:25]     features=19 stories=24
+[08:05:25]   [36-red-teaming] -> WBS-36 stream=WBS-S-AI
+[08:05:25]     [PROJ OK] WBS-36 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:27]     features=17 stories=14
+[08:05:27]   [37-data-model] -> WBS-37 stream=WBS-S-PL
+[08:05:27]     [PROJ OK] WBS-37 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:33]     features=24 stories=61
+[08:05:33]   [38-ado-poc] -> WBS-38 stream=WBS-S-PL
+[08:05:33]     [PROJ OK] WBS-38 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:34]     features=6 stories=13
+[08:05:34]   [39-ado-dashboard] -> WBS-39 stream=WBS-S-UP
+[08:05:34]     [PROJ OK] WBS-39 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:37]     features=8 stories=26
+[08:05:37]   [40-eva-control-plane] -> WBS-40 stream=WBS-S-PL
+[08:05:37]     [PROJ OK] WBS-40 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:38]     features=13 stories=10
+[08:05:38]   [41-eva-cli] -> WBS-41 stream=WBS-S-DEV
+[08:05:38]     [PROJ OK] WBS-41 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:40]     features=10 stories=12
+[08:05:40]   [42-learn-foundry] -> WBS-42 stream=WBS-S-AI
+[08:05:40]     [PROJ OK] WBS-42 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:48]     features=23 stories=102
+[08:05:48]   [43-spark] -> WBS-43 stream=WBS-S-UP
+[08:05:48]     [PROJ OK] WBS-43 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:49]     features=12 stories=5
+[08:05:49]   [44-eva-jp-spark] -> WBS-44 stream=WBS-S-UP
+[08:05:49]     [PROJ OK] WBS-44 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:52]     features=9 stories=37
+[08:05:52]   [45-aicoe-page] -> WBS-45 stream=WBS-S-UP
+[08:05:52]     [PROJ OK] WBS-45 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:55]     features=7 stories=26
+[08:05:55]   [46-accelerator] -> WBS-46 stream=WBS-S-UP
+[08:05:55]     [PROJ OK] WBS-46 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:57]     features=6 stories=23
+[08:05:57]   [47-eva-mti] -> WBS-47 stream=WBS-S-PL
+[08:05:57]     [PROJ OK] WBS-47 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:58]     features=3 stories=5
+[08:05:58]   [48-eva-orchestrator] -> WBS-48 stream=WBS-S-PL
+[08:05:58]     [PROJ OK] WBS-48 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:05:58]     [SKIP] no veritas-plan.json
+[08:05:58]   [48-eva-veritas] -> WBS-48 stream=WBS-S-PL
+[08:05:58]     [PROJ OK] WBS-48 rv=2
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:06:04]     features=18 stories=66
+[08:06:04]   [49-eva-dtl] -> WBS-49 stream=WBS-S-PL
+[08:06:04]     [PROJ OK] WBS-49 rv=1
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import\wbs-import.ps1:216:5
+Line |
+ 216 |      $projBody.stream = $streamId
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting
+     | "stream": "The
+     | property 'stream'
+     | cannot be found on
+     | this object. Verify
+     | that the property
+     | exists and can be
+     | set."
+[08:06:06]     features=8 stories=24
+[08:06:06] 
+[08:06:06] === WBS IMPORT COMPLETE ===
+[08:06:06]   program : 1
+[08:06:06]   streams : 4
+[08:06:06]   projects: 51
+[08:06:06]   features: 751
+[08:06:06]   stories : 2427
+[08:06:06]   TOTAL   : 3234
+[08:06:06]   errors  : 0
+[08:06:06] 
+[08:06:06] POST admin/commit...
+[08:06:08]   status=FAIL violations=0 exported=3929
+[08:06:08] [PASS] Commit clean
+[08:06:09] Final model total: 3929  wbs=2979
+[08:06:09] === DONE 2026-02-25 08:06:09 ===
+[08:06:09] Evidence: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-wbs-import

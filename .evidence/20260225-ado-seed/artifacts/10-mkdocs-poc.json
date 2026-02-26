@@ -1,0 +1,413 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.6146515-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/10-mkdocs-poc",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-10",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "10-mkdocs-poc",
+    "description": "10-mkdocs-poc",
+    "tags": "10-mkdocs-poc;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F10-01",
+      "type": "Feature",
+      "title": "Executive Summary",
+      "description": "Executive Summary",
+      "tags": "10-mkdocs-poc;F10-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-02",
+      "type": "Feature",
+      "title": "Goals",
+      "description": "Goals",
+      "tags": "10-mkdocs-poc;F10-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-03",
+      "type": "Feature",
+      "title": "Quick Start (Zero-Setup Execution)",
+      "description": "Quick Start (Zero-Setup Execution)",
+      "tags": "10-mkdocs-poc;F10-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-04",
+      "type": "Feature",
+      "title": "Project Structure",
+      "description": "Project Structure",
+      "tags": "10-mkdocs-poc;F10-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-05",
+      "type": "Feature",
+      "title": "MkDocs Sample Content",
+      "description": "MkDocs Sample Content",
+      "tags": "10-mkdocs-poc;F10-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-06",
+      "type": "Feature",
+      "title": "Hosting Test Strategy",
+      "description": "Hosting Test Strategy",
+      "tags": "10-mkdocs-poc;F10-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-07",
+      "type": "Feature",
+      "title": "Validation Checklist",
+      "description": "Validation Checklist",
+      "tags": "10-mkdocs-poc;F10-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-08",
+      "type": "Feature",
+      "title": "Success Criteria",
+      "description": "Success Criteria",
+      "tags": "10-mkdocs-poc;F10-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-09",
+      "type": "Feature",
+      "title": "Technology Stack",
+      "description": "Technology Stack",
+      "tags": "10-mkdocs-poc;F10-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-10",
+      "type": "Feature",
+      "title": "Key Findings (To Be Updated Post-Testing)",
+      "description": "Key Findings (To Be Updated Post-Testing)",
+      "tags": "10-mkdocs-poc;F10-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-11",
+      "type": "Feature",
+      "title": "References",
+      "description": "References",
+      "tags": "10-mkdocs-poc;F10-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-12",
+      "type": "Feature",
+      "title": "Maintainers",
+      "description": "Maintainers",
+      "tags": "10-mkdocs-poc;F10-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F10-13",
+      "type": "Feature",
+      "title": "Change Log",
+      "description": "Change Log",
+      "tags": "10-mkdocs-poc;F10-13",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F10-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F10-02-001] Primary Objectives",
+      "acceptance_criteria": "Primary Objectives",
+      "tags": "10-mkdocs-poc;F10-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-02",
+      "state": "New",
+      "wbs_id": "F10-02-001"
+    },
+    {
+      "id_hint": "F10-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F10-02-002] Secondary Objectives",
+      "acceptance_criteria": "Secondary Objectives",
+      "tags": "10-mkdocs-poc;F10-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-02",
+      "state": "New",
+      "wbs_id": "F10-02-002"
+    },
+    {
+      "id_hint": "F10-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F10-03-001] Prerequisites",
+      "acceptance_criteria": "Prerequisites",
+      "tags": "10-mkdocs-poc;F10-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-03",
+      "state": "New",
+      "wbs_id": "F10-03-001"
+    },
+    {
+      "id_hint": "F10-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F10-03-002] Run the PoC",
+      "acceptance_criteria": "Run the PoC",
+      "tags": "10-mkdocs-poc;F10-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-03",
+      "state": "New",
+      "wbs_id": "F10-03-002"
+    },
+    {
+      "id_hint": "F10-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F10-03-003] Manual Execution (for development)",
+      "acceptance_criteria": "Manual Execution (for development)",
+      "tags": "10-mkdocs-poc;F10-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-03",
+      "state": "New",
+      "wbs_id": "F10-03-003"
+    },
+    {
+      "id_hint": "F10-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F10-05-001] Asset Integration (98+ Files from EVA-JP-reference-0113)",
+      "acceptance_criteria": "Asset Integration (98+ Files from EVA-JP-reference-0113)",
+      "tags": "10-mkdocs-poc;F10-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-05",
+      "state": "New",
+      "wbs_id": "F10-05-001"
+    },
+    {
+      "id_hint": "F10-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F10-05-002] Content Validation Points",
+      "acceptance_criteria": "Content Validation Points",
+      "tags": "10-mkdocs-poc;F10-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-05",
+      "state": "New",
+      "wbs_id": "F10-05-002"
+    },
+    {
+      "id_hint": "F10-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F10-05-003] Example Pages",
+      "acceptance_criteria": "Example Pages",
+      "tags": "10-mkdocs-poc;F10-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-05",
+      "state": "New",
+      "wbs_id": "F10-05-003"
+    },
+    {
+      "id_hint": "F10-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F10-06-001] Test 1: SharePoint Online Document Library",
+      "acceptance_criteria": "Test 1: SharePoint Online Document Library",
+      "tags": "10-mkdocs-poc;F10-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-06",
+      "state": "New",
+      "wbs_id": "F10-06-001"
+    },
+    {
+      "id_hint": "F10-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F10-06-002] Test 2: Azure Static Website (Baseline)",
+      "acceptance_criteria": "Test 2: Azure Static Website (Baseline)",
+      "tags": "10-mkdocs-poc;F10-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-06",
+      "state": "New",
+      "wbs_id": "F10-06-002"
+    },
+    {
+      "id_hint": "F10-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-001] MkDocs site builds without errors (validated with `mkdocs build`)",
+      "acceptance_criteria": "MkDocs site builds without errors (validated with `mkdocs build`)",
+      "tags": "10-mkdocs-poc;F10-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-001"
+    },
+    {
+      "id_hint": "F10-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-002] Link validation script created (`mkdocs-sample/scripts/validate_links.py`)",
+      "acceptance_criteria": "Link validation script created (`mkdocs-sample/scripts/validate_links.py`)",
+      "tags": "10-mkdocs-poc;F10-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-002"
+    },
+    {
+      "id_hint": "F10-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-003] Navigation sidebar renders correctly (manual browser test required)",
+      "acceptance_criteria": "Navigation sidebar renders correctly (manual browser test required)",
+      "tags": "10-mkdocs-poc;F10-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-003"
+    },
+    {
+      "id_hint": "F10-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-004] Internal links navigate correctly (run link validator)",
+      "acceptance_criteria": "Internal links navigate correctly (run link validator)",
+      "tags": "10-mkdocs-poc;F10-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-004"
+    },
+    {
+      "id_hint": "F10-07-005",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-005] Deep links scroll to anchors (manual test required)",
+      "acceptance_criteria": "Deep links scroll to anchors (manual test required)",
+      "tags": "10-mkdocs-poc;F10-07-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-005"
+    },
+    {
+      "id_hint": "F10-07-006",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-006] Tables render properly (manual test required)",
+      "acceptance_criteria": "Tables render properly (manual test required)",
+      "tags": "10-mkdocs-poc;F10-07-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-006"
+    },
+    {
+      "id_hint": "F10-07-007",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-007] Callouts/admonitions display correctly (manual test required)",
+      "acceptance_criteria": "Callouts/admonitions display correctly (manual test required)",
+      "tags": "10-mkdocs-poc;F10-07-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-007"
+    },
+    {
+      "id_hint": "F10-07-008",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-008] Code blocks have syntax highlighting (manual test required)",
+      "acceptance_criteria": "Code blocks have syntax highlighting (manual test required)",
+      "tags": "10-mkdocs-poc;F10-07-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-008"
+    },
+    {
+      "id_hint": "F10-07-009",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-009] CSS/JS assets load without 404s (check browser DevTools)",
+      "acceptance_criteria": "CSS/JS assets load without 404s (check browser DevTools)",
+      "tags": "10-mkdocs-poc;F10-07-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-009"
+    },
+    {
+      "id_hint": "F10-07-010",
+      "type": "Product Backlog Item",
+      "title": "[F10-07-010] Mobile responsive design works (manual test required)",
+      "acceptance_criteria": "Mobile responsive design works (manual test required)",
+      "tags": "10-mkdocs-poc;F10-07-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-07",
+      "state": "New",
+      "wbs_id": "F10-07-010"
+    },
+    {
+      "id_hint": "F10-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F10-08-001] Phase 1: Generation ? **COMPLETE**",
+      "acceptance_criteria": "Phase 1: Generation ? **COMPLETE**",
+      "tags": "10-mkdocs-poc;F10-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-08",
+      "state": "New",
+      "wbs_id": "F10-08-001"
+    },
+    {
+      "id_hint": "F10-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F10-08-002] Phase 2: SharePoint Online Testing ? **READY TO START**",
+      "acceptance_criteria": "Phase 2: SharePoint Online Testing ? **READY TO START**",
+      "tags": "10-mkdocs-poc;F10-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-08",
+      "state": "New",
+      "wbs_id": "F10-08-002"
+    },
+    {
+      "id_hint": "F10-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F10-08-003] Phase 3: Azure Static Website Testing ? **READY TO START**",
+      "acceptance_criteria": "Phase 3: Azure Static Website Testing ? **READY TO START**",
+      "tags": "10-mkdocs-poc;F10-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-08",
+      "state": "New",
+      "wbs_id": "F10-08-003"
+    },
+    {
+      "id_hint": "F10-08-004",
+      "type": "Product Backlog Item",
+      "title": "[F10-08-004] Phase 4: Analysis & Recommendation ? **BLOCKED** (Requires Phase 2 & 3)",
+      "acceptance_criteria": "Phase 4: Analysis & Recommendation ? **BLOCKED** (Requires Phase 2 & 3)",
+      "tags": "10-mkdocs-poc;F10-08-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-08",
+      "state": "New",
+      "wbs_id": "F10-08-004"
+    },
+    {
+      "id_hint": "F10-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F10-10-001] SharePoint Online",
+      "acceptance_criteria": "SharePoint Online",
+      "tags": "10-mkdocs-poc;F10-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-10",
+      "state": "New",
+      "wbs_id": "F10-10-001"
+    },
+    {
+      "id_hint": "F10-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F10-10-002] Azure Static Website",
+      "acceptance_criteria": "Azure Static Website",
+      "tags": "10-mkdocs-poc;F10-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F10-10",
+      "state": "New",
+      "wbs_id": "F10-10-002"
+    }
+  ]
+}

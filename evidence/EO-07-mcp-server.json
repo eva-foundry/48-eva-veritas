@@ -1,0 +1,59 @@
+{
+  "notes": "EVA-STORY: EO-07-001 EVA-STORY: EO-07-002 EVA-STORY: EO-07-003 EVA-STORY: EO-07-004 EVA-STORY: EO-07-005 EVA-STORY: EO-07-006",
+  "evidence_for": ["EO-07-001", "EO-07-002", "EO-07-003", "EO-07-004", "EO-07-005", "EO-07-006"],
+  "run_at": "2026-02-24T21:00:00Z",
+  "server": "node src/mcp-server.js --port 8031",
+  "health_check": {
+    "endpoint": "GET /health",
+    "response": {
+      "status": "ok",
+      "service": "eva-veritas-mcp",
+      "tool_count": 5,
+      "uptime_seconds": 14
+    }
+  },
+  "tools_manifest": {
+    "endpoint": "GET /tools",
+    "tools": [
+      "audit_repo",
+      "get_trust_score",
+      "get_coverage",
+      "generate_ado_items",
+      "scan_portfolio"
+    ]
+  },
+  "tool_tests": [
+    {
+      "tool": "audit_repo",
+      "input": { "repo_path": "C:/AICOE/eva-foundation/48-eva-veritas" },
+      "result": { "trust_score": 88, "gap_count": 5, "coverage": "coverage object returned" },
+      "status": "[PASS]"
+    },
+    {
+      "tool": "get_coverage",
+      "input": { "repo_path": "C:/AICOE/eva-foundation/48-eva-veritas" },
+      "result": { "stories_total": 35, "stories_with_artifacts": 30, "stories_with_evidence": 27, "consistency_score": 1 },
+      "status": "[PASS]"
+    },
+    {
+      "tool": "get_trust_score",
+      "input": { "repo_path": "C:/AICOE/eva-foundation/48-eva-veritas" },
+      "result": { "score": 88, "components": "returned", "actions": "returned" },
+      "status": "[PASS]"
+    },
+    {
+      "tool": "generate_ado_items",
+      "input": { "repo_path": "C:/AICOE/eva-foundation/48-eva-veritas", "include_gaps": true },
+      "result": { "item_count": "gap items returned" },
+      "status": "[PASS]"
+    }
+  ],
+  "source_files": {
+    "EO-07-001": "src/mcp-server.js -- startServer(), GET /health, GET /tools, POST /tools/{name}",
+    "EO-07-002": "src/mcp-server.js -- handleAuditRepo()",
+    "EO-07-003": "src/mcp-server.js -- handleGetTrustScore()",
+    "EO-07-004": "src/mcp-server.js -- handleGetCoverage()",
+    "EO-07-005": "src/mcp-server.js -- handleGenerateAdoItems()",
+    "EO-07-006": "src/mcp-server.js -- handleScanPortfolio()"
+  }
+}

@@ -1,0 +1,362 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[01:36:51] === sweep6 START 2026-02-25 01:36:51 ===
+[01:36:51] [PASS] ACA: status=ok store=cosmos version=1.0.0
+[01:36:52] [INFO] ACA total objects before sweep: 963
+[01:36:52] [INFO] Projects found: 49
+[01:36:52] --- 01-documentation-generator ---
+[01:36:52]   [1] generate-plan --enrich
+[01:36:52]   [1] features=10 stories=11
+[01:36:52]   [2] audit
+[01:36:53]   [3] MTI=50  coverage=100%  covered=11/11  gaps=0
+[01:36:53]   [4] PUT OK rv=7
+[01:36:53] --- 02-poc-agent-skills ---
+[01:36:53]   [1] generate-plan --enrich
+[01:36:53]   [1] features=8 stories=18
+[01:36:53]   [2] audit
+[01:36:54]   [3] MTI=50  coverage=100%  covered=18/18  gaps=0
+[01:36:54]   [4] PUT OK rv=7
+[01:36:54] --- 03-poc-enhanced-docs ---
+[01:36:54]   [1] generate-plan --enrich
+[01:36:54]   [1] features=9 stories=20
+[01:36:54]   [2] audit
+[01:36:55]   [3] MTI=0  coverage=0%  covered=0/20  gaps=20
+[01:36:55]   [4] PUT OK rv=7
+[01:36:55] --- 04-os-vnext ---
+[01:36:55]   [1] generate-plan --enrich
+[01:36:55]   [1] features=4 stories=0
+[01:36:55]   [2] audit
+[01:36:56]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:36:56]   [4] PUT OK rv=7
+[01:36:56] --- 05-extract-cases ---
+[01:36:56]   [1] generate-plan --enrich
+[01:36:57]   [1] features=8 stories=8
+[01:36:57]   [2] audit
+[01:36:57]   [3] MTI=50  coverage=100%  covered=8/8  gaps=0
+[01:36:57]   [4] PUT OK rv=7
+[01:36:57] --- 06-jp-auto-extraction ---
+[01:36:57]   [1] generate-plan --enrich
+[01:36:58]   [1] features=16 stories=34
+[01:36:58]   [2] audit
+[01:36:58]   [3] MTI=50  coverage=100%  covered=34/34  gaps=0
+[01:36:58]   [4] PUT OK rv=7
+[01:36:58] --- 07-foundation-layer ---
+[01:36:58]   [1] generate-plan --enrich
+[01:36:59]   [1] features=9 stories=19
+[01:36:59]   [2] audit
+[01:36:59]   [3] MTI=50  coverage=100%  covered=19/19  gaps=0
+[01:37:00]   [4] PUT OK rv=7
+[01:37:00] --- 08-cds-rag ---
+[01:37:00]   [1] generate-plan --enrich
+[01:37:00]   [1] WARN: no veritas-plan.json
+[01:37:00]   [2] audit
+[01:37:01]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:37:01]   [4] PUT OK rv=7
+[01:37:01] --- 09-eva-repo-documentation ---
+[01:37:01]   [1] generate-plan --enrich
+[01:37:01]   [1] features=4 stories=6
+[01:37:01]   [2] audit
+[01:37:02]   [3] MTI=0  coverage=0%  covered=0/6  gaps=6
+[01:37:02]   [4] PUT OK rv=7
+[01:37:02] --- 10-mkdocs-poc ---
+[01:37:02]   [1] generate-plan --enrich
+[01:37:03]   [1] features=13 stories=26
+[01:37:03]   [2] audit
+[01:37:03]   [3] MTI=50  coverage=100%  covered=26/26  gaps=0
+[01:37:03]   [4] PUT OK rv=7
+[01:37:03] --- 11-ms-infojp ---
+[01:37:03]   [1] generate-plan --enrich
+[01:37:04]   [1] features=47 stories=323
+[01:37:04]   [2] audit
+[01:37:05]   [3] MTI=50  coverage=100%  covered=323/323  gaps=0
+[01:37:05]   [4] PUT OK rv=7
+[01:37:05] --- 12-work-spc-reorg ---
+[01:37:05]   [1] generate-plan --enrich
+[01:37:05]   [1] features=12 stories=40
+[01:37:05]   [2] audit
+[01:37:06]   [3] MTI=0  coverage=0%  covered=0/40  gaps=40
+[01:37:06]   [4] PUT OK rv=7
+[01:37:06] --- 13-vscode-tools ---
+[01:37:06]   [1] generate-plan --enrich
+[01:37:06]   [1] features=13 stories=40
+[01:37:06]   [2] audit
+[01:37:07]   [3] MTI=50  coverage=100%  covered=40/40  gaps=0
+[01:37:07]   [4] PUT OK rv=7
+[01:37:07] --- 14-az-finops ---
+[01:37:07]   [1] generate-plan --enrich
+[01:37:07]   [1] features=9 stories=17
+[01:37:07]   [2] audit
+[01:37:08]   [3] MTI=50  coverage=100%  covered=17/17  gaps=0
+[01:37:08]   [4] PUT OK rv=7
+[01:37:08] --- 15-cdc ---
+[01:37:08]   [1] generate-plan --enrich
+[01:37:08]   [1] features=10 stories=1
+[01:37:08]   [2] audit
+[01:37:09]   [3] MTI=50  coverage=100%  covered=1/1  gaps=0
+[01:37:09]   [4] PUT OK rv=7
+[01:37:09] --- 16-engineered-case-law ---
+[01:37:09]   [1] generate-plan --enrich
+[01:37:10]   [1] features=14 stories=17
+[01:37:10]   [2] audit
+[01:37:10]   [3] MTI=50  coverage=100%  covered=17/17  gaps=0
+[01:37:10]   [4] PUT OK rv=7
+[01:37:10] --- 17-apim ---
+[01:37:10]   [1] generate-plan --enrich
+[01:37:11]   [1] features=13 stories=18
+[01:37:11]   [2] audit
+[01:37:11]   [3] MTI=50  coverage=100%  covered=18/18  gaps=0
+[01:37:11]   [4] PUT OK rv=7
+[01:37:11] --- 18-azure-best ---
+[01:37:11]   [1] generate-plan --enrich
+[01:37:12]   [1] WARN: no veritas-plan.json
+[01:37:12]   [2] audit
+[01:37:14]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:37:14]   [4] PUT OK rv=7
+[01:37:14] --- 19-ai-gov ---
+[01:37:14]   [1] generate-plan --enrich
+[01:37:14]   [1] features=2 stories=7
+[01:37:14]   [2] audit
+[01:37:15]   [3] MTI=50  coverage=100%  covered=7/7  gaps=0
+[01:37:15]   [4] PUT OK rv=8
+[01:37:15] --- 20-AssistMe ---
+[01:37:15]   [1] generate-plan --enrich
+[01:37:15]   [1] features=12 stories=15
+[01:37:15]   [2] audit
+[01:37:16]   [3] MTI=50  coverage=100%  covered=15/15  gaps=0
+[01:37:16]   [4] PUT OK rv=7
+[01:37:16] --- 21-habit-tracker ---
+[01:37:16]   [1] generate-plan --enrich
+[01:37:16]   [1] features=12 stories=31
+[01:37:16]   [2] audit
+[01:37:17]   [3] MTI=50  coverage=100%  covered=31/31  gaps=0
+[01:37:17]   [4] PUT OK rv=7
+[01:37:17] --- 22-rg-sandbox ---
+[01:37:17]   [1] generate-plan --enrich
+[01:37:17]   [1] features=13 stories=29
+[01:37:17]   [2] audit
+[01:37:18]   [3] MTI=50  coverage=100%  covered=29/29  gaps=0
+[01:37:18]   [4] PUT OK rv=7
+[01:37:18] --- 23-ei-dsst-rewrite ---
+[01:37:18]   [1] generate-plan --enrich
+[01:37:18]   [1] features=14 stories=4
+[01:37:18]   [2] audit
+[01:37:19]   [3] MTI=0  coverage=0%  covered=0/4  gaps=4
+[01:37:19]   [4] PUT OK rv=7
+[01:37:19] --- 24-eva-brain ---
+[01:37:19]   [1] generate-plan --enrich
+[01:37:20]   [1] features=18 stories=56
+[01:37:20]   [2] audit
+[01:37:20]   [3] MTI=50  coverage=100%  covered=56/56  gaps=0
+[01:37:20]   [4] PUT OK rv=7
+[01:37:20] --- 25-eva-suite ---
+[01:37:20]   [1] generate-plan --enrich
+[01:37:21]   [1] WARN: no veritas-plan.json
+[01:37:21]   [2] audit
+[01:37:21]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:37:21]   [4] PUT OK rv=7
+[01:37:21] --- 26-eva-gh ---
+[01:37:21]   [1] generate-plan --enrich
+[01:37:22]   [1] WARN: no veritas-plan.json
+[01:37:22]   [2] audit
+[01:37:26]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:37:26]   [4] PUT OK rv=7
+[01:37:26] --- 27-devbench ---
+[01:37:26]   [1] generate-plan --enrich
+[01:37:27]   [1] features=12 stories=9
+[01:37:27]   [2] audit
+[01:37:27]   [3] MTI=50  coverage=100%  covered=9/9  gaps=0
+[01:37:27]   [4] PUT OK rv=7
+[01:37:27] --- 28-rbac ---
+[01:37:27]   [1] generate-plan --enrich
+[01:37:28]   [1] features=20 stories=43
+[01:37:28]   [2] audit
+[01:37:28]   [3] MTI=0  coverage=0%  covered=0/43  gaps=43
+[01:37:28]   [4] PUT OK rv=7
+[01:37:28] --- 29-foundry ---
+[01:37:28]   [1] generate-plan --enrich
+[01:37:29]   [1] features=21 stories=58
+[01:37:29]   [2] audit
+[01:37:30]   [3] MTI=91  coverage=100%  covered=58/58  gaps=35
+[01:37:30]   [4] PUT OK rv=7
+[01:37:30] --- 30-ui-bench ---
+[01:37:30]   [1] generate-plan --enrich
+[01:37:30]   [1] WARN: no veritas-plan.json
+[01:37:30]   [2] audit
+[01:37:31]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:37:31]   [4] PUT OK rv=7
+[01:37:31] --- 31-eva-faces ---
+[01:37:31]   [1] generate-plan --enrich
+[01:37:31]   [1] features=22 stories=74
+[01:37:31]   [2] audit
+[01:37:32]   [3] MTI=92  coverage=100%  covered=74/74  gaps=0
+[01:37:32]   [4] PUT OK rv=11
+[01:37:32] --- 32-logging ---
+[01:37:32]   [1] generate-plan --enrich
+[01:37:33]   [1] WARN: no veritas-plan.json
+[01:37:33]   [2] audit
+[01:37:33]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:37:33]   [4] PUT OK rv=7
+[01:37:33] --- 33-eva-brain-v2 ---
+[01:37:33]   [1] generate-plan --enrich
+[01:37:34]   [1] features=39 stories=111
+[01:37:34]   [2] audit
+[01:37:35]   [3] MTI=84  coverage=100%  covered=111/111  gaps=4
+[01:37:35]   [4] PUT OK rv=9
+[01:37:35] --- 34-AIRA ---
+[01:37:35]   [1] generate-plan --enrich
+[01:37:35]   [1] WARN: no veritas-plan.json
+[01:37:35]   [2] audit
+[01:37:35]   [3] MTI=0  coverage=0%  covered=0/0  gaps=0
+[01:37:36]   [4] PUT OK rv=5
+[01:37:36] --- 35-agentic-code-fixing ---
+[01:37:36]   [1] generate-plan --enrich
+[01:37:36]   [1] features=19 stories=24
+[01:37:36]   [2] audit
+[01:37:37]   [3] MTI=50  coverage=100%  covered=24/24  gaps=0
+[01:37:37]   [4] PUT OK rv=7
+[01:37:37] --- 36-red-teaming ---
+[01:37:37]   [1] generate-plan --enrich
+[01:37:37]   [1] features=17 stories=14
+[01:37:37]   [2] audit
+[01:37:38]   [3] MTI=50  coverage=100%  covered=14/14  gaps=0
+[01:37:38]   [4] PUT OK rv=7
+[01:37:38] --- 37-data-model ---
+[01:37:38]   [1] generate-plan --enrich
+[01:37:39]   [1] features=24 stories=61
+[01:37:39]   [2] audit
+[01:37:39]   [3] MTI=86  coverage=100%  covered=61/61  gaps=0
+[01:37:40]   [4] PUT OK rv=8
+[01:37:40] --- 38-ado-poc ---
+[01:37:40]   [1] generate-plan --enrich
+[01:37:40]   [1] features=6 stories=13
+[01:37:40]   [2] audit
+[01:37:40]   [3] MTI=50  coverage=100%  covered=13/13  gaps=0
+[01:37:41]   [4] PUT OK rv=7
+[01:37:41] --- 39-ado-dashboard ---
+[01:37:41]   [1] generate-plan --enrich
+[01:37:41]   [1] features=8 stories=26
+[01:37:41]   [2] audit
+[01:37:42]   [3] MTI=50  coverage=100%  covered=26/26  gaps=0
+[01:37:42]   [4] PUT OK rv=7
+[01:37:42] --- 40-eva-control-plane ---
+[01:37:42]   [1] generate-plan --enrich
+[01:37:42]   [1] features=13 stories=10
+[01:37:42]   [2] audit
+[01:37:43]   [3] MTI=50  coverage=100%  covered=10/10  gaps=0
+[01:37:43]   [4] PUT OK rv=7
+[01:37:43] --- 41-eva-cli ---
+[01:37:43]   [1] generate-plan --enrich
+[01:37:43]   [1] features=10 stories=12
+[01:37:43]   [2] audit
+[01:37:44]   [3] MTI=50  coverage=100%  covered=12/12  gaps=0
+[01:37:44]   [4] PUT OK rv=7
+[01:37:44] --- 42-learn-foundry ---
+[01:37:44]   [1] generate-plan --enrich
+[01:37:48]   [1] features=23 stories=102
+[01:37:48]   [2] audit
+[01:38:00]   [3] MTI=50  coverage=100%  covered=102/102  gaps=0
+[01:38:00]   [4] PUT OK rv=7
+[01:38:00] --- 43-spark ---
+[01:38:00]   [1] generate-plan --enrich
+[01:38:01]   [1] features=12 stories=5
+[01:38:01]   [2] audit
+[01:38:01]   [3] MTI=0  coverage=0%  covered=0/5  gaps=5
+[01:38:01]   [4] PUT OK rv=8
+[01:38:01] --- 44-eva-jp-spark ---
+[01:38:01]   [1] generate-plan --enrich
+[01:38:02]   [1] features=9 stories=37
+[01:38:02]   [2] audit
+[01:38:02]   [3] MTI=51  coverage=100%  covered=37/37  gaps=3
+[01:38:03]   [4] PUT OK rv=9
+[01:38:03] --- 45-aicoe-page ---
+[01:38:03]   [1] generate-plan --enrich
+[01:38:03]   [1] features=7 stories=26
+[01:38:03]   [2] audit
+[01:38:04]   [3] MTI=58  coverage=100%  covered=26/26  gaps=0
+[01:38:04]   [4] PUT OK rv=10
+[01:38:04] --- 46-accelerator ---
+[01:38:04]   [1] generate-plan --enrich
+[01:38:04]   [1] features=6 stories=23
+[01:38:04]   [2] audit
+[01:38:05]   [3] MTI=70  coverage=100%  covered=23/23  gaps=0
+[01:38:05]   [4] PUT OK rv=7
+[01:38:05] --- 47-eva-mti ---
+[01:38:05]   [1] generate-plan --enrich
+[01:38:05]   [1] features=3 stories=5
+[01:38:05]   [2] audit
+[01:38:06]   [3] MTI=50  coverage=100%  covered=5/5  gaps=0
+[01:38:06]   [4] PUT OK rv=8
+[01:38:06] --- 48-eva-veritas ---
+[01:38:06]   [1] generate-plan --enrich
+[01:38:06]   [1] features=18 stories=66
+[01:38:06]   [2] audit
+[01:38:07]   [3] MTI=92  coverage=100%  covered=66/66  gaps=0
+[01:38:07]   [4] PUT OK rv=8
+[01:38:07] --- 49-eva-dtl ---
+[01:38:07]   [1] generate-plan --enrich
+[01:38:08]   [1] features=8 stories=24
+[01:38:08]   [2] audit
+[01:38:08]   [3] MTI=97  coverage=100%  covered=24/24  gaps=14
+[01:38:08]   [4] PUT OK rv=9
+[01:38:08] 
+[01:38:08] === RESULTS TABLE ===
+[01:38:08] 
+[01:38:08] 
+project                    mti coverage covered stories gaps features in_model
+-------                    --- -------- ------- ------- ---- -------- --------
+01-documentation-generator  50   100.00   11.00   11.00    0       10     True
+02-poc-agent-skills         50   100.00   18.00   18.00    0        8     True
+03-poc-enhanced-docs         0     0.00    0.00   20.00   20        9     True
+04-os-vnext                  0        0    0.00    0.00    0        4     True
+05-extract-cases            50   100.00    8.00    8.00    0        8     True
+06-jp-auto-extraction       50   100.00   34.00   34.00    0       16     True
+07-foundation-layer         50   100.00   19.00   19.00    0        9     True
+08-cds-rag                   0        0    0.00       0    0        0     True
+09-eva-repo-documentation    0     0.00    0.00    6.00    6        4     True
+10-mkdocs-poc               50   100.00   26.00   26.00    0       13     True
+11-ms-infojp                50   100.00  323.00  323.00    0       47     True
+12-work-spc-reorg            0     0.00    0.00   40.00   40       12     True
+13-vscode-tools             50   100.00   40.00   40.00    0       13     True
+14-az-finops                50   100.00   17.00   17.00    0        9     True
+15-cdc                      50   100.00    1.00    1.00    0       10     True
+16-engineered-case-law      50   100.00   17.00   17.00    0       14     True
+17-apim                     50   100.00   18.00   18.00    0       13     True
+18-azure-best                0        0    0.00       0    0        0     True
+19-ai-gov                   50   100.00    7.00    7.00    0        2     True
+20-AssistMe                 50   100.00   15.00   15.00    0       12     True
+21-habit-tracker            50   100.00   31.00   31.00    0       12     True
+22-rg-sandbox               50   100.00   29.00   29.00    0       13     True
+23-ei-dsst-rewrite           0     0.00    0.00    4.00    4       14     True
+24-eva-brain                50   100.00   56.00   56.00    0       18     True
+25-eva-suite                 0        0    0.00       0    0        0     True
+26-eva-gh                    0        0    0.00       0    0        0     True
+27-devbench                 50   100.00    9.00    9.00    0       12     True
+28-rbac                      0     0.00    0.00   43.00   43       20     True
+29-foundry                  91   100.00   58.00   58.00   35       21     True
+30-ui-bench                  0        0    0.00       0    0        0     True
+31-eva-faces                92   100.00   74.00   74.00    0       22     True
+32-logging                   0        0    0.00       0    0        0     True
+33-eva-brain-v2             84   100.00  111.00  111.00    4       39     True
+34-AIRA                      0        0    0.00       0    0        0     True
+35-agentic-code-fixing      50   100.00   24.00   24.00    0       19     True
+36-red-teaming              50   100.00   14.00   14.00    0       17     True
+37-data-model               86   100.00   61.00   61.00    0       24     True
+38-ado-poc                  50   100.00   13.00   13.00    0        6     True
+39-ado-dashboard            50   100.00   26.00   26.00    0        8     True
+40-eva-control-plane        50   100.00   10.00   10.00    0       13     True
+41-eva-cli                  50   100.00   12.00   12.00    0       10     True
+42-learn-foundry            50   100.00  102.00  102.00    0       23     True
+43-spark                     0     0.00    0.00    5.00    5       12     True
+44-eva-jp-spark             51   100.00   37.00   37.00    3        9     True
+45-aicoe-page               58   100.00   26.00   26.00    0        7     True
+46-accelerator              70   100.00   23.00   23.00    0        6     True
+47-eva-mti                  50   100.00    5.00    5.00    0        3     True
+48-eva-veritas              92   100.00   66.00   66.00    0       18     True
+49-eva-dtl                  97   100.00   24.00   24.00   14        8     True
+
+
+[01:38:08] Results JSON: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep6\sweep6-results.json
+[01:38:08] [5] POST admin/commit
+[01:38:10] [5] status=FAIL violations=0 exported=963
+[01:38:10] [PASS] Commit clean
+[01:38:11] === sweep6 DONE 2026-02-25 01:38:11 ===
+[01:38:11] Evidence dir: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-sweep6

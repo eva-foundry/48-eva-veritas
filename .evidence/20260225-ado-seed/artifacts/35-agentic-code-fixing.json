@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.0613960-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/35-agentic-code-fixing",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-35",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "35-agentic-code-fixing",
+    "description": "35-agentic-code-fixing",
+    "tags": "35-agentic-code-fixing;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F35-01",
+      "type": "Feature",
+      "title": "Overview",
+      "description": "Overview",
+      "tags": "35-agentic-code-fixing;F35-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-02",
+      "type": "Feature",
+      "title": "Why This Matters",
+      "description": "Why This Matters",
+      "tags": "35-agentic-code-fixing;F35-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-03",
+      "type": "Feature",
+      "title": "Technology Stack",
+      "description": "Technology Stack",
+      "tags": "35-agentic-code-fixing;F35-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-04",
+      "type": "Feature",
+      "title": "Architecture",
+      "description": "Architecture",
+      "tags": "35-agentic-code-fixing;F35-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-05",
+      "type": "Feature",
+      "title": "The 4-Phase Workflow",
+      "description": "The 4-Phase Workflow",
+      "tags": "35-agentic-code-fixing;F35-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-06",
+      "type": "Feature",
+      "title": "Security Considerations",
+      "description": "Security Considerations",
+      "tags": "35-agentic-code-fixing;F35-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-07",
+      "type": "Feature",
+      "title": "Project Structure",
+      "description": "Project Structure",
+      "tags": "35-agentic-code-fixing;F35-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-08",
+      "type": "Feature",
+      "title": "Quick Start",
+      "description": "Quick Start",
+      "tags": "35-agentic-code-fixing;F35-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-09",
+      "type": "Feature",
+      "title": "Configuration",
+      "description": "Configuration",
+      "tags": "35-agentic-code-fixing;F35-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-10",
+      "type": "Feature",
+      "title": "Demo Repository",
+      "description": "Demo Repository",
+      "tags": "35-agentic-code-fixing;F35-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-11",
+      "type": "Feature",
+      "title": "Web Dashboard Features",
+      "description": "Web Dashboard Features",
+      "tags": "35-agentic-code-fixing;F35-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-12",
+      "type": "Feature",
+      "title": "Real-World Extensions",
+      "description": "Real-World Extensions",
+      "tags": "35-agentic-code-fixing;F35-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-13",
+      "type": "Feature",
+      "title": "Key Takeaways",
+      "description": "Key Takeaways",
+      "tags": "35-agentic-code-fixing;F35-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-14",
+      "type": "Feature",
+      "title": "Resources",
+      "description": "Resources",
+      "tags": "35-agentic-code-fixing;F35-14",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-15",
+      "type": "Feature",
+      "title": "Next Steps",
+      "description": "Next Steps",
+      "tags": "35-agentic-code-fixing;F35-15",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-STATUS",
+      "type": "Feature",
+      "title": "STATUS API",
+      "description": "STATUS API",
+      "tags": "35-agentic-code-fixing;F35-STATUS",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-PREFLIGHT",
+      "type": "Feature",
+      "title": "PREFLIGHT API",
+      "description": "PREFLIGHT API",
+      "tags": "35-agentic-code-fixing;F35-PREFLIGHT",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-RUN",
+      "type": "Feature",
+      "title": "RUN API",
+      "description": "RUN API",
+      "tags": "35-agentic-code-fixing;F35-RUN",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F35-OPS",
+      "type": "Feature",
+      "title": "Operations Scripts",
+      "description": "Operations Scripts",
+      "tags": "35-agentic-code-fixing;F35-OPS",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F35-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-01-001] Key Features",
+      "acceptance_criteria": "Key Features",
+      "tags": "35-agentic-code-fixing;F35-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-01",
+      "state": "New",
+      "wbs_id": "F35-01-001"
+    },
+    {
+      "id_hint": "F35-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-03-001] GitHub Copilot SDK",
+      "acceptance_criteria": "GitHub Copilot SDK",
+      "tags": "35-agentic-code-fixing;F35-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-03",
+      "state": "New",
+      "wbs_id": "F35-03-001"
+    },
+    {
+      "id_hint": "F35-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F35-03-002] Azure Foundry Local",
+      "acceptance_criteria": "Azure Foundry Local",
+      "tags": "35-agentic-code-fixing;F35-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-03",
+      "state": "New",
+      "wbs_id": "F35-03-002"
+    },
+    {
+      "id_hint": "F35-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F35-03-003] BYOK Integration",
+      "acceptance_criteria": "BYOK Integration",
+      "tags": "35-agentic-code-fixing;F35-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-03",
+      "state": "New",
+      "wbs_id": "F35-03-003"
+    },
+    {
+      "id_hint": "F35-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-05-001] Phase 1: PLAN ??",
+      "acceptance_criteria": "Phase 1: PLAN ??",
+      "tags": "35-agentic-code-fixing;F35-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-05",
+      "state": "New",
+      "wbs_id": "F35-05-001"
+    },
+    {
+      "id_hint": "F35-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F35-05-002] Phase 2: EDIT ??",
+      "acceptance_criteria": "Phase 2: EDIT ??",
+      "tags": "35-agentic-code-fixing;F35-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-05",
+      "state": "New",
+      "wbs_id": "F35-05-002"
+    },
+    {
+      "id_hint": "F35-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F35-05-003] Phase 3: VERIFY ?",
+      "acceptance_criteria": "Phase 3: VERIFY ?",
+      "tags": "35-agentic-code-fixing;F35-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-05",
+      "state": "New",
+      "wbs_id": "F35-05-003"
+    },
+    {
+      "id_hint": "F35-05-004",
+      "type": "Product Backlog Item",
+      "title": "[F35-05-004] Phase 4: SUMMARY ??",
+      "acceptance_criteria": "Phase 4: SUMMARY ??",
+      "tags": "35-agentic-code-fixing;F35-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-05",
+      "state": "New",
+      "wbs_id": "F35-05-004"
+    },
+    {
+      "id_hint": "F35-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-08-001] Prerequisites",
+      "acceptance_criteria": "Prerequisites",
+      "tags": "35-agentic-code-fixing;F35-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-08",
+      "state": "New",
+      "wbs_id": "F35-08-001"
+    },
+    {
+      "id_hint": "F35-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F35-08-002] One-Command Setup",
+      "acceptance_criteria": "One-Command Setup",
+      "tags": "35-agentic-code-fixing;F35-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-08",
+      "state": "New",
+      "wbs_id": "F35-08-002"
+    },
+    {
+      "id_hint": "F35-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F35-08-003] Run the Agent",
+      "acceptance_criteria": "Run the Agent",
+      "tags": "35-agentic-code-fixing;F35-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-08",
+      "state": "New",
+      "wbs_id": "F35-08-003"
+    },
+    {
+      "id_hint": "F35-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-09-001] Using Different Models",
+      "acceptance_criteria": "Using Different Models",
+      "tags": "35-agentic-code-fixing;F35-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-09",
+      "state": "New",
+      "wbs_id": "F35-09-001"
+    },
+    {
+      "id_hint": "F35-STATUS-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-STATUS-001] GET /api/status",
+      "acceptance_criteria": "GET /api/status",
+      "tags": "35-agentic-code-fixing;F35-STATUS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-STATUS",
+      "state": "New",
+      "wbs_id": "F35-STATUS-001"
+    },
+    {
+      "id_hint": "F35-PREFLIGHT-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-PREFLIGHT-001] GET /api/preflight",
+      "acceptance_criteria": "GET /api/preflight",
+      "tags": "35-agentic-code-fixing;F35-PREFLIGHT-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-PREFLIGHT",
+      "state": "New",
+      "wbs_id": "F35-PREFLIGHT-001"
+    },
+    {
+      "id_hint": "F35-RUN-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-RUN-001] POST /api/run",
+      "acceptance_criteria": "POST /api/run",
+      "tags": "35-agentic-code-fixing;F35-RUN-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-RUN",
+      "state": "New",
+      "wbs_id": "F35-RUN-001"
+    },
+    {
+      "id_hint": "F35-OPS-001",
+      "type": "Product Backlog Item",
+      "title": "[F35-OPS-001] header()",
+      "acceptance_criteria": "header()",
+      "tags": "35-agentic-code-fixing;F35-OPS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-OPS",
+      "state": "New",
+      "wbs_id": "F35-OPS-001"
+    },
+    {
+      "id_hint": "F35-OPS-002",
+      "type": "Product Backlog Item",
+      "title": "[F35-OPS-002] ok()",
+      "acceptance_criteria": "ok()",
+      "tags": "35-agentic-code-fixing;F35-OPS-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-OPS",
+      "state": "New",
+      "wbs_id": "F35-OPS-002"
+    },
+    {
+      "id_hint": "F35-OPS-003",
+      "type": "Product Backlog Item",
+      "title": "[F35-OPS-003] fail()",
+      "acceptance_criteria": "fail()",
+      "tags": "35-agentic-code-fixing;F35-OPS-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F35-OPS",
+      "state": "New",
+      "wbs_id": "F35-OPS-003"
+    }
+  ]
+}

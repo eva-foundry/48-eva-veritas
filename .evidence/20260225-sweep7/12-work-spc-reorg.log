@@ -1,0 +1,120 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\12-work-spc-reorg
+[INFO] Prefix: F12
+[PASS] Written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\veritas-plan.json
+       12 features, 40 stories, 7 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F12-01        2      0  Problem Statement
+  F12-02        3      0  Proposed Solution
+  F12-03        8      0  Implementation Plan
+  F12-04        4      0  Workspace Configurations
+  F12-05        6      0  Benefits
+  F12-06        2      0  Rollback Plan
+  F12-07        5      7  Post-Migration Tasks
+  F12-08       10      0  Success Criteria
+  F12-09        0      0  Timeline
+  F12-10        0      0  Next Steps
+  F12-11        0      0  Files in This Project
+  F12-12        0      0  References
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F12-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\12-work-spc-reorg
+[INFO] Using veritas-plan.json (format: veritas, 40 stories, 7 tasks)
+[INFO] Planned: 12 features, 40 stories
+[INFO] Actual: 6 artifacts, 40 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\12-work-spc-reorg\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Project 12: VS Code Workspace Reorganization
+=======================================
+Repo:    C:\AICOE\eva-foundation\12-work-spc-reorg
+Planned: 12 features, 40 stories
+
+Coverage
+---------------------------------------
+Stories total:          40
+Stories with artifacts: 40
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F12-01     Problem Statement               2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F12-02     Proposed Solution               3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F12-03     Implementation Plan             8/8 artifacts  0/8 evidence  0 gaps
+[ 50] F12-04     Workspace Configurations        4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F12-05     Benefits                        6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F12-06     Rollback Plan                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F12-07     Post-Migration Tasks            5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F12-08     Success Criteria                10/10 artifacts  0/10 evidence  0 gaps
+[  0] F12-09     Timeline                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F12-10     Next Steps                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F12-11     Files in This Project           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F12-12     References                      0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F12-01-001 -- Current Issues (1 artifact)
+[IMPL] F12-01-002 -- Current Structure (1 artifact)
+[IMPL] F12-02-001 -- Organizational Principles (1 artifact)
+[IMPL] F12-02-002 -- Target Structure (1 artifact)
+[IMPL] F12-02-003 -- Path Length Comparison (1 artifact)
+[IMPL] F12-03-001 -- Phase 1: Backup (5 minutes) (1 artifact)
+[IMPL] F12-03-002 -- Phase 2: Create New Structure (2 minutes) (1 artifact)
+[IMPL] F12-03-003 -- Phase 3: Move Active Projects (5 minutes) (1 artifact)
+[IMPL] F12-03-004 -- Phase 4: Organize All Projects (10 minutes) (1 artifact)
+[IMPL] F12-03-005 -- Phase 5: Move Reference Repos (5 minutes) (1 artifact)
+[IMPL] F12-03-006 -- Phase 6: Create Convenience Shortcuts (1 minute) (1 artifact)
+[IMPL] F12-03-007 -- Phase 7: Create VS Code Workspaces (5 minutes) (1 artifact)
+[IMPL] F12-03-008 -- Phase 8: Update Documentation (10 minutes) (1 artifact)
+[IMPL] F12-04-001 -- 1. `active-work.code-workspace` (Daily Driver) (1 artifact)
+[IMPL] F12-04-002 -- 2. `ms-infojp.code-workspace` (MS-InfoJP Focused) (1 artifact)
+[IMPL] F12-04-003 -- 3. `jp-automation.code-workspace` (JP Automation Focused) (1 artifact)
+[IMPL] F12-04-004 -- 4. `all-references.code-workspace` (Code Comparison) (1 artifact)
+[IMPL] F12-05-001 -- 1. **Shorter Paths** (1 artifact)
+[IMPL] F12-05-002 -- 2. **Clear Organization** (1 artifact)
+[IMPL] F12-05-003 -- 3. **Focused Workspaces** (1 artifact)
+[IMPL] F12-05-004 -- 4. **Easy Scaling** (1 artifact)
+[IMPL] F12-05-005 -- 5. **Better Git Workflows** (1 artifact)
+[IMPL] F12-05-006 -- 6. **Discoverability** (1 artifact)
+[IMPL] F12-06-001 -- Option A: Automated Rollback (1 artifact)
+[IMPL] F12-06-002 -- Option B: Manual Rollback (1 artifact)
+[IMPL] F12-07-001 -- 1. Update Hardcoded Paths in Scripts (1 artifact)
+[IMPL] F12-07-002 -- 2. Update Project Documentation (1 artifact)
+[IMPL] F12-07-003 -- 3. Update VS Code Settings (1 artifact)
+[IMPL] F12-07-004 -- 4. Update Git Ignore Patterns (1 artifact)
+[IMPL] F12-07-005 -- 5. Verify All Symlinks Work (1 artifact)
+[IMPL] F12-08-001 -- All active projects accessible at `I:\_active\[project-name]` (1 artifact)
+[IMPL] F12-08-002 -- All projects organized in flat `I:\_projects\` structure (1 artifact)
+[IMPL] F12-08-003 -- Reference repos in `I:\_reference\` (1 artifact)
+[IMPL] F12-08-004 -- VS Code workspaces created and tested (1 artifact)
+[IMPL] F12-08-005 -- MS-InfoJP deployment runs without path errors (1 artifact)
+[IMPL] F12-08-006 -- JP automation scripts work with new paths (1 artifact)
+[IMPL] F12-08-007 -- Bash scripts (if any) work without modification (1 artifact)
+[IMPL] F12-08-008 -- All symlinks functional (1 artifact)
+[IMPL] F12-08-009 -- Documentation updated (1 artifact)
+[IMPL] F12-08-010 -- No broken links in VS Code (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

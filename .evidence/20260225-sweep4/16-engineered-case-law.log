@@ -1,0 +1,133 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\16-engineered-case-law
+[INFO] Prefix: F16
+[PASS] Written: C:\AICOE\eva-foundation\16-engineered-case-law\.eva\veritas-plan.json
+       14 features, 17 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F16-01        0      0  Status
+  F16-02        0      0  1. Context and Problem Statement
+  F16-03        0      0  2. What ?Engineered Case Law? Means
+  F16-04        4      0  3. Core Principles (Non-Negotiable)
+  F16-05        0      0  4. High-Level Ingestion Flow
+  F16-06        3      0  5. Artifact Strategy
+  F16-07        2      0  6. Text Extraction Strategy (Cost-Optimal)
+  F16-08        0      0  7. Bilingual Handling
+  F16-09        3      0  8. Engineered Case Law Generation (ECL v2.1)
+  F16-10        0      0  9. EVA DA Ingestion and Testing
+  F16-11        3      0  10. Measuring ?Does This Work??
+  F16-12        0      0  11. Known Risks (Acknowledged)
+  F16-13        0      0  12. What This Enables
+  F16-14        2      0  13. Completed Achievements & Next Steps
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F16-04-001
+[INFO] Discovering: C:\AICOE\eva-foundation\16-engineered-case-law
+[INFO] Using veritas-plan.json (format: veritas, 17 stories, 0 tasks)
+[INFO] Planned: 14 features, 17 stories
+[INFO] Actual: 45 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\16-engineered-case-law\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\16-engineered-case-law\.eva\reconciliation.json
+[INFO] Gaps: 17
+[PASS] trust written: C:\AICOE\eva-foundation\16-engineered-case-law\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: JP Engineered Case Law
+=======================================
+Repo:    C:\AICOE\eva-foundation\16-engineered-case-law
+Planned: 14 features, 17 stories
+
+Coverage
+---------------------------------------
+Stories total:          17
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F16-04-001 -- 3.1 The corpus is process-managed, not snapshot-managed
+[FAIL] missing_implementation :: F16-04-002 -- 3.2 CanLII is the authoritative discovery layer
+[FAIL] missing_implementation :: F16-04-003 -- 3.3 Case is the canonical unit
+[FAIL] missing_implementation :: F16-04-004 -- 3.4 Cost must scale with *change*, not corpus size
+[FAIL] missing_implementation :: F16-06-001 -- 5.1 PoC Approach: SQLite as Convenience Source
+[FAIL] missing_implementation :: F16-06-002 -- 5.2 PDFs (Referenced, Not Re-Extracted)
+[FAIL] missing_implementation :: F16-06-003 -- 5.3 HTML Pages (Metadata Source)
+[FAIL] missing_implementation :: F16-07-001 -- Default Path
+[FAIL] missing_implementation :: F16-07-002 -- Selective OCR
+[FAIL] missing_implementation :: F16-09-001 -- 8.1 Canonical Case Text
+[FAIL] missing_implementation :: F16-09-002 -- 8.2 Micro-Header Chunking System (EPIC 6 - 80% Complete)
+[FAIL] missing_implementation :: F16-09-003 -- 8.3 ECL v2.1 Document Structure
+[FAIL] missing_implementation :: F16-11-001 -- 10.1 Retrieval Quality
+[FAIL] missing_implementation :: F16-11-002 -- 10.2 Citation Correctness
+[FAIL] missing_implementation :: F16-11-003 -- 10.3 Freshness and Coverage
+[FAIL] missing_implementation :: F16-14-001 -- ? Completed (February 1, 2026)
+[FAIL] missing_implementation :: F16-14-002 -- ? Next Steps (PoC Phase Priority)
+
+Feature Breakdown
+---------------------------------------
+[  0] F16-04     3. Core Principles (Non-Negoti  0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F16-06     5. Artifact Strategy            0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F16-09     8. Engineered Case Law Generat  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F16-11     10. Measuring ?Does This Work?  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F16-07     6. Text Extraction Strategy (C  0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F16-14     13. Completed Achievements & N  0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F16-01     Status                          0/0 artifacts  0/0 evidence  0 gaps
+[  0] F16-02     1. Context and Problem Stateme  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F16-03     2. What ?Engineered Case Law?   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F16-05     4. High-Level Ingestion Flow    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F16-08     7. Bilingual Handling           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F16-10     9. EVA DA Ingestion and Testin  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F16-12     11. Known Risks (Acknowledged)  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F16-13     12. What This Enables           0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 17 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 24 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 31 more stories with # EVA-STORY
+
+[ACT] 17 unimplemented stories by feature (highest priority first):
+      F16-04 3. Core Principles (Non-Negotiable) (4 gaps)
+        - F16-04-001 -- 3.1 The corpus is process-managed, not snapshot-managed
+        - F16-04-002 -- 3.2 CanLII is the authoritative discovery layer
+        - F16-04-003 -- 3.3 Case is the canonical unit
+        - F16-04-004 -- 3.4 Cost must scale with *change*, not corpus size
+      F16-06 5. Artifact Strategy (3 gaps)
+        - F16-06-001 -- 5.1 PoC Approach: SQLite as Convenience Source
+        - F16-06-002 -- 5.2 PDFs (Referenced, Not Re-Extracted)
+        - F16-06-003 -- 5.3 HTML Pages (Metadata Source)
+      F16-09 8. Engineered Case Law Generation (ECL v2.1) (3 gaps)
+        - F16-09-001 -- 8.1 Canonical Case Text
+        - F16-09-002 -- 8.2 Micro-Header Chunking System (EPIC 6 - 80% Complete)
+        - F16-09-003 -- 8.3 ECL v2.1 Document Structure
+      F16-11 10. Measuring ?Does This Work?? (3 gaps)
+        - F16-11-001 -- 10.1 Retrieval Quality
+        - F16-11-002 -- 10.2 Citation Correctness
+        - F16-11-003 -- 10.3 Freshness and Coverage
+      F16-07 6. Text Extraction Strategy (Cost-Optimal) (2 gaps)
+        - F16-07-001 -- Default Path
+        - F16-07-002 -- Selective OCR
+      F16-14 13. Completed Achievements & Next Steps (2 gaps)
+        - F16-14-001 -- ? Completed (February 1, 2026)
+        - F16-14-002 -- ? Next Steps (PoC Phase Priority)
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

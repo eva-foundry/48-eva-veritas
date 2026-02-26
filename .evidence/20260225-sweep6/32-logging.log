@@ -1,0 +1,57 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\32-logging
+[INFO] Prefix: F32
+[WARN] No features detected.
+[HINT] Make sure PLAN.md or README.md contains ## headings.
+[HINT] Phase/Sprint headings are supported: ## Phase 1 - Title
+C:\AICOE\eva-foundation\48-eva-veritas\src\generate-plan.js:170
+  for (const t of inferred.tasks) {
+                           ^
+
+TypeError: inferred.tasks is not iterable
+    at generatePlan (C:\AICOE\eva-foundation\48-eva-veritas\src\generate-plan.js:170:28)
+    at Command.<anonymous> (C:\AICOE\eva-foundation\48-eva-veritas\src\cli.js:110:11)
+    at Command.listener [as _actionHandler] (C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:542:17)
+    at C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:1502:14
+    at Command._chainOrCall (C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:1386:12)
+    at Command._parseCommand (C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:1501:27)
+    at C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:1265:27
+    at Command._chainOrCall (C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:1386:12)
+    at Command._dispatchSubcommand (C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:1261:25)
+    at Command._parseCommand (C:\AICOE\eva-foundation\48-eva-veritas\node_modules\commander\lib\command.js:1457:19)
+
+Node.js v24.12.0
+[INFO] Discovering: C:\AICOE\eva-foundation\32-logging
+[INFO] Planned: 0 features, 0 stories
+[INFO] Actual: 2 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\32-logging\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\32-logging\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\32-logging\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: 32-logging
+=======================================
+Repo:    C:\AICOE\eva-foundation\32-logging
+Planned: 0 features, 0 stories
+
+Coverage
+---------------------------------------
+Stories total:          0
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=undefined evidence=undefined consistency=undefined
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

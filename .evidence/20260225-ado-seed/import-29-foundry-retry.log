@@ -1,0 +1,165 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0910-ado-import-artifacts-live.log
+
+=== ADO Import: 29-foundry ===
+Project maturity : active
+GitHub repo      : eva-foundry/29-foundry
+Dry run          : False
+
+Epic: existing id=1906 - '29-foundry'
+Feature: existing id=1907 - 'Governance Bootstrap'
+Feature: existing id=1908 - 'Separation of Concerns ? Three-Plane Architecture'
+Feature: existing id=1909 - 'Pre-flight Checklist'
+Feature: existing id=1910 - 'Source Asset Inventory'
+Feature: existing id=1911 - 'Epic P ? Folder Hygiene (extract samples, clean root)'
+Feature: existing id=1912 - 'Epic 1 ? Import eva-faces Skills (Azure Plane ? App)'
+Feature: existing id=1913 - 'Epic 2 ? Import eva-brain-v2 Skills (Azure Plane ? App, UI-Exposed)'
+Feature: existing id=1914 - 'Epic 3 ? Import Agent Implementations (Plane-Organised) [PASS] COMPLETE 2026-02-21'
+Feature: existing id=1915 - 'Epic 4 ? session-workflow-agent Server'
+Feature: existing id=1916 - 'Epic 5 ? Skill Catalog Repair'
+Feature: existing id=1917 - 'Epic 6 ? MCP Servers for Imported Agents (Plane-Tagged)'
+Feature: existing id=1918 - 'Epic 7 ? GitHub Org Alignment (eva-foundry)'
+Feature: existing id=1919 - 'Epic 8 ? Prompts & Prompty Library (EI Domain)'
+Feature: existing id=1920 - 'Fixes (Current Known Issues)'
+Feature: existing id=1921 - 'Session Sequence'
+Feature: existing id=1922 - 'Sprint Breakdown'
+Feature: existing id=1923 - 'Directory Tree ? Target State'
+Feature: existing id=924 - 'Constraints'
+Feature: existing id=1924 - 'Definition of Done'
+Feature: existing id=437 - 'HEALTH API'
+Feature: existing id=1925 - 'AGENTS API'
+PBI: existing id=1926 - '[F29-00-001] Fix copilot-instructions strip-audit bug'
+PBI: existing id=1927 - '[F29-00-002] Create governance files'
+PBI: existing id=1928 - '[F29-01-001] Plane Assignment for Assets Being Imported'
+PBI: existing id=1929 - '[F29-01-002] Skill Directory Structure ? Plane-Based'
+PBI: existing id=1930 - '[F29-01-003] Audit copilot-skills directory vs skill-catalog'
+PBI: existing id=1931 - '[F29-01-004] Create task-specific .skill.md files for foundry core'
+PBI: existing id=1932 - '[F29-01-005] Run tests and confirm exit 0'
+PBI: existing id=1933 - '[F29-03-001] 31-eva-faces ? `.github/copilot-skills/`'
+PBI: existing id=1934 - '[F29-03-002] 31-eva-faces ? `agent-fleet/app/agents/`'
+PBI: existing id=1935 - '[F29-03-003] 33-eva-brain-v2 ? `.github/copilot-skills/`'
+PBI: existing id=1936 - '[F29-03-004] 33-eva-brain-v2 ? `services/eva-brain-api/app/`'
+PBI: existing id=1937 - '[F29-03-005] 29-foundry ? Current State'
+PBI: existing id=1938 - '[F29-04-001] What moves out of 29-foundry'
+PBI: existing id=1939 - '[F29-04-002] Feature P.1 ? Create 42-learn-foundry'
+PBI: existing id=1940 - '[F29-04-003] Feature P.2 ? Move sample/learning content'
+PBI: existing id=1941 - '[F29-04-004] Feature P.3 ? Archive stale root docs'
+PBI: existing id=1942 - '[F29-05-001] Feature 1.1 ? Create eva-faces skill directory in foundry'
+PBI: existing id=1943 - '[F29-06-001] Feature 2.1 ? Normalize brain-v2 skills to .skill.md format'
+PBI: existing id=1944 - '[F29-07-001] Feature 3.1 ? Scaffold agents/ package with plane sub-structure'
+PBI: existing id=1945 - '[F29-07-002] Feature 3.2 ? Azure Plane / App (UI-Exposed): ConversationAgent'
+PBI: existing id=1946 - '[F29-07-003] Feature 3.3 ? Azure Plane / Internal: ScreenGeneratorAgent, ValidatorAgent, TestGeneratorAgent'
+PBI: existing id=1947 - '[F29-07-004] Feature 3.4 ? GitHub Plane: session-workflow-agent patterns'
+PBI: existing id=1948 - '[F29-07-005] Feature 3.5 ? Import brain-v2 service layer into tools/ (Azure Plane foundations)'
+PBI: existing id=1949 - '[F29-08-001] Feature 4.1 ? HTTP Server and Authentication (Sprint-8) ? Session 5'
+PBI: existing id=1950 - '[F29-08-002] Feature 4.2 ? ADO Tool (Sprint-8) ? Session 5'
+PBI: existing id=1951 - '[F29-08-003] Feature 4.3 ? Shell Exec Tool (Sprint-8) ? Session 5'
+PBI: existing id=1952 - '[F29-08-004] Feature 4.4 ? DPDCA Phase Handlers (Sprint-8) ? Session 5'
+PBI: existing id=1953 - '[F29-08-005] Feature 4.5 ? Deployment (Sprint-9)'
+PBI: existing id=1954 - '[F29-09-001] Feature 5.1 ? Populate missing fields'
+PBI: existing id=1955 - '[F29-10-001] Feature 6.1 ? Azure Plane / App: eva-faces agent fleet MCP server'
+PBI: existing id=1956 - '[F29-10-002] Feature 6.2 ? Azure Plane / App: eva-brain conversation MCP server'
+PBI: existing id=1957 - '[F29-10-003] Feature 6.3 ? GitHub Plane: session-workflow MCP server'
+PBI: existing id=1958 - '[F29-10-004] Feature 6.4 ? Update `.vscode/mcp.json` index'
+PBI: existing id=1959 - '[F29-11-001] Feature 7.1 ? Package structure'
+PBI: existing id=1960 - '[F29-11-002] Feature 7.2 ? Documentation for org consumers'
+PBI: existing id=1961 - '[F29-12-001] Prompt Inventory (current state)'
+PBI: existing id=1962 - '[F29-12-002] Feature 8.1 ? Populate prompty-library/'
+PBI: existing id=1963 - '[F29-12-003] Feature 8.2 ? Wire prompts to agents and server handlers'
+PBI: existing id=1964 - '[F29-18-001] `python tools/validate-catalog.py` exits 0 with `totalSkills == 72` (updated from 63; 7 new Session-9 + 2 missing cross-cutting added)'
+PBI: existing id=1965 - '[F29-18-002] `jq '[.catalog.skills[] | select(.plane == "")] | length' skill-catalog.json` returns 0 (verified via Python)'
+PBI: existing id=1966 - '[F29-18-003] `pytest --no-cov -q` passes ? 78 passed, 1 skipped (agent-framework tests pass after stub dirs created)'
+PBI: existing id=1967 - '[F29-18-004] `POST /agents/session-workflow-agent/invoke` ? server starts, /health 200; phase 500s expected without real ADO_PAT/FOUNDRY_HUB_ENDPOINT credentials (SKIP_AUTH=true bypasses auth; business-logic 500 is expected without credentials)'
+PBI: existing id=1968 - '[F29-18-005] `from agents.azure_plane.app.conversation.conversation_agent import ConversationAgent` ? no ImportError'
+PBI: existing id=1969 - '[F29-18-006] `from agents.azure_plane.app.screen_generator.screen_agent import ScreenGeneratorAgent` ? no ImportError (path was screen_agent.py not screen_generator_agent.py; agents.json corrected)'
+PBI: existing id=1970 - '[F29-18-007] `from agents.azure_plane.internal.validator.validator_agent import ValidatorAgent` ? no ImportError'
+PBI: creating '[F29-18-008] Skill files by plane: 4 (github-plane) + 2 (azure-plane/control) + 3 (ado-plane) + 22 (azure/app/eva-faces) + 10 (azure/app/eva-brain-v2) + 6 (foundry core .md) + 7 (cross-cutting) = 54 on-disk; catalog total 72 (47 .skill.md + 6 foundry-c...'
+  -> PBI id=2718
+PBI: creating '[F29-18-009] No file modified under any numbered project folder other than `29-foundry/` (exception: `37-data-model/model/agents.json` path updates per Stories 3.2.2 + 3.3.4)'
+  -> PBI id=2719
+PBI: creating '[F29-18-010] `jq '.catalog.skills[] | select(.skill_id == "")' skill-catalog.json` returns empty'
+  -> PBI id=2720
+PBI: creating '[F29-18-011] `.github/workflows/validate-skills.yml` REQUIRED_FIELDS updated to `{"skill_id", "plane"}` ? CI will pass on next push'
+  -> PBI id=2721
+PBI: creating '[F29-18-012] `GET /model/agents/` on `37-data-model` agents.json: ConversationAgent has `skill_file` pointing to `29-foundry/agents/azure_plane/app/conversation/conversation_agent.py` ?'
+  -> PBI id=2722
+PBI: creating '[F29-18-013] `ls prompty-library/*.prompty | wc -l` returns 6 (5 conversation + 1 dpdca-plan) ?'
+  -> PBI id=2723
+PBI: creating '[F29-18-014] `cat prompty-library/catalog.json | python -m json.tool` exits 0 ?'
+  -> PBI id=2724
+PBI: creating '[F29-18-015] `grep -r "Prompty.load" agents/azure_plane/app/conversation/` returns 10 matches (>= 5) ?'
+  -> PBI id=2725
+PBI: creating '[F29-18-016] `grep -r "Prompty.load" server/phases/plan.py` returns 1 match ?'
+  -> PBI id=2726
+PBI: creating '[F29-HEALTH-001] GET /health'
+  -> PBI id=2727
+PBI: creating '[F29-AGENTS-001] POST /agents/session-workflow-agent/invoke'
+  -> PBI id=2728
+
+=== Import Summary: 29-foundry ===
+Epic id  : 1906
+Features : 21
+PBIs     : 56
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag           [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---           [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F29-00-001     1926 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-00-002     1927 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-01-001     1928 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-01-002     1929 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-01-003     1930 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-01-004     1931 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-01-005     1932 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-03-001     1933 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-03-002     1934 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-03-003     1935 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-03-004     1936 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-03-005     1937 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-04-001     1938 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-04-002     1939 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-04-003     1940 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-04-004     1941 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-05-001     1942 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-06-001     1943 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-07-001     1944 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-07-002     1945 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-07-003     1946 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-07-004     1947 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-07-005     1948 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-08-001     1949 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-08-002     1950 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-08-003     1951 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-08-004     1952 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-08-005     1953 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-09-001     1954 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-10-001     1955 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-10-002     1956 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-10-003     1957 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-10-004     1958 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-11-001     1959 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-11-002     1960 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-12-001     1961 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-12-002     1962 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-12-003     1963 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-001     1964 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-002     1965 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-003     1966 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-004     1967 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-005     1968 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-006     1969 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-007     1970 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-008     2718 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-009     2719 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-010     2720 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-011     2721 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-012     2722 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-013     2723 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-014     2724 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-015     2725 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-18-016     2726 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-HEALTH-001 2727 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+F29-AGENTS-001 2728 New   https://dev.azure.com/marcopresta/eva-poc/_workitems.
+

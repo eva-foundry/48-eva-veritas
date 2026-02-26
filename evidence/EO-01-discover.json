@@ -1,0 +1,20 @@
+{
+  "EVA-STORY": "EO-01-001",
+  "evidence_for": ["EO-01-001", "EO-01-002", "EO-01-003"],
+  "run_at": "2026-02-24T18:07:00Z",
+  "command": "node src/cli.js audit --repo .",
+  "result": {
+    "planned": { "features": 10, "stories": 31 },
+    "actual": { "artifacts": 26, "stories_tagged": 20 },
+    "status": "[PASS]",
+    "discovery_path": ".eva/discovery.json",
+    "sample_tagged_files": [
+      "src/lib/parse-docs.js (EVA-STORY: EO-01-001)",
+      "src/discover.js (EVA-STORY: EO-01-001)",
+      "src/lib/scan-repo.js (EVA-STORY: EO-01-002, EO-01-003)",
+      "src/lib/map-artifacts.js (EVA-STORY: EO-01-003)"
+    ]
+  },
+  "verdict": "PASS -- discover correctly parses governance docs and scans repo artifacts",
+  "notes": "EVA-STORY: EO-01-001 EVA-STORY: EO-01-002 EVA-STORY: EO-01-003"
+}

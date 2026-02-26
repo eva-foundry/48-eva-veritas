@@ -1,0 +1,205 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\31-eva-faces
+[INFO] Prefix: F31
+[PASS] Written: C:\AICOE\eva-foundation\31-eva-faces\.eva\veritas-plan.json
+       17 features, 60 stories, 125 tasks (0 story orphans)
+       Sources: docs/20260220-plan.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F31-01        0      0  Today's Execution Order
+  F31-02        0      0  Blocked WIs (not scheduled today)
+  F31-03        0      0  Integration Blockers Active
+  F31-04        5      9  Slot 1 ??? WI-11 ??? BackendApiClient.ts Contract Update
+  F31-05        5     11  Slot 2 ??? WI-EPIC-1 ??? Publish eva-ado-dashboard.epic.yaml
+  F31-06        5      6  Slot 3 ??? WI-ENV-1 ??? APIM environment variables
+  F31-07        0      0  Slots 4???8 ??? WI-12 thru WI-16 ??? Five Admin Screens (PARALLEL)
+  F31-08        5     13  Slot 4 ??? WI-12 ??? IngestionRunsPage
+  F31-09        5      9  Slot 5 ??? WI-13 ??? SearchHealthPage
+  F31-10        5      9  Slot 6 ??? WI-14 ??? SupportTicketsPage
+  F31-11        5     10  Slot 7 ??? WI-15 ??? FeatureFlagsPage
+  F31-12        5     11  Slot 8 ??? WI-16 ??? RbacRolesPage
+  F31-13        5     15  Slot 9 ??? WI-17 ??? EVAHomePage (static tiles)
+  F31-14        5     15  Slot 10 ??? WI-18 ??? SprintBoardPage (static shell)
+  F31-15        5      8  Slot 11 ??? WI-DATA-1 ??? 37-data-model Sync (Sprint Close)
+  F31-16        5      9  Slot 12 ??? WI-ADO-1 ??? Populate ADO Feature id=6
+  F31-17        0      0  Session Scorecard (projected ??? if all 12 slots complete)
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F31-04-001
+[INFO] Discovering: C:\AICOE\eva-foundation\31-eva-faces
+[INFO] Using veritas-plan.json (format: free-form, 60 stories, 125 tasks)
+[INFO] Planned: 17 features, 60 stories
+[INFO] Actual: 607 artifacts, 45 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\31-eva-faces\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\31-eva-faces\.eva\reconciliation.json
+[INFO] Gaps: 15
+[PASS] trust written: C:\AICOE\eva-foundation\31-eva-faces\.eva\trust.json (score: 83)
+
+=======================================
+EVA Veritas Report: EVA Faces
+=======================================
+Repo:    C:\AICOE\eva-foundation\31-eva-faces
+Planned: 17 features, 60 stories
+
+Coverage
+---------------------------------------
+Stories total:          60
+Stories with artifacts: 45
+Stories with evidence:  45
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F31-05-001 -- Discovery checklist
+[FAIL] missing_implementation :: F31-05-002 -- Do prompt
+[FAIL] missing_implementation :: F31-05-003 -- Check commands
+[FAIL] missing_implementation :: F31-05-004 -- Act criteria
+[FAIL] missing_implementation :: F31-05-005 -- On accept
+[FAIL] missing_implementation :: F31-06-001 -- Discovery checklist
+[FAIL] missing_implementation :: F31-06-002 -- Do prompt
+[FAIL] missing_implementation :: F31-06-003 -- Check commands
+[FAIL] missing_implementation :: F31-06-004 -- Act criteria
+[FAIL] missing_implementation :: F31-06-005 -- On accept
+[FAIL] missing_implementation :: F31-16-001 -- Discovery checklist
+[FAIL] missing_implementation :: F31-16-002 -- Do prompt
+[FAIL] missing_implementation :: F31-16-003 -- Check commands
+[FAIL] missing_implementation :: F31-16-004 -- Act criteria
+[FAIL] missing_implementation :: F31-16-005 -- On accept
+
+Feature Breakdown
+---------------------------------------
+[  0] F31-05     Slot 2 ??? WI-EPIC-1 ??? Publish e  0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F31-06     Slot 3 ??? WI-ENV-1 ??? APIM envir  0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F31-16     Slot 12 ??? WI-ADO-1 ??? Populate   0/5 artifacts  0/5 evidence  5 gaps  [NOT STARTED]
+[  0] F31-01     Today's Execution Order         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F31-02     Blocked WIs (not scheduled tod  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F31-03     Integration Blockers Active     0/0 artifacts  0/0 evidence  0 gaps
+[100] F31-04     Slot 1 ??? WI-11 ??? BackendApiCli  5/5 artifacts  5/5 evidence  0 gaps
+[  0] F31-07     Slots 4???8 ??? WI-12 thru WI-16 ???  0/0 artifacts  0/0 evidence  0 gaps
+[100] F31-08     Slot 4 ??? WI-12 ??? IngestionRuns  5/5 artifacts  5/5 evidence  0 gaps
+[100] F31-09     Slot 5 ??? WI-13 ??? SearchHealthP  5/5 artifacts  5/5 evidence  0 gaps
+[100] F31-10     Slot 6 ??? WI-14 ??? SupportTicket  5/5 artifacts  5/5 evidence  0 gaps
+[100] F31-11     Slot 7 ??? WI-15 ??? FeatureFlagsP  5/5 artifacts  5/5 evidence  0 gaps
+[100] F31-12     Slot 8 ??? WI-16 ??? RbacRolesPage  5/5 artifacts  5/5 evidence  0 gaps
+[100] F31-13     Slot 9 ??? WI-17 ??? EVAHomePage (  5/5 artifacts  5/5 evidence  0 gaps
+[100] F31-14     Slot 10 ??? WI-18 ??? SprintBoardP  5/5 artifacts  5/5 evidence  0 gaps
+[100] F31-15     Slot 11 ??? WI-DATA-1 ??? 37-data-  5/5 artifacts  5/5 evidence  0 gaps
+[  0] F31-17     Session Scorecard (projected ???  0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F31-04-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-04-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-04-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-04-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-04-005 -- On accept (1 artifact)
+[EVIDENCE] F31-08-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-08-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-08-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-08-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-08-005 -- On accept (1 artifact)
+[EVIDENCE] F31-09-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-09-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-09-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-09-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-09-005 -- On accept (1 artifact)
+[EVIDENCE] F31-10-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-10-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-10-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-10-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-10-005 -- On accept (1 artifact)
+[EVIDENCE] F31-11-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-11-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-11-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-11-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-11-005 -- On accept (1 artifact)
+[EVIDENCE] F31-12-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-12-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-12-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-12-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-12-005 -- On accept (1 artifact)
+[EVIDENCE] F31-13-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-13-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-13-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-13-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-13-005 -- On accept (1 artifact)
+[EVIDENCE] F31-14-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-14-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-14-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-14-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-14-005 -- On accept (1 artifact)
+[EVIDENCE] F31-15-001 -- Discovery checklist (1 artifact)
+[EVIDENCE] F31-15-002 -- Do prompt (1 artifact)
+[EVIDENCE] F31-15-003 -- Check commands (1 artifact)
+[EVIDENCE] F31-15-004 -- Act criteria (1 artifact)
+[EVIDENCE] F31-15-005 -- On accept (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   83 (no change)
+Trend:   0 -> 0 -> 0 -> 83 -> 83 -> 83 -> 83 -> 83 -> 83 -> 83
+Actions: test, review, merge-with-approval
+Components: coverage=0.75 evidence=0.75 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 90 (deploy): tag 9 more stories with # EVA-STORY
+
+[ACT] 15 unimplemented stories by feature (highest priority first):
+      F31-05 Slot 2 ??? WI-EPIC-1 ??? Publish eva-ado-dashboard.epic.yaml (5 gaps)
+        - F31-05-001 -- Discovery checklist
+        - F31-05-002 -- Do prompt
+        - F31-05-003 -- Check commands
+        - F31-05-004 -- Act criteria
+        - F31-05-005 -- On accept
+      F31-06 Slot 3 ??? WI-ENV-1 ??? APIM environment variables (5 gaps)
+        - F31-06-001 -- Discovery checklist
+        - F31-06-002 -- Do prompt
+        - F31-06-003 -- Check commands
+        - F31-06-004 -- Act criteria
+        - F31-06-005 -- On accept
+      F31-16 Slot 12 ??? WI-ADO-1 ??? Populate ADO Feature id=6 (5 gaps)
+        - F31-16-001 -- Discovery checklist
+        - F31-16-002 -- Do prompt
+        - F31-16-003 -- Check commands
+        - F31-16-004 -- Act criteria
+        - F31-16-005 -- On accept
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   56%  (157/279 declared entities verified)
+[ACT] 122 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [endpoint] GET /v1/health/background -- declared: implemented -- actual: not_found
+  ... and 114 more
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+

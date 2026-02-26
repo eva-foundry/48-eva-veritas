@@ -1,0 +1,98 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\21-habit-tracker
+[INFO] Prefix: F21
+[PASS] Written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\veritas-plan.json
+       6 features, 9 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F21-01        0      0  Prerequisites
+  F21-02        3      0  Quick Start
+  F21-03        2      0  Architecture
+  F21-04        0      0  Features
+  F21-05        0      0  API Endpoints
+  F21-06        4      0  Claude Commands
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F21-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\21-habit-tracker
+[INFO] Using veritas-plan.json (format: free-form, 9 stories, 0 tasks)
+[INFO] Planned: 6 features, 9 stories
+[INFO] Actual: 80 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\reconciliation.json
+[INFO] Gaps: 9
+[PASS] trust written: C:\AICOE\eva-foundation\21-habit-tracker\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Habit Tracker
+=======================================
+Repo:    C:\AICOE\eva-foundation\21-habit-tracker
+Planned: 6 features, 9 stories
+
+Coverage
+---------------------------------------
+Stories total:          9
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F21-02-001 -- 1. Clone and Setup Backend
+[FAIL] missing_implementation :: F21-02-002 -- 2. Setup Frontend (new terminal)
+[FAIL] missing_implementation :: F21-02-003 -- 3. Open the App
+[FAIL] missing_implementation :: F21-03-001 -- Tech Stack
+[FAIL] missing_implementation :: F21-03-002 -- Project Structure
+[FAIL] missing_implementation :: F21-06-001 -- Planning & Execution
+[FAIL] missing_implementation :: F21-06-002 -- Validation
+[FAIL] missing_implementation :: F21-06-003 -- Bug Fixing
+[FAIL] missing_implementation :: F21-06-004 -- Misc
+
+Feature Breakdown
+---------------------------------------
+[  0] F21-06     Claude Commands                 0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F21-02     Quick Start                     0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F21-03     Architecture                    0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F21-01     Prerequisites                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F21-04     Features                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F21-05     API Endpoints                   0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 9 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 13 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 17 more stories with # EVA-STORY
+
+[ACT] 9 unimplemented stories by feature (highest priority first):
+      F21-06 Claude Commands (4 gaps)
+        - F21-06-001 -- Planning & Execution
+        - F21-06-002 -- Validation
+        - F21-06-003 -- Bug Fixing
+        - F21-06-004 -- Misc
+      F21-02 Quick Start (3 gaps)
+        - F21-02-001 -- 1. Clone and Setup Backend
+        - F21-02-002 -- 2. Setup Frontend (new terminal)
+        - F21-02-003 -- 3. Open the App
+      F21-03 Architecture (2 gaps)
+        - F21-03-001 -- Tech Stack
+        - F21-03-002 -- Project Structure
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

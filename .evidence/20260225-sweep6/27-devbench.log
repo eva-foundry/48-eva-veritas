@@ -1,0 +1,89 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\27-devbench
+[INFO] Prefix: F27
+[PASS] Written: C:\AICOE\eva-foundation\27-devbench\.eva\veritas-plan.json
+       12 features, 9 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F27-01        0      0  ?? Purpose
+  F27-02        3      0  ? Key Features
+  F27-03        3      0  ?? Quick Start
+  F27-04        0      0  ?? Documentation
+  F27-05        0      0  ??? Technology Stack
+  F27-06        0      0  ?? Design System
+  F27-07        0      0  ?? Security
+  F27-08        0      0  ?? Project Status
+  F27-09        3      0  ??? Use Cases
+  F27-10        0      0  ?? Contributing
+  F27-11        0      0  ?? Support
+  F27-12        0      0  ?? License
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F27-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\27-devbench
+[INFO] Using veritas-plan.json (format: veritas, 9 stories, 0 tasks)
+[INFO] Planned: 12 features, 9 stories
+[INFO] Actual: 138 artifacts, 9 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\27-devbench\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\27-devbench\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\27-devbench\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: EVA DevBench
+=======================================
+Repo:    C:\AICOE\eva-foundation\27-devbench
+Planned: 12 features, 9 stories
+
+Coverage
+---------------------------------------
+Stories total:          9
+Stories with artifacts: 9
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F27-01     ?? Purpose                      0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F27-02     ? Key Features                  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F27-03     ?? Quick Start                  3/3 artifacts  0/3 evidence  0 gaps
+[  0] F27-04     ?? Documentation                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-05     ??? Technology Stack            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-06     ?? Design System                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-07     ?? Security                     0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-08     ?? Project Status               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F27-09     ??? Use Cases                   3/3 artifacts  0/3 evidence  0 gaps
+[  0] F27-10     ?? Contributing                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-11     ?? Support                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-12     ?? License                      0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F27-02-001 -- Core Capabilities (1 artifact)
+[IMPL] F27-02-002 -- Enterprise Code Review Features (1 artifact)
+[IMPL] F27-02-003 -- Governance & Compliance (1 artifact)
+[IMPL] F27-03-001 -- Installation (1 artifact)
+[IMPL] F27-03-002 -- Development (1 artifact)
+[IMPL] F27-03-003 -- Enable Demo Mode (1 artifact)
+[IMPL] F27-09-001 -- COBOL Modernization (1 artifact)
+[IMPL] F27-09-002 -- Client-Server Migration (1 artifact)
+[IMPL] F27-09-003 -- Technical Debt Reduction (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

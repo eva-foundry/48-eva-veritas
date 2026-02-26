@@ -1,0 +1,60 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\04-os-vnext
+[INFO] Prefix: F04
+[PASS] Written: C:\AICOE\eva-foundation\04-os-vnext\.eva\veritas-plan.json
+       4 features, 0 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F04-01        0      0  Structure
+  F04-02        0      0  How To Use
+  F04-03        0      0  Evidence & Validation Scripts
+  F04-04        0      0  Notes
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[INFO] Discovering: C:\AICOE\eva-foundation\04-os-vnext
+[INFO] Using veritas-plan.json (format: free-form, 0 stories, 0 tasks)
+[INFO] Planned: 4 features, 0 stories
+[INFO] Actual: 8 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\04-os-vnext\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\04-os-vnext\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\04-os-vnext\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Project 04 ??? OS???vNext: Predefined AI Workflows
+=======================================
+Repo:    C:\AICOE\eva-foundation\04-os-vnext
+Planned: 4 features, 0 stories
+
+Coverage
+---------------------------------------
+Stories total:          0
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F04-01     Structure                       0/0 artifacts  0/0 evidence  0 gaps
+[  0] F04-02     How To Use                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F04-03     Evidence & Validation Scripts   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F04-04     Notes                           0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=undefined evidence=undefined consistency=undefined
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

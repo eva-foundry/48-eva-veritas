@@ -1,0 +1,92 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0851-ado-import-artifacts-live.log
+
+=== ADO Import: 02-poc-agent-skills ===
+Project maturity : poc
+GitHub repo      : eva-foundry/02-poc-agent-skills
+Dry run          : False
+
+Epic: creating '02-poc-agent-skills'
+  -> Epic id=228
+Feature: creating 'Timeline: 3 Weeks (15 working days)'
+  -> Feature id=229
+Feature: creating 'Week 1: Foundation Extraction (Days 1-5)'
+  -> Feature id=230
+Feature: creating 'Week 2: First Skills + Orchestrator (Days 6-10)'
+  -> Feature id=231
+Feature: creating 'Week 3: Additional Skills + Demonstration (Days 11-15)'
+  -> Feature id=232
+Feature: creating 'Success Criteria'
+  -> Feature id=233
+Feature: creating 'Risk Mitigation'
+  -> Feature id=234
+Feature: creating 'Integration with POC #2'
+  -> Feature id=235
+Feature: creating 'Next Steps After POC'
+  -> Feature id=236
+PBI: creating '[F02-02-001] Day 1: AgentSkillBase Abstract Class'
+  -> PBI id=237
+PBI: creating '[F02-02-002] Day 2: PromptTemplate System'
+  -> PBI id=238
+PBI: creating '[F02-02-003] Day 3: ValidatorFramework'
+  -> PBI id=239
+PBI: creating '[F02-02-004] Day 4: EvidenceCollector System'
+  -> PBI id=240
+PBI: creating '[F02-02-005] Day 5: Integration Testing + Documentation'
+  -> PBI id=241
+PBI: creating '[F02-03-001] Day 6: DocumentationGeneratorSkill (Part 1)'
+  -> PBI id=242
+PBI: creating '[F02-03-002] Day 7: DocumentationGeneratorSkill (Part 2) + Manifest'
+  -> PBI id=243
+PBI: creating '[F02-03-003] Day 8: Skill Manifest System'
+  -> PBI id=244
+PBI: creating '[F02-03-004] Day 9: SkillOrchestrator (Part 1)'
+  -> PBI id=245
+PBI: creating '[F02-03-005] Day 10: SkillOrchestrator (Part 2) + Integration Tests'
+  -> PBI id=246
+PBI: creating '[F02-04-001] Day 11: CodeGeneratorSkill (New Capability)'
+  -> PBI id=247
+PBI: creating '[F02-04-002] Day 12: ArchitectureAnalyzerSkill (New Capability)'
+  -> PBI id=248
+PBI: creating '[F02-04-003] Day 13: Multi-Skill Workflow Demonstration'
+  -> PBI id=249
+PBI: creating '[F02-04-004] Day 14: Comprehensive Documentation'
+  -> PBI id=250
+PBI: creating '[F02-04-005] Day 15: Testing, Refinement, and POC Presentation'
+  -> PBI id=251
+PBI: creating '[F02-05-001] Technical Metrics'
+  -> PBI id=252
+PBI: creating '[F02-05-002] Quality Metrics'
+  -> PBI id=253
+PBI: creating '[F02-05-003] Strategic Metrics'
+  -> PBI id=254
+
+=== Import Summary: 02-poc-agent-skills ===
+Epic id  : 228
+Features : 8
+PBIs     : 18
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F02-02-001 237 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-02-002 238 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-02-003 239 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-02-004 240 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-02-005 241 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-03-001 242 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-03-002 243 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-03-003 244 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-03-004 245 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-03-005 246 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-04-001 247 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-04-002 248 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-04-003 249 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-04-004 250 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-04-005 251 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-05-001 252 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-05-002 253 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F02-05-003 254 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

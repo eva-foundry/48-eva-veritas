@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.0706550-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/36-red-teaming",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-36",
+  "stream": "WBS-S-AI",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "36-red-teaming",
+    "description": "36-red-teaming",
+    "tags": "36-red-teaming;WBS-S-AI",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F36-01",
+      "type": "Feature",
+      "title": "?? Overview",
+      "description": "?? Overview",
+      "tags": "36-red-teaming;F36-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-02",
+      "type": "Feature",
+      "title": "?? Security & ATO Context",
+      "description": "?? Security & ATO Context",
+      "tags": "36-red-teaming;F36-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-03",
+      "type": "Feature",
+      "title": "?? Purpose",
+      "description": "?? Purpose",
+      "tags": "36-red-teaming;F36-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-04",
+      "type": "Feature",
+      "title": "?? Principles",
+      "description": "?? Principles",
+      "tags": "36-red-teaming;F36-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-05",
+      "type": "Feature",
+      "title": "??? Architecture",
+      "description": "??? Architecture",
+      "tags": "36-red-teaming;F36-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-06",
+      "type": "Feature",
+      "title": "?? Project Structure",
+      "description": "?? Project Structure",
+      "tags": "36-red-teaming;F36-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-07",
+      "type": "Feature",
+      "title": "?? Quick Start",
+      "description": "?? Quick Start",
+      "tags": "36-red-teaming;F36-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-08",
+      "type": "Feature",
+      "title": "?? Test Suites",
+      "description": "?? Test Suites",
+      "tags": "36-red-teaming;F36-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-09",
+      "type": "Feature",
+      "title": "?? Deterministic Assertions",
+      "description": "?? Deterministic Assertions",
+      "tags": "36-red-teaming;F36-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-10",
+      "type": "Feature",
+      "title": "?? Evidence Pack (ATO-Ready)",
+      "description": "?? Evidence Pack (ATO-Ready)",
+      "tags": "36-red-teaming;F36-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-11",
+      "type": "Feature",
+      "title": "?? CI/CD Integration",
+      "description": "?? CI/CD Integration",
+      "tags": "36-red-teaming;F36-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-12",
+      "type": "Feature",
+      "title": "?? Standards Mapping",
+      "description": "?? Standards Mapping",
+      "tags": "36-red-teaming;F36-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-13",
+      "type": "Feature",
+      "title": "?? Non-Goals (MVP)",
+      "description": "?? Non-Goals (MVP)",
+      "tags": "36-red-teaming;F36-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-14",
+      "type": "Feature",
+      "title": "?? Definition of Done (MVP)",
+      "description": "?? Definition of Done (MVP)",
+      "tags": "36-red-teaming;F36-14",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-15",
+      "type": "Feature",
+      "title": "??? Roadmap",
+      "description": "??? Roadmap",
+      "tags": "36-red-teaming;F36-15",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-16",
+      "type": "Feature",
+      "title": "?? Ownership",
+      "description": "?? Ownership",
+      "tags": "36-red-teaming;F36-16",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F36-17",
+      "type": "Feature",
+      "title": "Summary",
+      "description": "Summary",
+      "tags": "36-red-teaming;F36-17",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F36-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F36-05-001] Evaluation Model",
+      "acceptance_criteria": "Evaluation Model",
+      "tags": "36-red-teaming;F36-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-05",
+      "state": "New",
+      "wbs_id": "F36-05-001"
+    },
+    {
+      "id_hint": "F36-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F36-07-001] Prerequisites",
+      "acceptance_criteria": "Prerequisites",
+      "tags": "36-red-teaming;F36-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-07",
+      "state": "New",
+      "wbs_id": "F36-07-001"
+    },
+    {
+      "id_hint": "F36-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F36-07-002] Environment Variables",
+      "acceptance_criteria": "Environment Variables",
+      "tags": "36-red-teaming;F36-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-07",
+      "state": "New",
+      "wbs_id": "F36-07-002"
+    },
+    {
+      "id_hint": "F36-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F36-07-003] Run Smoke Suite",
+      "acceptance_criteria": "Run Smoke Suite",
+      "tags": "36-red-teaming;F36-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-07",
+      "state": "New",
+      "wbs_id": "F36-07-003"
+    },
+    {
+      "id_hint": "F36-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F36-07-004] Run All Suites",
+      "acceptance_criteria": "Run All Suites",
+      "tags": "36-red-teaming;F36-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-07",
+      "state": "New",
+      "wbs_id": "F36-07-004"
+    },
+    {
+      "id_hint": "F36-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F36-08-001] Smoke (PR Gate)",
+      "acceptance_criteria": "Smoke (PR Gate)",
+      "tags": "36-red-teaming;F36-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-08",
+      "state": "New",
+      "wbs_id": "F36-08-001"
+    },
+    {
+      "id_hint": "F36-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F36-08-002] Golden (Regression)",
+      "acceptance_criteria": "Golden (Regression)",
+      "tags": "36-red-teaming;F36-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-08",
+      "state": "New",
+      "wbs_id": "F36-08-002"
+    },
+    {
+      "id_hint": "F36-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F36-08-003] ATLAS Adversarial Suites",
+      "acceptance_criteria": "ATLAS Adversarial Suites",
+      "tags": "36-red-teaming;F36-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-08",
+      "state": "New",
+      "wbs_id": "F36-08-003"
+    },
+    {
+      "id_hint": "F36-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F36-10-001] Directory Structure",
+      "acceptance_criteria": "Directory Structure",
+      "tags": "36-red-teaming;F36-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-10",
+      "state": "New",
+      "wbs_id": "F36-10-001"
+    },
+    {
+      "id_hint": "F36-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F36-10-002] Example manifest.json",
+      "acceptance_criteria": "Example manifest.json",
+      "tags": "36-red-teaming;F36-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-10",
+      "state": "New",
+      "wbs_id": "F36-10-002"
+    },
+    {
+      "id_hint": "F36-11-001",
+      "type": "Product Backlog Item",
+      "title": "[F36-11-001] PR Gate",
+      "acceptance_criteria": "PR Gate",
+      "tags": "36-red-teaming;F36-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-11",
+      "state": "New",
+      "wbs_id": "F36-11-001"
+    },
+    {
+      "id_hint": "F36-11-002",
+      "type": "Product Backlog Item",
+      "title": "[F36-11-002] Nightly",
+      "acceptance_criteria": "Nightly",
+      "tags": "36-red-teaming;F36-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-11",
+      "state": "New",
+      "wbs_id": "F36-11-002"
+    },
+    {
+      "id_hint": "F36-15-001",
+      "type": "Product Backlog Item",
+      "title": "[F36-15-001] Phase 2",
+      "acceptance_criteria": "Phase 2",
+      "tags": "36-red-teaming;F36-15-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-15",
+      "state": "New",
+      "wbs_id": "F36-15-001"
+    },
+    {
+      "id_hint": "F36-15-002",
+      "type": "Product Backlog Item",
+      "title": "[F36-15-002] Phase 3",
+      "acceptance_criteria": "Phase 3",
+      "tags": "36-red-teaming;F36-15-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F36-15",
+      "state": "New",
+      "wbs_id": "F36-15-002"
+    }
+  ]
+}

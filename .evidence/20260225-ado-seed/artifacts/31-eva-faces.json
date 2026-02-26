@@ -1,0 +1,1013 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.0107493-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/31-eva-faces",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-31",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "31-eva-faces",
+    "description": "31-eva-faces",
+    "tags": "31-eva-faces;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F31-01",
+      "type": "Feature",
+      "title": "Today's Execution Order",
+      "description": "Today's Execution Order",
+      "tags": "31-eva-faces;F31-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-02",
+      "type": "Feature",
+      "title": "Blocked WIs (not scheduled today)",
+      "description": "Blocked WIs (not scheduled today)",
+      "tags": "31-eva-faces;F31-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-03",
+      "type": "Feature",
+      "title": "Integration Blockers Active",
+      "description": "Integration Blockers Active",
+      "tags": "31-eva-faces;F31-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-04",
+      "type": "Feature",
+      "title": "Slot 1 ? WI-11 ? BackendApiClient.ts Contract Update",
+      "description": "Slot 1 ? WI-11 ? BackendApiClient.ts Contract Update",
+      "tags": "31-eva-faces;F31-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-05",
+      "type": "Feature",
+      "title": "Slot 2 ? WI-EPIC-1 ? Publish eva-ado-dashboard.epic.yaml",
+      "description": "Slot 2 ? WI-EPIC-1 ? Publish eva-ado-dashboard.epic.yaml",
+      "tags": "31-eva-faces;F31-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-06",
+      "type": "Feature",
+      "title": "Slot 3 ? WI-ENV-1 ? APIM environment variables",
+      "description": "Slot 3 ? WI-ENV-1 ? APIM environment variables",
+      "tags": "31-eva-faces;F31-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-07",
+      "type": "Feature",
+      "title": "Slots 4?8 ? WI-12 thru WI-16 ? Five Admin Screens (PARALLEL)",
+      "description": "Slots 4?8 ? WI-12 thru WI-16 ? Five Admin Screens (PARALLEL)",
+      "tags": "31-eva-faces;F31-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-08",
+      "type": "Feature",
+      "title": "Slot 4 ? WI-12 ? IngestionRunsPage",
+      "description": "Slot 4 ? WI-12 ? IngestionRunsPage",
+      "tags": "31-eva-faces;F31-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-09",
+      "type": "Feature",
+      "title": "Slot 5 ? WI-13 ? SearchHealthPage",
+      "description": "Slot 5 ? WI-13 ? SearchHealthPage",
+      "tags": "31-eva-faces;F31-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-10",
+      "type": "Feature",
+      "title": "Slot 6 ? WI-14 ? SupportTicketsPage",
+      "description": "Slot 6 ? WI-14 ? SupportTicketsPage",
+      "tags": "31-eva-faces;F31-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-11",
+      "type": "Feature",
+      "title": "Slot 7 ? WI-15 ? FeatureFlagsPage",
+      "description": "Slot 7 ? WI-15 ? FeatureFlagsPage",
+      "tags": "31-eva-faces;F31-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-12",
+      "type": "Feature",
+      "title": "Slot 8 ? WI-16 ? RbacRolesPage",
+      "description": "Slot 8 ? WI-16 ? RbacRolesPage",
+      "tags": "31-eva-faces;F31-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-13",
+      "type": "Feature",
+      "title": "Slot 9 ? WI-17 ? EVAHomePage (static tiles)",
+      "description": "Slot 9 ? WI-17 ? EVAHomePage (static tiles)",
+      "tags": "31-eva-faces;F31-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-14",
+      "type": "Feature",
+      "title": "Slot 10 ? WI-18 ? SprintBoardPage (static shell)",
+      "description": "Slot 10 ? WI-18 ? SprintBoardPage (static shell)",
+      "tags": "31-eva-faces;F31-14",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-15",
+      "type": "Feature",
+      "title": "Slot 11 ? WI-DATA-1 ? 37-data-model Sync (Sprint Close)",
+      "description": "Slot 11 ? WI-DATA-1 ? 37-data-model Sync (Sprint Close)",
+      "tags": "31-eva-faces;F31-15",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-16",
+      "type": "Feature",
+      "title": "Slot 12 ? WI-ADO-1 ? Populate ADO Feature id=6",
+      "description": "Slot 12 ? WI-ADO-1 ? Populate ADO Feature id=6",
+      "tags": "31-eva-faces;F31-16",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-17",
+      "type": "Feature",
+      "title": "Session Scorecard (projected ? if all 12 slots complete)",
+      "description": "Session Scorecard (projected ? if all 12 slots complete)",
+      "tags": "31-eva-faces;F31-17",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-HEALTH",
+      "type": "Feature",
+      "title": "HEALTH API",
+      "description": "HEALTH API",
+      "tags": "31-eva-faces;F31-HEALTH",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-API",
+      "type": "Feature",
+      "title": "API API",
+      "description": "API API",
+      "tags": "31-eva-faces;F31-API",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-GENERATE",
+      "type": "Feature",
+      "title": "GENERATE API",
+      "description": "GENERATE API",
+      "tags": "31-eva-faces;F31-GENERATE",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-STATUS",
+      "type": "Feature",
+      "title": "STATUS API",
+      "description": "STATUS API",
+      "tags": "31-eva-faces;F31-STATUS",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F31-UI",
+      "type": "Feature",
+      "title": "UI Pages",
+      "description": "UI Pages",
+      "tags": "31-eva-faces;F31-UI",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F31-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-04-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-04",
+      "state": "New",
+      "wbs_id": "F31-04-001"
+    },
+    {
+      "id_hint": "F31-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-04-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-04",
+      "state": "New",
+      "wbs_id": "F31-04-002"
+    },
+    {
+      "id_hint": "F31-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-04-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-04",
+      "state": "New",
+      "wbs_id": "F31-04-003"
+    },
+    {
+      "id_hint": "F31-04-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-04-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-04",
+      "state": "New",
+      "wbs_id": "F31-04-004"
+    },
+    {
+      "id_hint": "F31-04-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-04-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-04-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-04",
+      "state": "New",
+      "wbs_id": "F31-04-005"
+    },
+    {
+      "id_hint": "F31-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-05-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-05",
+      "state": "New",
+      "wbs_id": "F31-05-001"
+    },
+    {
+      "id_hint": "F31-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-05-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-05",
+      "state": "New",
+      "wbs_id": "F31-05-002"
+    },
+    {
+      "id_hint": "F31-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-05-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-05",
+      "state": "New",
+      "wbs_id": "F31-05-003"
+    },
+    {
+      "id_hint": "F31-05-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-05-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-05",
+      "state": "New",
+      "wbs_id": "F31-05-004"
+    },
+    {
+      "id_hint": "F31-05-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-05-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-05-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-05",
+      "state": "New",
+      "wbs_id": "F31-05-005"
+    },
+    {
+      "id_hint": "F31-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-06-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-06",
+      "state": "New",
+      "wbs_id": "F31-06-001"
+    },
+    {
+      "id_hint": "F31-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-06-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-06",
+      "state": "New",
+      "wbs_id": "F31-06-002"
+    },
+    {
+      "id_hint": "F31-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-06-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-06",
+      "state": "New",
+      "wbs_id": "F31-06-003"
+    },
+    {
+      "id_hint": "F31-06-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-06-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-06-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-06",
+      "state": "New",
+      "wbs_id": "F31-06-004"
+    },
+    {
+      "id_hint": "F31-06-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-06-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-06-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-06",
+      "state": "New",
+      "wbs_id": "F31-06-005"
+    },
+    {
+      "id_hint": "F31-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-08-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-08",
+      "state": "New",
+      "wbs_id": "F31-08-001"
+    },
+    {
+      "id_hint": "F31-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-08-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-08",
+      "state": "New",
+      "wbs_id": "F31-08-002"
+    },
+    {
+      "id_hint": "F31-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-08-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-08",
+      "state": "New",
+      "wbs_id": "F31-08-003"
+    },
+    {
+      "id_hint": "F31-08-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-08-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-08-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-08",
+      "state": "New",
+      "wbs_id": "F31-08-004"
+    },
+    {
+      "id_hint": "F31-08-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-08-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-08-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-08",
+      "state": "New",
+      "wbs_id": "F31-08-005"
+    },
+    {
+      "id_hint": "F31-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-09-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-09",
+      "state": "New",
+      "wbs_id": "F31-09-001"
+    },
+    {
+      "id_hint": "F31-09-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-09-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-09-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-09",
+      "state": "New",
+      "wbs_id": "F31-09-002"
+    },
+    {
+      "id_hint": "F31-09-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-09-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-09-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-09",
+      "state": "New",
+      "wbs_id": "F31-09-003"
+    },
+    {
+      "id_hint": "F31-09-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-09-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-09-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-09",
+      "state": "New",
+      "wbs_id": "F31-09-004"
+    },
+    {
+      "id_hint": "F31-09-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-09-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-09-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-09",
+      "state": "New",
+      "wbs_id": "F31-09-005"
+    },
+    {
+      "id_hint": "F31-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-10-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-10",
+      "state": "New",
+      "wbs_id": "F31-10-001"
+    },
+    {
+      "id_hint": "F31-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-10-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-10",
+      "state": "New",
+      "wbs_id": "F31-10-002"
+    },
+    {
+      "id_hint": "F31-10-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-10-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-10-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-10",
+      "state": "New",
+      "wbs_id": "F31-10-003"
+    },
+    {
+      "id_hint": "F31-10-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-10-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-10-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-10",
+      "state": "New",
+      "wbs_id": "F31-10-004"
+    },
+    {
+      "id_hint": "F31-10-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-10-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-10-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-10",
+      "state": "New",
+      "wbs_id": "F31-10-005"
+    },
+    {
+      "id_hint": "F31-11-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-11-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-11",
+      "state": "New",
+      "wbs_id": "F31-11-001"
+    },
+    {
+      "id_hint": "F31-11-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-11-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-11",
+      "state": "New",
+      "wbs_id": "F31-11-002"
+    },
+    {
+      "id_hint": "F31-11-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-11-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-11-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-11",
+      "state": "New",
+      "wbs_id": "F31-11-003"
+    },
+    {
+      "id_hint": "F31-11-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-11-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-11-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-11",
+      "state": "New",
+      "wbs_id": "F31-11-004"
+    },
+    {
+      "id_hint": "F31-11-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-11-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-11-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-11",
+      "state": "New",
+      "wbs_id": "F31-11-005"
+    },
+    {
+      "id_hint": "F31-12-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-12-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-12-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-12",
+      "state": "New",
+      "wbs_id": "F31-12-001"
+    },
+    {
+      "id_hint": "F31-12-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-12-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-12-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-12",
+      "state": "New",
+      "wbs_id": "F31-12-002"
+    },
+    {
+      "id_hint": "F31-12-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-12-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-12-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-12",
+      "state": "New",
+      "wbs_id": "F31-12-003"
+    },
+    {
+      "id_hint": "F31-12-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-12-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-12-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-12",
+      "state": "New",
+      "wbs_id": "F31-12-004"
+    },
+    {
+      "id_hint": "F31-12-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-12-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-12-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-12",
+      "state": "New",
+      "wbs_id": "F31-12-005"
+    },
+    {
+      "id_hint": "F31-13-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-13-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-13-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-13",
+      "state": "New",
+      "wbs_id": "F31-13-001"
+    },
+    {
+      "id_hint": "F31-13-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-13-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-13-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-13",
+      "state": "New",
+      "wbs_id": "F31-13-002"
+    },
+    {
+      "id_hint": "F31-13-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-13-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-13-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-13",
+      "state": "New",
+      "wbs_id": "F31-13-003"
+    },
+    {
+      "id_hint": "F31-13-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-13-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-13-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-13",
+      "state": "New",
+      "wbs_id": "F31-13-004"
+    },
+    {
+      "id_hint": "F31-13-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-13-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-13-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-13",
+      "state": "New",
+      "wbs_id": "F31-13-005"
+    },
+    {
+      "id_hint": "F31-14-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-14-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-14-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-14",
+      "state": "New",
+      "wbs_id": "F31-14-001"
+    },
+    {
+      "id_hint": "F31-14-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-14-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-14-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-14",
+      "state": "New",
+      "wbs_id": "F31-14-002"
+    },
+    {
+      "id_hint": "F31-14-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-14-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-14-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-14",
+      "state": "New",
+      "wbs_id": "F31-14-003"
+    },
+    {
+      "id_hint": "F31-14-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-14-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-14-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-14",
+      "state": "New",
+      "wbs_id": "F31-14-004"
+    },
+    {
+      "id_hint": "F31-14-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-14-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-14-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-14",
+      "state": "New",
+      "wbs_id": "F31-14-005"
+    },
+    {
+      "id_hint": "F31-15-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-15-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-15-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-15",
+      "state": "New",
+      "wbs_id": "F31-15-001"
+    },
+    {
+      "id_hint": "F31-15-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-15-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-15-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-15",
+      "state": "New",
+      "wbs_id": "F31-15-002"
+    },
+    {
+      "id_hint": "F31-15-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-15-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-15-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-15",
+      "state": "New",
+      "wbs_id": "F31-15-003"
+    },
+    {
+      "id_hint": "F31-15-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-15-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-15-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-15",
+      "state": "New",
+      "wbs_id": "F31-15-004"
+    },
+    {
+      "id_hint": "F31-15-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-15-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-15-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-15",
+      "state": "New",
+      "wbs_id": "F31-15-005"
+    },
+    {
+      "id_hint": "F31-16-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-16-001] Discovery checklist",
+      "acceptance_criteria": "Discovery checklist",
+      "tags": "31-eva-faces;F31-16-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-16",
+      "state": "New",
+      "wbs_id": "F31-16-001"
+    },
+    {
+      "id_hint": "F31-16-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-16-002] Do prompt",
+      "acceptance_criteria": "Do prompt",
+      "tags": "31-eva-faces;F31-16-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-16",
+      "state": "New",
+      "wbs_id": "F31-16-002"
+    },
+    {
+      "id_hint": "F31-16-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-16-003] Check commands",
+      "acceptance_criteria": "Check commands",
+      "tags": "31-eva-faces;F31-16-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-16",
+      "state": "New",
+      "wbs_id": "F31-16-003"
+    },
+    {
+      "id_hint": "F31-16-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-16-004] Act criteria",
+      "acceptance_criteria": "Act criteria",
+      "tags": "31-eva-faces;F31-16-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-16",
+      "state": "New",
+      "wbs_id": "F31-16-004"
+    },
+    {
+      "id_hint": "F31-16-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-16-005] On accept",
+      "acceptance_criteria": "On accept",
+      "tags": "31-eva-faces;F31-16-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-16",
+      "state": "New",
+      "wbs_id": "F31-16-005"
+    },
+    {
+      "id_hint": "F31-HEALTH-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-HEALTH-001] GET /health",
+      "acceptance_criteria": "GET /health",
+      "tags": "31-eva-faces;F31-HEALTH-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-HEALTH",
+      "state": "New",
+      "wbs_id": "F31-HEALTH-001"
+    },
+    {
+      "id_hint": "F31-API-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-API-001] GET /",
+      "acceptance_criteria": "GET /",
+      "tags": "31-eva-faces;F31-API-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-API",
+      "state": "New",
+      "wbs_id": "F31-API-001"
+    },
+    {
+      "id_hint": "F31-GENERATE-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-GENERATE-001] POST /generate",
+      "acceptance_criteria": "POST /generate",
+      "tags": "31-eva-faces;F31-GENERATE-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-GENERATE",
+      "state": "New",
+      "wbs_id": "F31-GENERATE-001"
+    },
+    {
+      "id_hint": "F31-STATUS-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-STATUS-001] GET /status/{epic_id}",
+      "acceptance_criteria": "GET /status/{epic_id}",
+      "tags": "31-eva-faces;F31-STATUS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-STATUS",
+      "state": "New",
+      "wbs_id": "F31-STATUS-001"
+    },
+    {
+      "id_hint": "F31-UI-001",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-001] Route /admin/translations",
+      "acceptance_criteria": "Route /admin/translations",
+      "tags": "31-eva-faces;F31-UI-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-001"
+    },
+    {
+      "id_hint": "F31-UI-002",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-002] Route /admin/audit",
+      "acceptance_criteria": "Route /admin/audit",
+      "tags": "31-eva-faces;F31-UI-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-002"
+    },
+    {
+      "id_hint": "F31-UI-003",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-003] Route /admin/rbac",
+      "acceptance_criteria": "Route /admin/rbac",
+      "tags": "31-eva-faces;F31-UI-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-003"
+    },
+    {
+      "id_hint": "F31-UI-004",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-004] Route /admin/settings",
+      "acceptance_criteria": "Route /admin/settings",
+      "tags": "31-eva-faces;F31-UI-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-004"
+    },
+    {
+      "id_hint": "F31-UI-005",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-005] Route /admin/apps",
+      "acceptance_criteria": "Route /admin/apps",
+      "tags": "31-eva-faces;F31-UI-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-005"
+    },
+    {
+      "id_hint": "F31-UI-006",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-006] Route /admin/ingestion/runs",
+      "acceptance_criteria": "Route /admin/ingestion/runs",
+      "tags": "31-eva-faces;F31-UI-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-006"
+    },
+    {
+      "id_hint": "F31-UI-007",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-007] Route /admin/search/health",
+      "acceptance_criteria": "Route /admin/search/health",
+      "tags": "31-eva-faces;F31-UI-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-007"
+    },
+    {
+      "id_hint": "F31-UI-008",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-008] Route /admin/support/tickets",
+      "acceptance_criteria": "Route /admin/support/tickets",
+      "tags": "31-eva-faces;F31-UI-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-008"
+    },
+    {
+      "id_hint": "F31-UI-009",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-009] Route /admin/feature-flags",
+      "acceptance_criteria": "Route /admin/feature-flags",
+      "tags": "31-eva-faces;F31-UI-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-009"
+    },
+    {
+      "id_hint": "F31-UI-010",
+      "type": "Product Backlog Item",
+      "title": "[F31-UI-010] Route /admin/rbac/roles",
+      "acceptance_criteria": "Route /admin/rbac/roles",
+      "tags": "31-eva-faces;F31-UI-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F31-UI",
+      "state": "New",
+      "wbs_id": "F31-UI-010"
+    }
+  ]
+}

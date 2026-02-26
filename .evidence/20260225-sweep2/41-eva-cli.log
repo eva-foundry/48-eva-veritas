@@ -1,0 +1,110 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\41-eva-cli
+[INFO] Prefix: F41
+[PASS] Written: C:\AICOE\eva-foundation\41-eva-cli\.eva\veritas-plan.json
+       10 features, 12 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F41-01        0      0  What it is
+  F41-02        0      0  Status  ??  2026-02-21
+  F41-03        0      0  Installation
+  F41-04        0      0  Quick start
+  F41-05        0      0  Credential setup
+  F41-06       12      0  Command reference
+  F41-07        0      0  Evidence ID format
+  F41-08        0      0  Architecture
+  F41-09        0      0  Ecosystem links
+  F41-10        0      0  Next implementation steps
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F41-06-001
+[INFO] Discovering: C:\AICOE\eva-foundation\41-eva-cli
+[INFO] Using veritas-plan.json (format: free-form, 12 stories, 0 tasks)
+[INFO] Planned: 10 features, 12 stories
+[INFO] Actual: 44 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\41-eva-cli\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\41-eva-cli\.eva\reconciliation.json
+[INFO] Gaps: 12
+[PASS] trust written: C:\AICOE\eva-foundation\41-eva-cli\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: 41-eva-cli ??? EVA ADO Command Center
+=======================================
+Repo:    C:\AICOE\eva-foundation\41-eva-cli
+Planned: 10 features, 12 stories
+
+Coverage
+---------------------------------------
+Stories total:          12
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F41-06-001 -- Global flags (all commands)
+[FAIL] missing_implementation :: F41-06-002 -- `eva init [--from-artifacts PATH] [--force]`
+[FAIL] missing_implementation :: F41-06-003 -- `eva context show / set`
+[FAIL] missing_implementation :: F41-06-004 -- `eva ado create <type> --title <text> [--parent <id>]`
+[FAIL] missing_implementation :: F41-06-005 -- `eva ado update <id> [--state <state>] [--assigned-to <email>]`
+[FAIL] missing_implementation :: F41-06-006 -- `eva ado link <id> [--pr <url>] [--evidence <id>]`
+[FAIL] missing_implementation :: F41-06-007 -- `eva gh pr-show <pr>`
+[FAIL] missing_implementation :: F41-06-008 -- `eva gh pr-check <pr>`
+[FAIL] missing_implementation :: F41-06-009 -- `eva runbook list / show <id> / run <id> [--env] [--dry-run]`
+[FAIL] missing_implementation :: F41-06-010 -- `eva evidence show <id>`
+[FAIL] missing_implementation :: F41-06-011 -- `eva evidence verify <id>`
+[FAIL] missing_implementation :: F41-06-012 -- `eva promote dev --from-pr <pr> [--workitem <id>] [--dry-run]`
+
+Feature Breakdown
+---------------------------------------
+[  0] F41-06     Command reference               0/12 artifacts  0/12 evidence  12 gaps  [NOT STARTED]
+[  0] F41-01     What it is                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-02     Status  ??  2026-02-21           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-03     Installation                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-04     Quick start                     0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-05     Credential setup                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-07     Evidence ID format              0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-08     Architecture                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-09     Ecosystem links                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F41-10     Next implementation steps       0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 12 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 17 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 22 more stories with # EVA-STORY
+
+[ACT] 12 unimplemented stories by feature (highest priority first):
+      F41-06 Command reference (12 gaps)
+        - F41-06-001 -- Global flags (all commands)
+        - F41-06-002 -- `eva init [--from-artifacts PATH] [--force]`
+        - F41-06-003 -- `eva context show / set`
+        - F41-06-004 -- `eva ado create <type> --title <text> [--parent <id>]`
+        - F41-06-005 -- `eva ado update <id> [--state <state>] [--assigned-to <email>]`
+        - F41-06-006 -- `eva ado link <id> [--pr <url>] [--evidence <id>]`
+        - F41-06-007 -- `eva gh pr-show <pr>`
+        - F41-06-008 -- `eva gh pr-check <pr>`
+        - F41-06-009 -- `eva runbook list / show <id> / run <id> [--env] [--dry-run]`
+        - F41-06-010 -- `eva evidence show <id>`
+        - F41-06-011 -- `eva evidence verify <id>`
+        - F41-06-012 -- `eva promote dev --from-pr <pr> [--workitem <id>] [--dry-run]`
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

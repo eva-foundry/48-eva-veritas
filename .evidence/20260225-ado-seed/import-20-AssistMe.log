@@ -1,0 +1,90 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0855-ado-import-artifacts-live.log
+
+=== ADO Import: 20-AssistMe ===
+Project maturity : poc
+GitHub repo      : eva-foundry/20-AssistMe
+Dry run          : False
+
+Epic: creating '20-AssistMe'
+  -> Epic id=856
+Feature: existing id=207 - 'Overview'
+Feature: creating '?? Structure'
+  -> Feature id=857
+Feature: creating '?? Quick Start'
+  -> Feature id=858
+Feature: creating '?? Documentation'
+  -> Feature id=859
+Feature: creating '?? Evidence Sources'
+  -> Feature id=860
+Feature: creating '? What This System Proves'
+  -> Feature id=861
+Feature: creating '??? Troubleshooting'
+  -> Feature id=862
+Feature: creating '?? Workflow: From Evidence to Conclusion'
+  -> Feature id=863
+Feature: creating '?? Next Steps'
+  -> Feature id=864
+Feature: creating '?? Additional Resources'
+  -> Feature id=865
+Feature: creating '?? Contributing'
+  -> Feature id=866
+Feature: creating '?? Maintenance'
+  -> Feature id=867
+PBI: creating '[F20-03-001] 1. Install Dependencies'
+  -> PBI id=868
+PBI: creating '[F20-03-002] 2. Run Evidence Collection'
+  -> PBI id=869
+PBI: creating '[F20-03-003] 3. Review Evidence'
+  -> PBI id=870
+PBI: creating '[F20-03-004] 4. Update Main Report'
+  -> PBI id=871
+PBI: creating '[F20-04-001] Main Documents'
+  -> PBI id=872
+PBI: creating '[F20-04-002] Script Documentation'
+  -> PBI id=873
+PBI: creating '[F20-05-001] Azure Resources'
+  -> PBI id=874
+PBI: creating '[F20-05-002] Code Analysis'
+  -> PBI id=875
+PBI: creating '[F20-06-001] 1. How AssistMe XML Was Ingested (November 2025)'
+  -> PBI id=876
+PBI: creating '[F20-06-002] 2. What EVA DA Does with XML'
+  -> PBI id=877
+PBI: creating '[F20-06-003] 3. Why New XML Fails'
+  -> PBI id=878
+PBI: creating '[F20-07-001] No Results from Scripts'
+  -> PBI id=879
+PBI: creating '[F20-07-002] Authentication Errors'
+  -> PBI id=880
+PBI: creating '[F20-07-003] Missing Environment Variables'
+  -> PBI id=881
+PBI: creating '[F20-09-001] For Your Investigation'
+  -> PBI id=882
+
+=== Import Summary: 20-AssistMe ===
+Epic id  : 856
+Features : 12
+PBIs     : 15
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F20-03-001 868 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-03-002 869 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-03-003 870 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-03-004 871 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-04-001 872 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-04-002 873 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-05-001 874 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-05-002 875 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-06-001 876 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-06-002 877 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-06-003 878 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-07-001 879 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-07-002 880 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-07-003 881 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F20-09-001 882 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

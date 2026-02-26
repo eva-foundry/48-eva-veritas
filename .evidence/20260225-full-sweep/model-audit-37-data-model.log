@@ -1,0 +1,31 @@
+[INFO] model-audit: C:\AICOE\eva-foundation\37-data-model
+[INFO] API: http://localhost:8010
+[INFO] Entities fetched: 46 screens, 186 endpoints, 34 services, 13 containers
+[WARN] model-fidelity.json written: C:\AICOE\eva-foundation\37-data-model\.eva\model-fidelity.json
+       Score: 81%  (225/279 entities verified)
+       Drifted entities (54):
+         [screen] JpSparkLayout -- Screen file not on disk: 44-eva-jp-spark/src/pages/layout/Layout.tsx
+         [screen] JpSparkChatPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/chat/Chat.tsx
+         [screen] JpSparkContentPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/content/Content.tsx
+         [screen] JpSparkTranslatorPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/translator/Translator.tsx
+         [screen] JpSparkUrlScrapperPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/urlscrapper/UrlScrapper.tsx
+         [screen] JpSparkTDAPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/tda/TDA.tsx
+         [screen] JpSparkTutorPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/tutor/Tutor.tsx
+         [service] eva-brain-api -- No docker-compose or Dockerfile references service name: eva-brain-api
+         [service] eva-roles-api -- No docker-compose or Dockerfile references service name: eva-roles-api
+         [service] admin-face -- No docker-compose or Dockerfile references service name: admin-face
+         ... and 44 more
+       Container impact analysis:
+         Container 'jobs' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'extracted_content' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'chunks' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'audit_logs' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'content_access_logs' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'sessions' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'messages' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'scrum-cache' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'config' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'apps' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'model_objects' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'translations' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'content_logs' impacts: 0 endpoint(s), 0 screen(s)

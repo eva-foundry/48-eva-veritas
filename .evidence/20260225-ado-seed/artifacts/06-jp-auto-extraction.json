@@ -1,0 +1,525 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.5915559-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/06-jp-auto-extraction",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-06",
+  "stream": "WBS-S-DEV",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "06-jp-auto-extraction",
+    "description": "06-jp-auto-extraction",
+    "tags": "06-jp-auto-extraction;WBS-S-DEV",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F06-01",
+      "type": "Feature",
+      "title": "Overview",
+      "description": "Overview",
+      "tags": "06-jp-auto-extraction;F06-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-02",
+      "type": "Feature",
+      "title": "Problem Statement",
+      "description": "Problem Statement",
+      "tags": "06-jp-auto-extraction;F06-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-03",
+      "type": "Feature",
+      "title": "Environment & Dependency Strategy",
+      "description": "Environment & Dependency Strategy",
+      "tags": "06-jp-auto-extraction;F06-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-04",
+      "type": "Feature",
+      "title": "Phase 1 ? Input Preparation & Validation",
+      "description": "Phase 1 ? Input Preparation & Validation",
+      "tags": "06-jp-auto-extraction;F06-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-05",
+      "type": "Feature",
+      "title": "Phase 2 ? Browser Automation Implementation",
+      "description": "Phase 2 ? Browser Automation Implementation",
+      "tags": "06-jp-auto-extraction;F06-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-06",
+      "type": "Feature",
+      "title": "Operational procedure for first run",
+      "description": "Operational procedure for first run",
+      "tags": "06-jp-auto-extraction;F06-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-07",
+      "type": "Feature",
+      "title": "Phase 3 ? Citation Parsing",
+      "description": "Phase 3 ? Citation Parsing",
+      "tags": "06-jp-auto-extraction;F06-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-08",
+      "type": "Feature",
+      "title": "Phase 4 ? Output & Traceability",
+      "description": "Phase 4 ? Output & Traceability",
+      "tags": "06-jp-auto-extraction;F06-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-09",
+      "type": "Feature",
+      "title": "Evidence capture & run artifacts",
+      "description": "Evidence capture & run artifacts",
+      "tags": "06-jp-auto-extraction;F06-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-10",
+      "type": "Feature",
+      "title": "Phase 5 ? Error Handling & Resilience",
+      "description": "Phase 5 ? Error Handling & Resilience",
+      "tags": "06-jp-auto-extraction;F06-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-11",
+      "type": "Feature",
+      "title": "Phase 6 ? Validation & Quality Assurance",
+      "description": "Phase 6 ? Validation & Quality Assurance",
+      "tags": "06-jp-auto-extraction;F06-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-12",
+      "type": "Feature",
+      "title": "Technical Specifications",
+      "description": "Technical Specifications",
+      "tags": "06-jp-auto-extraction;F06-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-13",
+      "type": "Feature",
+      "title": "Risk Assessment",
+      "description": "Risk Assessment",
+      "tags": "06-jp-auto-extraction;F06-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-14",
+      "type": "Feature",
+      "title": "Future Enhancements",
+      "description": "Future Enhancements",
+      "tags": "06-jp-auto-extraction;F06-14",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-15",
+      "type": "Feature",
+      "title": "Summary",
+      "description": "Summary",
+      "tags": "06-jp-auto-extraction;F06-15",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F06-16",
+      "type": "Feature",
+      "title": "Change summary (2026-01-21)",
+      "description": "Change summary (2026-01-21)",
+      "tags": "06-jp-auto-extraction;F06-16",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F06-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-03-001] Workstation constraint summary",
+      "acceptance_criteria": "Workstation constraint summary",
+      "tags": "06-jp-auto-extraction;F06-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-03",
+      "state": "New",
+      "wbs_id": "F06-03-001"
+    },
+    {
+      "id_hint": "F06-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-03-002] Baseline execution environment",
+      "acceptance_criteria": "Baseline execution environment",
+      "tags": "06-jp-auto-extraction;F06-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-03",
+      "state": "New",
+      "wbs_id": "F06-03-002"
+    },
+    {
+      "id_hint": "F06-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-03-003] Alternate execution paths (documented only)",
+      "acceptance_criteria": "Alternate execution paths (documented only)",
+      "tags": "06-jp-auto-extraction;F06-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-03",
+      "state": "New",
+      "wbs_id": "F06-03-003"
+    },
+    {
+      "id_hint": "F06-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-04-001] Objectives",
+      "acceptance_criteria": "Objectives",
+      "tags": "06-jp-auto-extraction;F06-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-04",
+      "state": "New",
+      "wbs_id": "F06-04-001"
+    },
+    {
+      "id_hint": "F06-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-04-002] Tasks",
+      "acceptance_criteria": "Tasks",
+      "tags": "06-jp-auto-extraction;F06-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-04",
+      "state": "New",
+      "wbs_id": "F06-04-002"
+    },
+    {
+      "id_hint": "F06-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-04-003] Deliverables",
+      "acceptance_criteria": "Deliverables",
+      "tags": "06-jp-auto-extraction;F06-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-04",
+      "state": "New",
+      "wbs_id": "F06-04-003"
+    },
+    {
+      "id_hint": "F06-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-05-001] Objectives",
+      "acceptance_criteria": "Objectives",
+      "tags": "06-jp-auto-extraction;F06-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-05",
+      "state": "New",
+      "wbs_id": "F06-05-001"
+    },
+    {
+      "id_hint": "F06-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-05-002] Architecture Decisions",
+      "acceptance_criteria": "Architecture Decisions",
+      "tags": "06-jp-auto-extraction;F06-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-05",
+      "state": "New",
+      "wbs_id": "F06-05-002"
+    },
+    {
+      "id_hint": "F06-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-05-003] Tasks",
+      "acceptance_criteria": "Tasks",
+      "tags": "06-jp-auto-extraction;F06-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-05",
+      "state": "New",
+      "wbs_id": "F06-05-003"
+    },
+    {
+      "id_hint": "F06-05-004",
+      "type": "Product Backlog Item",
+      "title": "[F06-05-004] Deliverables",
+      "acceptance_criteria": "Deliverables",
+      "tags": "06-jp-auto-extraction;F06-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-05",
+      "state": "New",
+      "wbs_id": "F06-05-004"
+    },
+    {
+      "id_hint": "F06-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-07-001] Objectives",
+      "acceptance_criteria": "Objectives",
+      "tags": "06-jp-auto-extraction;F06-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-07",
+      "state": "New",
+      "wbs_id": "F06-07-001"
+    },
+    {
+      "id_hint": "F06-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-07-002] Citation Formats",
+      "acceptance_criteria": "Citation Formats",
+      "tags": "06-jp-auto-extraction;F06-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-07",
+      "state": "New",
+      "wbs_id": "F06-07-002"
+    },
+    {
+      "id_hint": "F06-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-07-003] Parsing Algorithm",
+      "acceptance_criteria": "Parsing Algorithm",
+      "tags": "06-jp-auto-extraction;F06-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-07",
+      "state": "New",
+      "wbs_id": "F06-07-003"
+    },
+    {
+      "id_hint": "F06-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F06-07-004] Deliverables",
+      "acceptance_criteria": "Deliverables",
+      "tags": "06-jp-auto-extraction;F06-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-07",
+      "state": "New",
+      "wbs_id": "F06-07-004"
+    },
+    {
+      "id_hint": "F06-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-08-001] Objectives",
+      "acceptance_criteria": "Objectives",
+      "tags": "06-jp-auto-extraction;F06-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-08",
+      "state": "New",
+      "wbs_id": "F06-08-001"
+    },
+    {
+      "id_hint": "F06-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-08-002] Output Formats",
+      "acceptance_criteria": "Output Formats",
+      "tags": "06-jp-auto-extraction;F06-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-08",
+      "state": "New",
+      "wbs_id": "F06-08-002"
+    },
+    {
+      "id_hint": "F06-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-08-003] Logging Strategy",
+      "acceptance_criteria": "Logging Strategy",
+      "tags": "06-jp-auto-extraction;F06-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-08",
+      "state": "New",
+      "wbs_id": "F06-08-003"
+    },
+    {
+      "id_hint": "F06-08-004",
+      "type": "Product Backlog Item",
+      "title": "[F06-08-004] Deliverables",
+      "acceptance_criteria": "Deliverables",
+      "tags": "06-jp-auto-extraction;F06-08-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-08",
+      "state": "New",
+      "wbs_id": "F06-08-004"
+    },
+    {
+      "id_hint": "F06-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-10-001] Objectives",
+      "acceptance_criteria": "Objectives",
+      "tags": "06-jp-auto-extraction;F06-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-10",
+      "state": "New",
+      "wbs_id": "F06-10-001"
+    },
+    {
+      "id_hint": "F06-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-10-002] Error Scenarios",
+      "acceptance_criteria": "Error Scenarios",
+      "tags": "06-jp-auto-extraction;F06-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-10",
+      "state": "New",
+      "wbs_id": "F06-10-002"
+    },
+    {
+      "id_hint": "F06-10-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-10-003] Resilience Features",
+      "acceptance_criteria": "Resilience Features",
+      "tags": "06-jp-auto-extraction;F06-10-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-10",
+      "state": "New",
+      "wbs_id": "F06-10-003"
+    },
+    {
+      "id_hint": "F06-10-004",
+      "type": "Product Backlog Item",
+      "title": "[F06-10-004] Deliverables",
+      "acceptance_criteria": "Deliverables",
+      "tags": "06-jp-auto-extraction;F06-10-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-10",
+      "state": "New",
+      "wbs_id": "F06-10-004"
+    },
+    {
+      "id_hint": "F06-11-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-11-001] Objectives",
+      "acceptance_criteria": "Objectives",
+      "tags": "06-jp-auto-extraction;F06-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-11",
+      "state": "New",
+      "wbs_id": "F06-11-001"
+    },
+    {
+      "id_hint": "F06-11-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-11-002] Validation Strategy",
+      "acceptance_criteria": "Validation Strategy",
+      "tags": "06-jp-auto-extraction;F06-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-11",
+      "state": "New",
+      "wbs_id": "F06-11-002"
+    },
+    {
+      "id_hint": "F06-11-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-11-003] Success Criteria",
+      "acceptance_criteria": "Success Criteria",
+      "tags": "06-jp-auto-extraction;F06-11-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-11",
+      "state": "New",
+      "wbs_id": "F06-11-003"
+    },
+    {
+      "id_hint": "F06-11-004",
+      "type": "Product Backlog Item",
+      "title": "[F06-11-004] Deliverables",
+      "acceptance_criteria": "Deliverables",
+      "tags": "06-jp-auto-extraction;F06-11-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-11",
+      "state": "New",
+      "wbs_id": "F06-11-004"
+    },
+    {
+      "id_hint": "F06-12-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-12-001] Dependencies",
+      "acceptance_criteria": "Dependencies",
+      "tags": "06-jp-auto-extraction;F06-12-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-12",
+      "state": "New",
+      "wbs_id": "F06-12-001"
+    },
+    {
+      "id_hint": "F06-12-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-12-002] System Requirements",
+      "acceptance_criteria": "System Requirements",
+      "tags": "06-jp-auto-extraction;F06-12-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-12",
+      "state": "New",
+      "wbs_id": "F06-12-002"
+    },
+    {
+      "id_hint": "F06-12-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-12-003] Performance Expectations",
+      "acceptance_criteria": "Performance Expectations",
+      "tags": "06-jp-auto-extraction;F06-12-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-12",
+      "state": "New",
+      "wbs_id": "F06-12-003"
+    },
+    {
+      "id_hint": "F06-12-004",
+      "type": "Product Backlog Item",
+      "title": "[F06-12-004] Maintenance Considerations",
+      "acceptance_criteria": "Maintenance Considerations",
+      "tags": "06-jp-auto-extraction;F06-12-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-12",
+      "state": "New",
+      "wbs_id": "F06-12-004"
+    },
+    {
+      "id_hint": "F06-13-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-13-001] High Risk",
+      "acceptance_criteria": "High Risk",
+      "tags": "06-jp-auto-extraction;F06-13-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-13",
+      "state": "New",
+      "wbs_id": "F06-13-001"
+    },
+    {
+      "id_hint": "F06-13-002",
+      "type": "Product Backlog Item",
+      "title": "[F06-13-002] Medium Risk",
+      "acceptance_criteria": "Medium Risk",
+      "tags": "06-jp-auto-extraction;F06-13-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-13",
+      "state": "New",
+      "wbs_id": "F06-13-002"
+    },
+    {
+      "id_hint": "F06-13-003",
+      "type": "Product Backlog Item",
+      "title": "[F06-13-003] Low Risk",
+      "acceptance_criteria": "Low Risk",
+      "tags": "06-jp-auto-extraction;F06-13-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-13",
+      "state": "New",
+      "wbs_id": "F06-13-003"
+    },
+    {
+      "id_hint": "F06-14-001",
+      "type": "Product Backlog Item",
+      "title": "[F06-14-001] Phase 7+ (Not Included)",
+      "acceptance_criteria": "Phase 7+ (Not Included)",
+      "tags": "06-jp-auto-extraction;F06-14-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F06-14",
+      "state": "New",
+      "wbs_id": "F06-14-001"
+    }
+  ]
+}

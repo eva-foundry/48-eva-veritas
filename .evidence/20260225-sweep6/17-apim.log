@@ -1,0 +1,100 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\17-apim
+[INFO] Prefix: F17
+[PASS] Written: C:\AICOE\eva-foundation\17-apim\.eva\veritas-plan.json
+       13 features, 18 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F17-01        4      0  ?? PROJECT STATUS DASHBOARD
+  F17-02        0      0  Executive Summary
+  F17-03        4      0  Phase 3: APIM Design & Setup (2-3 weeks, 44-60 hours)
+  F17-04        5      0  Phase 4: Backend Middleware & Header Propagation (2 weeks, 40-56 hours)
+  F17-05        5      0  Phase 5: Testing & Cutover (1 week, 40-56 hours)
+  F17-06        0      0  Master Timeline & Sequencing
+  F17-07        0      0  Critical Path & Risk Mitigation
+  F17-08        0      0  Definition of Done (Project-Level)
+  F17-09        0      0  Acceptance Criteria
+  F17-10        0      0  Owner & Team Composition
+  F17-11        0      0  Success Metrics (Post-Go-Live)
+  F17-12        0      0  Next Steps (Immediate)
+  F17-13        0      0  Reference Documents
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F17-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\17-apim
+[INFO] Using veritas-plan.json (format: veritas, 18 stories, 0 tasks)
+[INFO] Planned: 13 features, 18 stories
+[INFO] Actual: 59 artifacts, 18 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\17-apim\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\17-apim\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\17-apim\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: OVERVIEW: Getting APIM into InfoJP PoC
+=======================================
+Repo:    C:\AICOE\eva-foundation\17-apim
+Planned: 13 features, 18 stories
+
+Coverage
+---------------------------------------
+Stories total:          18
+Stories with artifacts: 18
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F17-01     ?? PROJECT STATUS DASHBOARD     4/4 artifacts  0/4 evidence  0 gaps
+[  0] F17-02     Executive Summary               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F17-03     Phase 3: APIM Design & Setup (  4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F17-04     Phase 4: Backend Middleware &   5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F17-05     Phase 5: Testing & Cutover (1   5/5 artifacts  0/5 evidence  0 gaps
+[  0] F17-06     Master Timeline & Sequencing    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F17-07     Critical Path & Risk Mitigatio  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F17-08     Definition of Done (Project-Le  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F17-09     Acceptance Criteria             0/0 artifacts  0/0 evidence  0 gaps
+[  0] F17-10     Owner & Team Composition        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F17-11     Success Metrics (Post-Go-Live)  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F17-12     Next Steps (Immediate)          0/0 artifacts  0/0 evidence  0 gaps
+[  0] F17-13     Reference Documents             0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F17-01-001 -- Phase Completion Matrix (1 artifact)
+[IMPL] F17-01-002 -- Critical Findings Impact (1 artifact)
+[IMPL] F17-01-003 -- Current Blockers & Risks (1 artifact)
+[IMPL] F17-01-004 -- Next Milestone: Phase 3A Kickoff (1 artifact)
+[IMPL] F17-03-001 -- Phase 3A: Generate OpenAPI Specification (1 artifact)
+[IMPL] F17-03-002 -- Phase 3B: Design APIM Policies (1 artifact)
+[IMPL] F17-03-003 -- Phase 3C: Create Deployment & Cutover Plan (1 artifact)
+[IMPL] F17-03-004 -- Phase 3 Summary Table (1 artifact)
+[IMPL] F17-04-001 -- Phase 4A: Governance Logging Middleware (1 artifact)
+[IMPL] F17-04-002 -- Phase 4B: Authorization Enforcement Middleware (1 artifact)
+[IMPL] F17-04-003 -- Phase 4C: Cosmos DB Schema Extension (1 artifact)
+[IMPL] F17-04-004 -- Phase 4D: Cost Attribution Queries (KQL/SQL) (1 artifact)
+[IMPL] F17-04-005 -- Phase 4 Summary Table (1 artifact)
+[IMPL] F17-05-001 -- Phase 5A: Integration Testing (1 artifact)
+[IMPL] F17-05-002 -- Phase 5B: Performance Testing (1 artifact)
+[IMPL] F17-05-003 -- Phase 5C: User Acceptance Testing (UAT) (1 artifact)
+[IMPL] F17-05-004 -- Phase 5D: Go-Live Cutover & Monitoring (1 artifact)
+[IMPL] F17-05-005 -- Phase 5 Summary Table (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

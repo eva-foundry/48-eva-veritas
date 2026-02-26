@@ -1,0 +1,67 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\47-eva-mti
+[INFO] Prefix: F47
+[PASS] Written: C:\AICOE\eva-foundation\47-eva-mti\.eva\veritas-plan.json
+       3 features, 5 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F47-01        4      0  Design Phases (Inherited from 19-ai-gov)
+  F47-02        1      0  Open Work ? Implementation
+  F47-03        0      0  Design Completion Summary
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F47-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\47-eva-mti
+[INFO] Using veritas-plan.json (format: veritas, 5 stories, 0 tasks)
+[INFO] Planned: 3 features, 5 stories
+[INFO] Actual: 11 artifacts, 5 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\47-eva-mti\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\47-eva-mti\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\47-eva-mti\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 47-eva-mti ??? EVA Machine Trust Index
+=======================================
+Repo:    C:\AICOE\eva-foundation\47-eva-mti
+Planned: 3 features, 5 stories
+
+Coverage
+---------------------------------------
+Stories total:          5
+Stories with artifacts: 5
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F47-01     Design Phases (Inherited from   4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F47-02     Open Work ? Implementation      1/1 artifacts  0/1 evidence  0 gaps
+[  0] F47-03     Design Completion Summary       0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F47-01-001 -- Phase 1 ? MTI Concept and Subscore Definitions (Complete) (1 artifact)
+[IMPL] F47-01-002 -- Phase 2 ? Computation Specification (Complete) (1 artifact)
+[IMPL] F47-01-003 -- Phase 3 ? Trust Service API Contract (Complete) (1 artifact)
+[IMPL] F47-01-004 -- Phase 4 ? Cosmos Container Schema (Complete) (1 artifact)
+[IMPL] F47-02-001 -- Phase 5 ? Trust Service Implementation (Not Started) (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

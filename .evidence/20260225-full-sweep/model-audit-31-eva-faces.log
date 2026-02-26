@@ -1,0 +1,30 @@
+[INFO] model-audit: C:\AICOE\eva-foundation\31-eva-faces
+[INFO] API: http://localhost:8010
+[INFO] Entities fetched: 46 screens, 186 endpoints, 34 services, 13 containers
+[WARN] model-fidelity.json written: C:\AICOE\eva-foundation\31-eva-faces\.eva\model-fidelity.json
+       Score: 56%  (157/279 entities verified)
+       Drifted entities (122):
+         [screen] JpSparkLayout -- Screen file not on disk: 44-eva-jp-spark/src/pages/layout/Layout.tsx
+         [screen] JpSparkChatPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/chat/Chat.tsx
+         [screen] JpSparkContentPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/content/Content.tsx
+         [screen] JpSparkTranslatorPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/translator/Translator.tsx
+         [screen] JpSparkUrlScrapperPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/urlscrapper/UrlScrapper.tsx
+         [screen] JpSparkTDAPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/tda/TDA.tsx
+         [screen] JpSparkTutorPage -- Screen file not on disk: 44-eva-jp-spark/src/pages/tutor/Tutor.tsx
+         [endpoint] GET /v1/health/background -- No router file references path: /v1/health/background
+         [endpoint] GET /v1/config/info -- No router file references path: /v1/config/info
+         [endpoint] GET /v1/config/features -- No router file references path: /v1/config/features
+         ... and 112 more
+       Container impact analysis:
+         Container 'extracted_content' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'chunks' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'audit_logs' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'content_access_logs' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'sessions' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'messages' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'scrum-cache' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'config' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'apps' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'model_objects' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'translations' impacts: 0 endpoint(s), 0 screen(s)
+         Container 'content_logs' impacts: 0 endpoint(s), 0 screen(s)

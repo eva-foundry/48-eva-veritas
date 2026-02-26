@@ -1,0 +1,656 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.9729357-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/28-rbac",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-28",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "28-rbac",
+    "description": "28-rbac",
+    "tags": "28-rbac;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F28-01",
+      "type": "Feature",
+      "title": "?? Documentation Suite",
+      "description": "?? Documentation Suite",
+      "tags": "28-rbac;F28-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-02",
+      "type": "Feature",
+      "title": "Executive Summary",
+      "description": "Executive Summary",
+      "tags": "28-rbac;F28-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-03",
+      "type": "Feature",
+      "title": "Table of Contents",
+      "description": "Table of Contents",
+      "tags": "28-rbac;F28-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-04",
+      "type": "Feature",
+      "title": "Architecture Overview",
+      "description": "Architecture Overview",
+      "tags": "28-rbac;F28-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-05",
+      "type": "Feature",
+      "title": "Authorization Flow",
+      "description": "Authorization Flow",
+      "tags": "28-rbac;F28-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-06",
+      "type": "Feature",
+      "title": "Group Structure",
+      "description": "Group Structure",
+      "tags": "28-rbac;F28-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-07",
+      "type": "Feature",
+      "title": "Cosmos DB Schema",
+      "description": "Cosmos DB Schema",
+      "tags": "28-rbac;F28-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-08",
+      "type": "Feature",
+      "title": "Data Flow Diagrams",
+      "description": "Data Flow Diagrams",
+      "tags": "28-rbac;F28-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-09",
+      "type": "Feature",
+      "title": "Implementation Details",
+      "description": "Implementation Details",
+      "tags": "28-rbac;F28-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-10",
+      "type": "Feature",
+      "title": "Multi-Environment Setup",
+      "description": "Multi-Environment Setup",
+      "tags": "28-rbac;F28-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-11",
+      "type": "Feature",
+      "title": "Debugging & Troubleshooting",
+      "description": "Debugging & Troubleshooting",
+      "tags": "28-rbac;F28-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-12",
+      "type": "Feature",
+      "title": "Known Issues & Fixes",
+      "description": "Known Issues & Fixes",
+      "tags": "28-rbac;F28-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-13",
+      "type": "Feature",
+      "title": "API Endpoints",
+      "description": "API Endpoints",
+      "tags": "28-rbac;F28-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-14",
+      "type": "Feature",
+      "title": "Configuration Reference",
+      "description": "Configuration Reference",
+      "tags": "28-rbac;F28-14",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-15",
+      "type": "Feature",
+      "title": "Custom Example Prompts Per Group",
+      "description": "Custom Example Prompts Per Group",
+      "tags": "28-rbac;F28-15",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-16",
+      "type": "Feature",
+      "title": "Testing & Validation",
+      "description": "Testing & Validation",
+      "tags": "28-rbac;F28-16",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-17",
+      "type": "Feature",
+      "title": "Related Documentation",
+      "description": "Related Documentation",
+      "tags": "28-rbac;F28-17",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-18",
+      "type": "Feature",
+      "title": "FAQ",
+      "description": "FAQ",
+      "tags": "28-rbac;F28-18",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-19",
+      "type": "Feature",
+      "title": "Related Documentation",
+      "description": "Related Documentation",
+      "tags": "28-rbac;F28-19",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F28-20",
+      "type": "Feature",
+      "title": "Change Log",
+      "description": "Change Log",
+      "tags": "28-rbac;F28-20",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F28-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-04-001] 3-Layer RBAC Model",
+      "acceptance_criteria": "3-Layer RBAC Model",
+      "tags": "28-rbac;F28-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-04",
+      "state": "New",
+      "wbs_id": "F28-04-001"
+    },
+    {
+      "id_hint": "F28-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-05-001] Visual Flow Diagram",
+      "acceptance_criteria": "Visual Flow Diagram",
+      "tags": "28-rbac;F28-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-05",
+      "state": "New",
+      "wbs_id": "F28-05-001"
+    },
+    {
+      "id_hint": "F28-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-05-002] by-Step Process",
+      "acceptance_criteria": "by-Step Process",
+      "tags": "28-rbac;F28-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-05",
+      "state": "New",
+      "wbs_id": "F28-05-002"
+    },
+    {
+      "id_hint": "F28-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-05-003] Permission Matrix by Role",
+      "acceptance_criteria": "Permission Matrix by Role",
+      "tags": "28-rbac;F28-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-05",
+      "state": "New",
+      "wbs_id": "F28-05-003"
+    },
+    {
+      "id_hint": "F28-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-06-001] Naming Convention (CRITICAL)",
+      "acceptance_criteria": "Naming Convention (CRITICAL)",
+      "tags": "28-rbac;F28-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-06",
+      "state": "New",
+      "wbs_id": "F28-06-001"
+    },
+    {
+      "id_hint": "F28-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-001] Complete Database Architecture",
+      "acceptance_criteria": "Complete Database Architecture",
+      "tags": "28-rbac;F28-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-001"
+    },
+    {
+      "id_hint": "F28-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-002] Database 1: Group-to-Resource Mapping",
+      "acceptance_criteria": "Database 1: Group-to-Resource Mapping",
+      "tags": "28-rbac;F28-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-002"
+    },
+    {
+      "id_hint": "F28-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-003] Item Schema",
+      "acceptance_criteria": "Item Schema",
+      "tags": "28-rbac;F28-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-003"
+    },
+    {
+      "id_hint": "F28-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-004] Field Descriptions",
+      "acceptance_criteria": "Field Descriptions",
+      "tags": "28-rbac;F28-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-004"
+    },
+    {
+      "id_hint": "F28-07-005",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-005] Database 2: User Profile Management",
+      "acceptance_criteria": "Database 2: User Profile Management",
+      "tags": "28-rbac;F28-07-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-005"
+    },
+    {
+      "id_hint": "F28-07-006",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-006] Database 3: Document Status Tracking",
+      "acceptance_criteria": "Database 3: Document Status Tracking",
+      "tags": "28-rbac;F28-07-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-006"
+    },
+    {
+      "id_hint": "F28-07-007",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-007] Database 4: Custom Example Prompts",
+      "acceptance_criteria": "Database 4: Custom Example Prompts",
+      "tags": "28-rbac;F28-07-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-007"
+    },
+    {
+      "id_hint": "F28-07-008",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-008] Database 5: Conversation History",
+      "acceptance_criteria": "Database 5: Conversation History",
+      "tags": "28-rbac;F28-07-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-008"
+    },
+    {
+      "id_hint": "F28-07-009",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-009] Field Descriptions",
+      "acceptance_criteria": "Field Descriptions",
+      "tags": "28-rbac;F28-07-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-009"
+    },
+    {
+      "id_hint": "F28-07-010",
+      "type": "Product Backlog Item",
+      "title": "[F28-07-010] Azure RBAC Roles Reference",
+      "acceptance_criteria": "Azure RBAC Roles Reference",
+      "tags": "28-rbac;F28-07-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-07",
+      "state": "New",
+      "wbs_id": "F28-07-010"
+    },
+    {
+      "id_hint": "F28-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-08-001] 1. User Login & Group Selection Flow",
+      "acceptance_criteria": "1. User Login & Group Selection Flow",
+      "tags": "28-rbac;F28-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-08",
+      "state": "New",
+      "wbs_id": "F28-08-001"
+    },
+    {
+      "id_hint": "F28-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-08-002] 2. Document Upload & Processing Flow",
+      "acceptance_criteria": "2. Document Upload & Processing Flow",
+      "tags": "28-rbac;F28-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-08",
+      "state": "New",
+      "wbs_id": "F28-08-002"
+    },
+    {
+      "id_hint": "F28-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-08-003] 3. Chat Request with RAG Flow",
+      "acceptance_criteria": "3. Chat Request with RAG Flow",
+      "tags": "28-rbac;F28-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-08",
+      "state": "New",
+      "wbs_id": "F28-08-003"
+    },
+    {
+      "id_hint": "F28-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-09-001] Core Files",
+      "acceptance_criteria": "Core Files",
+      "tags": "28-rbac;F28-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-09",
+      "state": "New",
+      "wbs_id": "F28-09-001"
+    },
+    {
+      "id_hint": "F28-09-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-09-002] Code Examples",
+      "acceptance_criteria": "Code Examples",
+      "tags": "28-rbac;F28-09-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-09",
+      "state": "New",
+      "wbs_id": "F28-09-002"
+    },
+    {
+      "id_hint": "F28-09-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-09-003] API Endpoint Integration Pattern",
+      "acceptance_criteria": "API Endpoint Integration Pattern",
+      "tags": "28-rbac;F28-09-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-09",
+      "state": "New",
+      "wbs_id": "F28-09-003"
+    },
+    {
+      "id_hint": "F28-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-10-001] Environment Architecture Diagram",
+      "acceptance_criteria": "Environment Architecture Diagram",
+      "tags": "28-rbac;F28-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-10",
+      "state": "New",
+      "wbs_id": "F28-10-001"
+    },
+    {
+      "id_hint": "F28-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-10-002] Environment Configurations",
+      "acceptance_criteria": "Environment Configurations",
+      "tags": "28-rbac;F28-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-10",
+      "state": "New",
+      "wbs_id": "F28-10-002"
+    },
+    {
+      "id_hint": "F28-10-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-10-003] Environment Switching",
+      "acceptance_criteria": "Environment Switching",
+      "tags": "28-rbac;F28-10-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-10",
+      "state": "New",
+      "wbs_id": "F28-10-003"
+    },
+    {
+      "id_hint": "F28-11-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-11-001] Common Issues",
+      "acceptance_criteria": "Common Issues",
+      "tags": "28-rbac;F28-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-11",
+      "state": "New",
+      "wbs_id": "F28-11-001"
+    },
+    {
+      "id_hint": "F28-11-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-11-002] Fallback Mechanism Flow Diagram",
+      "acceptance_criteria": "Fallback Mechanism Flow Diagram",
+      "tags": "28-rbac;F28-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-11",
+      "state": "New",
+      "wbs_id": "F28-11-002"
+    },
+    {
+      "id_hint": "F28-12-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-12-001] Fix 1: JWT Group Extraction Bug (February 4, 2026)",
+      "acceptance_criteria": "Fix 1: JWT Group Extraction Bug (February 4, 2026)",
+      "tags": "28-rbac;F28-12-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-12",
+      "state": "New",
+      "wbs_id": "F28-12-001"
+    },
+    {
+      "id_hint": "F28-12-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-12-002] Fix 2: LOCAL_DEBUG Mock Groups (February 4, 2026)",
+      "acceptance_criteria": "Fix 2: LOCAL_DEBUG Mock Groups (February 4, 2026)",
+      "tags": "28-rbac;F28-12-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-12",
+      "state": "New",
+      "wbs_id": "F28-12-002"
+    },
+    {
+      "id_hint": "F28-12-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-12-003] Fix 3: Lifespan Mock Groups (Already Present)",
+      "acceptance_criteria": "Fix 3: Lifespan Mock Groups (Already Present)",
+      "tags": "28-rbac;F28-12-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-12",
+      "state": "New",
+      "wbs_id": "F28-12-003"
+    },
+    {
+      "id_hint": "F28-13-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-13-001] GET /getUsrGroupInfo",
+      "acceptance_criteria": "GET /getUsrGroupInfo",
+      "tags": "28-rbac;F28-13-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-13",
+      "state": "New",
+      "wbs_id": "F28-13-001"
+    },
+    {
+      "id_hint": "F28-13-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-13-002] POST /updateUsrGroupInfo",
+      "acceptance_criteria": "POST /updateUsrGroupInfo",
+      "tags": "28-rbac;F28-13-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-13",
+      "state": "New",
+      "wbs_id": "F28-13-002"
+    },
+    {
+      "id_hint": "F28-14-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-14-001] Environment Variables",
+      "acceptance_criteria": "Environment Variables",
+      "tags": "28-rbac;F28-14-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-14",
+      "state": "New",
+      "wbs_id": "F28-14-001"
+    },
+    {
+      "id_hint": "F28-14-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-14-002] Azure AD App Registration",
+      "acceptance_criteria": "Azure AD App Registration",
+      "tags": "28-rbac;F28-14-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-14",
+      "state": "New",
+      "wbs_id": "F28-14-002"
+    },
+    {
+      "id_hint": "F28-15-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-15-001] Configuration Location",
+      "acceptance_criteria": "Configuration Location",
+      "tags": "28-rbac;F28-15-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-15",
+      "state": "New",
+      "wbs_id": "F28-15-001"
+    },
+    {
+      "id_hint": "F28-15-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-15-002] Schema",
+      "acceptance_criteria": "Schema",
+      "tags": "28-rbac;F28-15-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-15",
+      "state": "New",
+      "wbs_id": "F28-15-002"
+    },
+    {
+      "id_hint": "F28-15-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-15-003] Updating Examples",
+      "acceptance_criteria": "Updating Examples",
+      "tags": "28-rbac;F28-15-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-15",
+      "state": "New",
+      "wbs_id": "F28-15-003"
+    },
+    {
+      "id_hint": "F28-16-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-16-001] Test Script",
+      "acceptance_criteria": "Test Script",
+      "tags": "28-rbac;F28-16-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-16",
+      "state": "New",
+      "wbs_id": "F28-16-001"
+    },
+    {
+      "id_hint": "F28-16-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-16-002] Manual Testing Checklist",
+      "acceptance_criteria": "Manual Testing Checklist",
+      "tags": "28-rbac;F28-16-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-16",
+      "state": "New",
+      "wbs_id": "F28-16-002"
+    },
+    {
+      "id_hint": "F28-17-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-17-001] Primary References",
+      "acceptance_criteria": "Primary References",
+      "tags": "28-rbac;F28-17-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-17",
+      "state": "New",
+      "wbs_id": "F28-17-001"
+    },
+    {
+      "id_hint": "F28-17-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-17-002] Code References",
+      "acceptance_criteria": "Code References",
+      "tags": "28-rbac;F28-17-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-17",
+      "state": "New",
+      "wbs_id": "F28-17-002"
+    },
+    {
+      "id_hint": "F28-17-003",
+      "type": "Product Backlog Item",
+      "title": "[F28-17-003] Debug Sessions",
+      "acceptance_criteria": "Debug Sessions",
+      "tags": "28-rbac;F28-17-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-17",
+      "state": "New",
+      "wbs_id": "F28-17-003"
+    },
+    {
+      "id_hint": "F28-19-001",
+      "type": "Product Backlog Item",
+      "title": "[F28-19-001] Complete Documentation Suite",
+      "acceptance_criteria": "Complete Documentation Suite",
+      "tags": "28-rbac;F28-19-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-19",
+      "state": "New",
+      "wbs_id": "F28-19-001"
+    },
+    {
+      "id_hint": "F28-19-002",
+      "type": "Product Backlog Item",
+      "title": "[F28-19-002] Key Documentation Features",
+      "acceptance_criteria": "Key Documentation Features",
+      "tags": "28-rbac;F28-19-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F28-19",
+      "state": "New",
+      "wbs_id": "F28-19-002"
+    }
+  ]
+}

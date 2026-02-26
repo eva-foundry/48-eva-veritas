@@ -1,0 +1,119 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\35-agentic-code-fixing
+[INFO] Prefix: F35
+[INFO] Enrichment applied: code-structure (6 stories)
+[PASS] Written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\veritas-plan.json
+       19 features, 18 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID            Stories  Tasks  Title
+  ???????????????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F35-01               1      0  Overview
+  F35-02               0      0  Why This Matters
+  F35-03               3      0  Technology Stack
+  F35-04               0      0  Architecture
+  F35-05               4      0  The 4-Phase Workflow
+  F35-06               0      0  Security Considerations
+  F35-07               0      0  Project Structure
+  F35-08               3      0  Quick Start
+  F35-09               1      0  Configuration
+  F35-10               0      0  Demo Repository
+  F35-11               0      0  Web Dashboard Features
+  F35-12               0      0  Real-World Extensions
+  F35-13               0      0  Key Takeaways
+  F35-14               0      0  Resources
+  F35-15               0      0  Next Steps
+  F35-STATUS           2      0  STATUS API
+  F35-PREFLIGHT        2      0  PREFLIGHT API
+  F35-RUN              2      0  RUN API
+  F35-OPS              6      0  Operations Scripts
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F35-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\35-agentic-code-fixing
+[INFO] Using veritas-plan.json (format: veritas, 24 stories, 0 tasks)
+[INFO] Planned: 19 features, 24 stories
+[INFO] Actual: 50 artifacts, 18 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Agentic Code Fixing with GitHub Copilot SDK and Foundry Local
+=======================================
+Repo:    C:\AICOE\eva-foundation\35-agentic-code-fixing
+Planned: 19 features, 24 stories
+
+Coverage
+---------------------------------------
+Stories total:          24
+Stories with artifacts: 24
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F35-01     Overview                        1/1 artifacts  0/1 evidence  0 gaps
+[  0] F35-02     Why This Matters                0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F35-03     Technology Stack                3/3 artifacts  0/3 evidence  0 gaps
+[  0] F35-04     Architecture                    0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F35-05     The 4-Phase Workflow            4/4 artifacts  0/4 evidence  0 gaps
+[  0] F35-06     Security Considerations         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-07     Project Structure               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F35-08     Quick Start                     3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F35-09     Configuration                   1/1 artifacts  0/1 evidence  0 gaps
+[  0] F35-10     Demo Repository                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-11     Web Dashboard Features          0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-12     Real-World Extensions           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-13     Key Takeaways                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-14     Resources                       0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-15     Next Steps                      0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F35-OPS    Operations Scripts              6/6 artifacts  0/6 evidence  0 gaps
+[ 50] F35-PREFLIGHT PREFLIGHT API                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F35-RUN    RUN API                         2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F35-STATUS STATUS API                      2/2 artifacts  0/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F35-01-001 -- Key Features (1 artifact)
+[IMPL] F35-03-001 -- GitHub Copilot SDK (1 artifact)
+[IMPL] F35-03-002 -- Azure Foundry Local (1 artifact)
+[IMPL] F35-03-003 -- BYOK Integration (1 artifact)
+[IMPL] F35-05-001 -- Phase 1: PLAN ?? (1 artifact)
+[IMPL] F35-05-002 -- Phase 2: EDIT ?? (1 artifact)
+[IMPL] F35-05-003 -- Phase 3: VERIFY ? (1 artifact)
+[IMPL] F35-05-004 -- Phase 4: SUMMARY ?? (1 artifact)
+[IMPL] F35-08-001 -- Prerequisites (1 artifact)
+[IMPL] F35-08-002 -- One-Command Setup (1 artifact)
+[IMPL] F35-08-003 -- Run the Agent (1 artifact)
+[IMPL] F35-09-001 -- Using Different Models (1 artifact)
+[IMPL] F35-STATUS-001 -- GET /api/status (1 artifact)
+[IMPL] F35-STATUS-001 -- GET /api/status (1 artifact)
+[IMPL] F35-PREFLIGHT-001 -- GET /api/preflight (1 artifact)
+[IMPL] F35-PREFLIGHT-001 -- GET /api/preflight (1 artifact)
+[IMPL] F35-RUN-001 -- POST /api/run (1 artifact)
+[IMPL] F35-RUN-001 -- POST /api/run (1 artifact)
+[IMPL] F35-OPS-001 -- header() (1 artifact)
+[IMPL] F35-OPS-002 -- ok() (1 artifact)
+[IMPL] F35-OPS-003 -- fail() (1 artifact)
+[IMPL] F35-OPS-001 -- header() (1 artifact)
+[IMPL] F35-OPS-002 -- ok() (1 artifact)
+[IMPL] F35-OPS-003 -- fail() (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

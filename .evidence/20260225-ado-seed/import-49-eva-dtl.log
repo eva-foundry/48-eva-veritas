@@ -1,0 +1,103 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0906-ado-import-artifacts-live.log
+
+=== ADO Import: 49-eva-dtl ===
+Project maturity : active
+GitHub repo      : eva-foundry/49-eva-dtl
+Dry run          : False
+
+Epic: creating '49-eva-dtl'
+  -> Epic id=2688
+Feature: creating 'Trust Vector Engine'
+  -> Feature id=2689
+Feature: creating 'Context Risk Engine'
+  -> Feature id=2690
+Feature: creating 'Policy Engine'
+  -> Feature id=2691
+Feature: creating 'Decision Engine'
+  -> Feature id=2692
+Feature: creating 'API Layer'
+  -> Feature id=2693
+Feature: creating 'Test Suite'
+  -> Feature id=2694
+Feature: creating 'EVALUATE API'
+  -> Feature id=2695
+Feature: existing id=437 - 'HEALTH API'
+PBI: creating '[DTL-01-001] TrustVector dataclass with 6 dimensions'
+  -> PBI id=2696
+PBI: creating '[DTL-01-002] Penalty for missing signals'
+  -> PBI id=2697
+PBI: creating '[DTL-01-003] Evidence dimension mandatory validation'
+  -> PBI id=2698
+PBI: creating '[DTL-02-001] ContextRisk formula implementation'
+  -> PBI id=2699
+PBI: creating '[DTL-02-002] Data classification mapping'
+  -> PBI id=2700
+PBI: creating '[DTL-02-003] Autonomy level mapping'
+  -> PBI id=2701
+PBI: creating '[DTL-03-001] YAML policy loading'
+  -> PBI id=2702
+PBI: creating '[DTL-03-002] Policy rule evaluation'
+  -> PBI id=2703
+PBI: creating '[DTL-03-003] On-fail/on-pass decision routing'
+  -> PBI id=2704
+PBI: creating '[DTL-04-001] 9-step evaluation pipeline'
+  -> PBI id=2705
+PBI: creating '[DTL-04-002] DTL state assignment logic'
+  -> PBI id=2706
+PBI: creating '[DTL-04-003] Obligations and expiry attachment'
+  -> PBI id=2707
+PBI: creating '[DTL-04-004] Confidence score computation'
+  -> PBI id=2708
+PBI: creating '[DTL-05-001] FastAPI application scaffolding'
+  -> PBI id=2709
+PBI: creating '[DTL-05-002] POST /decision/evaluate endpoint'
+  -> PBI id=2710
+PBI: creating '[DTL-05-003] POST /health endpoint'
+  -> PBI id=2711
+PBI: creating '[DTL-06-001] Trust vector unit tests'
+  -> PBI id=2712
+PBI: creating '[DTL-06-002] Context risk unit tests'
+  -> PBI id=2713
+PBI: creating '[DTL-06-003] Policy engine unit tests'
+  -> PBI id=2714
+PBI: creating '[DTL-06-004] Decision engine integration tests'
+  -> PBI id=2715
+PBI: creating '[F49-EVALUATE-001] POST /evaluate'
+  -> PBI id=2716
+PBI: creating '[F49-HEALTH-001] GET /health'
+  -> PBI id=2717
+
+=== Import Summary: 49-eva-dtl ===
+Epic id  : 2688
+Features : 8
+PBIs     : 22
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag             [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---             [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+DTL-01-001       2696 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-01-002       2697 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-01-003       2698 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-02-001       2699 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-02-002       2700 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-02-003       2701 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-03-001       2702 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-03-002       2703 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-03-003       2704 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-04-001       2705 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-04-002       2706 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-04-003       2707 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-04-004       2708 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-05-001       2709 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-05-002       2710 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-05-003       2711 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-06-001       2712 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-06-002       2713 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-06-003       2714 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+DTL-06-004       2715 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F49-EVALUATE-001 2716 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F49-HEALTH-001   2717 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+

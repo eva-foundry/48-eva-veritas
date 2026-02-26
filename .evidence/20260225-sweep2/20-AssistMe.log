@@ -1,0 +1,125 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\20-AssistMe
+[INFO] Prefix: F20
+[PASS] Written: C:\AICOE\eva-foundation\20-AssistMe\.eva\veritas-plan.json
+       12 features, 15 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F20-01        0      0  Overview
+  F20-02        0      0  ???? Structure
+  F20-03        4      0  ???? Quick Start
+  F20-04        2      0  ???? Documentation
+  F20-05        2      0  ???? Evidence Sources
+  F20-06        3      0  ??? What This System Proves
+  F20-07        3      0  ??????? Troubleshooting
+  F20-08        0      0  ???? Workflow: From Evidence to Conclusion
+  F20-09        1      0  ???? Next Steps
+  F20-10        0      0  ???? Additional Resources
+  F20-11        0      0  ???? Contributing
+  F20-12        0      0  ???? Maintenance
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F20-03-001
+[INFO] Discovering: C:\AICOE\eva-foundation\20-AssistMe
+[INFO] Using veritas-plan.json (format: free-form, 15 stories, 0 tasks)
+[INFO] Planned: 12 features, 15 stories
+[INFO] Actual: 35 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\20-AssistMe\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\20-AssistMe\.eva\reconciliation.json
+[INFO] Gaps: 15
+[PASS] trust written: C:\AICOE\eva-foundation\20-AssistMe\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: EVA DA XML Ingestion Evidence System
+=======================================
+Repo:    C:\AICOE\eva-foundation\20-AssistMe
+Planned: 12 features, 15 stories
+
+Coverage
+---------------------------------------
+Stories total:          15
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F20-03-001 -- 1. Install Dependencies
+[FAIL] missing_implementation :: F20-03-002 -- 2. Run Evidence Collection
+[FAIL] missing_implementation :: F20-03-003 -- 3. Review Evidence
+[FAIL] missing_implementation :: F20-03-004 -- 4. Update Main Report
+[FAIL] missing_implementation :: F20-04-001 -- Main Documents
+[FAIL] missing_implementation :: F20-04-002 -- Script Documentation
+[FAIL] missing_implementation :: F20-05-001 -- Azure Resources
+[FAIL] missing_implementation :: F20-05-002 -- Code Analysis
+[FAIL] missing_implementation :: F20-06-001 -- 1. How AssistMe XML Was Ingested (November 2025)
+[FAIL] missing_implementation :: F20-06-002 -- 2. What EVA DA Does with XML
+[FAIL] missing_implementation :: F20-06-003 -- 3. Why New XML Fails
+[FAIL] missing_implementation :: F20-07-001 -- No Results from Scripts
+[FAIL] missing_implementation :: F20-07-002 -- Authentication Errors
+[FAIL] missing_implementation :: F20-07-003 -- Missing Environment Variables
+[FAIL] missing_implementation :: F20-09-001 -- For Your Investigation
+
+Feature Breakdown
+---------------------------------------
+[  0] F20-03     ???? Quick Start                  0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F20-06     ??? What This System Proves       0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F20-07     ??????? Troubleshooting             0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F20-04     ???? Documentation                0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F20-05     ???? Evidence Sources             0/2 artifacts  0/2 evidence  2 gaps  [NOT STARTED]
+[  0] F20-09     ???? Next Steps                   0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F20-01     Overview                        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-02     ???? Structure                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-08     ???? Workflow: From Evidence to   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-10     ???? Additional Resources         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-11     ???? Contributing                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F20-12     ???? Maintenance                  0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 15 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 21 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 27 more stories with # EVA-STORY
+
+[ACT] 15 unimplemented stories by feature (highest priority first):
+      F20-03 ???? Quick Start (4 gaps)
+        - F20-03-001 -- 1. Install Dependencies
+        - F20-03-002 -- 2. Run Evidence Collection
+        - F20-03-003 -- 3. Review Evidence
+        - F20-03-004 -- 4. Update Main Report
+      F20-06 ??? What This System Proves (3 gaps)
+        - F20-06-001 -- 1. How AssistMe XML Was Ingested (November 2025)
+        - F20-06-002 -- 2. What EVA DA Does with XML
+        - F20-06-003 -- 3. Why New XML Fails
+      F20-07 ??????? Troubleshooting (3 gaps)
+        - F20-07-001 -- No Results from Scripts
+        - F20-07-002 -- Authentication Errors
+        - F20-07-003 -- Missing Environment Variables
+      F20-04 ???? Documentation (2 gaps)
+        - F20-04-001 -- Main Documents
+        - F20-04-002 -- Script Documentation
+      F20-05 ???? Evidence Sources (2 gaps)
+        - F20-05-001 -- Azure Resources
+        - F20-05-002 -- Code Analysis
+      F20-09 ???? Next Steps (1 gap)
+        - F20-09-001 -- For Your Investigation
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

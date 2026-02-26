@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.7315158-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/20-AssistMe",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-20",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "20-AssistMe",
+    "description": "20-AssistMe",
+    "tags": "20-AssistMe;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F20-01",
+      "type": "Feature",
+      "title": "Overview",
+      "description": "Overview",
+      "tags": "20-AssistMe;F20-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-02",
+      "type": "Feature",
+      "title": "?? Structure",
+      "description": "?? Structure",
+      "tags": "20-AssistMe;F20-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-03",
+      "type": "Feature",
+      "title": "?? Quick Start",
+      "description": "?? Quick Start",
+      "tags": "20-AssistMe;F20-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-04",
+      "type": "Feature",
+      "title": "?? Documentation",
+      "description": "?? Documentation",
+      "tags": "20-AssistMe;F20-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-05",
+      "type": "Feature",
+      "title": "?? Evidence Sources",
+      "description": "?? Evidence Sources",
+      "tags": "20-AssistMe;F20-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-06",
+      "type": "Feature",
+      "title": "? What This System Proves",
+      "description": "? What This System Proves",
+      "tags": "20-AssistMe;F20-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-07",
+      "type": "Feature",
+      "title": "??? Troubleshooting",
+      "description": "??? Troubleshooting",
+      "tags": "20-AssistMe;F20-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-08",
+      "type": "Feature",
+      "title": "?? Workflow: From Evidence to Conclusion",
+      "description": "?? Workflow: From Evidence to Conclusion",
+      "tags": "20-AssistMe;F20-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-09",
+      "type": "Feature",
+      "title": "?? Next Steps",
+      "description": "?? Next Steps",
+      "tags": "20-AssistMe;F20-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-10",
+      "type": "Feature",
+      "title": "?? Additional Resources",
+      "description": "?? Additional Resources",
+      "tags": "20-AssistMe;F20-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-11",
+      "type": "Feature",
+      "title": "?? Contributing",
+      "description": "?? Contributing",
+      "tags": "20-AssistMe;F20-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F20-12",
+      "type": "Feature",
+      "title": "?? Maintenance",
+      "description": "?? Maintenance",
+      "tags": "20-AssistMe;F20-12",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F20-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F20-03-001] 1. Install Dependencies",
+      "acceptance_criteria": "1. Install Dependencies",
+      "tags": "20-AssistMe;F20-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-03",
+      "state": "New",
+      "wbs_id": "F20-03-001"
+    },
+    {
+      "id_hint": "F20-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F20-03-002] 2. Run Evidence Collection",
+      "acceptance_criteria": "2. Run Evidence Collection",
+      "tags": "20-AssistMe;F20-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-03",
+      "state": "New",
+      "wbs_id": "F20-03-002"
+    },
+    {
+      "id_hint": "F20-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F20-03-003] 3. Review Evidence",
+      "acceptance_criteria": "3. Review Evidence",
+      "tags": "20-AssistMe;F20-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-03",
+      "state": "New",
+      "wbs_id": "F20-03-003"
+    },
+    {
+      "id_hint": "F20-03-004",
+      "type": "Product Backlog Item",
+      "title": "[F20-03-004] 4. Update Main Report",
+      "acceptance_criteria": "4. Update Main Report",
+      "tags": "20-AssistMe;F20-03-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-03",
+      "state": "New",
+      "wbs_id": "F20-03-004"
+    },
+    {
+      "id_hint": "F20-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F20-04-001] Main Documents",
+      "acceptance_criteria": "Main Documents",
+      "tags": "20-AssistMe;F20-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-04",
+      "state": "New",
+      "wbs_id": "F20-04-001"
+    },
+    {
+      "id_hint": "F20-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F20-04-002] Script Documentation",
+      "acceptance_criteria": "Script Documentation",
+      "tags": "20-AssistMe;F20-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-04",
+      "state": "New",
+      "wbs_id": "F20-04-002"
+    },
+    {
+      "id_hint": "F20-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F20-05-001] Azure Resources",
+      "acceptance_criteria": "Azure Resources",
+      "tags": "20-AssistMe;F20-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-05",
+      "state": "New",
+      "wbs_id": "F20-05-001"
+    },
+    {
+      "id_hint": "F20-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F20-05-002] Code Analysis",
+      "acceptance_criteria": "Code Analysis",
+      "tags": "20-AssistMe;F20-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-05",
+      "state": "New",
+      "wbs_id": "F20-05-002"
+    },
+    {
+      "id_hint": "F20-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F20-06-001] 1. How AssistMe XML Was Ingested (November 2025)",
+      "acceptance_criteria": "1. How AssistMe XML Was Ingested (November 2025)",
+      "tags": "20-AssistMe;F20-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-06",
+      "state": "New",
+      "wbs_id": "F20-06-001"
+    },
+    {
+      "id_hint": "F20-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F20-06-002] 2. What EVA DA Does with XML",
+      "acceptance_criteria": "2. What EVA DA Does with XML",
+      "tags": "20-AssistMe;F20-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-06",
+      "state": "New",
+      "wbs_id": "F20-06-002"
+    },
+    {
+      "id_hint": "F20-06-003",
+      "type": "Product Backlog Item",
+      "title": "[F20-06-003] 3. Why New XML Fails",
+      "acceptance_criteria": "3. Why New XML Fails",
+      "tags": "20-AssistMe;F20-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-06",
+      "state": "New",
+      "wbs_id": "F20-06-003"
+    },
+    {
+      "id_hint": "F20-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F20-07-001] No Results from Scripts",
+      "acceptance_criteria": "No Results from Scripts",
+      "tags": "20-AssistMe;F20-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-07",
+      "state": "New",
+      "wbs_id": "F20-07-001"
+    },
+    {
+      "id_hint": "F20-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F20-07-002] Authentication Errors",
+      "acceptance_criteria": "Authentication Errors",
+      "tags": "20-AssistMe;F20-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-07",
+      "state": "New",
+      "wbs_id": "F20-07-002"
+    },
+    {
+      "id_hint": "F20-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F20-07-003] Missing Environment Variables",
+      "acceptance_criteria": "Missing Environment Variables",
+      "tags": "20-AssistMe;F20-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-07",
+      "state": "New",
+      "wbs_id": "F20-07-003"
+    },
+    {
+      "id_hint": "F20-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F20-09-001] For Your Investigation",
+      "acceptance_criteria": "For Your Investigation",
+      "tags": "20-AssistMe;F20-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F20-09",
+      "state": "New",
+      "wbs_id": "F20-09-001"
+    }
+  ]
+}

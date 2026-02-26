@@ -1,0 +1,284 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0902-ado-import-artifacts-live.log
+
+=== ADO Import: 31-eva-faces ===
+Project maturity : active
+GitHub repo      : eva-foundry/31-eva-faces
+Dry run          : False
+
+Epic: creating '31-eva-faces'
+  -> Epic id=1983
+Feature: creating 'Today's Execution Order'
+  -> Feature id=1984
+Feature: creating 'Blocked WIs (not scheduled today)'
+  -> Feature id=1985
+Feature: creating 'Integration Blockers Active'
+  -> Feature id=1986
+Feature: creating 'Slot 1 ? WI-11 ? BackendApiClient.ts Contract Update'
+  -> Feature id=1987
+Feature: creating 'Slot 2 ? WI-EPIC-1 ? Publish eva-ado-dashboard.epic.yaml'
+  -> Feature id=1988
+Feature: creating 'Slot 3 ? WI-ENV-1 ? APIM environment variables'
+  -> Feature id=1989
+Feature: creating 'Slots 4?8 ? WI-12 thru WI-16 ? Five Admin Screens (PARALLEL)'
+  -> Feature id=1990
+Feature: creating 'Slot 4 ? WI-12 ? IngestionRunsPage'
+  -> Feature id=1991
+Feature: creating 'Slot 5 ? WI-13 ? SearchHealthPage'
+  -> Feature id=1992
+Feature: creating 'Slot 6 ? WI-14 ? SupportTicketsPage'
+  -> Feature id=1993
+Feature: creating 'Slot 7 ? WI-15 ? FeatureFlagsPage'
+  -> Feature id=1994
+Feature: creating 'Slot 8 ? WI-16 ? RbacRolesPage'
+  -> Feature id=1995
+Feature: creating 'Slot 9 ? WI-17 ? EVAHomePage (static tiles)'
+  -> Feature id=1996
+Feature: creating 'Slot 10 ? WI-18 ? SprintBoardPage (static shell)'
+  -> Feature id=1997
+Feature: creating 'Slot 11 ? WI-DATA-1 ? 37-data-model Sync (Sprint Close)'
+  -> Feature id=1998
+Feature: creating 'Slot 12 ? WI-ADO-1 ? Populate ADO Feature id=6'
+  -> Feature id=1999
+Feature: creating 'Session Scorecard (projected ? if all 12 slots complete)'
+  -> Feature id=2000
+Feature: existing id=437 - 'HEALTH API'
+Feature: existing id=436 - 'API API'
+Feature: existing id=1065 - 'GENERATE API'
+Feature: creating 'STATUS API'
+  -> Feature id=2001
+Feature: existing id=1100 - 'UI Pages'
+PBI: creating '[F31-04-001] Discovery checklist'
+  -> PBI id=2002
+PBI: creating '[F31-04-002] Do prompt'
+  -> PBI id=2003
+PBI: creating '[F31-04-003] Check commands'
+  -> PBI id=2004
+PBI: creating '[F31-04-004] Act criteria'
+  -> PBI id=2005
+PBI: creating '[F31-04-005] On accept'
+  -> PBI id=2006
+PBI: creating '[F31-05-001] Discovery checklist'
+  -> PBI id=2007
+PBI: creating '[F31-05-002] Do prompt'
+  -> PBI id=2008
+PBI: creating '[F31-05-003] Check commands'
+  -> PBI id=2009
+PBI: creating '[F31-05-004] Act criteria'
+  -> PBI id=2010
+PBI: creating '[F31-05-005] On accept'
+  -> PBI id=2011
+PBI: creating '[F31-06-001] Discovery checklist'
+  -> PBI id=2012
+PBI: creating '[F31-06-002] Do prompt'
+  -> PBI id=2013
+PBI: creating '[F31-06-003] Check commands'
+  -> PBI id=2014
+PBI: creating '[F31-06-004] Act criteria'
+  -> PBI id=2015
+PBI: creating '[F31-06-005] On accept'
+  -> PBI id=2016
+PBI: creating '[F31-08-001] Discovery checklist'
+  -> PBI id=2017
+PBI: creating '[F31-08-002] Do prompt'
+  -> PBI id=2018
+PBI: creating '[F31-08-003] Check commands'
+  -> PBI id=2019
+PBI: creating '[F31-08-004] Act criteria'
+  -> PBI id=2020
+PBI: creating '[F31-08-005] On accept'
+  -> PBI id=2021
+PBI: creating '[F31-09-001] Discovery checklist'
+  -> PBI id=2022
+PBI: creating '[F31-09-002] Do prompt'
+  -> PBI id=2023
+PBI: creating '[F31-09-003] Check commands'
+  -> PBI id=2024
+PBI: creating '[F31-09-004] Act criteria'
+  -> PBI id=2025
+PBI: creating '[F31-09-005] On accept'
+  -> PBI id=2026
+PBI: creating '[F31-10-001] Discovery checklist'
+  -> PBI id=2027
+PBI: creating '[F31-10-002] Do prompt'
+  -> PBI id=2028
+PBI: creating '[F31-10-003] Check commands'
+  -> PBI id=2029
+PBI: creating '[F31-10-004] Act criteria'
+  -> PBI id=2030
+PBI: creating '[F31-10-005] On accept'
+  -> PBI id=2031
+PBI: creating '[F31-11-001] Discovery checklist'
+  -> PBI id=2032
+PBI: creating '[F31-11-002] Do prompt'
+  -> PBI id=2033
+PBI: creating '[F31-11-003] Check commands'
+  -> PBI id=2034
+PBI: creating '[F31-11-004] Act criteria'
+  -> PBI id=2035
+PBI: creating '[F31-11-005] On accept'
+  -> PBI id=2036
+PBI: creating '[F31-12-001] Discovery checklist'
+  -> PBI id=2037
+PBI: creating '[F31-12-002] Do prompt'
+  -> PBI id=2038
+PBI: creating '[F31-12-003] Check commands'
+  -> PBI id=2039
+PBI: creating '[F31-12-004] Act criteria'
+  -> PBI id=2040
+PBI: creating '[F31-12-005] On accept'
+  -> PBI id=2041
+PBI: creating '[F31-13-001] Discovery checklist'
+  -> PBI id=2042
+PBI: creating '[F31-13-002] Do prompt'
+  -> PBI id=2043
+PBI: creating '[F31-13-003] Check commands'
+  -> PBI id=2044
+PBI: creating '[F31-13-004] Act criteria'
+  -> PBI id=2045
+PBI: creating '[F31-13-005] On accept'
+  -> PBI id=2046
+PBI: creating '[F31-14-001] Discovery checklist'
+  -> PBI id=2047
+PBI: creating '[F31-14-002] Do prompt'
+  -> PBI id=2048
+PBI: creating '[F31-14-003] Check commands'
+  -> PBI id=2049
+PBI: creating '[F31-14-004] Act criteria'
+  -> PBI id=2050
+PBI: creating '[F31-14-005] On accept'
+  -> PBI id=2051
+PBI: creating '[F31-15-001] Discovery checklist'
+  -> PBI id=2052
+PBI: creating '[F31-15-002] Do prompt'
+  -> PBI id=2053
+PBI: creating '[F31-15-003] Check commands'
+  -> PBI id=2054
+PBI: creating '[F31-15-004] Act criteria'
+  -> PBI id=2055
+PBI: creating '[F31-15-005] On accept'
+  -> PBI id=2056
+PBI: creating '[F31-16-001] Discovery checklist'
+  -> PBI id=2057
+PBI: creating '[F31-16-002] Do prompt'
+  -> PBI id=2058
+PBI: creating '[F31-16-003] Check commands'
+  -> PBI id=2059
+PBI: creating '[F31-16-004] Act criteria'
+  -> PBI id=2060
+PBI: creating '[F31-16-005] On accept'
+  -> PBI id=2061
+PBI: creating '[F31-HEALTH-001] GET /health'
+  -> PBI id=2062
+PBI: creating '[F31-API-001] GET /'
+  -> PBI id=2063
+PBI: creating '[F31-GENERATE-001] POST /generate'
+  -> PBI id=2064
+PBI: creating '[F31-STATUS-001] GET /status/{epic_id}'
+  -> PBI id=2065
+PBI: creating '[F31-UI-001] Route /admin/translations'
+  -> PBI id=2066
+PBI: creating '[F31-UI-002] Route /admin/audit'
+  -> PBI id=2067
+PBI: creating '[F31-UI-003] Route /admin/rbac'
+  -> PBI id=2068
+PBI: creating '[F31-UI-004] Route /admin/settings'
+  -> PBI id=2069
+PBI: creating '[F31-UI-005] Route /admin/apps'
+  -> PBI id=2070
+PBI: creating '[F31-UI-006] Route /admin/ingestion/runs'
+  -> PBI id=2071
+PBI: creating '[F31-UI-007] Route /admin/search/health'
+  -> PBI id=2072
+PBI: creating '[F31-UI-008] Route /admin/support/tickets'
+  -> PBI id=2073
+PBI: creating '[F31-UI-009] Route /admin/feature-flags'
+  -> PBI id=2074
+PBI: creating '[F31-UI-010] Route /admin/rbac/roles'
+  -> PBI id=2075
+
+=== Import Summary: 31-eva-faces ===
+Epic id  : 1983
+Features : 22
+PBIs     : 74
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag             [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---             [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F31-04-001       2002 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-04-002       2003 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-04-003       2004 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-04-004       2005 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-04-005       2006 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-05-001       2007 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-05-002       2008 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-05-003       2009 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-05-004       2010 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-05-005       2011 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-06-001       2012 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-06-002       2013 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-06-003       2014 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-06-004       2015 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-06-005       2016 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-08-001       2017 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-08-002       2018 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-08-003       2019 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-08-004       2020 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-08-005       2021 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-09-001       2022 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-09-002       2023 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-09-003       2024 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-09-004       2025 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-09-005       2026 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-10-001       2027 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-10-002       2028 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-10-003       2029 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-10-004       2030 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-10-005       2031 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-11-001       2032 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-11-002       2033 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-11-003       2034 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-11-004       2035 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-11-005       2036 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-12-001       2037 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-12-002       2038 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-12-003       2039 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-12-004       2040 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-12-005       2041 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-13-001       2042 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-13-002       2043 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-13-003       2044 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-13-004       2045 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-13-005       2046 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-14-001       2047 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-14-002       2048 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-14-003       2049 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-14-004       2050 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-14-005       2051 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-15-001       2052 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-15-002       2053 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-15-003       2054 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-15-004       2055 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-15-005       2056 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-16-001       2057 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-16-002       2058 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-16-003       2059 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-16-004       2060 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-16-005       2061 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-HEALTH-001   2062 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-API-001      2063 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-GENERATE-001 2064 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-STATUS-001   2065 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-001       2066 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-002       2067 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-003       2068 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-004       2069 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-005       2070 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-006       2071 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-007       2072 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-008       2073 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-009       2074 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+F31-UI-010       2075 New   https://dev.azure.com/marcopresta/eva-poc/_workite.
+

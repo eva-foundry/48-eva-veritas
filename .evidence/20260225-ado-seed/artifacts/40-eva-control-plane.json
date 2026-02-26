@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1107942-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/40-eva-control-plane",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-40",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "40-eva-control-plane",
+    "description": "40-eva-control-plane",
+    "tags": "40-eva-control-plane;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F40-01",
+      "type": "Feature",
+      "title": "ARTIFACT_ID API [ID=F40-ARTIFACT_ID]",
+      "description": "ARTIFACT_ID API [ID=F40-ARTIFACT_ID]",
+      "tags": "40-eva-control-plane;F40-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-02",
+      "type": "Feature",
+      "title": "EVIDENCE_ID API [ID=F40-EVIDENCE_ID]",
+      "description": "EVIDENCE_ID API [ID=F40-EVIDENCE_ID]",
+      "tags": "40-eva-control-plane;F40-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-03",
+      "type": "Feature",
+      "title": "RUN_ID API [ID=F40-RUN_ID]",
+      "description": "RUN_ID API [ID=F40-RUN_ID]",
+      "tags": "40-eva-control-plane;F40-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-04",
+      "type": "Feature",
+      "title": "Runbooks implemented",
+      "description": "Runbooks implemented",
+      "tags": "40-eva-control-plane;F40-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-05",
+      "type": "Feature",
+      "title": "Runtime API (port 8020)",
+      "description": "Runtime API (port 8020)",
+      "tags": "40-eva-control-plane;F40-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-06",
+      "type": "Feature",
+      "title": "Quick start",
+      "description": "Quick start",
+      "tags": "40-eva-control-plane;F40-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-07",
+      "type": "Feature",
+      "title": "Relationship with 37-data-model",
+      "description": "Relationship with 37-data-model",
+      "tags": "40-eva-control-plane;F40-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-08",
+      "type": "Feature",
+      "title": "Evidence pack schema",
+      "description": "Evidence pack schema",
+      "tags": "40-eva-control-plane;F40-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-09",
+      "type": "Feature",
+      "title": "Guardrails enforced",
+      "description": "Guardrails enforced",
+      "tags": "40-eva-control-plane;F40-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-HEALTH",
+      "type": "Feature",
+      "title": "HEALTH API",
+      "description": "HEALTH API",
+      "tags": "40-eva-control-plane;F40-HEALTH",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-ARTIFACT_ID",
+      "type": "Feature",
+      "title": "ARTIFACT_ID API",
+      "description": "ARTIFACT_ID API",
+      "tags": "40-eva-control-plane;F40-ARTIFACT_ID",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-EVIDENCE_ID",
+      "type": "Feature",
+      "title": "EVIDENCE_ID API",
+      "description": "EVIDENCE_ID API",
+      "tags": "40-eva-control-plane;F40-EVIDENCE_ID",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F40-RUN_ID",
+      "type": "Feature",
+      "title": "RUN_ID API",
+      "description": "RUN_ID API",
+      "tags": "40-eva-control-plane;F40-RUN_ID",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F40-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F40-01-001] GET /{artifact_id} [ID=F40-ARTIFACT_ID-001]",
+      "acceptance_criteria": "GET /{artifact_id} [ID=F40-ARTIFACT_ID-001]",
+      "tags": "40-eva-control-plane;F40-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-01",
+      "state": "New",
+      "wbs_id": "F40-01-001"
+    },
+    {
+      "id_hint": "F40-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F40-02-001] GET /{evidence_id} [ID=F40-EVIDENCE_ID-001]",
+      "acceptance_criteria": "GET /{evidence_id} [ID=F40-EVIDENCE_ID-001]",
+      "tags": "40-eva-control-plane;F40-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-02",
+      "state": "New",
+      "wbs_id": "F40-02-001"
+    },
+    {
+      "id_hint": "F40-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F40-03-001] GET /{run_id} [ID=F40-RUN_ID-001]",
+      "acceptance_criteria": "GET /{run_id} [ID=F40-RUN_ID-001]",
+      "tags": "40-eva-control-plane;F40-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-03",
+      "state": "New",
+      "wbs_id": "F40-03-001"
+    },
+    {
+      "id_hint": "F40-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F40-03-002] PATCH /{run_id} [ID=F40-RUN_ID-002]",
+      "acceptance_criteria": "PATCH /{run_id} [ID=F40-RUN_ID-002]",
+      "tags": "40-eva-control-plane;F40-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-03",
+      "state": "New",
+      "wbs_id": "F40-03-002"
+    },
+    {
+      "id_hint": "F40-HEALTH-001",
+      "type": "Product Backlog Item",
+      "title": "[F40-HEALTH-001] GET /health",
+      "acceptance_criteria": "GET /health",
+      "tags": "40-eva-control-plane;F40-HEALTH-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-HEALTH",
+      "state": "New",
+      "wbs_id": "F40-HEALTH-001"
+    },
+    {
+      "id_hint": "F40-ARTIFACT_ID-001",
+      "type": "Product Backlog Item",
+      "title": "[F40-ARTIFACT_ID-001] GET /{artifact_id}",
+      "acceptance_criteria": "GET /{artifact_id}",
+      "tags": "40-eva-control-plane;F40-ARTIFACT_ID-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-ARTIFACT_ID",
+      "state": "New",
+      "wbs_id": "F40-ARTIFACT_ID-001"
+    },
+    {
+      "id_hint": "F40-EVIDENCE_ID-001",
+      "type": "Product Backlog Item",
+      "title": "[F40-EVIDENCE_ID-001] GET /{evidence_id}",
+      "acceptance_criteria": "GET /{evidence_id}",
+      "tags": "40-eva-control-plane;F40-EVIDENCE_ID-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-EVIDENCE_ID",
+      "state": "New",
+      "wbs_id": "F40-EVIDENCE_ID-001"
+    },
+    {
+      "id_hint": "F40-RUN_ID-001",
+      "type": "Product Backlog Item",
+      "title": "[F40-RUN_ID-001] GET /{run_id}",
+      "acceptance_criteria": "GET /{run_id}",
+      "tags": "40-eva-control-plane;F40-RUN_ID-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-RUN_ID",
+      "state": "New",
+      "wbs_id": "F40-RUN_ID-001"
+    },
+    {
+      "id_hint": "F40-RUN_ID-002",
+      "type": "Product Backlog Item",
+      "title": "[F40-RUN_ID-002] PATCH /{run_id}",
+      "acceptance_criteria": "PATCH /{run_id}",
+      "tags": "40-eva-control-plane;F40-RUN_ID-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F40-RUN_ID",
+      "state": "New",
+      "wbs_id": "F40-RUN_ID-002"
+    }
+  ]
+}

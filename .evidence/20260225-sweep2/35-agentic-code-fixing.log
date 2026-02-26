@@ -1,0 +1,124 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\35-agentic-code-fixing
+[INFO] Prefix: F35
+[PASS] Written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\veritas-plan.json
+       15 features, 12 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F35-01        1      0  Overview
+  F35-02        0      0  Why This Matters
+  F35-03        3      0  Technology Stack
+  F35-04        0      0  Architecture
+  F35-05        4      0  The 4-Phase Workflow
+  F35-06        0      0  Security Considerations
+  F35-07        0      0  Project Structure
+  F35-08        3      0  Quick Start
+  F35-09        1      0  Configuration
+  F35-10        0      0  Demo Repository
+  F35-11        0      0  Web Dashboard Features
+  F35-12        0      0  Real-World Extensions
+  F35-13        0      0  Key Takeaways
+  F35-14        0      0  Resources
+  F35-15        0      0  Next Steps
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F35-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\35-agentic-code-fixing
+[INFO] Using veritas-plan.json (format: free-form, 12 stories, 0 tasks)
+[INFO] Planned: 15 features, 12 stories
+[INFO] Actual: 49 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\reconciliation.json
+[INFO] Gaps: 12
+[PASS] trust written: C:\AICOE\eva-foundation\35-agentic-code-fixing\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: Agentic Code Fixing with GitHub Copilot SDK and Foundry Local
+=======================================
+Repo:    C:\AICOE\eva-foundation\35-agentic-code-fixing
+Planned: 15 features, 12 stories
+
+Coverage
+---------------------------------------
+Stories total:          12
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F35-01-001 -- Key Features
+[FAIL] missing_implementation :: F35-03-001 -- GitHub Copilot SDK
+[FAIL] missing_implementation :: F35-03-002 -- Azure Foundry Local
+[FAIL] missing_implementation :: F35-03-003 -- BYOK Integration
+[FAIL] missing_implementation :: F35-05-001 -- Phase 1: PLAN ????
+[FAIL] missing_implementation :: F35-05-002 -- Phase 2: EDIT ??????
+[FAIL] missing_implementation :: F35-05-003 -- Phase 3: VERIFY ???
+[FAIL] missing_implementation :: F35-05-004 -- Phase 4: SUMMARY ????
+[FAIL] missing_implementation :: F35-08-001 -- Prerequisites
+[FAIL] missing_implementation :: F35-08-002 -- One-Command Setup
+[FAIL] missing_implementation :: F35-08-003 -- Run the Agent
+[FAIL] missing_implementation :: F35-09-001 -- Using Different Models
+
+Feature Breakdown
+---------------------------------------
+[  0] F35-05     The 4-Phase Workflow            0/4 artifacts  0/4 evidence  4 gaps  [NOT STARTED]
+[  0] F35-03     Technology Stack                0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F35-08     Quick Start                     0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F35-01     Overview                        0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F35-09     Configuration                   0/1 artifacts  0/1 evidence  1 gap  [NOT STARTED]
+[  0] F35-02     Why This Matters                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-04     Architecture                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-06     Security Considerations         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-07     Project Structure               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-10     Demo Repository                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-11     Web Dashboard Features          0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-12     Real-World Extensions           0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-13     Key Takeaways                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-14     Resources                       0/0 artifacts  0/0 evidence  0 gaps
+[  0] F35-15     Next Steps                      0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 12 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 17 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 22 more stories with # EVA-STORY
+
+[ACT] 12 unimplemented stories by feature (highest priority first):
+      F35-05 The 4-Phase Workflow (4 gaps)
+        - F35-05-001 -- Phase 1: PLAN ????
+        - F35-05-002 -- Phase 2: EDIT ??????
+        - F35-05-003 -- Phase 3: VERIFY ???
+        - F35-05-004 -- Phase 4: SUMMARY ????
+      F35-03 Technology Stack (3 gaps)
+        - F35-03-001 -- GitHub Copilot SDK
+        - F35-03-002 -- Azure Foundry Local
+        - F35-03-003 -- BYOK Integration
+      F35-08 Quick Start (3 gaps)
+        - F35-08-001 -- Prerequisites
+        - F35-08-002 -- One-Command Setup
+        - F35-08-003 -- Run the Agent
+      F35-01 Overview (1 gap)
+        - F35-01-001 -- Key Features
+      F35-09 Configuration (1 gap)
+        - F35-09-001 -- Using Different Models
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

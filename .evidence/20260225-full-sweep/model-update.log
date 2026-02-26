@@ -1,0 +1,67 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] Processing 49 project folders -- DryRun=False
+[PASS] 01-documentation-generator mti=0 gaps=0 rv=2
+[PASS] 02-poc-agent-skills mti=0 gaps=0 rv=2
+[PASS] 03-poc-enhanced-docs mti=0 gaps=0 rv=2
+[PASS] 04-os-vnext mti=0 gaps=0 rv=2
+[PASS] 05-extract-cases mti=0 gaps=0 rv=2
+[PASS] 06-jp-auto-extraction mti=0 gaps=0 rv=2
+[PASS] 07-foundation-layer mti=0 gaps=0 rv=2
+[PASS] 08-cds-rag mti=0 gaps=0 rv=2
+[PASS] 09-eva-repo-documentation mti=0 gaps=0 rv=2
+[PASS] 10-mkdocs-poc mti=0 gaps=0 rv=2
+[PASS] 11-ms-infojp mti=0 gaps=0 rv=2
+[PASS] 12-work-spc-reorg mti=0 gaps=0 rv=2
+[PASS] 13-vscode-tools mti=0 gaps=0 rv=2
+[PASS] 14-az-finops mti=0 gaps=0 rv=2
+[PASS] 15-cdc mti=0 gaps=0 rv=2
+[PASS] 16-engineered-case-law mti=0 gaps=0 rv=2
+[PASS] 17-apim mti=0 gaps=0 rv=2
+[PASS] 18-azure-best mti=0 gaps=0 rv=2
+[PASS] 19-ai-gov mti=0 gaps=0 rv=3
+[PASS] 20-AssistMe mti=0 gaps=0 rv=2
+[PASS] 21-habit-tracker mti=0 gaps=0 rv=2
+[PASS] 22-rg-sandbox mti=0 gaps=0 rv=2
+[PASS] 23-ei-dsst-rewrite mti=0 gaps=0 rv=2
+[PASS] 24-eva-brain mti=0 gaps=0 rv=2
+[PASS] 25-eva-suite mti=0 gaps=0 rv=2
+[PASS] 26-eva-gh mti=0 gaps=0 rv=2
+[PASS] 27-devbench mti=0 gaps=0 rv=2
+[PASS] 28-rbac mti=0 gaps=0 rv=2
+[PASS] 29-foundry mti=100 gaps=0 rv=2
+[PASS] 30-ui-bench mti=0 gaps=0 rv=2
+[PASS] 31-eva-faces mti=83 gaps=15 rv=6
+[PASS] 32-logging mti=0 gaps=0 rv=2
+[PASS] 33-eva-brain-v2 mti=100 gaps=0 rv=4
+[WARN] 34-AIRA -- not found in data model (new project?): Response status code does not indicate success: 404 (Not Found).
+[PASS] 35-agentic-code-fixing mti=0 gaps=0 rv=2
+[PASS] 36-red-teaming mti=0 gaps=0 rv=2
+[PASS] 37-data-model mti=100 gaps=0 rv=3
+[PASS] 38-ado-poc mti=0 gaps=0 rv=2
+[PASS] 39-ado-dashboard mti=0 gaps=0 rv=2
+[PASS] 40-eva-control-plane mti=0 gaps=0 rv=2
+[PASS] 41-eva-cli mti=0 gaps=0 rv=2
+[PASS] 42-learn-foundry mti=0 gaps=0 rv=2
+[PASS] 43-spark mti=0 gaps=0 rv=3
+[PASS] 44-eva-jp-spark mti=40 gaps=3 rv=4
+[PASS] 45-aicoe-page mti=66 gaps=0 rv=5
+[PASS] 46-accelerator mti=70 gaps=0 rv=2
+SetValueInvocationException: C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-full-sweep\update-model-from-veritas.ps1:76:5
+Line |
+  76 |      $proj.notes = $notesStr
+     |      ~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception setting "notes": "The property 'notes' cannot be found on this
+     | object. Verify that the property exists and can be set."
+[PASS] 47-eva-mti mti=0 gaps=0 rv=3
+[PASS] 48-eva-veritas mti=100 gaps=0 rv=3
+[PASS] 49-eva-dtl mti=100 gaps=0 rv=4
+[INFO] Running commit...
+[INFO] commit status=FAIL violations=0
+
+====================================
+EVA Model Update -- Summary
+====================================
+PASS=48  FAIL=0  SKIP=3  TOTAL=49
+Commit: FAIL violations=0
+====================================
+[INFO] Evidence saved to C:\AICOE\eva-foundation\48-eva-veritas\.evidence\20260225-full-sweep\model-update-results.json

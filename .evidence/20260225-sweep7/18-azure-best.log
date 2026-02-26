@@ -1,0 +1,100 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\18-azure-best
+[INFO] Prefix: F18
+[PASS] Written: C:\AICOE\eva-foundation\18-azure-best\.eva\veritas-plan.json
+       11 features, 22 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F18-01        2      0  Monitoring and Observability
+  F18-02        2      0  Cost Management
+  F18-03        2      0  Well-Architected Review
+  F18-04        2      0  Terraform Modules
+  F18-05        2      0  Durable Functions Patterns
+  F18-06        2      0  Container Apps
+  F18-07        2      0  APIM DevOps
+  F18-08        2      0  Enhanced RAG
+  F18-09        2      0  Pipelines
+  F18-10        2      0  Project Templates
+  F18-11        2      0  Red Teaming
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F18-01-001
+[INFO] Discovering: C:\AICOE\eva-foundation\18-azure-best
+[INFO] Using veritas-plan.json (format: veritas, 22 stories, 0 tasks)
+[INFO] Planned: 11 features, 22 stories
+[INFO] Actual: 3972 artifacts, 22 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\18-azure-best\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\18-azure-best\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\18-azure-best\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: 18-azure-best
+=======================================
+Repo:    C:\AICOE\eva-foundation\18-azure-best
+Planned: 11 features, 22 stories
+
+Coverage
+---------------------------------------
+Stories total:          22
+Stories with artifacts: 22
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[ 50] F18-01     Monitoring and Observability    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-02     Cost Management                 2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-03     Well-Architected Review         2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-04     Terraform Modules               2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-05     Durable Functions Patterns      2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-06     Container Apps                  2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-07     APIM DevOps                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-08     Enhanced RAG                    2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-09     Pipelines                       2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-10     Project Templates               2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F18-11     Red Teaming                     2/2 artifacts  0/2 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F18-01-001 -- Azure Monitor alert rules and dashboards (1 artifact)
+[IMPL] F18-01-002 -- Log Analytics workspace configuration (1 artifact)
+[IMPL] F18-02-001 -- FinOps tagging strategy and policy (1 artifact)
+[IMPL] F18-02-002 -- Budget alerts and spending anomaly detection (1 artifact)
+[IMPL] F18-03-001 -- Reliability pillar assessment (1 artifact)
+[IMPL] F18-03-002 -- Security pillar assessment (1 artifact)
+[IMPL] F18-04-001 -- Landing zone Terraform modules (1 artifact)
+[IMPL] F18-04-002 -- Reusable network and identity modules (1 artifact)
+[IMPL] F18-05-001 -- Long-running workflow patterns (1 artifact)
+[IMPL] F18-05-002 -- Fan-out fan-in orchestration example (1 artifact)
+[IMPL] F18-06-001 -- Container Apps environment setup (1 artifact)
+[IMPL] F18-06-002 -- DAPR sidecar integration pattern (1 artifact)
+[IMPL] F18-07-001 -- API Management CI/CD pipeline (1 artifact)
+[IMPL] F18-07-002 -- Policy fragments and named values (1 artifact)
+[IMPL] F18-08-001 -- Hybrid search with semantic ranker (1 artifact)
+[IMPL] F18-08-002 -- Document chunking strategy (1 artifact)
+[IMPL] F18-09-001 -- Azure DevOps YAML pipeline templates (1 artifact)
+[IMPL] F18-09-002 -- GitHub Actions integration (1 artifact)
+[IMPL] F18-10-001 -- Scaffold new project from template (1 artifact)
+[IMPL] F18-10-002 -- Template governance and versioning (1 artifact)
+[IMPL] F18-11-001 -- Promptfoo adversarial test harness (1 artifact)
+[IMPL] F18-11-002 -- Risk scoring and remediation guidance (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

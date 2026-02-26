@@ -1,0 +1,95 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0852-ado-import-artifacts-live.log
+
+=== ADO Import: 07-foundation-layer ===
+Project maturity : active
+GitHub repo      : eva-foundry/07-foundation-layer
+Dry run          : False
+
+Epic: creating '07-foundation-layer'
+  -> Epic id=348
+Feature: creating 'Goal'
+  -> Feature id=349
+Feature: creating 'Key Discovery Findings'
+  -> Feature id=350
+Feature: creating 'Project Phases'
+  -> Feature id=351
+Feature: existing id=208 - 'Project Structure'
+Feature: existing id=233 - 'Success Criteria'
+Feature: creating 'Deploying Project 07 to Other Projects'
+  -> Feature id=352
+Feature: creating 'Troubleshooting'
+  -> Feature id=353
+Feature: creating 'References'
+  -> Feature id=354
+Feature: creating 'Change Log'
+  -> Feature id=355
+PBI: creating '[F07-02-001] **?? CRITICAL Pattern #1: Windows Enterprise Encoding Safety**'
+  -> PBI id=356
+PBI: creating '[F07-02-002] **? Pattern #2: Professional Component Architecture**'
+  -> PBI id=357
+PBI: creating '[F07-02-003] **? Pattern #3: Zero-Setup Execution**'
+  -> PBI id=358
+PBI: creating '[F07-02-004] **?? Patterns Pending Broader Validation**'
+  -> PBI id=359
+PBI: creating '[F07-03-001] Phase 1: Discovery (?? IN PROGRESS)'
+  -> PBI id=360
+PBI: creating '[F07-03-002] Phase 2: Design (complete - January 29, 2026)'
+  -> PBI id=361
+PBI: creating '[F07-03-003] Phase 5: Workspace Management (? TESTED - v1.5.2 - January 30, 2026)'
+  -> PBI id=362
+PBI: creating '[F07-03-004] Phase 3: Development (? COMPLETE - January 29, 2026)'
+  -> PBI id=363
+PBI: creating '[F07-03-005] Phase 4: Testing (? READY - Pester 5.x Upgraded)'
+  -> PBI id=364
+PBI: creating '[F07-03-006] Phase 5: Implementation (?? ON HOLD - Waiting for Testing)'
+  -> PBI id=365
+PBI: creating '[F07-05-001] **Primary Success Metrics**'
+  -> PBI id=366
+PBI: creating '[F07-05-002] **Secondary Success Metrics**'
+  -> PBI id=367
+PBI: creating '[F07-06-001] Quick Deployment Guide'
+  -> PBI id=368
+PBI: creating '[F07-06-002] Deployment Decision Tree'
+  -> PBI id=369
+PBI: creating '[F07-06-003] What Gets Deployed'
+  -> PBI id=370
+PBI: creating '[F07-06-004] Supported Project Types'
+  -> PBI id=371
+PBI: creating '[F07-07-001] Common Issues'
+  -> PBI id=372
+PBI: creating '[F07-08-001] Deployment Tools'
+  -> PBI id=373
+PBI: creating '[F07-08-002] Documentation'
+  -> PBI id=374
+
+=== Import Summary: 07-foundation-layer ===
+Epic id  : 348
+Features : 9
+PBIs     : 19
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F07-02-001 356 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-02-002 357 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-02-003 358 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-02-004 359 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-03-001 360 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-03-002 361 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-03-003 362 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-03-004 363 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-03-005 364 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-03-006 365 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-05-001 366 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-05-002 367 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-06-001 368 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-06-002 369 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-06-003 370 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-06-004 371 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-07-001 372 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-08-001 373 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F07-08-002 374 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

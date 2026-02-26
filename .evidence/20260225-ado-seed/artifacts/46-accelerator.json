@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.1768371-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/46-accelerator",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-46",
+  "stream": "WBS-S-UP",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "46-accelerator",
+    "description": "46-accelerator",
+    "tags": "46-accelerator;WBS-S-UP",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F46-01",
+      "type": "Feature",
+      "title": "Fluent UI Migration",
+      "description": "Fluent UI Migration",
+      "tags": "46-accelerator;F46-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F46-02",
+      "type": "Feature",
+      "title": "EVA Spark Design System Integration",
+      "description": "EVA Spark Design System Integration",
+      "tags": "46-accelerator;F46-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F46-03",
+      "type": "Feature",
+      "title": "EVA Brain v2 AI Assistant",
+      "description": "EVA Brain v2 AI Assistant",
+      "tags": "46-accelerator;F46-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F46-04",
+      "type": "Feature",
+      "title": "Governance and Evidence",
+      "description": "Governance and Evidence",
+      "tags": "46-accelerator;F46-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F46-05",
+      "type": "Feature",
+      "title": "Booking Screens @eva/ui Migration",
+      "description": "Booking Screens @eva/ui Migration",
+      "tags": "46-accelerator;F46-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F46-06",
+      "type": "Feature",
+      "title": "GitHub Actions CI",
+      "description": "GitHub Actions CI",
+      "tags": "46-accelerator;F46-06",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F46-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F46-01-001] Migrate App shell and navigation",
+      "acceptance_criteria": "Migrate App shell and navigation",
+      "tags": "46-accelerator;F46-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-01",
+      "state": "New",
+      "wbs_id": "F46-01-001"
+    },
+    {
+      "id_hint": "F46-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F46-01-002] Migrate BookingDialog to Fluent UI",
+      "acceptance_criteria": "Migrate BookingDialog to Fluent UI",
+      "tags": "46-accelerator;F46-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-01",
+      "state": "New",
+      "wbs_id": "F46-01-002"
+    },
+    {
+      "id_hint": "F46-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F46-01-003] Migrate ExitSurveyDialog to Fluent UI",
+      "acceptance_criteria": "Migrate ExitSurveyDialog to Fluent UI",
+      "tags": "46-accelerator;F46-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-01",
+      "state": "New",
+      "wbs_id": "F46-01-003"
+    },
+    {
+      "id_hint": "F46-01-004",
+      "type": "Product Backlog Item",
+      "title": "[F46-01-004] Migrate TeamManagementDialog to Fluent UI",
+      "acceptance_criteria": "Migrate TeamManagementDialog to Fluent UI",
+      "tags": "46-accelerator;F46-01-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-01",
+      "state": "New",
+      "wbs_id": "F46-01-004"
+    },
+    {
+      "id_hint": "F46-01-005",
+      "type": "Product Backlog Item",
+      "title": "[F46-01-005] Migrate MyBookings to Fluent UI",
+      "acceptance_criteria": "Migrate MyBookings to Fluent UI",
+      "tags": "46-accelerator;F46-01-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-01",
+      "state": "New",
+      "wbs_id": "F46-01-005"
+    },
+    {
+      "id_hint": "F46-01-006",
+      "type": "Product Backlog Item",
+      "title": "[F46-01-006] Migrate AdminDashboard to Fluent UI",
+      "acceptance_criteria": "Migrate AdminDashboard to Fluent UI",
+      "tags": "46-accelerator;F46-01-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-01",
+      "state": "New",
+      "wbs_id": "F46-01-006"
+    },
+    {
+      "id_hint": "F46-01-007",
+      "type": "Product Backlog Item",
+      "title": "[F46-01-007] Wire localStorage persistence hook",
+      "acceptance_criteria": "Wire localStorage persistence hook",
+      "tags": "46-accelerator;F46-01-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-01",
+      "state": "New",
+      "wbs_id": "F46-01-007"
+    },
+    {
+      "id_hint": "F46-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F46-02-001] Wire @eva/gc-design-system and @eva/ui dependencies",
+      "acceptance_criteria": "Wire @eva/gc-design-system and @eva/ui dependencies",
+      "tags": "46-accelerator;F46-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-02",
+      "state": "New",
+      "wbs_id": "F46-02-001"
+    },
+    {
+      "id_hint": "F46-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F46-02-002] Replace FluentProvider with GCThemeProvider in App.tsx",
+      "acceptance_criteria": "Replace FluentProvider with GCThemeProvider in App.tsx",
+      "tags": "46-accelerator;F46-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-02",
+      "state": "New",
+      "wbs_id": "F46-02-002"
+    },
+    {
+      "id_hint": "F46-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F46-02-003] Replace raw Button with EvaButton in App.tsx navigation",
+      "acceptance_criteria": "Replace raw Button with EvaButton in App.tsx navigation",
+      "tags": "46-accelerator;F46-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-02",
+      "state": "New",
+      "wbs_id": "F46-02-003"
+    },
+    {
+      "id_hint": "F46-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F46-03-001] Implement brain-client.ts typed API client",
+      "acceptance_criteria": "Implement brain-client.ts typed API client",
+      "tags": "46-accelerator;F46-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-03",
+      "state": "New",
+      "wbs_id": "F46-03-001"
+    },
+    {
+      "id_hint": "F46-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F46-03-002] Add /api/brain Vite proxy",
+      "acceptance_criteria": "Add /api/brain Vite proxy",
+      "tags": "46-accelerator;F46-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-03",
+      "state": "New",
+      "wbs_id": "F46-03-002"
+    },
+    {
+      "id_hint": "F46-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F46-03-003] Build AIAssistant chat panel component",
+      "acceptance_criteria": "Build AIAssistant chat panel component",
+      "tags": "46-accelerator;F46-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-03",
+      "state": "New",
+      "wbs_id": "F46-03-003"
+    },
+    {
+      "id_hint": "F46-03-004",
+      "type": "Product Backlog Item",
+      "title": "[F46-03-004] Add AI Assistant view to App.tsx",
+      "acceptance_criteria": "Add AI Assistant view to App.tsx",
+      "tags": "46-accelerator;F46-03-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-03",
+      "state": "New",
+      "wbs_id": "F46-03-004"
+    },
+    {
+      "id_hint": "F46-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F46-04-001] Create PLAN.md, STATUS.md, ACCEPTANCE.md",
+      "acceptance_criteria": "Create PLAN.md, STATUS.md, ACCEPTANCE.md",
+      "tags": "46-accelerator;F46-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-04",
+      "state": "New",
+      "wbs_id": "F46-04-001"
+    },
+    {
+      "id_hint": "F46-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F46-04-002] Add EVA-STORY tags to all source files",
+      "acceptance_criteria": "Add EVA-STORY tags to all source files",
+      "tags": "46-accelerator;F46-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-04",
+      "state": "New",
+      "wbs_id": "F46-04-002"
+    },
+    {
+      "id_hint": "F46-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F46-04-003] Update 37-data-model project record",
+      "acceptance_criteria": "Update 37-data-model project record",
+      "tags": "46-accelerator;F46-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-04",
+      "state": "New",
+      "wbs_id": "F46-04-003"
+    },
+    {
+      "id_hint": "F46-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F46-05-001] Migrate WorkspaceCatalog to @eva/ui",
+      "acceptance_criteria": "Migrate WorkspaceCatalog to @eva/ui",
+      "tags": "46-accelerator;F46-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-05",
+      "state": "New",
+      "wbs_id": "F46-05-001"
+    },
+    {
+      "id_hint": "F46-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F46-05-002] Migrate BookingDialog to @eva/ui",
+      "acceptance_criteria": "Migrate BookingDialog to @eva/ui",
+      "tags": "46-accelerator;F46-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-05",
+      "state": "New",
+      "wbs_id": "F46-05-002"
+    },
+    {
+      "id_hint": "F46-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F46-05-003] Migrate MyBookings to @eva/ui",
+      "acceptance_criteria": "Migrate MyBookings to @eva/ui",
+      "tags": "46-accelerator;F46-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-05",
+      "state": "New",
+      "wbs_id": "F46-05-003"
+    },
+    {
+      "id_hint": "F46-05-004",
+      "type": "Product Backlog Item",
+      "title": "[F46-05-004] Migrate ExitSurveyDialog to @eva/ui",
+      "acceptance_criteria": "Migrate ExitSurveyDialog to @eva/ui",
+      "tags": "46-accelerator;F46-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-05",
+      "state": "New",
+      "wbs_id": "F46-05-004"
+    },
+    {
+      "id_hint": "F46-05-005",
+      "type": "Product Backlog Item",
+      "title": "[F46-05-005] Migrate TeamManagementDialog to @eva/ui",
+      "acceptance_criteria": "Migrate TeamManagementDialog to @eva/ui",
+      "tags": "46-accelerator;F46-05-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-05",
+      "state": "New",
+      "wbs_id": "F46-05-005"
+    },
+    {
+      "id_hint": "F46-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F46-06-001] Add CI workflow",
+      "acceptance_criteria": "Add CI workflow",
+      "tags": "46-accelerator;F46-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F46-06",
+      "state": "New",
+      "wbs_id": "F46-06-001"
+    }
+  ]
+}

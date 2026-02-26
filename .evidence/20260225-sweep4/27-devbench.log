@@ -1,0 +1,110 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\27-devbench
+[INFO] Prefix: F27
+[PASS] Written: C:\AICOE\eva-foundation\27-devbench\.eva\veritas-plan.json
+       12 features, 9 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F27-01        0      0  ?? Purpose
+  F27-02        3      0  ? Key Features
+  F27-03        3      0  ?? Quick Start
+  F27-04        0      0  ?? Documentation
+  F27-05        0      0  ??? Technology Stack
+  F27-06        0      0  ?? Design System
+  F27-07        0      0  ?? Security
+  F27-08        0      0  ?? Project Status
+  F27-09        3      0  ??? Use Cases
+  F27-10        0      0  ?? Contributing
+  F27-11        0      0  ?? Support
+  F27-12        0      0  ?? License
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F27-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\27-devbench
+[INFO] Using veritas-plan.json (format: veritas, 9 stories, 0 tasks)
+[INFO] Planned: 12 features, 9 stories
+[INFO] Actual: 138 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\27-devbench\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\27-devbench\.eva\reconciliation.json
+[INFO] Gaps: 9
+[PASS] trust written: C:\AICOE\eva-foundation\27-devbench\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: EVA DevBench
+=======================================
+Repo:    C:\AICOE\eva-foundation\27-devbench
+Planned: 12 features, 9 stories
+
+Coverage
+---------------------------------------
+Stories total:          9
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[FAIL] missing_implementation :: F27-02-001 -- Core Capabilities
+[FAIL] missing_implementation :: F27-02-002 -- Enterprise Code Review Features
+[FAIL] missing_implementation :: F27-02-003 -- Governance & Compliance
+[FAIL] missing_implementation :: F27-03-001 -- Installation
+[FAIL] missing_implementation :: F27-03-002 -- Development
+[FAIL] missing_implementation :: F27-03-003 -- Enable Demo Mode
+[FAIL] missing_implementation :: F27-09-001 -- COBOL Modernization
+[FAIL] missing_implementation :: F27-09-002 -- Client-Server Migration
+[FAIL] missing_implementation :: F27-09-003 -- Technical Debt Reduction
+
+Feature Breakdown
+---------------------------------------
+[  0] F27-02     ? Key Features                  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F27-03     ?? Quick Start                  0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F27-09     ??? Use Cases                   0/3 artifacts  0/3 evidence  3 gaps  [NOT STARTED]
+[  0] F27-01     ?? Purpose                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-04     ?? Documentation                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-05     ??? Technology Stack            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-06     ?? Design System                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-07     ?? Security                     0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-08     ?? Project Status               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-10     ?? Contributing                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-11     ?? Support                      0/0 artifacts  0/0 evidence  0 gaps
+[  0] F27-12     ?? License                      0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=0 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Improvement Hints
+---------------------------------------
+[ACT] To reach MTI 50 (review-required): tag 9 more stories with # EVA-STORY
+      To reach MTI 70 (merge-with-approval): tag 13 more stories with # EVA-STORY
+      To reach MTI 90 (deploy): tag 17 more stories with # EVA-STORY
+
+[ACT] 9 unimplemented stories by feature (highest priority first):
+      F27-02 ? Key Features (3 gaps)
+        - F27-02-001 -- Core Capabilities
+        - F27-02-002 -- Enterprise Code Review Features
+        - F27-02-003 -- Governance & Compliance
+      F27-03 ?? Quick Start (3 gaps)
+        - F27-03-001 -- Installation
+        - F27-03-002 -- Development
+        - F27-03-003 -- Enable Demo Mode
+      F27-09 ??? Use Cases (3 gaps)
+        - F27-09-001 -- COBOL Modernization
+        - F27-09-002 -- Client-Server Migration
+        - F27-09-003 -- Technical Debt Reduction
+
+[ACT] How to close each gap type:
+      missing_implementation  -- Add a tagged source file:
+        Option A: tag an existing file  -->  add  # EVA-STORY: <ID>  at the top
+        Option B: create a receipt       -->  evidence/<feature-id>.py  with  # EVA-STORY: <ID>
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

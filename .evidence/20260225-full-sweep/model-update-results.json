@@ -1,0 +1,353 @@
+{
+  "commit_status": "FAIL",
+  "projects_processed": 49,
+  "run_at": "2026-02-25T00:24:37Z",
+  "skip": 3,
+  "dry_run": false,
+  "results": [
+    {
+      "name": "01-documentation-generator",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "02-poc-agent-skills",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "03-poc-enhanced-docs",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "04-os-vnext",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "05-extract-cases",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "06-jp-auto-extraction",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "07-foundation-layer",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "08-cds-rag",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "09-eva-repo-documentation",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "10-mkdocs-poc",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "11-ms-infojp",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "12-work-spc-reorg",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "13-vscode-tools",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "14-az-finops",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "15-cdc",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "16-engineered-case-law",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "17-apim",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "18-azure-best",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "19-ai-gov",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 3
+    },
+    {
+      "name": "20-AssistMe",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "21-habit-tracker",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "22-rg-sandbox",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "23-ei-dsst-rewrite",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "24-eva-brain",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "25-eva-suite",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "26-eva-gh",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "27-devbench",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "28-rbac",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "29-foundry",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "100",
+      "rv": 2
+    },
+    {
+      "name": "30-ui-bench",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "31-eva-faces",
+      "status": "PASS",
+      "gaps": 15,
+      "mti": "83",
+      "rv": 6
+    },
+    {
+      "name": "32-logging",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "33-eva-brain-v2",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "100",
+      "rv": 4
+    },
+    {
+      "name": "34-AIRA",
+      "status": "WARN",
+      "reason": "not-in-model"
+    },
+    {
+      "name": "35-agentic-code-fixing",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "36-red-teaming",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "37-data-model",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "100",
+      "rv": 3
+    },
+    {
+      "name": "38-ado-poc",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "39-ado-dashboard",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "40-eva-control-plane",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "41-eva-cli",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "42-learn-foundry",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 2
+    },
+    {
+      "name": "43-spark",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 3
+    },
+    {
+      "name": "44-eva-jp-spark",
+      "status": "PASS",
+      "gaps": 3,
+      "mti": "40",
+      "rv": 4
+    },
+    {
+      "name": "45-aicoe-page",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "66",
+      "rv": 5
+    },
+    {
+      "name": "46-accelerator",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "70",
+      "rv": 2
+    },
+    {
+      "name": "47-eva-mti",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "0",
+      "rv": 3
+    },
+    {
+      "name": "48-eva-veritas",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "100",
+      "rv": 3
+    },
+    {
+      "name": "49-eva-dtl",
+      "status": "PASS",
+      "gaps": 0,
+      "mti": "100",
+      "rv": 4
+    }
+  ],
+  "commit_violations": 0,
+  "pass": 48,
+  "fail": 0
+}

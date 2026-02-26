@@ -1,0 +1,218 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\29-foundry
+[INFO] Prefix: F29
+[INFO] Enrichment applied: code-structure (2 stories)
+[PASS] Written: C:\AICOE\eva-foundation\29-foundry\.eva\veritas-plan.json
+       21 features, 56 stories, 150 tasks (0 story orphans)
+       Sources: docs/20260221-plan.md
+       Format detected: free-form
+
+  +ID         Stories  Tasks  Title
+  ??????????????????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F29-00            2      0  Governance Bootstrap
+  F29-01            7      0  Separation of Concerns ??? Three-Plane Architecture
+  F29-02            0      0  Pre-flight Checklist
+  F29-03            5      0  Source Asset Inventory
+  F29-04            4     21  Epic P ??? Folder Hygiene (extract samples, clean root)
+  F29-05            1     12  Epic 1 ??? Import eva-faces Skills (Azure Plane ??? App)
+  F29-06            1      8  Epic 2 ??? Import eva-brain-v2 Skills (Azure Plane ??? App, UI-Exposed)
+  F29-07            5     38  Epic 3 ??? Import Agent Implementations (Plane-Organised) [PASS] COMPLETE 2026-02-21
+  F29-08            5      0  Epic 4 ??? session-workflow-agent Server
+  F29-09            1     13  Epic 5 ??? Skill Catalog Repair
+  F29-10            4     21  Epic 6 ??? MCP Servers for Imported Agents (Plane-Tagged)
+  F29-11            2     14  Epic 7 ??? GitHub Org Alignment (eva-foundry)
+  F29-12            3     23  Epic 8 ??? Prompts & Prompty Library (EI Domain)
+  F29-13            0      0  Fixes (Current Known Issues)
+  F29-14            0      0  Session Sequence
+  F29-15            0      0  Sprint Breakdown
+  F29-16            0      0  Directory Tree ??? Target State
+  F29-17            0      0  Constraints
+  F29-18           16      0  Definition of Done
+  F29-HEALTH        1      0  HEALTH API
+  F29-AGENTS        1      0  AGENTS API
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F29-00-001
+[INFO] Discovering: C:\AICOE\eva-foundation\29-foundry
+[INFO] Using veritas-plan.json (format: free-form, 58 stories, 150 tasks)
+[INFO] Planned: 21 features, 58 stories
+[INFO] Actual: 459 artifacts, 91 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\29-foundry\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\29-foundry\.eva\reconciliation.json
+[INFO] Gaps: 35
+[PASS] trust written: C:\AICOE\eva-foundation\29-foundry\.eva\trust.json (score: 91)
+
+=======================================
+EVA Veritas Report: 29-foundry: EVA Foundry Library
+=======================================
+Repo:    C:\AICOE\eva-foundation\29-foundry
+Planned: 21 features, 58 stories
+
+Coverage
+---------------------------------------
+Stories total:          58
+Stories with artifacts: 58
+Stories with evidence:  33
+Consistency score:      1.00
+
+Gaps
+---------------------------------------
+[FAIL] orphan_story_tag :: F29-02-001
+[FAIL] orphan_story_tag :: F29-02-002
+[FAIL] orphan_story_tag :: F29-02-003
+[FAIL] orphan_story_tag :: F29-02-004
+[FAIL] orphan_story_tag :: F29-02-005
+[FAIL] orphan_story_tag :: F29-02-006
+[FAIL] orphan_story_tag :: F29-04-005
+[FAIL] orphan_story_tag :: F29-05-002
+[FAIL] orphan_story_tag :: F29-05-003
+[FAIL] orphan_story_tag :: F29-05-004
+[FAIL] orphan_story_tag :: F29-09-005
+[FAIL] orphan_story_tag :: F29-09-002
+[FAIL] orphan_story_tag :: F29-09-003
+[FAIL] orphan_story_tag :: F29-09-004
+[FAIL] orphan_story_tag :: F29-11-003
+[FAIL] orphan_story_tag :: F29-11-004
+[FAIL] orphan_story_tag :: F29-13-001
+[FAIL] orphan_story_tag :: F29-13-002
+[FAIL] orphan_story_tag :: F29-13-003
+[FAIL] orphan_story_tag :: F29-19-003
+[FAIL] orphan_story_tag :: F29-19-004
+[FAIL] orphan_story_tag :: F29-19-008
+[FAIL] orphan_story_tag :: F29-19-009
+[FAIL] orphan_story_tag :: F29-19-011
+[FAIL] orphan_story_tag :: F29-19-012
+[FAIL] orphan_story_tag :: F29-19-001
+[FAIL] orphan_story_tag :: F29-19-002
+[FAIL] orphan_story_tag :: F29-19-005
+[FAIL] orphan_story_tag :: F29-19-006
+[FAIL] orphan_story_tag :: F29-19-007
+[FAIL] orphan_story_tag :: F29-19-010
+[FAIL] orphan_story_tag :: F29-19-013
+[FAIL] orphan_story_tag :: F29-19-014
+[FAIL] orphan_story_tag :: F29-19-015
+[FAIL] orphan_story_tag :: F29-19-016
+
+Feature Breakdown
+---------------------------------------
+[100] F29-00     Governance Bootstrap            2/2 artifacts  2/2 evidence  0 gaps
+[100] F29-01     Separation of Concerns ??? Three  7/7 artifacts  7/7 evidence  0 gaps
+[  0] F29-02     Pre-flight Checklist            0/0 artifacts  0/0 evidence  0 gaps
+[ 96] F29-03     Source Asset Inventory          5/5 artifacts  4/5 evidence  0 gaps
+[100] F29-04     Epic P ??? Folder Hygiene (extra  4/4 artifacts  4/4 evidence  0 gaps
+[100] F29-05     Epic 1 ??? Import eva-faces Skil  1/1 artifacts  1/1 evidence  0 gaps
+[100] F29-06     Epic 2 ??? Import eva-brain-v2 S  1/1 artifacts  1/1 evidence  0 gaps
+[ 84] F29-07     Epic 3 ??? Import Agent Implemen  5/5 artifacts  1/5 evidence  0 gaps
+[100] F29-08     Epic 4 ??? session-workflow-agen  5/5 artifacts  5/5 evidence  0 gaps
+[100] F29-09     Epic 5 ??? Skill Catalog Repair   1/1 artifacts  1/1 evidence  0 gaps
+[ 85] F29-10     Epic 6 ??? MCP Servers for Impor  4/4 artifacts  1/4 evidence  0 gaps
+[100] F29-11     Epic 7 ??? GitHub Org Alignment   2/2 artifacts  2/2 evidence  0 gaps
+[ 93] F29-12     Epic 8 ??? Prompts & Prompty Lib  3/3 artifacts  2/3 evidence  0 gaps
+[  0] F29-13     Fixes (Current Known Issues)    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F29-14     Session Sequence                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F29-15     Sprint Breakdown                0/0 artifacts  0/0 evidence  0 gaps
+[  0] F29-16     Directory Tree ??? Target State   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F29-17     Constraints                     0/0 artifacts  0/0 evidence  0 gaps
+[ 53] F29-18     Definition of Done              16/16 artifacts  2/16 evidence  0 gaps
+[ 50] F29-AGENTS AGENTS API                      1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F29-HEALTH HEALTH API                      1/1 artifacts  0/1 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[EVIDENCE] F29-00-001 -- Fix copilot-instructions strip-audit bug (1 artifact)
+[EVIDENCE] F29-00-002 -- Create governance files (1 artifact)
+[EVIDENCE] F29-01-001 -- Query data model for skill records (1 artifact)
+[EVIDENCE] F29-01-002 -- Populate skill_id and project_id in skill-catalog.json (1 artifact)
+[EVIDENCE] F29-01-003 -- Audit copilot-skills directory vs skill-catalog (3 artifacts)
+[EVIDENCE] F29-01-004 -- Create task-specific .skill.md files for foundry core (1 artifact)
+[EVIDENCE] F29-01-005 -- Run tests and confirm exit 0 (1 artifact)
+[EVIDENCE] F29-01-001 -- Plane Assignment for Assets Being Imported (1 artifact)
+[EVIDENCE] F29-01-002 -- Skill Directory Structure ??? Plane-Based (1 artifact)
+[EVIDENCE] F29-03-001 -- 31-eva-faces ??? `.github/copilot-skills/` (1 artifact)
+[EVIDENCE] F29-03-002 -- 31-eva-faces ??? `agent-fleet/app/agents/` (1 artifact)
+[EVIDENCE] F29-03-003 -- 33-eva-brain-v2 ??? `.github/copilot-skills/` (1 artifact)
+[EVIDENCE] F29-03-004 -- 33-eva-brain-v2 ??? `services/eva-brain-api/app/` (1 artifact)
+[IMPL] F29-03-005 -- 29-foundry ??? Current State (1 artifact)
+[EVIDENCE] F29-04-001 -- What moves out of 29-foundry (1 artifact)
+[EVIDENCE] F29-04-002 -- Feature P.1 ??? Create 42-learn-foundry (1 artifact)
+[EVIDENCE] F29-04-003 -- Feature P.2 ??? Move sample/learning content (1 artifact)
+[EVIDENCE] F29-04-004 -- Feature P.3 ??? Archive stale root docs (1 artifact)
+[EVIDENCE] F29-05-001 -- Feature 1.1 ??? Create eva-faces skill directory in foundry (1 artifact)
+[EVIDENCE] F29-06-001 -- Feature 2.1 ??? Normalize brain-v2 skills to .skill.md format (1 artifact)
+[EVIDENCE] F29-07-001 -- Feature 3.1 ??? Scaffold agents/ package with plane sub-structure (1 artifact)
+[IMPL] F29-07-002 -- Feature 3.2 ??? Azure Plane / App (UI-Exposed): ConversationAgent (1 artifact)
+[IMPL] F29-07-003 -- Feature 3.3 ??? Azure Plane / Internal: ScreenGeneratorAgent, ValidatorAgent, TestGeneratorAgent (1 artifact)
+[IMPL] F29-07-004 -- Feature 3.4 ??? GitHub Plane: session-workflow-agent patterns (1 artifact)
+[IMPL] F29-07-005 -- Feature 3.5 ??? Import brain-v2 service layer into tools/ (Azure Plane foundations) (1 artifact)
+[EVIDENCE] F29-08-001 -- Feature 4.1 ??? HTTP Server and Authentication (Sprint-8) ??? Session 5 (1 artifact)
+[EVIDENCE] F29-08-002 -- Feature 4.2 ??? ADO Tool (Sprint-8) ??? Session 5 (1 artifact)
+[EVIDENCE] F29-08-003 -- Feature 4.3 ??? Shell Exec Tool (Sprint-8) ??? Session 5 (1 artifact)
+[EVIDENCE] F29-08-004 -- Feature 4.4 ??? DPDCA Phase Handlers (Sprint-8) ??? Session 5 (1 artifact)
+[EVIDENCE] F29-08-005 -- Feature 4.5 ??? Deployment (Sprint-9) (1 artifact)
+[EVIDENCE] F29-09-001 -- Feature 5.1 ??? Populate missing fields (1 artifact)
+[EVIDENCE] F29-10-001 -- Feature 6.1 ??? Azure Plane / App: eva-faces agent fleet MCP server (1 artifact)
+[IMPL] F29-10-002 -- Feature 6.2 ??? Azure Plane / App: eva-brain conversation MCP server (1 artifact)
+[IMPL] F29-10-003 -- Feature 6.3 ??? GitHub Plane: session-workflow MCP server (1 artifact)
+[IMPL] F29-10-004 -- Feature 6.4 ??? Update `.vscode/mcp.json` index (1 artifact)
+[EVIDENCE] F29-11-001 -- Feature 7.1 ??? Package structure (2 artifacts)
+[EVIDENCE] F29-11-002 -- Feature 7.2 ??? Documentation for org consumers (2 artifacts)
+[EVIDENCE] F29-12-001 -- Prompt Inventory (current state) (1 artifact)
+[EVIDENCE] F29-12-002 -- Feature 8.1 ??? Populate prompty-library/ (1 artifact)
+[IMPL] F29-12-003 -- Feature 8.2 ??? Wire prompts to agents and server handlers (1 artifact)
+[IMPL] F29-18-001 -- `python tools/validate-catalog.py` exits 0 with `totalSkills == 72` (updated from 63; 7 new Session-9 + 2 missing cross-cutting added) (1 artifact)
+[EVIDENCE] F29-18-002 -- `jq '[.catalog.skills[] | select(.plane == "")] | length' skill-catalog.json` returns 0 (verified via Python) (1 artifact)
+[IMPL] F29-18-003 -- `pytest --no-cov -q` passes ??? 78 passed, 1 skipped (agent-framework tests pass after stub dirs created) (1 artifact)
+[IMPL] F29-18-004 -- `POST /agents/session-workflow-agent/invoke` ??? server starts, /health 200; phase 500s expected without real ADO_PAT/FOUNDRY_HUB_ENDPOINT credentials (SKIP_AUTH=true bypasses auth; business-logic 500 is expected without credentials) (1 artifact)
+[IMPL] F29-18-005 -- `from agents.azure_plane.app.conversation.conversation_agent import ConversationAgent` ??? no ImportError (1 artifact)
+[IMPL] F29-18-006 -- `from agents.azure_plane.app.screen_generator.screen_agent import ScreenGeneratorAgent` ??? no ImportError (path was screen_agent.py not screen_generator_agent.py; agents.json corrected) (1 artifact)
+[IMPL] F29-18-007 -- `from agents.azure_plane.internal.validator.validator_agent import ValidatorAgent` ??? no ImportError (1 artifact)
+[IMPL] F29-18-008 -- Skill files by plane: 4 (github-plane) + 2 (azure-plane/control) + 3 (ado-plane) + 22 (azure/app/eva-faces) + 10 (azure/app/eva-brain-v2) + 6 (foundry core .md) + 7 (cross-cutting) = 54 on-disk; catalog total 72 (47 .skill.md + 6 foundry-core .md + cross-cutting 06+07 added to catalog) (1 artifact)
+[IMPL] F29-18-009 -- No file modified under any numbered project folder other than `29-foundry/` (exception: `37-data-model/model/agents.json` path updates per Stories 3.2.2 + 3.3.4) (1 artifact)
+[EVIDENCE] F29-18-010 -- `jq '.catalog.skills[] | select(.skill_id == "")' skill-catalog.json` returns empty (1 artifact)
+[IMPL] F29-18-011 -- `.github/workflows/validate-skills.yml` REQUIRED_FIELDS updated to `{"skill_id", "plane"}` ??? CI will pass on next push (1 artifact)
+[IMPL] F29-18-012 -- `GET /model/agents/` on `37-data-model` agents.json: ConversationAgent has `skill_file` pointing to `29-foundry/agents/azure_plane/app/conversation/conversation_agent.py` ??? (1 artifact)
+[IMPL] F29-18-013 -- `ls prompty-library/*.prompty | wc -l` returns 6 (5 conversation + 1 dpdca-plan) ??? (1 artifact)
+[IMPL] F29-18-014 -- `cat prompty-library/catalog.json | python -m json.tool` exits 0 ??? (1 artifact)
+[IMPL] F29-18-015 -- `grep -r "Prompty.load" agents/azure_plane/app/conversation/` returns 10 matches (>= 5) ??? (1 artifact)
+[IMPL] F29-18-016 -- `grep -r "Prompty.load" server/phases/plan.py` returns 1 match ??? (1 artifact)
+[IMPL] F29-HEALTH-001 -- GET /health (1 artifact)
+[IMPL] F29-AGENTS-001 -- POST /agents/session-workflow-agent/invoke (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   91 (+24)
+Trend:   100 -> 100 -> 100 -> 100 -> 100 -> 100 -> 69 -> 67 -> 67 -> 91
+Actions: deploy, merge, release
+Components: coverage=1 evidence=0.57 consistency=1
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+Model Fidelity (informational)
+---------------------------------------
+Score:   54%  (152/279 declared entities verified)
+[ACT] 127 declared entities have no matching implementation
+Drifted:
+  [screen] JpSparkLayout -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkChatPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkContentPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTranslatorPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkUrlScrapperPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTDAPage -- declared: repo_path_declared -- actual: not_found
+  [screen] JpSparkTutorPage -- declared: repo_path_declared -- actual: not_found
+  [endpoint] GET /v1/health -- declared: implemented -- actual: not_found
+  ... and 119 more
+[ACT] Container 'extracted_content' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'chunks' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'audit_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_access_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'sessions' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'messages' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'scrum-cache' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'config' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'apps' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'model_objects' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'translations' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[ACT] Container 'content_logs' schema drift impacts: 0 endpoint(s), 0 screen(s)
+[INFO] Rerun: eva model-audit --repo . (generated 2026-02-25)
+

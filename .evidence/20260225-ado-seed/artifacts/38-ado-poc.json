@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.0956101-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/38-ado-poc",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-38",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "38-ado-poc",
+    "description": "38-ado-poc",
+    "tags": "38-ado-poc;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F38-01",
+      "type": "Feature",
+      "title": "1. Problem Statement",
+      "description": "1. Problem Statement",
+      "tags": "38-ado-poc;F38-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F38-02",
+      "type": "Feature",
+      "title": "2. Solution: EVA ADO Command Center",
+      "description": "2. Solution: EVA ADO Command Center",
+      "tags": "38-ado-poc;F38-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F38-03",
+      "type": "Feature",
+      "title": "3. Architecture ? 5 Layers",
+      "description": "3. Architecture ? 5 Layers",
+      "tags": "38-ado-poc;F38-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F38-04",
+      "type": "Feature",
+      "title": "4. Data Flow: ADO ? `37-data-model`",
+      "description": "4. Data Flow: ADO ? `37-data-model`",
+      "tags": "38-ado-poc;F38-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F38-05",
+      "type": "Feature",
+      "title": "5. Design Decisions",
+      "description": "5. Design Decisions",
+      "tags": "38-ado-poc;F38-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F38-06",
+      "type": "Feature",
+      "title": "6. Phasing",
+      "description": "6. Phasing",
+      "tags": "38-ado-poc;F38-06",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F38-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F38-03-001] Layer 1: `29-foundry` ? Central Agentic Capabilities Hub",
+      "acceptance_criteria": "Layer 1: `29-foundry` ? Central Agentic Capabilities Hub",
+      "tags": "38-ado-poc;F38-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-03",
+      "state": "New",
+      "wbs_id": "F38-03-001"
+    },
+    {
+      "id_hint": "F38-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F38-03-002] Layer 2: `38-ado-poc` ? EVA ADO Command Center (this repo)",
+      "acceptance_criteria": "Layer 2: `38-ado-poc` ? EVA ADO Command Center (this repo)",
+      "tags": "38-ado-poc;F38-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-03",
+      "state": "New",
+      "wbs_id": "F38-03-002"
+    },
+    {
+      "id_hint": "F38-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F38-03-003] Layer 3: Project Runners",
+      "acceptance_criteria": "Layer 3: Project Runners",
+      "tags": "38-ado-poc;F38-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-03",
+      "state": "New",
+      "wbs_id": "F38-03-003"
+    },
+    {
+      "id_hint": "F38-03-004",
+      "type": "Product Backlog Item",
+      "title": "[F38-03-004] Layer 4: `17-apim` ? API Gateway + Cost Attribution",
+      "acceptance_criteria": "Layer 4: `17-apim` ? API Gateway + Cost Attribution",
+      "tags": "38-ado-poc;F38-03-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-03",
+      "state": "New",
+      "wbs_id": "F38-03-004"
+    },
+    {
+      "id_hint": "F38-03-005",
+      "type": "Product Backlog Item",
+      "title": "[F38-03-005] Layer 5: `39-ado-dashboard` ? EVA Portal + ADO Views",
+      "acceptance_criteria": "Layer 5: `39-ado-dashboard` ? EVA Portal + ADO Views",
+      "tags": "38-ado-poc;F38-03-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-03",
+      "state": "New",
+      "wbs_id": "F38-03-005"
+    },
+    {
+      "id_hint": "F38-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-001] D1: Isolated personal org first, ESDC-AICoE later",
+      "acceptance_criteria": "D1: Isolated personal org first, ESDC-AICoE later",
+      "tags": "38-ado-poc;F38-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-001"
+    },
+    {
+      "id_hint": "F38-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-002] D2: Scrum process template",
+      "acceptance_criteria": "D2: Scrum process template",
+      "tags": "38-ado-poc;F38-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-002"
+    },
+    {
+      "id_hint": "F38-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-003] D3: Two-call PBI state (create then PATCH)",
+      "acceptance_criteria": "D3: Two-call PBI state (create then PATCH)",
+      "tags": "38-ado-poc;F38-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-003"
+    },
+    {
+      "id_hint": "F38-05-004",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-004] D4: PAT never in any file",
+      "acceptance_criteria": "D4: PAT never in any file",
+      "tags": "38-ado-poc;F38-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-004"
+    },
+    {
+      "id_hint": "F38-05-005",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-005] D5: Tags as semantic WI identifiers",
+      "acceptance_criteria": "D5: Tags as semantic WI identifiers",
+      "tags": "38-ado-poc;F38-05-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-005"
+    },
+    {
+      "id_hint": "F38-05-006",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-006] D6: `29-foundry` as single skill master",
+      "acceptance_criteria": "D6: `29-foundry` as single skill master",
+      "tags": "38-ado-poc;F38-05-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-006"
+    },
+    {
+      "id_hint": "F38-05-007",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-007] D7: ADO is source of truth over `SESSION-STATE.md`",
+      "acceptance_criteria": "D7: ADO is source of truth over `SESSION-STATE.md`",
+      "tags": "38-ado-poc;F38-05-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-007"
+    },
+    {
+      "id_hint": "F38-05-008",
+      "type": "Product Backlog Item",
+      "title": "[F38-05-008] D8: Cost attribution is a first-class architectural concern, not a FinOps add-on",
+      "acceptance_criteria": "D8: Cost attribution is a first-class architectural concern, not a FinOps add-on",
+      "tags": "38-ado-poc;F38-05-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F38-05",
+      "state": "New",
+      "wbs_id": "F38-05-008"
+    }
+  ]
+}

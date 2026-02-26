@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:37.2018232-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/49-eva-dtl",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-49",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "49-eva-dtl",
+    "description": "49-eva-dtl",
+    "tags": "49-eva-dtl;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "DTL-01",
+      "type": "Feature",
+      "title": "Trust Vector Engine",
+      "description": "Trust Vector Engine",
+      "tags": "49-eva-dtl;DTL-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "DTL-02",
+      "type": "Feature",
+      "title": "Context Risk Engine",
+      "description": "Context Risk Engine",
+      "tags": "49-eva-dtl;DTL-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "DTL-03",
+      "type": "Feature",
+      "title": "Policy Engine",
+      "description": "Policy Engine",
+      "tags": "49-eva-dtl;DTL-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "DTL-04",
+      "type": "Feature",
+      "title": "Decision Engine",
+      "description": "Decision Engine",
+      "tags": "49-eva-dtl;DTL-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "DTL-05",
+      "type": "Feature",
+      "title": "API Layer",
+      "description": "API Layer",
+      "tags": "49-eva-dtl;DTL-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "DTL-06",
+      "type": "Feature",
+      "title": "Test Suite",
+      "description": "Test Suite",
+      "tags": "49-eva-dtl;DTL-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F49-EVALUATE",
+      "type": "Feature",
+      "title": "EVALUATE API",
+      "description": "EVALUATE API",
+      "tags": "49-eva-dtl;F49-EVALUATE",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F49-HEALTH",
+      "type": "Feature",
+      "title": "HEALTH API",
+      "description": "HEALTH API",
+      "tags": "49-eva-dtl;F49-HEALTH",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "DTL-01-001",
+      "type": "Product Backlog Item",
+      "title": "[DTL-01-001] TrustVector dataclass with 6 dimensions",
+      "acceptance_criteria": "TrustVector dataclass with 6 dimensions",
+      "tags": "49-eva-dtl;DTL-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-01",
+      "state": "New",
+      "wbs_id": "DTL-01-001"
+    },
+    {
+      "id_hint": "DTL-01-002",
+      "type": "Product Backlog Item",
+      "title": "[DTL-01-002] Penalty for missing signals",
+      "acceptance_criteria": "Penalty for missing signals",
+      "tags": "49-eva-dtl;DTL-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-01",
+      "state": "New",
+      "wbs_id": "DTL-01-002"
+    },
+    {
+      "id_hint": "DTL-01-003",
+      "type": "Product Backlog Item",
+      "title": "[DTL-01-003] Evidence dimension mandatory validation",
+      "acceptance_criteria": "Evidence dimension mandatory validation",
+      "tags": "49-eva-dtl;DTL-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-01",
+      "state": "New",
+      "wbs_id": "DTL-01-003"
+    },
+    {
+      "id_hint": "DTL-02-001",
+      "type": "Product Backlog Item",
+      "title": "[DTL-02-001] ContextRisk formula implementation",
+      "acceptance_criteria": "ContextRisk formula implementation",
+      "tags": "49-eva-dtl;DTL-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-02",
+      "state": "New",
+      "wbs_id": "DTL-02-001"
+    },
+    {
+      "id_hint": "DTL-02-002",
+      "type": "Product Backlog Item",
+      "title": "[DTL-02-002] Data classification mapping",
+      "acceptance_criteria": "Data classification mapping",
+      "tags": "49-eva-dtl;DTL-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-02",
+      "state": "New",
+      "wbs_id": "DTL-02-002"
+    },
+    {
+      "id_hint": "DTL-02-003",
+      "type": "Product Backlog Item",
+      "title": "[DTL-02-003] Autonomy level mapping",
+      "acceptance_criteria": "Autonomy level mapping",
+      "tags": "49-eva-dtl;DTL-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-02",
+      "state": "New",
+      "wbs_id": "DTL-02-003"
+    },
+    {
+      "id_hint": "DTL-03-001",
+      "type": "Product Backlog Item",
+      "title": "[DTL-03-001] YAML policy loading",
+      "acceptance_criteria": "YAML policy loading",
+      "tags": "49-eva-dtl;DTL-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-03",
+      "state": "New",
+      "wbs_id": "DTL-03-001"
+    },
+    {
+      "id_hint": "DTL-03-002",
+      "type": "Product Backlog Item",
+      "title": "[DTL-03-002] Policy rule evaluation",
+      "acceptance_criteria": "Policy rule evaluation",
+      "tags": "49-eva-dtl;DTL-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-03",
+      "state": "New",
+      "wbs_id": "DTL-03-002"
+    },
+    {
+      "id_hint": "DTL-03-003",
+      "type": "Product Backlog Item",
+      "title": "[DTL-03-003] On-fail/on-pass decision routing",
+      "acceptance_criteria": "On-fail/on-pass decision routing",
+      "tags": "49-eva-dtl;DTL-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-03",
+      "state": "New",
+      "wbs_id": "DTL-03-003"
+    },
+    {
+      "id_hint": "DTL-04-001",
+      "type": "Product Backlog Item",
+      "title": "[DTL-04-001] 9-step evaluation pipeline",
+      "acceptance_criteria": "9-step evaluation pipeline",
+      "tags": "49-eva-dtl;DTL-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-04",
+      "state": "New",
+      "wbs_id": "DTL-04-001"
+    },
+    {
+      "id_hint": "DTL-04-002",
+      "type": "Product Backlog Item",
+      "title": "[DTL-04-002] DTL state assignment logic",
+      "acceptance_criteria": "DTL state assignment logic",
+      "tags": "49-eva-dtl;DTL-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-04",
+      "state": "New",
+      "wbs_id": "DTL-04-002"
+    },
+    {
+      "id_hint": "DTL-04-003",
+      "type": "Product Backlog Item",
+      "title": "[DTL-04-003] Obligations and expiry attachment",
+      "acceptance_criteria": "Obligations and expiry attachment",
+      "tags": "49-eva-dtl;DTL-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-04",
+      "state": "New",
+      "wbs_id": "DTL-04-003"
+    },
+    {
+      "id_hint": "DTL-04-004",
+      "type": "Product Backlog Item",
+      "title": "[DTL-04-004] Confidence score computation",
+      "acceptance_criteria": "Confidence score computation",
+      "tags": "49-eva-dtl;DTL-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-04",
+      "state": "New",
+      "wbs_id": "DTL-04-004"
+    },
+    {
+      "id_hint": "DTL-05-001",
+      "type": "Product Backlog Item",
+      "title": "[DTL-05-001] FastAPI application scaffolding",
+      "acceptance_criteria": "FastAPI application scaffolding",
+      "tags": "49-eva-dtl;DTL-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-05",
+      "state": "New",
+      "wbs_id": "DTL-05-001"
+    },
+    {
+      "id_hint": "DTL-05-002",
+      "type": "Product Backlog Item",
+      "title": "[DTL-05-002] POST /decision/evaluate endpoint",
+      "acceptance_criteria": "POST /decision/evaluate endpoint",
+      "tags": "49-eva-dtl;DTL-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-05",
+      "state": "New",
+      "wbs_id": "DTL-05-002"
+    },
+    {
+      "id_hint": "DTL-05-003",
+      "type": "Product Backlog Item",
+      "title": "[DTL-05-003] POST /health endpoint",
+      "acceptance_criteria": "POST /health endpoint",
+      "tags": "49-eva-dtl;DTL-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-05",
+      "state": "New",
+      "wbs_id": "DTL-05-003"
+    },
+    {
+      "id_hint": "DTL-06-001",
+      "type": "Product Backlog Item",
+      "title": "[DTL-06-001] Trust vector unit tests",
+      "acceptance_criteria": "Trust vector unit tests",
+      "tags": "49-eva-dtl;DTL-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-06",
+      "state": "New",
+      "wbs_id": "DTL-06-001"
+    },
+    {
+      "id_hint": "DTL-06-002",
+      "type": "Product Backlog Item",
+      "title": "[DTL-06-002] Context risk unit tests",
+      "acceptance_criteria": "Context risk unit tests",
+      "tags": "49-eva-dtl;DTL-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-06",
+      "state": "New",
+      "wbs_id": "DTL-06-002"
+    },
+    {
+      "id_hint": "DTL-06-003",
+      "type": "Product Backlog Item",
+      "title": "[DTL-06-003] Policy engine unit tests",
+      "acceptance_criteria": "Policy engine unit tests",
+      "tags": "49-eva-dtl;DTL-06-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-06",
+      "state": "New",
+      "wbs_id": "DTL-06-003"
+    },
+    {
+      "id_hint": "DTL-06-004",
+      "type": "Product Backlog Item",
+      "title": "[DTL-06-004] Decision engine integration tests",
+      "acceptance_criteria": "Decision engine integration tests",
+      "tags": "49-eva-dtl;DTL-06-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "DTL-06",
+      "state": "New",
+      "wbs_id": "DTL-06-004"
+    },
+    {
+      "id_hint": "F49-EVALUATE-001",
+      "type": "Product Backlog Item",
+      "title": "[F49-EVALUATE-001] POST /evaluate",
+      "acceptance_criteria": "POST /evaluate",
+      "tags": "49-eva-dtl;F49-EVALUATE-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F49-EVALUATE",
+      "state": "New",
+      "wbs_id": "F49-EVALUATE-001"
+    },
+    {
+      "id_hint": "F49-HEALTH-001",
+      "type": "Product Backlog Item",
+      "title": "[F49-HEALTH-001] GET /health",
+      "acceptance_criteria": "GET /health",
+      "tags": "49-eva-dtl;F49-HEALTH-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F49-HEALTH",
+      "state": "New",
+      "wbs_id": "F49-HEALTH-001"
+    }
+  ]
+}

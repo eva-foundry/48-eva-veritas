@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.6734399-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/12-work-spc-reorg",
+  "project_maturity": "poc",
+  "wbs_project_id": "WBS-12",
+  "stream": "WBS-S-PL",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "12-work-spc-reorg",
+    "description": "12-work-spc-reorg",
+    "tags": "12-work-spc-reorg;WBS-S-PL",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F12-01",
+      "type": "Feature",
+      "title": "Problem Statement",
+      "description": "Problem Statement",
+      "tags": "12-work-spc-reorg;F12-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-02",
+      "type": "Feature",
+      "title": "Proposed Solution",
+      "description": "Proposed Solution",
+      "tags": "12-work-spc-reorg;F12-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-03",
+      "type": "Feature",
+      "title": "Implementation Plan",
+      "description": "Implementation Plan",
+      "tags": "12-work-spc-reorg;F12-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-04",
+      "type": "Feature",
+      "title": "Workspace Configurations",
+      "description": "Workspace Configurations",
+      "tags": "12-work-spc-reorg;F12-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-05",
+      "type": "Feature",
+      "title": "Benefits",
+      "description": "Benefits",
+      "tags": "12-work-spc-reorg;F12-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-06",
+      "type": "Feature",
+      "title": "Rollback Plan",
+      "description": "Rollback Plan",
+      "tags": "12-work-spc-reorg;F12-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-07",
+      "type": "Feature",
+      "title": "Post-Migration Tasks",
+      "description": "Post-Migration Tasks",
+      "tags": "12-work-spc-reorg;F12-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-08",
+      "type": "Feature",
+      "title": "Success Criteria",
+      "description": "Success Criteria",
+      "tags": "12-work-spc-reorg;F12-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-09",
+      "type": "Feature",
+      "title": "Timeline",
+      "description": "Timeline",
+      "tags": "12-work-spc-reorg;F12-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-10",
+      "type": "Feature",
+      "title": "Next Steps",
+      "description": "Next Steps",
+      "tags": "12-work-spc-reorg;F12-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-11",
+      "type": "Feature",
+      "title": "Files in This Project",
+      "description": "Files in This Project",
+      "tags": "12-work-spc-reorg;F12-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F12-12",
+      "type": "Feature",
+      "title": "References",
+      "description": "References",
+      "tags": "12-work-spc-reorg;F12-12",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F12-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-01-001] Current Issues",
+      "acceptance_criteria": "Current Issues",
+      "tags": "12-work-spc-reorg;F12-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-01",
+      "state": "New",
+      "wbs_id": "F12-01-001"
+    },
+    {
+      "id_hint": "F12-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-01-002] Current Structure",
+      "acceptance_criteria": "Current Structure",
+      "tags": "12-work-spc-reorg;F12-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-01",
+      "state": "New",
+      "wbs_id": "F12-01-002"
+    },
+    {
+      "id_hint": "F12-02-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-02-001] Organizational Principles",
+      "acceptance_criteria": "Organizational Principles",
+      "tags": "12-work-spc-reorg;F12-02-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-02",
+      "state": "New",
+      "wbs_id": "F12-02-001"
+    },
+    {
+      "id_hint": "F12-02-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-02-002] Target Structure",
+      "acceptance_criteria": "Target Structure",
+      "tags": "12-work-spc-reorg;F12-02-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-02",
+      "state": "New",
+      "wbs_id": "F12-02-002"
+    },
+    {
+      "id_hint": "F12-02-003",
+      "type": "Product Backlog Item",
+      "title": "[F12-02-003] Path Length Comparison",
+      "acceptance_criteria": "Path Length Comparison",
+      "tags": "12-work-spc-reorg;F12-02-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-02",
+      "state": "New",
+      "wbs_id": "F12-02-003"
+    },
+    {
+      "id_hint": "F12-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-001] Phase 1: Backup (5 minutes)",
+      "acceptance_criteria": "Phase 1: Backup (5 minutes)",
+      "tags": "12-work-spc-reorg;F12-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-001"
+    },
+    {
+      "id_hint": "F12-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-002] Phase 2: Create New Structure (2 minutes)",
+      "acceptance_criteria": "Phase 2: Create New Structure (2 minutes)",
+      "tags": "12-work-spc-reorg;F12-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-002"
+    },
+    {
+      "id_hint": "F12-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-003] Phase 3: Move Active Projects (5 minutes)",
+      "acceptance_criteria": "Phase 3: Move Active Projects (5 minutes)",
+      "tags": "12-work-spc-reorg;F12-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-003"
+    },
+    {
+      "id_hint": "F12-03-004",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-004] Phase 4: Organize All Projects (10 minutes)",
+      "acceptance_criteria": "Phase 4: Organize All Projects (10 minutes)",
+      "tags": "12-work-spc-reorg;F12-03-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-004"
+    },
+    {
+      "id_hint": "F12-03-005",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-005] Phase 5: Move Reference Repos (5 minutes)",
+      "acceptance_criteria": "Phase 5: Move Reference Repos (5 minutes)",
+      "tags": "12-work-spc-reorg;F12-03-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-005"
+    },
+    {
+      "id_hint": "F12-03-006",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-006] Phase 6: Create Convenience Shortcuts (1 minute)",
+      "acceptance_criteria": "Phase 6: Create Convenience Shortcuts (1 minute)",
+      "tags": "12-work-spc-reorg;F12-03-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-006"
+    },
+    {
+      "id_hint": "F12-03-007",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-007] Phase 7: Create VS Code Workspaces (5 minutes)",
+      "acceptance_criteria": "Phase 7: Create VS Code Workspaces (5 minutes)",
+      "tags": "12-work-spc-reorg;F12-03-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-007"
+    },
+    {
+      "id_hint": "F12-03-008",
+      "type": "Product Backlog Item",
+      "title": "[F12-03-008] Phase 8: Update Documentation (10 minutes)",
+      "acceptance_criteria": "Phase 8: Update Documentation (10 minutes)",
+      "tags": "12-work-spc-reorg;F12-03-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-03",
+      "state": "New",
+      "wbs_id": "F12-03-008"
+    },
+    {
+      "id_hint": "F12-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-04-001] 1. `active-work.code-workspace` (Daily Driver)",
+      "acceptance_criteria": "1. `active-work.code-workspace` (Daily Driver)",
+      "tags": "12-work-spc-reorg;F12-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-04",
+      "state": "New",
+      "wbs_id": "F12-04-001"
+    },
+    {
+      "id_hint": "F12-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-04-002] 2. `ms-infojp.code-workspace` (MS-InfoJP Focused)",
+      "acceptance_criteria": "2. `ms-infojp.code-workspace` (MS-InfoJP Focused)",
+      "tags": "12-work-spc-reorg;F12-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-04",
+      "state": "New",
+      "wbs_id": "F12-04-002"
+    },
+    {
+      "id_hint": "F12-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F12-04-003] 3. `jp-automation.code-workspace` (JP Automation Focused)",
+      "acceptance_criteria": "3. `jp-automation.code-workspace` (JP Automation Focused)",
+      "tags": "12-work-spc-reorg;F12-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-04",
+      "state": "New",
+      "wbs_id": "F12-04-003"
+    },
+    {
+      "id_hint": "F12-04-004",
+      "type": "Product Backlog Item",
+      "title": "[F12-04-004] 4. `all-references.code-workspace` (Code Comparison)",
+      "acceptance_criteria": "4. `all-references.code-workspace` (Code Comparison)",
+      "tags": "12-work-spc-reorg;F12-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-04",
+      "state": "New",
+      "wbs_id": "F12-04-004"
+    },
+    {
+      "id_hint": "F12-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-05-001] 1. **Shorter Paths**",
+      "acceptance_criteria": "1. **Shorter Paths**",
+      "tags": "12-work-spc-reorg;F12-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-05",
+      "state": "New",
+      "wbs_id": "F12-05-001"
+    },
+    {
+      "id_hint": "F12-05-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-05-002] 2. **Clear Organization**",
+      "acceptance_criteria": "2. **Clear Organization**",
+      "tags": "12-work-spc-reorg;F12-05-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-05",
+      "state": "New",
+      "wbs_id": "F12-05-002"
+    },
+    {
+      "id_hint": "F12-05-003",
+      "type": "Product Backlog Item",
+      "title": "[F12-05-003] 3. **Focused Workspaces**",
+      "acceptance_criteria": "3. **Focused Workspaces**",
+      "tags": "12-work-spc-reorg;F12-05-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-05",
+      "state": "New",
+      "wbs_id": "F12-05-003"
+    },
+    {
+      "id_hint": "F12-05-004",
+      "type": "Product Backlog Item",
+      "title": "[F12-05-004] 4. **Easy Scaling**",
+      "acceptance_criteria": "4. **Easy Scaling**",
+      "tags": "12-work-spc-reorg;F12-05-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-05",
+      "state": "New",
+      "wbs_id": "F12-05-004"
+    },
+    {
+      "id_hint": "F12-05-005",
+      "type": "Product Backlog Item",
+      "title": "[F12-05-005] 5. **Better Git Workflows**",
+      "acceptance_criteria": "5. **Better Git Workflows**",
+      "tags": "12-work-spc-reorg;F12-05-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-05",
+      "state": "New",
+      "wbs_id": "F12-05-005"
+    },
+    {
+      "id_hint": "F12-05-006",
+      "type": "Product Backlog Item",
+      "title": "[F12-05-006] 6. **Discoverability**",
+      "acceptance_criteria": "6. **Discoverability**",
+      "tags": "12-work-spc-reorg;F12-05-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-05",
+      "state": "New",
+      "wbs_id": "F12-05-006"
+    },
+    {
+      "id_hint": "F12-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-06-001] Option A: Automated Rollback",
+      "acceptance_criteria": "Option A: Automated Rollback",
+      "tags": "12-work-spc-reorg;F12-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-06",
+      "state": "New",
+      "wbs_id": "F12-06-001"
+    },
+    {
+      "id_hint": "F12-06-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-06-002] Option B: Manual Rollback",
+      "acceptance_criteria": "Option B: Manual Rollback",
+      "tags": "12-work-spc-reorg;F12-06-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-06",
+      "state": "New",
+      "wbs_id": "F12-06-002"
+    },
+    {
+      "id_hint": "F12-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-07-001] 1. Update Hardcoded Paths in Scripts",
+      "acceptance_criteria": "1. Update Hardcoded Paths in Scripts",
+      "tags": "12-work-spc-reorg;F12-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-07",
+      "state": "New",
+      "wbs_id": "F12-07-001"
+    },
+    {
+      "id_hint": "F12-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-07-002] 2. Update Project Documentation",
+      "acceptance_criteria": "2. Update Project Documentation",
+      "tags": "12-work-spc-reorg;F12-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-07",
+      "state": "New",
+      "wbs_id": "F12-07-002"
+    },
+    {
+      "id_hint": "F12-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F12-07-003] 3. Update VS Code Settings",
+      "acceptance_criteria": "3. Update VS Code Settings",
+      "tags": "12-work-spc-reorg;F12-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-07",
+      "state": "New",
+      "wbs_id": "F12-07-003"
+    },
+    {
+      "id_hint": "F12-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F12-07-004] 4. Update Git Ignore Patterns",
+      "acceptance_criteria": "4. Update Git Ignore Patterns",
+      "tags": "12-work-spc-reorg;F12-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-07",
+      "state": "New",
+      "wbs_id": "F12-07-004"
+    },
+    {
+      "id_hint": "F12-07-005",
+      "type": "Product Backlog Item",
+      "title": "[F12-07-005] 5. Verify All Symlinks Work",
+      "acceptance_criteria": "5. Verify All Symlinks Work",
+      "tags": "12-work-spc-reorg;F12-07-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-07",
+      "state": "New",
+      "wbs_id": "F12-07-005"
+    },
+    {
+      "id_hint": "F12-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-001] All active projects accessible at `I:\\_active\\[project-name]`",
+      "acceptance_criteria": "All active projects accessible at `I:\\_active\\[project-name]`",
+      "tags": "12-work-spc-reorg;F12-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-001"
+    },
+    {
+      "id_hint": "F12-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-002] All projects organized in flat `I:\\_projects\\` structure",
+      "acceptance_criteria": "All projects organized in flat `I:\\_projects\\` structure",
+      "tags": "12-work-spc-reorg;F12-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-002"
+    },
+    {
+      "id_hint": "F12-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-003] Reference repos in `I:\\_reference\\`",
+      "acceptance_criteria": "Reference repos in `I:\\_reference\\`",
+      "tags": "12-work-spc-reorg;F12-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-003"
+    },
+    {
+      "id_hint": "F12-08-004",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-004] VS Code workspaces created and tested",
+      "acceptance_criteria": "VS Code workspaces created and tested",
+      "tags": "12-work-spc-reorg;F12-08-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-004"
+    },
+    {
+      "id_hint": "F12-08-005",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-005] MS-InfoJP deployment runs without path errors",
+      "acceptance_criteria": "MS-InfoJP deployment runs without path errors",
+      "tags": "12-work-spc-reorg;F12-08-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-005"
+    },
+    {
+      "id_hint": "F12-08-006",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-006] JP automation scripts work with new paths",
+      "acceptance_criteria": "JP automation scripts work with new paths",
+      "tags": "12-work-spc-reorg;F12-08-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-006"
+    },
+    {
+      "id_hint": "F12-08-007",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-007] Bash scripts (if any) work without modification",
+      "acceptance_criteria": "Bash scripts (if any) work without modification",
+      "tags": "12-work-spc-reorg;F12-08-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-007"
+    },
+    {
+      "id_hint": "F12-08-008",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-008] All symlinks functional",
+      "acceptance_criteria": "All symlinks functional",
+      "tags": "12-work-spc-reorg;F12-08-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-008"
+    },
+    {
+      "id_hint": "F12-08-009",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-009] Documentation updated",
+      "acceptance_criteria": "Documentation updated",
+      "tags": "12-work-spc-reorg;F12-08-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-009"
+    },
+    {
+      "id_hint": "F12-08-010",
+      "type": "Product Backlog Item",
+      "title": "[F12-08-010] No broken links in VS Code",
+      "acceptance_criteria": "No broken links in VS Code",
+      "tags": "12-work-spc-reorg;F12-08-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F12-08",
+      "state": "New",
+      "wbs_id": "F12-08-010"
+    }
+  ]
+}

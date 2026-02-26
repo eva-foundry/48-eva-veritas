@@ -1,0 +1,90 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\02-poc-agent-skills
+[INFO] Prefix: F02
+[PASS] Written: C:\AICOE\eva-foundation\02-poc-agent-skills\.eva\veritas-plan.json
+       8 features, 18 stories, 76 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F02-01        0      0  Timeline: 3 Weeks (15 working days)
+  F02-02        5     25  Week 1: Foundation Extraction (Days 1-5)
+  F02-03        5     25  Week 2: First Skills + Orchestrator (Days 6-10)
+  F02-04        5     26  Week 3: Additional Skills + Demonstration (Days 11-15)
+  F02-05        3      0  Success Criteria
+  F02-06        0      0  Risk Mitigation
+  F02-07        0      0  Integration with POC #2
+  F02-08        0      0  Next Steps After POC
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F02-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\02-poc-agent-skills
+[INFO] Using veritas-plan.json (format: veritas, 18 stories, 76 tasks)
+[INFO] Planned: 8 features, 18 stories
+[INFO] Actual: 15 artifacts, 18 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\02-poc-agent-skills\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\02-poc-agent-skills\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\02-poc-agent-skills\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: POC #1: Automated AI Workflow Pattern - Agent Skills Framework
+=======================================
+Repo:    C:\AICOE\eva-foundation\02-poc-agent-skills
+Planned: 8 features, 18 stories
+
+Coverage
+---------------------------------------
+Stories total:          18
+Stories with artifacts: 18
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F02-01     Timeline: 3 Weeks (15 working   0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F02-02     Week 1: Foundation Extraction   5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F02-03     Week 2: First Skills + Orchest  5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F02-04     Week 3: Additional Skills + De  5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F02-05     Success Criteria                3/3 artifacts  0/3 evidence  0 gaps
+[  0] F02-06     Risk Mitigation                 0/0 artifacts  0/0 evidence  0 gaps
+[  0] F02-07     Integration with POC #2         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F02-08     Next Steps After POC            0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F02-02-001 -- Day 1: AgentSkillBase Abstract Class (1 artifact)
+[IMPL] F02-02-002 -- Day 2: PromptTemplate System (1 artifact)
+[IMPL] F02-02-003 -- Day 3: ValidatorFramework (1 artifact)
+[IMPL] F02-02-004 -- Day 4: EvidenceCollector System (1 artifact)
+[IMPL] F02-02-005 -- Day 5: Integration Testing + Documentation (1 artifact)
+[IMPL] F02-03-001 -- Day 6: DocumentationGeneratorSkill (Part 1) (1 artifact)
+[IMPL] F02-03-002 -- Day 7: DocumentationGeneratorSkill (Part 2) + Manifest (1 artifact)
+[IMPL] F02-03-003 -- Day 8: Skill Manifest System (1 artifact)
+[IMPL] F02-03-004 -- Day 9: SkillOrchestrator (Part 1) (1 artifact)
+[IMPL] F02-03-005 -- Day 10: SkillOrchestrator (Part 2) + Integration Tests (1 artifact)
+[IMPL] F02-04-001 -- Day 11: CodeGeneratorSkill (New Capability) (1 artifact)
+[IMPL] F02-04-002 -- Day 12: ArchitectureAnalyzerSkill (New Capability) (1 artifact)
+[IMPL] F02-04-003 -- Day 13: Multi-Skill Workflow Demonstration (1 artifact)
+[IMPL] F02-04-004 -- Day 14: Comprehensive Documentation (1 artifact)
+[IMPL] F02-04-005 -- Day 15: Testing, Refinement, and POC Presentation (1 artifact)
+[IMPL] F02-05-001 -- Technical Metrics (1 artifact)
+[IMPL] F02-05-002 -- Quality Metrics (1 artifact)
+[IMPL] F02-05-003 -- Strategic Metrics (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

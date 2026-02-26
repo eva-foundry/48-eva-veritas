@@ -1,0 +1,70 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\09-eva-repo-documentation
+[INFO] Prefix: F09
+[PASS] Written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\veritas-plan.json
+       4 features, 6 stories, 0 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F09-01        0      0  EXECUTIVE SUMMARY
+  F09-02        6      0  PROPOSED DIAGRAM CATALOG
+  F09-03        0      0  KEY FEATURES
+  F09-04        0      0  IMPLEMENTATION ESTIMATE
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F09-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\09-eva-repo-documentation
+[INFO] Using veritas-plan.json (format: veritas, 6 stories, 0 tasks)
+[INFO] Planned: 4 features, 6 stories
+[INFO] Actual: 134 artifacts, 6 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\09-eva-repo-documentation\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Project 09: EVA Domain Assistant Repository Documentation
+=======================================
+Repo:    C:\AICOE\eva-foundation\09-eva-repo-documentation
+Planned: 4 features, 6 stories
+
+Coverage
+---------------------------------------
+Stories total:          6
+Stories with artifacts: 6
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F09-01     EXECUTIVE SUMMARY               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F09-02     PROPOSED DIAGRAM CATALOG        6/6 artifacts  0/6 evidence  0 gaps
+[  0] F09-03     KEY FEATURES                    0/0 artifacts  0/0 evidence  0 gaps
+[  0] F09-04     IMPLEMENTATION ESTIMATE         0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F09-02-001 -- Part 1: Infrastructure Architecture (4 diagrams) (1 artifact)
+[IMPL] F09-02-002 -- Part 2: Application Architecture (4 diagrams) (1 artifact)
+[IMPL] F09-02-003 -- Part 3: Document Ingestion (6 diagrams) (1 artifact)
+[IMPL] F09-02-004 -- Part 4: RAG Query Execution (5 diagrams) (1 artifact)
+[IMPL] F09-02-005 -- Part 5: Data Flows (4 diagrams) (1 artifact)
+[IMPL] F09-02-006 -- Part 6: Security Architecture (2 diagrams) (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

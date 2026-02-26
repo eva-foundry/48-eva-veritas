@@ -1,0 +1,139 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\28-rbac
+[INFO] Prefix: F28
+[PASS] Written: C:\AICOE\eva-foundation\28-rbac\.eva\veritas-plan.json
+       20 features, 43 stories, 11 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F28-01        0      0  ?? Documentation Suite
+  F28-02        0      0  Executive Summary
+  F28-03        0      0  Table of Contents
+  F28-04        1      0  Architecture Overview
+  F28-05        3      0  Authorization Flow
+  F28-06        1      0  Group Structure
+  F28-07       10      0  Cosmos DB Schema
+  F28-08        3      0  Data Flow Diagrams
+  F28-09        3      0  Implementation Details
+  F28-10        3      0  Multi-Environment Setup
+  F28-11        2      3  Debugging & Troubleshooting
+  F28-12        3      0  Known Issues & Fixes
+  F28-13        2      0  API Endpoints
+  F28-14        2      0  Configuration Reference
+  F28-15        3      0  Custom Example Prompts Per Group
+  F28-16        2      8  Testing & Validation
+  F28-17        3      0  Related Documentation
+  F28-18        0      0  FAQ
+  F28-19        2      0  Related Documentation
+  F28-20        0      0  Change Log
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F28-04-001
+[INFO] Discovering: C:\AICOE\eva-foundation\28-rbac
+[INFO] Using veritas-plan.json (format: veritas, 43 stories, 11 tasks)
+[INFO] Planned: 20 features, 43 stories
+[INFO] Actual: 9 artifacts, 43 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\28-rbac\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\28-rbac\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\28-rbac\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: EVA RBAC (Role-Based Access Control) - Complete Reference
+=======================================
+Repo:    C:\AICOE\eva-foundation\28-rbac
+Planned: 20 features, 43 stories
+
+Coverage
+---------------------------------------
+Stories total:          43
+Stories with artifacts: 43
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F28-01     ?? Documentation Suite          0/0 artifacts  0/0 evidence  0 gaps
+[  0] F28-02     Executive Summary               0/0 artifacts  0/0 evidence  0 gaps
+[  0] F28-03     Table of Contents               0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F28-04     Architecture Overview           1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F28-05     Authorization Flow              3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F28-06     Group Structure                 1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F28-07     Cosmos DB Schema                10/10 artifacts  0/10 evidence  0 gaps
+[ 50] F28-08     Data Flow Diagrams              3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F28-09     Implementation Details          3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F28-10     Multi-Environment Setup         3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F28-11     Debugging & Troubleshooting     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F28-12     Known Issues & Fixes            3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F28-13     API Endpoints                   2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F28-14     Configuration Reference         2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F28-15     Custom Example Prompts Per Gro  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F28-16     Testing & Validation            2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F28-17     Related Documentation           3/3 artifacts  0/3 evidence  0 gaps
+[  0] F28-18     FAQ                             0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F28-19     Related Documentation           2/2 artifacts  0/2 evidence  0 gaps
+[  0] F28-20     Change Log                      0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F28-04-001 -- 3-Layer RBAC Model (1 artifact)
+[IMPL] F28-05-001 -- Visual Flow Diagram (1 artifact)
+[IMPL] F28-05-002 -- by-Step Process (1 artifact)
+[IMPL] F28-05-003 -- Permission Matrix by Role (1 artifact)
+[IMPL] F28-06-001 -- Naming Convention (CRITICAL) (1 artifact)
+[IMPL] F28-07-001 -- Complete Database Architecture (1 artifact)
+[IMPL] F28-07-002 -- Database 1: Group-to-Resource Mapping (1 artifact)
+[IMPL] F28-07-003 -- Item Schema (1 artifact)
+[IMPL] F28-07-004 -- Field Descriptions (1 artifact)
+[IMPL] F28-07-005 -- Database 2: User Profile Management (1 artifact)
+[IMPL] F28-07-006 -- Database 3: Document Status Tracking (1 artifact)
+[IMPL] F28-07-007 -- Database 4: Custom Example Prompts (1 artifact)
+[IMPL] F28-07-008 -- Database 5: Conversation History (1 artifact)
+[IMPL] F28-07-009 -- Field Descriptions (1 artifact)
+[IMPL] F28-07-010 -- Azure RBAC Roles Reference (1 artifact)
+[IMPL] F28-08-001 -- 1. User Login & Group Selection Flow (1 artifact)
+[IMPL] F28-08-002 -- 2. Document Upload & Processing Flow (1 artifact)
+[IMPL] F28-08-003 -- 3. Chat Request with RAG Flow (1 artifact)
+[IMPL] F28-09-001 -- Core Files (1 artifact)
+[IMPL] F28-09-002 -- Code Examples (1 artifact)
+[IMPL] F28-09-003 -- API Endpoint Integration Pattern (1 artifact)
+[IMPL] F28-10-001 -- Environment Architecture Diagram (1 artifact)
+[IMPL] F28-10-002 -- Environment Configurations (1 artifact)
+[IMPL] F28-10-003 -- Environment Switching (1 artifact)
+[IMPL] F28-11-001 -- Common Issues (1 artifact)
+[IMPL] F28-11-002 -- Fallback Mechanism Flow Diagram (1 artifact)
+[IMPL] F28-12-001 -- Fix 1: JWT Group Extraction Bug (February 4, 2026) (1 artifact)
+[IMPL] F28-12-002 -- Fix 2: LOCAL_DEBUG Mock Groups (February 4, 2026) (1 artifact)
+[IMPL] F28-12-003 -- Fix 3: Lifespan Mock Groups (Already Present) (1 artifact)
+[IMPL] F28-13-001 -- GET /getUsrGroupInfo (1 artifact)
+[IMPL] F28-13-002 -- POST /updateUsrGroupInfo (1 artifact)
+[IMPL] F28-14-001 -- Environment Variables (1 artifact)
+[IMPL] F28-14-002 -- Azure AD App Registration (1 artifact)
+[IMPL] F28-15-001 -- Configuration Location (1 artifact)
+[IMPL] F28-15-002 -- Schema (1 artifact)
+[IMPL] F28-15-003 -- Updating Examples (1 artifact)
+[IMPL] F28-16-001 -- Test Script (1 artifact)
+[IMPL] F28-16-002 -- Manual Testing Checklist (1 artifact)
+[IMPL] F28-17-001 -- Primary References (1 artifact)
+[IMPL] F28-17-002 -- Code References (1 artifact)
+[IMPL] F28-17-003 -- Debug Sessions (1 artifact)
+[IMPL] F28-19-001 -- Complete Documentation Suite (1 artifact)
+[IMPL] F28-19-002 -- Key Documentation Features (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

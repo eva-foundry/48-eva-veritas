@@ -1,0 +1,111 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\22-rg-sandbox
+[INFO] Prefix: F22
+[PASS] Written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\veritas-plan.json
+       13 features, 29 stories, 21 tasks (0 story orphans)
+       Sources: PLAN.md
+       Format detected: veritas
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F22-01        0      0  Purpose
+  F22-02        1      0  Frozen Scope (January 29, 2026)
+  F22-03        1      0  Architecture Summary
+  F22-04        3      7  Prerequisites (Before Deployment)
+  F22-05        2      0  Reference Architecture (Dev2 ? Sandbox Mapping)
+  F22-06        5      0  Key Decisions & Justifications
+  F22-07        4     14  Success Criteria
+  F22-08        2      0  Constraints
+  F22-09        5      0  Deployment Timeline
+  F22-10        3      0  Next Steps
+  F22-11        0      0  Documentation
+  F22-12        3      0  Project Housekeeping
+  F22-13        0      0  Contact & Escalation
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[NEXT] Tag your source files: # EVA-STORY: F22-02-001
+[INFO] Discovering: C:\AICOE\eva-foundation\22-rg-sandbox
+[INFO] Using veritas-plan.json (format: veritas, 29 stories, 21 tasks)
+[INFO] Planned: 13 features, 29 stories
+[INFO] Actual: 64 artifacts, 29 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\22-rg-sandbox\.eva\trust.json (score: 50)
+
+=======================================
+EVA Veritas Report: Project 22: EsDAICoE-Sandbox Deployment
+=======================================
+Repo:    C:\AICOE\eva-foundation\22-rg-sandbox
+Planned: 13 features, 29 stories
+
+Coverage
+---------------------------------------
+Stories total:          29
+Stories with artifacts: 29
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F22-01     Purpose                         0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F22-02     Frozen Scope (January 29, 2026  1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F22-03     Architecture Summary            1/1 artifacts  0/1 evidence  0 gaps
+[ 50] F22-04     Prerequisites (Before Deployme  3/3 artifacts  0/3 evidence  0 gaps
+[ 50] F22-05     Reference Architecture (Dev2 ?  2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F22-06     Key Decisions & Justifications  5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F22-07     Success Criteria                4/4 artifacts  0/4 evidence  0 gaps
+[ 50] F22-08     Constraints                     2/2 artifacts  0/2 evidence  0 gaps
+[ 50] F22-09     Deployment Timeline             5/5 artifacts  0/5 evidence  0 gaps
+[ 50] F22-10     Next Steps                      3/3 artifacts  0/3 evidence  0 gaps
+[  0] F22-11     Documentation                   0/0 artifacts  0/0 evidence  0 gaps
+[ 50] F22-12     Project Housekeeping            3/3 artifacts  0/3 evidence  0 gaps
+[  0] F22-13     Contact & Escalation            0/0 artifacts  0/0 evidence  0 gaps
+
+Implemented
+---------------------------------------
+[IMPL] F22-02-001 -- Architecture Decision: **Public Endpoints + Reuse Strategy** (1 artifact)
+[IMPL] F22-03-001 -- Resources to Deploy (12 total) (1 artifact)
+[IMPL] F22-04-001 -- 1. Permissions Required (1 artifact)
+[IMPL] F22-04-002 -- 2. Infrastructure Team Confirmation (1 artifact)
+[IMPL] F22-04-003 -- 3. Pre-Deployment Inventory (Phase 1.1) (1 artifact)
+[IMPL] F22-05-001 -- Dev2 (Source - 81 resources, validated 2026-02-03) (1 artifact)
+[IMPL] F22-05-002 -- Sandbox (Target - 12 resources) (1 artifact)
+[IMPL] F22-06-001 -- Decision 1: Public Endpoints (1 artifact)
+[IMPL] F22-06-002 -- Decision 2: Reuse Azure OpenAI (1 artifact)
+[IMPL] F22-06-003 -- Decision 3: Basic Search Tier (1 artifact)
+[IMPL] F22-06-004 -- Decision 4: Serverless Cosmos DB (1 artifact)
+[IMPL] F22-06-005 -- Decision 5: B1 Web Apps (1 artifact)
+[IMPL] F22-07-001 -- Functional Requirements (1 artifact)
+[IMPL] F22-07-002 -- Performance Requirements (1 artifact)
+[IMPL] F22-07-003 -- Cost Requirements (1 artifact)
+[IMPL] F22-07-004 -- Operational Requirements (1 artifact)
+[IMPL] F22-08-001 -- Hard Constraints (Cannot Change) (1 artifact)
+[IMPL] F22-08-002 -- Soft Constraints (Can Negotiate) (1 artifact)
+[IMPL] F22-09-001 -- Phase 1: Pre-Deployment (Feb 3-4) ? COMPLETE (1 artifact)
+[IMPL] F22-09-002 -- Phase 2: Infrastructure Team Actions (Feb 5-7) (1 artifact)
+[IMPL] F22-09-003 -- Phase 3: Deployment (Feb 10-12) (1 artifact)
+[IMPL] F22-09-004 -- Phase 4: Validation (Feb 12-13) (1 artifact)
+[IMPL] F22-09-005 -- Phase 5: Cost Monitoring (Feb 14+) (1 artifact)
+[IMPL] F22-10-001 -- Immediate Actions (Today - Feb 3) (1 artifact)
+[IMPL] F22-10-002 -- Waiting On (1 artifact)
+[IMPL] F22-10-003 -- Blockers (1 artifact)
+[IMPL] F22-12-001 -- Archived Content (1 artifact)
+[IMPL] F22-12-002 -- Active Documentation (1 artifact)
+[IMPL] F22-12-003 -- Housekeeping Policy (1 artifact)
+
+Trust (MTI)
+---------------------------------------
+Score:   50 (+50)
+Trend:   0 -> 0 -> 0 -> 0 -> 0 -> 0 -> 50
+Actions: review-required, no-deploy
+Components: coverage=1 evidence=0 consistency=0
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 50 is below threshold 70 (--warn-only set, continuing)

@@ -1,0 +1,185 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0901-ado-import-artifacts-live.log
+
+=== ADO Import: 28-rbac ===
+Project maturity : active
+GitHub repo      : eva-foundry/28-rbac
+Dry run          : False
+
+Epic: creating '28-rbac'
+  -> Epic id=1848
+Feature: creating '?? Documentation Suite'
+  -> Feature id=1849
+Feature: existing id=376 - 'Executive Summary'
+Feature: creating 'Table of Contents'
+  -> Feature id=1850
+Feature: existing id=427 - 'Architecture Overview'
+Feature: creating 'Authorization Flow'
+  -> Feature id=1851
+Feature: creating 'Group Structure'
+  -> Feature id=1852
+Feature: creating 'Cosmos DB Schema'
+  -> Feature id=1853
+Feature: creating 'Data Flow Diagrams'
+  -> Feature id=1854
+Feature: creating 'Implementation Details'
+  -> Feature id=1855
+Feature: creating 'Multi-Environment Setup'
+  -> Feature id=1856
+Feature: creating 'Debugging & Troubleshooting'
+  -> Feature id=1857
+Feature: creating 'Known Issues & Fixes'
+  -> Feature id=1858
+Feature: existing id=887 - 'API Endpoints'
+Feature: creating 'Configuration Reference'
+  -> Feature id=1859
+Feature: creating 'Custom Example Prompts Per Group'
+  -> Feature id=1860
+Feature: creating 'Testing & Validation'
+  -> Feature id=1861
+Feature: existing id=214 - 'Related Documentation'
+Feature: creating 'FAQ'
+  -> Feature id=1862
+Feature: existing id=214 - 'Related Documentation'
+Feature: existing id=355 - 'Change Log'
+PBI: creating '[F28-04-001] 3-Layer RBAC Model'
+  -> PBI id=1863
+PBI: creating '[F28-05-001] Visual Flow Diagram'
+  -> PBI id=1864
+PBI: creating '[F28-05-002] by-Step Process'
+  -> PBI id=1865
+PBI: creating '[F28-05-003] Permission Matrix by Role'
+  -> PBI id=1866
+PBI: creating '[F28-06-001] Naming Convention (CRITICAL)'
+  -> PBI id=1867
+PBI: creating '[F28-07-001] Complete Database Architecture'
+  -> PBI id=1868
+PBI: creating '[F28-07-002] Database 1: Group-to-Resource Mapping'
+  -> PBI id=1869
+PBI: creating '[F28-07-003] Item Schema'
+  -> PBI id=1870
+PBI: creating '[F28-07-004] Field Descriptions'
+  -> PBI id=1871
+PBI: creating '[F28-07-005] Database 2: User Profile Management'
+  -> PBI id=1872
+PBI: creating '[F28-07-006] Database 3: Document Status Tracking'
+  -> PBI id=1873
+PBI: creating '[F28-07-007] Database 4: Custom Example Prompts'
+  -> PBI id=1874
+PBI: creating '[F28-07-008] Database 5: Conversation History'
+  -> PBI id=1875
+PBI: creating '[F28-07-009] Field Descriptions'
+  -> PBI id=1876
+PBI: creating '[F28-07-010] Azure RBAC Roles Reference'
+  -> PBI id=1877
+PBI: creating '[F28-08-001] 1. User Login & Group Selection Flow'
+  -> PBI id=1878
+PBI: creating '[F28-08-002] 2. Document Upload & Processing Flow'
+  -> PBI id=1879
+PBI: creating '[F28-08-003] 3. Chat Request with RAG Flow'
+  -> PBI id=1880
+PBI: creating '[F28-09-001] Core Files'
+  -> PBI id=1881
+PBI: creating '[F28-09-002] Code Examples'
+  -> PBI id=1882
+PBI: creating '[F28-09-003] API Endpoint Integration Pattern'
+  -> PBI id=1883
+PBI: creating '[F28-10-001] Environment Architecture Diagram'
+  -> PBI id=1884
+PBI: creating '[F28-10-002] Environment Configurations'
+  -> PBI id=1885
+PBI: creating '[F28-10-003] Environment Switching'
+  -> PBI id=1886
+PBI: creating '[F28-11-001] Common Issues'
+  -> PBI id=1887
+PBI: creating '[F28-11-002] Fallback Mechanism Flow Diagram'
+  -> PBI id=1888
+PBI: creating '[F28-12-001] Fix 1: JWT Group Extraction Bug (February 4, 2026)'
+  -> PBI id=1889
+PBI: creating '[F28-12-002] Fix 2: LOCAL_DEBUG Mock Groups (February 4, 2026)'
+  -> PBI id=1890
+PBI: creating '[F28-12-003] Fix 3: Lifespan Mock Groups (Already Present)'
+  -> PBI id=1891
+PBI: creating '[F28-13-001] GET /getUsrGroupInfo'
+  -> PBI id=1892
+PBI: creating '[F28-13-002] POST /updateUsrGroupInfo'
+  -> PBI id=1893
+PBI: creating '[F28-14-001] Environment Variables'
+  -> PBI id=1894
+PBI: creating '[F28-14-002] Azure AD App Registration'
+  -> PBI id=1895
+PBI: creating '[F28-15-001] Configuration Location'
+  -> PBI id=1896
+PBI: creating '[F28-15-002] Schema'
+  -> PBI id=1897
+PBI: creating '[F28-15-003] Updating Examples'
+  -> PBI id=1898
+PBI: creating '[F28-16-001] Test Script'
+  -> PBI id=1899
+PBI: creating '[F28-16-002] Manual Testing Checklist'
+  -> PBI id=1900
+PBI: creating '[F28-17-001] Primary References'
+  -> PBI id=1901
+PBI: creating '[F28-17-002] Code References'
+  -> PBI id=1902
+PBI: creating '[F28-17-003] Debug Sessions'
+  -> PBI id=1903
+PBI: creating '[F28-19-001] Complete Documentation Suite'
+  -> PBI id=1904
+PBI: creating '[F28-19-002] Key Documentation Features'
+  -> PBI id=1905
+
+=== Import Summary: 28-rbac ===
+Epic id  : 1848
+Features : 20
+PBIs     : 43
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F28-04-001 1863 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-05-001 1864 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-05-002 1865 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-05-003 1866 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-06-001 1867 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-001 1868 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-002 1869 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-003 1870 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-004 1871 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-005 1872 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-006 1873 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-007 1874 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-008 1875 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-009 1876 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-07-010 1877 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-08-001 1878 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-08-002 1879 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-08-003 1880 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-09-001 1881 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-09-002 1882 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-09-003 1883 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-10-001 1884 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-10-002 1885 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-10-003 1886 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-11-001 1887 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-11-002 1888 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-12-001 1889 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-12-002 1890 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-12-003 1891 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-13-001 1892 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-13-002 1893 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-14-001 1894 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-14-002 1895 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-15-001 1896 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-15-002 1897 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-15-003 1898 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-16-001 1899 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-16-002 1900 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-17-001 1901 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-17-002 1902 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-17-003 1903 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-19-001 1904 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F28-19-002 1905 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

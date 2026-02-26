@@ -1,0 +1,110 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0855-ado-import-artifacts-live.log
+
+=== ADO Import: 18-azure-best ===
+Project maturity : active
+GitHub repo      : eva-foundry/18-azure-best
+Dry run          : False
+
+Epic: creating '18-azure-best'
+  -> Epic id=812
+Feature: creating 'Monitoring and Observability'
+  -> Feature id=813
+Feature: creating 'Cost Management'
+  -> Feature id=814
+Feature: creating 'Well-Architected Review'
+  -> Feature id=815
+Feature: creating 'Terraform Modules'
+  -> Feature id=816
+Feature: creating 'Durable Functions Patterns'
+  -> Feature id=817
+Feature: creating 'Container Apps'
+  -> Feature id=818
+Feature: creating 'APIM DevOps'
+  -> Feature id=819
+Feature: creating 'Enhanced RAG'
+  -> Feature id=820
+Feature: creating 'Pipelines'
+  -> Feature id=821
+Feature: creating 'Project Templates'
+  -> Feature id=822
+Feature: creating 'Red Teaming'
+  -> Feature id=823
+PBI: creating '[F18-01-001] Azure Monitor alert rules and dashboards'
+  -> PBI id=824
+PBI: creating '[F18-01-002] Log Analytics workspace configuration'
+  -> PBI id=825
+PBI: creating '[F18-02-001] FinOps tagging strategy and policy'
+  -> PBI id=826
+PBI: creating '[F18-02-002] Budget alerts and spending anomaly detection'
+  -> PBI id=827
+PBI: creating '[F18-03-001] Reliability pillar assessment'
+  -> PBI id=828
+PBI: creating '[F18-03-002] Security pillar assessment'
+  -> PBI id=829
+PBI: creating '[F18-04-001] Landing zone Terraform modules'
+  -> PBI id=830
+PBI: creating '[F18-04-002] Reusable network and identity modules'
+  -> PBI id=831
+PBI: creating '[F18-05-001] Long-running workflow patterns'
+  -> PBI id=832
+PBI: creating '[F18-05-002] Fan-out fan-in orchestration example'
+  -> PBI id=833
+PBI: creating '[F18-06-001] Container Apps environment setup'
+  -> PBI id=834
+PBI: creating '[F18-06-002] DAPR sidecar integration pattern'
+  -> PBI id=835
+PBI: creating '[F18-07-001] API Management CI/CD pipeline'
+  -> PBI id=836
+PBI: creating '[F18-07-002] Policy fragments and named values'
+  -> PBI id=837
+PBI: creating '[F18-08-001] Hybrid search with semantic ranker'
+  -> PBI id=838
+PBI: creating '[F18-08-002] Document chunking strategy'
+  -> PBI id=839
+PBI: creating '[F18-09-001] Azure DevOps YAML pipeline templates'
+  -> PBI id=840
+PBI: creating '[F18-09-002] GitHub Actions integration'
+  -> PBI id=841
+PBI: creating '[F18-10-001] Scaffold new project from template'
+  -> PBI id=842
+PBI: creating '[F18-10-002] Template governance and versioning'
+  -> PBI id=843
+PBI: creating '[F18-11-001] Promptfoo adversarial test harness'
+  -> PBI id=844
+PBI: creating '[F18-11-002] Risk scoring and remediation guidance'
+  -> PBI id=845
+
+=== Import Summary: 18-azure-best ===
+Epic id  : 812
+Features : 11
+PBIs     : 22
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F18-01-001 824 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-01-002 825 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-02-001 826 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-02-002 827 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-03-001 828 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-03-002 829 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-04-001 830 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-04-002 831 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-05-001 832 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-05-002 833 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-06-001 834 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-06-002 835 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-07-001 836 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-07-002 837 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-08-001 838 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-08-002 839 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-09-001 840 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-09-002 841 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-10-001 842 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-10-002 843 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-11-001 844 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F18-11-002 845 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

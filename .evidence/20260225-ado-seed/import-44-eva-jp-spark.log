@@ -1,0 +1,111 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0905-ado-import-artifacts-live.log
+
+=== ADO Import: 44-eva-jp-spark ===
+Project maturity : active
+GitHub repo      : eva-foundry/44-eva-jp-spark
+Dry run          : False
+
+Epic: creating '44-eva-jp-spark'
+  -> Epic id=2529
+Feature: creating 'Phase 0 ? Repo & Toolchain Bootstrap'
+  -> Feature id=2530
+Feature: creating 'Phase 1 ? Foundation (Spark Iteration 1)'
+  -> Feature id=2531
+Feature: creating 'Phase 2 ? Shared Components (Spark Iteration 2)'
+  -> Feature id=2532
+Feature: creating 'Phase 3 ? Chat Screen (Spark Iteration 3)'
+  -> Feature id=2533
+Feature: creating 'Phase 4 ? Remaining Screens (Spark Iteration 4)'
+  -> Feature id=2534
+Feature: creating 'Phase 5 ? Quality Pass (Spark Iteration 5)'
+  -> Feature id=2535
+Feature: creating 'Dependency Graph'
+  -> Feature id=2536
+Feature: creating 'Open Questions / Decisions'
+  -> Feature id=2537
+Feature: existing id=1100 - 'UI Pages'
+PBI: creating '[F44-02-001] Zero-tolerance rules'
+  -> PBI id=2538
+PBI: creating '[F44-07-001] Skip link is first focusable DOM element'
+  -> PBI id=2539
+PBI: creating '[F44-07-002] One `<h1>` in header; one `<h2>` per screen inside `#mainContent`'
+  -> PBI id=2540
+PBI: creating '[F44-07-003] All interactive elements show 3px `tokens.colorStrokeFocus2` ring'
+  -> PBI id=2541
+PBI: creating '[F44-07-004] `document.title` updates on route change'
+  -> PBI id=2542
+PBI: creating '[F44-07-005] `useAnnouncer()` fires on route change'
+  -> PBI id=2543
+PBI: creating '[F44-07-006] First `<h2>` focuses after 150 ms on navigation'
+  -> PBI id=2544
+PBI: creating '[F44-07-007] All dialogs: focus trapped, Escape closes, focus returns to trigger'
+  -> PBI id=2545
+PBI: creating '[F44-07-008] `role="log" aria-live="polite"` on chat message list'
+  -> PBI id=2546
+PBI: creating '[F44-07-009] `@media (forced-colors: active)` block in every `makeStyles` that sets colour'
+  -> PBI id=2547
+PBI: creating '[F44-07-010] axe-core: 0 critical, 0 serious'
+  -> PBI id=2548
+PBI: creating '[F44-UI-001] Route content'
+  -> PBI id=2549
+PBI: creating '[F44-UI-002] Route translator'
+  -> PBI id=2550
+PBI: creating '[F44-UI-003] Route urlscrapper'
+  -> PBI id=2551
+PBI: creating '[F44-UI-004] Route tda'
+  -> PBI id=2552
+PBI: creating '[F44-UI-005] Route tutor'
+  -> PBI id=2553
+PBI: creating '[F44-UI-006] NOPAGE page'
+  -> PBI id=2554
+PBI: creating '[F44-UI-007] CHAT page'
+  -> PBI id=2555
+PBI: creating '[F44-UI-008] CONTENT page'
+  -> PBI id=2556
+PBI: creating '[F44-UI-009] TRANSLATOR page'
+  -> PBI id=2557
+PBI: creating '[F44-UI-010] TDA page'
+  -> PBI id=2558
+PBI: creating '[F44-UI-011] TUTOR page'
+  -> PBI id=2559
+PBI: creating '[F44-UI-012] LAYOUT page'
+  -> PBI id=2560
+PBI: creating '[F44-UI-013] URLSCRAPPER page'
+  -> PBI id=2561
+
+=== Import Summary: 44-eva-jp-spark ===
+Epic id  : 2529
+Features : 9
+PBIs     : 24
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F44-02-001 2538 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-001 2539 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-002 2540 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-003 2541 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-004 2542 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-005 2543 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-006 2544 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-007 2545 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-008 2546 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-009 2547 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-07-010 2548 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-001 2549 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-002 2550 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-003 2551 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-004 2552 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-005 2553 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-006 2554 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-007 2555 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-008 2556 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-009 2557 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-010 2558 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-011 2559 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-012 2560 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F44-UI-013 2561 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

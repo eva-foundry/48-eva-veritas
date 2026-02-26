@@ -1,0 +1,70 @@
+[INFO] generate-plan: C:\AICOE\eva-foundation\40-eva-control-plane
+[INFO] Prefix: F40
+[PASS] Written: C:\AICOE\eva-foundation\40-eva-control-plane\.eva\veritas-plan.json
+       9 features, 0 stories, 0 tasks (0 story orphans)
+       Sources: README.md
+       Format detected: free-form
+
+  +ID     Stories  Tasks  Title
+  ??????????????????  ?????????????????????  ???????????????  ???????????????????????????????????????????????????????????????????????????????????????
+  F40-01        0      0  What is this?
+  F40-02        0      0  Two-plane evidence spine
+  F40-03        0      0  Project layout
+  F40-04        0      0  Runbooks implemented
+  F40-05        0      0  Runtime API (port 8020)
+  F40-06        0      0  Quick start
+  F40-07        0      0  Relationship with 37-data-model
+  F40-08        0      0  Evidence pack schema
+  F40-09        0      0  Guardrails enforced
+
+[NEXT] eva audit --repo . -- scores the repo using this plan (Stories count toward MTI; Tasks do not)
+[NEXT] eva generate-ado --repo . -- creates ADO backlog CSV (Epic/Feature/Story/Task hierarchy)
+[NEXT] eva generate-plan --repo . --sync-model -- pushes plan summary to data model
+[INFO] Discovering: C:\AICOE\eva-foundation\40-eva-control-plane
+[INFO] Using veritas-plan.json (format: free-form, 0 stories, 0 tasks)
+[INFO] Planned: 9 features, 0 stories
+[INFO] Actual: 24 artifacts, 0 stories tagged
+[INFO] Evidence: 0 from commits, 0 from PRs, 0 from filenames
+[PASS] discovery written: C:\AICOE\eva-foundation\40-eva-control-plane\.eva\discovery.json
+[PASS] reconciliation written: C:\AICOE\eva-foundation\40-eva-control-plane\.eva\reconciliation.json
+[INFO] Gaps: 0
+[PASS] trust written: C:\AICOE\eva-foundation\40-eva-control-plane\.eva\trust.json (score: 0)
+
+=======================================
+EVA Veritas Report: 40-eva-control-plane
+=======================================
+Repo:    C:\AICOE\eva-foundation\40-eva-control-plane
+Planned: 9 features, 0 stories
+
+Coverage
+---------------------------------------
+Stories total:          0
+Stories with artifacts: 0
+Stories with evidence:  0
+Consistency score:      0.00
+
+Gaps
+---------------------------------------
+[PASS] No gaps detected
+
+Feature Breakdown
+---------------------------------------
+[  0] F40-01     What is this?                   0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-02     Two-plane evidence spine        0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-03     Project layout                  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-04     Runbooks implemented            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-05     Runtime API (port 8020)         0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-06     Quick start                     0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-07     Relationship with 37-data-mode  0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-08     Evidence pack schema            0/0 artifacts  0/0 evidence  0 gaps
+[  0] F40-09     Guardrails enforced             0/0 artifacts  0/0 evidence  0 gaps
+
+Trust (MTI)
+---------------------------------------
+Score:   0 (no change)
+Trend:   0 -> 0 -> 0 -> 0
+Actions: block, investigate
+Components: coverage=undefined evidence=undefined consistency=undefined
+Weights:    coverage=0.5 evidence=0.2 consistency=0.3
+
+[WARN] MTI 0 is below threshold 70 (--warn-only set, continuing)

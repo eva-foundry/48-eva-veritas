@@ -1,0 +1,133 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0856-ado-import-artifacts-live.log
+
+=== ADO Import: 22-rg-sandbox ===
+Project maturity : active
+GitHub repo      : eva-foundry/22-rg-sandbox
+Dry run          : False
+
+Epic: creating '22-rg-sandbox'
+  -> Epic id=917
+Feature: creating 'Purpose'
+  -> Feature id=918
+Feature: creating 'Frozen Scope (January 29, 2026)'
+  -> Feature id=919
+Feature: creating 'Architecture Summary'
+  -> Feature id=920
+Feature: creating 'Prerequisites (Before Deployment)'
+  -> Feature id=921
+Feature: creating 'Reference Architecture (Dev2 ? Sandbox Mapping)'
+  -> Feature id=922
+Feature: creating 'Key Decisions & Justifications'
+  -> Feature id=923
+Feature: existing id=233 - 'Success Criteria'
+Feature: creating 'Constraints'
+  -> Feature id=924
+Feature: creating 'Deployment Timeline'
+  -> Feature id=925
+Feature: existing id=656 - 'Next Steps'
+Feature: creating 'Documentation'
+  -> Feature id=926
+Feature: creating 'Project Housekeeping'
+  -> Feature id=927
+Feature: creating 'Contact & Escalation'
+  -> Feature id=928
+PBI: creating '[F22-02-001] Architecture Decision: **Public Endpoints + Reuse Strategy**'
+  -> PBI id=929
+PBI: creating '[F22-03-001] Resources to Deploy (12 total)'
+  -> PBI id=930
+PBI: creating '[F22-04-001] 1. Permissions Required'
+  -> PBI id=931
+PBI: creating '[F22-04-002] 2. Infrastructure Team Confirmation'
+  -> PBI id=932
+PBI: creating '[F22-04-003] 3. Pre-Deployment Inventory (Phase 1.1)'
+  -> PBI id=933
+PBI: creating '[F22-05-001] Dev2 (Source - 81 resources, validated 2026-02-03)'
+  -> PBI id=934
+PBI: creating '[F22-05-002] Sandbox (Target - 12 resources)'
+  -> PBI id=935
+PBI: creating '[F22-06-001] Decision 1: Public Endpoints'
+  -> PBI id=936
+PBI: creating '[F22-06-002] Decision 2: Reuse Azure OpenAI'
+  -> PBI id=937
+PBI: creating '[F22-06-003] Decision 3: Basic Search Tier'
+  -> PBI id=938
+PBI: creating '[F22-06-004] Decision 4: Serverless Cosmos DB'
+  -> PBI id=939
+PBI: creating '[F22-06-005] Decision 5: B1 Web Apps'
+  -> PBI id=940
+PBI: creating '[F22-07-001] Functional Requirements'
+  -> PBI id=941
+PBI: creating '[F22-07-002] Performance Requirements'
+  -> PBI id=942
+PBI: creating '[F22-07-003] Cost Requirements'
+  -> PBI id=943
+PBI: creating '[F22-07-004] Operational Requirements'
+  -> PBI id=944
+PBI: creating '[F22-08-001] Hard Constraints (Cannot Change)'
+  -> PBI id=945
+PBI: creating '[F22-08-002] Soft Constraints (Can Negotiate)'
+  -> PBI id=946
+PBI: creating '[F22-09-001] Phase 1: Pre-Deployment (Feb 3-4) ? COMPLETE'
+  -> PBI id=947
+PBI: creating '[F22-09-002] Phase 2: Infrastructure Team Actions (Feb 5-7)'
+  -> PBI id=948
+PBI: creating '[F22-09-003] Phase 3: Deployment (Feb 10-12)'
+  -> PBI id=949
+PBI: creating '[F22-09-004] Phase 4: Validation (Feb 12-13)'
+  -> PBI id=950
+PBI: creating '[F22-09-005] Phase 5: Cost Monitoring (Feb 14+)'
+  -> PBI id=951
+PBI: creating '[F22-10-001] Immediate Actions (Today - Feb 3)'
+  -> PBI id=952
+PBI: creating '[F22-10-002] Waiting On'
+  -> PBI id=953
+PBI: creating '[F22-10-003] Blockers'
+  -> PBI id=954
+PBI: creating '[F22-12-001] Archived Content'
+  -> PBI id=955
+PBI: creating '[F22-12-002] Active Documentation'
+  -> PBI id=956
+PBI: creating '[F22-12-003] Housekeeping Policy'
+  -> PBI id=957
+
+=== Import Summary: 22-rg-sandbox ===
+Epic id  : 917
+Features : 13
+PBIs     : 29
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m  Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m --[0m [32;1m-----[0m [32;1m---[0m
+F22-02-001 929 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-03-001 930 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-04-001 931 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-04-002 932 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-04-003 933 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-05-001 934 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-05-002 935 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-06-001 936 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-06-002 937 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-06-003 938 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-06-004 939 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-06-005 940 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-07-001 941 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-07-002 942 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-07-003 943 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-07-004 944 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-08-001 945 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-08-002 946 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-09-001 947 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-09-002 948 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-09-003 949 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-09-004 950 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-09-005 951 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-10-001 952 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-10-002 953 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-10-003 954 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-12-001 955 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-12-002 956 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+F22-12-003 957 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edit.
+

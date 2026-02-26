@@ -1,0 +1,70 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0901-ado-import-artifacts-live.log
+
+=== ADO Import: 27-devbench ===
+Project maturity : poc
+GitHub repo      : eva-foundry/27-devbench
+Dry run          : False
+
+Epic: creating '27-devbench'
+  -> Epic id=1829
+Feature: creating '?? Purpose'
+  -> Feature id=1830
+Feature: creating '? Key Features'
+  -> Feature id=1831
+Feature: existing id=858 - '?? Quick Start'
+Feature: existing id=859 - '?? Documentation'
+Feature: creating '??? Technology Stack'
+  -> Feature id=1832
+Feature: creating '?? Design System'
+  -> Feature id=1833
+Feature: creating '?? Security'
+  -> Feature id=1834
+Feature: creating '?? Project Status'
+  -> Feature id=1835
+Feature: creating '??? Use Cases'
+  -> Feature id=1836
+Feature: existing id=866 - '?? Contributing'
+Feature: creating '?? Support'
+  -> Feature id=1837
+Feature: creating '?? License'
+  -> Feature id=1838
+PBI: creating '[F27-02-001] Core Capabilities'
+  -> PBI id=1839
+PBI: creating '[F27-02-002] Enterprise Code Review Features'
+  -> PBI id=1840
+PBI: creating '[F27-02-003] Governance & Compliance'
+  -> PBI id=1841
+PBI: creating '[F27-03-001] Installation'
+  -> PBI id=1842
+PBI: creating '[F27-03-002] Development'
+  -> PBI id=1843
+PBI: creating '[F27-03-003] Enable Demo Mode'
+  -> PBI id=1844
+PBI: creating '[F27-09-001] COBOL Modernization'
+  -> PBI id=1845
+PBI: creating '[F27-09-002] Client-Server Migration'
+  -> PBI id=1846
+PBI: creating '[F27-09-003] Technical Debt Reduction'
+  -> PBI id=1847
+
+=== Import Summary: 27-devbench ===
+Epic id  : 1829
+Features : 12
+PBIs     : 9
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag       [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---       [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F27-02-001 1839 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-02-002 1840 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-02-003 1841 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-03-001 1842 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-03-002 1843 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-03-003 1844 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-09-001 1845 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-09-002 1846 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+F27-09-003 1847 New   https://dev.azure.com/marcopresta/eva-poc/_workitems/edi.
+

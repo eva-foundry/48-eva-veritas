@@ -1,0 +1,39 @@
+[10:35:28] [PASS] ADO_PAT ready (84 chars)
+[10:35:28] [STEP1] Loading WBS records with ado_id...
+[10:35:29]   WBS total=2964  with ado_id=1869
+[10:35:29] [STEP2] Fetching ADO states in batches...
+[10:35:29]   batch 1: 200 items
+[10:35:30]   batch 2: 200 items
+[10:35:30]   batch 3: 200 items
+[10:35:30]   batch 4: 200 items
+[10:35:31]   batch 5: 200 items
+[10:35:31]   batch 6: 200 items
+[10:35:31]   batch 7: 200 items
+[10:35:31]   batch 8: 200 items
+[10:35:32]   batch 9: 200 items
+[10:35:32]   batch 10: 69 items
+[10:35:32]   ADO states fetched: 1869
+[10:35:32] [STEP3] Syncing WBS status...
+[10:35:32]   updated=0  unchanged=1869  unmapped=0  failed=0
+[10:36:32] [PASS] ADO_PAT ready (84 chars)
+[10:36:32] [STEP1] Loading WBS records with ado_id...
+[10:36:33]   WBS total=2964  with ado_id=1869
+[10:36:33] [STEP2] Fetching ADO states in batches...
+[10:36:33]   batch 1: 200 items
+[10:36:33]   batch 2: 200 items
+[10:36:34]   batch 3: 200 items
+[10:36:34]   batch 4: 200 items
+[10:36:34]   batch 5: 200 items
+[10:36:34]   batch 6: 200 items
+[10:36:35]   batch 7: 200 items
+[10:36:35]   batch 8: 200 items
+[10:36:35]   batch 9: 200 items
+[10:36:35]   batch 10: 69 items
+[10:36:35]   ADO states fetched: 1869
+[10:36:35] [STEP3] Syncing WBS status...
+[10:36:35]   updated=0  unchanged=1869  unmapped=0  failed=0
+[10:36:35]   [INFO] No status changes needed -- all WBS statuses already match ADO states
+[10:36:35] 
+[10:36:35] === WIRE #2 COMPLETE ===
+[10:36:35]   updated=0  spot=1/1  mode=LIVE
+[10:36:35]   [PASS]

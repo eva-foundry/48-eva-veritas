@@ -1,0 +1,807 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-25T08:51:36.9864737-05:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/29-foundry",
+  "project_maturity": "active",
+  "wbs_project_id": "WBS-29",
+  "stream": "WBS-S-AI",
+  "sprints_needed": [],
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "29-foundry",
+    "description": "29-foundry",
+    "tags": "29-foundry;WBS-S-AI",
+    "area_path": "eva-poc"
+  },
+  "features": [
+    {
+      "id_hint": "F29-00",
+      "type": "Feature",
+      "title": "Governance Bootstrap",
+      "description": "Governance Bootstrap",
+      "tags": "29-foundry;F29-00",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-01",
+      "type": "Feature",
+      "title": "Separation of Concerns ? Three-Plane Architecture",
+      "description": "Separation of Concerns ? Three-Plane Architecture",
+      "tags": "29-foundry;F29-01",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-02",
+      "type": "Feature",
+      "title": "Pre-flight Checklist",
+      "description": "Pre-flight Checklist",
+      "tags": "29-foundry;F29-02",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-03",
+      "type": "Feature",
+      "title": "Source Asset Inventory",
+      "description": "Source Asset Inventory",
+      "tags": "29-foundry;F29-03",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-04",
+      "type": "Feature",
+      "title": "Epic P ? Folder Hygiene (extract samples, clean root)",
+      "description": "Epic P ? Folder Hygiene (extract samples, clean root)",
+      "tags": "29-foundry;F29-04",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-05",
+      "type": "Feature",
+      "title": "Epic 1 ? Import eva-faces Skills (Azure Plane ? App)",
+      "description": "Epic 1 ? Import eva-faces Skills (Azure Plane ? App)",
+      "tags": "29-foundry;F29-05",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-06",
+      "type": "Feature",
+      "title": "Epic 2 ? Import eva-brain-v2 Skills (Azure Plane ? App, UI-Exposed)",
+      "description": "Epic 2 ? Import eva-brain-v2 Skills (Azure Plane ? App, UI-Exposed)",
+      "tags": "29-foundry;F29-06",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-07",
+      "type": "Feature",
+      "title": "Epic 3 ? Import Agent Implementations (Plane-Organised) [PASS] COMPLETE 2026-02-21",
+      "description": "Epic 3 ? Import Agent Implementations (Plane-Organised) [PASS] COMPLETE 2026-02-21",
+      "tags": "29-foundry;F29-07",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-08",
+      "type": "Feature",
+      "title": "Epic 4 ? session-workflow-agent Server",
+      "description": "Epic 4 ? session-workflow-agent Server",
+      "tags": "29-foundry;F29-08",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-09",
+      "type": "Feature",
+      "title": "Epic 5 ? Skill Catalog Repair",
+      "description": "Epic 5 ? Skill Catalog Repair",
+      "tags": "29-foundry;F29-09",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-10",
+      "type": "Feature",
+      "title": "Epic 6 ? MCP Servers for Imported Agents (Plane-Tagged)",
+      "description": "Epic 6 ? MCP Servers for Imported Agents (Plane-Tagged)",
+      "tags": "29-foundry;F29-10",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-11",
+      "type": "Feature",
+      "title": "Epic 7 ? GitHub Org Alignment (eva-foundry)",
+      "description": "Epic 7 ? GitHub Org Alignment (eva-foundry)",
+      "tags": "29-foundry;F29-11",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-12",
+      "type": "Feature",
+      "title": "Epic 8 ? Prompts & Prompty Library (EI Domain)",
+      "description": "Epic 8 ? Prompts & Prompty Library (EI Domain)",
+      "tags": "29-foundry;F29-12",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-13",
+      "type": "Feature",
+      "title": "Fixes (Current Known Issues)",
+      "description": "Fixes (Current Known Issues)",
+      "tags": "29-foundry;F29-13",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-14",
+      "type": "Feature",
+      "title": "Session Sequence",
+      "description": "Session Sequence",
+      "tags": "29-foundry;F29-14",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-15",
+      "type": "Feature",
+      "title": "Sprint Breakdown",
+      "description": "Sprint Breakdown",
+      "tags": "29-foundry;F29-15",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-16",
+      "type": "Feature",
+      "title": "Directory Tree ? Target State",
+      "description": "Directory Tree ? Target State",
+      "tags": "29-foundry;F29-16",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-17",
+      "type": "Feature",
+      "title": "Constraints",
+      "description": "Constraints",
+      "tags": "29-foundry;F29-17",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-18",
+      "type": "Feature",
+      "title": "Definition of Done",
+      "description": "Definition of Done",
+      "tags": "29-foundry;F29-18",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-HEALTH",
+      "type": "Feature",
+      "title": "HEALTH API",
+      "description": "HEALTH API",
+      "tags": "29-foundry;F29-HEALTH",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "F29-AGENTS",
+      "type": "Feature",
+      "title": "AGENTS API",
+      "description": "AGENTS API",
+      "tags": "29-foundry;F29-AGENTS",
+      "parent": "epic"
+    }
+  ],
+  "user_stories": [
+    {
+      "id_hint": "F29-00-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-00-001] Fix copilot-instructions strip-audit bug",
+      "acceptance_criteria": "Fix copilot-instructions strip-audit bug",
+      "tags": "29-foundry;F29-00-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-00",
+      "state": "New",
+      "wbs_id": "F29-00-001"
+    },
+    {
+      "id_hint": "F29-00-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-00-002] Create governance files",
+      "acceptance_criteria": "Create governance files",
+      "tags": "29-foundry;F29-00-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-00",
+      "state": "New",
+      "wbs_id": "F29-00-002"
+    },
+    {
+      "id_hint": "F29-01-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-01-001] Plane Assignment for Assets Being Imported",
+      "acceptance_criteria": "Plane Assignment for Assets Being Imported",
+      "tags": "29-foundry;F29-01-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-01",
+      "state": "New",
+      "wbs_id": "F29-01-001"
+    },
+    {
+      "id_hint": "F29-01-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-01-002] Skill Directory Structure ? Plane-Based",
+      "acceptance_criteria": "Skill Directory Structure ? Plane-Based",
+      "tags": "29-foundry;F29-01-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-01",
+      "state": "New",
+      "wbs_id": "F29-01-002"
+    },
+    {
+      "id_hint": "F29-01-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-01-003] Audit copilot-skills directory vs skill-catalog",
+      "acceptance_criteria": "Audit copilot-skills directory vs skill-catalog",
+      "tags": "29-foundry;F29-01-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-01",
+      "state": "New",
+      "wbs_id": "F29-01-003"
+    },
+    {
+      "id_hint": "F29-01-004",
+      "type": "Product Backlog Item",
+      "title": "[F29-01-004] Create task-specific .skill.md files for foundry core",
+      "acceptance_criteria": "Create task-specific .skill.md files for foundry core",
+      "tags": "29-foundry;F29-01-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-01",
+      "state": "New",
+      "wbs_id": "F29-01-004"
+    },
+    {
+      "id_hint": "F29-01-005",
+      "type": "Product Backlog Item",
+      "title": "[F29-01-005] Run tests and confirm exit 0",
+      "acceptance_criteria": "Run tests and confirm exit 0",
+      "tags": "29-foundry;F29-01-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-01",
+      "state": "New",
+      "wbs_id": "F29-01-005"
+    },
+    {
+      "id_hint": "F29-03-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-03-001] 31-eva-faces ? `.github/copilot-skills/`",
+      "acceptance_criteria": "31-eva-faces ? `.github/copilot-skills/`",
+      "tags": "29-foundry;F29-03-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-03",
+      "state": "New",
+      "wbs_id": "F29-03-001"
+    },
+    {
+      "id_hint": "F29-03-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-03-002] 31-eva-faces ? `agent-fleet/app/agents/`",
+      "acceptance_criteria": "31-eva-faces ? `agent-fleet/app/agents/`",
+      "tags": "29-foundry;F29-03-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-03",
+      "state": "New",
+      "wbs_id": "F29-03-002"
+    },
+    {
+      "id_hint": "F29-03-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-03-003] 33-eva-brain-v2 ? `.github/copilot-skills/`",
+      "acceptance_criteria": "33-eva-brain-v2 ? `.github/copilot-skills/`",
+      "tags": "29-foundry;F29-03-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-03",
+      "state": "New",
+      "wbs_id": "F29-03-003"
+    },
+    {
+      "id_hint": "F29-03-004",
+      "type": "Product Backlog Item",
+      "title": "[F29-03-004] 33-eva-brain-v2 ? `services/eva-brain-api/app/`",
+      "acceptance_criteria": "33-eva-brain-v2 ? `services/eva-brain-api/app/`",
+      "tags": "29-foundry;F29-03-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-03",
+      "state": "New",
+      "wbs_id": "F29-03-004"
+    },
+    {
+      "id_hint": "F29-03-005",
+      "type": "Product Backlog Item",
+      "title": "[F29-03-005] 29-foundry ? Current State",
+      "acceptance_criteria": "29-foundry ? Current State",
+      "tags": "29-foundry;F29-03-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-03",
+      "state": "New",
+      "wbs_id": "F29-03-005"
+    },
+    {
+      "id_hint": "F29-04-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-04-001] What moves out of 29-foundry",
+      "acceptance_criteria": "What moves out of 29-foundry",
+      "tags": "29-foundry;F29-04-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-04",
+      "state": "New",
+      "wbs_id": "F29-04-001"
+    },
+    {
+      "id_hint": "F29-04-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-04-002] Feature P.1 ? Create 42-learn-foundry",
+      "acceptance_criteria": "Feature P.1 ? Create 42-learn-foundry",
+      "tags": "29-foundry;F29-04-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-04",
+      "state": "New",
+      "wbs_id": "F29-04-002"
+    },
+    {
+      "id_hint": "F29-04-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-04-003] Feature P.2 ? Move sample/learning content",
+      "acceptance_criteria": "Feature P.2 ? Move sample/learning content",
+      "tags": "29-foundry;F29-04-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-04",
+      "state": "New",
+      "wbs_id": "F29-04-003"
+    },
+    {
+      "id_hint": "F29-04-004",
+      "type": "Product Backlog Item",
+      "title": "[F29-04-004] Feature P.3 ? Archive stale root docs",
+      "acceptance_criteria": "Feature P.3 ? Archive stale root docs",
+      "tags": "29-foundry;F29-04-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-04",
+      "state": "New",
+      "wbs_id": "F29-04-004"
+    },
+    {
+      "id_hint": "F29-05-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-05-001] Feature 1.1 ? Create eva-faces skill directory in foundry",
+      "acceptance_criteria": "Feature 1.1 ? Create eva-faces skill directory in foundry",
+      "tags": "29-foundry;F29-05-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-05",
+      "state": "New",
+      "wbs_id": "F29-05-001"
+    },
+    {
+      "id_hint": "F29-06-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-06-001] Feature 2.1 ? Normalize brain-v2 skills to .skill.md format",
+      "acceptance_criteria": "Feature 2.1 ? Normalize brain-v2 skills to .skill.md format",
+      "tags": "29-foundry;F29-06-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-06",
+      "state": "New",
+      "wbs_id": "F29-06-001"
+    },
+    {
+      "id_hint": "F29-07-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-07-001] Feature 3.1 ? Scaffold agents/ package with plane sub-structure",
+      "acceptance_criteria": "Feature 3.1 ? Scaffold agents/ package with plane sub-structure",
+      "tags": "29-foundry;F29-07-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-07",
+      "state": "New",
+      "wbs_id": "F29-07-001"
+    },
+    {
+      "id_hint": "F29-07-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-07-002] Feature 3.2 ? Azure Plane / App (UI-Exposed): ConversationAgent",
+      "acceptance_criteria": "Feature 3.2 ? Azure Plane / App (UI-Exposed): ConversationAgent",
+      "tags": "29-foundry;F29-07-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-07",
+      "state": "New",
+      "wbs_id": "F29-07-002"
+    },
+    {
+      "id_hint": "F29-07-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-07-003] Feature 3.3 ? Azure Plane / Internal: ScreenGeneratorAgent, ValidatorAgent, TestGeneratorAgent",
+      "acceptance_criteria": "Feature 3.3 ? Azure Plane / Internal: ScreenGeneratorAgent, ValidatorAgent, TestGeneratorAgent",
+      "tags": "29-foundry;F29-07-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-07",
+      "state": "New",
+      "wbs_id": "F29-07-003"
+    },
+    {
+      "id_hint": "F29-07-004",
+      "type": "Product Backlog Item",
+      "title": "[F29-07-004] Feature 3.4 ? GitHub Plane: session-workflow-agent patterns",
+      "acceptance_criteria": "Feature 3.4 ? GitHub Plane: session-workflow-agent patterns",
+      "tags": "29-foundry;F29-07-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-07",
+      "state": "New",
+      "wbs_id": "F29-07-004"
+    },
+    {
+      "id_hint": "F29-07-005",
+      "type": "Product Backlog Item",
+      "title": "[F29-07-005] Feature 3.5 ? Import brain-v2 service layer into tools/ (Azure Plane foundations)",
+      "acceptance_criteria": "Feature 3.5 ? Import brain-v2 service layer into tools/ (Azure Plane foundations)",
+      "tags": "29-foundry;F29-07-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-07",
+      "state": "New",
+      "wbs_id": "F29-07-005"
+    },
+    {
+      "id_hint": "F29-08-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-08-001] Feature 4.1 ? HTTP Server and Authentication (Sprint-8) ? Session 5",
+      "acceptance_criteria": "Feature 4.1 ? HTTP Server and Authentication (Sprint-8) ? Session 5",
+      "tags": "29-foundry;F29-08-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-08",
+      "state": "New",
+      "wbs_id": "F29-08-001"
+    },
+    {
+      "id_hint": "F29-08-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-08-002] Feature 4.2 ? ADO Tool (Sprint-8) ? Session 5",
+      "acceptance_criteria": "Feature 4.2 ? ADO Tool (Sprint-8) ? Session 5",
+      "tags": "29-foundry;F29-08-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-08",
+      "state": "New",
+      "wbs_id": "F29-08-002"
+    },
+    {
+      "id_hint": "F29-08-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-08-003] Feature 4.3 ? Shell Exec Tool (Sprint-8) ? Session 5",
+      "acceptance_criteria": "Feature 4.3 ? Shell Exec Tool (Sprint-8) ? Session 5",
+      "tags": "29-foundry;F29-08-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-08",
+      "state": "New",
+      "wbs_id": "F29-08-003"
+    },
+    {
+      "id_hint": "F29-08-004",
+      "type": "Product Backlog Item",
+      "title": "[F29-08-004] Feature 4.4 ? DPDCA Phase Handlers (Sprint-8) ? Session 5",
+      "acceptance_criteria": "Feature 4.4 ? DPDCA Phase Handlers (Sprint-8) ? Session 5",
+      "tags": "29-foundry;F29-08-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-08",
+      "state": "New",
+      "wbs_id": "F29-08-004"
+    },
+    {
+      "id_hint": "F29-08-005",
+      "type": "Product Backlog Item",
+      "title": "[F29-08-005] Feature 4.5 ? Deployment (Sprint-9)",
+      "acceptance_criteria": "Feature 4.5 ? Deployment (Sprint-9)",
+      "tags": "29-foundry;F29-08-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-08",
+      "state": "New",
+      "wbs_id": "F29-08-005"
+    },
+    {
+      "id_hint": "F29-09-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-09-001] Feature 5.1 ? Populate missing fields",
+      "acceptance_criteria": "Feature 5.1 ? Populate missing fields",
+      "tags": "29-foundry;F29-09-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-09",
+      "state": "New",
+      "wbs_id": "F29-09-001"
+    },
+    {
+      "id_hint": "F29-10-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-10-001] Feature 6.1 ? Azure Plane / App: eva-faces agent fleet MCP server",
+      "acceptance_criteria": "Feature 6.1 ? Azure Plane / App: eva-faces agent fleet MCP server",
+      "tags": "29-foundry;F29-10-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-10",
+      "state": "New",
+      "wbs_id": "F29-10-001"
+    },
+    {
+      "id_hint": "F29-10-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-10-002] Feature 6.2 ? Azure Plane / App: eva-brain conversation MCP server",
+      "acceptance_criteria": "Feature 6.2 ? Azure Plane / App: eva-brain conversation MCP server",
+      "tags": "29-foundry;F29-10-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-10",
+      "state": "New",
+      "wbs_id": "F29-10-002"
+    },
+    {
+      "id_hint": "F29-10-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-10-003] Feature 6.3 ? GitHub Plane: session-workflow MCP server",
+      "acceptance_criteria": "Feature 6.3 ? GitHub Plane: session-workflow MCP server",
+      "tags": "29-foundry;F29-10-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-10",
+      "state": "New",
+      "wbs_id": "F29-10-003"
+    },
+    {
+      "id_hint": "F29-10-004",
+      "type": "Product Backlog Item",
+      "title": "[F29-10-004] Feature 6.4 ? Update `.vscode/mcp.json` index",
+      "acceptance_criteria": "Feature 6.4 ? Update `.vscode/mcp.json` index",
+      "tags": "29-foundry;F29-10-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-10",
+      "state": "New",
+      "wbs_id": "F29-10-004"
+    },
+    {
+      "id_hint": "F29-11-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-11-001] Feature 7.1 ? Package structure",
+      "acceptance_criteria": "Feature 7.1 ? Package structure",
+      "tags": "29-foundry;F29-11-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-11",
+      "state": "New",
+      "wbs_id": "F29-11-001"
+    },
+    {
+      "id_hint": "F29-11-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-11-002] Feature 7.2 ? Documentation for org consumers",
+      "acceptance_criteria": "Feature 7.2 ? Documentation for org consumers",
+      "tags": "29-foundry;F29-11-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-11",
+      "state": "New",
+      "wbs_id": "F29-11-002"
+    },
+    {
+      "id_hint": "F29-12-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-12-001] Prompt Inventory (current state)",
+      "acceptance_criteria": "Prompt Inventory (current state)",
+      "tags": "29-foundry;F29-12-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-12",
+      "state": "New",
+      "wbs_id": "F29-12-001"
+    },
+    {
+      "id_hint": "F29-12-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-12-002] Feature 8.1 ? Populate prompty-library/",
+      "acceptance_criteria": "Feature 8.1 ? Populate prompty-library/",
+      "tags": "29-foundry;F29-12-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-12",
+      "state": "New",
+      "wbs_id": "F29-12-002"
+    },
+    {
+      "id_hint": "F29-12-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-12-003] Feature 8.2 ? Wire prompts to agents and server handlers",
+      "acceptance_criteria": "Feature 8.2 ? Wire prompts to agents and server handlers",
+      "tags": "29-foundry;F29-12-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-12",
+      "state": "New",
+      "wbs_id": "F29-12-003"
+    },
+    {
+      "id_hint": "F29-18-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-001] `python tools/validate-catalog.py` exits 0 with `totalSkills == 72` (updated from 63; 7 new Session-9 + 2 missing cross-cutting added)",
+      "acceptance_criteria": "`python tools/validate-catalog.py` exits 0 with `totalSkills == 72` (updated from 63; 7 new Session-9 + 2 missing cross-cutting added)",
+      "tags": "29-foundry;F29-18-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-001"
+    },
+    {
+      "id_hint": "F29-18-002",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-002] `jq '[.catalog.skills[] | select(.plane == \"\")] | length' skill-catalog.json` returns 0 (verified via Python)",
+      "acceptance_criteria": "`jq '[.catalog.skills[] | select(.plane == \"\")] | length' skill-catalog.json` returns 0 (verified via Python)",
+      "tags": "29-foundry;F29-18-002",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-002"
+    },
+    {
+      "id_hint": "F29-18-003",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-003] `pytest --no-cov -q` passes ? 78 passed, 1 skipped (agent-framework tests pass after stub dirs created)",
+      "acceptance_criteria": "`pytest --no-cov -q` passes ? 78 passed, 1 skipped (agent-framework tests pass after stub dirs created)",
+      "tags": "29-foundry;F29-18-003",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-003"
+    },
+    {
+      "id_hint": "F29-18-004",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-004] `POST /agents/session-workflow-agent/invoke` ? server starts, /health 200; phase 500s expected without real ADO_PAT/FOUNDRY_HUB_ENDPOINT credentials (SKIP_AUTH=true bypasses auth; business-logic 500 is expected without credentials)",
+      "acceptance_criteria": "`POST /agents/session-workflow-agent/invoke` ? server starts, /health 200; phase 500s expected without real ADO_PAT/FOUNDRY_HUB_ENDPOINT credentials (SKIP_AUTH=true bypasses auth; business-logic 500 is expected without credentials)",
+      "tags": "29-foundry;F29-18-004",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-004"
+    },
+    {
+      "id_hint": "F29-18-005",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-005] `from agents.azure_plane.app.conversation.conversation_agent import ConversationAgent` ? no ImportError",
+      "acceptance_criteria": "`from agents.azure_plane.app.conversation.conversation_agent import ConversationAgent` ? no ImportError",
+      "tags": "29-foundry;F29-18-005",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-005"
+    },
+    {
+      "id_hint": "F29-18-006",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-006] `from agents.azure_plane.app.screen_generator.screen_agent import ScreenGeneratorAgent` ? no ImportError (path was screen_agent.py not screen_generator_agent.py; agents.json corrected)",
+      "acceptance_criteria": "`from agents.azure_plane.app.screen_generator.screen_agent import ScreenGeneratorAgent` ? no ImportError (path was screen_agent.py not screen_generator_agent.py; agents.json corrected)",
+      "tags": "29-foundry;F29-18-006",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-006"
+    },
+    {
+      "id_hint": "F29-18-007",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-007] `from agents.azure_plane.internal.validator.validator_agent import ValidatorAgent` ? no ImportError",
+      "acceptance_criteria": "`from agents.azure_plane.internal.validator.validator_agent import ValidatorAgent` ? no ImportError",
+      "tags": "29-foundry;F29-18-007",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-007"
+    },
+    {
+      "id_hint": "F29-18-008",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-008] Skill files by plane: 4 (github-plane) + 2 (azure-plane/control) + 3 (ado-plane) + 22 (azure/app/eva-faces) + 10 (azure/app/eva-brain-v2) + 6 (foundry core .md) + 7 (cross-cutting) = 54 on-disk; catalog total 72 (47 .skill.md + 6 foundry-c...",
+      "acceptance_criteria": "Skill files by plane: 4 (github-plane) + 2 (azure-plane/control) + 3 (ado-plane) + 22 (azure/app/eva-faces) + 10 (azure/app/eva-brain-v2) + 6 (foundry core .md) + 7 (cross-cutting) = 54 on-disk; catalog total 72 (47 .skill.md + 6 foundry-core .md + cross-cutting 06+07 added to catalog)",
+      "tags": "29-foundry;F29-18-008",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-008"
+    },
+    {
+      "id_hint": "F29-18-009",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-009] No file modified under any numbered project folder other than `29-foundry/` (exception: `37-data-model/model/agents.json` path updates per Stories 3.2.2 + 3.3.4)",
+      "acceptance_criteria": "No file modified under any numbered project folder other than `29-foundry/` (exception: `37-data-model/model/agents.json` path updates per Stories 3.2.2 + 3.3.4)",
+      "tags": "29-foundry;F29-18-009",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-009"
+    },
+    {
+      "id_hint": "F29-18-010",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-010] `jq '.catalog.skills[] | select(.skill_id == \"\")' skill-catalog.json` returns empty",
+      "acceptance_criteria": "`jq '.catalog.skills[] | select(.skill_id == \"\")' skill-catalog.json` returns empty",
+      "tags": "29-foundry;F29-18-010",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-010"
+    },
+    {
+      "id_hint": "F29-18-011",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-011] `.github/workflows/validate-skills.yml` REQUIRED_FIELDS updated to `{\"skill_id\", \"plane\"}` ? CI will pass on next push",
+      "acceptance_criteria": "`.github/workflows/validate-skills.yml` REQUIRED_FIELDS updated to `{\"skill_id\", \"plane\"}` ? CI will pass on next push",
+      "tags": "29-foundry;F29-18-011",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-011"
+    },
+    {
+      "id_hint": "F29-18-012",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-012] `GET /model/agents/` on `37-data-model` agents.json: ConversationAgent has `skill_file` pointing to `29-foundry/agents/azure_plane/app/conversation/conversation_agent.py` ?",
+      "acceptance_criteria": "`GET /model/agents/` on `37-data-model` agents.json: ConversationAgent has `skill_file` pointing to `29-foundry/agents/azure_plane/app/conversation/conversation_agent.py` ?",
+      "tags": "29-foundry;F29-18-012",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-012"
+    },
+    {
+      "id_hint": "F29-18-013",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-013] `ls prompty-library/*.prompty | wc -l` returns 6 (5 conversation + 1 dpdca-plan) ?",
+      "acceptance_criteria": "`ls prompty-library/*.prompty | wc -l` returns 6 (5 conversation + 1 dpdca-plan) ?",
+      "tags": "29-foundry;F29-18-013",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-013"
+    },
+    {
+      "id_hint": "F29-18-014",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-014] `cat prompty-library/catalog.json | python -m json.tool` exits 0 ?",
+      "acceptance_criteria": "`cat prompty-library/catalog.json | python -m json.tool` exits 0 ?",
+      "tags": "29-foundry;F29-18-014",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-014"
+    },
+    {
+      "id_hint": "F29-18-015",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-015] `grep -r \"Prompty.load\" agents/azure_plane/app/conversation/` returns 10 matches (>= 5) ?",
+      "acceptance_criteria": "`grep -r \"Prompty.load\" agents/azure_plane/app/conversation/` returns 10 matches (>= 5) ?",
+      "tags": "29-foundry;F29-18-015",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-015"
+    },
+    {
+      "id_hint": "F29-18-016",
+      "type": "Product Backlog Item",
+      "title": "[F29-18-016] `grep -r \"Prompty.load\" server/phases/plan.py` returns 1 match ?",
+      "acceptance_criteria": "`grep -r \"Prompty.load\" server/phases/plan.py` returns 1 match ?",
+      "tags": "29-foundry;F29-18-016",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-18",
+      "state": "New",
+      "wbs_id": "F29-18-016"
+    },
+    {
+      "id_hint": "F29-HEALTH-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-HEALTH-001] GET /health",
+      "acceptance_criteria": "GET /health",
+      "tags": "29-foundry;F29-HEALTH-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-HEALTH",
+      "state": "New",
+      "wbs_id": "F29-HEALTH-001"
+    },
+    {
+      "id_hint": "F29-AGENTS-001",
+      "type": "Product Backlog Item",
+      "title": "[F29-AGENTS-001] POST /agents/session-workflow-agent/invoke",
+      "acceptance_criteria": "POST /agents/session-workflow-agent/invoke",
+      "tags": "29-foundry;F29-AGENTS-001",
+      "iteration_path": "eva-poc\\\\Sprint-Backlog",
+      "parent": "F29-AGENTS",
+      "state": "New",
+      "wbs_id": "F29-AGENTS-001"
+    }
+  ]
+}

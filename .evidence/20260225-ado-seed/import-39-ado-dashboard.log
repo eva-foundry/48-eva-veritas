@@ -1,0 +1,101 @@
+Drive already SUBSTed
+]633;P;IsWindows=True[INFO] ADO_PAT not set -- fetching from Key Vault evachatkv...
+Log: C:\AICOE\eva-foundation\38-ado-poc\scripts\logs\20260225-0904-ado-import-artifacts-live.log
+
+=== ADO Import: 39-ado-dashboard ===
+Project maturity : poc
+GitHub repo      : eva-foundry/39-ado-dashboard
+Dry run          : False
+
+Epic: creating '39-ado-dashboard'
+  -> Epic id=2371
+Feature: creating 'Sprint Plan'
+  -> Feature id=2372
+Feature: creating 'ADO Setup Checklist (do once)'
+  -> Feature id=2373
+Feature: creating 'Environment Variables Needed'
+  -> Feature id=2374
+Feature: creating '31-eva-faces Integration Checklist'
+  -> Feature id=2375
+Feature: creating 'Relationship to eva-faces'
+  -> Feature id=2376
+Feature: existing id=2109 - 'DASHBOARD API'
+Feature: existing id=2110 - 'SUMMARY API'
+Feature: existing id=1100 - 'UI Pages'
+PBI: creating '[F39-01-001] Sprint 1 ? Backend + APIM gateway *(blocked on WI-7 deploy)*'
+  -> PBI id=2377
+PBI: creating '[F39-01-002] Sprint 2 ? EVA Home page *(can start in parallel with Sprint 1)*'
+  -> PBI id=2378
+PBI: creating '[F39-01-003] Sprint 3 ? Sprint Board page'
+  -> PBI id=2379
+PBI: creating '[F39-01-004] Sprint 4 ? Velocity + entity tags'
+  -> PBI id=2380
+PBI: creating '[F39-01-005] Milestone backlog (post-Sprint 4)'
+  -> PBI id=2381
+PBI: creating '[F39-02-001] Create Feature `EVA ADO Dashboard` under Epic id=4 in ADO'
+  -> PBI id=2382
+PBI: creating '[F39-02-002] Create WI-0 through WI-6 as User Stories'
+  -> PBI id=2383
+PBI: creating '[F39-02-003] Set sprint assignments per table above'
+  -> PBI id=2384
+PBI: creating '[F39-02-004] Link WI-1 ? WI-7 (Blocked By)'
+  -> PBI id=2385
+PBI: creating '[F39-02-005] Set `ADO_EPIC_ID=4` in `33-eva-brain-v2` `.env`'
+  -> PBI id=2386
+PBI: creating '[F39-02-006] Set `ADO_PAT`, `ADO_ORG_URL`, `ADO_PROJECT` in brain `.env`'
+  -> PBI id=2387
+PBI: creating '[F39-02-007] Create Cosmos container `scrum-cache` (see Sprint 1 setup above)'
+  -> PBI id=2388
+PBI: creating '[F39-04-001] Build `EVAHomePage` per epic spec (route `/`)'
+  -> PBI id=2389
+PBI: creating '[F39-04-002] Build `SprintBoardPage` per epic spec (route `/devops/sprint`)'
+  -> PBI id=2390
+PBI: creating '[F39-04-003] Add "Sprint Board" to sidebar nav (role guard: `viewer` and above)'
+  -> PBI id=2391
+PBI: creating '[F39-04-004] Wire `userRole`, `userName`, `defaultLocale` from eva-faces auth context'
+  -> PBI id=2392
+PBI: creating '[F39-04-005] Confirm CORS / auth headers flow through APIM for `/v1/scrum/*`'
+  -> PBI id=2393
+PBI: creating '[F39-04-006] Create ADO WIs FACES-WI-A, FACES-WI-B, FACES-WI-C under eva-faces Feature'
+  -> PBI id=2394
+PBI: creating '[F39-DASHBOARD-001] GET /dashboard'
+  -> PBI id=2395
+PBI: creating '[F39-SUMMARY-001] GET /summary'
+  -> PBI id=2396
+PBI: creating '[F39-UI-001] EVAHOMEPAGE page'
+  -> PBI id=2397
+PBI: creating '[F39-UI-002] SPRINTBOARDP page'
+  -> PBI id=2398
+
+=== Import Summary: 39-ado-dashboard ===
+Epic id  : 2371
+Features : 8
+PBIs     : 22
+Board    : https://dev.azure.com/marcopresta/eva-poc/_workitems
+
+
+[32;1mTag              [0m[32;1m   Id[0m[32;1m State[0m[32;1m Url[0m
+[32;1m---              [0m [32;1m  --[0m [32;1m-----[0m [32;1m---[0m
+F39-01-001        2377 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-01-002        2378 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-01-003        2379 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-01-004        2380 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-01-005        2381 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-02-001        2382 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-02-002        2383 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-02-003        2384 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-02-004        2385 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-02-005        2386 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-02-006        2387 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-02-007        2388 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-04-001        2389 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-04-002        2390 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-04-003        2391 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-04-004        2392 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-04-005        2393 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-04-006        2394 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-DASHBOARD-001 2395 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-SUMMARY-001   2396 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-UI-001        2397 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+F39-UI-002        2398 New   https://dev.azure.com/marcopresta/eva-poc/_workit.
+

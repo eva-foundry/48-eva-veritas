@@ -1,0 +1,13 @@
+{
+  "notes": "EVA-STORY: EO-09-001",
+  "evidence_for": ["EO-09-001"],
+  "run_at": "2026-02-24T18:07:00Z",
+  "command": "node src/cli.js generate-ado --repo . --gaps-only",
+  "result": {
+    "output_path": ".eva/ado.csv",
+    "filter": "gaps-only flag filters to stories with gap tags only",
+    "csv_schema": "Epic,Feature,Story,StoryID,Type,Tags,Description"
+  },
+  "verdict": "PASS -- gap-to-PBI pipeline works via generate-ado --gaps-only; produces ADO-importable CSV",
+  "confirmed_in": "src/generate-ado.js"
+}
