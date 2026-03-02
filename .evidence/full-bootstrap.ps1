@@ -298,7 +298,7 @@ Log "=== PHASE 7: ADO SPRINT SEEDING ==="
 
 $adoScript = "$VERIT\.evidence\20260225-ado-seed\wbs-to-ado.ps1"
 if (Test-Path $adoScript) {
-    if ($env:ADO_PAT -or (az keyvault secret show --vault-name evachatkv --name ADO-PAT 2>$null)) {
+    if ($env:ADO_PAT -or (az keyvault secret show --vault-name marcosandkv20260203 --name ADO-PAT 2>$null)) {
         Run-Step "wbs-to-ado.ps1 (live)" {
             & pwsh $adoScript 2>&1 | Out-File "$LOG_DIR\ado-seed.log" -Encoding ASCII
             $summary = Get-Content "$LOG_DIR\ado-seed.log" | Select-String "(COMPLETE|import_success|import_failed|PASS|FAIL)"

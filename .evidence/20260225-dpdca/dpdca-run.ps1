@@ -42,8 +42,8 @@ Log "ACA    : $DataModelBase"
 Log "CP     : $CpBase"
 
 if (-not $env:ADO_PAT) {
-    Log "[INFO] ADO_PAT not in env -- fetching from Key Vault evachatkv..."
-    $env:ADO_PAT = az keyvault secret show --vault-name evachatkv --name ADO-PAT --query value -o tsv
+    Log "[INFO] ADO_PAT not in env -- fetching from Key Vault marcosandkv20260203..."
+    $env:ADO_PAT = az keyvault secret show --vault-name marcosandkv20260203 --name ADO-PAT --query value -o tsv
 }
 if (-not $env:ADO_PAT -or $env:ADO_PAT.Length -lt 10) {
     Log "[FAIL] Cannot retrieve ADO_PAT"; exit 1

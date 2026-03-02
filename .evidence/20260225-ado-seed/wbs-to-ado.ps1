@@ -24,7 +24,7 @@
 #
 # REQUIREMENTS
 # ------------
-#   $env:ADO_PAT set, OR secret ADO-PAT in keyvault 'evachatkv'
+#   $env:ADO_PAT set, OR secret ADO-PAT in keyvault 'marcosandkv20260203'
 #   38-ado-poc/scripts/ado-import-project.ps1 must exist
 #   ACA data model reachable
 
