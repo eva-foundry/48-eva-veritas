@@ -8,6 +8,7 @@ const fs = require("fs");
 const path = require("path");
 const { readJsonIfExists, writeJson, ensureDir } = require("./lib/fs-utils");
 const { computeTrustScore, trustToActions } = require("./lib/trust");
+const { computeFieldPopulationScore } = require("./lib/wbs-quality-gates");
 
 // Staleness threshold: if reconciliation.json is older than this, warn.
 const STALE_MS = 24 * 60 * 60 * 1000;
@@ -29,6 +30,23 @@ async function computeTrust(opts) {
     console.log(`[INFO] Enrichment loaded: ${enrichment.annotated_count || 0} stories annotated`);
   }
 
+  // Enhancement 3 (v2.7 - March 2, 2026): Fetch field population score from data model
+  // This is the 5th component of MTI calculation
+  let fieldPopulationScore = null;
+  try {
+    const projectId = path.basename(repoPath); // e.g., "37-data-model", "51-ACA"
+    const dataModelUrl = process.env.EVA_DATA_MODEL_URL || "https://marco-eva-data-model.livelyflower-7990bc7b.canadacentral.azurecontainerapps.io";
+    fieldPopulationScore = await computeFieldPopulationScore({
+      dataModelUrl,
+      project: projectId
+    });
+    if (fieldPopulationScore > 0) {
+      console.log(`[INFO] Field population score: ${Math.round(fieldPopulationScore * 100)}% (sprint, assignee, ado_id)`);
+    }
+  } catch (e) {
+    console.log(`[WARN] Field population score unavailable (non-fatal): ${e.message}`);
+  }
+
   // --- Staleness guard ---
   let stale = false;
   try {
@@ -44,7 +62,7 @@ async function computeTrust(opts) {
     try { fs.copyFileSync(outPath, prevPath); } catch (_) { /* non-fatal */ }
   }
 
-  const { score, components } = computeTrustScore(recon, enrichment);
+  const { score, components } = computeTrustScore(recon, enrichment, fieldPopulationScore);
   const actions = trustToActions(score);
 
   // VP-A6: trust-history ring buffer (last 10 runs) + sparkline

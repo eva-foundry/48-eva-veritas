@@ -7,12 +7,15 @@ function clamp(n, min, max) {
   return Math.max(min, Math.min(max, n));
 }
 
-// Weights: coverage 0.40 | evidence 0.20 | consistency 0.25 | complexity_coverage 0.15
-// When no enrichment data is available, complexity_coverage defaults to 0 and
-// the remaining three weights revert to their original ratios (0.50/0.20/0.30).
+// Weights: coverage 0.35 | evidence 0.20 | consistency 0.25 | complexity_coverage 0.10 | field_population 0.10
+// When no enrichment data is available, complexity_coverage defaults to 0 and field_population falls back.
+// If field_population unavailable (no data model API), 3-component fallback formula applies.
 // VP-A2: Ungoverned projects (0 stories) get score: 0 (not null) so before/after
 // comparisons are meaningful and the floor bug is visible in test output.
-function computeTrustScore(recon, enrichment = null) {
+//
+// Enhancement 3 (v2.7 - March 2, 2026): Added field_population component to enforce
+// WBS metadata quality (sprint, assignee, ado_id population).
+function computeTrustScore(recon, enrichment = null, fieldPopulation = null) {
   const totalStories = recon?.coverage?.stories_total ?? 0;
   if (totalStories === 0) {
     return { score: 0, components: {}, ungoverned: true };
@@ -48,17 +51,46 @@ function computeTrustScore(recon, enrichment = null) {
     }
   }
 
+  // 5th component: field_population (Enhancement 3 - v2.7)
+  // = average of (sprint, assignee, ado_id) population rates across all WBS stories
+  // Requires data model API access; falls back to 0 when unavailable.
+  const fieldPopulationScore = fieldPopulation ? clamp(fieldPopulation, 0, 1) : 0;
+
   const hasComplexity = complexityCoverage > 0;
+  const hasFieldPopulation = fieldPopulationScore > 0;
 
   let score;
-  if (hasComplexity) {
-    // 4-component formula (weights sum to 1.00)
+  let formula;
+  
+  if (hasComplexity && hasFieldPopulation) {
+    // 5-component formula (weights sum to 1.00)
     score = (
-      coverage            * 0.40 +
+      coverage            * 0.35 +
       evidenceCompleteness * 0.20 +
       consistencyScore    * 0.25 +
-      complexityCoverage  * 0.15
+      complexityCoverage  * 0.10 +
+      fieldPopulationScore * 0.10
     ) * 100;
+    formula = '5-component';
+  } else if (hasComplexity || hasFieldPopulation) {
+    // 4-component formula (one of complexity or field_population available)
+    if (hasComplexity) {
+      score = (
+        coverage            * 0.40 +
+        evidenceCompleteness * 0.20 +
+        consistencyScore    * 0.25 +
+        complexityCoverage  * 0.15
+      ) * 100;
+      formula = '4-component-complexity';
+    } else {
+      score = (
+        coverage            * 0.40 +
+        evidenceCompleteness * 0.20 +
+        consistencyScore    * 0.30 +
+        fieldPopulationScore * 0.10
+      ) * 100;
+      formula = '4-component-field-population';
+    }
   } else {
     // 3-component formula -- backwards compatible
     score = (
@@ -66,6 +98,7 @@ function computeTrustScore(recon, enrichment = null) {
       evidenceCompleteness * 0.20 +
       consistencyScore    * 0.30
     ) * 100;
+    formula = '3-component-fallback';
   }
 
   return {
@@ -75,7 +108,8 @@ function computeTrustScore(recon, enrichment = null) {
       evidenceCompleteness: round2(evidenceCompleteness),
       consistencyScore:     round2(consistencyScore),
       complexityCoverage:   round2(complexityCoverage),
-      formula: hasComplexity ? '4-component' : '3-component-fallback',
+      fieldPopulationScore: round2(fieldPopulationScore),
+      formula,
     },
     ungoverned: false,
   };
