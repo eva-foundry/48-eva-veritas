@@ -1,13 +1,51 @@
 # STATUS.md -- eva-veritas
 
-**Last Updated**: 2026-02-25 10:58 ET (session 7)
-**Phase 1**: Core CLI -- COMPLETE (MTI: 100, all 39 stories with evidence)
-**Phase 2**: MCP Server + EVA Integrations -- COMPLETE
-**Phase 3**: generate-plan Command -- COMPLETE
-**Phase 4**: Orphan tag cleanup + Model Fidelity Audit -- COMPLETE (2026-02-24 19:44)
-**Phase 5**: Full Portfolio Bootstrap + WBS Import + Endpoint Linkage -- COMPLETE (2026-02-25 08:20 ET)
-**Phase 6**: DPDCA + All 4 Missing Wires CLOSED -- COMPLETE (2026-02-25 10:38 ET)
-**Phase 7**: WBS-ADO Field Sync (sprint_id, story_points, owner) -- COMPLETE (2026-02-25 10:58 ET)
+**Last Updated**: 2026-03-05 20:45 ET (session 28)
+**Current Phase**: L34 quality-gates integration planning (from 37-data-model)
+**Active Tasks**: 
+  - Integrate quality_gates layer (L34) into MTI scoring
+  - Reference mti_threshold from /model/quality_gates/{project_id}
+  - Update compute-trust.js to query new L34 layer
+
+**Phase Completions**:
+- Phase 1: Core CLI -- COMPLETE (MTI: 100, all 39 stories with evidence)
+- Phase 2: MCP Server + EVA Integrations -- COMPLETE
+- Phase 3: generate-plan Command -- COMPLETE
+- Phase 4: Orphan tag cleanup + Model Fidelity Audit -- COMPLETE (2026-02-24 19:44)
+- Phase 5: Full Portfolio Bootstrap + WBS Import + Endpoint Linkage -- COMPLETE (2026-02-25 08:20 ET)
+- Phase 6: DPDCA + All 4 Missing Wires CLOSED -- COMPLETE (2026-02-25 10:38 ET)
+- Phase 7: WBS-ADO Field Sync (sprint_id, story_points, owner) -- COMPLETE (2026-02-25 10:58 ET)
+
+---
+
+## Session 28 Update (2026-03-05 20:45 ET) -- L34 Quality-Gates Integration Planning
+
+### What Happened
+- **37-data-model PR #12**: Session 28 Phase 1 completed
+  - L33: agent-policies (agent safety constraints)
+  - L34: quality-gates (MTI thresholds linked to EVA-Veritas scoring)
+  - L35: github-rules (branch protection enforcement)
+- **Evidence Polymorphism**: 3 test records seeded with tech_stack discrimination
+  - ACA-S11-L33-agent-policies-D
+  - ACA-S11-L34-quality-gates-P
+  - ACA-S11-L35-github-rules-Do
+
+### What's Next for Veritas
+
+**Integration Task**: Update MTI scoring to consume L34:
+
+```javascript
+// In compute-trust.js, add:
+const baseUrl = process.env.DATA_MODEL_URL || "https://msub-eva-data-model...";
+const qgResponse = await fetch(`${baseUrl}/model/quality_gates/${projectId}`);
+if (qgResponse.ok) {
+  const gates = await qgResponse.json();
+  const { mti_threshold = 75 } = gates.data[0];
+  // Use mti_threshold in deployment gate logic
+}
+```
+
+**Benefit**: Quality thresholds become declarative (queryable from API) instead of hardcoded.
 
 ---
 
@@ -283,9 +321,20 @@ STORY EO-01-004: Done
 |------------|--------|-------------|
 | 2026-02-24 | copilot | Bug EO-01-004: .tsx/.jsx scanning blind spot fixed in scan-repo.js. classify() + isTextLike regex both missing tsx/jsx -- React projects showed MTI=0 despite correct headers. Discovered during 46-accelerator audit. Fix: added .tsx/.jsx to both clauses. Story EO-01-004 added to PLAN.md. Evidence receipt created. Self-audit MTI held at 100. |
 | 2026-02-24 13:02 ET | copilot | Tested + compiled. Bugs fixed: `report` was root program action not subcommand (fixed), .md files scanned for EVA-STORY tags causing false orphans (fixed -- isTaggable skips .md). Enhancements: staleness guard (> 24 h reconciliation warns + stale:true in trust.json), MTI trend delta (trust.prev.json + `Score: 62 (no change)` in report), docs/EVIDENCE-CONVENTION.md created. Self-audit result: MTI=62, 20/31 stories, 0 orphans, 7 commands all pass. |
-| 2026-02-24 12:29 ET | copilot | Applied all 10-item technical review. Bugs fixed: .eva scan pollution (+.eva/** ignore), Done→consistency penalty (STATUS_PERCENT map), MTI formula reweight 0.5/0.2/0.3 (was 0.4/0.4/0.2). New: `eva audit` (EO-05-007), `eva scan-portfolio` (EO-05-006), `--gaps-only` ADO flag (EO-09-001), ungoverned MTI=null state, Implemented report section, loose [ID=...] parser. MTI 43->62, coverage 20/31. |
+| 2026-02-24 12:29 ET | copilot | Applied all 10-item technical review. Bugs fixed: .eva scan pollution (+.eva/** ignore), Done?consistency penalty (STATUS_PERCENT map), MTI formula reweight 0.5/0.2/0.3 (was 0.4/0.4/0.2). New: `eva audit` (EO-05-007), `eva scan-portfolio` (EO-05-006), `--gaps-only` ADO flag (EO-09-001), ungoverned MTI=null state, Implemented report section, loose [ID=...] parser. MTI 43->62, coverage 20/31. |
 | 2026-02-24 12:29 ET | copilot | Re-test after rename. All 5 CLI commands pass (discover/reconcile/compute-trust/generate-ado/report). Repo path correct in all .eva artifacts. MTI=43, coverage=0.59, consistency=1.0, 17 planned stories with artifacts, 32 gaps (17 missing_evidence Phase 1 expected, 12 missing_impl Phase 2 not-started, 3 orphan tags). [PASS] |
 | 2026-02-24 12:29 ET | copilot | Folder renamed: `48-eva-orchestrator` -> `48-eva-veritas`. Updated all references in README.md, PLAN.md, PLAN.md, .github/copilot-instructions.md, .eva/*.json. No code changes. |
 | 2026-02-25 09:07 ET | copilot | ADO LIVE SEEDING COMPLETE. 42/42 projects imported (41 live + 1 retry). artifacts_built=42, import_success=42, import_failed=0, total_pbis=1920. One failure fixed: 29-foundry F29-18-008 title was 299 chars (ADO limit 255) -- truncated and retried. ADO IDs span Epic ~400s, Features ~900-1079, PBIs 600-2718. wbs-to-ado.ps1 patched with auto-truncate guard (>255 chars -> truncate to 252+...). PAT retrieved from Key Vault evachatkv. |
 | 2026-02-25 08:20 ET | copilot | Session 5: Endpoint linkage complete (186 endpoints + 46 screens -> wbs_id). WBS import: 3,234 records (program+4 streams+51 projects+751 features+2,427 stories). Full-bootstrap.ps1 (8-phase replay) written. STATUS.md + PLAN.md updated (Feature EO-13, 10 stories). |
 | 2026-02-24 09:32 ET | copilot | POC PROVED. Renamed to eva-veritas. Phase 1 complete: 15 source files, full CLI pipeline (discover/reconcile/compute-trust/generate-ado/report) self-tested. MTI=60, coverage=1.0, 17/17 stories traced via EVA-STORY tags. Established Evidence Plane pattern. Phase 2 active: MCP server + 29-foundry/37-data-model/38-ado-poc integrations. |
+
+
+---
+
+## 2026-03-03 -- Re-primed by agent:copilot
+
+<!-- eva-primed-status -->
+
+Data model: GET http://localhost:8010/model/projects/48-eva-veritas
+29-foundry agents: C:\AICOE\eva-foundation\29-foundry\agents\
+48-eva-veritas: run audit_repo MCP tool
