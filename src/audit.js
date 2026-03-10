@@ -4,7 +4,9 @@
 // EVA-STORY: EO-05-004
 // EVA-STORY: EO-05-005
 // EVA-STORY: EO-05-007
+// EVA-STORY: EO-12-001
 // EVA-FEATURE: EO-05
+// EVA-FEATURE: EO-12
 "use strict";
 
 const path = require("path");
@@ -17,6 +19,7 @@ const { computeTrust } = require("./compute-trust");
 const { report } = require("./report");
 const { loadConfig } = require("./lib/config");
 const { checkWbsQualityGates } = require("./lib/wbs-quality-gates");
+const { writeTrustScore, writeVerificationRecord, isApiReachable } = require("./lib/data-model-client");
 
 /**
  * Combined audit: discover + reconcile + compute-trust + report in one shot.
@@ -80,6 +83,28 @@ async function audit(opts) {
   
   await computeTrust(opts);
   await report(opts);
+
+  // ── Write audit results back to data model (paperless governance) ──
+  const repoPathForSync = path.resolve(opts.repo || process.cwd());
+  const projectIdForSync = path.basename(repoPathForSync);
+  if (opts.source !== "disk") {
+    try {
+      const trustDataForSync = JSON.parse(
+        fs.readFileSync(path.join(repoPathForSync, ".eva", "trust.json"), "utf8")
+      );
+      const apiReachable = await isApiReachable();
+      if (apiReachable) {
+        const [trustRes, verifyRes] = await Promise.all([
+          writeTrustScore(projectIdForSync, trustDataForSync),
+          writeVerificationRecord(projectIdForSync, trustDataForSync),
+        ]);
+        if (trustRes.ok) console.log(`[SYNC] MTI score written to data model: project_work/${projectIdForSync}`);
+        if (verifyRes.ok) console.log(`[SYNC] Verification record written to data model`);
+      }
+    } catch (e) {
+      console.log(`[WARN] Data model sync failed (non-fatal): ${e.message}`);
+    }
+  }
 
   // VP-E3: exit code semantics
   // CLI flag takes precedence; .evarc.json provides project-level default; hard default = 70

@@ -2,8 +2,10 @@
 // EVA-STORY: EO-01-002
 // EVA-STORY: EO-01-003
 // EVA-STORY: EO-11-003
+// EVA-STORY: EO-12-001
 // EVA-FEATURE: EO-01
 // EVA-FEATURE: EO-11
+// EVA-FEATURE: EO-12
 "use strict";
 
 const fs = require("fs");
@@ -20,6 +22,7 @@ const { scanRepo } = require("./lib/scan-repo");
 const { mapArtifactsToStories } = require("./lib/map-artifacts");
 const { mineCommits, minePRs, mergeEvidenceMaps } = require("./lib/evidence");
 const { parseCodeStructure, shouldEnrich } = require("./lib/code-parser");
+const { fetchGovernanceFromApi, isApiReachable } = require("./lib/data-model-client");
 
 async function discover(opts) {
   const repoPath = path.resolve(opts.repo || process.cwd());
@@ -28,12 +31,46 @@ async function discover(opts) {
 
   console.log(`[INFO] Discovering: ${repoPath}`);
 
-  const projectYaml = parseProjectYaml(repoPath);
-  const epic = parseEpicFromReadme(repoPath);
+  // ── Data source resolution: API-first with filesystem fallback ──
+  const projectId = path.basename(repoPath);
+  const apiBase = opts.apiBase || process.env.EVA_API_BASE || undefined;
+  const useApi = opts.source !== "disk"; // default: try API first
+
+  let plan, acceptance, status, epic, projectYaml, governanceSource;
+
+  if (useApi) {
+    const apiReachable = await isApiReachable(apiBase);
+    if (apiReachable) {
+      console.log(`[INFO] API-first mode: querying data model for ${projectId}`);
+      const gov = await fetchGovernanceFromApi(projectId, apiBase);
+
+      if (gov.plan && gov.plan.features.length > 0) {
+        plan = gov.plan;
+        status = gov.status || { declared: {}, source: "data-model-api" };
+        acceptance = gov.acceptance || { criteria: [] };
+        epic = gov.epic || { title: projectId, source: "data-model-api" };
+        projectYaml = null;
+        governanceSource = "data-model-api";
+        console.log(`[INFO] Governance from API: ${plan.features.length} features from ${gov.wbs.length} WBS records`);
+      } else {
+        console.log(`[INFO] API returned empty WBS for ${projectId} — falling back to disk`);
+        governanceSource = "disk-fallback";
+      }
+    } else {
+      console.log(`[INFO] API unreachable — falling back to disk`);
+      governanceSource = "disk-fallback";
+    }
+  } else {
+    governanceSource = "disk";
+  }
+
+  // ── Filesystem fallback (original behavior) ──
+  if (!governanceSource || governanceSource.includes("disk")) {
+    projectYaml = parseProjectYaml(repoPath);
+    epic = parseEpicFromReadme(repoPath);
 
   // Prefer .eva/veritas-plan.json (agent-generated) over raw PLAN.md parsing
   const veritasPlanPath = path.join(repoPath, ".eva", "veritas-plan.json");
-  let plan;
   if (fs.existsSync(veritasPlanPath)) {
     try {
       const vp = JSON.parse(fs.readFileSync(veritasPlanPath, "utf8"));
@@ -79,9 +116,12 @@ async function discover(opts) {
     plan = parsePlan(repoPath);
   }
 
-  const acceptance = parseAcceptance(repoPath);
-  const status = parseStatus(repoPath);
+    acceptance = parseAcceptance(repoPath);
+    status = parseStatus(repoPath);
+    governanceSource = governanceSource || "disk";
+  } // end filesystem fallback block
 
+  console.log(`[INFO] Governance source: ${governanceSource}`);
   console.log(`[INFO] Planned: ${plan.features.length} features, ${plan.stories.length} stories`);
 
   const actual = await scanRepo(repoPath);
@@ -90,10 +130,12 @@ async function discover(opts) {
   let code_complexity = null;
   if (shouldEnrich(plan.stories.length, actual.artifacts.length)) {
     try {
-      const codeFiles = actual.artifacts
-        .filter((a) => a.category === "code")
-        .map((a) => ({ path: a.path, content: null }));
-      code_complexity = parseCodeStructure(repoPath, codeFiles);
+      // Derive prefix from repo path (e.g., "07-foundation-layer" -> "F07")
+      const dirName = path.basename(repoPath);
+      const prefixMatch = dirName.match(/^(\d+)-/);
+      const prefix = prefixMatch ? `F${prefixMatch[1]}` : "CS";
+      
+      code_complexity = parseCodeStructure(repoPath, prefix);
       console.log(`[INFO] Code complexity: ${code_complexity.routes} routes, ${code_complexity.functions} functions across ${code_complexity.files_parsed} files`);
     } catch (e) {
       console.log(`[WARN] code-parser failed (non-fatal): ${e.message}`);
@@ -128,9 +170,10 @@ async function discover(opts) {
 
   const discovery = {
     meta: {
-      schema: "eva.discovery.v2",
+      schema: "eva.discovery.v3",
       generated_at: new Date().toISOString(),
-      repo: repoPath
+      repo: repoPath,
+      governance_source: governanceSource
     },
     project: projectYaml?.project || projectYaml || null,
     planned: {

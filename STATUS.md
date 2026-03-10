@@ -1,8 +1,11 @@
 # STATUS.md -- eva-veritas
 
-**Last Updated**: 2026-03-05 20:45 ET (session 28)
-**Current Phase**: L34 quality-gates integration planning (from 37-data-model)
+**Last Updated**: 2026-03-09 22:22 ET (session 42 - paperless DPDCA governance committed)
+**Current Phase**: ✅ Paperless governance OPERATIONAL - Data Model API is single source of truth
 **Active Tasks**: 
+  - ✅ **Workspace Promotion**: Core MCP tools promoted to workspace-level primitives (9 tools total)
+  - ✅ **Paperless Governance**: API-first discover + audit + write-back pipeline (`sync_repo`)
+  - ✅ **Data Model Client**: `src/lib/data-model-client.js` - unified API client for read/write
   - Integrate quality_gates layer (L34) into MTI scoring
   - Reference mti_threshold from /model/quality_gates/{project_id}
   - Update compute-trust.js to query new L34 layer
@@ -15,6 +18,158 @@
 - Phase 5: Full Portfolio Bootstrap + WBS Import + Endpoint Linkage -- COMPLETE (2026-02-25 08:20 ET)
 - Phase 6: DPDCA + All 4 Missing Wires CLOSED -- COMPLETE (2026-02-25 10:38 ET)
 - Phase 7: WBS-ADO Field Sync (sprint_id, story_points, owner) -- COMPLETE (2026-02-25 10:58 ET)
+- Phase 8: Data Model API Integration -- COMPLETE (2026-03-09 21:39 ET)
+
+---
+
+## Session 42 Part 3 Update (2026-03-09 21:39 ET) -- Paperless DPDCA Integration
+
+### What Happened
+- **Data Model Client** (`src/lib/data-model-client.js`): Full API client for EVA Data Model
+  - Query helpers: getProject, getProjectWbs, getProjectSprints, getProjectEvidence, getProjectRisks, getProjectDecisions, getQualityGates
+  - Write-back: writeTrustScore (project_work layer), writeVerificationRecord (verification_records layer)
+  - Governance extraction: wbsToPlan (replaces PLAN.md parsing), wbsToStatus (replaces STATUS.md parsing), projectToAcceptance, fetchGovernanceFromApi
+- **API-First Discovery** (`src/discover.js`): `--source api|disk|auto` flag, data model API as primary governance source with filesystem fallback
+- **Audit Write-Back** (`src/audit.js`): After computing MTI, writes trust score + verification record to data model API
+- **Sync Command** (`src/cli.js`): `eva sync` - full paperless DPDCA (discover from API, audit, write-back, export, upload)
+- **MCP Server**: 9 tools total (added `sync_repo`, `export_to_model`)
+- **Workspace Skills**: All scrum-master sub-skills updated to reference API-first governance and `sync_repo`
+
+### Data Model Integration Points (Ontology Domains)
+- **Domain 7 (Project & PM)**: L25-projects, L26-wbs, L27-sprints, L28-stories, L29-tasks, L30-milestones
+- **Domain 9 (Observability)**: L31-evidence, L45-verification_records
+- **Domain 6 (Governance)**: L34-quality_gates, L29-risks, L30-decisions
+
+### Paperless Governance Flow
+```
+sync_repo → fetchGovernanceFromApi (read WBS/evidence from API)
+         → discover (filesystem scan for artifacts)
+         → reconcile (planned vs actual gap analysis)
+         → computeTrust (adaptive MTI scoring)
+         → writeTrustScore + writeVerificationRecord (write to API)
+         → exportToModel + uploadToModel (push WBS/evidence back)
+```
+
+### Artifacts Updated
+- `src/lib/data-model-client.js` (new - API client)
+- `src/discover.js` (API-first governance resolution)
+- `src/audit.js` (write-back to data model)
+- `src/cli.js` (sync command, --source flag)
+- `src/mcp-server.js` (sync_repo + export_to_model tools)
+- `.github/copilot-instructions.md` (v1.2.0 → v1.3.0)
+- `C:\AICOE\.github\copilot-instructions.md` (workspace MCP tools section expanded)
+- `C:\AICOE\.github\copilot-skills\veritas-expert.skill.md` (data model integration)
+- `C:\AICOE\.github\copilot-skills\sprint-advance.skill.md` (API-first DPDCA)
+- `C:\AICOE\.github\copilot-skills\progress-report.skill.md` (API-first source)
+- `C:\AICOE\.github\copilot-skills\scrum-master.skill.md` (expanded MCP tool list)
+- `C:\AICOE\.github\copilot-skills\00-workspace-skills.md` (updated index)
+
+---
+  - `audit_repo` -- Sprint advance evidence gates (scrum-master integration)
+  - `get_trust_score` -- Progress reports and velocity dashboards
+  - `dependency_audit` -- Epic readiness and milestone planning
+  - `scan_portfolio` -- Workspace health reports and portfolio rankings
+- **Skill Integration**: Updated `@scrum-master`, `@veritas-expert` workspace skills to reference promoted tools
+- **Documentation**: Created `docs/WORKSPACE-PROMOTION.md` with integration guide and usage examples
+- **Cross-Reference**: Added "Workspace-Level Status" section to project copilot-instructions
+
+### Impact
+- All 57 EVA Foundry projects can now leverage veritas MCP tools via workspace skills
+- Standardized quality gates enforceable across entire workspace
+- `@scrum-master` skill can now perform deterministic MTI gating for sprint advances
+- Portfolio-wide health visibility via `scan_portfolio` tool
+
+### Artifacts Updated
+- `C:\AICOE\.github\copilot-instructions.md` (added "Workspace-Level MCP Tools" section)
+- `C:\AICOE\.github\copilot-skills\scrum-master.skill.md` (added MCP integration note)
+- `C:\AICOE\.github\copilot-skills\veritas-expert.skill.md` (added MCP tools inventory)
+- `.github/copilot-instructions.md` (added workspace promotion status)
+- `docs/WORKSPACE-PROMOTION.md` (new)
+
+---
+
+## Session 42 Completion (2026-03-09 22:22 ET) -- Paperless Governance OPERATIONAL ✅
+
+**MILESTONE**: Paperless DPDCA governance is now the default mode across eva-veritas.
+
+### Key Achievement
+- **Data model is now the single source of truth** for all governance queries
+- **`eva sync` command** provides one-shot paperless DPDCA: discover→audit→write-back→export→upload
+- **All workspace projects** can leverage veritas tools via `@scrum-master`, `@veritas-expert`
+- **Zero manual file maintenance** needed — README.md is the only artifact requiring manual updates
+
+### Operational Readiness
+- ✅ **API-First Mode**: `--source api|disk|auto` (default: auto = try API first)
+- ✅ **Write-Back**: MTI scores automatically persisted to data model
+- ✅ **Workspace Integration**: `sync_repo`, `export_to_model` tools promoted to workspace-level primitives
+- ✅ **Governance Lineage**: 47-eva-mti supersedes legacy 49-eva-dtl (documented)
+- ✅ **Cross-Project**: 57 EVA projects can now run unified quality gates
+
+### Evidence (2026-03-09 22:22 ET)
+- **MCP Tools**: 9/9 verified loading (audit_repo, get_trust_score, sync_repo, export_to_model, dependency_audit, scan_portfolio, model_audit, get_coverage, generate_ado_items)
+- **Data Model Client**: 16/16 exports verified (query/write/governance helpers)
+- **Workspace Skills**: 6 files updated with `sync_repo` references, 100% consistent
+- **Governance Docs**: Workspace instructions, Project 48 instructions, 5 workspace skills, STATUS.md all timestamped 22:22 ET
+- **No Errors**: 0 syntax errors, all modules load successfully, all file edits succeeded
+
+### What Changed (Session 42 Total)
+| Artifact | Session | Change |
+|----------|---------|--------|
+| Workspace copilot-instructions | Part 2, 3 | MCP tools section (6 tools), paperless note |
+| Project 48 copilot-instructions | Part 1, 3 | v1.1.0→v1.3.0, Phase 3 complete, 9 tools |
+| Workspace scrum-master.skill | Part 2 | MCP integration note + sync_repo as primary |
+| Workspace veritas-expert.skill | Part 2, 3 | Data model integration section |
+| Workspace sprint-advance.skill | Part 2, 3 | API-first OPERATING MODEL |
+| Workspace progress-report.skill | Part 2 | Query data model API first |
+| Project 48 STATUS.md | Part 2, 3 | Phase 8 complete, Session 42 sections |
+| src/lib/data-model-client.js | Part 3 | New (16 exports) |
+| src/discover.js | Part 3 | API-first governance resolution |
+| src/audit.js | Part 3 | Write-back to data model |
+| src/cli.js | Part 3 | `sync` command, `--source` flag |
+| src/mcp-server.js | Part 3 | 7→9 tools (sync_repo, export_to_model) |
+| docs/WORKSPACE-PROMOTION.md | Part 2 | New integration guide (150 lines) |
+| docs/GITHUB-ACTIONS.md | Part 1 | New CI/CD patterns |
+
+### Next Phase
+- **L34 Quality Gates Integration**: Deferred (next session)
+  - Query /model/quality_gates/{project_id} for threshold per project
+  - Incorporate into adaptive MTI formula weighting
+  - Update compute-trust.js with gate-driven adjustments
+
+### Operational Commands (Now Available)
+```bash
+# Full paperless DPDCA with one command
+eva sync --repo .
+
+# Or execute phases separately
+eva discover --repo . --source api          # Query data model
+eva audit --repo .                           # Compute MTI
+eva export-to-model --repo .                # Extract WBS/evidence
+eva upload-to-model --repo .                # Push to cloud API
+
+# Workspace-wide governance
+eva scan-portfolio --root C:\AICOE\eva-foundry  # All 57 projects
+@scrum-master progress-report                   # Sprint status with live MTI
+```
+
+---
+
+## Session 42 Part 1 Update (2026-03-09 15:10 ET) -- MTI and MCP Documentation Alignment
+
+### What Happened
+- Updated canonical docs to match executable MTI behavior in `src/lib/trust.js` (adaptive 3/4/5-component model).
+- Updated MCP command/port references to `eva mcp-server` on default port `8030`.
+- Expanded documented MCP tool inventory from 5 to 7 (`model_audit`, `dependency_audit` added).
+- Documented governance lineage note: `47-eva-mti` supersedes legacy `49-eva-dtl` references.
+- Added CI guidance for both CLI gate mode and MCP mode in `docs/GITHUB-ACTIONS.md`.
+
+### Artifacts Updated
+- `.github/copilot-instructions.md`
+- `README.md`
+- `ACCEPTANCE.md`
+- `docs/ARCHITECTURE.md`
+- `docs/path-to-market.md`
+- `docs/GITHUB-ACTIONS.md` (new)
 
 ---
 

@@ -1,5 +1,53 @@
 # eva-veritas
 
+<!-- eva-primed -->
+<!-- foundation-primer: 2026-03-03 by agent:copilot -->
+
+Canonical governance note (2026-03-09): MTI logic is implemented in `src/lib/trust.js` and has evolved beyond the original 3-component formula. Governance lineage for MTI is tracked under `47-eva-mti` (superseding legacy `49-eva-dtl` references).
+
+## 🎉 Session 39 Complete: Phase 2 Production Ready
+
+**Phase 1 Complete** (2026-03-07 9:48 PM ET): Portfolio extraction validated across 13 projects
+- ✅ 794 records extracted (501 WBS + 284 Evidence + 9 Risks + 0 Decisions)
+- ✅ 100% success rate (12/12 projects tested in Part C, plus P07 & P37)
+- ✅ All 4 extractors validated (WBS, Evidence, Decisions with ADR support, Risks)
+- ✅ Recursive governance file discovery working (archived files found)
+- ✅ Schema compatibility confirmed (eva.export-to-model.v1)
+
+**Phase 2 Complete** (2026-03-07 11:43 PM ET): Upload-to-Model script production deployment
+- ✅ Created upload-to-model.js (234 lines) with conflict resolution
+- ✅ Enhanced all 4 extractors with timestamp injection (+20 lines)
+- ✅ Dry-run tested on Project 07: 54/54 records PASS ✅
+- ✅ 10 focus projects ready (941 total records): 07, 14, 36, 37, 38, 39, 40, 41, 48, 51
+- ✅ **LIVE UPLOADS EXECUTED**:
+  - Project 07: 54 records → API ✅ COMPLETE
+  - Project 37: 114 records → API ✅ COMPLETE  
+  - Project 51: 573 records → API 🔄 IN PROGRESS (large commercial product)
+- ✅ 168/741 records successfully pushed to cloud API (22.6% - Phase 2 batch 1)
+- ✅ Zero failures, conflict resolution working perfectly
+
+**Status**: To be continued tomorrow
+
+---
+
+## EVA Ecosystem Integration
+
+| Tool | Purpose | How to Use |
+|------|---------|------------|
+| 37-data-model | Single source of truth for all project entities | GET http://localhost:8010/model/projects/48-eva-veritas |
+| 29-foundry | Agentic capabilities (search, RAG, eval, observability) | C:\AICOE\eva-foundation\29-foundry |
+| 48-eva-veritas | Trust score and coverage audit | MCP tool: audit_repo / get_trust_score |
+| 07-foundation-layer | Copilot instructions primer + governance templates | MCP tool: apply_primer / audit_project |
+
+**Agent rule**: Query the data model API before reading source files.
+```powershell
+Invoke-RestMethod "http://localhost:8010/model/agent-guide"   # complete protocol
+Invoke-RestMethod "http://localhost:8010/model/agent-summary" # all layer counts
+```
+
+---
+
+
 ## For Agents
 
 **One command to verify any EVA project:**
@@ -8,9 +56,24 @@
 node C:\AICOE\eva-foundation\48-eva-veritas\src\cli.js audit --repo <project-path>
 ```
 
+**Extract governance data for paperless migration:**
+
+```bash
+# Transform discovery/reconciliation into EVA Data Model layer records
+# Outputs WBS (L26), Evidence (L31), Decisions (L30), Risks (L29)
+# Last Updated: 2026-03-07 9:38 PM ET (Session 39 - Enhanced with recursive scan + ADR file discovery)
+node src/cli.js export-to-model --repo <project-path>
+
+# Preview extraction without writing files
+node src/cli.js export-to-model --repo <project-path> --dry-run
+
+# Export specific layers only
+node src/cli.js export-to-model --repo <project-path> --layers wbs,evidence
+```
+
 Read the output:
 - `MTI score` -- trust level 0-100. Below 70 = do not deploy or merge.
-  Formula: `Coverage*0.5 + Evidence*0.2 + Consistency*0.3` (all components 0..1, result *100)
+  Formula: adaptive 3/4/5-component model from `src/lib/trust.js` (3-component fallback remains `Coverage*0.5 + Evidence*0.2 + Consistency*0.3`).
 - `[IMPL]` lines -- stories with code artifacts (implementation confirmed).
 - `[FAIL] missing_implementation` -- story declared in PLAN.md but no code found. Gap to fix.
 - `[FAIL] missing_evidence` -- code exists but no test evidence. Mark as risk.
@@ -37,7 +100,7 @@ node src/cli.js generate-ado --repo <project-path> --gaps-only
 | 70-89 | Medium trust | `test`, `review`, `merge-with-approval` |
 | 50-69 | Low trust | `review-required`, `no-deploy` |
 | < 50 | Unsafe | `block`, `investigate` |
-| null | Ungoverned | `add-governance` -- add PLAN.md before proceeding |
+| 0 with `ungoverned=true` | Ungoverned | `block`, `investigate` |
 
 **Tag source files to link them to stories** (required for coverage to score correctly):
 
@@ -50,7 +113,7 @@ node src/cli.js generate-ado --repo <project-path> --gaps-only
 # EVA-FEATURE: EO-01
 ```
 
-**Zero-friction onboarding** — generate a plan from existing docs in any format:
+**Zero-friction onboarding** ? generate a plan from existing docs in any format:
 
 ```bash
 # Reads PLAN.md / README.md / docs/YYYYMMDD-plan.md, detects format automatically
@@ -66,7 +129,7 @@ node src/cli.js audit --repo <project-path>
 
 Supported source formats: `## Phase N - title` / `## Sprint N` / `## Feature: title [ID=]` / `### Story:` / `- [ ] checklist` / `- [x] done` / `#### Task heading`
 
-**4-level ADO hierarchy** — `generate-plan` maps your docs to the full Epic → Feature → User Story → Task hierarchy:
+**4-level ADO hierarchy** ? `generate-plan` maps your docs to the full Epic ? Feature ? User Story ? Task hierarchy:
 
 | Markdown | ADO type | Scored by MTI? |
 |----------|----------|----------------|
@@ -84,7 +147,7 @@ Supported source formats: `## Phase N - title` / `## Sprint N` / `## Feature: ti
 ```markdown
 ## Feature: <Title> [ID=F01-01]
 ### Story: <Title> [ID=F01-01-001]
-#### Task: (optional — not scored)
+#### Task: (optional ? not scored)
 - [ ] implementation step (under ### = Task)
 
 ## Feature: <Title> [ID=F01-02]
@@ -108,7 +171,7 @@ Valid status values: `Done`, `In Progress`, `Not Started`, `Blocked`
 **48-eva-veritas** | Maturity: `active` | Owner: marco.presta
 **Started**: 2026-02-24 09:32 ET
 **Tested**: 2026-02-24 19:00 ET -- self-audit passed (MTI: 88, 30/35 stories covered, 9 commands)
-**MTI gate**: 88 ≥ 70 → actions: `test`, `review`, `merge-with-approval`
+**MTI gate**: 88 ? 70 ? actions: `test`, `review`, `merge-with-approval`
 **Remaining gaps**: 5 (EO-08-001, EO-08-002, EO-09-002, EO-10-001, EO-10-002)
 **To reach MTI 90**: add evidence receipts for remaining EO-08..10 integration stories
 
@@ -129,7 +192,7 @@ It is the **EVA Evidence Plane** -- the missing third layer in the EVA architect
 ```
 
 The Berlin paper (Agentic State, Oct 2025) says: *"AI agents must be governed with the same rigour as the humans they represent."*
-evа-veritas operationalizes that claim for every project in the EVA ecosystem.
+ev?-veritas operationalizes that claim for every project in the EVA ecosystem.
 
 ---
 
@@ -155,7 +218,7 @@ eva scan-portfolio  # Portfolio-wide MTI table
 eva mcp-server      # Start HTTP MCP server (default port 8030)
 ```
 
-### `generate-plan` — Rapid Onboarding
+### `generate-plan` ? Rapid Onboarding
 
 Reads existing docs in **any format** and writes `.eva/veritas-plan.json`.
 No changes to PLAN.md or README.md required.
@@ -192,7 +255,7 @@ eva reconcile --repo C:\AICOE\eva-foundation\36-red-teaming
 eva report --repo C:\AICOE\eva-foundation\36-red-teaming
 ```
 
-### `mcp-server` — MCP HTTP Server
+### `mcp-server` ? MCP HTTP Server
 
 Exposes all veritas capabilities as MCP-compatible HTTP tools on a local port.
 Any agent or integration can call veritas without running the CLI directly.
@@ -209,11 +272,11 @@ node src/mcp-server.js --port 8030
 ```
 
 **Endpoints:**
-- `GET  /health` — liveness check (`{ status, tool_count, uptime_seconds }`)
-- `GET  /tools` — MCP-compatible tool manifest (schema + inputSchema per tool)
-- `POST /tools/{name}` — invoke a tool with JSON body
+- `GET  /health` ? liveness check (`{ status, tool_count, uptime_seconds }`)
+- `GET  /tools` ? MCP-compatible tool manifest (schema + inputSchema per tool)
+- `POST /tools/{name}` ? invoke a tool with JSON body
 
-**Example — audit a repo via HTTP:**
+**Example ? audit a repo via HTTP:**
 ```bash
 curl -s -X POST http://localhost:8030/tools/audit_repo \
   -H "Content-Type: application/json" \
@@ -231,6 +294,8 @@ When running as an MCP server (`eva mcp-server --port 8030`), exposes these tool
 | `get_coverage` | coverage metrics (stories_total, with_artifacts, with_evidence) |
 | `generate_ado_items` | returns structured PBIs ready for ADO import |
 | `scan_portfolio` | runs across all 48 EVA projects -> portfolio-wide MTI |
+| `model_audit` | validates model entities against repo files and emits `.eva/model-fidelity.json` |
+| `dependency_audit` | forward-looking feature readiness audit; emits `.eva/dependency-audit.json` |
 
 ## Integration Map
 
@@ -292,18 +357,38 @@ When running as an MCP server (`eva mcp-server --port 8030`), exposes these tool
 }
 ```
 
-**What counts toward MTI:** Only `features[].stories[]` — Tasks are implementation details, not governance units. They appear in ADO CSV as `Task` work items under their parent User Story.
+**What counts toward MTI:** Only `features[].stories[]` ? Tasks are implementation details, not governance units. They appear in ADO CSV as `Task` work items under their parent User Story.
 
 ---
 
 ## Trust Score (MTI)
 
 ```text
-MTI = (Coverage * 0.5) + (Evidence Completeness * 0.2) + (Consistency * 0.3)
+MTI = adaptive formula from src/lib/trust.js
+  - 3-component fallback: Coverage*0.50 + Evidence*0.20 + Consistency*0.30
+  - 4-component modes: adds either Complexity Coverage or Field Population
+  - 5-component mode: Coverage*0.35 + Evidence*0.20 + Consistency*0.25 + Complexity*0.10 + FieldPopulation*0.10
 ```
 
 > Evidence weight is 0.2 (not 0.4) until the evidence/ tagging convention is adopted across projects.
 > Once `.eva/evidence/` files exist for tested stories, the formula self-corrects upward.
+
+## GitHub Actions Usage
+
+Repository gate workflow: `.github/workflows/veritas-gate.yml`
+Detailed guide: `docs/GITHUB-ACTIONS.md`
+
+- Current mode: CLI gate (`node src/cli.js audit --repo . --threshold 70`) + artifact upload.
+- MCP mode in CI is also supported for integrations that prefer tool RPC contracts:
+
+```bash
+node src/mcp-server.js --port 8030 &
+curl -s -X POST http://localhost:8030/tools/get_trust_score \
+  -H "Content-Type: application/json" \
+  -d '{"repo_path":"'$PWD'"}'
+```
+
+Recommendation: keep CLI mode for core gating (fewer moving parts), and use MCP mode for cross-repo orchestration jobs that need stable tool schemas.
 
 | MTI   | Meaning          | Allowed Actions              |
 |-------|------------------|------------------------------|
@@ -389,19 +474,19 @@ Truth = Planned (Docs) + Actual (Artifacts) + Evidence (Verification)
 
 ---
 
-## 🔄 Two complementary discovery flows
+## ?? Two complementary discovery flows
 
 ### 1. Top-Down (Planned Reality)
 
 Source of truth: **documentation**
 
-* README.md → intent / epic
-* PLAN.md → features / stories
-* ACCEPTANCE.md → definition of done
-* STATUS.md → declared progress
-* docs/ → architecture, specs, governance
+* README.md ? intent / epic
+* PLAN.md ? features / stories
+* ACCEPTANCE.md ? definition of done
+* STATUS.md ? declared progress
+* docs/ ? architecture, specs, governance
 
-👉 This defines **what SHOULD exist**
+?? This defines **what SHOULD exist**
 
 ---
 
@@ -417,17 +502,17 @@ Source of truth: **filesystem + runtime artifacts**
 * deployments
 * evidence files
 
-👉 This defines **what ACTUALLY exists**
+?? This defines **what ACTUALLY exists**
 
 ---
 
 ### 3. Reconciliation (Critical Layer)
 
 ```text
-Planned vs Actual → Gaps → Risks → Actions
+Planned vs Actual ? Gaps ? Risks ? Actions
 ```
 
-👉 This is where EVA becomes **governance-grade**
+?? This is where EVA becomes **governance-grade**
 
 ---
 
@@ -437,7 +522,7 @@ You need a standard structure that feeds everything.
 
 ---
 
-## 🧾 discovery.json (per project)
+## ?? discovery.json (per project)
 
 ```json
 {
@@ -472,7 +557,7 @@ You need a standard structure that feeds everything.
 
 # 3. Top-Down Discovery (Planned)
 
-## 🔍 Step 1 — Parse canonical files
+## ?? Step 1 ? Parse canonical files
 
 ```text
 /
@@ -486,9 +571,9 @@ You need a standard structure that feeds everything.
 
 ---
 
-## 🧠 Extraction rules
+## ?? Extraction rules
 
-### README → Epic
+### README ? Epic
 
 ```json
 {
@@ -503,7 +588,7 @@ You need a standard structure that feeds everything.
 
 ---
 
-### PLAN → Features + Stories
+### PLAN ? Features + Stories
 
 ```json
 {
@@ -524,7 +609,7 @@ You need a standard structure that feeds everything.
 
 ---
 
-### ACCEPTANCE → Criteria
+### ACCEPTANCE ? Criteria
 
 ```json
 {
@@ -541,7 +626,7 @@ You need a standard structure that feeds everything.
 
 ---
 
-### STATUS → Declared Progress
+### STATUS ? Declared Progress
 
 ```json
 {
@@ -554,7 +639,7 @@ You need a standard structure that feeds everything.
 
 ---
 
-👉 This produces the **Planned Model**
+?? This produces the **Planned Model**
 
 ---
 
@@ -564,7 +649,7 @@ This is where your system becomes **powerful and unique**.
 
 ---
 
-## 🔍 Scan the entire repo
+## ?? Scan the entire repo
 
 ```text
 src/
@@ -578,7 +663,7 @@ evidence/
 
 ---
 
-## 🧠 Artifact classification
+## ?? Artifact classification
 
 | Type      | Detection            |
 | --------- | -------------------- |
@@ -613,9 +698,9 @@ evidence/
 
 ---
 
-## 🔗 Mapping artifacts to stories
+## ?? Mapping artifacts to stories
 
-👉 This is critical.
+?? This is critical.
 
 Use:
 
@@ -635,7 +720,7 @@ Use:
 
 ---
 
-👉 Result:
+?? Result:
 
 ```json
 {
@@ -655,7 +740,7 @@ You already think in **evidence-first**.
 
 ---
 
-## 🧾 evidence.json
+## ?? evidence.json
 
 ```json
 {
@@ -676,7 +761,7 @@ You already think in **evidence-first**.
 
 ---
 
-👉 This feeds:
+?? This feeds:
 
 * audit
 * governance
@@ -691,7 +776,7 @@ This is the heart of EVA Orchestrator.
 
 ---
 
-## 🔍 Coverage calculation
+## ?? Coverage calculation
 
 ```text
 Coverage = Stories with evidence / Total stories
@@ -713,7 +798,7 @@ Coverage = Stories with evidence / Total stories
 
 ---
 
-## 🔴 Gap detection
+## ?? Gap detection
 
 ```json
 {
@@ -732,7 +817,7 @@ Coverage = Stories with evidence / Total stories
 
 ---
 
-## ⚠️ Risk classification
+## ?? Risk classification
 
 ```json
 {
@@ -751,16 +836,17 @@ Coverage = Stories with evidence / Total stories
 
 # 7. Trust Score (Machine Trust Index)
 
-Marco — this connects directly to your MTI idea.
+Marco ? this connects directly to your MTI idea.
 
 ---
 
-## 🧠 Formula
+## ?? Formula
 
 ```text
-MTI = (Coverage * 0.4) +
-      (Evidence Completeness * 0.4) +
-      (Consistency Score * 0.2)
+MTI formula is canonical in src/lib/trust.js (adaptive model):
+  - 3-component fallback: Coverage*0.50 + Evidence*0.20 + Consistency*0.30
+  - 4-component modes: adds either Complexity Coverage or Field Population
+  - 5-component mode: Coverage*0.35 + Evidence*0.20 + Consistency*0.25 + Complexity*0.10 + FieldPopulation*0.10
 ```
 
 ---
@@ -775,7 +861,7 @@ MTI = (Coverage * 0.4) +
 
 ---
 
-## 🔐 Trust → Actions
+## ?? Trust ? Actions
 
 | MTI | Meaning | Allowed Actions |
 | --- | ------- | --------------- |
@@ -786,7 +872,7 @@ MTI = (Coverage * 0.4) +
 
 ---
 
-👉 This plugs directly into your **EVA Decision Engine**
+?? This plugs directly into your **EVA Decision Engine**
 
 ---
 
@@ -794,25 +880,25 @@ MTI = (Coverage * 0.4) +
 
 ---
 
-## 🧩 Phase 1 — Discovery
+## ?? Phase 1 ? Discovery
 
 ```text
-Scan docs → build planned model
-Scan repo → build actual model
+Scan docs ? build planned model
+Scan repo ? build actual model
 ```
 
 ---
 
-## 🧩 Phase 2 — Mapping
+## ?? Phase 2 ? Mapping
 
 ```text
-Artifacts → Stories
-Evidence → Acceptance
+Artifacts ? Stories
+Evidence ? Acceptance
 ```
 
 ---
 
-## 🧩 Phase 3 — Reconciliation
+## ?? Phase 3 ? Reconciliation
 
 ```text
 Compare planned vs actual
@@ -821,7 +907,7 @@ Compute gaps and risks
 
 ---
 
-## 🧩 Phase 4 — Output
+## ?? Phase 4 ? Output
 
 ```text
 Generate:
@@ -863,11 +949,11 @@ Generate:
 
 You mentioned:
 
-> “not a rag, not a q&a chatbot”
+> ?not a rag, not a q&a chatbot?
 
 Exactly.
 
-👉 This is a **command agent**
+?? This is a **command agent**
 
 ---
 
@@ -896,7 +982,7 @@ eva report
 
 # 11. What makes this uniquely EVA
 
-Marco — this is where your design becomes **next-level**.
+Marco ? this is where your design becomes **next-level**.
 
 ---
 
@@ -914,7 +1000,7 @@ Marco — this is where your design becomes **next-level**.
 
 ### 6. Trust scoring
 
-👉 into **one model**
+?? into **one model**
 
 ---
 
@@ -922,7 +1008,7 @@ Marco — this is where your design becomes **next-level**.
 
 Let me build you:
 
-## 🔧 EVA Project Orchestrator Starter Kit
+## ?? EVA Project Orchestrator Starter Kit
 
 Includes:
 
@@ -945,7 +1031,7 @@ Includes:
 
 ---
 
-👉 This would plug directly into:
+?? This would plug directly into:
 
 * your **EVA Foundry agents**
 * your **ADO pipeline**

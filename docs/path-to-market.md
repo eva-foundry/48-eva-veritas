@@ -22,12 +22,12 @@ From reading every source file before writing this plan:
 | `eva generate-plan --sync-model` | After plan generation, PUTs plan summary to 37-data-model API | `generate-plan.js` (lines 30-80) |
 | `eva discover` | Reads veritas-plan.json, scans ALL repo files, maps story tags to artifacts | `discover.js`, `lib/scan-repo.js` |
 | `eva reconcile` | Planned vs actual: coverage + consistency, produces gap list | `reconcile.js` |
-| `eva compute-trust` | Reads reconciliation, computes MTI = Cov*0.5 + Ev*0.2 + Con*0.3 | `lib/trust.js` |
+| `eva compute-trust` | Reads reconciliation, computes MTI via adaptive 3/4/5-component model | `lib/trust.js` |
 | `eva generate-ado` | Reads plan + reconciliation, outputs ADO-import CSV | `generate-ado.js` |
 | `eva report` | Console: coverage, gaps, implemented, hints, feature breakdown | `report.js` |
 | `eva audit` | Runs all 5 steps in sequence, exits 1 if MTI < threshold | `audit.js` |
 | `eva scan-portfolio` | Runs audit on multiple repos, produces portfolio summary | `scan-portfolio.js` |
-| `eva mcp-server` | HTTP MCP server on port 8030, exposes 5 tools to AI agents | `mcp-server.js` |
+| `eva mcp-server` | HTTP MCP server on port 8030, exposes 7 tools to AI agents | `mcp-server.js` |
 
 ### 0.2 Confirmed bugs (from reading source)
 

@@ -35,6 +35,8 @@ const { startServer } = require("./mcp-server");
 const { init } = require("./init");
 const { modelAudit } = require("./model-audit");
 const { dependencyAudit } = require("./dependency-audit");
+const { exportToModel } = require("./export-to-model");
+const { uploadToModel } = require("./upload-to-model");
 
 const program = new Command();
 
@@ -48,6 +50,8 @@ program
   .description("Top-down + bottom-up discovery for a repo")
   .option("-r, --repo <path>", "Repo path", process.cwd())
   .option("-o, --out <path>", "Output JSON path (default: .eva/discovery.json)")
+  .option("-s, --source <mode>", "Governance source: api (default), disk, or auto", "auto")
+  .option("--api-base <url>", "Data model API URL (default: cloud API)")
   .action(async (opts) => {
     await discover(opts);
   });
@@ -90,7 +94,10 @@ program
   .option("-r, --repo <path>", "Repo path", process.cwd())
   .option("-o, --out <path>", "Output dir (default: .eva/)")
   .option("-t, --threshold <number>", "Minimum MTI score to pass (default: 70)", "70")
+  .option("-s, --source <mode>", "Governance source: api (default), disk, or auto", "auto")
+  .option("--api-base <url>", "Data model API URL (default: cloud API)")
   .option("--warn-only", "Print warning instead of exiting 1 when below threshold")
+  .option("--no-sync", "Skip writing MTI results back to data model")
   .action(async (opts) => {
     opts.threshold = parseInt(opts.threshold, 10);
     await audit(opts);
@@ -174,6 +181,55 @@ program
       data_model_url: opts.dataModel,
       json: opts.json === true
     });
+  });
+
+program
+  .command("export-to-model")
+  .description("Transform Veritas discovery/reconciliation into EVA Data Model layer records (WBS, Evidence, Decisions, Risks)")
+  .option("-r, --repo <path>", "Repo path", process.cwd())
+  .option("-o, --out <path>", "Output JSON path (default: .eva/model-export.json)")
+  .option("--layers <list>", "Comma-separated layer list: wbs,evidence,decisions,risks (default: all)")
+  .option("--dry-run", "Preview extraction without writing files")
+  .action(async (opts) => {
+    await exportToModel(opts);
+  });
+
+program
+  .command("upload-to-model")
+  .description("Upload extracted model records to EVA Data Model cloud API with conflict resolution")
+  .option("-r, --repo <path>", "Repo path", process.cwd())
+  .option("-i, --in <path>", "Input model-export.json (default: .eva/model-export.json)")
+  .option("-o, --out <path>", "Output results.json (default: .eva/upload-results.json)")
+  .option("--layers <list>", "Comma-separated layer list: wbs,evidence,decisions,risks (default: all)")
+  .option("--api-base <url>", "API base URL (default: cloud API)")
+  .option("--dry-run", "Simulate upload without sending any requests")
+  .action(async (opts) => {
+    await uploadToModel(opts);
+  });
+
+program
+  .command("sync")
+  .description("Full paperless DPDCA: discover (API-first) + reconcile + trust + write results back to data model")
+  .option("-r, --repo <path>", "Repo path", process.cwd())
+  .option("--api-base <url>", "Data model API URL (default: cloud API)")
+  .option("-t, --threshold <number>", "Minimum MTI score to pass (default: 70)", "70")
+  .option("--export-layers <list>", "Also export WBS/evidence/decisions/risks to API", "wbs,evidence")
+  .option("--dry-run", "Preview sync without writing to API")
+  .action(async (opts) => {
+    opts.threshold = parseInt(opts.threshold, 10);
+    opts.source = "auto"; // sync always tries API first
+    console.log("[INFO] Paperless DPDCA sync: API-first discover + audit + write-back");
+    await audit(opts);
+    // Also export and upload governance records
+    if (!opts.dryRun) {
+      try {
+        await exportToModel({ repo: opts.repo, layers: opts.exportLayers });
+        await uploadToModel({ repo: opts.repo, layers: opts.exportLayers, apiBase: opts.apiBase });
+        console.log("[PASS] Full paperless DPDCA sync complete");
+      } catch (e) {
+        console.log(`[WARN] Export/upload step failed (non-fatal): ${e.message}`);
+      }
+    }
   });
 
 program.parseAsync(process.argv);

@@ -52,7 +52,8 @@ Definition of Done for all user stories. Phase 1 criteria are verified. Phase 2 
 
 ## Story: Implement MTI formula [ID=EO-03-001]
 
-- [ ] MTI = (coverage * 0.4) + (evidence_completeness * 0.4) + (consistency * 0.2) * 100
+- [ ] MTI computation follows `src/lib/trust.js` canonical logic (adaptive 3/4/5-component model)
+- [ ] 3-component fallback remains: `(coverage * 0.5) + (evidence_completeness * 0.2) + (consistency * 0.3) * 100`
 - [ ] Score is 0-100 integer
 - [ ] Component breakdown is included in trust.json
 
@@ -129,7 +130,7 @@ Definition of Done for all user stories. Phase 1 criteria are verified. Phase 2 
 
 ## Story: Implement MCP server entrypoint [ID=EO-07-001]
 
-- [ ] `eva mcp-serve [--port <n>]` starts an HTTP server (default port 3747)
+- [ ] `eva mcp-server [--port <n>]` starts an HTTP server (default port 8030)
 - [ ] `GET /tools` returns JSON tool manifest (name, description, inputSchema per tool)
 - [ ] `POST /tools/{name}` invokes tool and returns `{ result }` or `{ error }`
 - [ ] Server logs each invocation with [INFO] timestamp to stdout
@@ -180,5 +181,5 @@ Definition of Done for all user stories. Phase 1 criteria are verified. Phase 2 
 ## Story: Add eva-veritas MCP server to 29-foundry [ID=EO-10-001]
 
 - [ ] `29-foundry/mcp-servers/eva-veritas/index.js` starts the MCP server
-- [ ] Entry registered in `29-foundry/skill-catalog.json` with all 5 tool names
+- [ ] Entry registered in `29-foundry/skill-catalog.json` with all exported tool names (currently 7)
 - [ ] README in that folder explains how to start + test the server

@@ -9,7 +9,7 @@
 It operates in two modes:
 
 1. **CLI mode**: `eva <command> --repo <path>` -- direct filesystem invocation
-2. **MCP server mode**: `eva mcp-serve` -- HTTP server, invoked by agents via MCP protocol
+2. **MCP server mode**: `eva mcp-server` -- HTTP server, invoked by agents via MCP protocol
 
 ---
 

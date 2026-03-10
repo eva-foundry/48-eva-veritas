@@ -42,6 +42,9 @@ const { readJsonIfExists } = require("./lib/fs-utils");
 const { toCsvRows } = require("./lib/ado-csv");
 const { modelAudit } = require("./model-audit");
 const { dependencyAudit } = require("./dependency-audit");
+const { audit } = require("./audit");
+const { exportToModel } = require("./export-to-model");
+const { uploadToModel } = require("./upload-to-model");
 
 // ── Tool Manifest ───────────────────────────────────────────────────────────────
 
@@ -188,6 +191,61 @@ const TOOLS = [
         json_output: {
           type: "boolean",
           description: "Return machine-readable JSON (default: false)."
+        }
+      },
+      required: ["repo_path"]
+    }
+  },
+  {
+    name: "sync_repo",
+    description:
+      "Full paperless DPDCA cycle: discover governance from data model API (API-first with disk fallback), " +
+      "reconcile planned vs actual, compute MTI trust score, write results back to data model, " +
+      "and optionally export WBS/evidence records to the cloud API. " +
+      "This is the primary tool for scrum-master sprint gates and governance enforcement.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        repo_path: {
+          type: "string",
+          description: "Absolute path to the project repository."
+        },
+        threshold: {
+          type: "number",
+          description: "Minimum MTI score to pass (default: 70)."
+        },
+        export_layers: {
+          type: "string",
+          description: "Comma-separated layers to export to API: wbs,evidence,decisions,risks (default: wbs,evidence)."
+        },
+        dry_run: {
+          type: "boolean",
+          description: "Preview sync without writing to API (default: false)."
+        }
+      },
+      required: ["repo_path"]
+    }
+  },
+  {
+    name: "export_to_model",
+    description:
+      "Extract governance records (WBS, evidence, decisions, risks) from veritas discovery/reconciliation " +
+      "and upload them to the EVA Data Model cloud API. Use after audit_repo to push updated governance " +
+      "state into the data model. Supports selective layer export.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        repo_path: {
+          type: "string",
+          description: "Absolute path to the project repository."
+        },
+        layers: {
+          type: "string",
+          description: "Comma-separated layers: wbs,evidence,decisions,risks (default: all)."
+        },
+        dry_run: {
+          type: "boolean",
+          description: "Preview extraction without uploading (default: false)."
         }
       },
       required: ["repo_path"]
@@ -466,6 +524,72 @@ async function handleDependencyAudit(input) {
   return result;
 }
 
+async function handleSyncRepo(input) {
+  if (!input.repo_path) throw new Error("Missing required field: repo_path");
+  const repoPath = path.resolve(input.repo_path);
+  const threshold = input.threshold || 70;
+  const exportLayers = input.export_layers || "wbs,evidence";
+  const dryRun = input.dry_run === true;
+
+  // Full paperless DPDCA: audit (API-first) + export + upload
+  await audit({
+    repo: repoPath,
+    threshold,
+    source: "auto",
+    sync: !dryRun,
+  });
+
+  const trust = readEva(repoPath, "trust.json");
+  const recon = readEva(repoPath, "reconciliation.json");
+
+  let exportResult = null;
+  if (!dryRun) {
+    try {
+      await exportToModel({ repo: repoPath, layers: exportLayers });
+      await uploadToModel({ repo: repoPath, layers: exportLayers });
+      exportResult = readEva(repoPath, "upload-results.json");
+    } catch (e) {
+      exportResult = { error: e.message };
+    }
+  }
+
+  return {
+    repo_path: repoPath,
+    trust_score: trust?.score ?? null,
+    components: trust?.components || {},
+    coverage: recon?.coverage || {},
+    gap_count: (recon?.gaps || []).filter(g => g.type !== "orphan_story_tag").length,
+    threshold,
+    passed: (trust?.score ?? 0) >= threshold,
+    export_result: exportResult,
+    dry_run: dryRun,
+  };
+}
+
+async function handleExportToModel(input) {
+  if (!input.repo_path) throw new Error("Missing required field: repo_path");
+  const repoPath = path.resolve(input.repo_path);
+  const layers = input.layers || "wbs,evidence,decisions,risks";
+  const dryRun = input.dry_run === true;
+
+  await exportToModel({ repo: repoPath, layers, dryRun });
+
+  if (!dryRun) {
+    await uploadToModel({ repo: repoPath, layers });
+  }
+
+  const exportData = readEva(repoPath, "model-export.json");
+  const uploadData = !dryRun ? readEva(repoPath, "upload-results.json") : null;
+
+  return {
+    repo_path: repoPath,
+    layers_exported: layers.split(","),
+    record_counts: exportData?.summary || {},
+    upload_result: uploadData?.summary || null,
+    dry_run: dryRun,
+  };
+}
+
 const TOOL_MAP = {
   audit_repo: handleAuditRepo,
   get_trust_score: handleGetTrustScore,
@@ -473,7 +597,9 @@ const TOOL_MAP = {
   generate_ado_items: handleGenerateAdoItems,
   scan_portfolio: handleScanPortfolio,
   model_audit: handleModelAudit,
-  dependency_audit: handleDependencyAudit
+  dependency_audit: handleDependencyAudit,
+  sync_repo: handleSyncRepo,
+  export_to_model: handleExportToModel
 };
 
 // ── Server Factory ──────────────────────────────────────────────────────────────
