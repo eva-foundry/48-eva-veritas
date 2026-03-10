@@ -19,7 +19,7 @@ const { computeTrust } = require("./compute-trust");
 const { report } = require("./report");
 const { loadConfig } = require("./lib/config");
 const { checkWbsQualityGates } = require("./lib/wbs-quality-gates");
-const { writeTrustScore, writeVerificationRecord, isApiReachable } = require("./lib/data-model-client");
+const { writeTrustScore, writeVerificationRecord, isApiReachable, getQualityGates } = require("./lib/data-model-client");
 
 /**
  * Combined audit: discover + reconcile + compute-trust + report in one shot.
@@ -80,8 +80,37 @@ async function audit(opts) {
       console.log(`[WARN] WBS quality gate check failed (non-fatal): ${e.message}`);
     }
   }
+
+  // ── COMPONENT 2: Gate-Driven MTI Weighting (L34 integration) ──
+  const repoPathForGates = path.resolve(opts.repo || process.cwd());
+  const projectIdForGates = path.basename(repoPathForGates);
+  let activeGate = null;
+  let trustOpts = { ...opts };
   
-  await computeTrust(opts);
+  if (opts.source !== "disk") {
+    try {
+      const gatesRes = await getQualityGates(projectIdForGates, opts.apiBase);
+      if (gatesRes.ok && gatesRes.data && gatesRes.data.length > 0) {
+        activeGate = gatesRes.data.find(g => g.status === "active" && g.gate_metric === "mti_score");
+        if (activeGate) {
+          if (activeGate.custom_weights) {
+            trustOpts.gateWeights = activeGate.custom_weights;
+            console.log(`[GATE] Applying custom weights from L34: ${JSON.stringify(activeGate.custom_weights)}`);
+          }
+          if (activeGate.minimum_allowed_mti) {
+            trustOpts.scoreFloor = activeGate.minimum_allowed_mti;
+          }
+          if (activeGate.maximum_allowed_mti) {
+            trustOpts.scoreCeiling = activeGate.maximum_allowed_mti;
+          }
+        }
+      }
+    } catch (e) {
+      console.log(`[WARN] Quality gates query failed (non-fatal): ${e.message}`);
+    }
+  }
+  
+  await computeTrust(trustOpts);
   await report(opts);
 
   // ── Write audit results back to data model (paperless governance) ──
@@ -100,6 +129,39 @@ async function audit(opts) {
         ]);
         if (trustRes.ok) console.log(`[SYNC] MTI score written to data model: project_work/${projectIdForSync}`);
         if (verifyRes.ok) console.log(`[SYNC] Verification record written to data model`);
+
+        // ── COMPONENT 3: Gate Evaluation Verification Recording (L34→L45) ──
+        if (activeGate && trustDataForSync.score !== undefined) {
+          const gateResult = {
+            gate_id: activeGate.id,
+            gate_name: activeGate.gate_name || "MTI Threshold",
+            threshold: activeGate.threshold,
+            effective_score: trustDataForSync.score,
+            evaluation: trustDataForSync.score >= activeGate.threshold ? "PASS" : 
+                        trustDataForSync.score >= (activeGate.threshold - 5) ? "WARN" : "FAIL",
+            weights_applied: trustOpts.gateWeights ? "custom" : "default",
+            bounds_applied: {
+              floor: trustOpts.scoreFloor || null,
+              ceiling: trustOpts.scoreCeiling || null
+            },
+            metadata: {
+              gate_source: "L34-quality_gates",
+              verification_timestamp: new Date().toISOString()
+            }
+          };
+          
+          try {
+            const gateVerifyRes = await writeVerificationRecord(
+              projectIdForSync,
+              { ...trustDataForSync, gate_evaluation: gateResult }
+            );
+            if (gateVerifyRes.ok) {
+              console.log(`[GATE] Evaluation recorded to L45: ${gateResult.evaluation}`);
+            }
+          } catch (e) {
+            console.log(`[WARN] Failed to record gate evaluation: ${e.message}`);
+          }
+        }
       }
     } catch (e) {
       console.log(`[WARN] Data model sync failed (non-fatal): ${e.message}`);

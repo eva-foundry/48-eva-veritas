@@ -168,12 +168,44 @@ async function discover(opts) {
 
   console.log(`[INFO] Evidence: ${Object.keys(commitMap).length} from commits, ${Object.keys(prMap).length} from PRs, ${Object.keys(filenameEvidenceMap).length} from filenames`);
 
+  // ── COMPONENT 1: Quality Gates Discovery (L34 integration) ──
+  const { getQualityGates } = require("./lib/data-model-client");
+  let qualityGates = [];
+  let effectiveMtiThreshold = 70; // fallback
+  try {
+    if (useApi && apiBase) {
+      const gatesRes = await getQualityGates(projectId, apiBase);
+      if (gatesRes.ok && gatesRes.data && gatesRes.data.length > 0) {
+        const mtiGates = gatesRes.data.filter(g => g.status === "active" && g.gate_metric === "mti_score");
+        if (mtiGates.length > 0) {
+          qualityGates = mtiGates.map(g => ({
+            id: g.id,
+            threshold: g.threshold,
+            applies_to: g.applies_to || [],
+            custom_weights: g.custom_weights || null,
+            minimum_allowed_mti: g.minimum_allowed_mti || null,
+            maximum_allowed_mti: g.maximum_allowed_mti || null
+          }));
+          effectiveMtiThreshold = mtiGates[0].threshold;
+          console.log(`[GATE] Detected ${qualityGates.length} active MTI gate(s), threshold=${effectiveMtiThreshold}`);
+        }
+      }
+    }
+  } catch (e) {
+    console.log(`[WARN] Quality gates query failed (non-fatal): ${e.message}`);
+  }
+
   const discovery = {
     meta: {
       schema: "eva.discovery.v3",
       generated_at: new Date().toISOString(),
       repo: repoPath,
-      governance_source: governanceSource
+      governance_source: governanceSource,
+      quality_gates: {
+        detected_count: qualityGates.length,
+        gates: qualityGates,
+        effective_mti_threshold: effectiveMtiThreshold
+      }
     },
     project: projectYaml?.project || projectYaml || null,
     planned: {

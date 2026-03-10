@@ -15,7 +15,11 @@ function clamp(n, min, max) {
 //
 // Enhancement 3 (v2.7 - March 2, 2026): Added field_population component to enforce
 // WBS metadata quality (sprint, assignee, ado_id population).
-function computeTrustScore(recon, enrichment = null, fieldPopulation = null) {
+//
+// Enhancement 4 (Session 42 - L34 Quality Gates): Added gateOptions parameter to support
+// per-project adaptive weighting (customWeights from L34) and bounds enforcement (scoreFloor/scoreCeiling).
+// This enables data-driven MTI thresholds and formula weighting per project.
+function computeTrustScore(recon, enrichment = null, fieldPopulation = null, gateOptions = null) {
   const totalStories = recon?.coverage?.stories_total ?? 0;
   if (totalStories === 0) {
     return { score: 0, components: {}, ungoverned: true };
@@ -61,8 +65,23 @@ function computeTrustScore(recon, enrichment = null, fieldPopulation = null) {
 
   let score;
   let formula;
+  let gateAdjustmentApplied = false;
   
-  if (hasComplexity && hasFieldPopulation) {
+  // ── COMPONENT 2B: Apply custom weights from quality gates (L34) ──
+  const weights = gateOptions?.customWeights || null;
+  
+  if (weights) {
+    // Custom weights from gate (per-project override)
+    score = (
+      coverage            * (weights.coverage || 0.35) +
+      evidenceCompleteness * (weights.evidence || 0.20) +
+      consistencyScore    * (weights.consistency || 0.25) +
+      complexityCoverage  * (weights.complexity || 0.10) +
+      fieldPopulationScore * (weights.field_population || 0.10)
+    ) * 100;
+    formula = 'custom-gate-weights';
+    gateAdjustmentApplied = true;
+  } else if (hasComplexity && hasFieldPopulation) {
     // 5-component formula (weights sum to 1.00)
     score = (
       coverage            * 0.35 +
@@ -100,6 +119,16 @@ function computeTrustScore(recon, enrichment = null, fieldPopulation = null) {
     ) * 100;
     formula = '3-component-fallback';
   }
+  
+  // ── COMPONENT 2C: Apply bounds from quality gates (L34) ──
+  if (gateOptions?.scoreFloor && score < gateOptions.scoreFloor) {
+    score = gateOptions.scoreFloor;
+    gateAdjustmentApplied = true;
+  }
+  if (gateOptions?.scoreCeiling && score > gateOptions.scoreCeiling) {
+    score = gateOptions.scoreCeiling;
+    gateAdjustmentApplied = true;
+  }
 
   return {
     score: Math.round(score),
@@ -110,6 +139,7 @@ function computeTrustScore(recon, enrichment = null, fieldPopulation = null) {
       complexityCoverage:   round2(complexityCoverage),
       fieldPopulationScore: round2(fieldPopulationScore),
       formula,
+      gate_adjustment_applied: gateAdjustmentApplied
     },
     ungoverned: false,
   };

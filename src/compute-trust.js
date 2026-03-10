@@ -30,6 +30,13 @@ async function computeTrust(opts) {
     console.log(`[INFO] Enrichment loaded: ${enrichment.annotated_count || 0} stories annotated`);
   }
 
+  // Extract gate options (from COMPONENT 2: Gate-Driven Weighting)
+  const gateOptions = opts.gateWeights ? {
+    customWeights: opts.gateWeights,
+    scoreFloor: opts.scoreFloor,
+    scoreCeiling: opts.scoreCeiling
+  } : null;
+
   // Enhancement 3 (v2.7 - March 2, 2026): Fetch field population score from data model
   // This is the 5th component of MTI calculation
   let fieldPopulationScore = null;
@@ -62,7 +69,7 @@ async function computeTrust(opts) {
     try { fs.copyFileSync(outPath, prevPath); } catch (_) { /* non-fatal */ }
   }
 
-  const { score, components } = computeTrustScore(recon, enrichment, fieldPopulationScore);
+  const { score, components } = computeTrustScore(recon, enrichment, fieldPopulationScore, gateOptions);
   const actions = trustToActions(score);
 
   // VP-A6: trust-history ring buffer (last 10 runs) + sparkline
