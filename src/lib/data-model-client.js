@@ -18,7 +18,8 @@ const DEFAULT_API_BASE =
   process.env.EVA_API_BASE ||
   "https://msub-eva-data-model.victoriousgrass-30debbd3.canadacentral.azurecontainerapps.io";
 
-const TIMEOUT_MS = 10000;
+// Cloud HTTPS endpoint timeout: 30s (critical for data safety, ensures completion before abort)
+const TIMEOUT_MS = 30000;
 
 /**
  * Fetch with timeout and error handling
