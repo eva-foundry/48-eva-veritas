@@ -22,7 +22,8 @@ const { scanRepo } = require("./lib/scan-repo");
 const { mapArtifactsToStories } = require("./lib/map-artifacts");
 const { mineCommits, minePRs, mergeEvidenceMaps } = require("./lib/evidence");
 const { parseCodeStructure, shouldEnrich } = require("./lib/code-parser");
-const { fetchGovernanceFromApi, isApiReachable } = require("./lib/data-model-client");
+const { fetchGovernanceFromApi, isApiReachable, GovernanceApiError } = require("./lib/data-model-client");
+const { isDegradedModeAllowed } = require("./lib/governance-error");
 
 async function discover(opts) {
   const repoPath = path.resolve(opts.repo || process.cwd());
@@ -31,100 +32,74 @@ async function discover(opts) {
 
   console.log(`[INFO] Discovering: ${repoPath}`);
 
-  // ── Data source resolution: API-first with filesystem fallback ──
+  // ── Governance Source: API-ONLY (FAIL-CLOSED) ──
+  // Per Project 37 precedent and Session 42 blocker: no disk fallback, API is source of truth
   const projectId = path.basename(repoPath);
   const apiBase = opts.apiBase || process.env.EVA_API_BASE || undefined;
-  const useApi = opts.source !== "disk"; // default: try API first
+
+  // Check if degraded mode is explicitly allowed (dev/troubleshooting only)
+  const allowDegraded = isDegradedModeAllowed(opts);
 
   let plan, acceptance, status, epic, projectYaml, governanceSource;
 
-  if (useApi) {
+  // ── API-First (Required) ──
+  try {
+    console.log(`[INFO] Enforcing API-only governance: querying data model for ${projectId}`);
     const apiReachable = await isApiReachable(apiBase);
-    if (apiReachable) {
-      console.log(`[INFO] API-first mode: querying data model for ${projectId}`);
-      const gov = await fetchGovernanceFromApi(projectId, apiBase);
+    if (!apiReachable) {
+      throw new GovernanceApiError(
+        `Data model API unreachable at ${apiBase}`,
+        {
+          operation: "discover_api_health_check",
+          endpoint: `${apiBase}/health`,
+          policy: "fail_closed"
+        }
+      );
+    }
 
-      if (gov.plan && gov.plan.features.length > 0) {
-        plan = gov.plan;
-        status = gov.status || { declared: {}, source: "data-model-api" };
-        acceptance = gov.acceptance || { criteria: [] };
-        epic = gov.epic || { title: projectId, source: "data-model-api" };
-        projectYaml = null;
-        governanceSource = "data-model-api";
-        console.log(`[INFO] Governance from API: ${plan.features.length} features from ${gov.wbs.length} WBS records`);
-      } else {
-        console.log(`[INFO] API returned empty WBS for ${projectId} — falling back to disk`);
-        governanceSource = "disk-fallback";
+    const gov = await fetchGovernanceFromApi(projectId, apiBase);
+    if (!gov.plan || gov.plan.features.length === 0) {
+      // API returned but no WBS data — this is a data integrity issue, fail closed
+      throw new GovernanceApiError(
+        `No WBS records found for project ${projectId} in data model`,
+        {
+          operation: "discover_fetch_governance",
+          endpoint: `${apiBase}/model/wbs/`,
+          policy: "fail_closed"
+        }
+      );
+    }
+
+    plan = gov.plan;
+    status = gov.status || { declared: {}, source: "data-model-api" };
+    acceptance = gov.acceptance || { criteria: [] };
+    epic = gov.epic || { title: projectId, source: "data-model-api" };
+    projectYaml = null;
+    governanceSource = "data-model-api";
+    console.log(`[PASS] Governance from API: ${plan.features.length} features from ${gov.wbs.length} WBS records`);
+
+  } catch (err) {
+    // API-only mode: any API error is fatal
+    if (err instanceof GovernanceApiError) {
+      throw err; // Re-throw governance errors as-is
+    }
+    // Wrap other errors
+    throw new GovernanceApiError(
+      `Governance discovery failed: ${err.message}`,
+      {
+        operation: "discover_governance",
+        endpoint: apiBase,
+        originalError: err.message,
+        policy: "fail_closed"
       }
-    } else {
-      console.log(`[INFO] API unreachable — falling back to disk`);
-      governanceSource = "disk-fallback";
-    }
-  } else {
-    governanceSource = "disk";
+    );
   }
 
-  // ── Filesystem fallback (original behavior) ──
-  if (!governanceSource || governanceSource.includes("disk")) {
-    projectYaml = parseProjectYaml(repoPath);
-    epic = parseEpicFromReadme(repoPath);
-
-  // Prefer .eva/veritas-plan.json (agent-generated) over raw PLAN.md parsing
-  const veritasPlanPath = path.join(repoPath, ".eva", "veritas-plan.json");
-  if (fs.existsSync(veritasPlanPath)) {
-    try {
-      const vp = JSON.parse(fs.readFileSync(veritasPlanPath, "utf8"));
-      // Flatten nested features[].stories[] into flat features[] + stories[]
-      const features = (vp.features || []).map((f) => ({
-        id: f.id,
-        title: f.title,
-        source: "veritas-plan.json",
-      }));
-      const stories = (vp.features || []).flatMap((f) =>
-        (f.stories || []).map((s) => ({
-          id: s.id,
-          title: s.title,
-          feature_id: f.id,
-          done: s.done,
-          source: "veritas-plan.json",
-        }))
-      ).concat(
-        (vp._orphan_stories || []).map((s) => ({ ...s, source: "veritas-plan.json" }))
-      );
-      // Extract tasks (not scored, but used for ADO CSV)
-      const planTasks = (vp.features || []).flatMap((f) =>
-        (f.stories || []).flatMap((s) =>
-          (s.tasks || []).map((t) => ({
-            id: t.id,
-            title: t.title,
-            story_id: s.id,
-            feature_id: f.id,
-            done: t.done,
-            source: "veritas-plan.json",
-          }))
-        )
-      ).concat(
-        (vp._orphan_tasks || []).map((t) => ({ ...t, source: "veritas-plan.json" }))
-      );
-      plan = { features, stories, tasks: planTasks, _source: "veritas-plan.json", _format: vp.format_detected };
-      console.log(`[INFO] Using veritas-plan.json (format: ${vp.format_detected || "unknown"}, ${stories.length} stories, ${planTasks.length} tasks)`);
-    } catch (e) {
-      console.log(`[WARN] veritas-plan.json parse error: ${e.message} — falling back to PLAN.md`);
-      plan = parsePlan(repoPath);
-    }
-  } else {
-    plan = parsePlan(repoPath);
-  }
-
-    acceptance = parseAcceptance(repoPath);
-    status = parseStatus(repoPath);
-    governanceSource = governanceSource || "disk";
-  } // end filesystem fallback block
-
-  console.log(`[INFO] Governance source: ${governanceSource}`);
-  console.log(`[INFO] Planned: ${plan.features.length} features, ${plan.stories.length} stories`);
-
+  // ── Scan Artifacts (local, always succeeds) ──
   const actual = await scanRepo(repoPath);
+
+  console.log(`[INFO] Governance source: ${governanceSource} (API-only, fail-closed)`);
+  console.log(`[INFO] Planned: ${plan.features.length} features, ${plan.stories.length} stories`);
 
   // -- Code complexity analysis (wires dead code-parser into the pipeline) ----
   let code_complexity = null;
@@ -168,31 +143,50 @@ async function discover(opts) {
 
   console.log(`[INFO] Evidence: ${Object.keys(commitMap).length} from commits, ${Object.keys(prMap).length} from PRs, ${Object.keys(filenameEvidenceMap).length} from filenames`);
 
-  // ── COMPONENT 1: Quality Gates Discovery (L34 integration) ──
+  // ── COMPONENT 1: Quality Gates Discovery (L34 integration - FAIL-CLOSED) ──
   const { getQualityGates } = require("./lib/data-model-client");
   let qualityGates = [];
-  let effectiveMtiThreshold = 70; // fallback
+  let effectiveMtiThreshold = 70; // fallback (used if no gates defined)
   try {
-    if (useApi && apiBase) {
-      const gatesRes = await getQualityGates(projectId, apiBase);
-      if (gatesRes.ok && gatesRes.data && gatesRes.data.length > 0) {
-        const mtiGates = gatesRes.data.filter(g => g.status === "active" && g.gate_metric === "mti_score");
-        if (mtiGates.length > 0) {
-          qualityGates = mtiGates.map(g => ({
-            id: g.id,
-            threshold: g.threshold,
-            applies_to: g.applies_to || [],
-            custom_weights: g.custom_weights || null,
-            minimum_allowed_mti: g.minimum_allowed_mti || null,
-            maximum_allowed_mti: g.maximum_allowed_mti || null
-          }));
-          effectiveMtiThreshold = mtiGates[0].threshold;
-          console.log(`[GATE] Detected ${qualityGates.length} active MTI gate(s), threshold=${effectiveMtiThreshold}`);
+    const gatesRes = await getQualityGates(projectId, apiBase);
+    if (!gatesRes.ok) {
+      throw new GovernanceApiError(
+        `Cannot query quality gates: ${gatesRes.error}`,
+        {
+          operation: "discover_quality_gates",
+          endpoint: `${apiBase}/model/quality_gates/`,
+          policy: "fail_closed"
         }
+      );
+    }
+    if (gatesRes.data && gatesRes.data.length > 0) {
+      const mtiGates = gatesRes.data.filter(g => g.status === "active" && g.gate_metric === "mti_score");
+      if (mtiGates.length > 0) {
+        qualityGates = mtiGates.map(g => ({
+          id: g.id,
+          threshold: g.threshold,
+          applies_to: g.applies_to || [],
+          custom_weights: g.custom_weights || null,
+          minimum_allowed_mti: g.minimum_allowed_mti || null,
+          maximum_allowed_mti: g.maximum_allowed_mti || null
+        }));
+        effectiveMtiThreshold = mtiGates[0].threshold;
+        console.log(`[GATE] Detected ${qualityGates.length} active MTI gate(s), threshold=${effectiveMtiThreshold}`);
       }
     }
-  } catch (e) {
-    console.log(`[WARN] Quality gates query failed (non-fatal): ${e.message}`);
+  } catch (err) {
+    if (err instanceof GovernanceApiError) {
+      throw err;
+    }
+    throw new GovernanceApiError(
+      `Quality gates query failed: ${err.message}`,
+      {
+        operation: "discover_quality_gates",
+        endpoint: apiBase,
+        originalError: err.message,
+        policy: "fail_closed"
+      }
+    );
   }
 
   const discovery = {

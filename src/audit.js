@@ -19,7 +19,8 @@ const { computeTrust } = require("./compute-trust");
 const { report } = require("./report");
 const { loadConfig } = require("./lib/config");
 const { checkWbsQualityGates } = require("./lib/wbs-quality-gates");
-const { writeTrustScore, writeVerificationRecord, isApiReachable, getQualityGates } = require("./lib/data-model-client");
+const { writeTrustScore, writeVerificationRecord, isApiReachable, getQualityGates, GovernanceApiError } = require("./lib/data-model-client");
+const { isDegradedModeAllowed } = require("./lib/governance-error");
 
 /**
  * Combined audit: discover + reconcile + compute-trust + report in one shot.
@@ -113,59 +114,123 @@ async function audit(opts) {
   await computeTrust(trustOpts);
   await report(opts);
 
-  // ── Write audit results back to data model (paperless governance) ──
+  // ── Write audit results back to data model (FAIL-CLOSED) ──
+  // Governance API-only policy: write-back must succeed or audit FAILS
   const repoPathForSync = path.resolve(opts.repo || process.cwd());
   const projectIdForSync = path.basename(repoPathForSync);
-  if (opts.source !== "disk") {
-    try {
-      const trustDataForSync = JSON.parse(
-        fs.readFileSync(path.join(repoPathForSync, ".eva", "trust.json"), "utf8")
-      );
-      const apiReachable = await isApiReachable();
-      if (apiReachable) {
-        const [trustRes, verifyRes] = await Promise.all([
-          writeTrustScore(projectIdForSync, trustDataForSync),
-          writeVerificationRecord(projectIdForSync, trustDataForSync),
-        ]);
-        if (trustRes.ok) console.log(`[SYNC] MTI score written to data model: project_work/${projectIdForSync}`);
-        if (verifyRes.ok) console.log(`[SYNC] Verification record written to data model`);
-
-        // ── COMPONENT 3: Gate Evaluation Verification Recording (L34→L45) ──
-        if (activeGate && trustDataForSync.score !== undefined) {
-          const gateResult = {
-            gate_id: activeGate.id,
-            gate_name: activeGate.gate_name || "MTI Threshold",
-            threshold: activeGate.threshold,
-            effective_score: trustDataForSync.score,
-            evaluation: trustDataForSync.score >= activeGate.threshold ? "PASS" : 
-                        trustDataForSync.score >= (activeGate.threshold - 5) ? "WARN" : "FAIL",
-            weights_applied: trustOpts.gateWeights ? "custom" : "default",
-            bounds_applied: {
-              floor: trustOpts.scoreFloor || null,
-              ceiling: trustOpts.scoreCeiling || null
-            },
-            metadata: {
-              gate_source: "L34-quality_gates",
-              verification_timestamp: new Date().toISOString()
-            }
-          };
-          
-          try {
-            const gateVerifyRes = await writeVerificationRecord(
-              projectIdForSync,
-              { ...trustDataForSync, gate_evaluation: gateResult }
-            );
-            if (gateVerifyRes.ok) {
-              console.log(`[GATE] Evaluation recorded to L45: ${gateResult.evaluation}`);
-            }
-          } catch (e) {
-            console.log(`[WARN] Failed to record gate evaluation: ${e.message}`);
-          }
+  
+  try {
+    const trustDataForSync = JSON.parse(
+      fs.readFileSync(path.join(repoPathForSync, ".eva", "trust.json"), "utf8")
+    );
+    
+    // Check API reachability first  
+    const apiReachable = await isApiReachable(opts.apiBase);
+    if (!apiReachable) {
+      throw new GovernanceApiError(
+        `Data model API unreachable — cannot persist audit results`,
+        {
+          operation: "audit_write_back",
+          endpoint: opts.apiBase,
+          policy: "fail_closed"
         }
-      }
-    } catch (e) {
-      console.log(`[WARN] Data model sync failed (non-fatal): ${e.message}`);
+      );
     }
+    
+    // Write MTI score + verification record in parallel
+    const [trustRes, verifyRes] = await Promise.all([
+      writeTrustScore(projectIdForSync, trustDataForSync, opts.apiBase),
+      writeVerificationRecord(projectIdForSync, trustDataForSync, opts.apiBase),
+    ]);
+    
+    if (!trustRes.ok) {
+      throw new GovernanceApiError(
+        `Failed to write MTI score to L34: ${trustRes.error}`,
+        {
+          operation: "audit_write_trust_score",
+          endpoint: `${opts.apiBase}/model/project_work/${projectIdForSync}`,
+          httpStatus: trustRes.status,
+          policy: "fail_closed"
+        }
+      );
+    }
+    if (!verifyRes.ok) {
+      throw new GovernanceApiError(
+        `Failed to write verification record to L45: ${verifyRes.error}`,
+        {
+          operation: "audit_write_verification",
+          endpoint: `${opts.apiBase}/model/verification_records/`,
+          httpStatus: verifyRes.status,
+          policy: "fail_closed"
+        }
+      );
+    }
+    
+    console.log(`[SYNC] MTI score written to data model: project_work/${projectIdForSync}`);
+    console.log(`[SYNC] Verification record written to data model`);
+
+    // ── COMPONENT 3: Gate Evaluation Verification Recording (L34→L45, FAIL-CLOSED) ──
+    if (activeGate && trustDataForSync.score !== undefined) {
+      const gateResult = {
+        gate_id: activeGate.id,
+        gate_name: activeGate.gate_name || "MTI Threshold",
+        threshold: activeGate.threshold,
+        effective_score: trustDataForSync.score,
+        evaluation: trustDataForSync.score >= activeGate.threshold ? "PASS" : 
+                    trustDataForSync.score >= (activeGate.threshold - 5) ? "WARN" : "FAIL",
+        weights_applied: trustOpts.gateWeights ? "custom" : "default",
+        bounds_applied: {
+          floor: trustOpts.scoreFloor || null,
+          ceiling: trustOpts.scoreCeiling || null
+        },
+        metadata: {
+          gate_source: "L34-quality_gates",
+          verification_timestamp: new Date().toISOString()
+        }
+      };
+      
+      try {
+        const gateVerifyRes = await writeVerificationRecord(
+          projectIdForSync,
+          { ...trustDataForSync, gate_evaluation: gateResult },
+          opts.apiBase
+        );
+        if (!gateVerifyRes.ok) {
+          throw new GovernanceApiError(
+            `Failed to record gate evaluation: ${gateVerifyRes.error}`,
+            {
+              operation: "audit_gate_evaluation",
+              endpoint: `${opts.apiBase}/model/verification_records/`,
+              httpStatus: gateVerifyRes.status,
+              policy: "fail_closed"
+            }
+          );
+        }
+        console.log(`[GATE] Evaluation recorded to L45: ${gateResult.evaluation}`);
+      } catch (e) {
+        throw new GovernanceApiError(
+          `Gate evaluation failed: ${e.message}`,
+          {
+            operation: "audit_gate_evaluation",
+            originalError: e.message,
+            policy: "fail_closed"
+          }
+        );
+      }
+    }
+  } catch (err) {
+    if (err instanceof GovernanceApiError) {
+      console.error(`[FATAL] ${err.message}`);
+      throw err;
+    }
+    throw new GovernanceApiError(
+      `Audit write-back failed: ${err.message}`,
+      {
+        operation: "audit_write_back",
+        originalError: err.message,
+        policy: "fail_closed"
+      }
+    );
   }
 
   // VP-E3: exit code semantics

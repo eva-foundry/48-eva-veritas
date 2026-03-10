@@ -21,6 +21,8 @@ const DEFAULT_API_BASE =
 // Cloud HTTPS endpoint timeout: 30s (critical for data safety, ensures completion before abort)
 const TIMEOUT_MS = 30000;
 
+const { GovernanceApiError } = require("./governance-error");
+
 /**
  * Fetch with timeout and error handling
  */
@@ -50,6 +52,28 @@ async function apiFetch(url, options = {}) {
     clearTimeout(timer);
     return { ok: false, status: 0, error: err.message, data: null };
   }
+}
+
+/**
+ * Fail-closed wrapper for API calls (governance policy)
+ * Throws GovernanceApiError if result is not ok
+ */
+async function apiFetchFailClosed(url, operation, options = {}) {
+  const result = await apiFetch(url, options);
+  if (!result.ok) {
+    throw new GovernanceApiError(
+      `API call failed: ${result.error}`,
+      {
+        operation,
+        endpoint: url,
+        timeout: TIMEOUT_MS,
+        httpStatus: result.status,
+        originalError: result.error,
+        policy: "fail_closed"
+      }
+    );
+  }
+  return result;
 }
 
 // ── Query helpers ────────────────────────────────────────────────────────────
@@ -338,7 +362,9 @@ async function fetchGovernanceFromApi(projectId, apiBase = DEFAULT_API_BASE) {
 
 module.exports = {
   DEFAULT_API_BASE,
+  GovernanceApiError,
   isApiReachable,
+  apiFetchFailClosed,
   getProject,
   getProjectWbs,
   getProjectSprints,
