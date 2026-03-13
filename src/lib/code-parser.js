@@ -106,7 +106,7 @@ function shouldEnrich(storyCount, fileCount) {
  * @returns {{ features: object[], stories: object[] }}
  */
 async function parseCodeStructure(repoPath, prefix = "CS") {
-  prefix = prefix.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6) || "CS";
+  prefix = String(prefix || "CS").toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6) || "CS";
 
   const featureMap = new Map(); // domain → feature object
   const stories = [];
